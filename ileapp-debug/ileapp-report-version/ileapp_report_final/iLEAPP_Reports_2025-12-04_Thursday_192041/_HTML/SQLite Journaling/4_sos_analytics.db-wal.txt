@@ -1,0 +1,210 @@
+W:y!Z
+W:c`SQLite format 3
+.S`
+
+W:+rOgSQLite format 3
+
+
+$P6
+			
+#tablesuccess_countsuccess_count
+CREATE TABLE success_count (
+event_type STRING PRIMARY KEY,
+success_count INTEGER,
+hard_failure_count INTEGER,
+soft_failure_count INTEGER
+)9
+
+indexsqlite_autoindex_success_count_1success_count3
+triggermaintain_ring_buffer_samples_v2samplesCREATE TRIGGER maintain_ring_buffer_samples_v2 AFTER INSERT ON samples
+BEGIN
+DELETE FROM samples WHERE id <= NEW.id - 1000;
+END
+Ytablesamplessamples	CREATE TABLE samples (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,
+name STRING,
+value REAL
+))	
+triggermaintain_ring_buffer_notes_v2notesCREATE TRIGGER maintain_ring_buffer_notes_v2 AFTER INSERT ON notes
+BEGIN
+DELETE FROM notes WHERE id <= NEW.id - 1000;
+ENDl
+7tablenotesnotes
+CREATE TABLE notes (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_soft_failures_v2soft_failuresCREATE TRIGGER maintain_ring_buffer_soft_failures_v2 AFTER INSERT ON soft_failures
+BEGIN
+DELETE FROM soft_failures WHERE id <= NEW.id - 1000;
+END
+Gtablesoft_failuressoft_failures
+CREATE TABLE soft_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_hard_failures_v2hard_failuresCREATE TRIGGER maintain_ring_buffer_hard_failures_v2 AFTER INSERT ON hard_failures
+BEGIN
+DELETE FROM hard_failures WHERE id <= NEW.id - 1000;
+ENDP
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Gtablehard_failureshard_failures
+CREATE TABLE hard_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+-Created663201654.742172
+W:9`
+
+	Created
+[Si!
+
+W:lT
+
+X\C
+
+W:#08
+
+W:Z)h
+
+'
+SchemaVersionE3BB7685C22335A3E3FC481B0D59A4F1B2F34031517BC31154745553BEA9C175
+W:i f;3L
+
+SchemaVersion
+W:j3b
+
+SOSInitialized
+)	SOSInitialized
+W:6N^^:#
+
+W:aNH
+
+>\T
+
+W:O-_[
+
+W:R\SY
+
+W:=
+W:l\xw
+W:!m3
+GhostBust
+W:lq1S
+W:h
+	samples
+]CKDKVS-synchronize
+W:yy*
+samples
+W:&|bW
+sCKDKVS-totalWaittimeSynchronize
+W:o.
+
+_X!TM
+
+;CKDKVS-synchronizeWithCompletionHandler,
+W:R6[
+
+CKDKVS-longestWaittimeSynchronize4
+B"k
+
+
+CKDKVS-synchronizeFailures.
+W:e|V4)
+
+CKDKVS-incomingMessages'
+CKDKVS-outgoingMessages$
+\&?
+
+W::`ABg
+W:EV
+i
+
+SOSInitialized	
+W:im
+W:f
+W:	
+}qlF
+
+HQCKDKVS-synchronize
+W:zlV
+
+;CKDKVS-synchronizeWithCompletionHandler
+samples	
+W:,7T
+
+;CKDKVS-synchronizeWithCompletionHandler,	
+zCKDKVS-totalWaittimeSynchronize
+W:i
+CKDKVS-longestWaittimeSynchronize
+W:!I"z
+samples
+
+W:M2
+CKDKVS-longestWaittimeSynchronize4
+
+H"CKDKVS-synchronizeWithCompletionHandler,	
+W:"=od-
+
+CKDKVS-synchronizeFailures
+samples
+W:\
+CKDKVS-synchronizeFailures.
+H+CKDKVS-longestWaittimeSynchronize4
+
+Zgu
+
+CKDKVS-incomingMessages
+samples
+CKDKVS-incomingMessages'
+HNCKDKVS-synchronizeFailures.
+CKDKVS-outgoingMessages
+W:RF;
+
+CKDKVS-outgoingMessages$
+
+H
+CKDKVS-incomingMessages'
+-pp
+
+H8CKDKVS-outgoingMessages$
+
+VFi
+
+GhostBust
+
+W:G>
+
+GhostBust
+W: Z
+GhostBust
+W:}p*
+
+W:~Sr?4
+
+W:\?HH
+SOSInitialized
+
+W:3,8)
+W:$&L
+SOSInitialized
+u?g
+
+SOSInitialized
+W:x
+
+H#
+
+W:2U
+W:cL
+W:ezW*
+
+W: iA

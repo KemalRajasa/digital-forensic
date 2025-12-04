@@ -1,0 +1,2051 @@
+$]F-1
+D7v^	
+$]F-1OA
+soft_failures
+samples
+hard_failures
+$]F-1HP;t
+
+ATSConnectionExceptionEvent
+SystemRootUsageEvent
+MitmDetectionEvent
+PinningEvent 
+TrustEvaluationEventI
+TLSConnectionEvent#
+$]F-1[
+PinningEvent
+TrustEvaluationEvent
+TLSConnectionEvent
+A$]F-1
+X
+=	
+&bplist00
+	
+
+
+YeventTimeUbuildWproduct\overallScoreYeventType_
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwvi%V19A404YiPhone OS
+ZuserAnchor[pinningMitmUscoreZnumDomainsYpriorMitm
+MITMErrorDomain
+ZiPhone10,1
+bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bws`
+QV19A404YiPhone OS
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw
+V19A404YiPhone OS
+!%)-159=AEI
+Abplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw(2V19A404YiPhone OS
+VSzbplist00
+)/7DNcnz
+Dxbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw<V19A404YiPhone OS
+!%)-159=
+pbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwX#V19A404YiPhone OS
+^>Fbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwQsV19A404YiPhone OS
+$]F-15OGS&SQLite format 3
+.S`
+
+
+
+$P6
+			
+#tablesuccess_countsuccess_count
+CREATE TABLE success_count (
+event_type STRING PRIMARY KEY,
+success_count INTEGER,
+hard_failure_count INTEGER,
+soft_failure_count INTEGER
+)9
+
+indexsqlite_autoindex_success_count_1success_count3
+triggermaintain_ring_buffer_samples_v2samplesCREATE TRIGGER maintain_ring_buffer_samples_v2 AFTER INSERT ON samples
+BEGIN
+DELETE FROM samples WHERE id <= NEW.id - 1000;
+END
+Ytablesamplessamples	CREATE TABLE samples (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,
+name STRING,
+value REAL
+))	
+triggermaintain_ring_buffer_notes_v2notesCREATE TRIGGER maintain_ring_buffer_notes_v2 AFTER INSERT ON notes
+BEGIN
+DELETE FROM notes WHERE id <= NEW.id - 1000;
+ENDl
+7tablenotesnotes
+CREATE TABLE notes (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_soft_failures_v2soft_failuresCREATE TRIGGER maintain_ring_buffer_soft_failures_v2 AFTER INSERT ON soft_failures
+BEGIN
+DELETE FROM soft_failures WHERE id <= NEW.id - 1000;
+END
+Gtablesoft_failuressoft_failures
+CREATE TABLE soft_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_hard_failures_v2hard_failuresCREATE TRIGGER maintain_ring_buffer_hard_failures_v2 AFTER INSERT ON hard_failures
+BEGIN
+DELETE FROM hard_failures WHERE id <= NEW.id - 1000;
+ENDP
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Gtablehard_failureshard_failures
+CREATE TABLE hard_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+$]F-1]
+$]F-1zP
+
+$]F-1w#
+$]F-1Q
+
+$]F-1s
+B$]F-1[
+
+;bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwyV19A404YiPhone OS
+$]F-1f
+K.3
+
+B$]F-1
+
+@IZbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw
+sV19A404YiPhone OS
+$]F-1B*q
+@{fX
+
+$]F-17
+B$]F-19}-KD
+
+Z
+)
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwIs
+$]F-1sNq
+$]F-1"{9@7
+
+$]F-1o
+B$]F-1%~N
+
+Z
+)
+
+
+ILbplist00
+$]F-1W~
+$]F-1en;?
+
+_H`D
+
+Z
+)
+	
+"bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw
+
+0	V19A404YiPhone OS
+$]F-1Cp
+$]F-1Y
+B$]F-1Mg#
+
+\&Tbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw
+
+3V19A404YiPhone OS
+$]F-1>O%|y
+PinningEvent!
+$]F-1^#	v_b
+
+B$]F-1
+
+
+v	>
+.bplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw
+
+4bSAMP_
+com.apple.appstored_
+ 5B677D9AE664C5D88508983ABFF4C3AC\PinningEvent
+V19A404YiPhone OSZiPhone10,1_
+!downloaddispatch.itunes.apple.com_
+$Apple Public EV Server RSA CA 2 - G1
+|bplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bwsu`YsslServer_
+com.apple.StatusKitAgent_
+ 6CB24EB562F1C2A3D745FA08AF2E51F6\PinningEvent
+init-p01md.apple.com_
+%Entrust Certification Authority - L1K
+/=bplist00
+ !"#Ubuild_
+NumberChainsBuiltVCaller[ValidStatusVPolicyYeventTypeWproduct[TrustResultXWeakHashYeventTime_
+NumberCertsInChain^EvaluationTime_
+MissingOCSPResponderWmodelid\AnchorSourceZeventClass_
+LeafIssuanceDate\LeafLifetimeV19A404
+TrustEvaluationEventYiPhone OS
+	#Bw*-"K(
+	ZiPhone10,1
+00bplist00
+NumberTrustedSCTsYeventType\AnchorSource]IsCTValidatedZeventClassZNumberSCTs_
+LeafIssuanceDateWmodelid[ValidStatus\LeafLifetimeVCaller[TrustResult_
+NumberCertsInChainZSCTSourcesYeventTime^AfterCTFlagDayUbuildVPolicyWproduct^EvaluationTimeZOCSPCached[OCSPStapled_
+NumberChainsBuilt
+#Bw1~{	V19A404YiPhone OS"J7	l		
+cbplist00
+!"#$%
+'$()
+LeafIssuanceDate_
+ValidOCSPTriggeredWmodelid[ValidStatus\LeafLifetimeVCaller[TrustResult_
+NumberCertsInChainZSCTSourcesYeventTime^AfterCTFlagDayUbuildVPolicyWproduct^EvaluationTimeZOCSPCached_
+#Bw.
+	V19A404YiPhone OS"JO
+ !"#!$%
+#Bw)L
+M	V19A404YiPhone OS"J+Ql	
+$]F-1/4SQLite format 3
+$]F-1g,k
+$]F-13n2
+$]F-1&BUOTk%
+
+TLSConnectionEvent$
+$]F-1'
+
+C$]F-1M|
+8?bplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@?B@DE@GH@@@LMNMO@M@R?DTU@W??Z[\D]@M@@a?c?Me?g@@jkMl?@@@\q@@t_
+cert_compression_enabled_
+cert_compression_used_
+challenge_block_used]connection_idXpsk_used[async_calls^handshake_time_
+session_resumedYeventTimeYeventType_
+fallback_attempted_
+false_start_used_
+certificate_requested[min_version_
+ats_minimum_signature_algorithm[cipher_name_
+ats_minimum_ecdsa_key_size_
+peer_public_key_type\sct_received_
+ats_minimum_rsa_key_size_
+ticket_received^address_family_
+verify_block_usedZeventClass_
+outgoing_byte_count]handshake_rtt_
+session_renewed_
+experiment_identifier[client_mode\ocsp_enabledZgroup_name_
+configured_ciphersuites[max_version^ems_negotiatedUbuild_
+handshake_cancelled_
+cert_compression_algorithm_
+unknown_negotiated_protocol\ats_enforcedZbyte_countYalpn_used_
+incoming_byte_count^grease_enabled_
+handshake_timer_fires_
+ticket_lifetime[sct_enabledWproductXis_probeTdtls[read_stalls_
+signature_algorithm\write_stallsWprocess]ocsp_received^ticket_enabled_
+resumption_attempted^ticket_offeredWversion_
+negotiated_protocol_
+false_start_enabled^psk_configuredWmodelid	
+$F6CB10A9-B923-4C28-BC35-A2405B1FEDB2
+Secc
+Tnone		VX25519
+V19A404
+	YiPhone OS
+com.apple.trustd	
+Xhttp/1.1
+$]F-1eK
+
+TLSConnectionEvent%
+$]F-1XQp
+
+C$]F-1NzuX?
+
+81Bbplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@A?@DE@GH@@@LMNMO@M@R?DTU@W??Z[\D]@@M@a?cMd??g@@jkMl?@@@\q@@t_
+cert_compression_used]connection_id_
+challenge_block_usedXpsk_used[async_calls^handshake_time_
+unknown_negotiated_protocol_
+cert_compression_algorithm\ats_enforcedZbyte_countYalpn_used_
+incoming_byte_count_
+ticket_lifetime[sct_enabled^grease_enabledWproductXis_probeTdtls[read_stalls_
+$4AD4A6A2-F500-4D53-A3DA-5FE85C004723	
+Srsa
+		YiPhone OS
+com.apple.nsurlsessiond	
+$]F-1D
++SQLite format 3
+$]F-1"><
+$]F-16
+$]F-1rk
+TLSConnectionEvent&
+D$]F-1(DY
+
+<bplist00
+$39D9EB9C-D628-4EC4-A877-6D3B07C1B7AD	
+^com.apple.geod	
+$]F-1RH-D
+
+$]F-13o/
+TrustEvaluationEventJ
+D$]F-1+
+@bplist00
+ !"#
+*+,-.
+NumberTrustedSCTs_
+LeafIssuanceDate\AnchorSource]IsCTValidatedYeventTypeZNumberSCTsZeventClassWmodelid[ValidStatus\LeafLifetime[AppleDomainTIsEVVCaller[TrustResult_
+NumberCertsInChainZSCTSources\OptionallyEV^AfterCTFlagDayYeventTimeUbuildVPolicyWproduct^EvaluationTimeZOCSPCached[OCSPStapled_
+		#Bw
+	YiPhone OS"K8		
+49K
+
+$]F-1,d
+TrustEvaluationEventK
+$]F-1g5R
+
+D$]F-1l
+
+Qbplist00
+!"#ZeventClass_
+NumberChainsBuiltUbuildVCaller[ValidStatusVPolicyYeventTypeWproduct[TrustResultYeventTimeZOCSPCached_
+NumberCertsInChain^EvaluationTimeWmodelid^AfterCTFlagDay\AnchorSource_
+LeafIssuanceDate\LeafLifetime
+K}:	"L
+ZiPhone10,1	
+#Bw~Z@
+$]F-1kbb4
+
+TrustEvaluationEventL
+$]F-1i$7
+D$]F-1
+!bplist00
+ !ZeventClass_
+NumberChainsBuiltUbuildVCallerYeventTypeVPolicy[ValidStatusWproduct[TrustResultYeventTime_
+YiPhone OS
+("KE
+#Bwa
+skby
+
+$]F-1BFu
+
+PinningEvent"
+$]F-1D	|
+D$]F-1
+
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw
+}SIDS_
+com.apple.transparencyd_
+ 54A186555F9D261794C002DCEBE2C323\PinningEvent
+init-kt.apple.com_
+Apple Server Authentication CA
+$]F-1
+2W
+?vSQLite format 3
+$]F-1j
+b0H)
+
+$]F-1H
+TrustEvaluationEventM
+E$]F-1Y
+#$%ZeventClass_
+NumberChainsBuiltUbuildVCallerYeventTypeVPolicyWproduct[OCSPNoCheckYNoNetwork[TrustResultYeventTime_
+MissingOCSPResponderWmodelid^AfterCTFlagDay\AnchorSource_
+YiPhone OS		
+z*"J
+c,	ZiPhone10,1	
+#Bw|@
+$]F-1zP
+TrustEvaluationEventN
+$]F-1=
+E$]F-1
+Zw	V19A404YiPhone OS"K		
+$]F-193
+$]F-1nI
+TrustEvaluationEventO
+$]F-1Q	
+
+E$]F-1J)e
+!F9bplist00
+	V19A404YiPhone OS"KSU		
+$]F-1vdAj8
+TrustEvaluationEventP
+$]F-1|
+E$]F-1BK
+"J
+a\	ZiPhone10,1	
+$]F-1l>5
+
+E$]F-1b&|B
+
+I<V19A404YiPhone OS
+!%)-159=AEIMQ
+$]F-1)
+$]F-1?
+$]F-13S'QR
+
+E$]F-18
+
+<+^bplist00
+$V19A404YiPhone OS
+$]F-1Va:=
+
+
+$]F-1
+$]F-1_u4b/
+ bplist00
+$]F-1v6a
+\-	
+
+$]F-1$-BJ`/M
+
+E$]F-1-:7"m
+
+TV19A404YiPhone OS
+{Ym
+
+$]F-1pe
+TrustEvaluationEventQ
+$]F-1TP=`
+
+NumberChainsBuiltUbuildVCaller[ValidStatusVPolicyYeventTypeWproduct[TrustResultYeventTime_
+#Bw+q"K]?S	ZiPhone10,1	
+#BwM@
+$]F-1i
+$]F-1+!^:
+TrustEvaluationEventR
+=bplist00
+ !"# 
+$%&"")" +""%./0123
+"+[OCSPFetches_
+NumberTrustedSCTs\AnchorSource]IsCTValidatedYeventTypeZNumberSCTsZeventClassWmodelid[ValidStatus\LeafLifetime[OCSPNetworkTIsEVVCaller[AppleDomain[TrustResult_
+NumberCertsInChain^AfterCTFlagDay\OptionallyEVZSCTSources]OCSPFetchTimeYeventTimeUbuildVPolicyWproduct^EvaluationTimeZOCSPFailedZOCSPCached_
+TrustEvaluationEventZiPhone10,1
+#Bw<
+mV19A404
+	YiPhone OS"OAX	
+$]F-1r
+TrustEvaluationEventS
+tO7?bplist00
+#$%&'(
+![OCSPFetchesYeventType_
+LeafIssuanceDate\AnchorSourceZeventClass_
+ValidOCSPTriggeredWmodelid[ValidStatus\LeafLifetime[OCSPNetworkVCaller[TrustResult_
+NumberCertsInChain^AfterCTFlagDayYeventTimeUbuild]OCSPFetchTimeVPolicyWproduct^EvaluationTimeZOCSPFailed_
+TrustEvaluationEvent#Bw.
+	#Bwq;V19A404
+
+YiPhone OS"OnQ
+FSQLite format 3
+$]F-1@)
+$]F-1]{h
+)_h)'
+
+$]F-1K],0
+TLSConnectionEvent'
+$]F-1tRM
+F$]F-1_l+
+
+<3Tbplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@A@@DE@GH@@@LMNMO@M@R@DTU?W??Z[\D]@@M@a?cMd??g@@RjMk@?@@\p?@s_
+$03BB79DD-5A7A-48FD-8377-0FD6C95C1435
+T	Tnone		VX25519
+com.apple.assistantd
+Xhttp/1.1	
+$]F-1
+
+2m]
+
+$]F-15n|wW
+
+PinningEvent#
+$]F-1Zo
+F$]F-1 
+ebplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bwn
+-TSiri_
+com.apple.assistantd_
+ 7C590C1AA2CFC89304A62F24A3F9451D\PinningEvent
+guzzoni.apple.com_
+$Apple Public EV Server ECC CA 1 - G1
+bBI
+
+F$]F-1C;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HYEvaluationCompletedEventCount	
+$]F-1K\!
+F$]F-1_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Hl]OTAPKIAssetVersion
+$]F-1v{a*
+F$]F-1
+
+
+
+
+
+
+
+
+
+
+
+
+
+HrValidServer 
+F$]F-1FKv
+{
+
+
+
+
+
+
+
+
+
+
+
+HyNCTKillSwitch
+$]F-1&w
+
+F$]F-1R
+X
+
+
+
+
+
+
+
+
+
+
+HTLSConnectionEvent
+$]F-1k*c
+
+F$]F-14
+.
+
+
+
+
+
+
+
+
+
+SystemRootUsageEventCount
+$]F-1#%\,f
+
+F$]F-1uOQ?Qr
+
+
+
+
+
+
+
+
+
+
+HPinningEventCount
+$]F-1{
+
+
+
+
+
+
+
+
+TrustEvaluationEventCount
+z 
+$]F-18
+
+
+
+
+
+
+
+HGPinningDbVersionC(
+$]F-134
+F$]F-1rhu
+
+
+
+
+
+
+
+RevocationDbVersion
+F$]F-119#*{
+
+x
+
+
+
+
+Hs"OTAPKIAssetStaleness
+$]F-1#5
+Y
+
+
+
+H~TLSFailureEvent5$
+$]F-1AYLk
+
+F$]F-11cJ
+HjTrustFailureEventCount
+F$]F-1,L=
+
+H3ATSConnectionExceptionEvent##
+$]F-1X
+F$]F-1T
+Hduptime
+$]F-1%uQ
+
+$]F-1F#
+
+	ValidUpdateEvent
+$]F-1:XtQ-
+
+ValidUpdateEvent
+F$]F-1[d
+YeventTimeWproductUbuildYeventTypeZeventClass[errorDomainWmodelidYerrorCode#BwB#YiPhone OSV19A404_
+NSURLErrorDomainZiPhone10,1
+#+1;FRZdmw~
+SQLite format 3
+$]F-1_v
+$]F-1("nf
+
+G$]F-1NXy
+P?bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw^
+$]F-1jF"&
+
+G$]F-1
+}V19A404YiPhone OS
+$]F-1F
+$]F-1)S+.<
+
+G$]F-1,Y
+
+m*bplist00
+$]F-1fgqn
+
+PinningEvent$
+$]F-1+}|
+p
+JB
+eAbplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#BwhVVTMMCS_
+com.apple.bluetoothd_
+ 2B17598BC879D002E455EA75345B2E89\PinningEvent
+gateway.icloud.com_
+Apple IST CA 2 - G1
+$]F-1{:#SQLite format 3
+$]F-1N.6
+$]F-1
+/\g
+$]F-1$*6
+
+X
+!
+
+TLSConnectionEvent(
+$]F-1qiwgq
+
+H$]F-1Ep
+
+c
+ !"#$%&'()*+,-./0123456789:;<=>?@A?@DE@GH@@@LMNMO@M@R?DTU?W??Z[\D]@@M@a?cMd??g@@jkMl@@@@\q@@t_
+$C63CA7CF-8023-4679-A9C1-A7C876E1E9FA	
+#Bw+_
+2	Tnone		VX25519
+]com.apple.ind
+$]F-1IvFYy
+
+$]F-1f
+PinningEvent%
+$]F-1^7l`
+H$]F-1,
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw
+YsslServer_
+com.apple.trustd_
+ 08548D3941D01854DDED3BB56903718E\PinningEvent
+ocsp2.apple.com_
+"Apple Public Server ECC CA 12 - G1
+$]F-1Np'd
+
+$]F-1enVz
+
+PinningEvent&
+$]F-1Dn>
+
+H$]F-1W	 ]
+
+Hbplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#BwXApplePay_
+com.apple.coreidv.coreidvd_
+ 54B4E7779C81A4AF53D796625E54DD82\PinningEvent
+smp-device-content.apple.com_
+$]F-1d
+$]F-1~Y
+H$]F-1pc
+6]
+
+
+j
+h
+bplist00
+p[h
+
+H$]F-1W
+
+j
+h	7
+Z4bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw	
+$]F-1qk
+&U/
+
+$]F-1v/
+H$]F-1
+NLMB
+
+Jbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw0sV19A404YiPhone OS
+$]F-1>WYG
+
+$]F-1l
+
+$]F-1I
+
+X+R
+
+(Nbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw\V19A404YiPhone OS
+$]F-1lqB	b
+H$]F-1hkh
+GHbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw+V19A404YiPhone OS
+$]F-1
+Y:$
+
+$]F-1m
+$]F-1z
+3\)v
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw-+V19A404YiPhone OS
+$]F-1lz\xM
+
+$]F-1z
+
+$]F-1t
+H$]F-1y
+mV19A404YiPhone OS
+$]F-1h}?
+
+$]F-1
+%7
+
+H$]F-1`
+9P.
+
+1V19A404YiPhone OS
+$]F-1 {?dSQLite format 3
+$]F-1	d 2K#
+$]F-1L
+
+I$]F-1	 
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw7
+wV19A404YiPhone OS
+$]F-1xj
+$]F-1V,S#
+
+
+$]F-1qI
+I$]F-1
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwG
+C@V19A404YiPhone OS
+$]F-1W9x1g.
+
+$]F-1u
+Q,Y1
+
+k',bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwPA}V19A404YiPhone OS
+$]F-1AK6iA~
+
+$]F-1as
+f 
+
+I$]F-1C
+
+l
+
+sbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwy4V19A404YiPhone OS
+$]F-1iOu
+$]F-1'VfC
+I$]F-1 
+
+l
+	
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw=V19A404YiPhone OS
+,6BT
+
+$]F-1yuD
+
+
+I$]F-1Aa 
+
+X!bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw_MV19A404YiPhone OS
+$]F-1k
+$]F-10tE+
+
+I$]F-1
+ZfE
+
+d;V19A404YiPhone OS
+$]F-1FRy
+
+$]F-1C$
+#bplist00
+r9uV19A404YiPhone OS
+U-#!
+$]F-1u9u
+I$]F-1i30%
+
+
+s`bplist00
+"!V19A404YiPhone OS
+$]F-15-&m
+PinningEvent'
+I$]F-1B
+TSiri_
+$]F-1vY\
+PinningEvent(
+7vXbplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw?q)
+$]F-1J
+$]F-1#*/
+}B(f
+
+Pbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwHV19A404YiPhone OS
+$]F-1M
+
+hu
+
+{oph
+
+Px7bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwHGf
+$]F-12!O6SQLite format 3
+$]F-1S/gaq
+$]F-1Mm.
+$]F-1qs
+$]F-1" F0
+
+$]F-1aR
+J$]F-1
+VV}{
+
+Wbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwI3V19A404YiPhone OS
+$]F-1@
+$]F-10
+J$]F-1)
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwIEV19A404YiPhone OS
+BSz
+
+$]F-1P
+F8C
+
+J$]F-1+}
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwJJ
+$]F-13q
+$]F-135b
+$]F-1tt
+J$]F-1 l:
+'	
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwK
+$]F-1w{2a
+$]F-1R4Z
+$]F-1	|/()V
+
+	}+
+
+}bplist00
+lfV19A404YiPhone OS
+$]F-1V'I
+$]F-1Kx7r
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwK_
+$]F-1Kt!
+$]F-1?=
+$]F-1jM
+
+J$]F-1gky
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwL
+$]F-1}c
+$]F-1E
+$]F-1\
+J$]F-1}l_
+YO
+bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwQ8
+$]F-1bMG
+
+J$]F-1Y!1`
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwQ:0V19A404YiPhone OS
+$]F-1p5
+$]F-11aDnQ
+$]F-1mt%*
+
+J$]F-1F!
+	
+YU:_bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwQ=;
+;V19A404YiPhone OS
+ES&&
+
+$]F-1}'VI
+
+$]F-1u]
+
+J$]F-14"xx{
+YYxbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwQA
+$]F-1lk3
+5SQLite format 3
+$]F-1'?
+$]F-1"j~$jO
+
+$]F-1wX
+$]F-1$@
+$]F-1T@
+K$]F-1%TB
+~bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwQ\
+$]F-1&
+$]F-1h_V
+
+K$]F-1Y"
+"
+Bbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwQ=pV19A404YiPhone OS
+$]F-1:
+$]F-1o%BOT
+K$]F-1l
+Z-Kbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwR$;V19A404YiPhone OS
+$]F-12
+$]F-1g=
+K$]F-1[
+
+k
+
+ZHbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwR
+$]F-1>
+x:y
+
+$]F-1Lh
+
+K$]F-1[a>
+
+
+k
+	
+%Rbplist00
+$]F-1br-
+
+$]F-12e
+K$]F-1TRx
+
+[5bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwSnBkV19A404YiPhone OS
+$]F-1{g
+x)X
+
+$]F-1	
+K$]F-1
+]'bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwT
+SV19A404YiPhone OS
+t\u
+
+K$]F-1
+D&z9
+
+].Qbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwTV19A404YiPhone OS
+ut"
+ ,
+
+$]F-1!a
+RpP
+
+K$]F-1YU
+]hvbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwU
+YhUTSQLite format 3
+$]F-1=Y
+$]F-1D$i7"
+$]F-1O#
+z[96
+
+TLSConnectionEvent)
+L$]F-144k
+ !"#$%&'()*+,-./0123456789:;<=>?@A@@DE@GH@@@LMNMO@M@R@DTU@W??Z[\D]@@M@a?cMd??g@@RjMk@?@@\p?@s_
+$68030F99-A9BB-4BD4-A2B1-43D2A96D1702
+#BwV
+$]F-1_gY)
+L$]F-10		<F
+zbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwU{
+#V19A404YiPhone OS
+$]F-1'
+$]F-11E
+L$]F-1$EF
+] bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwU|+V19A404YiPhone OS
+(|q
+
+$]F-1v*
+L$]F-1
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwV A3iV19A404YiPhone OS
+&V'Y
+
+$]F-1PZ1s
+
+OTAPKIEvent
+`WT
+
+YeventTimeWproductUbuildYeventTypeZeventClass[errorDomainWmodelidYerrorCode#BwVcYiPhone OSV19A404[OTAPKIEvent
+MADownLoadResultZiPhone10,1
+$]F-1~=
+$]F-1IK_5
+
+$]F-1+7&
+
+M$]F-1~
+^iUbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwV
+V19A404YiPhone OS
+$]F-1Z
+$]F-1=TAe
+
+M$]F-1u(
+^abplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwV+zV19A404YiPhone OS
+$]F-1MB*5:
+$]F-1d1mlI
+
+$]F-1y5
+
+M$]F-1t|
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwWr
+gV19A404YiPhone OS
+$]F-1\UMdr
+
+$]F-1.
+`%g
+
+M$]F-1a
+
+k:
+_Vbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwW %V19A404YiPhone OS
+$]F-1:_cL
+
+$]F-1_	
+
+M$]F-1-
+
+k:
+
+`8bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwW-
+$]F-1!/uxv
+
+$]F-1E+\
+$]F-1 
+M$]F-1o9o
+`Sbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwXH
+$]F-1H0
+$]F-19<@
+
+$]F-1~Z
+M$]F-1(.L;
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwXR
+zV19A404YiPhone OS
+$]F-14W?A
+$]F-1l`Z{
+
+83
+
+M$]F-14
+aMjbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwYrck
+$]F-1*
+$]F-1if.yOc?
+
+TrustEvaluationEventT
+$]F-1gnX
+
+M$]F-1
+#BwY
+?k"Jt	ZiPhone10,1	
+$]F-1&z	
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwZ
+$]F-1z,
+
+$]F-1w
+M$]F-1r5
+*bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwZzuV19A404YiPhone OS
+$]F-1HTk'
+
+$]F-1GX
+
+$]F-1
+/
+
+M$]F-1)
+b
+Dbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwZ[6V19A404YiPhone OS
+$]F-1dHQK
+
+$]F-1z-,q
+
+$]F-1`T{s
+M$]F-1ezm
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwZ5
+V19A404YiPhone OS
+$]F-1-LfoM
+
+$]F-1
+cR
+M$]F-1W?
+
+cDbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwZ$V19A404YiPhone OS
+$]F-1l
+$]F-1V?u
+$]F-1gqz4
+$]F-1@Q
+N$]F-1B=
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw[:V19A404YiPhone OS
+$]F-1tYN
+$]F-1O
+)*]
+
+N$]F-1rok
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw[@V19A404YiPhone OS
+$]F-17^X
+$]F-1dL2
+
+$]F-1|
+/wh3>
+
+N$]F-1U>
+c	dbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw[E?V19A404YiPhone OS
+%
+;Gt
+$]F-1^iqB
+
+N$]F-10q
+
+
+
+l;
+c>?6bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw[H5V19A404YiPhone OS
+NZ,H
+
+$]F-1o;&
+N$]F-1
+
+l;
+
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw[2sV19A404YiPhone OS
+$]F-1HY
+$]F-1WA)9-
+
+$]F-1
+Bd
+N$]F-1'U@"-
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw[-V19A404YiPhone OS
+$]F-1/Wlt
+$]F-1C
+PinningEvent)
+$]F-1a}a
+
+N$]F-1f
+?c/
+
+d5Cbplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw\;
+YsslServer_
+com.apple.rtcreportingd_
+ 17F41EBC12EA591128F2324F6B06499A\PinningEvent
+pancake.apple.com_
+N$]F-1D &
+
+dTFbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw\;LV19A404YiPhone OS
+$]F-1=+p|!
+
+$]F-1oYO'Kd
+
+hJw
+
+d]bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw\@
+$]F-14
+$]F-1kp
+
+N$]F-1n"
+gbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw_-BV19A404YiPhone OS
+xV
+
+
+$]F-1N
+$]F-1g
+N$]F-1.(~
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwa
+oV19A404YiPhone OS
+$]F-1R
+
+$]F-1,Z|d
+
+N$]F-1n	
+mp2rbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwdA
+$]F-1&c
+_S
+
+N$]F-1T
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwdmV19A404YiPhone OS
+$]F-1_Vzs
+U]px
+$]F-1ZXf#kw
+$]F-1~8;
+
+TLSConnectionEvent*
+O$]F-1F,-{}
+
+p&Ibplist00
+$459AAAC0-CCAB-4D53-9AD3-81A2FF6F76F3
+#Bwh#uc_
+A	Tnone		VX25519
+$]F-1C	+XRf
+
+$]F-1!)aX0
+
+PinningEvent*
+$]F-1ovt
+B
+
+O$]F-1
+m8bplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bwe
+@~SAMP_
+com.apple.assistant_service_
+ 5631EEDE346A43CE6AD39408F083A16C\PinningEvent
+init.itunes.apple.com_
+$]F-1$
+B*SQLite format 3
+$]F-14ynH!T
+$]F-1:j)
+$]F-15,
+P$]F-1V\>
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwg|
+rxF
+
+$]F-1H3c
+$]F-1XF
+P$]F-1i
+!/2
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwgV19A404YiPhone OS
+$]F-18r
+$]F-12V
+
+$]F-19{C
+
+P$]F-1
+LOW>
+
+p	(=bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwh	
+0di
+
+$]F-1M
+N>
+$]F-1zzt
+W
+
+P$]F-13{R
+
+Z
+)
+R
+qsbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwi50;V19A404YiPhone OS
+$]F-1/,y*.g
+
+$]F-1",Q
+
+$]F-1(
+P$]F-1h4
+Z
+)
+R	 
+webplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwn
+$]F-1v[>X%
+
+$]F-1[%0`|
+
+$]F-1`9
+P$]F-1b
+w-bbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwn<V19A404YiPhone OS
+$]F-1c	5P
+TLSConnectionEvent+
+F<t
+
+P$]F-1BI;;
+
+w&`pbplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@A?@DE@GH@@@LMNMO@M@R?DTU@W??Z[\D]@@M@a?cMd??g@@jkMl?@@@qr@@u_
+$AD3BC918-FEB6-4A87-B7C0-B1858A1B10A0	
+#Bwo
+,Secc
+ com.apple.dataaccess.dataaccessd	
+$]F-1[9.Z
+$]F-1b
+
+$]F-1
+8h!
+
+PinningEvent+
+$]F-1;M
+Q$]F-1LntM
+
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#BwnUSAMP_
+bag.itunes.apple.com_
+$]F-1M6
+^S
+
+$]F-1^Lu@
+
+Q$]F-1,
+b
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwnv
+!%)-15
+y)+
+
+TLSConnectionEvent,
+$]F-1bP
+Q$]F-1gh#
+
+w!xbplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@A?@DE@GH@@@LMNMO@M@R?DTU@W??Z[\D]@@M@a?cMd??g@@jkMl@@@@\q@@t_
+$735A7344-DC19-4F18-A38D-4530E670FBD4	
+com.apple.WebKit.Networking
+$]F-17 }
+TrustEvaluationEventU
+$]F-1x
+g\P%
+
+Q$]F-1Td
+}(S
+
+wybplist00
+#BwnN
+	V19A404YiPhone OS"J:n		
+$]F-18dZ
+$]F-1ML&
+$]F-1f,do
+TLSConnectionEvent-
+$]F-1aB&k
+
+R$]F-1b(3
+
+ !"#$%&'()*+,-./0123456789:;<=>??A?CDECGHCCCLMNMOCMCR?DTUCW??Z[\D]CCDCa?cMd??gCCjkMlCCCC\qCCt_
+false_start_enabled^psk_configuredWmodelid		_
+$63630BF6-A378-4EA1-8540-526AB344DD8E	
+$]F-10).sP
+
+$]F-1~
+$]F-1K'
+R$]F-1c"Y[:[
+
+	
+
+
+
+YeventTimeUbuildTRootVPolicyVCallerYeventTypeZeventClassWproductWmodelid#Bwn bV19A404
+qTW*
+YiPhone OSZiPhone10,1
+%+07>HS[clsxz
+$]F-1xH
+$]F-1 'YS
+
+SystemRootUsageEvent	
+$]F-18BTc
+
+R$]F-1SB
+/bplist00
+YeventTimeUbuildTRootVPolicyVCallerYeventTypeZeventClassWproductWmodelid#Bwo7R5V19A404
+$]F-1q
+$]F-1c
+PinningEvent,
+$]F-1,ZVJ
+
+R$]F-1
+58
+
+$bplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bwo8aTMMCS_
+com.apple.cloudd_
+$]F-1Q(3B
+
+SystemRootUsageEvent
+
+$]F-1n
+R$]F-1J
+x$
+L'bplist00
+YeventTimeUbuildTRootVPolicyVCallerYeventTypeZeventClassWproductWmodelid#BwoS4V19A404
+%+07>HS[clsxz|
+$]F-1/
+TLSConnectionEvent.
+$]F-1p
+S$]F-1
+{T zbplist00
+$5C0B37FA-BBA7-42AA-AB5B-5AEF54578420	
+#Bwrp'_
+redacted_bundle_id
+$]F-1kW]
+$]F-1dR
+TrustEvaluationEventV
+S$]F-1n
+#Bwolfr9"I
+`	ZiPhone10,1	
+$]F-1 
+
+$]F-1CiG
+
+TLSConnectionEvent/
+$]F-1gOC0{,
+
+'{uv
+
+{T%pbplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@A?@DE@GH@@@LMNMO@M@R?DTU?W??Z[\D]@@M@a?cMd??g@@jkMl?@@@\q@@t_
+$EF3F3CF5-A232-4C6B-9505-696B41BE55F3	
+#Bwrp,)_
+	Tnone		VX25519
+com.apple.cloudd	
+$]F-10t
+$]F-1{:F
+$]F-1EL,l[v
+
+S$]F-1
+6i5
+x^X@bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwo".V19A404YiPhone OS
+!%)-159=AEIMQU
+$]F-1k1z-
+
+SystemRootUsageEvent
+$]F-1}B9f
+
+vtx	
+xA]bplist00
+YeventTimeUbuildTRootVPolicyVCallerYeventTypeZeventClassWproductWmodelid#Bwo
+$]F-1[Q6Y&SQLite format 3
+$]F-1fda
+$]F-1$t[%/Sa
+$]F-1LI=/~ 
+
+TrustEvaluationEventW
+$]F-1;` eU
+
+T$]F-1
+}3]
+
+xpbplist00
+ ! #$ \LeafLifetime_
+NumberChainsBuiltZeventClassVCaller[ValidStatusVPolicyYeventTypeUbuildWproduct[TrustResultYeventTime_
+LeafIssuanceDate[AppleDomain
+TrustEvaluationEventV19A404YiPhone OS
+#Bwou"J		ZiPhone10,1	
+$]F-1yj
+$]F-1Pzt
+T$]F-1vk6q`
+
+\6bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwoV19A404YiPhone OS
+$]F-1em
+#
+
+
+LZ
+
+TrustEvaluationEventX
+%|UW
+
+T$]F-17GVw
+xbplist00
+ !"#$
+LeafIssuanceDate\AnchorSource]IsCTValidatedZSymantecCAZNumberSCTsYeventTypeZeventClassWmodelid[ValidStatus\LeafLifetime[AppleDomainVCaller_
+ValidKnownIntermediatesOnly[TrustResult_
+NumberCertsInChainZSCTSources^AfterCTFlagDayYeventTimeUbuildVPolicyWproduct^EvaluationTimeZOCSPCached[OCSPStapled_
+	#Bwo
+Y
+V19A404
+	YiPhone OS"K
+$]F-1Ts
+PinningEvent-
+$]F-1k
+
+T$]F-1ie;
+
+x@OPbplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bwp zSAMP_
+#com.apple.ClipServices.clipserviced_
+ 026D909470D77A3987E040D528F5E5F4\PinningEvent
+amp-api.apps.apple.com_
+$]F-1*F
+$]F-1G x
+
+$]F-1(E
+$]F-1Qg("$u9
+
+U$]F-17a {
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwp 
+$]F-1XX
+
+$]F-1Ez.
+
+$]F-1&#
+U$]F-1
+6
+kbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwp<I
+$]F-1kiDTU
+U;n
+
+$]F-1!oDDr
+
+U$]F-1rCQxU
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bwp@R;V19A404YiPhone OS
+$]F-1z5PI"
+
+TrustEvaluationEventY
+$]F-1zr
+U$]F-1a
+4}|
+
+#Bw}m}	"J
+;ZiPhone10,1	
+#BwDoi
+$]F-1o(
+$]F-1%	n
+
+U$]F-1
+
+
+j
+~pbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw{V19A404YiPhone OS
+$]F-1<{
+$]F-1!
+
+Kbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw7V19A404YiPhone OS
+TrustEvaluationEventZ
+4D2(
+
+U$]F-1r>Mv
+
+&Dbplist00
+&'"_
+LeafIssuanceDateWmodelid[ValidStatus\LeafLifetime[AppleDomainVCaller[TrustResult_
+NumberCertsInChainZSCTSourcesYeventTimeUbuild^AfterCTFlagDayVPolicyWproduct^EvaluationTime_
+#Bw^V19A404	YiPhone OS"K
+$]F-1n
+$]F-1
+A3?N
+
+$]F-1+
+
+]x
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw1V19A404YiPhone OS
+$]F-19o
+DPbY
+
+$]F-10.2]-?p
+
+U$]F-1a&tpX
+
+9/HNbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw,FV19A404YiPhone OS
+$]F-12YT
+$]F-1P`
+
+U$]F-1W+{d
+
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwLJV19A404YiPhone OS
+%0;
+
+$]F-1%
+U$]F-1l;
+wlV19A404YiPhone OS
+$]F-1{
+'H
+$]F-1o)^e
+
+$]F-1[kL
+U$]F-1oF
+wyBbplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwyV19A404YiPhone OS
+aE>
+
+$]F-10.0x
+PinningEvent.
+$]F-1N;
+
+U$]F-1E#y,ay
+
+RcJbplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#BwtSAMP_
+com.apple.nsurlsessiond_
+V19A404YiPhone OSZiPhone10,1^s.mzstatic.com_
+$]F-1Cz& 6
+
+$]F-1-
+|]!
+
+TrustEvaluationEvent[
+U$]F-1e_!
+#BwZ	"J!kZiPhone10,1	
+$]F-1<
+$]F-1M,!u
+PinningEvent/
+$]F-19w'oj.
+
+U$]F-1
+M
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw`
+IYsslServer_
+com.apple.locationd_
+ 40D630F0E7E67D633BC07566525DC2D3\PinningEvent
+gs-loc.apple.com_
+$]F-1#
+!ZSQLite format 3
+$]F-12r
+$]F-1x(
+
+$]F-1>f
+$]F-1E+
+$]F-14
+
+V$]F-1@X
+Cbplist00
+$]F-1I+SQLite format 3
+$]F-1/
+$]F-1;Al)R
+
+TLSConnectionEvent0
+$]F-1CydQ
+
+W$]F-19y9jn1a
+
+$68924DBF-9B5B-45A3-8516-BA6C6AC4CF59	
+&com.apple.AppleCredentialManagerDaemon	
+TLSConnectionEvent1
+$]F-1a
+W$]F-1
+`_F
+
+?bplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@A?@DE@GH@@@LMNMO@M@R?DTU@W??Z[\D]@?M@a@cMd??g@@jkMl@@@@\W@@s_
+$59F41EEA-FB1A-4301-8D65-DB0AE38FB899	
+#Bw6q_
+com.apple.locationd
+#SQLite format 3
+$]F-1xB#w 
+$]F-1TE
+
+TLSConnectionEvent2
+$]F-1)"Y	xY
+
+X$]F-1
+2C7*
+
++Pbplist00
+$DA019EF1-1782-4A3C-BE8C-4D2DCEEFC2D2	
+#Bw
+_
+$]F-1y]-
+$]F-13X1
+X$]F-1GBEC
+
+$]F-1"Cen\
+
+$]F-1s8>[o
+
+$]F-1QV>
+t:h
+
+X$]F-139]4
+
+
+A
+
++bplist00
+$]F-10n1
+:=#bplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bwr}XApplePay_
+com.apple.passd_
+ud|8
+
+PinningEvent0
+X$]F-15
+$]F-1f&&kz
+
+TrustEvaluationEvent\
+$]F-1 ]ojk
+
+X$]F-1X;']
+NumberChainsBuiltUbuildVCaller[ValidStatusVPolicyYeventTypeWproductYNoNetwork[TrustResultYeventTime_
+TrustEvaluationEventYiPhone OS	
+#Bwr{"I'
+ZiPhone10,1	
+$]F-1fw4
+
+$]F-1dC_
+
+TrustEvaluationEvent]
+$]F-1`yL
+X$]F-1y
+:e(bplist00
+*+",-
+#Bw4
+		#Bws
+uV19A404YiPhone OS"K
+$]F-1{
+
+PinningEvent1
+$]F-1Dgm
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bwv
+]Configuration_
+com.apple.cloudphotod_
+configuration.apple.com_
+$]F-1d,]
+$]F-12mV
+
+TrustEvaluationEvent^
+Y$]F-1"qO
+
+>`mbplist00
+"#$%&'()*#[OCSPFetchesYeventType_
+ValidOCSPTriggeredWmodelid[ValidStatus\LeafLifetime[OCSPNetworkVCallerXWeakHash[TrustResult_
+NumberCertsInChainYeventTimeUbuild]OCSPFetchTimeVPolicyWproduct^EvaluationTimeZOCSPFailed_
+TrustEvaluationEvent#Bu
+#Bwv3V19A404
+YiPhone OS"Mji
+$]F-1;
+TrustEvaluationEvent_
+$]F-1fs
+Y$]F-1<<=2
+>bplist00
+NumberCertsInChainZSCTSourcesYeventTimeUbuild^AfterCTFlagDayVPolicyWproduct^EvaluationTimeZOCSPCached_
+#Bw*
+#Bww
+V19A404	YiPhone OS"Jk	
+$]F-1,Y9P
+
+TLSConnectionEvent3
+$]F-1rzVC
+
+Y$]F-1
+$6A02480C-D69E-487E-AA85-B987DFF4E642	
+#BwF
+$]F-1"
+TrustEvaluationEvent`
+Y$]F-1SO4h9
+
+ZeventClass_
+#Bw"I	ZiPhone10,1	#Bw)L
+$]F-1oaE
+TLSConnectionEvent4
+$]F-1 ?M
+Z$]F-1W=zFY
+
+ !"#$%&'()*+,-./0123456789:;<=>?@A@@DE@GH@?@LMNMO@M@R@DTU@W??Z[\M]@@M@a?cMd??g@@jkMl@?@@qr?@u_
+$99B78269-1603-4B62-9415-2F12C45E6019
+#Bw(!_
+/Srsa
+Tnone		UP-256
+$]F-1,
+$]F-1r+Zd
+
+PinningEvent2
+$]F-1C	}c
+
+Z$]F-1
+Ibplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw?D
+TMMCS_
+$]F-1}p
+{+a
+
+$]F-1I
+$]F-1n&E_5N
+
+Z$]F-1]
+
+YeventTimeWproductUbuildYeventTypeZeventClass[errorDomainWmodelidYerrorCode#BwN_#YiPhone OSV19A404[OTAPKIEvent
+$]F-1pC
+$]F-1B
+TrustFailureEvent!
+$]F-1o{
+TrustFailureEvent
+#?`Z
+
+[bplist00
+VPolicyUErrorVCallerUIndexYeventTypeYeventTimeZeventClassUbuildWproductWmodelid[TrustResult
+TrustFailureEvent#Bw
+V19A404YiPhone OSZiPhone10,1
+&,39CMX^fnz|
+$]F-15
+$]F-1Q;^Y
+Z$]F-1/{[
+rbplist00
+$]F-11{<
+$]F-1_
+TrustEvaluationEventa
++uTbplist00
+#BwL
+F"I;	ZiPhone10,1	#Bw.
+$]F-1F'
+TrustEvaluationEventb
+$]F-1
+Z
+
+Z$]F-1wx8Z
+
+Yxbplist00
+#Bwy	"KKZiPhone10,1	
+$]F-1S
+BRSQLite format 3
+{;gq
+$]F-1KU7
+$]F-1g
+
+$]F-1&j
+PinningEvent3
+[$]F-1
+#oVIDSBag_
+com.apple.rapportd_
+ 0DBB9CDD925A783E87CF364EA02355F3\PinningEvent
+init.ess.apple.com_
+$]F-1+2%+1
+
+[$]F-1&
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw5YsslServer^com.apple.geod_
+ 51EFAFCB4400D3532CD08DCDB26F7BED\PinningEvent
+gsp-ssl.ls.apple.com_
+PinningEvent4
+[$]F-1\
+$]F-1j}
+
+$]F-1:"
+TrustEvaluationEventc
+$]F-1wXo@
+
+[$]F-15ACNM
+
+,~Jbplist00
+#BwS
+#Bw9ws
+	V19A404YiPhone OS"Jv
+$]F-1w\&
+[$]F-1b
+ "bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw;
+!%)-159=A
+$]F-1?<
+
+[$]F-1pJ
+09bplist00
+$87069BAC-CDCE-44D8-85B2-0365F52A5517	
+com.apple.amsengagementd	
+$]F-1TZN^
+
+TLSConnectionEvent5
+	X
+
+$]F-1f>cj
+
+TrustEvaluationEventd
+$]F-1<HQ
+[$]F-1dTH
+
+
+8bplist00
+	#Bw
+	YiPhone OS"KW
+$]F-1G
+QHSQLite format 3
+$]F-1T@e8
+\$]F-1
+n#bplist00
+YeventTimeVPolicyVCaller\SerialNumberYeventTypeZeventClassUbuildWproductWmodelidXHostnameZIssuerName#Bw	/TSiri_
+ 27FBA736FAE952F3D977A33C43014621\PinningEvent
+$]F-1y
+PinningEvent5
+\$]F-1q
+$]F-1!
+$]F-1Xqz
+TLSConnectionEvent6
+$]F-1K^<PP
+\$]F-1R
+2bplist00
+$F059049F-C34F-4C6F-B0AD-D8E7EACB18ED	
+)g_
+$]F-1RO
+TrustEvaluationEvente
+\$]F-1INSw
+6-V19A404
+	YiPhone OS"K
+wSQLite format 3
+$]F-1pGaj
+m!s
+
+TLSConnectionEvent7
+$]F-1Jm^
+]$]F-1DT
+$D7CE4DAB-7DDD-495E-9522-FF3A0F8C6F23	
+$]F-1[s
+
+TrustEvaluationEventf
+]$]F-1G8'
+
+^bplist00
+#BwG(["I+	ZiPhone10,1	#Bw)L
+$]F-1^?1
+
+TrustEvaluationEventg
+]$]F-1
+3bplist00
+*+#,-
+	#BwmV19A404YiPhone OS"K
+*y		
+$]F-1X{~
+
+]$]F-1#
+#:bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw8b
+$]F-1X-uw
+$]F-1@>~
+TrustEvaluationEventh
+w#9
+
+%A/bplist00
+#Bw:a"Ih6	ZiPhone10,1	#Bw)L
+(s.SQLite format 3
+$]F-1H32x-
+ZH4
+
+$]F-1N1
+TLSConnectionEvent8
+$]F-1/"=~k4
+
+^$]F-1YC{
+
+$3146F1C6-47BD-4CD8-8B6A-F71311ED0245	
+$]F-1~
+oc
+
+$]F-1nK?Q0
+b
+
+TLSConnectionEvent9
+$]F-1H4h}F
+
+^$]F-1m
+I|bplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@A?@DE@GH@@@LMNMO@M@R?DTU@W??Z[\M]@@M@a?cMd??g@@jkMl@@?@Lq@@t_
+$2F2B3773-D94F-48D0-9AF3-A90688592AEA	
+$]F-1zXa
+
+^$]F-1u
+,WG4bplist00
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#BwAM;<V19A404YiPhone OS
+$]F-1[)JA
+^$]F-1
+#BwW$
+TrustEvaluationEventi
+^$]F-1?Mp	
+
+PAc
+
+$]F-1 S
+^$]F-1O%
+timeSinceLastResetZrootUsages[errorDomainZeventClassWmodelidYerrorCode#Bw\

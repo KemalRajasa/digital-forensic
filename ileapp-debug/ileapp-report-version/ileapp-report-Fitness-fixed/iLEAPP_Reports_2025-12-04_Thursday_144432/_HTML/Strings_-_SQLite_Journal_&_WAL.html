@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>iLEAPP - Strings - SQLite Journal & WAL report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="_elements/all.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="_elements/Roboto.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chats.css">
+        
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+
+        <!-- Icons -->
+        <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
+        <script src="_elements/feather.min.js"></script>
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">iLEAPP 2.3.0</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Saved Reports
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">
+                <span data-feather="home"></span> Report Home
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Accounts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Account_Configuration.html">
+                <span data-feather="user"></span> Account Configuration
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Account_Data.html">
+                <span data-feather="user"></span> Account Data
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            App Permissions
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Permissions.html">
+                <span data-feather="key"></span> Application Permissions
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            App Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_App_Usage.html">
+                <span data-feather="activity"></span> knowledgeC - App Usage
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Apple Wallet
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="PK_Pass_-_Apple Cash.html">
+                <span data-feather="credit-card"></span> PK Pass - Apple Cash
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Biome
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Backlight.html">
+                <span data-feather="eye"></span> Biome - Backlight
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Device_Syncs.html">
+                <span data-feather="eye"></span> Biome - Device Syncs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Notifications.html">
+                <span data-feather="eye"></span> Biome - Notifications
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Now_Playing.html">
+                <span data-feather="eye"></span> Biome - Now Playing
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Text_Input_Session.html">
+                <span data-feather="eye"></span> Biome - Text Input Session
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_User_Activity_Metadata.html">
+                <span data-feather="eye"></span> Biome - User Activity Metadata
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_Intents_-_663528486816806.html">
+                <span data-feather="eye"></span> Biome Intents - 663528486816806
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Bluetooth
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bluetooth_Other_LE.html">
+                <span data-feather="bluetooth"></span> Bluetooth Other LE
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Browser
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WebKit_Cache_Records.html">
+                <span data-feather="alert-triangle"></span> WebKit Cache Records
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Bumble
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bumble_-_Account_Details.html">
+                <span data-feather="user"></span> Bumble - Account Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bumble_-_Messages.html">
+                <span data-feather="message-circle"></span> Bumble - Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Business
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Wire_Secure_Messenger_Account.html">
+                <span data-feather="user"></span> Wire Secure Messenger Account
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cache Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="fsCachedData.html">
+                <span data-feather="box"></span> fsCachedData
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Calendar
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_Birthdays.html">
+                <span data-feather="gift"></span> Calendar Birthdays
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_Events.html">
+                <span data-feather="calendar"></span> Calendar Events
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_List.html">
+                <span data-feather="calendar"></span> Calendar List
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Call History
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_History_-_Group_Call.html">
+                <span data-feather="phone-call"></span> Call History - Group Call
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_History.html">
+                <span data-feather="phone-call"></span> Call History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="interactionC_Call_History_-_Group_Call.html">
+                <span data-feather="phone-call"></span> interactionC Call History - Group Call
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cellular
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Cellular_Wireless.html">
+                <span data-feather="alert-triangle"></span> Cellular Wireless
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Clock
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Alarms.html">
+                <span data-feather="clock"></span> Alarms
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Timers.html">
+                <span data-feather="clock"></span> Timers
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WorldClock.html">
+                <span data-feather="clock"></span> WorldClock
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cloudkit
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Note_Sharing.html">
+                <span data-feather="share-2"></span> Note Sharing
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Connected Devices
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Devices.html">
+                <span data-feather="smartphone"></span> Connected Devices
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Control Center
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Control_Center_Configuration.html">
+                <span data-feather="alert-triangle"></span> Control Center Configuration
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Core Accessories
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AccessoryD.html">
+                <span data-feather="zap"></span> AccessoryD
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="User_Event_Agent.html">
+                <span data-feather="activity"></span> User Event Agent
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Device Information
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Device_Information_-_Connected_Device_and_OS_History.html">
+                <span data-feather="smartphone"></span> Connected Device Information - Connected Device and OS History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Device_Information_-_Consolidated_Connected_Device_History.html">
+                <span data-feather="smartphone"></span> Connected Device Information - Consolidated Connected Device History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Device_Data.html">
+                <span data-feather="info"></span> Device Data
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Device Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Snapshot_lastUsedDate.html">
+                <span data-feather="smartphone"></span> Application Snapshot lastUsedDate
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Snapshot.html">
+                <span data-feather="smartphone"></span> Application Snapshot
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Lock_Status.html">
+                <span data-feather="smartphone"></span> knowledgeC - Device Lock Status
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Screen_Status.html">
+                <span data-feather="smartphone"></span> knowledgeC - Device Screen Status
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Discord
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Discord_-_Chats.html">
+                <span data-feather="message-circle"></span> Discord - Chats
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Discord_Account.html">
+                <span data-feather="user"></span> Discord Account
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Files App
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_Files_stored_in_iCloud_Drive.html">
+                <span data-feather="cloud"></span> Files App - Files stored in iCloud Drive
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_Operating_System_Updates.html">
+                <span data-feather="refresh-cw"></span> Files App - Operating System Updates
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_iCloud_Application_List.html">
+                <span data-feather="package"></span> Files App - iCloud Application List
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Gmail
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Gmail_-_Label_Details.html">
+                <span data-feather="mail"></span> Gmail - Label Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Gmail_-_Offline_Search.html">
+                <span data-feather="search"></span> Gmail - Offline Search
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Health
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Health_-_Provenances.html">
+                <span data-feather="smartphone"></span> Health - Provenances
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Health_-_Steps.html">
+                <span data-feather="activity"></span> Health - Steps
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Health & Fitness
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AllTrails_-_Trail_Details.html">
+                <span data-feather="map"></span> AllTrails - Trail Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AllTrails_-_User_Info.html">
+                <span data-feather="user"></span> AllTrails - User Info
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            IOS Build
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Information.html">
+                <span data-feather="git-commit"></span> iOS Information
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Identifiers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Backup_Settings.html">
+                <span data-feather="save"></span> Backup Settings
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Find_My_iPhone_Settings.html">
+                <span data-feather="settings"></span> Find My iPhone Settings
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="IMEI_-_IMSI.html">
+                <span data-feather="settings"></span> IMEI - IMSI
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Location_Services.html">
+                <span data-feather="navigation"></span> Location Services
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Obliterated_Time.html">
+                <span data-feather="settings"></span> Obliterated Time
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Preferences_PList.html">
+                <span data-feather="settings"></span> Preferences PList
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Subscriber_Info.html">
+                <span data-feather="settings"></span> Subscriber Info
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Timezone_Information.html">
+                <span data-feather="settings"></span> Timezone Information
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WIFI_Identifiers.html">
+                <span data-feather="settings"></span> WIFI Identifiers
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Message_Retention.html">
+                <span data-feather="message-circle"></span> iOS Message Retention
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Identity Lookup Service
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Identity_Lookup_Service.html">
+                <span data-feather="user-check"></span> Identity Lookup Service
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Installed Apps
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="App_Snapshots.html">
+                <span data-feather="package"></span> App Snapshots
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_State.html">
+                <span data-feather="package"></span> Application State
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_User_Defaults.html">
+                <span data-feather="package"></span> Application User Defaults
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Itunes_Metadata.html">
+                <span data-feather="package"></span> Apps - Itunes Metadata
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bundle_ID_by_AppGroup_&_PluginKit_IDs.html">
+                <span data-feather="package"></span> Bundle ID by AppGroup & PluginKit IDs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Installed_Apps_(storeUser).html">
+                <span data-feather="package"></span> Installed Apps (storeUser)
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Purchased_Apps_History_(storeUser).html">
+                <span data-feather="shopping-cart"></span> Purchased Apps History (storeUser)
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            InteractionC
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Contacts.html">
+                <span data-feather="user"></span> Contacts
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            KnowledgeC
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Battery_Percentage.html">
+                <span data-feather="battery"></span> knowledgeC - Battery Percentage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Plugin_Status.html">
+                <span data-feather="battery-charging"></span> knowledgeC - Device Plugin Status
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Media_Playing.html">
+                <span data-feather="play-circle"></span> knowledgeC - Media Playing
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Location
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Applications.html">
+                <span data-feather="alert-triangle"></span> Applications
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Map_Tile_Cache.html">
+                <span data-feather="alert-triangle"></span> Map Tile Cache
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="PD_Place_Cache.html">
+                <span data-feather="alert-triangle"></span> PD Place Cache
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Location Services Configurations
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_clients.plist.html">
+                <span data-feather="settings"></span> LSC - clients.plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_com.apple.locationd.plist.html">
+                <span data-feather="settings"></span> LSC - com.apple.locationd.plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_com.apple.routined.plist.html">
+                <span data-feather="settings"></span> LSC - com.apple.routined.plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Locations
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_ATXDatastore.html">
+                <span data-feather="map-pin"></span> iOS ATXDatastore
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Activation Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Activation_Logs.html">
+                <span data-feather="clipboard"></span> Mobile Activation Logs
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Backup
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Backup.html">
+                <span data-feather="alert-triangle"></span> Mobile Backup
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Backup Plist
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Backup_plist.html">
+                <span data-feather="settings"></span> Mobile Backup plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Container Manager
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Container_Manager.html">
+                <span data-feather="save"></span> Mobile Container Manager
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Installation Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Historical_Combined.html">
+                <span data-feather="clipboard"></span> Apps - Historical Combined
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Historical.html">
+                <span data-feather="clipboard"></span> Apps - Historical
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Installed.html">
+                <span data-feather="clipboard"></span> Apps - Installed
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Uninstalled.html">
+                <span data-feather="clipboard"></span> Apps - Uninstalled
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="State_-_Reboots.html">
+                <span data-feather="clipboard"></span> State - Reboots
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Network Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Data_Usage.html">
+                <span data-feather="send"></span> Data Usage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Network_Usage_(netusage)_-_App_Data.html">
+                <span data-feather="send"></span> Network Usage (netusage) - App Data
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Network_Usage_(netusage)_-_Connections.html">
+                <span data-feather="bar-chart"></span> Network Usage (netusage) - Connections
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Notes
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Notes.html">
+                <span data-feather="file-text"></span> Notes
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Notifications
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Notifications_Duet_-_663528487136197.html">
+                <span data-feather="bell"></span> Notifications Duet - 663528487136197
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Notifications.html">
+                <span data-feather="bell"></span> iOS Notifications
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            OS Updates
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Migrations.html">
+                <span data-feather="chevrons-up"></span> Migrations
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos-Z-Settings
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph80-Com-Apple-MobileSlideshow-Plist.html">
+                <span data-feather="settings"></span> Ph80-Com-Apple-MobileSlideshow-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph81-Com-Apple-Camera-Plist.html">
+                <span data-feather="settings"></span> Ph81-Com-Apple-Camera-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph82-Com-Apple-MediaAnalysisD-Plist.html">
+                <span data-feather="book"></span> Ph82-Com-Apple-MediaAnalysisD-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph83-Com-Apple-PurpleBuddy-Plist.html">
+                <span data-feather="settings"></span> Ph83-Com-Apple-PurpleBuddy-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph85-accountsd-cloud-Service-Enable-Log-Plist.html">
+                <span data-feather="settings"></span> Ph85-accountsd-cloud-Service-Enable-Log-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph86-assetsd-cloud-Service-Enable-Log-Plist.html">
+                <span data-feather="settings"></span> Ph86-assetsd-cloud-Service-Enable-Log-Plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-A-Asset_Basic_Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph1.1-Asset_Basic_Data-PhDaPsql.html">
+                <span data-feather="image"></span> Ph1.1-Asset Basic Data-PhDaPsql
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph2.1-Asset_Basic_Data_&_GenAlbum_Data-PhDaPsql.html">
+                <span data-feather="image"></span> Ph2.1-Asset Basic Data & GenAlbum Data-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-C-Other_Artifacts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph10.1-Assets_have_embedded_files-PhDaPsql.html">
+                <span data-feather="file-plus"></span> Ph10.1-Assets have embedded files-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-D-Generic_Album_Records-NAD
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph20.1-Album_Records_NAD-PhDaPsql.html">
+                <span data-feather="book"></span> Ph20.1-Album Records NAD-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-H-Possible_User_Adjusted_Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph73.1-Possible_Adjust_Date-PhDaPsql.html">
+                <span data-feather="edit"></span> Ph73.1-Possible Adjust Date-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-I-Asset_IntResou-Optimization
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph50.1-Asset_IntResou-PhDaPsql.html">
+                <span data-feather="database"></span> Ph50.1-Asset IntResou-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-R-Reference_for_Asset_Analysis
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph95.1-iOS15_Ref_for_Asset_Analysis-PhDaPsql.html">
+                <span data-feather="database"></span> Ph95.1-iOS15 Ref for Asset Analysis-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-S-Syndication_PL_Artifacts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph20.2-Album_Records_NAD-SyndPL.html">
+                <span data-feather="book"></span> Ph20.2-Album Records NAD-SyndPL
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph25.2-SWY_Conversation_Records_NAD-SyndPL.html">
+                <span data-feather="message-square"></span> Ph25.2-SWY Conversation Records NAD-SyndPL
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph50.2-Asset_IntResou-SyndPL.html">
+                <span data-feather="database"></span> Ph50.2-Asset IntResou-SyndPL
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SIM Info
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SIM_-_UUID.html">
+                <span data-feather="info"></span> SIM - UUID
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SIM_-_Unique_Label_Store.html">
+                <span data-feather="info"></span> SIM - Unique Label Store
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SMS & iMessage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS_&_iMessage_-_Messages_(Threaded).html">
+                <span data-feather="message-square"></span> SMS & iMessage - Messages (Threaded)
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS.html">
+                <span data-feather="message-square"></span> SMS
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SQLite Journaling
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link  active" href="Strings_-_SQLite_Journal_&_WAL.html">
+                <span data-feather="book-open"></span> Strings - SQLite Journal & WAL
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Safari Browser
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bookmarks.html">
+                <span data-feather="compass"></span> Bookmarks
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Favicons.html">
+                <span data-feather="compass"></span> Favicons
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Recent_WebSearches.html">
+                <span data-feather="compass"></span> Recent WebSearches
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Safari_Browser_-_History.html">
+                <span data-feather="compass"></span> Safari Browser - History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Safari_Browser_-_iCloud_Tabs.html">
+                <span data-feather="compass"></span> Safari Browser - iCloud Tabs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Search_Terms.html">
+                <span data-feather="compass"></span> Search Terms
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Siri Remembers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Siri_Remembers_-_Calls.html">
+                <span data-feather="alert-triangle"></span> Siri Remembers - Calls
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Siri_Remembers_-_Messages.html">
+                <span data-feather="alert-triangle"></span> Siri Remembers - Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Spotlight Searches
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="ParseCD_Cache.html">
+                <span data-feather="alert-triangle"></span> ParseCD Cache
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Sysdiagnose
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Sysdiagnose_-_Shutdown_Log_Processes.html">
+                <span data-feather="loader"></span> Sysdiagnose - Shutdown Log Processes
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Sysdiagnose_-_Shutdown_Log_Reboots.html">
+                <span data-feather="refresh-cw"></span> Sysdiagnose - Shutdown Log Reboots
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Trusted Peers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Trusted_Peers.html">
+                <span data-feather="alert-triangle"></span> Trusted Peers
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            User Activity
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Application_Usage.html">
+                <span data-feather="alert-triangle"></span> Keyboard Application Usage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Dynamic_Lexicon.html">
+                <span data-feather="alert-triangle"></span> Keyboard Dynamic Lexicon
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Usage_Stats.html">
+                <span data-feather="alert-triangle"></span> Keyboard Usage Stats
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            WiFi Connections
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_BSS_List.html">
+                <span data-feather="wifi"></span> WiFi BSS List
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_Known_Networks_Info.html">
+                <span data-feather="wifi"></span> WiFi Known Networks Info
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_Known_Networks_Times.html">
+                <span data-feather="wifi"></span> WiFi Known Networks Times
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            iOS Screens
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_per_screen.html">
+                <span data-feather="maximize"></span> Apps per screen
+            </a>
+        </li>
+        
+    <script>
+        feather.replace();
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <img src="_elements/iLEAPP_banner.png" alt="iLEAPP banner">
+                    <h3 class="display-5">Strings - SQLite Journal & WAL report</h1>
+                    <h6 class="animated fadeIn mb-3">ASCII strings extracted from SQLite journal and WAL files.</h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 419</h6><p class="lead">Strings - SQLite Journal & WAL located at: </p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">Report</th><th class="th-sm">Location</th></tr></thead><tbody><tr><td><a href="SQLite Journaling/1_trust_analytics.db-wal.txt" style = "color:blue" target="_blank">trust_analytics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/Analytics/trust_analytics.db-wal</td></tr><tr><td><a href="SQLite Journaling/2_CloudServicesAnalytics.db-wal.txt" style = "color:blue" target="_blank">CloudServicesAnalytics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/Analytics/CloudServicesAnalytics.db-wal</td></tr><tr><td><a href="SQLite Journaling/3_networking_analytics.db-wal.txt" style = "color:blue" target="_blank">networking_analytics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/Analytics/networking_analytics.db-wal</td></tr><tr><td><a href="SQLite Journaling/4_sos_analytics.db-wal.txt" style = "color:blue" target="_blank">sos_analytics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/Analytics/sos_analytics.db-wal</td></tr><tr><td><a href="SQLite Journaling/5_ckks_analytics.db-wal.txt" style = "color:blue" target="_blank">ckks_analytics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/Analytics/ckks_analytics.db-wal</td></tr><tr><td><a href="SQLite Journaling/6_TransparencyAnalytics.db-wal.txt" style = "color:blue" target="_blank">TransparencyAnalytics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/Analytics/TransparencyAnalytics.db-wal</td></tr><tr><td><a href="SQLite Journaling/7_signin_metrics.db-wal.txt" style = "color:blue" target="_blank">signin_metrics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/Analytics/signin_metrics.db-wal</td></tr><tr><td><a href="SQLite Journaling/8_localkeychain.db-wal.txt" style = "color:blue" target="_blank">localkeychain.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/Analytics/localkeychain.db-wal</td></tr><tr><td><a href="SQLite Journaling/9_keychain-2.db-wal.txt" style = "color:blue" target="_blank">keychain-2.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/keychain-2.db-wal</td></tr><tr><td><a href="SQLite Journaling/10_com.apple.security.keychain-defaultContext.TrustedPeersHelper.db-wal.txt" style = "color:blue" target="_blank">com.apple.security.keychain-defaultContext.TrustedPeersHelper.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/Keychains/com.apple.security.keychain-defaultContext.TrustedPeersHelper.db-wal</td></tr><tr><td><a href="SQLite Journaling/11_com.apple.KeyValueService.EndToEndEncrypted-Production.sqlite-wal.txt" style = "color:blue" target="_blank">com.apple.KeyValueService.EndToEndEncrypted-Production.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/SyncedPreferences/com.apple.kvs/com.apple.KeyValueService.EndToEndEncrypted-Production.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/12_com.apple.KeyValueService-Production.sqlite-wal.txt" style = "color:blue" target="_blank">com.apple.KeyValueService-Production.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/SyncedPreferences/com.apple.kvs/com.apple.KeyValueService-Production.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/13_tmp_en_advertisements_B5E86580-3292-4EF9-83D3-86235EA47E1E.db-wal.txt" style = "color:blue" target="_blank">tmp_en_advertisements_B5E86580-3292-4EF9-83D3-86235EA47E1E.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/ExposureNotification/Advertisements/tmp_en_advertisements_B5E86580-3292-4EF9-83D3-86235EA47E1E.db-wal</td></tr><tr><td><a href="SQLite Journaling/14_tmp_en_advertisements_9F71313E-C604-462E-AC49-1BD241F3FB96.db-wal.txt" style = "color:blue" target="_blank">tmp_en_advertisements_9F71313E-C604-462E-AC49-1BD241F3FB96.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/ExposureNotification/Advertisements/tmp_en_advertisements_9F71313E-C604-462E-AC49-1BD241F3FB96.db-wal</td></tr><tr><td><a href="SQLite Journaling/15_tmp_en_advertisements_D9DB1D0D-EFFF-44D1-A47C-C4A43C2AE52D.db-wal.txt" style = "color:blue" target="_blank">tmp_en_advertisements_D9DB1D0D-EFFF-44D1-A47C-C4A43C2AE52D.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/ExposureNotification/Advertisements/tmp_en_advertisements_D9DB1D0D-EFFF-44D1-A47C-C4A43C2AE52D.db-wal</td></tr><tr><td><a href="SQLite Journaling/16_tmp_en_advertisements_FB9A7D30-0F6D-469E-B227-77BC4395286D.db-wal.txt" style = "color:blue" target="_blank">tmp_en_advertisements_FB9A7D30-0F6D-469E-B227-77BC4395286D.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/ExposureNotification/Advertisements/tmp_en_advertisements_FB9A7D30-0F6D-469E-B227-77BC4395286D.db-wal</td></tr><tr><td><a href="SQLite Journaling/17_tmp_en_advertisements_552EE385-CE22-4AE6-BC2F-51CA8D11A1EF.db-wal.txt" style = "color:blue" target="_blank">tmp_en_advertisements_552EE385-CE22-4AE6-BC2F-51CA8D11A1EF.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/ExposureNotification/Advertisements/tmp_en_advertisements_552EE385-CE22-4AE6-BC2F-51CA8D11A1EF.db-wal</td></tr><tr><td><a href="SQLite Journaling/18_tmp_en_advertisements_47236D0E-C282-434D-9879-8F67F4AFD52B.db-wal.txt" style = "color:blue" target="_blank">tmp_en_advertisements_47236D0E-C282-434D-9879-8F67F4AFD52B.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/ExposureNotification/Advertisements/tmp_en_advertisements_47236D0E-C282-434D-9879-8F67F4AFD52B.db-wal</td></tr><tr><td><a href="SQLite Journaling/19_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.softwareupdateservicesd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/20_CloudKitOperationMetrics-wal.txt" style = "color:blue" target="_blank">CloudKitOperationMetrics-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/CloudKitOperationMetrics-wal</td></tr><tr><td><a href="SQLite Journaling/21_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.healthd/6e3408f6e49ff6302bcd82a11b889e324420e343/7105c4dcb3f4bf7144b695fc15d54680bf7eb146/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/22_Assets.db-wal.txt" style = "color:blue" target="_blank">Assets.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.healthd/6e3408f6e49ff6302bcd82a11b889e324420e343/7105c4dcb3f4bf7144b695fc15d54680bf7eb146/AssetsDb/Assets.db-wal</td></tr><tr><td><a href="SQLite Journaling/23_ChunkStoreDatabase-wal.txt" style = "color:blue" target="_blank">ChunkStoreDatabase-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.healthd/6e3408f6e49ff6302bcd82a11b889e324420e343/7105c4dcb3f4bf7144b695fc15d54680bf7eb146/MMCS/.cs/ChunkStoreDatabase-wal</td></tr><tr><td><a href="SQLite Journaling/24_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.healthd/6e3408f6e49ff6302bcd82a11b889e324420e343/f05db70a739916dd3e651e26f3affc5c559ff383/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/25_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.CommCenterMobileHelper/e4c6277d43fc5b922d8fcf955d90772c98e84d63/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/26_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.kbd/311a531705247df238534aabbd6d7375446a9fe5/01d2b77e2217653ff116263997931d3a8a167d0d/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/27_Assets.db-wal.txt" style = "color:blue" target="_blank">Assets.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.kbd/311a531705247df238534aabbd6d7375446a9fe5/0f54f506be94aeb1e042961a5a50fca814b1ae77/AssetsDb/Assets.db-wal</td></tr><tr><td><a href="SQLite Journaling/28_ChunkStoreDatabase-wal.txt" style = "color:blue" target="_blank">ChunkStoreDatabase-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.kbd/311a531705247df238534aabbd6d7375446a9fe5/0f54f506be94aeb1e042961a5a50fca814b1ae77/MMCS/.cs/ChunkStoreDatabase-wal</td></tr><tr><td><a href="SQLite Journaling/29_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.cloudpaird/04eb7aea94c82deee15583facddc9d9a8c235c16/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/30_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.cloudpaird/5c64ef931d8658ccf3553c9467b17fa4a3f57288/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/31_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.cloudpaird/ce49f3500a597aa2dca9af15112d99e9363cd778/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/32_CloudKitOperationInfo-wal.txt" style = "color:blue" target="_blank">CloudKitOperationInfo-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/CloudKitOperationInfo-wal</td></tr><tr><td><a href="SQLite Journaling/33_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.coreduetd/c71f032347d6cae25a3164e9ffda52413530d895/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/34_Assets.db-wal.txt" style = "color:blue" target="_blank">Assets.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.businessservicesd/0db81f12e06c2c964cf05315335aef75085be5f8/AssetsDb/Assets.db-wal</td></tr><tr><td><a href="SQLite Journaling/35_Assets.db-wal.txt" style = "color:blue" target="_blank">Assets.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.businessservicesd/5932571ab46471c3694e86e5fe1c8f2affdbc54d/AssetsDb/Assets.db-wal</td></tr><tr><td><a href="SQLite Journaling/36_ChunkStoreDatabase-wal.txt" style = "color:blue" target="_blank">ChunkStoreDatabase-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.businessservicesd/5932571ab46471c3694e86e5fe1c8f2affdbc54d/MMCS/.cs/ChunkStoreDatabase-wal</td></tr><tr><td><a href="SQLite Journaling/37_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.protectedcloudstorage.protectedcloudkeysyncing/aa73de30954c5cf0c85ed82c798fc05ce34a64b6/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/38_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.icloud.searchpartyd/d02bbec87a6e8ec2bdfcb5a2c9a331b4d4e8d3fc/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/39_CloudKitMetadata-wal.txt" style = "color:blue" target="_blank">CloudKitMetadata-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/CloudKitMetadata-wal</td></tr><tr><td><a href="SQLite Journaling/40_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.accessibility.heard/3e031bf2a95b07fd69c95818ba52ad5ba8f7e582/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/41_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.mediasetupd/7a1ae5af65caf4be85c9dace77349a51ed1c6ec3/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/42_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.mediasetupd/35c14d9ff05bff5a77fe5a427a56661f70788ae8/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/43_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.securityd/444b262b252686c99622264f1d476ced07a32cb1/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/44_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.identityservicesd/849759fb8eb7a3da707532c88ed982ae01375646/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/45_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.icloud.fmfd/13f631a3598f936e415e0dce3963008159ae2a66/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/46_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.assistant.assistantd/745028c72683801e45d882b9b76307c0b258408a/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/47_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.assistant.assistantd/a92c1979f845b2e8f8ddc95c6d864e84626f61f2/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/48_Assets.db-wal.txt" style = "color:blue" target="_blank">Assets.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.bird/f1669d8586531e84a606fcdab28c2f34e40b9d4b/c0751231cc0873de77f9b584708f87706254d043/AssetsDb/Assets.db-wal</td></tr><tr><td><a href="SQLite Journaling/49_ChunkStoreDatabase-wal.txt" style = "color:blue" target="_blank">ChunkStoreDatabase-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.bird/f1669d8586531e84a606fcdab28c2f34e40b9d4b/c0751231cc0873de77f9b584708f87706254d043/MMCS/.cs/ChunkStoreDatabase-wal</td></tr><tr><td><a href="SQLite Journaling/50_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.siriknowledged/1d1d269aa1a55c0df94e36ae92330a874db6b566/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/51_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.routined/c5263141ed845f03fe972d5a292cc4c7e3717549/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/52_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.duetexpertd/a22ae27d99ed7a73d9e20f6dc1763f006590e181/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/53_Assets.db-wal.txt" style = "color:blue" target="_blank">Assets.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.duetexpertd/a22ae27d99ed7a73d9e20f6dc1763f006590e181/AssetsDb/Assets.db-wal</td></tr><tr><td><a href="SQLite Journaling/54_ChunkStoreDatabase-wal.txt" style = "color:blue" target="_blank">ChunkStoreDatabase-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.duetexpertd/a22ae27d99ed7a73d9e20f6dc1763f006590e181/MMCS/.cs/ChunkStoreDatabase-wal</td></tr><tr><td><a href="SQLite Journaling/55_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.willowd/48d29333d4b68ae86e8e9f7bb095a0fc3515e47f/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/56_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.purplebuddy/452566a005893a17d0f77cee9847ab2d44f289d2/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/57_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.donotdisturbd/9e318860f204230456e8b72a69b5a6f3dfa78753/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/58_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/CloudKit/com.apple.imagent/595e8bb0c8c5bca9dd197a05597a294fb2d5d1bb/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/59_database.sqlite3-wal.txt" style = "color:blue" target="_blank">database.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/GameKit/Data/com.apple.gamecenter/en-global.gcdata/database.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/60_database.sqlite3-wal.txt" style = "color:blue" target="_blank">database.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/GameKit/Data/com.apple.gamecenter/en-U:a3b375ee71aa52268a135b8e74d20105.gcdata/database.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/61_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.siri.parsec.CoreParsec/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/62_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.healthappd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/63_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.ap.promotedcontentd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/64_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.kbd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/65_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.mlruntimed/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/66_eventsTable_v1.db-wal.txt" style = "color:blue" target="_blank">eventsTable_v1.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.storeServices.analytics/eventsTable_v1/eventsTable_v1.db-wal</td></tr><tr><td><a href="SQLite Journaling/67_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.akd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/68_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/sharedCaches/com.apple.iTunesStore.NSURLCache/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/69_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.ind/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/70_storeUser.db-wal.txt" style = "color:blue" target="_blank">storeUser.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.appstored/storeUser.db-wal</td></tr><tr><td><a href="SQLite Journaling/71_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.appstored/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/72_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.ClipServices.clipserviced/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/73_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.Safari.SafeBrowsing/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/74_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.atc/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/75_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.accountsd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/76_index.sqlite-wal.txt" style = "color:blue" target="_blank">index.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.QuickLook.thumbnailcache/index.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/77_cloudthumbnails.db-wal.txt" style = "color:blue" target="_blank">cloudthumbnails.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.QuickLook.thumbnailcache/cloudthumbnails.db-wal</td></tr><tr><td><a href="SQLite Journaling/78_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.itunescloudd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/79_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.bookassetd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/80_metrics.sqlitedb-wal.txt" style = "color:blue" target="_blank">metrics.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.AppleMediaServices/Metrics/AppStore/metrics.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/81_metrics.sqlitedb-wal.txt" style = "color:blue" target="_blank">metrics.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.AppleMediaServices/Metrics/com.apple.appstored/metrics.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/82_metrics.sqlitedb-wal.txt" style = "color:blue" target="_blank">metrics.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.AppleMediaServices/Metrics/com.apple.AppleMediaServices/metrics.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/83_app.db-wal.txt" style = "color:blue" target="_blank">app.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.AppleMediaServices/Engagement/internal/app.db-wal</td></tr><tr><td><a href="SQLite Journaling/84_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.AppleMediaServices/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/85_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.Preferences/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/86_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.passd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/87_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.remindd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/88_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.dataaccess.dataaccessd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/89_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.itunesstored/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/90_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.mobileactivationd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/91_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.icloud.fmfd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/92_PDPlaceCache.db-wal.txt" style = "color:blue" target="_blank">PDPlaceCache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.geod/PDPlaceCache.db-wal</td></tr><tr><td><a href="SQLite Journaling/93_AP.db-wal.txt" style = "color:blue" target="_blank">AP.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.geod/AP.db-wal</td></tr><tr><td><a href="SQLite Journaling/94_GEOConfigStore.db-wal.txt" style = "color:blue" target="_blank">GEOConfigStore.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.geod/GEOConfigStore.db-wal</td></tr><tr><td><a href="SQLite Journaling/95_MapTiles.sqlitedb-wal.txt" style = "color:blue" target="_blank">MapTiles.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.geod/MapTiles/MapTiles.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/96_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.voiced/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/97_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.AssistantServices/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/98_ReqCount.db-wal.txt" style = "color:blue" target="_blank">ReqCount.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/GeoServices/ReqCount.db-wal</td></tr><tr><td><a href="SQLite Journaling/99_Cache.sqlite-wal.txt" style = "color:blue" target="_blank">Cache.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.routined/Cache.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/100_Cloud-V2.sqlite-wal.txt" style = "color:blue" target="_blank">Cloud-V2.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.routined/Cloud-V2.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/101_Local.sqlite-wal.txt" style = "color:blue" target="_blank">Local.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.routined/Local.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/102_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.exchangesyncd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/103_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.AppTrackingTransparency.EnforcementService/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/104_data.sqlite-wal.txt" style = "color:blue" target="_blank">data.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.feedbacklogger/com.apple.assistantd/data.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/105_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.watchlistd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/106_navd.cache-wal.txt" style = "color:blue" target="_blank">navd.cache-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.navd/navd.cache-wal</td></tr><tr><td><a href="SQLite Journaling/107_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.translationd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/108_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.ctcategories.service/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/109_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/rtcreportingd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/110_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.NewDeviceOutreach/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/111_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.AppleAccount/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/112_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.ap.adprivacyd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/113_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.assetsd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/114_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Caches/com.apple.coreidv.coreidvd/url/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/115_triald.db-wal.txt" style = "color:blue" target="_blank">triald.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Trial/v6/Database/triald.db-wal</td></tr><tr><td><a href="SQLite Journaling/116_Data-7C368AE2-06EF-488F-A992-EA084B69C75F.sqlite-wal.txt" style = "color:blue" target="_blank">Data-7C368AE2-06EF-488F-A992-EA084B69C75F.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Reminders/Container_v1/Stores/Data-7C368AE2-06EF-488F-A992-EA084B69C75F.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/117_Data-2C2792D1-15A7-45D7-8FC0-D89A3627742E.sqlite-wal.txt" style = "color:blue" target="_blank">Data-2C2792D1-15A7-45D7-8FC0-D89A3627742E.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Reminders/Container_v1/Stores/Data-2C2792D1-15A7-45D7-8FC0-D89A3627742E.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/118_Data-3003FAC2-5345-4023-A253-087EE1ECED09.sqlite-wal.txt" style = "color:blue" target="_blank">Data-3003FAC2-5345-4023-A253-087EE1ECED09.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Reminders/Container_v1/Stores/Data-3003FAC2-5345-4023-A253-087EE1ECED09.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/119_Data-60A7F480-417C-4DEC-A1C3-9DFCD42DBEC1.sqlite-wal.txt" style = "color:blue" target="_blank">Data-60A7F480-417C-4DEC-A1C3-9DFCD42DBEC1.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Reminders/Container_v1/Stores/Data-60A7F480-417C-4DEC-A1C3-9DFCD42DBEC1.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/120_Data-local.sqlite-wal.txt" style = "color:blue" target="_blank">Data-local.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Reminders/Container_v1/Stores/Data-local.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/121_entities.db-wal.txt" style = "color:blue" target="_blank">entities.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Suggestions/entities.db-wal</td></tr><tr><td><a href="SQLite Journaling/122_quickresponses.db-wal.txt" style = "color:blue" target="_blank">quickresponses.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Suggestions/quickresponses.db-wal</td></tr><tr><td><a href="SQLite Journaling/123_training.db-wal.txt" style = "color:blue" target="_blank">training.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Suggestions/training.db-wal</td></tr><tr><td><a href="SQLite Journaling/124_snippets.db-wal.txt" style = "color:blue" target="_blank">snippets.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Suggestions/snippets.db-wal</td></tr><tr><td><a href="SQLite Journaling/125_CallHistory.storedata-wal.txt" style = "color:blue" target="_blank">CallHistory.storedata-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/CallHistoryDB/CallHistory.storedata-wal</td></tr><tr><td><a href="SQLite Journaling/126_ids.db-wal.txt" style = "color:blue" target="_blank">ids.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/IdentityServices/ids.db-wal</td></tr><tr><td><a href="SQLite Journaling/127_ids-a.db-wal.txt" style = "color:blue" target="_blank">ids-a.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/IdentityServices/ids-a.db-wal</td></tr><tr><td><a href="SQLite Journaling/128_mediaanalysis.db-wal.txt" style = "color:blue" target="_blank">mediaanalysis.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Photos/Libraries/Syndication.photoslibrary/private/com.apple.mediaanalysisd/MediaAnalysis/mediaanalysis.db-wal</td></tr><tr><td><a href="SQLite Journaling/129_DifferentialPrivacyClassC.db-wal.txt" style = "color:blue" target="_blank">DifferentialPrivacyClassC.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/DifferentialPrivacy/DifferentialPrivacyClassC.db-wal</td></tr><tr><td><a href="SQLite Journaling/130_Shortcuts.sqlite-wal.txt" style = "color:blue" target="_blank">Shortcuts.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Shortcuts/Shortcuts.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/131_SESStorageV001.sqlite-wal.txt" style = "color:blue" target="_blank">SESStorageV001.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/SecureElementService/SESStorageV001.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/132_statuskit-cloud.db-wal.txt" style = "color:blue" target="_blank">statuskit-cloud.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/StatusKit/database/statuskit-cloud.db-wal</td></tr><tr><td><a href="SQLite Journaling/133_statuskit-local-v1.db-wal.txt" style = "color:blue" target="_blank">statuskit-local-v1.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/StatusKit/database/statuskit-local-v1.db-wal</td></tr><tr><td><a href="SQLite Journaling/134_DuetActivitySchedulerClassC.db-wal.txt" style = "color:blue" target="_blank">DuetActivitySchedulerClassC.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/DuetActivityScheduler/DuetActivitySchedulerClassC.db-wal</td></tr><tr><td><a href="SQLite Journaling/135_TCC.db-wal.txt" style = "color:blue" target="_blank">TCC.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/TCC/TCC.db-wal</td></tr><tr><td><a href="SQLite Journaling/136_avatars.db-wal.txt" style = "color:blue" target="_blank">avatars.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Avatar/CoreDataBackend/avatars.db-wal</td></tr><tr><td><a href="SQLite Journaling/137_ClipData.db-wal.txt" style = "color:blue" target="_blank">ClipData.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/com.apple.ClipServices.clipserviced/ClipData.db-wal</td></tr><tr><td><a href="SQLite Journaling/138_Calendar.sqlitedb-wal.txt" style = "color:blue" target="_blank">Calendar.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Calendar/Calendar.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/139_AddressBook.sqlitedb-wal.txt" style = "color:blue" target="_blank">AddressBook.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/AddressBook/AddressBook.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/140_AddressBookImages.sqlitedb-wal.txt" style = "color:blue" target="_blank">AddressBookImages.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/AddressBook/AddressBookImages.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/141_Database-wal.txt" style = "color:blue" target="_blank">Database-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/dmd/Policies/Database-wal</td></tr><tr><td><a href="SQLite Journaling/142_Database-wal.txt" style = "color:blue" target="_blank">Database-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/dmd/ConfigurationEngine/Database-wal</td></tr><tr><td><a href="SQLite Journaling/143_acc_analytics_UserEventAgent_v3.db-wal.txt" style = "color:blue" target="_blank">acc_analytics_UserEventAgent_v3.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/CoreAccessories/Analytics/acc_analytics_UserEventAgent_v3.db-wal</td></tr><tr><td><a href="SQLite Journaling/144_acc_analytics_accessoryd_v3.db-wal.txt" style = "color:blue" target="_blank">acc_analytics_accessoryd_v3.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/CoreAccessories/Analytics/acc_analytics_accessoryd_v3.db-wal</td></tr><tr><td><a href="SQLite Journaling/145__ATXLoggerStore.db-wal.txt" style = "color:blue" target="_blank">_ATXLoggerStore.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/DuetExpertCenter/_ATXLoggerStore.db-wal</td></tr><tr><td><a href="SQLite Journaling/146__ATXInfoSuggestionStore.db-wal.txt" style = "color:blue" target="_blank">_ATXInfoSuggestionStore.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/DuetExpertCenter/_ATXInfoSuggestionStore.db-wal</td></tr><tr><td><a href="SQLite Journaling/147_Envelope Index-wal.txt" style = "color:blue" target="_blank">Envelope Index-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Mail/Envelope Index-wal</td></tr><tr><td><a href="SQLite Journaling/148_Protected Index-wal.txt" style = "color:blue" target="_blank">Protected Index-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Mail/Protected Index-wal</td></tr><tr><td><a href="SQLite Journaling/149_BrowserState.db-wal.txt" style = "color:blue" target="_blank">BrowserState.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Safari/BrowserState.db-wal</td></tr><tr><td><a href="SQLite Journaling/150_History.db-wal.txt" style = "color:blue" target="_blank">History.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Safari/History.db-wal</td></tr><tr><td><a href="SQLite Journaling/151_AXSSPunctuation.sqlite-wal.txt" style = "color:blue" target="_blank">AXSSPunctuation.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Accessibility/AXSSPunctuation/AXSSPunctuation.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/152_com.apple.personalaudio.sqlite-wal.txt" style = "color:blue" target="_blank">com.apple.personalaudio.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Accessibility/com.apple.personalaudio.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/153_TIUserData-wal.txt" style = "color:blue" target="_blank">TIUserData-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Handwriting/TIUserData-wal</td></tr><tr><td><a href="SQLite Journaling/154_user_model_database.sqlite-wal.txt" style = "color:blue" target="_blank">user_model_database.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Keyboard/user_model_database.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/155_applicationState.db-wal.txt" style = "color:blue" target="_blank">applicationState.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/FrontBoard/applicationState.db-wal</td></tr><tr><td><a href="SQLite Journaling/156_chrono.sql-wal.txt" style = "color:blue" target="_blank">chrono.sql-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/chronod/chrono.sql-wal</td></tr><tr><td><a href="SQLite Journaling/157_aps.db-wal.txt" style = "color:blue" target="_blank">aps.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/ApplePushService/aps.db-wal</td></tr><tr><td><a href="SQLite Journaling/158_Daemon.sqlite-wal.txt" style = "color:blue" target="_blank">Daemon.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/MediaStream/albumshare/Daemon.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/159_PPSQLDatabase.db-wal.txt" style = "color:blue" target="_blank">PPSQLDatabase.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/PersonalizationPortrait/PPSQLDatabase.db-wal</td></tr><tr><td><a href="SQLite Journaling/160_itunesstored_private.sqlitedb-wal.txt" style = "color:blue" target="_blank">itunesstored_private.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/com.apple.itunesstored/itunesstored_private.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/161_Recents-wal.txt" style = "color:blue" target="_blank">Recents-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Recents/Recents-wal</td></tr><tr><td><a href="SQLite Journaling/162_HealthApp.sqlite-wal.txt" style = "color:blue" target="_blank">HealthApp.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Health/Client/HealthApp.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/163_healthdb_secure.sqlite-wal.txt" style = "color:blue" target="_blank">healthdb_secure.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Health/healthdb_secure.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/164_com.apple.private.alloy.health.sync.db-wal.txt" style = "color:blue" target="_blank">com.apple.private.alloy.health.sync.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Health/NanoSync/com.apple.private.alloy.health.sync.db-wal</td></tr><tr><td><a href="SQLite Journaling/165_healthdb_secure.hfd-wal.txt" style = "color:blue" target="_blank">healthdb_secure.hfd-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Health/healthdb_secure.hfd-wal</td></tr><tr><td><a href="SQLite Journaling/166_interactionC.db-wal.txt" style = "color:blue" target="_blank">interactionC.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/CoreDuet/People/interactionC.db-wal</td></tr><tr><td><a href="SQLite Journaling/167_knowledgeC.db-wal.txt" style = "color:blue" target="_blank">knowledgeC.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/CoreDuet/Knowledge/knowledgeC.db-wal</td></tr><tr><td><a href="SQLite Journaling/168_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.softwareupdateservicesd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/169_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.mediaserverd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/170_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.icloud.findmydeviced/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/171_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.siri.parsec.CoreParsec/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/172_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.ap.promotedcontentd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/173_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.kbd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/174_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/OTACrashCopier/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/175_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.mlruntimed/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/176_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.akd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/177_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.ind/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/178_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.Search.framework/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/179_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.appstored/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/180_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.icloud.fmflocatord/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/181_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.Safari.SafeBrowsing/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/182_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.atc/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/183_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.gamed/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/184_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.accountsd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/185_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.icloud.searchpartyd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/186_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.storebookkeeperd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/187_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.tipsd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/188_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.itunescloudd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/189_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.nsurlsessiond/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/190_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.bookassetd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/191_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.AppleMediaServices/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/192_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.Preferences/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/193_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.passd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/194_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.dataaccess.dataaccessd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/195_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.mobileactivationd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/196_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.parsecd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/197_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.icloud.fmfd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/198_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.FamilyCircle/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/199_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.voiced/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/200_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.AssistantServices/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/201_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.bird/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/202_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.cloudd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/203_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.purplebuddy/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/204_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.watchlistd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/205_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.translationd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/206_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.ctcategories.service/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/207_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.AppleMediaServicesUI/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/208_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.bluetoothd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/209_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.weatherd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/210_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.NewDeviceOutreach/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/211_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.ap.adprivacyd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/212_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/HTTPStorages/com.apple.coreidv.coreidvd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/213_datastore.sqlite-wal.txt" style = "color:blue" target="_blank">datastore.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/homed/datastore.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/214_datastore3.sqlite-wal.txt" style = "color:blue" target="_blank">datastore3.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/homed/datastore3.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/215_TextReplacements.db-wal.txt" style = "color:blue" target="_blank">TextReplacements.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/KeyboardServices/TextReplacements.db-wal</td></tr><tr><td><a href="SQLite Journaling/216_notes.sqlite-wal.txt" style = "color:blue" target="_blank">notes.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Notes/notes.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/217_BehaviorMiner.sqlite-wal.txt" style = "color:blue" target="_blank">BehaviorMiner.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/CoreBehavior/BehaviorMiner.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/218_AutomationSuggestions.sqlite-wal.txt" style = "color:blue" target="_blank">AutomationSuggestions.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/CoreBehavior/AutomationSuggestions.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/219_DRSTaskingDataModel.sqlite-wal.txt" style = "color:blue" target="_blank">DRSTaskingDataModel.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/DiagnosticPipeline/DRSTaskingDataModel.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/220_KnowledgeIndex-wal.txt" style = "color:blue" target="_blank">KnowledgeIndex-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Spotlight/SpotlightKnowledge/KnowledgeIndex-wal</td></tr><tr><td><a href="SQLite Journaling/221_geocode.db-wal.txt" style = "color:blue" target="_blank">geocode.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Weather/geocode.db-wal</td></tr><tr><td><a href="SQLite Journaling/222_weather-data.db-wal.txt" style = "color:blue" target="_blank">weather-data.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Weather/weather-data.db-wal</td></tr><tr><td><a href="SQLite Journaling/223_aqiscales.db-wal.txt" style = "color:blue" target="_blank">aqiscales.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Weather/aqiscales.db-wal</td></tr><tr><td><a href="SQLite Journaling/224_countrycodes.db-wal.txt" style = "color:blue" target="_blank">countrycodes.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Weather/countrycodes.db-wal</td></tr><tr><td><a href="SQLite Journaling/225_notifications.db-wal.txt" style = "color:blue" target="_blank">notifications.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Weather/notifications.db-wal</td></tr><tr><td><a href="SQLite Journaling/226_Accounts3.sqlite-wal.txt" style = "color:blue" target="_blank">Accounts3.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Accounts/Accounts3.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/227_Model56902430.sqlite-wal.txt" style = "color:blue" target="_blank">Model56902430.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/CoreAS/Model56902430.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/228_ICDelegateAccountStore.db-wal.txt" style = "color:blue" target="_blank">ICDelegateAccountStore.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/com.apple.iTunesCloud/ICDelegateAccountStore.db-wal</td></tr><tr><td><a href="SQLite Journaling/229_sms.db-wal.txt" style = "color:blue" target="_blank">sms.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/SMS/sms.db-wal</td></tr><tr><td><a href="SQLite Journaling/230_KeysSyncingVersion3-17768365815-ProtectedCloudStorage.db-wal.txt" style = "color:blue" target="_blank">KeysSyncingVersion3-17768365815-ProtectedCloudStorage.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/com.apple.ProtectedCloudStorage/KeysSyncingVersion3-17768365815-ProtectedCloudStorage.db-wal</td></tr><tr><td><a href="SQLite Journaling/231_PCSAnalytics.db-wal.txt" style = "color:blue" target="_blank">PCSAnalytics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/com.apple.ProtectedCloudStorage/PCSAnalytics.db-wal</td></tr><tr><td><a href="SQLite Journaling/232_KeysSyncingVersion3-(null)-ProtectedCloudStorage.db-wal.txt" style = "color:blue" target="_blank">KeysSyncingVersion3-(null)-ProtectedCloudStorage.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/com.apple.ProtectedCloudStorage/KeysSyncingVersion3-(null)-ProtectedCloudStorage.db-wal</td></tr><tr><td><a href="SQLite Journaling/233_client.db-wal.txt" style = "color:blue" target="_blank">client.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/CloudDocs/session/db/client.db-wal</td></tr><tr><td><a href="SQLite Journaling/234_server.db-wal.txt" style = "color:blue" target="_blank">server.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/CloudDocs/session/db/server.db-wal</td></tr><tr><td><a href="SQLite Journaling/235_RMAdminStore-Cloud.sqlite-wal.txt" style = "color:blue" target="_blank">RMAdminStore-Cloud.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/com.apple.remotemanagementd/RMAdminStore-Cloud.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/236_RemoteManagement.sqlite-wal.txt" style = "color:blue" target="_blank">RemoteManagement.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/com.apple.remotemanagementd/Database/RemoteManagement.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/237_RMAdminStore-Local.sqlite-wal.txt" style = "color:blue" target="_blank">RMAdminStore-Local.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/com.apple.remotemanagementd/RMAdminStore-Local.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/238_CloudKitMirroringDataModel-wal.txt" style = "color:blue" target="_blank">CloudKitMirroringDataModel-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Application Support/CloudKitMailConversationsFlags/CloudKitMirroringDataModel-wal</td></tr><tr><td><a href="SQLite Journaling/239_SiriAnalytics.db-wal.txt" style = "color:blue" target="_blank">SiriAnalytics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Assistant/SiriAnalytics.db-wal</td></tr><tr><td><a href="SQLite Journaling/240_sync.db-wal.txt" style = "color:blue" target="_blank">sync.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/Biome/sync/sync.db-wal</td></tr><tr><td><a href="SQLite Journaling/241_modelCache.sqlite3-wal.txt" style = "color:blue" target="_blank">modelCache.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/9085C34F-7438-49A9-AA74-E15556079CB8/TFSModelCache.1/Patrick01627276-664494319210515/database/modelCache.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/242_scribe.2-compact.sqlite-wal.txt" style = "color:blue" target="_blank">scribe.2-compact.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/9085C34F-7438-49A9-AA74-E15556079CB8/com.atebits.tweetie.scribe/scribe.2-compact.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/243_scribe.2.sqlite-sqlite-wal.txt" style = "color:blue" target="_blank">scribe.2.sqlite-sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/9085C34F-7438-49A9-AA74-E15556079CB8/com.atebits.tweetie.scribe/scribe.2.sqlite-sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/244_NoteStore.sqlite-wal.txt" style = "color:blue" target="_blank">NoteStore.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/B7A0EA29-86E3-464A-B2A4-D4199FAD7FA5/NoteStore.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/245_ZMEventModel.sqlite-wal.txt" style = "color:blue" target="_blank">ZMEventModel.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/3B0BADCC-3404-4882-BF05-80530C3FADFD/AccountData/5C705A09-88C8-4845-BFD2-65EB6CBEE5DB/events/ZMEventModel.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/246_store.wiredatabase-wal.txt" style = "color:blue" target="_blank">store.wiredatabase-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/3B0BADCC-3404-4882-BF05-80530C3FADFD/AccountData/5C705A09-88C8-4845-BFD2-65EB6CBEE5DB/store/store.wiredatabase-wal</td></tr><tr><td><a href="SQLite Journaling/247_signal.sqlite-wal.txt" style = "color:blue" target="_blank">signal.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/92EFD8F4-8BF3-42D7-8DF7-E2F512630E22/grdb/signal.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/248_MapsSync_0.0.1-wal.txt" style = "color:blue" target="_blank">MapsSync_0.0.1-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/66ABA2B0-DCAF-461B-B8EE-785E6840F9E4/Maps/MapsSync_0.0.1-wal</td></tr><tr><td><a href="SQLite Journaling/249_MapsSync_0.0.1_deviceLocalCache.db-wal.txt" style = "color:blue" target="_blank">MapsSync_0.0.1_deviceLocalCache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Shared/AppGroup/66ABA2B0-DCAF-461B-B8EE-785E6840F9E4/Maps/MapsSync_0.0.1_deviceLocalCache.db-wal</td></tr><tr><td><a href="SQLite Journaling/250_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/2BBE56D0-9F4F-47D1-903C-2653DA9B5789/Library/Caches/com.reddit.Reddit/var/mobile/Containers/Data/Application/2BBE56D0-9F4F-47D1-903C-2653DA9B5789/Library/Caches/com.alamofire.imagedownloader/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/251_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/2BBE56D0-9F4F-47D1-903C-2653DA9B5789/Library/Caches/com.reddit.Reddit/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/252_observations.db-wal.txt" style = "color:blue" target="_blank">observations.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/2BBE56D0-9F4F-47D1-903C-2653DA9B5789/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal</td></tr><tr><td><a href="SQLite Journaling/253_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/2BBE56D0-9F4F-47D1-903C-2653DA9B5789/Library/HTTPStorages/com.reddit.Reddit/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/254_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/74F100B6-16A0-400D-8AB4-CA8CD0FC5D62/Library/Caches/com.apple.mobilenotes/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/255_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/74F100B6-16A0-400D-8AB4-CA8CD0FC5D62/Library/HTTPStorages/com.apple.mobilenotes/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/256_Contacts_15_105025155841637203771.db-wal.txt" style = "color:blue" target="_blank">Contacts_15_105025155841637203771.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9/Library/Caches/Contacts_15_105025155841637203771.db-wal</td></tr><tr><td><a href="SQLite Journaling/257_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9/Library/Caches/com.google.Gmail/gbt_imagecache/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/258_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9/Library/Caches/com.google.Gmail/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/259_AlternativeService.sqlite-wal.txt" style = "color:blue" target="_blank">AlternativeService.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9/Library/Caches/WebKit/AlternativeServices/AlternativeService.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/260_observations.db-wal.txt" style = "color:blue" target="_blank">observations.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal</td></tr><tr><td><a href="SQLite Journaling/261_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9/Library/HTTPStorages/com.google.Gmail/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/262_sqlitedb-wal.txt" style = "color:blue" target="_blank">sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9/Library/Application Support/data/pbentley0107@gmail.com/sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/263_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/5F6D548F-428E-46FD-B1F9-FCFA2EBB7C00/Library/Caches/com.wearezeta.zclient.ios/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/264_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/5F6D548F-428E-46FD-B1F9-FCFA2EBB7C00/Library/HTTPStorages/com.wearezeta.zclient.ios/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/265_inMobi.sqlite-wal.txt" style = "color:blue" target="_blank">inMobi.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/DD42734F-C83C-46AB-9549-30628C58F0E8/Library/Caches/.inmobi_9.2.1/database/inMobi.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/266_AlternativeService.sqlite-wal.txt" style = "color:blue" target="_blank">AlternativeService.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/DD42734F-C83C-46AB-9549-30628C58F0E8/Library/Caches/WebKit/AlternativeServices/AlternativeService.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/267_https_googleads.g.doubleclick.net_0.localstorage-wal.txt" style = "color:blue" target="_blank">https_googleads.g.doubleclick.net_0.localstorage-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/DD42734F-C83C-46AB-9549-30628C58F0E8/Library/WebKit/WebsiteData/LocalStorage/https_googleads.g.doubleclick.net_0.localstorage-wal</td></tr><tr><td><a href="SQLite Journaling/268_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/DD42734F-C83C-46AB-9549-30628C58F0E8/Library/HTTPStorages/com.gma.water.sort.puzzle/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/269_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/32AB8F0E-BE6D-483E-AF7D-6E2EB9095799/Library/Caches/com.apple.ctcategories.service/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/270_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/32AB8F0E-BE6D-483E-AF7D-6E2EB9095799/Library/HTTPStorages/com.apple.ctcategories.service/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/271_LexemeTestsDB.sqlite-wal.txt" style = "color:blue" target="_blank">LexemeTestsDB.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/LexemeTestsDB.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/272_ResourcesStorage.sqlite-wal.txt" style = "color:blue" target="_blank">ResourcesStorage.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/ResourcesStorage.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/273_ObservableSettings.sqlite-wal.txt" style = "color:blue" target="_blank">ObservableSettings.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/ObservableSettings.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/274_features.sqlite-wal.txt" style = "color:blue" target="_blank">features.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/features.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/275_yap-database.sqlite-wal.txt" style = "color:blue" target="_blank">yap-database.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/yap-database.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/276_com.badoo.com.chat.pending-messages.db-name.sqlite-wal.txt" style = "color:blue" target="_blank">com.badoo.com.chat.pending-messages.db-name.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/com.badoo.com.chat.pending-messages.db-name.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/277_SettingsStorage.sqlite-wal.txt" style = "color:blue" target="_blank">SettingsStorage.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/SettingsStorage.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/278_PermissionsStorage.sqlite-wal.txt" style = "color:blue" target="_blank">PermissionsStorage.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/PermissionsStorage.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/279_InitialChatFooterLocalUnblocker.sqlite-wal.txt" style = "color:blue" target="_blank">InitialChatFooterLocalUnblocker.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/InitialChatFooterLocalUnblocker.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/280_AnalyticsDatabase_v1.1.sqlite-wal.txt" style = "color:blue" target="_blank">AnalyticsDatabase_v1.1.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/AnalyticsDatabase_v1.1.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/281_AccountSettingsStorage.sqlite-wal.txt" style = "color:blue" target="_blank">AccountSettingsStorage.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Documents/AccountSettingsStorage.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/282_SharedUserCache.sqlite-wal.txt" style = "color:blue" target="_blank">SharedUserCache.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/SharedUserCache.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/283_yap-database.sqlite-wal.txt" style = "color:blue" target="_blank">yap-database.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/yap-database.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/284_BMAChatPromoBlockStorage.sqlite-wal.txt" style = "color:blue" target="_blank">BMAChatPromoBlockStorage.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/BMAChatPromoBlockStorage.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/285_BMAChatLastReadMessageServiceDatabase.sqlite-wal.txt" style = "color:blue" target="_blank">BMAChatLastReadMessageServiceDatabase.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/BMAChatLastReadMessageServiceDatabase.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/286_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/com.moxco.bumble/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/287_GiphyAnalyticsPendingActions.sqlite-wal.txt" style = "color:blue" target="_blank">GiphyAnalyticsPendingActions.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/GiphyAnalyticsPendingActions.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/288_Chat.sqlite-wal.txt" style = "color:blue" target="_blank">Chat.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/Chat.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/289_BFLocationKit.sqlite-wal.txt" style = "color:blue" target="_blank">BFLocationKit.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/BFLocationKit.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/290_RemoteAnimationsService.cachedb.sqlite-wal.txt" style = "color:blue" target="_blank">RemoteAnimationsService.cachedb.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/Caches/RemoteAnimationsService.cachedb.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/291_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34/Library/HTTPStorages/com.moxco.bumble/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/292_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/80C6D157-4E08-4C34-8A6F-FA3F7D5EE229/Library/Caches/com.hammerandchisel.discord/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/293_AlternativeService.sqlite-wal.txt" style = "color:blue" target="_blank">AlternativeService.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/80C6D157-4E08-4C34-8A6F-FA3F7D5EE229/Library/Caches/WebKit/AlternativeServices/AlternativeService.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/294_observations.db-wal.txt" style = "color:blue" target="_blank">observations.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/80C6D157-4E08-4C34-8A6F-FA3F7D5EE229/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal</td></tr><tr><td><a href="SQLite Journaling/295_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/80C6D157-4E08-4C34-8A6F-FA3F7D5EE229/Library/HTTPStorages/com.hammerandchisel.discord/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/296_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/BB8E90B6-E561-4D4D-BC8C-A12067289D11/Library/Caches/ru.appscraft.CollectorGame/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/297_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/BB8E90B6-E561-4D4D-BC8C-A12067289D11/Library/HTTPStorages/ru.appscraft.CollectorGame/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/298_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/5DE29AD8-C869-49FA-B8D5-6C375641A72A/Library/Caches/com.apple.AppStore/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/299_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/5DE29AD8-C869-49FA-B8D5-6C375641A72A/Library/Caches/com.apple.AppleAccount/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/300_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/5DE29AD8-C869-49FA-B8D5-6C375641A72A/Library/HTTPStorages/com.apple.AppStore/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/301_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B/Library/Caches/com.chess.iphone/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B/Library/Caches/com.alamofire.imagedownloader/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/302_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B/Library/Caches/com.chess.iphone/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/303_AlternativeService.sqlite-wal.txt" style = "color:blue" target="_blank">AlternativeService.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B/Library/Caches/WebKit/AlternativeServices/AlternativeService.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/304_observations.db-wal.txt" style = "color:blue" target="_blank">observations.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal</td></tr><tr><td><a href="SQLite Journaling/305_https_googleads.g.doubleclick.net_0.localstorage-wal.txt" style = "color:blue" target="_blank">https_googleads.g.doubleclick.net_0.localstorage-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B/Library/WebKit/WebsiteData/LocalStorage/https_googleads.g.doubleclick.net_0.localstorage-wal</td></tr><tr><td><a href="SQLite Journaling/306_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B/Library/HTTPStorages/com.chess.iphone/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/307_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/32622B94-890D-4FE3-9292-E9572FA5BB6E/Library/Caches/com.apple.weather/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/308_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/32622B94-890D-4FE3-9292-E9572FA5BB6E/Library/Caches/MapOverlays/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/309_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/32622B94-890D-4FE3-9292-E9572FA5BB6E/Library/HTTPStorages/com.apple.weather/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/310_homeTimeline-impressions.sqlite3-wal.txt" style = "color:blue" target="_blank">homeTimeline-impressions.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/CFD03282-AFFA-4F26-BBCA-AB8802A6BEDB/Documents/managedDatabase/Patrick01627276-664494319210515/homeTimeline-impressions.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/311_AlternativeService.sqlite-wal.txt" style = "color:blue" target="_blank">AlternativeService.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/CFD03282-AFFA-4F26-BBCA-AB8802A6BEDB/Library/Caches/WebKit/AlternativeServices/AlternativeService.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/312_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/CFD03282-AFFA-4F26-BBCA-AB8802A6BEDB/Library/Caches/com.atebits.Tweetie2/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/313_observations.db-wal.txt" style = "color:blue" target="_blank">observations.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/CFD03282-AFFA-4F26-BBCA-AB8802A6BEDB/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal</td></tr><tr><td><a href="SQLite Journaling/314_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/CFD03282-AFFA-4F26-BBCA-AB8802A6BEDB/Library/HTTPStorages/com.atebits.Tweetie2/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/315_SCLensPreferencesDatabaseFile.sqlite-wal.txt" style = "color:blue" target="_blank">SCLensPreferencesDatabaseFile.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/SCLensPreferencesDatabaseFile.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/316_experiment.store-wal.txt" style = "color:blue" target="_blank">experiment.store-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/experiment.store-wal</td></tr><tr><td><a href="SQLite Journaling/317_custom-sticker-1.sqlite3-wal.txt" style = "color:blue" target="_blank">custom-sticker-1.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/custom-sticker-1.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/318_scdb-27.sqlite3-wal.txt" style = "color:blue" target="_blank">scdb-27.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/gallery_data_object/1/ba07af6c6efbca061e805f6b36c216872a4fce21e0f73e6a594014e82590a5ea/scdb-27.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/319_preferences.sqlite-wal.txt" style = "color:blue" target="_blank">preferences.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/global_scoped/global-scoped-preferences/preferences.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/320_global.docobjects-wal.txt" style = "color:blue" target="_blank">global.docobjects-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/global_scoped/global-scoped-docobjects/global.docobjects-wal</td></tr><tr><td><a href="SQLite Journaling/321_cache_controller.db-wal.txt" style = "color:blue" target="_blank">cache_controller.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/global_scoped/cachecontroller/cache_controller.db-wal</td></tr><tr><td><a href="SQLite Journaling/322_pref.docobjects-wal.txt" style = "color:blue" target="_blank">pref.docobjects-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/user_scoped/ba07af6c6efbca061e805f6b36c216872a4fce21e0f73e6a594014e82590a5ea/userPreferences/pref.docobjects-wal</td></tr><tr><td><a href="SQLite Journaling/323_primary.docobjects-wal.txt" style = "color:blue" target="_blank">primary.docobjects-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Documents/user_scoped/ba07af6c6efbca061e805f6b36c216872a4fce21e0f73e6a594014e82590a5ea/DocObjects/primary.docobjects-wal</td></tr><tr><td><a href="SQLite Journaling/324_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Library/Caches/com.toyopagroup.picaboo/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/325_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1/Library/HTTPStorages/com.toyopagroup.picaboo/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/326_observations.db-wal.txt" style = "color:blue" target="_blank">observations.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/9916AB7F-EA5B-4A45-88C7-3896807D7F83/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal</td></tr><tr><td><a href="SQLite Journaling/327_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/9916AB7F-EA5B-4A45-88C7-3896807D7F83/Library/HTTPStorages/com.apple.Maps/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/328_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/9916AB7F-EA5B-4A45-88C7-3896807D7F83/Library/HTTPStorages/com.apple.MapsSupport/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/329_AllTrails.sqlite-wal.txt" style = "color:blue" target="_blank">AllTrails.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96/Documents/AllTrails.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/330_trackingDB.sqlite-wal.txt" style = "color:blue" target="_blank">trackingDB.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96/Documents/trackingDB.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/331_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96/Library/Caches/com.alltrails.AllTrails/embrace/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/332_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96/Library/Caches/com.alltrails.AllTrails/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/333_AlternativeService.sqlite-wal.txt" style = "color:blue" target="_blank">AlternativeService.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96/Library/Caches/WebKit/AlternativeServices/AlternativeService.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/334_observations.db-wal.txt" style = "color:blue" target="_blank">observations.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal</td></tr><tr><td><a href="SQLite Journaling/335_https_googleads.g.doubleclick.net_0.localstorage-wal.txt" style = "color:blue" target="_blank">https_googleads.g.doubleclick.net_0.localstorage-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96/Library/WebKit/WebsiteData/LocalStorage/https_googleads.g.doubleclick.net_0.localstorage-wal</td></tr><tr><td><a href="SQLite Journaling/336_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96/Library/HTTPStorages/com.alltrails.AllTrails/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/337_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/CloudKit/eaa30ee387a7caf66c0e0af4734c0e422b815ef0/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/338_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/CloudKit/76de73566ebfaed13c1ed6f8120dea45fe98c1c4/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/339_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/CloudKit/84a93005d19a5ed6ddcd1564a09c5ea398107def/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/340_pcs.db-wal.txt" style = "color:blue" target="_blank">pcs.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/CloudKit/2f499a61d18492de6bd996804e7fa35f3f2b5869/Records/pcs.db-wal</td></tr><tr><td><a href="SQLite Journaling/341_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Caches/com.apple.Safari.PasswordBreachAgent/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/342_AlternativeService.sqlite-wal.txt" style = "color:blue" target="_blank">AlternativeService.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Caches/WebKit/AlternativeServices/AlternativeService.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/343_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Caches/com.apple.ctcategories.service/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/344_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Caches/com.apple.SafariViewService/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/345_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Caches/com.apple.mobilesafari/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/346_PerSitePreferences.db-wal.txt" style = "color:blue" target="_blank">PerSitePreferences.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Safari/PerSitePreferences.db-wal</td></tr><tr><td><a href="SQLite Journaling/347_AutoFillCorrections.db-wal.txt" style = "color:blue" target="_blank">AutoFillCorrections.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Safari/AutoFillCorrections.db-wal</td></tr><tr><td><a href="SQLite Journaling/348_ContentBlockerStatistics.db-wal.txt" style = "color:blue" target="_blank">ContentBlockerStatistics.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Safari/ContentBlockerStatistics.db-wal</td></tr><tr><td><a href="SQLite Journaling/349_CloudAutoFillCorrections.db-wal.txt" style = "color:blue" target="_blank">CloudAutoFillCorrections.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Safari/CloudAutoFillCorrections.db-wal</td></tr><tr><td><a href="SQLite Journaling/350_IndexedDB.sqlite3-wal.txt" style = "color:blue" target="_blank">IndexedDB.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/IndexedDB/v1/https_www.bedbathandbeyond.com_0/E6B180913D339A08D78E6697A706ACCF5B54B1F6C0F14467746103E36BA9EDA5/IndexedDB.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/351_IndexedDB.sqlite3-wal.txt" style = "color:blue" target="_blank">IndexedDB.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/IndexedDB/v1/https_weather.com_0/049389CE6E4D97103F33CBF0BCAD4B48752E8CDA8F351BEF4DBB13A99EE90C2C/IndexedDB.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/352_IndexedDB.sqlite3-wal.txt" style = "color:blue" target="_blank">IndexedDB.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/IndexedDB/v1/https_weather.com_0/8A54240C845D4CA987D79AD0C6038F8D616FB016DB0432B0DAA184372CD26F52/IndexedDB.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/353_IndexedDB.sqlite3-wal.txt" style = "color:blue" target="_blank">IndexedDB.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/IndexedDB/v1/https_www.google.com_0/DB299F73CDAC24DC5DEFB983E89FEB18B6FDC1B777B60E3EFE69657CF035DF09/IndexedDB.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/354_observations.db-wal.txt" style = "color:blue" target="_blank">observations.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/ResourceLoadStatistics/observations.db-wal</td></tr><tr><td><a href="SQLite Journaling/355_https_www.bedbathandbeyond.com_0.localstorage-wal.txt" style = "color:blue" target="_blank">https_www.bedbathandbeyond.com_0.localstorage-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/LocalStorage/https_www.bedbathandbeyond.com_0.localstorage-wal</td></tr><tr><td><a href="SQLite Journaling/356_https_www.google.com_0.localstorage-wal.txt" style = "color:blue" target="_blank">https_www.google.com_0.localstorage-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/LocalStorage/https_www.google.com_0.localstorage-wal</td></tr><tr><td><a href="SQLite Journaling/357_https_preyproject.com_0.localstorage-wal.txt" style = "color:blue" target="_blank">https_preyproject.com_0.localstorage-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/LocalStorage/https_preyproject.com_0.localstorage-wal</td></tr><tr><td><a href="SQLite Journaling/358_https_weather.com_0.localstorage-wal.txt" style = "color:blue" target="_blank">https_weather.com_0.localstorage-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/WebKit/WebsiteData/LocalStorage/https_weather.com_0.localstorage-wal</td></tr><tr><td><a href="SQLite Journaling/359_Favicons.db-wal.txt" style = "color:blue" target="_blank">Favicons.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Image Cache/Favicons/Favicons.db-wal</td></tr><tr><td><a href="SQLite Journaling/360_TouchIconCacheSettings.db-wal.txt" style = "color:blue" target="_blank">TouchIconCacheSettings.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/Image Cache/Touch Icons/TouchIconCacheSettings.db-wal</td></tr><tr><td><a href="SQLite Journaling/361_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/HTTPStorages/com.apple.Safari.PasswordBreachAgent/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/362_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/HTTPStorages/com.apple.ctcategories.service/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/363_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/HTTPStorages/com.apple.SafariViewService/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/364_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/3AD031B2-D637-4B1A-AF0D-306A3BDCEE79/Library/HTTPStorages/com.apple.mobilesafari/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/365_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/95A286EA-70DB-4F01-B0C2-83CB3980C161/Library/Caches/com.apple.Passbook/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/366_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/95A286EA-70DB-4F01-B0C2-83CB3980C161/Library/HTTPStorages/com.apple.Passbook/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/367_https_finance-app.itunes.apple.com_0.localstorage-wal.txt" style = "color:blue" target="_blank">https_finance-app.itunes.apple.com_0.localstorage-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/2FFE2542-5FC6-48EC-BB89-091BDF09D4CB/Library/Caches/https_finance-app.itunes.apple.com_0.localstorage-wal</td></tr><tr><td><a href="SQLite Journaling/368_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/Application/2FFE2542-5FC6-48EC-BB89-091BDF09D4CB/Library/HTTPStorages/com.apple.ios.StoreKitUIService/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/369_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/832FA6E3-8611-4469-B0CA-7B3C87914A0A/Library/Caches/com.apple.news.tag/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/370_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/832FA6E3-8611-4469-B0CA-7B3C87914A0A/Library/HTTPStorages/com.apple.news.tag/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/371_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/A1B076E9-1CE3-498A-BA7F-8298FBE09D8E/Library/Caches/com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/372_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/0ED490C3-0A57-4AC5-B587-DF87FD8658F3/Library/HTTPStorages/com.apple.AuthKitUI.AKFollowUpServerUIExtension/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/373_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/9EBFA73F-EDAA-4F2B-9932-DAFFCEAE1BDA/Library/HTTPStorages/com.reddit.Reddit.RedditWidgets/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/374_recommendation_v9.sqlite-wal.txt" style = "color:blue" target="_blank">recommendation_v9.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/2D759FEF-DB87-4EFA-9E82-7450B9940CEF/Library/Application Support/recommendation_v9.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/375_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/Library/Caches/com.apple.news.widget/CK-at-Edge-URL-Cache/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/376_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/Library/Caches/com.apple.news.widget/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/377_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/Library/HTTPStorages/com.apple.news.widget/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/378_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/3299BADB-2AE8-4514-A8C4-D4B19B8200EC/Library/HTTPStorages/com.atebits.Tweetie2.NotificationServiceExtension/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/379_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/Library/Caches/com.reddit.Reddit.NotificationServiceExtension/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/380_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/Library/HTTPStorages/com.reddit.Reddit.NotificationServiceExtension/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/381_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/F9B7D887-8D3E-48A4-8504-B1835308C75F/Library/Caches/com.apple.weather.widget/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/382_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Containers/Data/PluginKitPlugin/F9B7D887-8D3E-48A4-8504-B1835308C75F/Library/HTTPStorages/com.apple.weather.widget/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/383_downloads.28.sqlitedb-wal.txt" style = "color:blue" target="_blank">downloads.28.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Media/Downloads/downloads.28.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/384_MediaLibrary.sqlitedb-wal.txt" style = "color:blue" target="_blank">MediaLibrary.sqlitedb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Media/iTunes_Control/iTunes/MediaLibrary.sqlitedb-wal</td></tr><tr><td><a href="SQLite Journaling/385_mediaanalysis.db-wal.txt" style = "color:blue" target="_blank">mediaanalysis.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Media/MediaAnalysis/mediaanalysis.db-wal</td></tr><tr><td><a href="SQLite Journaling/386_photosgraph.kgdb-wal.txt" style = "color:blue" target="_blank">photosgraph.kgdb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Media/PhotoData/Caches/GraphService/PhotosGraph/photosgraph.kgdb-wal</td></tr><tr><td><a href="SQLite Journaling/387_store.cloudphotodb-wal.txt" style = "color:blue" target="_blank">store.cloudphotodb-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Media/PhotoData/CPL/storage/store.cloudphotodb-wal</td></tr><tr><td><a href="SQLite Journaling/388_Photos.sqlite-wal.txt" style = "color:blue" target="_blank">Photos.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Media/PhotoData/Photos.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/389_netusage.sqlite-wal.txt" style = "color:blue" target="_blank">netusage.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/networkd/db/netusage.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/390_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/wireless/Library/HTTPStorages/com.apple.coretelephony/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/391_DataUsage.sqlite-wal.txt" style = "color:blue" target="_blank">DataUsage.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/wireless/Library/Databases/DataUsage.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/392_persistent.db-wal.txt" style = "color:blue" target="_blank">persistent.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/wireless/awdd/persistent.db-wal</td></tr><tr><td><a href="SQLite Journaling/393_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/com.apple.mobileassetd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/394_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/com.apple.transparencyd/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/395_cloudkit_cache.db-wal.txt" style = "color:blue" target="_blank">cloudkit_cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/Backup/cloudkit_cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/396_post_restore_queue.db-wal.txt" style = "color:blue" target="_blank">post_restore_queue.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/Backup/post_restore_queue.db-wal</td></tr><tr><td><a href="SQLite Journaling/397_cache_encryptedC.db-wal.txt" style = "color:blue" target="_blank">cache_encryptedC.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/locationd/cache_encryptedC.db-wal</td></tr><tr><td><a href="SQLite Journaling/398_consolidated.db-wal.txt" style = "color:blue" target="_blank">consolidated.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/locationd/consolidated.db-wal</td></tr><tr><td><a href="SQLite Journaling/399_cache_encryptedB.db-wal.txt" style = "color:blue" target="_blank">cache_encryptedB.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/locationd/cache_encryptedB.db-wal</td></tr><tr><td><a href="SQLite Journaling/400_gyroCal.db-wal.txt" style = "color:blue" target="_blank">gyroCal.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/locationd/gyroCal.db-wal</td></tr><tr><td><a href="SQLite Journaling/401_sensorRecorder_encryptedC.db-wal.txt" style = "color:blue" target="_blank">sensorRecorder_encryptedC.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/locationd/sensorRecorder_encryptedC.db-wal</td></tr><tr><td><a href="SQLite Journaling/402_ThreeBars.sqlite-wal.txt" style = "color:blue" target="_blank">ThreeBars.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Caches/com.apple.wifid/ThreeBars.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/403_splunk.db-wal.txt" style = "color:blue" target="_blank">splunk.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/USBRestricted/splunk.db-wal</td></tr><tr><td><a href="SQLite Journaling/404_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/HTTPStorages/com.apple.mobileassetd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/405_httpstorages.sqlite-wal.txt" style = "color:blue" target="_blank">httpstorages.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/HTTPStorages/com.apple.transparencyd/httpstorages.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/406_containers.sqlite3-wal.txt" style = "color:blue" target="_blank">containers.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/MobileContainerManager/containers.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/407_TransparencyModel.sqlite-wal.txt" style = "color:blue" target="_blank">TransparencyModel.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Application Support/com.apple.transparencyd/TransparencyModel.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/408_DeviceAnalyticsModel.sqlite-wal.txt" style = "color:blue" target="_blank">DeviceAnalyticsModel.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/root/Library/Application Support/com.apple.wifianalyticsd/DeviceAnalyticsModel.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/409_config.sqlite-wal.txt" style = "color:blue" target="_blank">config.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/db/analyticsd/config.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/410_BLDatabaseManager.sqlite-wal.txt" style = "color:blue" target="_blank">BLDatabaseManager.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/containers/Shared/SystemGroup/3831E1BB-47F6-4696-B86B-F0B7F100257C/Documents/BLDatabaseManager/BLDatabaseManager.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/411_com.apple.MobileBluetooth.ledevices.other.db-wal.txt" style = "color:blue" target="_blank">com.apple.MobileBluetooth.ledevices.other.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/containers/Shared/SystemGroup/F4B89D2B-3E23-4D49-BD61-7B2BE8531226/Library/Database/com.apple.MobileBluetooth.ledevices.other.db-wal</td></tr><tr><td><a href="SQLite Journaling/412_CurrentPowerlog.PLSQL-wal.txt" style = "color:blue" target="_blank">CurrentPowerlog.PLSQL-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/containers/Shared/SystemGroup/F3EF9636-FF64-40BB-9B94-D34F2694F64E/Library/BatteryLife/CurrentPowerlog.PLSQL-wal</td></tr><tr><td><a href="SQLite Journaling/413_CurrentLog.EPSQL-wal.txt" style = "color:blue" target="_blank">CurrentLog.EPSQL-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/containers/Shared/SystemGroup/F3EF9636-FF64-40BB-9B94-D34F2694F64E/Library/PerfPowerTelemetry/ExtendedPersistence/CurrentLog.EPSQL-wal</td></tr><tr><td><a href="SQLite Journaling/414_storeSystem.db-wal.txt" style = "color:blue" target="_blank">storeSystem.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/containers/Data/System/9B47BF67-AEF5-4257-B07F-F8ED8923923E/Documents/Persistence/storeSystem.db-wal</td></tr><tr><td><a href="SQLite Journaling/415_Cache.db-wal.txt" style = "color:blue" target="_blank">Cache.db-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/containers/Data/System/9194157C-6C0F-4E92-8B80-432E7E46309A/Library/Caches/Cache.db-wal</td></tr><tr><td><a href="SQLite Journaling/416_ocspcache.sqlite3-wal.txt" style = "color:blue" target="_blank">ocspcache.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/protected/trustd/private/ocspcache.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/417_valid.sqlite3-wal.txt" style = "color:blue" target="_blank">valid.sqlite3-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/protected/trustd/valid.sqlite3-wal</td></tr><tr><td><a href="SQLite Journaling/418_db.sqlite-wal.txt" style = "color:blue" target="_blank">db.sqlite-wal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/.DocumentRevisions-V100/db-V1/db.sqlite-wal</td></tr><tr><td><a href="SQLite Journaling/419_datasync-journal.txt" style = "color:blue" target="_blank">datasync-journal</a></td><td>/home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/homed/datasync-journal</td></tr></tbody><tfoot><tr><th>Report</th><th>Location</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

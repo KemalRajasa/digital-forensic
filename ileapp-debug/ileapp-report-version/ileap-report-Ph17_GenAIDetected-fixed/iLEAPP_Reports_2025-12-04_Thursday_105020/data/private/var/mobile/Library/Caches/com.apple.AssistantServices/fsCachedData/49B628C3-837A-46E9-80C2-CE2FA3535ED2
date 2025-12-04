@@ -1,0 +1,1270 @@
+{
+  "data" : {
+    "applicationProps" : {
+      "browseProps" : {
+        "scoresRefreshInSeconds" : 60
+      },
+      "enabledClientFeatures" : [ {
+        "domain" : "tvapp",
+        "name" : "syndication"
+      }, {
+        "domain" : "tvapp",
+        "name" : "snwpcr"
+      } ],
+      "featureEnablers" : {
+        "seasonTitles" : false,
+        "imageBasedSubtitles" : true,
+        "topShelf" : true,
+        "ageVerification" : false,
+        "unw" : true
+      },
+      "ratings" : {
+        "MPAA" : {
+          "G" : {
+            "description" : "General Audiences",
+            "displayValue" : "G",
+            "ratingCodeLabels" : "G",
+            "ratingValue" : 100
+          },
+          "GP" : {
+            "displayValue" : "GP",
+            "ratingCodeLabels" : "GP",
+            "ratingValue" : 150
+          },
+          "M" : {
+            "displayValue" : "M",
+            "ratingCodeLabels" : "M",
+            "ratingValue" : 350
+          },
+          "NC_17" : {
+            "description" : "No children under 17 admitted",
+            "displayValue" : "NC-17",
+            "ratingCodeLabels" : "NC-17",
+            "ratingValue" : 500
+          },
+          "NR" : {
+            "description" : "Not Rated",
+            "displayValue" : "NR",
+            "ratingCodeLabels" : "NR|Not rated",
+            "ratingValue" : 0
+          },
+          "PG" : {
+            "description" : "Parental Guidance",
+            "displayValue" : "PG",
+            "ratingCodeLabels" : "PG",
+            "ratingValue" : 200
+          },
+          "PG_13" : {
+            "description" : "Parental Guidance strongly recommended for under 13 years of age",
+            "displayValue" : "PG-13",
+            "ratingCodeLabels" : "PG-13",
+            "ratingValue" : 300
+          },
+          "R" : {
+            "description" : "Restricted.  Under 17 requires a parent or guardian",
+            "displayValue" : "R",
+            "ratingCodeLabels" : "R",
+            "ratingValue" : 400
+          },
+          "UR" : {
+            "description" : "Unrated",
+            "displayValue" : "Unrated",
+            "ratingCodeLabels" : "UR|Unrated",
+            "ratingValue" : 900
+          },
+          "X" : {
+            "displayValue" : "X",
+            "ratingCodeLabels" : "X",
+            "ratingValue" : 600
+          }
+        },
+        "US_TV" : {
+          "TV_14" : {
+            "displayValue" : "TV-14",
+            "ratingCodeLabels" : "TV-14|TV14",
+            "ratingValue" : 500
+          },
+          "TV_G" : {
+            "displayValue" : "TV-G",
+            "ratingCodeLabels" : "TV-G|TVG",
+            "ratingValue" : 300
+          },
+          "TV_MA" : {
+            "displayValue" : "TV-MA",
+            "ratingCodeLabels" : "TV-MA|TVMA",
+            "ratingValue" : 600
+          },
+          "TV_PG" : {
+            "displayValue" : "TV-PG",
+            "ratingCodeLabels" : "TV-PG|TVPG",
+            "ratingValue" : 400
+          },
+          "TV_Y" : {
+            "displayValue" : "TV-Y",
+            "ratingCodeLabels" : "TV-Y|TVY",
+            "ratingValue" : 100
+          },
+          "TV_Y7" : {
+            "displayValue" : "TV-Y7",
+            "ratingCodeLabels" : "TV-Y7|TVY7|TV-Y7-FV",
+            "ratingValue" : 200
+          }
+        }
+      },
+      "requiredParamsMap" : {
+        "WithoutUtsk" : {
+          "utscf" : "OjAAAAEAAAAAAAAAEAAAAA0A",
+          "caller" : "wlk",
+          "sf" : "143441",
+          "v" : "51",
+          "pfm" : "iphone",
+          "locale" : "en-US"
+        },
+        "Default" : {
+          "utscf" : "OjAAAAEAAAAAAAAAEAAAAA0A",
+          "utsk" : "f1f4d4b23f8188ac::::::29ffefde190a3dd8",
+          "caller" : "wlk",
+          "sf" : "143441",
+          "v" : "51",
+          "pfm" : "iphone",
+          "locale" : "en-US"
+        }
+      },
+      "routes" : {
+        "activityDecorateLive" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/activity/decorate/live",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/activity/decorate/live"
+        },
+        "activityDecorateLiveEbs" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/activity/decorate/live/ebs",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/activity/decorate/live/ebs"
+        },
+        "activityPlay" : {
+          "host" : "https://np-edge.itunes.apple.com",
+          "needsLocation" : true,
+          "needsMescal" : true,
+          "path" : "/play",
+          "requiredParamsType" : "Default",
+          "url" : "https://np-edge.itunes.apple.com/play"
+        },
+        "activityPlayablesDecorate" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/activity/playables/decorate",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/activity/playables/decorate"
+        },
+        "addToWatchlist" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/watchlist",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/watchlist"
+        },
+        "brands" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/brands/{brandIdOrSkuAdamId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/brands/{brandIdOrSkuAdamId}"
+        },
+        "brandsAppleTvPlus" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/brands/appleTvPlus",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/brands/appleTvPlus"
+        },
+        "brandsGet" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/brands/",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/brands"
+        },
+        "browseCanvas" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/canvas/{canvasId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/canvas/{canvasId}"
+        },
+        "browseChannel" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/channel/{brandId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/channel/{brandId}"
+        },
+        "browseChannelCollection" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/channelCollection/{brandId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/channelCollection/{brandId}"
+        },
+        "browseCollection" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/collection/{collectionId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/collection/{collectionId}"
+        },
+        "browseEllisLeague" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/ellis/league/{leagueId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/ellis/league/{leagueId}"
+        },
+        "browseForYou" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/forYou",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/forYou"
+        },
+        "browseGenre" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/genre/{genreId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/genre/{genreId}"
+        },
+        "browseKids" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/kids",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/kids"
+        },
+        "browseMain" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/main",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/main"
+        },
+        "browseMovies" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/movies",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/movies"
+        },
+        "browsePerson" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/person/{personId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/person/{personId}"
+        },
+        "browseRoom" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/room/{roomId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/room/{roomId}"
+        },
+        "browseRoot" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/root/{rootName}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/root/{rootName}"
+        },
+        "browseSports" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/sports",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/sports"
+        },
+        "browseSportsGroup" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/sports/group/{leagueOrSportId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/sports/group/{leagueOrSportId}"
+        },
+        "browseStore" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/store",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/store"
+        },
+        "browseTopShelf" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/topShelf",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/topShelf"
+        },
+        "browseTv" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/tv",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/tv"
+        },
+        "browseVideoClip" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/videoClip/{videoClipId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/videoClip/{videoClipId}"
+        },
+        "browseWatchNow" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/watchNow",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/watchNow"
+        },
+        "browseWebLanding" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/browse/webLanding",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/browse/webLanding"
+        },
+        "contentEpisodes" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/content/{showOrSeasonId}/episodes",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/content/{showOrSeasonId}/episodes"
+        },
+        "contentGet" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/content/get",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/content/get"
+        },
+        "contentPlay" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/content/{id}/play",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/content/{id}/play"
+        },
+        "contentPlayables" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/content/{id}/playables",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/content/{id}/playables"
+        },
+        "deleteFavoritePerson" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/favorite-people",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/favorite-people"
+        },
+        "deleteFavoriteTeam" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/favorite-teams",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/favorite-teams"
+        },
+        "episodeItunesSeasons" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/episode/{episodeId}/itunesSeasons",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/episode/{episodeId}/itunesSeasons"
+        },
+        "favorites" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/favorites",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/favorites"
+        },
+        "favoritesContains" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/contains",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/contains"
+        },
+        "favoritesSearch" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/search",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/search"
+        },
+        "genreDetail" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/genre/detail/{id}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/genre/detail/{id}"
+        },
+        "genreGet" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/genre/get",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/genre/get"
+        },
+        "getCanvasBinding" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/canvases/{canvasType}/{entityId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/canvases/{canvasType}/{entityId}"
+        },
+        "getCanvasById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/canvases/{canvasId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/canvases/{canvasId}"
+        },
+        "getChannels" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/channels",
+          "requiredParamsType" : "WithoutUtsk",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/channels"
+        },
+        "getChannelsById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/channels/{channelId}",
+          "requiredParamsType" : "WithoutUtsk",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/channels/{channelId}"
+        },
+        "getClientFeatures" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/features/client",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/features/client"
+        },
+        "getCollectionById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shelves/{collectionId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shelves/{collectionId}"
+        },
+        "getContentMetadataById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/contents",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/contents"
+        },
+        "getEditorialFeatures" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/features/editorial",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/features/editorial"
+        },
+        "getEpisodeDetailById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/episodes/{episodeId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/episodes/{episodeId}"
+        },
+        "getEpisodeMetadataById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/episodes/{episodeId}/metadata",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/episodes/{episodeId}/metadata"
+        },
+        "getFavoritePeople" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/favorite-people",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/favorite-people"
+        },
+        "getFavoriteTeams" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/favorite-teams",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/favorite-teams"
+        },
+        "getLiveService" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/live-services/{liveServiceId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/live-services/{liveServiceId}"
+        },
+        "getMovieBundleDetailById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/movie-bundles/{movieBundleId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/movie-bundles/{movieBundleId}"
+        },
+        "getMovieDetailById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/movies/{movieId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/movies/{movieId}"
+        },
+        "getMovieMetadataById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/movies/{movieId}/metadata",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/movies/{movieId}/metadata"
+        },
+        "getNextEpisode" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shows/{showId}/episodes/{episodeId}/next-episode",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shows/{showId}/episodes/{episodeId}/next-episode"
+        },
+        "getPersonalizedInfo" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/contents/{id}/personalized-flags",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/contents/{id}/personalized-flags"
+        },
+        "getPlayNextShelf" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shelves/play-next",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shelves/play-next"
+        },
+        "getPlayablesForContent" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/playables/{canonicalId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/playables/{canonicalId}"
+        },
+        "getPostPlayShelf" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shelves/post-play/{contentId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shelves/post-play/{contentId}"
+        },
+        "getRatings" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/ratings",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/ratings"
+        },
+        "getReverseLookupCanonicalIdsByExternalId" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/contents/lookup",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/contents/lookup"
+        },
+        "getSearchHints" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : false,
+          "needsMescal" : false,
+          "path" : "/uts/v3/search/hints",
+          "requiredParamsType" : "WithoutUtsk",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/search/hints"
+        },
+        "getSearchLanding" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/search/landing",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/search/landing"
+        },
+        "getSearchResults" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/search",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/search"
+        },
+        "getSeasonDetailById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shows/{showId}/{seasonId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shows/{showId}/{seasonId}"
+        },
+        "getSeasonMetadataById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/seasons/{seasonId}/metadata",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/seasons/{seasonId}/metadata"
+        },
+        "getServerFeatures" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/features/server",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/features/server"
+        },
+        "getSharedWithYouShelf" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shelves/shared-with-you",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shelves/shared-with-you"
+        },
+        "getShowDetailById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shows/{showId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shows/{showId}"
+        },
+        "getShowEpisodes" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shows/{showId}/episodes",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shows/{showId}/episodes"
+        },
+        "getShowMetadataById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shows/{showId}/metadata",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shows/{showId}/metadata"
+        },
+        "getSportingEventById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/sporting-events/{sportingEventId}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/sporting-events/{sportingEventId}"
+        },
+        "getSportingEventMetadataById" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/sporting-events/{sportingEventId}/metadata",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/sporting-events/{sportingEventId}/metadata"
+        },
+        "getStorefronts" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/storefronts",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/storefronts"
+        },
+        "getTabs" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/tabs",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/tabs"
+        },
+        "getTopShelf" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shelves/top-shelf",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shelves/top-shelf"
+        },
+        "getUpNextWidgetShelf" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/shelves/up-next-widget",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/shelves/up-next-widget"
+        },
+        "initFeatures" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/init/features",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/init/features"
+        },
+        "markItemAsWatched" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/play-history",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/play-history"
+        },
+        "personDetail" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/person/detail/{id}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/person/detail/{id}"
+        },
+        "personGet" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/person/get",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/person/get"
+        },
+        "postFavAdd" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/favorites/add",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/favorites/add"
+        },
+        "postFavRemove" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/favorites/remove",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/favorites/remove"
+        },
+        "postFavoritePerson" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/favorite-people",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/favorite-people"
+        },
+        "postFavoriteTeam" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/favorite-teams",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/favorite-teams"
+        },
+        "postFavoritesAdd" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/add",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/add"
+        },
+        "postFavoritesRemove" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/remove",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/remove"
+        },
+        "postWatchlistContinueWatchingRemove" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/continueWatching/remove",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/continueWatching/remove"
+        },
+        "postWatchlistMarkAsWatched" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/markAsWatched",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/markAsWatched"
+        },
+        "postWatchlistPlayHistoryRemove" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/playHistory/remove",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/playHistory/remove"
+        },
+        "removeFromWatchlist" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/watchlist",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/watchlist"
+        },
+        "removeItemFromPlayHistory" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/play-history/{id}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/play-history/{id}"
+        },
+        "searchIncremental" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/search/incremental",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/search/incremental"
+        },
+        "searchLanding" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/search/landing",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/search/landing"
+        },
+        "shelfTopshelf" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/shelf/top-shelf",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/shelf/top-shelf"
+        },
+        "showEpisodeNextepisode" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/show/{showId}/episode/{episodeId}/next-episode",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/show/{showId}/episode/{episodeId}/next-episode"
+        },
+        "showItunesSeasons" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/show/{showId}/itunesSeasons",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/show/{showId}/itunesSeasons"
+        },
+        "showSmartepisode" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/show/{showId}/smart-episode",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/show/{showId}/smart-episode"
+        },
+        "siri-personalizedBestPlayableForStatsIds" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri-personalized/bestPlayableForStatsIds",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri-personalized/bestPlayableForStatsIds"
+        },
+        "siri-personalizedSearch" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri-personalized/search",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri-personalized/search"
+        },
+        "siri-personalizedSearchLiveServices" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri-personalized/searchLiveServices",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri-personalized/searchLiveServices"
+        },
+        "siri-personalizedUpNext" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri-personalized/upNext",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri-personalized/upNext"
+        },
+        "siriAvailabilityForStatsIds" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri/availabilityForStatsIds",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri/availabilityForStatsIds"
+        },
+        "siriBestPlayableForStatsIds" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri/bestPlayableForStatsIds",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri/bestPlayableForStatsIds"
+        },
+        "siriGetContent" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/siri/content",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/siri/content"
+        },
+        "siriGetLiveServices" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/siri/live-services",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/siri/live-services"
+        },
+        "siriInit" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri/init",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri/init"
+        },
+        "siriNowPlaying" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri/nowPlaying",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri/nowPlaying"
+        },
+        "siriPlay" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri/play",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri/play"
+        },
+        "siriSearch" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/siri/",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/siri"
+        },
+        "siriSearchWatchlist" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/siri/watchlist",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/siri/watchlist"
+        },
+        "siriSmartPlay" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v3/siri/smart-play",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v3/siri/smart-play"
+        },
+        "sportsClockscore" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/sports/clockscore",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/sports/clockscore"
+        },
+        "sportsCompetitors" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/sports/competitors",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/sports/competitors"
+        },
+        "sportsLeague" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/sports/league",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/sports/league"
+        },
+        "sportsLeagues" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/sports/leagues",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/sports/leagues"
+        },
+        "sportsStatsIdLookup" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/sports/statsIdLookup",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/sports/statsIdLookup"
+        },
+        "sportsTeamsNearMe" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/sports/teamsNearMe",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/sports/teamsNearMe"
+        },
+        "viewProduct" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/view/product/{id}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/view/product/{id}"
+        },
+        "viewProductPersonalized" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/view/product/{id}/personalized",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/view/product/{id}/personalized"
+        },
+        "viewShow" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/view/show/{id}",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/view/show/{id}"
+        },
+        "viewShowEpisodes" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/view/show/{id}/episodes",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/view/show/{id}/episodes"
+        },
+        "viewShowPlayables" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/view/show/{id}/playables",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/view/show/{id}/playables"
+        },
+        "watchlistContinueWatching" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/continueWatching",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/continueWatching"
+        },
+        "watchlistPlayHistory" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/playHistory",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/playHistory"
+        },
+        "watchlistTopShelf" : {
+          "host" : "https://uts-api.itunes.apple.com/",
+          "needsLocation" : true,
+          "needsMescal" : false,
+          "path" : "/uts/v2/watchlist/topShelf",
+          "requiredParamsType" : "Default",
+          "url" : "https://uts-api.itunes.apple.com/uts/v2/watchlist/topShelf"
+        }
+      },
+      "storefront" : {
+        "localesSupported" : [ "en_US", "es_MX" ],
+        "storefrontId" : 143441
+      },
+      "tabs" : [ {
+        "destinationType" : "Target",
+        "target" : {
+          "id" : "tahoma_watchnow",
+          "type" : "Root",
+          "url" : "https://tv.apple.com/watch-now"
+        },
+        "title" : "Watch Now",
+        "type" : "WatchNow",
+        "universalLinks" : [ "https://tv.apple.com/watch-now" ]
+      }, {
+        "destinationType" : "Target",
+        "secondaryEnabled" : true,
+        "target" : {
+          "id" : "tahoma_movies",
+          "type" : "Root",
+          "url" : "https://tv.apple.com/movies"
+        },
+        "title" : "Movies",
+        "type" : "Movies",
+        "universalLinks" : [ "https://tv.apple.com/movies" ]
+      }, {
+        "destinationType" : "Target",
+        "secondaryEnabled" : true,
+        "target" : {
+          "id" : "tahoma_tvshows",
+          "type" : "Root",
+          "url" : "https://tv.apple.com/tv-shows"
+        },
+        "title" : "TV Shows",
+        "type" : "TV",
+        "universalLinks" : [ "https://tv.apple.com/tv-shows" ]
+      }, {
+        "destinationType" : "Target",
+        "secondaryEnabled" : true,
+        "target" : {
+          "id" : "tahoma_sports",
+          "type" : "Root",
+          "url" : "https://tv.apple.com/sports"
+        },
+        "title" : "Sports",
+        "type" : "Sports",
+        "universalLinks" : [ "https://tv.apple.com/sports" ]
+      }, {
+        "destinationType" : "Target",
+        "target" : {
+          "id" : "tvs.sbd.4000",
+          "type" : "Brand",
+          "url" : "https://tv.apple.com/us/channel/tvs.sbd.4000"
+        },
+        "title" : "Originals",
+        "type" : "Originals",
+        "universalLinks" : [ "https://tv.apple.com/channel/tvs.sbd.4000", "https://tv.apple.com/atv" ]
+      }, {
+        "destinationType" : "Client",
+        "title" : "Library",
+        "type" : "Library"
+      }, {
+        "destinationType" : "Target",
+        "target" : {
+          "id" : "tahoma_searchlanding",
+          "type" : "Root",
+          "url" : "https://tv.apple.com/search"
+        },
+        "title" : "Search",
+        "type" : "Search",
+        "universalLinks" : [ "https://tv.apple.com/search" ]
+      } ],
+      "tvAppEnabledInStorefront" : true,
+      "upsellOnExitPolicy" : {
+        "brandRateLimitPolicy" : {
+          "interval" : {
+            "period" : 1,
+            "type" : "day"
+          },
+          "max" : 3
+        },
+        "displayWhenIsDone" : true,
+        "displayWhenPlaybackPercentage" : 85,
+        "enabled" : true,
+        "showRateLimitPolicy" : {
+          "interval" : {
+            "period" : 1,
+            "type" : "day"
+          },
+          "max" : 2
+        }
+      }
+    },
+    "userProps" : {
+      "activeUser" : false,
+      "country" : "US",
+      "gac" : false
+    },
+    "utskProps" : {
+      "expirationInSeconds" : 7200,
+      "utsk" : "f1f4d4b23f8188ac::::::29ffefde190a3dd8"
+    }
+  }
+}

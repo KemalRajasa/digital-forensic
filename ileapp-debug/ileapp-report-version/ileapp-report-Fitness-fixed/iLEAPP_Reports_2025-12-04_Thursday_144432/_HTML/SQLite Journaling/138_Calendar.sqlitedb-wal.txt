@@ -1,0 +1,17 @@
+*YPL7
+
+
+CategoryLink
+CalendarItem
+Recurrence
+	Category
+ClientCursor
+Calendar
+Store
+>,]h
+
+com.apple.dataaccessd-4C9814FE-344E-4B7C-839F-F98B92F4F6AE
+com.apple.CoreSuggestions>Ak^
+com.apple.CoreSuggestions
+*(OXX
+

@@ -1,0 +1,12 @@
+2022-01-21 16:15:34 Data container moved com.alltrails.AllTrails /private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96
+2022-01-21 16:15:34 Made container live com.alltrails.AllTrails /private/var/containers/Bundle/Application/FD1AC727-4119-469D-932E-67E866E2245A
+2022-01-21 16:15:34 Install successful com.alltrails.AllTrails 
+2022-01-21 16:15:34 Data container moved com.alltrails.AllTrails /private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96
+2022-01-21 16:15:34 Made container live com.alltrails.AllTrails /private/var/containers/Bundle/Application/FD1AC727-4119-469D-932E-67E866E2245A
+2022-01-21 16:15:34 Install successful com.alltrails.AllTrails 
+2022-01-21 16:15:28 Made container live com.alltrails.AllTrails /private/var/mobile/Containers/Data/Application/F607B7BC-D7B6-443A-91CF-B52946B378EE
+2022-01-21 16:15:28 Made container live com.alltrails.AllTrails /private/var/containers/Bundle/Application/F147B056-AA64-4C10-B198-BF6D4659386E
+2022-01-21 16:15:28 Install successful com.alltrails.AllTrails 
+2022-01-21 16:15:28 Made container live com.alltrails.AllTrails /private/var/mobile/Containers/Data/Application/F607B7BC-D7B6-443A-91CF-B52946B378EE
+2022-01-21 16:15:28 Made container live com.alltrails.AllTrails /private/var/containers/Bundle/Application/F147B056-AA64-4C10-B198-BF6D4659386E
+2022-01-21 16:15:28 Install successful com.alltrails.AllTrails 

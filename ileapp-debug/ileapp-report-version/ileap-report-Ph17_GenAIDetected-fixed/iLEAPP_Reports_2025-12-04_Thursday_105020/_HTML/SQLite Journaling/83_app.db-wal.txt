@@ -1,0 +1,14 @@
+|bS	SQLite format 3
+.S`
+
+;tablecontentcontent
+CREATE TABLE content (cacheKey TEXT, version TEXT, object BLOB, taskIdentifier TEXT, state INTEGER, lastModified REAL, PRIMARY KEY (cacheKey, version))-
+indexsqlite_autoindex_content_1content	s
+5tableschedulesschedules
+CREATE TABLE schedules (identifier TEXT PRIMARY KEY, lastModified REAL, object BLOB)1
+indexsqlite_autoindex_schedules_1schedules
+[tablebacklogbacklog
+CREATE TABLE backlog (app STRING, payload BLOB, time REAL, identifier INTEGER PRIMARY KEY, type STRING)
+wtablekvskvs
+CREATE TABLE kvs (domain TEXT, key TEXT, value BLOB, valueType INTEGER, lastModified REAL, PRIMARY KEY (key, domain))%
+indexsqlite_autoindex_kvs_1kvs

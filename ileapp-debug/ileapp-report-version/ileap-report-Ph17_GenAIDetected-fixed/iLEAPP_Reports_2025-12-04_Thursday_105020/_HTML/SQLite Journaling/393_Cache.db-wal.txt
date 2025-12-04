@@ -1,0 +1,478 @@
+8o
+{b
+
+https://gdmf.apple.com/v2/assets2022-01-10 17:29:15
+8Y*"
+
+M	https://gdmf.apple.com/v2/assets
+5	cfurl_cache_response
+bplist00
+WVersionUArray
+
+
+$%
+_CFURLStringType\_CFURLString
+ https://gdmf.apple.com/v2/assets#AR5I
+ !"#VServer\Content-Type_
+X-Content-Type-Options_
+Strict-Transport-SecurityX__hhaa__TDate_
+X-Frame-Options_
+X-XSS-ProtectionTHost^Content-LengthZConnectionUApple_
+application/json; charset=UTF-8_
+nosniff, nosniff_
+Hmax-age=31536000; includeSubdomains, max-age=31536000; includeSubdomains_
+
+
+YnBsaXN0MDDaAQIDBAUGBwgJCgsNDxEUFhkcHiBWU2VydmVyXENvbnRlbnQtVHlwZV8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNfEBlTdHJpY3QtVHJhbnNwb3J0LVNlY3VyaXR5VERhdGVfEA9YLUZyYW1lLU9wdGlvbnNfEBBYLVhTUy1Qcm90ZWN0aW9uVEhvc3ReQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEMVUFwcGxloQ5fEB9hcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04ohAQV25vc25pZmaiEhNfECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViZG9tYWluc18QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRVfEB1Nb24sIDEwIEphbiAyMDIyIDE3OjI5OjEzIEdNVKIXGFpTQU1FT1JJR0lOWlNBTUVPUklHSU6iGhtdMTsgbW9kZT1ibG9ja10xOyBtb2RlPWJsb2NroR1eZ2RtZi5hcHBsZS5jb22hH1UzNzY2MqEhWmtlZXAtYWxpdmUACAAdACQAMQBKAGYAawB9AJAAlQCkAK8AsQC3ALkA2wDeAOYA6QEPATUBNwFXAVoBZQFwAXMBgQGPAZEBoAGiAagBqgAAAAAAAAIBAAAAAAAAACIAAAAAAAAAAAAAAAAAAAG1_
+Mon, 10 Jan 2022 17:29:13 GMT_
+SAMEORIGIN, SAMEORIGIN_
+1; mode=block, 1; mode=block^gdmf.apple.comU37662Zkeep-alive_
+ __CFURLResponseNullTokenString___
+application/json
+6bplist00
+ https://gdmf.apple.com/v2/assets#@N
+__CFURLRequestNullTokenString__	
+TPOST
+!"X__hhaa__VAccept^Content-Length\Content-Type_
+Accept-Language_
+Accept-Encoding_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoLDVZBY2NlcHReQ29udGVudC1MZW5ndGhcQ29udGVudC1UeXBlXxAPQWNjZXB0LUxhbmd1YWdlXxAPQWNjZXB0LUVuY29kaW5noQdfEBBhcHBsaWNhdGlvbi9qc29uoQlUMTQyM6EHoQxeZW4tVVMsZW47cT0wLjmhDl8QEWd6aXAsIGRlZmxhdGUsIGJyCBMaKTZIWlxvcXZ4eomLAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAJ8=_
+application/jsonT1423^en-US,en;q=0.9_
+gzip, deflate, br$O
+{
+  "TrainName" : "Sky",
+  "SessionId" : "F1EB8FA9-B84B-4D4E-8961-9A7D31E78C46",
+  "ProductType" : "iPhone10,1",
+  "AssetType" : "com.apple.MobileAsset.SoftwareUpdate",
+  "ProductVersion" : "15.0.2",
+  "AllowSameRestoreVersion" : "false",
+  "DeviceClass" : 1,
+  "DeviceVariant" : "A",
+  "SigningFuse" : "true",
+  "ClientData" : {
+    "AllowXmlFallback" : "false",
+    "DeviceAccessClient" : "softwareupdateservicesd"
+  },
+  "Nonce" : "B8559329-C2F3-4B50-9DB1-EBF43330F228",
+  "Supervised" : "false",
+  "ProductName" : "iPhone OS",
+  "NoFallback" : "true",
+  "BaseUrl" : "https:\/\/mesu.apple.com\/assets\/",
+  "AssetAudience" : "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
+  "BuildVersion" : "19A404",
+  "ClientVersion" : 2,
+  "InternalBuild" : "false",
+  "ScanRequestCount" : 1,
+  "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+  "IsUIBuild" : "true",
+  "HWModelStr" : "D20AP",
+  "AllowSameBuildVersion" : "false",
+  "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+  "DelayRequested" : "false",
+  "DeviceCheck" : "Background",
+  "DeviceOSData" : {
+    "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+    "BuildVersion" : "19A404",
+    "DeviceVariant" : "A",
+    "ProductType" : "iPhone10,1",
+    "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+    "HWModelStr" : "D20AP",
+    "DeviceName" : "iPhone",
+    "ProductName" : "iPhone OS",
+    "ProductVersion" : "15.0.2"
+  },
+  "DeviceName" : "iPhone"
+}
+	U2296B685-1CF6-4213-843B-F208F86DF269
+844w
+
+8ED}
+3	2022-01-10 17:29:15
+8+5}
+ https://gdmf.apple.com/v2/assets#AR6;
+
+
+YnBsaXN0MDDaAQIDBAUGBwgJCgsNDxEUFhkcHiBWU2VydmVyXENvbnRlbnQtVHlwZV8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNfEBlTdHJpY3QtVHJhbnNwb3J0LVNlY3VyaXR5VERhdGVfEA9YLUZyYW1lLU9wdGlvbnNfEBBYLVhTUy1Qcm90ZWN0aW9uVEhvc3ReQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEMVUFwcGxloQ5fEB9hcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04ohAQV25vc25pZmaiEhNfECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViZG9tYWluc18QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRVfEB1Nb24sIDEwIEphbiAyMDIyIDE3OjI5OjE2IEdNVKIXGFpTQU1FT1JJR0lOWlNBTUVPUklHSU6iGhtdMTsgbW9kZT1ibG9ja10xOyBtb2RlPWJsb2NroR1eZ2RtZi5hcHBsZS5jb22hH1UxMTU1MKEhWmtlZXAtYWxpdmUACAAdACQAMQBKAGYAawB9AJAAlQCkAK8AsQC3ALkA2wDeAOYA6QEPATUBNwFXAVoBZQFwAXMBgQGPAZEBoAGiAagBqgAAAAAAAAIBAAAAAAAAACIAAAAAAAAAAAAAAAAAAAG1_
+Mon, 10 Jan 2022 17:29:16 GMT_
+1; mode=block, 1; mode=block^gdmf.apple.comU11550Zkeep-alive_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoLDVZBY2NlcHReQ29udGVudC1MZW5ndGhcQ29udGVudC1UeXBlXxAPQWNjZXB0LUxhbmd1YWdlXxAPQWNjZXB0LUVuY29kaW5noQdfEBBhcHBsaWNhdGlvbi9qc29uoQlUMTQwM6EHoQxeZW4tVVMsZW47cT0wLjmhDl8QEWd6aXAsIGRlZmxhdGUsIGJyCBMaKTZIWlxvcXZ4eomLAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAJ8=_
+application/jsonT1403^en-US,en;q=0.9_
+{{
+  "TrainName" : "Sky",
+  "SessionId" : "F1EB8FA9-B84B-4D4E-8961-9A7D31E78C46",
+  "ProductType" : "iPhone10,1",
+  "AssetType" : "com.apple.MobileAsset.SoftwareUpdateDocumentation",
+  "ProductVersion" : "15.0.2",
+  "DeviceClass" : 1,
+  "DeviceVariant" : "A",
+  "SigningFuse" : "true",
+  "ClientData" : {
+    "AllowXmlFallback" : "false",
+    "DeviceAccessClient" : "softwareupdateservicesd"
+  },
+  "Nonce" : "D62FDC08-B6C8-4902-8112-87D43C07624E",
+  "Supervised" : "false",
+  "ProductName" : "iPhone OS",
+  "NoFallback" : "true",
+  "BaseUrl" : "https:\/\/mesu.apple.com\/assets\/",
+  "AssetAudience" : "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
+  "BuildVersion" : "19A404",
+  "ClientVersion" : 2,
+  "InternalBuild" : "false",
+  "SUDocumentationID" : "iOS152Short",
+  "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+  "IsUIBuild" : "true",
+  "HWModelStr" : "D20AP",
+  "ScanRequestCount" : 1,
+  "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+  "DelayRequested" : "false",
+  "DeviceOSData" : {
+    "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+    "BuildVersion" : "19A404",
+    "DeviceVariant" : "A",
+    "ProductType" : "iPhone10,1",
+    "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+    "HWModelStr" : "D20AP",
+    "DeviceName" : "iPhone",
+    "ProductName" : "iPhone OS",
+    "ProductVersion" : "15.0.2"
+  },
+  "CertIssuanceDay" : "2021-10-22",
+  "DeviceName" : "iPhone"
+}
+8	FOZ8SQLite format 3
+.S`
+
+f
+
+#u
+indexreceiver_data_indexcfurl_cache_receiver_dataCREATE INDEX receiver_data_index ON cfurl_cache_receiver_data(entry_ID)t	
+indexproto_props_indexcfurl_cache_blob_dataCREATE INDEX proto_props_index ON cfurl_cache_blob_data(entry_ID)r
+indextime_stamp_indexcfurl_cache_response
+CREATE INDEX time_stamp_index ON cfurl_cache_response(time_stamp)u
+indexrequest_key_indexcfurl_cache_response	CREATE INDEX request_key_index ON cfurl_cache_response(request_key)+
+etablecfurl_cache_receiver_datacfurl_cache_receiver_data
+CREATE TABLE cfurl_cache_receiver_data(entry_ID INTEGER PRIMARY KEY, isDataOnFS INTEGER, receiver_data BLOB)I
+1tablecfurl_cache_blob_datacfurl_cache_blob_data
+CREATE TABLE cfurl_cache_blob_data(entry_ID INTEGER PRIMARY KEY, response_object BLOB, request_object BLOB, 			  proto_props BLOB, user_info BLOB)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)"
+gtablecfurl_cache_responsecfurl_cache_response
+CREATE TABLE cfurl_cache_response(entry_ID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, 	 version INTEGER, hash_value INTEGER, storage_policy INTEGER, request_key TEXT UNIQUE, 	 time_stamp NOT NULL DEFAULT CURRENT_TIMESTAMP, partition TEXT)G
+indexsqlite_autoindex_cfurl_cache_response_2cfurl_cache_response
+indexsqlite_autoindex_cfurl_cache_response_1cfurl_cache_response
+8nQT
+3
+https://xp.apple.com/report/2/psr_ota2022-01-10 17:29:19?
+8>Tfk
+
+https://xp.apple.com/report/2/psr_ota
+cfurl_cache_response
+81jxgZ^
+
+8rs~
+
+2022-01-10 17:29:19
+8~#
+
+8alU
+
+
+,-
+%https://xp.apple.com/report/2/psr_ota#AR77
+ !"#$%&'()*+\Content-Type_
+Access-Control-Allow-OriginX__hhaa__WExpires_
+X-Apple-Jingle-Correlation-Key]Cache-ControlTDate_
+ Access-Control-Allow-Credentials_
+Strict-Transport-Security_
+apple-timing-app_
+X-Apple-Application-Site^Content-Length_
+X-Apple-Application-InstanceTVaryZConnection_
+application/json;charset=utf-8Q*_
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBtBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW5XRXhwaXJlc18QHlgtQXBwbGUtSmluZ2xlLUNvcnJlbGF0aW9uLUtleV1DYWNoZS1Db250cm9sVERhdGVfECBBY2Nlc3MtQ29udHJvbC1BbGxvdy1DcmVkZW50aWFsc18QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlfEBBhcHBsZS10aW1pbmctYXBwXxAYWC1BcHBsZS1BcHBsaWNhdGlvbi1TaXRlXkNvbnRlbnQtTGVuZ3RoXxAcWC1BcHBsZS1BcHBsaWNhdGlvbi1JbnN0YW5jZVRWYXJ5WkNvbm5lY3Rpb26hEF8QHmFwcGxpY2F0aW9uL2pzb247Y2hhcnNldD11dGYtOKESUSqhFF8QHU1vbiwgMTAgSmFuIDIwMjIgMTc6MzA6MTggR01UoRZfEBpWTjdEVVoyS0ZFM0FJSElTUVhZNkZaUUs2NKEYV3ByaXZhdGWhGl8QHU1vbiwgMTAgSmFuIDIwMjIgMTc6Mjk6MTggR01UoRxUdHJ1ZaEeXxAQbWF4LWFnZT0zMTUzNjAwMKEgUzltc6EiUlNUoSRRMqEmUzI1MaEoXxAhWC1BcHBsZS1TdG9yZS1Gcm9udCxYLURzaWQsQ29va2lloSpaa2VlcC1hbGl2ZQAIACUAMgBQAFgAeQCHAIwArwDLAN4A+QEIAScBLAE3ATkBWgFcAV4BYAGAAYIBnwGhAakBqwHLAc0B0gHUAecB6QHtAe8B8gH0AfYB+AH8Af4CIgIkAAAAAAAAAgEAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAi8=_
+Mon, 10 Jan 2022 17:30:18 GMT_
+VN7DUZ2KFE3AIHISQXY6FZQK64Wprivate_
+Mon, 10 Jan 2022 17:29:18 GMTTtrue_
+max-age=31536000S9msRSTQ2S251_
+!X-Apple-Store-Front,X-Dsid,CookieZkeep-alive_
+_bplist00
+%https://xp.apple.com/report/2/psr_ota#@N
+ !"X__hhaa__VAccept\Content-Type^Content-Length_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZBY2NlcHRcQ29udGVudC1UeXBlXkNvbnRlbnQtTGVuZ3RoXxAPQWNjZXB0LUxhbmd1YWdlXxAPQWNjZXB0LUVuY29kaW5noQdTKi8qoQlfEBBhcHBsaWNhdGlvbi9qc29uoQtTNzI0oQ1eZW4tVVMsZW47cT0wLjmhD18QEWd6aXAsIGRlZmxhdGUsIGJyCBMaJzZIWlxgYnV3e32MjgAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAACiS*/*_
+application/jsonS724^en-US,en;q=0.9_
+gzip, deflate, br$_
+i/private/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/SplunkRecords/422F55B8-D970-41AC-8580-A69485AED362
+!X-Apple-Store-Front,X-Dsid,Cookie
+PC*
+
+8$pR
+%https://xp.apple.com/report/2/psr_ota#AR9h)
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBtBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW5XRXhwaXJlc18QHlgtQXBwbGUtSmluZ2xlLUNvcnJlbGF0aW9uLUtleV1DYWNoZS1Db250cm9sVERhdGVfECBBY2Nlc3MtQ29udHJvbC1BbGxvdy1DcmVkZW50aWFsc18QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlfEBBhcHBsZS10aW1pbmctYXBwXxAYWC1BcHBsZS1BcHBsaWNhdGlvbi1TaXRlXkNvbnRlbnQtTGVuZ3RoXxAcWC1BcHBsZS1BcHBsaWNhdGlvbi1JbnN0YW5jZVRWYXJ5WkNvbm5lY3Rpb26hEF8QHmFwcGxpY2F0aW9uL2pzb247Y2hhcnNldD11dGYtOKESUSqhFF8QHU1vbiwgMTAgSmFuIDIwMjIgMTc6MzA6MjIgR01UoRZfEBpSNENYT01GSVBJUUVWRk9DT1E0VzZYUjc0RaEYV3ByaXZhdGWhGl8QHU1vbiwgMTAgSmFuIDIwMjIgMTc6Mjk6MjIgR01UoRxUdHJ1ZaEeXxAQbWF4LWFnZT0zMTUzNjAwMKEgUzBtc6EiUlNUoSRRMqEmUzIzNKEoXxAhWC1BcHBsZS1TdG9yZS1Gcm9udCxYLURzaWQsQ29va2lloSpaa2VlcC1hbGl2ZQAIACUAMgBQAFgAeQCHAIwArwDLAN4A+QEIAScBLAE3ATkBWgFcAV4BYAGAAYIBnwGhAakBqwHLAc0B0gHUAecB6QHtAe8B8gH0AfYB+AH8Af4CIgIkAAAAAAAAAgEAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAi8=_
+Mon, 10 Jan 2022 17:30:22 GMT_
+R4CXOMFIPIQEVFOCOQ4W6XR74EWprivate_
+Mon, 10 Jan 2022 17:29:22 GMTTtrue_
+max-age=31536000S0msRSTQ2S234_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZBY2NlcHRcQ29udGVudC1UeXBlXkNvbnRlbnQtTGVuZ3RoXxAPQWNjZXB0LUxhbmd1YWdlXxAPQWNjZXB0LUVuY29kaW5noQdTKi8qoQlfEBBhcHBsaWNhdGlvbi9qc29uoQtTNzM3oQ1eZW4tVVMsZW47cT0wLjmhD18QEWd6aXAsIGRlZmxhdGUsIGJyCBMaJzZIWlxgYnV3e32MjgAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAACiS*/*_
+application/jsonS737^en-US,en;q=0.9_
+i/private/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/SplunkRecords/4E8314B3-B165-4E92-9C24-DD6F9979F4F1
+8/M	N
+
+ https://gdmf.apple.com/v2/assets#AJ]`K
+
+
+YnBsaXN0MDDaAQIDBAUGBwgJCgsNDxEUFhkcHiBWU2VydmVyXENvbnRlbnQtVHlwZV8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNfEBlTdHJpY3QtVHJhbnNwb3J0LVNlY3VyaXR5VERhdGVfEA9YLUZyYW1lLU9wdGlvbnNfEBBYLVhTUy1Qcm90ZWN0aW9uVEhvc3ReQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEMVUFwcGxloQ5fEB9hcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04ohAQV25vc25pZmaiEhNfECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViZG9tYWluc18QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRVfEB1TYXQsIDIyIEphbiAyMDIyIDE5OjM4OjM0IEdNVKIXGFpTQU1FT1JJR0lOWlNBTUVPUklHSU6iGhtdMTsgbW9kZT1ibG9ja10xOyBtb2RlPWJsb2NroR1eZ2RtZi5hcHBsZS5jb22hH1UzNzY5MqEhWmtlZXAtYWxpdmUACAAdACQAMQBKAGYAawB9AJAAlQCkAK8AsQC3ALkA2wDeAOYA6QEPATUBNwFXAVoBZQFwAXMBgQGPAZEBoAGiAagBqgAAAAAAAAIBAAAAAAAAACIAAAAAAAAAAAAAAAAAAAG1_
+Sat, 22 Jan 2022 19:38:34 GMT_
+1; mode=block, 1; mode=block^gdmf.apple.comU37692Zkeep-alive_
+{
+  "TrainName" : "Sky",
+  "SessionId" : "C1C48ECD-3E48-44A2-8669-32C5F3270C46",
+  "ProductType" : "iPhone10,1",
+  "AssetType" : "com.apple.MobileAsset.SoftwareUpdate",
+  "ProductVersion" : "15.0.2",
+  "AllowSameRestoreVersion" : "false",
+  "DeviceClass" : 1,
+  "DeviceVariant" : "A",
+  "SigningFuse" : "true",
+  "ClientData" : {
+    "AllowXmlFallback" : "false",
+    "DeviceAccessClient" : "softwareupdateservicesd"
+  },
+  "Nonce" : "F4147BFC-38EF-448F-BD9B-DA46B155164B",
+  "Supervised" : "false",
+  "ProductName" : "iPhone OS",
+  "NoFallback" : "true",
+  "BaseUrl" : "https:\/\/mesu.apple.com\/assets\/",
+  "AssetAudience" : "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
+  "BuildVersion" : "19A404",
+  "ClientVersion" : 2,
+  "InternalBuild" : "false",
+  "ScanRequestCount" : 1,
+  "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+  "IsUIBuild" : "true",
+  "HWModelStr" : "D20AP",
+  "AllowSameBuildVersion" : "false",
+  "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+  "DelayRequested" : "false",
+  "DeviceCheck" : "Background",
+  "DeviceOSData" : {
+    "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+    "BuildVersion" : "19A404",
+    "DeviceVariant" : "A",
+    "ProductType" : "iPhone10,1",
+    "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+    "HWModelStr" : "D20AP",
+    "DeviceName" : "iPhone",
+    "ProductName" : "iPhone OS",
+    "ProductVersion" : "15.0.2"
+  },
+  "DeviceName" : "iPhone"
+}
+ https://gdmf.apple.com/v2/assets#AJ]H
+
+
+YnBsaXN0MDDaAQIDBAUGBwgJCgsNDxEUFhkcHiBWU2VydmVyXENvbnRlbnQtVHlwZV8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNfEBlTdHJpY3QtVHJhbnNwb3J0LVNlY3VyaXR5VERhdGVfEA9YLUZyYW1lLU9wdGlvbnNfEBBYLVhTUy1Qcm90ZWN0aW9uVEhvc3ReQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEMVUFwcGxloQ5fEB9hcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04ohAQV25vc25pZmaiEhNfECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViZG9tYWluc18QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRVfEB1TYXQsIDIyIEphbiAyMDIyIDE5OjM4OjM1IEdNVKIXGFpTQU1FT1JJR0lOWlNBTUVPUklHSU6iGhtdMTsgbW9kZT1ibG9ja10xOyBtb2RlPWJsb2NroR1eZ2RtZi5hcHBsZS5jb22hH1UxMTU1NqEhWmtlZXAtYWxpdmUACAAdACQAMQBKAGYAawB9AJAAlQCkAK8AsQC3ALkA2wDeAOYA6QEPATUBNwFXAVoBZQFwAXMBgQGPAZEBoAGiAagBqgAAAAAAAAIBAAAAAAAAACIAAAAAAAAAAAAAAAAAAAG1_
+Sat, 22 Jan 2022 19:38:35 GMT_
+1; mode=block, 1; mode=block^gdmf.apple.comU11556Zkeep-alive_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoLDVZBY2NlcHReQ29udGVudC1MZW5ndGhcQ29udGVudC1UeXBlXxAPQWNjZXB0LUxhbmd1YWdlXxAPQWNjZXB0LUVuY29kaW5noQdfEBBhcHBsaWNhdGlvbi9qc29uoQlUMTQwNKEHoQxeZW4tVVMsZW47cT0wLjmhDl8QEWd6aXAsIGRlZmxhdGUsIGJyCBMaKTZIWlxvcXZ4eomLAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAJ8=_
+application/jsonT1404^en-US,en;q=0.9_
+|{
+  "TrainName" : "Sky",
+  "SessionId" : "C1C48ECD-3E48-44A2-8669-32C5F3270C46",
+  "ProductType" : "iPhone10,1",
+  "AssetType" : "com.apple.MobileAsset.SoftwareUpdateDocumentation",
+  "ProductVersion" : "15.0.2",
+  "DeviceClass" : 1,
+  "DeviceVariant" : "A",
+  "SigningFuse" : "true",
+  "ClientData" : {
+    "AllowXmlFallback" : "false",
+    "DeviceAccessClient" : "softwareupdateservicesd"
+  },
+  "Nonce" : "C07495B6-0452-431F-BBB9-6461ACAAB440",
+  "Supervised" : "false",
+  "ProductName" : "iPhone OS",
+  "NoFallback" : "true",
+  "BaseUrl" : "https:\/\/mesu.apple.com\/assets\/",
+  "AssetAudience" : "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
+  "BuildVersion" : "19A404",
+  "ClientVersion" : 2,
+  "InternalBuild" : "false",
+  "SUDocumentationID" : "iOS1521Short",
+  "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+  "IsUIBuild" : "true",
+  "HWModelStr" : "D20AP",
+  "ScanRequestCount" : 1,
+  "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+  "DelayRequested" : "false",
+  "DeviceOSData" : {
+    "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+    "BuildVersion" : "19A404",
+    "DeviceVariant" : "A",
+    "ProductType" : "iPhone10,1",
+    "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+    "HWModelStr" : "D20AP",
+    "DeviceName" : "iPhone",
+    "ProductName" : "iPhone OS",
+    "ProductVersion" : "15.0.2"
+  },
+  "CertIssuanceDay" : "2021-10-22",
+  "DeviceName" : "iPhone"
+}
+8.^]Q
+%https://xp.apple.com/report/2/psr_ota#AJ]o
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBtBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW5XRXhwaXJlc18QHlgtQXBwbGUtSmluZ2xlLUNvcnJlbGF0aW9uLUtleV1DYWNoZS1Db250cm9sVERhdGVfECBBY2Nlc3MtQ29udHJvbC1BbGxvdy1DcmVkZW50aWFsc18QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlfEBBhcHBsZS10aW1pbmctYXBwXxAYWC1BcHBsZS1BcHBsaWNhdGlvbi1TaXRlXkNvbnRlbnQtTGVuZ3RoXxAcWC1BcHBsZS1BcHBsaWNhdGlvbi1JbnN0YW5jZVRWYXJ5WkNvbm5lY3Rpb26hEF8QHmFwcGxpY2F0aW9uL2pzb247Y2hhcnNldD11dGYtOKESUSqhFF8QHVNhdCwgMjIgSmFuIDIwMjIgMTk6Mzk6MzUgR01UoRZfEBpNRDIzTDJSRUhDVFhHU1NVMkZYRUZPTDVGUaEYV3ByaXZhdGWhGl8QHVNhdCwgMjIgSmFuIDIwMjIgMTk6Mzg6MzUgR01UoRxUdHJ1ZaEeXxAQbWF4LWFnZT0zMTUzNjAwMKEgUzFtc6EiUk1ToSRRMqEmUzUyMKEoXxAhWC1BcHBsZS1TdG9yZS1Gcm9udCxYLURzaWQsQ29va2lloSpaa2VlcC1hbGl2ZQAIACUAMgBQAFgAeQCHAIwArwDLAN4A+QEIAScBLAE3ATkBWgFcAV4BYAGAAYIBnwGhAakBqwHLAc0B0gHUAecB6QHtAe8B8gH0AfYB+AH8Af4CIgIkAAAAAAAAAgEAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAi8=_
+Sat, 22 Jan 2022 19:39:35 GMT_
+MD23L2REHCTXGSSU2FXEFOL5FQWprivate_
+Sat, 22 Jan 2022 19:38:35 GMTTtrue_
+max-age=31536000S1msRMSQ2S520_
+i/private/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/SplunkRecords/9E714B07-FB5C-4D81-9F4B-9B408F78964A
+%https://xp.apple.com/report/2/psr_ota#AJ]q
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBtBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW5XRXhwaXJlc18QHlgtQXBwbGUtSmluZ2xlLUNvcnJlbGF0aW9uLUtleV1DYWNoZS1Db250cm9sVERhdGVfECBBY2Nlc3MtQ29udHJvbC1BbGxvdy1DcmVkZW50aWFsc18QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlfEBBhcHBsZS10aW1pbmctYXBwXxAYWC1BcHBsZS1BcHBsaWNhdGlvbi1TaXRlXkNvbnRlbnQtTGVuZ3RoXxAcWC1BcHBsZS1BcHBsaWNhdGlvbi1JbnN0YW5jZVRWYXJ5WkNvbm5lY3Rpb26hEF8QHmFwcGxpY2F0aW9uL2pzb247Y2hhcnNldD11dGYtOKESUSqhFF8QHVNhdCwgMjIgSmFuIDIwMjIgMTk6Mzk6MzUgR01UoRZfEBpLR1pGQVNLVTVHNEJYNU02SEZCWU9YTkhHNKEYV3ByaXZhdGWhGl8QHVNhdCwgMjIgSmFuIDIwMjIgMTk6Mzg6MzUgR01UoRxUdHJ1ZaEeXxAQbWF4LWFnZT0zMTUzNjAwMKEgUzBtc6EiUk1ToSRRMqEmUzUyMqEoXxAhWC1BcHBsZS1TdG9yZS1Gcm9udCxYLURzaWQsQ29va2lloSpaa2VlcC1hbGl2ZQAIACUAMgBQAFgAeQCHAIwArwDLAN4A+QEIAScBLAE3ATkBWgFcAV4BYAGAAYIBnwGhAakBqwHLAc0B0gHUAecB6QHtAe8B8gH0AfYB+AH8Af4CIgIkAAAAAAAAAgEAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAi8=_
+KGZFASKU5G4BX5M6HFBYOXNHG4Wprivate_
+max-age=31536000S0msRMSQ2S522_
+i/private/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/SplunkRecords/E664F935-3376-4570-BB0F-BFBFFCF91032
+8	5j
+ https://gdmf.apple.com/v2/assets#A
+Strict-Transport-SecurityX__hhaa__TDateTHost_
+X-XSS-Protection^Content-LengthZConnectionUApple_
+application/json; charset=UTF-8Wnosniff_
+#max-age=31536000; includeSubdomains_
+p
+
+YnBsaXN0MDDaAQIDBAUGBwgJCgsNDxETFRcZGx1WU2VydmVyXENvbnRlbnQtVHlwZV8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNfEBlTdHJpY3QtVHJhbnNwb3J0LVNlY3VyaXR5VERhdGVUSG9zdF8QD1gtRnJhbWUtT3B0aW9uc18QEFgtWFNTLVByb3RlY3Rpb25eQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEMVUFwcGxloQ5fEB9hcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04oRBXbm9zbmlmZqESXxAjbWF4LWFnZT0zMTUzNjAwMDsgaW5jbHVkZVN1YmRvbWFpbnOhFF8QHVN1biwgMjMgSmFuIDIwMjIgMTk6Mzg6MzkgR01UoRZeZ2RtZi5hcHBsZS5jb22hGFpTQU1FT1JJR0lOoRpdMTsgbW9kZT1ibG9ja6EcVTM0NzgxoR5aa2VlcC1hbGl2ZQAIAB0AJAAxAEoAZgBrAHAAggCVAKQArwCxALcAuQDbAN0A5QDnAQ0BDwEvATEBQAFCAU0BTwFdAV8BZQFnAAAAAAAAAgEAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAXI=_
+Sun, 23 Jan 2022 19:38:39 GMT^gdmf.apple.comZSAMEORIGIN]1; mode=blockU34781Zkeep-alive_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoLDVZBY2NlcHReQ29udGVudC1MZW5ndGhcQ29udGVudC1UeXBlXxAPQWNjZXB0LUxhbmd1YWdlXxAPQWNjZXB0LUVuY29kaW5noQdfEBBhcHBsaWNhdGlvbi9qc29uoQlUMTQ1OaEHoQxeZW4tVVMsZW47cT0wLjmhDl8QEWd6aXAsIGRlZmxhdGUsIGJyCBMaKTZIWlxvcXZ4eomLAAAAAAAAAQEAAAAAAAAADwAAAAAAAAAAAAAAAAAAAJ8=_
+application/jsonT1459^en-US,en;q=0.9_
+{
+  "TrainName" : "Sky",
+  "SessionId" : "5EC83B19-4FF9-4AB5-84F5-F60CC2102C46",
+  "ProductType" : "iPhone10,1",
+  "AssetType" : "com.apple.MobileAsset.SoftwareUpdate",
+  "ProductVersion" : "15.0.2",
+  "AllowSameRestoreVersion" : "false",
+  "DeviceClass" : 1,
+  "DeviceVariant" : "A",
+  "SigningFuse" : "true",
+  "ClientData" : {
+    "AllowXmlFallback" : "false",
+    "DeviceAccessClient" : "softwareupdateservicesd"
+  },
+  "Nonce" : "0C66E2AA-C1A7-4236-A650-AB90AB671168",
+  "Supervised" : "false",
+  "ProductName" : "iPhone OS",
+  "NoFallback" : "true",
+  "BaseUrl" : "https:\/\/mesu.apple.com\/assets\/",
+  "AssetAudience" : "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
+  "BuildVersion" : "19A404",
+  "ClientVersion" : 2,
+  "InternalBuild" : "false",
+  "ScanRequestCount" : 1,
+  "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+  "IsUIBuild" : "true",
+  "HWModelStr" : "D20AP",
+  "AllowSameBuildVersion" : "false",
+  "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+  "DelayRequested" : "false",
+  "DeviceCheck" : "Background",
+  "DeviceOSData" : {
+    "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+    "BuildVersion" : "19A404",
+    "DeviceVariant" : "A",
+    "ProductType" : "iPhone10,1",
+    "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+    "HWModelStr" : "D20AP",
+    "DeviceName" : "iPhone",
+    "ProductName" : "iPhone OS",
+    "ProductVersion" : "15.0.2"
+  },
+  "DeviceName" : "iPhone",
+  "CertIssuanceDay" : "2021-10-22"
+}
+8JAPa
+%https://xp.apple.com/report/2/psr_ota#A 
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBtBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW5XRXhwaXJlc18QHlgtQXBwbGUtSmluZ2xlLUNvcnJlbGF0aW9uLUtleV1DYWNoZS1Db250cm9sVERhdGVfECBBY2Nlc3MtQ29udHJvbC1BbGxvdy1DcmVkZW50aWFsc18QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlfEBBhcHBsZS10aW1pbmctYXBwXxAYWC1BcHBsZS1BcHBsaWNhdGlvbi1TaXRlXkNvbnRlbnQtTGVuZ3RoXxAcWC1BcHBsZS1BcHBsaWNhdGlvbi1JbnN0YW5jZVRWYXJ5WkNvbm5lY3Rpb26hEF8QHmFwcGxpY2F0aW9uL2pzb247Y2hhcnNldD11dGYtOKESUSqhFF8QHVN1biwgMjMgSmFuIDIwMjIgMTk6Mzk6NDAgR01UoRZfEBpRQURQRVJYNU5HTUhOSjVBSDVDS1FWRVFINKEYV3ByaXZhdGWhGl8QHVN1biwgMjMgSmFuIDIwMjIgMTk6Mzg6NDAgR01UoRxUdHJ1ZaEeXxAQbWF4LWFnZT0zMTUzNjAwMKEgUzFtc6EiUlNUoSRRMqEmUzI1OKEoXxAhWC1BcHBsZS1TdG9yZS1Gcm9udCxYLURzaWQsQ29va2lloSpaa2VlcC1hbGl2ZQAIACUAMgBQAFgAeQCHAIwArwDLAN4A+QEIAScBLAE3ATkBWgFcAV4BYAGAAYIBnwGhAakBqwHLAc0B0gHUAecB6QHtAe8B8gH0AfYB+AH8Af4CIgIkAAAAAAAAAgEAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAi8=_
+Sun, 23 Jan 2022 19:39:40 GMT_
+QADPERX5NGMHNJ5AH5CKQVEQH4Wprivate_
+Sun, 23 Jan 2022 19:38:40 GMTTtrue_
+max-age=31536000S1msRSTQ2S258_
+i/private/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/SplunkRecords/9014784F-5FB5-446E-AC80-EDAD649AD9BE
+8s4U
+ https://gdmf.apple.com/v2/assets#A 
+p
+
+YnBsaXN0MDDaAQIDBAUGBwgJCgsNDxETFRcZGx1WU2VydmVyXENvbnRlbnQtVHlwZV8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNfEBlTdHJpY3QtVHJhbnNwb3J0LVNlY3VyaXR5VERhdGVUSG9zdF8QD1gtRnJhbWUtT3B0aW9uc18QEFgtWFNTLVByb3RlY3Rpb25eQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEMVUFwcGxloQ5fEB9hcHBsaWNhdGlvbi9qc29uOyBjaGFyc2V0PVVURi04oRBXbm9zbmlmZqESXxAjbWF4LWFnZT0zMTUzNjAwMDsgaW5jbHVkZVN1YmRvbWFpbnOhFF8QHVN1biwgMjMgSmFuIDIwMjIgMTk6Mzg6NDEgR01UoRZeZ2RtZi5hcHBsZS5jb22hGFpTQU1FT1JJR0lOoRpdMTsgbW9kZT1ibG9ja6EcVTExNTU3oR5aa2VlcC1hbGl2ZQAIAB0AJAAxAEoAZgBrAHAAggCVAKQArwCxALcAuQDbAN0A5QDnAQ0BDwEvATEBQAFCAU0BTwFdAV8BZQFnAAAAAAAAAgEAAAAAAAAAHwAAAAAAAAAAAAAAAAAAAXI=_
+Sun, 23 Jan 2022 19:38:41 GMT^gdmf.apple.comZSAMEORIGIN]1; mode=blockU11557Zkeep-alive_
+|{
+  "TrainName" : "Sky",
+  "SessionId" : "5EC83B19-4FF9-4AB5-84F5-F60CC2102C46",
+  "ProductType" : "iPhone10,1",
+  "AssetType" : "com.apple.MobileAsset.SoftwareUpdateDocumentation",
+  "ProductVersion" : "15.0.2",
+  "DeviceClass" : 1,
+  "DeviceVariant" : "A",
+  "SigningFuse" : "true",
+  "ClientData" : {
+    "AllowXmlFallback" : "false",
+    "DeviceAccessClient" : "softwareupdateservicesd"
+  },
+  "Nonce" : "1BDD0CFE-17FC-4775-B862-F5A10CC68E7C",
+  "Supervised" : "false",
+  "ProductName" : "iPhone OS",
+  "NoFallback" : "true",
+  "BaseUrl" : "https:\/\/mesu.apple.com\/assets\/",
+  "AssetAudience" : "01c1d682-6e8f-4908-b724-5501fe3f5e5c",
+  "BuildVersion" : "19A404",
+  "ClientVersion" : 2,
+  "InternalBuild" : "false",
+  "SUDocumentationID" : "iOS1521Short",
+  "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+  "IsUIBuild" : "true",
+  "HWModelStr" : "D20AP",
+  "ScanRequestCount" : 1,
+  "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+  "DelayRequested" : "false",
+  "DeviceOSData" : {
+    "SystemImageID" : "90B19FE1-A01D-4BA2-BB1A-B6EBD6B19EBF",
+    "BuildVersion" : "19A404",
+    "DeviceVariant" : "A",
+    "ProductType" : "iPhone10,1",
+    "BuildID" : "239D3DCA-2713-11EC-9C98-70E2489C1635",
+    "HWModelStr" : "D20AP",
+    "DeviceName" : "iPhone",
+    "ProductName" : "iPhone OS",
+    "ProductVersion" : "15.0.2"
+  },
+  "CertIssuanceDay" : "2021-10-22",
+  "DeviceName" : "iPhone"
+}
+%https://xp.apple.com/report/2/psr_ota#A S
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBtBY2Nlc3MtQ29udHJvbC1BbGxvdy1PcmlnaW5XRXhwaXJlc18QHlgtQXBwbGUtSmluZ2xlLUNvcnJlbGF0aW9uLUtleV1DYWNoZS1Db250cm9sVERhdGVfECBBY2Nlc3MtQ29udHJvbC1BbGxvdy1DcmVkZW50aWFsc18QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlfEBBhcHBsZS10aW1pbmctYXBwXxAYWC1BcHBsZS1BcHBsaWNhdGlvbi1TaXRlXkNvbnRlbnQtTGVuZ3RoXxAcWC1BcHBsZS1BcHBsaWNhdGlvbi1JbnN0YW5jZVRWYXJ5WkNvbm5lY3Rpb26hEF8QHmFwcGxpY2F0aW9uL2pzb247Y2hhcnNldD11dGYtOKESUSqhFF8QHVN1biwgMjMgSmFuIDIwMjIgMTk6Mzk6NDEgR01UoRZfEBpENEo0M05NVjVNUVg1RVAzRU1QRzJYRUNJSaEYV3ByaXZhdGWhGl8QHVN1biwgMjMgSmFuIDIwMjIgMTk6Mzg6NDEgR01UoRxUdHJ1ZaEeXxAQbWF4LWFnZT0zMTUzNjAwMKEgUzBtc6EiUlNUoSRRMqEmUzI1NqEoXxAhWC1BcHBsZS1TdG9yZS1Gcm9udCxYLURzaWQsQ29va2lloSpaa2VlcC1hbGl2ZQAIACUAMgBQAFgAeQCHAIwArwDLAN4A+QEIAScBLAE3ATkBWgFcAV4BYAGAAYIBnwGhAakBqwHLAc0B0gHUAecB6QHtAe8B8gH0AfYB+AH8Af4CIgIkAAAAAAAAAgEAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAi8=_
+Sun, 23 Jan 2022 19:39:41 GMT_
+D4J43NMV5MQX5EP3EMPG2XECIIWprivate_
+Sun, 23 Jan 2022 19:38:41 GMTTtrue_
+max-age=31536000S0msRSTQ2S256_
+i/private/var/MobileSoftwareUpdate/MobileAsset/AssetsV2/SplunkRecords/31D6B61F-1FF2-404E-8C65-299F1407B91B

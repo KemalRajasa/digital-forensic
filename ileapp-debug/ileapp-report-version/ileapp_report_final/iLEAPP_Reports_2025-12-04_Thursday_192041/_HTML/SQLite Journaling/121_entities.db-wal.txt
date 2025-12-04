@@ -1,0 +1,516 @@
+D92oAHSQLite format 3
+.S`
+
+DG1
+
+Dvu]b
+SQLite format 3
+DZHw
+
+locations
+emailMetadata
+D	vz?
+8y%
+
+D~6Cdb0
+
+DBxxeA
+6(c
+
+D?\Y(
+Du!
+
+rowIdWhenEventsEnabled
+rowIdWhenContactsEnabled
+DQybI<Z
+
+D<f@wG
+
+W%2
+
+Dh5&d4|
+
+D2k7
+D?{W
+DJz 
+
+DT)<1
+
+x/[S
+
+Ui.
+
+Q]A
+
+D.~fxF_p
+
+vp
+x"
+D&<,
+Dh?w;
+
+DtLL
+`M@
+
+D*rV1
+
+X@S
+
+D10TTF}
+
+D`PCpO
+
+nd
+
+DI&]Qu
+
+D@pA'
+
+j8Uz
+D:4^
+
+DNz0xR
+Dc@
+
+1 ?W
+
++tmg
+
+=	rowIdWhenContactsEnabled
+DfB53
+
+{U
+
+DN4(n
+
+D
+
+H
+
+D~0	M3-
+
+C`W
+
+DiQqL
+
+DfCV
+D#Opa
+DJg
+a
+
+Ds\a
+Z\MG
+
+Dv?'
+DKpY={
+j
+Y
+
+D\
+
+
+DlMh
+bo7
+
+c7n
+
+Dw\a
+Dgx4\;
+
+)
+'
+y
+
+@		c
+AX|
+indexreimportItemsRequestIdxreimportItemsSCREATE INDEX reimportItemsRequestIdx ON reimportItems(reimportRequestId)
+Q
+/indexreimportRequestsExecutionIdxreimportRequestsRCREATE INDEX reimportRequestsExecutionIdx ON reimportRequests(executionTimestamp)~P
+indexreimportRequestsQueryIdxreimportRequestsQCREATE INDEX reimportRequestsQueryIdx ON reimportRequests(queryTimestamp)
+7indexentityPendingGeocodeIdxentityKCREATE INDEX entityPendingGeocodeIdx ON entity(pendingGeocode) WHERE pendingGeocode=1kI
+indexix_entityTags_parentKeyentityTagsJCREATE INDEX ix_entityTags_parentKey ON entityTags(parentKey)lH
+indexmessageTracerIdxmessageTracerICREATE UNIQUE INDEX messageTracerIdx ON messageTracer(domain, key)YG
+windexmetadataKeyIndexmetadataHCREATE UNIQUE INDEX metadataKeyIndex ON metadata(key)
+'indexix_entityTags_dupKeyHashBlobentityTagsGCREATE INDEX ix_entityTags_dupKeyHashBlob ON entityTags(duplicateKeyHashBlob)5E
+sindexentityParentageDuplicateKeyHashBlobIdxentityParentageFCREATE UNIQUE INDEX entityParentageDuplicateKeyHashBlobIdx on entityParentage(duplicateKeyHashBlob, extractionType)rD
+indexentityContentHashBlobIdxentityECREATE UNIQUE INDEX entityContentHashBlobIdx ON entity(contentHashBlob)GC
+indexix_harvestQueueTombstones_uniqueharvestQueueTombstonesDCREATE UNIQUE INDEX ix_harvestQueueTombstones_unique ON harvestQueueTombstones(bundleIdentifier, uniqueIdentifier, domainIdentifier)
+9indexentityParentageParentKeyChildIdIdxentityParentageCCREATE INDEX entityParentageParentKeyChildIdIdx on entityParentage(parentKey, childId)OA
+mindexentityTypeIdxentityBCREATE INDEX entityTypeIdx ON entity(entityType)_@
+indexentityDupKeyIdxentityACREATE INDEX entityDupKeyIdx ON entity(entityKey, entityType)l?
+	indexix_statsCounters_keystatsCounters@CREATE UNIQUE INDEX ix_statsCounters_key ON statsCounters(key)0>
+gindexcnContactsToSgContactsUniqueJoincnContactsToSgContacts?CREATE UNIQUE INDEX cnContactsToSgContactsUniqueJoin ON cnContactsToSgContacts(cnContactIdentifier, entityId)
+-indexcnContactsToSgContactsEntityIdxcnContactsToSgContacts>CREATE INDEX cnContactsToSgContactsEntityIdx ON cnContactsToSgContacts(entityId)F<
+aindexgroupIdIdxentity=CREATE INDEX groupIdIdx on entity(groupId)e;
+indexentityDownloadStateIdxentity<CREATE INDEX entityDownloadStateIdx on entity(downloadState)~:
+indexentityReferencesEntityIdIdxentityReferences;CREATE INDEX entityReferencesEntityIdIdx ON entityReferences(entityId)
+kindexix_emailTags_tagemailTagsOCREATE INDEX ix_emailTags_tag ON emailTags(tag)kL
+indexix_emailMetadata_stateemailMetadataMCREATE INDEX ix_emailMetadata_state ON emailMetadata(state)lK
+	indexix_emailMetadata_keyemailMetadataLCREATE UNIQUE INDEX ix_emailMetadata_key ON emailMetadata(key)
+IindexentityReferencesDomainIdxentityReferences:CREATE INDEX entityReferencesDomainIdx ON entityReferences(bundleIdentifier, domainIdentifier)
+WindexentityReferencesUniqueIdxentityReferences9CREATE UNIQUE INDEX entityReferencesUniqueIdx ON entityReferences(bundleIdentifier, uniqueIdentifier)s7
+indexix_identityLink_recordId2identityLink8CREATE INDEX ix_identityLink_recordId2 ON identityLink(recordId2)
+6
+/indexserializedContactsEntityIdIdxserializedContacts7CREATE UNIQUE INDEX serializedContactsEntityIdIdx ON serializedContacts(entityId)
+kindexix_emailTags_keyemailTagsPCREATE INDEX ix_emailTags_key ON emailTags(key)
+#indexix_emailMetadata_downloadStateemailMetadataNCREATE INDEX ix_emailMetadata_downloadState ON emailMetadata(downloadState)
+D:sE3L
+k
+T
+
+v		j	
+indexix_identityPerson_surnameidentityPersonfCREATE INDEX ix_identityPerson_surname ON identityPerson(surname)1d
+oindexmailintelligence_spotlightMapping_bundleIdentifier_terminatedDomainIdentifier_idxmailIntelligence_spotlightMappingeCREATE INDEX mailintelligence_spotlightMapping_bundleIdentifier_terminatedDomainIdentifier_idx ON mailIntelligence_spotlightMapping(bundleIdentifier, terminatedDomainIdentifier)
+Uindexmailintelligence_spotlightMapping_bundleIdentifier_uniqueIdentifier_idxmailIntelligence_spotlightMappingdCREATE UNIQUE INDEX mailintelligence_spotlightMapping_bundleIdentifier_uniqueIdentifier_idx ON mailIntelligence_spotlightMapping(bundleIdentifier, uniqueIdentifier)\b
+-indexmailintelligence_saliency_covering_idxmailIntelligence_saliencycCREATE INDEX mailintelligence_saliency_covering_idx ON mailintelligence_saliency(mailboxId, creationTimestamp DESC, score, isSalient, messageId)
+SindexmailIntelligence_naiveBayesModelsTokens_featureName_token_unigram_idxmailIntelligence_naiveBayesModelsTokensbCREATE UNIQUE INDEX mailIntelligence_naiveBayesModelsTokens_featureName_token_unigram_idx ON mailIntelligence_naiveBayesModelsTokens(featureName, token, isUnigram)t`
+5indexix_urls_url_docurlsaCREATE UNIQUE INDEX ix_urls_url_doc ON urls(url, doc_id, document_seconds_from_1970)
+indexmailIntelligence_naiveBayesModelsGlobalCounts_featureName_idxmailIntelligence_naiveBayesModelsGlobalCounts`CREATE INDEX mailIntelligence_naiveBayesModelsGlobalCounts_featureName_idx ON mailIntelligence_naiveBayesModelsGlobalCounts(featureName)b^
+}indexeventTags_eventId_idxeventTags_CREATE INDEX eventTags_eventId_idx ON eventTags(eventId)Y]
+uindexevents_entityId_idxevents^CREATE INDEX events_entityId_idx ON events(entityId)f\
+indexevents_duplicateKey_idxevents]CREATE INDEX events_duplicateKey_idx ON events(duplicateKey)z[
+indexcontactDetails_entityId_idxcontactDetails\CREATE INDEX contactDetails_entityId_idx ON contactDetails(entityId)
+%indexcontactDetails_duplicateKey_idxcontactDetails[CREATE INDEX contactDetails_duplicateKey_idx ON contactDetails(duplicateKey)fY
+indexreminders_entityId_idxremindersZCREATE INDEX reminders_entityId_idx ON reminders(entityId)rX
+indexreminders_duplicateKey_idxremindersYCREATE INDEX reminders_duplicateKey_idx ON reminders(duplicateKey)
+WindexpendingVerificationIdxemailMetadataXCREATE INDEX pendingVerificationIdx ON emailMetadata(pendingVerification) WHERE pendingVerification=1oV
+indexix_urls_bundle_id_group_idurlsWCREATE INDEX ix_urls_bundle_id_group_id ON urls(bundle_id, group_id)kU
+indexix_urls_seconds_from_1970urlsVCREATE INDEX ix_urls_seconds_from_1970 ON urls(seconds_from_1970)
+)indexreimportItemsBundleUniqueIdxreimportItemsUCREATE INDEX reimportItemsBundleUniqueIdx ON reimportItems(bundleId, uniqueId)
+S
+7indexreimportItemsSeenByReceiverIdxreimportItemsTCREATE INDEX reimportItemsSeenByReceiverIdx ON reimportItems(seenByReceiverTimestamp)
+indexix_identityPerson_email_namelessidentityPersonhCREATE INDEX ix_identityPerson_email_nameless ON identityPerson(email)~f
+indexix_identityPerson_middlenameidentityPersongCREATE INDEX ix_identityPerson_middlename ON identityPerson(middlename)
+
+#	z
+
+#
+	
+X	
+ItablecnContactsToSgContactsCacheJobscnContactsToSgContactsCacheJobs
+CREATE TABLE cnContactsToSgContactsCacheJobs (id INTEGER PRIMARY KEY AUTOINCREMENT,batch TEXT)A
+tablecnContactsToSgContactscnContactsToSgContacts
+CREATE TABLE cnContactsToSgContacts (id INTEGER PRIMARY KEY AUTOINCREMENT,cnContactIdentifier TEXT,maxEntityId INTEGER,entityId INTEGER)D
+;tableentityReferencesentityReferences
+CREATE TABLE entityReferences (id INTEGER PRIMARY KEY AUTOINCREMENT,bundleIdentifier TEXT,uniqueIdentifier TEXT,entityId INTEGER,domainIdentifier TEXT)p
+tableidentityInterdictidentityInterdict
+CREATE TABLE identityInterdict (a TEXT NOT NULL, b TEXT NOT NULL)7
+indexsqlite_autoindex_identityLink_1identityLink
+{tableidentityLinkidentityLink
+CREATE TABLE identityLink (    recordId1 INTEGER NOT NULL,    recordId2 INTEGER NOT NULL,    type INT NOT NULL,    strength REAL NOT NULL,    PRIMARY KEY (recordId1, recordId2, type))
+OtableserializedContactsserializedContacts
+CREATE TABLE serializedContacts (id INTEGER PRIMARY KEY AUTOINCREMENT,entityId INTEGER,data BLOB)=
+
+indexsqlite_autoindex_entityParentage_1entityParentage
+tableentityParentageentityParentage
+CREATE TABLE entityParentage (id INTEGER PRIMARY KEY AUTOINCREMENT,parentKey TEXT,childId INTEGER NOT NULL,duplicateKeyHash TEXT NOT NULL,extractionType INTEGER,sourceKey TEXT, duplicateKeyHashBlob BLOB, modelVersion INTEGER NOT NULL DEFAULT 0, modelConfidence REAL NOT NULL DEFAULT 0.5,UNIQUE(parentKey, childId))
+YtableconfirmedFieldValuesconfirmedFieldValuesCREATE TABLE confirmedFieldValues (entityId INTEGER PRIMARY KEY,fieldValues BLOB,maybeChanged BOOLEAN).
+
+'tableentityTagsentityTagsCREATE TABLE entityTags (tag TEXT,entityKey TEXT,entityType INTEGER,parentKey TEXT,duplicateKeyHash TEXT NOT NULL, duplicateKeyHashBlob BLOB)m	
+tableentity_fts_statentity_fts_stat
+CREATE TABLE 'entity_fts_stat'(id INTEGER PRIMARY KEY, value BLOB)x
+tableentity_fts_docsizeentity_fts_docsize	CREATE TABLE 'entity_fts_docsize'(docid INTEGER PRIMARY KEY, size BLOB)K
+Etableentity_fts_segdirentity_fts_segdir
+CREATE TABLE 'entity_fts_segdir'(level INTEGER,idx INTEGER,start_block INTEGER,leaves_end_block INTEGER,end_block INTEGER,root BLOB,PRIMARY KEY(level, idx))A
+indexsqlite_autoindex_entity_fts_segdir_1entity_fts_segdir
+#tableentity_fts_segmentsentity_fts_segments
+CREATE TABLE 'entity_fts_segments'(blockid INTEGER PRIMARY KEY, block BLOB)
+etableentity_fts_contententity_fts_content
+CREATE TABLE 'entity_fts_content'(docid INTEGER PRIMARY KEY, 'c0entityId', 'c1messagingTerms', 'c2ftsTerms')z
+Atableentity_ftsentity_ftsCREATE VIRTUAL TABLE entity_fts USING fts4(tokenize=ab_cf_tokenizer language="en" collator="en@collation=search", entityId INTEGER, messagingTerms TEXT COLLATE NOCASE, ftsTerms TEXT COLLATE NOCASE, notindexed=entityId)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)k
+1tableentityentity
+CREATE TABLE entity (id INTEGER PRIMARY KEY AUTOINCREMENT,entityKey TEXT NOT NULL,entityType INTEGER NOT NULL,author TEXT,content TEXT,contentRangeOfInterest TEXT,title TEXT COLLATE NOCASE,timeRangeStart REAL,timeRangeEnd REAL,floatingRange INTEGER,timeRangeStartUTCOffsetSeconds INTEGER,timeRangeEndUTCOffsetSeconds INTEGER,creationTimestamp REAL,updateTimestamp REAL,indexTimestamp REAL,lastSeenTimestamp REAL,tags TEXT,structuredData BLOB,quality REAL,locations BLOB,masterEntityId INTEGER DEFAULT -1,groupId INTEGER DEFAULT -1,state INTEGER DEFAULT 0,contentHash TEXT,downloadState INTEGER DEFAULT 0, contentHashBlob BLOB, pendingGeocode BOOLEAN DEFAULT false, harvestedOnBuild TEXT, curatedDupe BOOLEAN DEFAULT false)
+J
+Bd
+
+
+
+	
+tablecontactDetailscontactDetails$CREATE TABLE contactDetails (id INTEGER PRIMARY KEY AUTOINCREMENT,value TEXT NOT NULL,type INTEGER NOT NULL,label TEXT,entityId INTEGER NOT NULL,duplicateKey TEXT NOT NULL,sourceKey TEXT,unused TEXT,extractionInfoId INTEGER NOT NULL,FOREIGN KEY(entityId) REFERENCES entity(id) ON DELETE NO ACTION,FOREIGN KEY(extractionInfoId) REFERENCES extractionInfos(id) ON DELETE RESTRICT)
+utablepostMigrationTaskspostMigrationTasks%CREATE TABLE postMigrationTasks (task TEXT NOT NULL)i
+tablestatsCountersstatsCounters
+CREATE TABLE statsCounters (key TEXT NOT NULL,value REAL NOT NULL) 
+[tableharvestQueueTombstonesharvestQueueTombstones
+CREATE TABLE harvestQueueTombstones (bundleIdentifier TEXT,uniqueIdentifier TEXT,domainIdentifier TEXT)@"
+7tableextractionInfosextractionInfos#CREATE TABLE extractionInfos (id INTEGER PRIMARY KEY AUTOINCREMENT,extractionType INTEGER NOT NULL,modelVersion NUM NOT NULL,confidence NUM NOT NULL)0!
+/tableremindersreminders"CREATE TABLE reminders (id INTEGER PRIMARY KEY AUTOINCREMENT,entityId INTEGER NOT NULL,duplicateKey TEXT NOT NULL,sourceKey TEXT,title text NOT NULL,dueDateComponents TEXT,dueLocationId INTEGER,dueLocationType INTEGER NOT NULL,dueLocationTrigger INTEGER NOT NULL,sourceUrl TEXT NOT NULL,creationDate num NOT NULL,opaqueKey TEXT,uniqueKey TEXT,contactIdentifier TEXT,reminderStatus NUM NOT NULL,FOREIGN KEY(entityId) REFERENCES entity(id) ON DELETE NO ACTION,FOREIGN KEY(dueLocationId) REFERENCES locations(id) ON DELETE SET NULL)h 
+3tableurlsurls!CREATE TABLE urls (id INTEGER PRIMARY KEY AUTOINCREMENT,url TEXT NOT NULL,received_from_handle TEXT,bundle_id TEXT NOT NULL,group_id TEXT,doc_id TEXT NOT NULL,seconds_from_1970 REAL NOT NULL, title TEXT, document_title TEXT, document_seconds_from_1970 REAL, document_time_interval REAL NOT NULL DEFAULT 0, flags INTEGER NOT NULL DEFAULT 0)V
+ktablereimportItemsreimportItems CREATE TABLE reimportItems (id INTEGER PRIMARY KEY AUTOINCREMENT,reimportRequestId INTEGER NOT NULL,bundleId TEXT NOT NULL,uniqueId TEXT NOT NULL,seenByReceiverTimestamp REAL)	
+EtablereimportRequestsreimportRequests
+CREATE TABLE reimportRequests (id INTEGER PRIMARY KEY AUTOINCREMENT,plugin TEXT NOT NULL,creationTimestamp REAL,queryTimestamp REAL,personHandle TEXT,startDateTimestamp REAL,endDateTimestamp REAL,executionTimestamp REAL)q
+1tableemailTagsemailTags
+CREATE TABLE emailTags (key TEXT NOT NULL,type INTEGER NOT NULL,tag TEXT NOT NULL)
+AtableemailMetadataemailMetadata
+CREATE TABLE emailMetadata (id INTEGER PRIMARY KEY AUTOINCREMENT,key TEXT NOT NULL,type INTEGER NOT NULL,sourceKey TEXT,author TEXT,creationTimestamp REAL,updateTimestamp REAL,indexTimestamp REAL,lastSeenTimestamp REAL,tags TEXT,state INTEGER DEFAULT 0,downloadState INTEGER DEFAULT 0,harvestedOnBuild TEXT, pendingVerification INTEGER DEFAULT 0)|
+tableidentityInterdictNextidentityInterdictNext
+CREATE TABLE identityInterdictNext (a TEXT NOT NULL, b TEXT NOT NULL)
+CtableidentityBlobAnalysisJobsidentityBlobAnalysisJobs
+CREATE TABLE identityBlobAnalysisJobs (id INTEGER PRIMARY KEY AUTOINCREMENT,mergeBlob BLOB)
+AtablemessageTracermessageTracer
+CREATE TABLE messageTracer (domain TEXT NOT NULL,key TEXT NOT NULL,value INTEGER NOT NULL)L
+mtablemetadatametadata
+CREATE TABLE metadata (key TEXT NOT NULL, value)
+)tableserializedContactCacheJobsserializedContactCacheJobs
+CREATE TABLE serializedContactCacheJobs (id INTEGER PRIMARY KEY AUTOINCREMENT)
+Dp}J
+4
+	
+
+
+indexentityParentageChildIdxentityParentage6CREATE INDEX entityParentageChildIdx on entityParentage(childId)|4
+/indexix_entityTags_dupKeyentityTags5CREATE INDEX ix_entityTags_dupKey ON entityTags(entityKey, entityType, parentKey)X3
+oindexix_entityTags_tagentityTags4CREATE INDEX ix_entityTags_tag ON entityTags(tag)z%
+Ctablelocationslocations&CREATE TABLE "locations" (id INTEGER PRIMARY KEY AUTOINCREMENT,locationType INTEGER NOT NULL,label TEXT,address TEXT,airportCode TEXT,latitude REAL,longitude REAL,accuracy REAL,quality REAL,handle BLOB, eventId INTEGER)L2
+eindexentityStateIdxentity3CREATE INDEX entityStateIdx on entity(state)h1
+	indexentityMasterEntityIdIdxentity2CREATE INDEX entityMasterEntityIdIdx on entity(masterEntityId)J0
+gindexentityIdIdxentity1CREATE UNIQUE INDEX entityIdIdx on entity(id),/
+tableidentityPhonesidentityPhones0CREATE TABLE identityPhones (    phone TEXT NOT NULL,    recordId INTEGER NOT NULL,    PRIMARY KEY (phone, recordId)) WITHOUT ROWID
+tableidentitySocialProfileIdentifiersidentitySocialProfileIdentifiers/CREATE TABLE identitySocialProfileIdentifiers (    socialProfileIdentifier TEXT NOT NULL,    recordId INTEGER NOT NULL,    PRIMARY KEY (socialProfileIdentifier, recordId)) WITHOUT ROWIDg-
+	tableidentityPersonidentityPerson.CREATE TABLE identityPerson (    recordId INTEGER PRIMARY KEY,    middlename VARCHAR(256),    surname VARCHAR(256),    fullname TEXT,    nameSketches TEXT NOT NULL,    phones TEXT NOT NULL,    email TEXT NOT NULL,    socialProfileIdentifiers TEXT NOT NULL,    curated BOOLEAN NOT NULL,    isSent BOOLEAN DEFAULT false)
+#tablemailIntelligence_spotlightMappingmailIntelligence_spotlightMapping-CREATE TABLE mailIntelligence_spotlightMapping (id INTEGER PRIMARY KEY AUTOINCREMENT,messageId TEXT NOT NULL,uniqueIdentifier TEXT NOT NULL,bundleIdentifier TEXT NOT NULL,terminatedDomainIdentifier TEXT)
+[tablemailIntelligence_naiveBayesModelsTokensmailIntelligence_naiveBayesModelsTokens,CREATE TABLE mailIntelligence_naiveBayesModelsTokens (id INTEGER PRIMARY KEY AUTOINCREMENT,featureName INTEGER NOT NULL,token TEXT NOT NULL,isUnigram BOOLEAN NOT NULL,salientCount INTEGER NOT NULL,regularCount INTEGER NOT NULL, lastUpdateTimestamp REAL NOT NULL, creationTimestamp REAL NOT NULL)#*
+UtablemailIntelligence_saliencymailIntelligence_saliency+CREATE TABLE mailIntelligence_saliency (id INTEGER PRIMARY KEY AUTOINCREMENT,creationTimestamp REAL NOT NULL,messageId TEXT NOT NULL,score NUM NOT NULL, mailboxId TEXT, isSalient BOOLEAN, isGteSalient INTEGER, isCounted BOOLEAN)z)
+indexsqlite_autoindex_mailIntelligence_naiveBayesModelsGlobalCounts_1mailIntelligence_naiveBayesModelsGlobalCounts*_(
+}tablemailIntelligence_naiveBayesModelsGlobalCountsmailIntelligence_naiveBayesModelsGlobalCounts)CREATE TABLE mailIntelligence_naiveBayesModelsGlobalCounts (id INTEGER PRIMARY KEY AUTOINCREMENT,featureName INTEGER NOT NULL,salientCount INTEGER NOT NULL,regularCount INTEGER NOT NULL,salientUnigramTokensCount INTEGER NOT NULL,regularUnigramTokensCount INTEGER NOT NULL,salientBigramTokensCount INTEGER NOT NULL,regularBigramTokensCount INTEGER NOT NULL,UNIQUE(featureName))<'
+GtableeventTagseventTags(CREATE TABLE eventTags (id INTEGER PRIMARY KEY AUTOINCREMENT,eventId INTEGER NOT NULL,name TEXT,FOREIGN KEY(eventId) REFERENCES event(id) ON DELETE RESTRICT)(&
++tableeventsevents'CREATE TABLE events (id INTEGER PRIMARY KEY AUTOINCREMENT,entityId INTEGER NOT NULL,duplicateKey TEXT NOT NULL,sourceKey TEXT,title TEXT,content TEXT,creationTimestamp INTEGER,lastModifiedTimestamp INTEGER,whenRange TEXT,structuredData BLOB,state INTEGER,curated INTEGER)
+DKy!Cxx
+[;8
+
+Dc\j.
+
+EwSQLite format 3
+DpMWjY<SQLite format 3
+DCds
+k
+utableintegrityCheckintegrityCheckiCREATE TABLE integrityCheck (inconsequential STRING)
+m
+'
+)Q;cSQLite format 3
+pSQLite format 3
+O	SQLite format 3
+D-\<VSQLite format 3
+DN>
+
+D4b 
+DnA/
+D>@`
+0
+indexsqlite_autoindex_entity_fts_from_segdir_1entity_fts_from_segdir
+Otableentity_fts_from_segdirentity_fts_from_segdir
+CREATE TABLE "entity_fts_from_segdir"(level INTEGER,idx INTEGER,start_block INTEGER,leaves_end_block INTEGER,end_block INTEGER,root BLOB,PRIMARY KEY(level, idx)))
+'tableentityTagsentityTagsCREATE TABLE entityTags (tag TEXT,entityKey TEXT,entityType INTEGER,parentKey TEXT,duplicateKeyHash TEXT NOT NULL, duplicateKeyHashBlob BLOB)|	
+tableentity_fts_from_statentity_fts_from_stat
+CREATE TABLE "entity_fts_from_stat"(id INTEGER PRIMARY KEY, value BLOB)
+%tableentity_fts_from_docsizeentity_fts_from_docsize	CREATE TABLE "entity_fts_from_docsize"(docid INTEGER PRIMARY KEY, size BLOB)
+-tableentity_fts_from_segmentsentity_fts_from_segments
+CREATE TABLE "entity_fts_from_segments"(blockid INTEGER PRIMARY KEY, block BLOB),
+otableentity_fts_from_contententity_fts_from_content
+CREATE TABLE "entity_fts_from_content"(docid INTEGER PRIMARY KEY, 'c0entityId', 'c1messagingTerms', 'c2ftsTerms')
+Otableentity_fts_fromentity_fts_fromCREATE VIRTUAL TABLE "entity_fts_from" USING fts4(tokenize=ab_cf_tokenizer language="en" collator="en@collation=search", entityId INTEGER, messagingTerms TEXT COLLATE NOCASE, ftsTerms TEXT COLLATE NOCASE, notindexed=entityId)P
+D'n=Z
+
+		j	
+
+{
+S3
+
+indexsqlite_autoindex_entity_fts_segdir_1entity_fts_segdirmue
+WindexpendingVerificationIdxemailMetadataXCREATE INDEX pendingVerificationIdx ON emailMetadata(pendingVerification) WHERE pendingVerification=1
+tableentity_fts_statentity_fts_statoCREATE TABLE 'entity_fts_stat'(id INTEGER PRIMARY KEY, value BLOB)xn
+tableentity_fts_docsizeentity_fts_docsizenCREATE TABLE 'entity_fts_docsize'(docid INTEGER PRIMARY KEY, size BLOB)Kl
+Etableentity_fts_segdirentity_fts_segdirlCREATE TABLE 'entity_fts_segdir'(level INTEGER,idx INTEGER,start_block INTEGER,leaves_end_block INTEGER,end_block INTEGER,root BLOB,PRIMARY KEY(level, idx))~k
+#tableentity_fts_segmentsentity_fts_segmentskCREATE TABLE 'entity_fts_segments'(blockid INTEGER PRIMARY KEY, block BLOB)
+etableentity_fts_contententity_fts_contentjCREATE TABLE 'entity_fts_content'(docid INTEGER PRIMARY KEY, 'c0entityId', 'c1messagingTerms', 'c2ftsTerms')
+Mtableentity_ftsentity_ftsCREATE VIRTUAL TABLE entity_fts USING fts4(tokenize=ab_cf_tokenizer language="en-US" collator="en_US@collation=search", entityId INTEGER, messagingTerms TEXT COLLATE NOCASE, ftsTerms TEXT COLLATE NOCASE, notindexed=entityId)\h
+/indexserializedContactsEntityIdIdxserializedContacts7CREATE UNIQUE INDEX serializedContactsEntityIdIdx ON serializedContacts(entityId)s5
+g
+'
+indexix_urls_seconds_from_1970urlsVCREATE INDEX ix_urls_seconds_from_1970 ON urls(seconds_from_1970)yR
+indexentityReferencesEntityIdIdxentityReferences;CREATE INDEX entityReferencesEntityIdIdx ON entityReferences(entityId)
+
+WindexentityReferencesUniqueIdxentityReferences9CREATE UNIQUE INDEX entityReferencesUniqueIdx ON entityReferences(bundleIdentifier, uniqueIdentifier)
+7indexreimportItemsSeenByReceiverIdxreimportItemsTCREATE INDEX reimportItemsSeenByReceiverIdx ON reimportItems(seenByReceiverTimestamp)TO
+Dy/20Bi
+Dl<:,
+
+DT_	sj
+'tableentityTagsentityTagsCREATE TABLE entityTags (tag TEXT,entityKey TEXT,entityType INTEGER,parentKey TEXT,duplicateKeyHash TEXT NOT NULL, duplicateKeyHashBlob BLOB)
+D@5/Q
+tableentity_fts_statentity_fts_stat
+CREATE TABLE 'entity_fts_stat'(id INTEGER PRIMARY KEY, value BLOB)xn
+tableentity_fts_docsizeentity_fts_docsize
+CREATE TABLE 'entity_fts_docsize'(docid INTEGER PRIMARY KEY, size BLOB)Kl
+Etableentity_fts_segdirentity_fts_segdir	CREATE TABLE 'entity_fts_segdir'(level INTEGER,idx INTEGER,start_block INTEGER,leaves_end_block INTEGER,end_block INTEGER,root BLOB,PRIMARY KEY(level, idx))~k
+#tableentity_fts_segmentsentity_fts_segments
+CREATE TABLE 'entity_fts_segments'(blockid INTEGER PRIMARY KEY, block BLOB)
+CREATE TABLE 'entity_fts_content'(docid INTEGER PRIMARY KEY, 'c0entityId', 'c1messagingTerms', 'c2ftsTerms')
+D?G@Z
+SQLite format 3
+D@6SQLite format 3
+Dgh}
+
+	urls
+http://total-w.co/qbkKgl323081com.apple.MobileSMSSMS;-;230815E1E1068-ED42-1707-F8BE-5719C4E43B8FAw
+Dpd@
+
+3#	com.apple.MobileSMSSMS;-;23081
+J-H
+
+	http://total-w.co/qbkKgl35E1E1068-ED42-1707-F8BE-5719C4E43B8FAw
+WnJ
+
+urls
+http://total-w.co/qbkKnp323081com.apple.MobileSMSSMS;-;2308195D1F17C-4C5F-A9CA-21CC-1E1AE4EE14B6Aw
+QB>
+
+com.apple.MobileSMSSMS;-;23081
+http://total-w.co/qbkKnp395D1F17C-4C5F-A9CA-21CC-1E1AE4EE14B6Aw
+SSQLite format 3
+PSQLite format 3
+]!	SQLite format 3
+D`e|SQLite format 3
+DwnhSQLite format 3
+)LSQLite format 3
+DVaNpz
+
+D7{W
+
+Di	p
+
+Dp2F'KG
+
+s(SQLite format 3
+DNHN
+
+DVJr
+CREATE TABLE entityReferences (id INTEGER PRIMARY KEY AUTOINCREMENT,bundleIdentifier TEXT,uniqueIdentifier TEXT,entityId INTEGER,domainIdentifier TEXT)	(
+D^Wt
+K
+
+
+
+T4
+		_
+7indexreimportItemsSeenByReceiverIdxreimportItemsTCREATE INDEX reimportItemsSeenByReceiverIdx ON reimportItems(seenByReceiverTimestamp)yR
+indexreimportRequestsQueryIdxreimportRequestsQCREATE INDEX reimportRequestsQueryIdx ON reimportRequests(queryTimestamp)TO
+kindexix_emailTags_keyemailTagsPCREATE INDEX ix_emailTags_key ON emailTags(key)TN
+kindexix_emailTags_tagemailTagsOCREATE INDEX ix_emailTags_tag ON emailTags(tag)
+#indexix_emailMetadata_downloadStateemailMetadataNCREATE INDEX ix_emailMetadata_downloadState ON emailMetadata(downloadState)kL
+}G
+	
+S3
+
+R
+
+tableidentityInterdictidentityInterdictiCREATE TABLE identityInterdict (a TEXT NOT NULL, b TEXT NOT NULL)mo
+utableintegrityCheckintegrityCheck
+CREATE TABLE integrityCheck (inconsequential STRING)
+DjC&P
+
+O#H&
+
+hasFullCNtoSGSync
+D^F!^
+wZZ
+
+D|w{c
+
+Dq-1I;
+
+DNpGs
+D]&`%SQLite format 3
+DBlT
+my-tw.co/mqwh78644com.apple.MobileSMSSMS;-;786449850AA44-4AF9-F018-871B-9BED2D9AFE5EA{is1"A{ir
+DYlO_
+A{is1"
+com.apple.MobileSMSSMS;-;78644
+my-tw.co/mqwh9850AA44-4AF9-F018-871B-9BED2D9AFE5EA{ir
+5SQLite format 3
+CSQLite format 3
+DD3mI
+
+D#9Y
+http://dr7.tracfone.com611611com.apple.MobileSMSSMS;-;611611A6AECCDA-528D-7626-99A4-114DDCB57E42A}}DA}}G(
+D>`-
+A}}D
+com.apple.MobileSMSSMS;-;611611
+http://dr7.tracfone.comA6AECCDA-528D-7626-99A4-114DDCB57E42A}}G(
+D}ovY
+
+http://total-w.co/q1Mrjrq23081com.apple.MobileSMSSMS;-;23081778F7C4D-F6D6-C544-3BB4-01A96B3162B2A}(qA}(.
+A}(q
+D(&2{M
+
+http://total-w.co/q1Mrjrq778F7C4D-F6D6-C544-3BB4-01A96B3162B2A}(.
+H4W%
+
+my-tw.co/hefq78644com.apple.MobileSMSSMS;-;78644BFA04BAE-F0C7-13A8-3B8B-2A1772AB8676A~|
+fA~{
+
+xD3
+
+A~|
+&:*H&
+
+Dixo
+my-tw.co/hefqBFA04BAE-F0C7-13A8-3B8B-2A1772AB8676A~{
+
+DJ:
+
+DG](c
+
+http://ttlw.co/zqJwVVc78644com.apple.MobileSMSSMS;-;78644A81F064B-C9E9-4E29-5894-96A8F0E05B05A~xSA~
+Dm|,
+
+A~xS
+D:dX
+
+http://ttlw.co/zqJwVVcA81F064B-C9E9-4E29-5894-96A8F0E05B05A~
+lSQLite format 3
+oSQLite format 3
+http://ttlw.co/hZWOrxQ78644com.apple.MobileSMSSMS;-;786443A4EF1A1-7FC5-A2ED-ADA0-D7224DFD90D8A
+j\\A
+Ds+ZL
+
+http://ttlw.co/hZWOrxQ3A4EF1A1-7FC5-A2ED-ADA0-D7224DFD90D8A
+DV&,  SQLite format 3
+Dw#grOSQLite format 3
+[
+SQLite format 3
+D2>-
+urls	
+;?3KU
+ow.ly/kBfe30sa6o2?????Snaomakile3zro@outlook.comcom.apple.MobileSMSSMS;-;naomakile3zro@outlook.comD7677229-C39B-4D47-9435-2C026EB6503DA
+D_iH/K$
+
+) 	
+com.apple.MobileSMSSMS;-;naomakile3zro@outlook.com	#
+ow.ly/kBfe30sa6o2?????SD7677229-C39B-4D47-9435-2C026EB6503DA
+l5X	H
+USQLite format 3
+DBw/3D
+D;OJE$
+DTK6H
+
+D;bGq
+De9u	N
+p4?Y
+	
+wGS;mE'SQLite format 3
+x;vSQLite format 3
+DcEx
+DbC.
+]SQLite format 3
+]|SQLite format 3
+DdI;)SQLite format 3
+Dn)c:SQLite format 3
+jQ-SQLite format 3
+DuW0~SQLite format 3
+ #B?SQLite format 3
+D<yc;
+D,
+_%SQLite format 3
+6SQLite format 3

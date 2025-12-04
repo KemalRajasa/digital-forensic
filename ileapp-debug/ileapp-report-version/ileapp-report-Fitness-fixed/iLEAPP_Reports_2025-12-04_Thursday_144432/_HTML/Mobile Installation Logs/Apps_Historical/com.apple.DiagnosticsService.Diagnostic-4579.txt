@@ -1,0 +1,1 @@
+2022-01-06 14:41:06 Made container live com.apple.DiagnosticsService.Diagnostic-4579 /private/var/mobile/Containers/Data/PluginKitPlugin/1FB9436B-E320-4A9B-A0BE-A8D795892193

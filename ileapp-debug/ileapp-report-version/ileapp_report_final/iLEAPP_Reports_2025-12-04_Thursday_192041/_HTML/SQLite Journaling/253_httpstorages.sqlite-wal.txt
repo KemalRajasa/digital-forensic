@@ -1,0 +1,163 @@
+
+*]SQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+jah
+
+b!4-
+
+l>hUW
+
+nonecom.crashlytics.firebase-settingsfirebase-settings.crashlytics.com
+a,/af
+u:*d?
+
+		nonecom.crashlytics.firebase-settings
+AKm6
+
+ea,/af[
+nonecom.crashlytics.firebase-settings
+nonecom.app-measurementapp-measurement.com
+a,3af]
+nonecom.app-measurement
+ea,3af?
+wxaET
+y
+'=X
+
+a-Uag]
+us>S:
+
+ea-Uag?
+SQLite format 3
+nonecom.googleapis.firebaselogging-pafirebaselogging-pa.googleapis.com
+a@a{-A
+I
+L
+
+nonecom.googleapis.firebaselogging-pa
+7@*
+
+ea@a{-[
+Ihgq
+
+sSQLite format 3
+Dj)
+
+ea,/af[		
+"_Jlps&
+
+a-Uag]
+	
+%41'SQLite format 3
+n
+*$
+
+aa0Y
+>:w
+
+eaa0Y[	
+!f?Gk
+
+aa0[]	
+eaa0[[
+	
+aa0h]
+9%1
+
+eaa0h?
+vn3x
+?$X(
+
+eaa0[[
+a0]	
+0'W
+
+,1HI
+
+aTa0]	
+X8w6
+eaTa0[
+Eh	"L
+
+eaa1
+-*oF
+
+aa1M]	
+M(\I
+
+yByQ
+
+eaa1M[
+tZ=[P
+
+a1]	
+zPD4#
+
+aEa1]	
+`Je^i
+
+eaEa1[
+}!D
+
+`c"t
+
+X@X%W
+
+eaa2
+dbB
+
+aa2.]
+eaa2.?
+m#6
+
+nonecom.googleapis.firebaseremoteconfigfirebaseremoteconfig.googleapis.com
+aa2uA 	
+nonecom.googleapis.firebaseremoteconfig
+eaa2u_!	
+aa2v]	
+aa2.]$	
+eaa2v[#	
+G""0
+eaa2v[%	
+a2a2]	
+g@g
+
+aa2.]&	
+ea2a2[%	
+-P9@
+
+eaa2.?'	
+a3]&	
+D
+
+@
+aa2uA(	
+a3?'	
+
+Z`8
+
+a3?)	
+aa4;]&	
+,wC4
+
+aa2uA*	
+eaa4;?)	
+q=Z
+
+T
+|
+
+eaa4;?+	
+?]&	
+i,dE
+Z!\q
+
+aa2uA,	
+??+	
+P=]Y
+
+9]SQLite format 3

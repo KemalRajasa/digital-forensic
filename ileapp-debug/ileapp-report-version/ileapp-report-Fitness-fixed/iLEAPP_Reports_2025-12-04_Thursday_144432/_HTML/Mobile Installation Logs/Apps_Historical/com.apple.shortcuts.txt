@@ -1,0 +1,12 @@
+2022-01-10 12:28:30 Data container moved com.apple.shortcuts /private/var/mobile/Containers/Data/Application/550A6641-89A4-4C3A-A00E-C583D92C0C36
+2022-01-10 12:28:30 Made container live com.apple.shortcuts /private/var/containers/Bundle/Application/55E15CB2-B9CD-4F30-9334-165F2B3B13E0
+2022-01-10 12:28:30 Install successful com.apple.shortcuts 
+2022-01-10 12:28:30 Data container moved com.apple.shortcuts /private/var/mobile/Containers/Data/Application/550A6641-89A4-4C3A-A00E-C583D92C0C36
+2022-01-10 12:28:30 Made container live com.apple.shortcuts /private/var/containers/Bundle/Application/55E15CB2-B9CD-4F30-9334-165F2B3B13E0
+2022-01-10 12:28:30 Install successful com.apple.shortcuts 
+2022-01-06 17:41:33 Made container live com.apple.shortcuts /private/var/mobile/Containers/Data/Application/BE36DFBB-03D4-4771-9CBB-0AF0B08D0FF2
+2022-01-06 17:41:33 Made container live com.apple.shortcuts /private/var/containers/Bundle/Application/D2F82A82-3256-467D-AF56-78538D2A2911
+2022-01-06 17:41:33 Install successful com.apple.shortcuts 
+2022-01-06 17:41:33 Made container live com.apple.shortcuts /private/var/mobile/Containers/Data/Application/BE36DFBB-03D4-4771-9CBB-0AF0B08D0FF2
+2022-01-06 17:41:33 Made container live com.apple.shortcuts /private/var/containers/Bundle/Application/D2F82A82-3256-467D-AF56-78538D2A2911
+2022-01-06 17:41:33 Install successful com.apple.shortcuts 

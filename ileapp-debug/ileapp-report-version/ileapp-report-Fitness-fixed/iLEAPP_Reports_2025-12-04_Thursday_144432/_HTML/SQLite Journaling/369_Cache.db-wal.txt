@@ -1,0 +1,105 @@
+El@iU2
+ElzSQLite format 3
+.S`
+
+f
+
+#u
+indexreceiver_data_indexcfurl_cache_receiver_dataCREATE INDEX receiver_data_index ON cfurl_cache_receiver_data(entry_ID)t	
+indexproto_props_indexcfurl_cache_blob_dataCREATE INDEX proto_props_index ON cfurl_cache_blob_data(entry_ID)r
+indextime_stamp_indexcfurl_cache_response
+CREATE INDEX time_stamp_index ON cfurl_cache_response(time_stamp)u
+indexrequest_key_indexcfurl_cache_response	CREATE INDEX request_key_index ON cfurl_cache_response(request_key)+
+etablecfurl_cache_receiver_datacfurl_cache_receiver_data
+CREATE TABLE cfurl_cache_receiver_data(entry_ID INTEGER PRIMARY KEY, isDataOnFS INTEGER, receiver_data BLOB)I
+1tablecfurl_cache_blob_datacfurl_cache_blob_data
+CREATE TABLE cfurl_cache_blob_data(entry_ID INTEGER PRIMARY KEY, response_object BLOB, request_object BLOB, 			  proto_props BLOB, user_info BLOB)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)"
+gtablecfurl_cache_responsecfurl_cache_response
+CREATE TABLE cfurl_cache_response(entry_ID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, 	 version INTEGER, hash_value INTEGER, storage_policy INTEGER, request_key TEXT UNIQUE, 	 time_stamp NOT NULL DEFAULT CURRENT_TIMESTAMP, partition TEXT)G
+indexsqlite_autoindex_cfurl_cache_response_2cfurl_cache_response
+indexsqlite_autoindex_cfurl_cache_response_1cfurl_cache_response
+	%rhttps://bag.itunes.apple.com/bag.xml?deviceClass=iPhone&format=json&os=iOS&osVersion=15.0.2&product=com.apple.news.tag&productVersion=7.0&profile=AppleNews&profileVersion=1&storefront=143441-1,292022-01-10 17:28:42
+LU`
+
+	https://bag.itunes.apple.com/bag.xml?deviceClass=iPhone&format=json&os=iOS&osVersion=15.0.2&product=com.apple.news.tag&productVersion=7.0&profile=AppleNews&profileVersion=1&storefront=143441-1,29
+El?+
+5	cfurl_cache_response
+El5%9h
+
+bplist00
+WVersionUArray
+
+
+DE
+_CFURLStringType\_CFURLString
+https://bag.itunes.apple.com/bag.xml?deviceClass=iPhone&format=json&os=iOS&osVersion=15.0.2&product=com.apple.news.tag&productVersion=7.0&profile=AppleNews&profileVersion=1&storefront=143441-1,29#AR$;q
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCYapple-seq_
+Content-Encoding]Last-ModifiedVServer_
+Strict-Transport-Security]Cache-Control_
+x-apple-request-store-front_
+apple-timing-appRb3_
+x-responding-instanceXapple-tk_
+x-apple-jingle-correlation-key_
+apple-originating-system^Content-Length_
+x-apple-application-instanceTVary_
+x-apple-application-siteTDate\x-b3-traceid_
+x-apple-request-uuidX__hhaa__Wx-cache_
+x-webobjects-loadaverage\Content-Type_
+x-daiquiri-instance_
+x-apple-max-age[x-b3-spanidS0.0Tgzip_
+Mon, 10 Jan 2022 15:15:13 GMT^daiquiri/3.0.0_
+#max-age=31536000; includeSubDomains_
+no-transform, max-age=12699[143441-1,29T6 ms_
+1956ba525bdaf72addeb40d1f8ca9028d-891be78617f9f6ea_
+MZInit2:10001:::Ufalse_
+SVV2KJN5V5ZK3XVUBUPYZKICRUWMZInit2T4682U10001_
+Accept-EncodingTPV00_
+Mon, 10 Jan 2022 17:28:41 GMT_
+ 956ba525bdaf72addeb40d1f8ca9028d_
+$956ba525-bdaf-72ad-deb4-0d1f8ca9028d_
+ 
+
+YnBsaXN0MDDfEBoBAgMEBQYHCAkKCwwNDg8QERITFBUWFxgZGhsdHyIkJigqLC4wMjQ2ODo8PkBCREZISkxOWWFwcGxlLXNlcV8QEENvbnRlbnQtRW5jb2RpbmdfEBN4LWRhaXF1aXJpLWluc3RhbmNlVlNlcnZlcl8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHldQ2FjaGUtQ29udHJvbFd4LWNhY2hlXxAQYXBwbGUtdGltaW5nLWFwcFJiM18QFXgtcmVzcG9uZGluZy1pbnN0YW5jZVhhcHBsZS10a18QHngtYXBwbGUtamluZ2xlLWNvcnJlbGF0aW9uLWtleV8QGGFwcGxlLW9yaWdpbmF0aW5nLX
+m*]
+
+	UAC5324AF-4CDC-4027-97FC-5771D7C7C9A6
+ElxiI
+
+Elnqs%z
+
+3	2022-01-10 17:28:42
+El(~m%jV
+
+
+BfY
+N5c3RlbV5Db250ZW50LUxlbmd0aF8QHHgtYXBwbGUtYXBwbGljYXRpb24taW5zdGFuY2VUVmFyeV8QGHgtYXBwbGUtYXBwbGljYXRpb24tc2l0ZVREYXRlXHgtYjMtdHJhY2VpZF8QFHgtYXBwbGUtcmVxdWVzdC11dWlkXxAYeC13ZWJvYmplY3RzLWxvYWRhdmVyYWdlXENvbnRlbnQtVHlwZV8QD3gtYXBwbGUtbWF4LWFnZVt4LWIzLXNwYW5pZF1MYXN0LU1vZGlmaWVkXxAbeC1hcHBsZS1yZXF1ZXN0LXN0b3JlLWZyb250oRxTMC4woR5UZ3ppcKIgIV8QkmRhaXF1aXJpOjEwMDAxOmRhaXF1aXJpLWFsbC1zaGFyZWQtZGMtNWM2NTQ4OTU5NS1xam1sNTo3OTg3OjIxUkVMRUFTRTIwMDpkYWlxdWlyaS1hbXAta3ViZXJuZXRlcy1zaGFyZWQtZGMtYWs4cy1wcm9kLXB2MS1hbXAtZGFpcXVpcmktaW5ncmVzcy1wcm9kXxBkZGFpcXVpcmk6NTExNTAwMDI6cHYwMHAwMGl0LWF6ZGFpcXVpcmlleHQwMDE6Nzk4NzoyMVJFTEVBU0UyMDA6ZGFpcXVpcmktYW1wLWF3cy1zaGFyZWQtZXh0LXB2MDAtcHJvZKEjXmRhaXF1aXJpLzMuMC4woSVfECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViRG9tYWluc6EnXxAbbm8tdHJhbnNmb3JtLCBtYXgtYWdlPTEyNjk5oSlfEGBUQ1BfTUVNX0hJVCBmcm9tIGExODQtMjUtMTQ4LTIxMy5kZXBsb3kuYWthbWFpdGVjaG5vbG9naWVzLmNvbSAoQWthbWFpR0hvc3QvMTAuNC42LTM3MTcxNDU4KSAoLSmhK1Q2IG1zoS1fEDE5NTZiYTUyNWJkYWY3MmFkZGViNDBkMWY4Y2E5MDI4ZC04OTFiZTc4NjE3ZjlmNmVhoS9fEBBNWkluaXQyOjEwMDAxOjo6oTFVZmFsc2WhM18QGlNWVjJLSk41VjVaSzNYVlVCVVBZWktJQ1JVoTVXTVpJbml0MqE3VDQ2ODKhOVUxMDAwMaE7XxAPQWNjZXB0LUVuY29kaW5noT1UUFYwMKE/XxAdTW9uLCAxMCBKYW4gMjAyMiAxNzoyODo0MSBHTVShQV8QIDk1NmJhNTI1YmRhZjcyYWRkZWI0MGQxZjhjYTkwMjhkoUNfECQ5NTZiYTUyNS1iZGFmLTcyYWQtZGViNC0wZDFmOGNhOTAyOGShRVEwoUdfEBBhcHBsaWNhdGlvbi9qc29uoUlVMTQ0MDChS18QEDg5MWJlNzg2MTdmOWY2ZWGhTV8QHU1vbiwgMTAgSmFuIDIwMjIgMTU6MTU6MTMgR01UoU9bMTQzNDQxLTEsMjkACAA/AEkAXAByAHkAlQCjAKsAvgDBANkA4gEDAR4BLQFMAVEBbAFxAX4BlQGwAb0BzwHbAekCBwIJAg0CDwIUAhcCrAMTAxUDJAMmA0wDTgNsA24D0QPTA9gD2gQOBBAEIwQlBCsELQRKBEwEVARWBFsEXQRjBGUEdwR5BH4EgASgBKIExQTHBO4E8ATyBPQFBwUJBQ8FEQUkBSYFRgVIAAAAAAAAAgEAAAAAAAAAUAAAAAAAAAAAAAAAAAAABVQ=_
+`TCP_MEM_HIT from a184-25-148-213.deploy.akamaitechnologies.com (AkamaiGHost/10.4.6-37171458) (-)Q0_
+application/json_
+daiquiri:10001:daiquiri-all-shared-dc-5c65489595-qjml5:7987:21RELEASE200:daiquiri-amp-kubernetes-shared-dc-ak8s-prod-pv1-amp-daiquiri-ingress-prod, daiquiri:51150002:pv00p00it-azdaiquiriext001:7987:21RELEASE200:daiquiri-amp-aws-shared-ext-pv00-prodU14400_
+891be78617f9f6ea
+application/json
+
+;
+=
+P
+zbplist00
+https://bag.itunes.apple.com/bag.xml?deviceClass=iPhone&format=json&os=iOS&osVersion=15.0.2&product=com.apple.news.tag&productVersion=7.0&profile=AppleNews&profileVersion=1&storefront=143441-1,29#@N
+__CFURLRequestNullTokenString__
+SGET
+ !"#$%&'(VCookieVAccept_
+X-Apple-Client-ApplicationZX-Apple-TzX__hhaa__ZUser-Agent_
+Accept-Language_
+Accept-Encoding_
+X-Apple-Store-Front_
+xp_ci=3z2gJOpqzGjGz4QfzALUzSLG1enVj; xp_ab=1#Jv0scgz+-2+A0TpBUr00#Zh4zkDd+-2+Utk2R3g0#WqjkRLH+-2+p9nsgcq0#HqvSCXm+-2+TDd9ueo00; xp_abc=p9nsgcq0S*/*_
+com.apple.news.tagV-18000_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZDb29raWVfEA9BY2NlcHQtRW5jb2RpbmdaVXNlci1BZ2VudFZBY2NlcHRfEA9BY2NlcHQtTGFuZ3VhZ2VfEBNYLUFwcGxlLVN0b3JlLUZyb250XxAaWC1BcHBsZS1DbGllbnQtQXBwbGljYXRpb25aWC1BcHBsZS1UeqEKXxCPeHBfY2k9M3oyZ0pPcHF6R2pHejRRZnpBTFV6U0xHMWVuVmo7IHhwX2FiPTEjSnYwc2NneistMitBMFRwQlVyMDAjWmg0emtEZCstMitVdGsyUjNnMCNXcWprUkxIKy0yK3A5bnNnY3EwI0hxdlNDWG0rLTIrVERkOXVlbzAwOyB4cF9hYmM9cDluc2djcTChDF8QEWJyLCBnemlwLCBkZWZsYXRloQ5fEFtjb20uYXBwbGUubmV3cy50YWcvNy4wIGlPUy8xNS4wLjIgbW9kZWwvaVBob25lMTAsMSBod3AvdDgwMTUgYnVpbGQvMTlBNDA0ICg2OyBkdDoxNTcpIEFNUy8xoRBTKi8qoRJVZW4tVVOhFFsxNDM0NDEtMSwyOaEWXxASY29tLmFwcGxlLm5ld3MudGFnoRhWLTE4MDAwAAgAGQAgADIAPQBEAFYAbACJAJQAlgEoASoBPgFAAZ4BoAGkAaYBrAGuAboBvAHRAdMAAAAAAAACAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAB2g==_
+[com.apple.news.tag/7.0 iOS/15.0.2 model/iPhone10,1 hwp/t8015 build/19A404 (6; dt:157) AMS/1Uen-US_
+br, gzip, deflate[143441-1,29
++bplist00
+Accept-Encoding
+br, gzip, deflate

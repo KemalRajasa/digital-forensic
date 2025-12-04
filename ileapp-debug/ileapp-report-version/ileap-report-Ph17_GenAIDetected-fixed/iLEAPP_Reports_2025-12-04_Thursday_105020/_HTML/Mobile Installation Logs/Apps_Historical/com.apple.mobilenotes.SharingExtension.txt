@@ -1,0 +1,3 @@
+2022-01-10 12:28:45 Data container moved com.apple.mobilenotes.SharingExtension /private/var/mobile/Containers/Data/PluginKitPlugin/CE890251-2F5C-4FFD-948C-64A354EFE744
+2022-01-10 12:28:45 Data container moved com.apple.mobilenotes.SharingExtension /private/var/mobile/Containers/Data/PluginKitPlugin/CE890251-2F5C-4FFD-948C-64A354EFE744
+2022-01-06 17:41:32 Made container live com.apple.mobilenotes.SharingExtension /private/var/mobile/Containers/Data/PluginKitPlugin/9667974D-65BE-4511-901B-47E42125786A

@@ -1,0 +1,115 @@
+	PSQLite format 3
+.S`
+
+atabletelemetrytelemetry
+CREATE TABLE telemetry (eventId TEXT PRIMARY KEY, eventType TEXT NOT NULL, payload TEXT, ts REAL NOT NULL)1
+indexsqlite_autoindex_telemetry_1telemetry
+q9	
+
+%izB
+
+SQLite format 3
+itablepingspings
+CREATE TABLE pings (p_id TEXT PRIMARY KEY, p_url TEXT NOT NULL, p_fr INTEGER NOT NULL, p_wv INTEGER NOT NULL, p_rc INTEGER NOT NULL, p_rts REAL NOT NULL, p_its REAL NOT NULL))
+indexsqlite_autoindex_pings_1pings
+U	OSQLite format 3
+ktablemraid_jsmraid_js
+CREATE TABLE mraid_js (mraid_js_content TEXT NOT NULL, mraid_js_ts DOUBLE NOT NULL, mraid_js_url TEXT NOT NULL)E
+SQLite format 3
+3tableassetCacheassetCache
+CREATE TABLE assetCache (hash TEXT PRIMARY KEY, location TEXT NOT NULL, timestamp REAL NOT NULL, expiry REAL NOT NULL, staleTimeout REAL NOT NULL )3
+indexsqlite_autoindex_assetCache_1assetCache
+D{|
+
+M4SQLite format 3
+
+
+
+)tableretriesTableretriesTable	CREATE TABLE retriesTable (hash TEXT PRIMARY KEY, noOfTries INTEGER NOT NULL )7	
+indexsqlite_autoindex_retriesTable_1retriesTable
+4
+A^{
+
+d^:ZM
+
+=!x
+
+uy n<
+
+BEAC2673-8A27-42D5-9AE4-3BF09581FF1FConfigFetched{"name":["ads","signals","telemetry"],"lts":[1642803614717,1642803614724,1642803614732]}
+U	BEAC2673-8A27-42D5-9AE4-3BF09581FF1F
+2C0BBF2A-480D-4E56-91E9-D1FFC92CECAAAdGetSignalsSucceeded{"networkType":"wifi","latency":210,"plType":"AB"}
+2C0BBF2A-480D-4E56-91E9-D1FFC92CECAA
+}M]8$
+
+FB3AB963-F837-4839-9F15-9955D08673B9AdGetSignalsSucceeded{"networkType":"wifi","latency":52,"plType":"AB"}
+FB3AB963-F837-4839-9F15-9955D08673B9
+9B0B7B95-BB23-434B-AAF0-66CFA25BDCADAdLoadCalled{"plId":1596547802933,"plType":"NonAB","networkType":"wifi","adType":"banner"}
+9B0B7B95-BB23-434B-AAF0-66CFA25BDCAD
+;o`'
+
+y
+
+Q
+0E680C80-BE0E-4E30-8AF5-5F369F5E8A43ServerNoFill{"plId":1596547802933,"plType":"NonAB","networkType":"wifi","latency":302,"adType":"banner"}
+0E680C80-BE0E-4E30-8AF5-5F369F5E8A43
+y
+
+Q
+B0D37B5E-97C6-40CE-BABE-30543454EF3EAdLoadFailed{"plType":"NonAB","latency":420,"adType":"banner","creativeId":"","impressionId":"","plId":1596547802933,"networkType":"wifi","errorCode":2}
+B0D37B5E-97C6-40CE-BABE-30543454EF3E
+y
+
+Q
+491CC8E6-79CB-425B-BBA0-537052578264AdLoadCalled{"plId":1595510585176,"plType":"NonAB","networkType":"wifi","adType":"banner"}
+qYE
+
+491CC8E6-79CB-425B-BBA0-537052578264
+y
+
+Q^
+7E66C3B4-BF26-495D-8B43-121930B20DAFServerNoFill{"plId":1595510585176,"plType":"NonAB","networkType":"wifi","latency":257,"adType":"banner"}
+~~*
+
+l|b
+
+7E66C3B4-BF26-495D-8B43-121930B20DAF
+y
+
+Q^
+
+6BDD2D73-34FB-4FA6-A1B1-9DA63BFA27EEAdLoadFailed{"plType":"NonAB","latency":327,"adType":"banner","creativeId":"","impressionId":"","plId":1595510585176,"networkType":"wifi","errorCode":2}
+6BDD2D73-34FB-4FA6-A1B1-9DA63BFA27EE	(
+0c 
+
+y
+
+Q^
+
+
+3BBD45F7-0194-4387-84E2-6447B870CA99AdLoadCalled{"plId":1596547802933,"plType":"NonAB","networkType":"wifi","adType":"banner"}
+SP;I,
+
+3BBD45F7-0194-4387-84E2-6447B870CA99
+(
+$IU
+
+AD9AED10-3E46-4366-A4E0-BB33B514696AServerNoFill{"plId":1596547802933,"plType":"NonAB","networkType":"wifi","latency":299,"adType":"banner"}
+AD9AED10-3E46-4366-A4E0-BB33B514696A(
+4O{
+
+55E326E0-FE38-42CA-991C-8CD12C6946AEAdLoadFailed{"plType":"NonAB","latency":351,"adType":"banner","creativeId":"","impressionId":"","plId":1596547802933,"networkType":"wifi","errorCode":2}
+AT+`
+
+55E326E0-FE38-42CA-991C-8CD12C6946AE(
+9yl?t
+9FB28690-5E51-4303-A2D8-D4F96312B541AdLoadCalled{"plId":1595510585176,"plType":"NonAB","networkType":"wifi","adType":"banner"}
+9FB28690-5E51-4303-A2D8-D4F96312B541
+(
+81B60E67-4F57-4A37-906D-451E7E22290EServerNoFill{"plId":1595510585176,"plType":"NonAB","networkType":"wifi","latency":205,"adType":"banner"}
+mY4S
+
+81B60E67-4F57-4A37-906D-451E7E22290E
+Rz@o
+5C35BE2C-3846-420A-9E1B-69136292029DAdLoadFailed{"plType":"NonAB","latency":286,"adType":"banner","creativeId":"","impressionId":"","plId":1595510585176,"networkType":"wifi","errorCode":2}
+5C35BE2C-3846-420A-9E1B-69136292029D

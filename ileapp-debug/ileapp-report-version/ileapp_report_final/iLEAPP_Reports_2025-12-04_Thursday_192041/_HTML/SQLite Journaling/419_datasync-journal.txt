@@ -1,0 +1,14 @@
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$null
+
+WNS.keysZNS.objectsV$class
+kTransactionJournalKey
+
+Z$classnameX$classes_
+NSMutableDictionary
+ \NSDictionaryXNSObject
+$)27ILQSY_fny

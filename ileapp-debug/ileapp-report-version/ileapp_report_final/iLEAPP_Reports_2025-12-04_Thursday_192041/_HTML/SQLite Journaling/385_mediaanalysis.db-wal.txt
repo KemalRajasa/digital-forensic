@@ -1,0 +1,106 @@
+e,{/
+e,{/K
+SQLite format 3
+.S`
+
+
+
+
+
+e	j
+g
+tableBackgroundActivitySchedulingHistoryBackgroundActivitySchedulingHistory
+CREATE TABLE BackgroundActivitySchedulingHistory (    id               INTEGER PRIMARY KEY AUTOINCREMENT,    activityID       INTEGER,    startTime        REAL,    duration         REAL,    exitStatus       INTEGER,    UNIQUE (activityID, startTime))e
+indexsqlite_autoindex_BackgroundActivitySchedulingHistory_1BackgroundActivitySchedulingHistory
+tableProcessingStatusProcessingStatus
+CREATE TABLE ProcessingStatus (    id               INTEGER PRIMARY KEY AUTOINCREMENT,    taskID           INTEGER,    localIdentifier  TEXT,    date             REAL,    attempts         INTEGER,    status           INTEGER,    UNIQUE (taskID, localIdentifier))?
+
+indexsqlite_autoindex_ProcessingStatus_1ProcessingStatus
+7tableChangeTokensChangeTokensCREATE TABLE ChangeTokens (    id               INTEGER PRIMARY KEY AUTOINCREMENT,    tokenID          INTEGER,    tokenData        BLOB,    date             REAL,    version          INTEGER,    UNIQUE (tokenID))7
+indexsqlite_autoindex_ChangeTokens_1ChangeTokensB
+CtableKeyValueStoreKeyValueStore	CREATE TABLE KeyValueStore (    id               INTEGER PRIMARY KEY AUTOINCREMENT,    key              TEXT,    value            INTEGER,    UNIQUE (key))9	
+indexsqlite_autoindex_KeyValueStore_1KeyValueStore
+\
+tableBlacklistBlacklist
+CREATE TABLE Blacklist (    id               INTEGER PRIMARY KEY AUTOINCREMENT,    localIdentifier  TEXT,    date             REAL,    count            INTEGER,    UNIQUE (localIdentifier))1
+indexsqlite_autoindex_Blacklist_1Blacklist
+'tableResultsResults
+CREATE TABLE Results (    assetId          INTEGER,    resultsType      INTEGER,    results          BLOB,    FOREIGN KEY(assetId) REFERENCES Assets(id) ON DELETE CASCADE,    UNIQUE (assetId, resultsType))-
+indexsqlite_autoindex_Results_1Results
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)*
+/tableAssetsAssets
+CREATE TABLE Assets (    id                  INTEGER PRIMARY KEY AUTOINCREMENT,    localIdentifier     TEXT,    version             INTEGER,    dateModified        REAL,    dateAnalyzed        REAL,    analysisTypes       INTEGER,    flags               INTEGER,    quality             REAL,    masterFingerprint   TEXT,    adjustedFingerprint TEXT,  statsFlags   INTEGER,    UNIQUE (localIdentifier))+
+indexsqlite_autoindex_Assets_1Assets
+e,{/O
+r7% 
+
+ChangeTokens
+Assets
+'
+BackgroundActivitySchedulingHistoryJ
+ProcessingStatus,
+Blacklist
+
+KeyValueStore
+e,{/~
+
+
+
+
+
+
+x
+^
+E
+-
+
+}d
+Ag6W!?
+	Ag.
+Ag%k?
+
+Af-@
+A_b;@STa
+A8 h?
+	A8wO? 
+)$@	\v
+|@9(
+
+A8`@X
+b`o?
+]%?D
+uX?U
+A}}}Z
+A}v/?
+Av(?5
+	Av }?
+
+Aul+@)wc
+Aj?x
+AjDka@
+Ajc5
+
+A2S	@KK
+Ag6W!J
+Ag%kF
+
+
+Af-B
+A_b;:
+A8 h8
+	A8wO6
+)$4
+
+
+A8`0
+b`o*
+
+A}v/
+	Av }
+
+Aul+
+
+AjDka
+
+A2S	

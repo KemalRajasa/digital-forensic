@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeviceBasedVPP</key>
+	<false/>
+	<key>artistName</key>
+	<string>Snap, Inc.</string>
+	<key>bundleShortVersionString</key>
+	<string>11.62.0</string>
+	<key>bundleVersion</key>
+	<string>11.62.0.36</string>
+	<key>com.apple.iTunesStore.downloadInfo</key>
+	<dict>
+		<key>accountInfo</key>
+		<dict>
+			<key>AltDSID</key>
+			<string>000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1</string>
+			<key>AppleID</key>
+			<string>pbentley0107@gmail.com</string>
+			<key>DSPersonID</key>
+			<integer>17768365815</integer>
+			<key>DownloaderID</key>
+			<integer>0</integer>
+			<key>FamilyID</key>
+			<integer>0</integer>
+			<key>PurchaserID</key>
+			<integer>17768365815</integer>
+		</dict>
+		<key>purchaseDate</key>
+		<string>2022-01-21T20:35:05Z</string>
+	</dict>
+	<key>gameCenterEnabled</key>
+	<false/>
+	<key>gameCenterEverEnabled</key>
+	<false/>
+	<key>genre</key>
+	<string>Photo &amp; Video</string>
+	<key>genreId</key>
+	<integer>6008</integer>
+	<key>hasMessagesExtension</key>
+	<false/>
+	<key>iad-attribution</key>
+	<string>0</string>
+	<key>is-auto-download</key>
+	<false/>
+	<key>is-purchased-redownload</key>
+	<false/>
+	<key>isFactoryInstall</key>
+	<false/>
+	<key>itemId</key>
+	<integer>447188370</integer>
+	<key>itemName</key>
+	<string>Snapchat</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>launchProhibited</key>
+	<false/>
+	<key>rating</key>
+	<dict>
+		<key>label</key>
+		<string>12+</string>
+		<key>rank</key>
+		<integer>300</integer>
+	</dict>
+	<key>redownload-params</key>
+	<string>productType=C&amp;price=0&amp;salableAdamId=447188370&amp;pricingParameters=STDRDL</string>
+	<key>releaseDate</key>
+	<string>2011-07-13T23:51:40Z</string>
+	<key>s</key>
+	<integer>143441</integer>
+	<key>sideLoadedDeviceBasedVPP</key>
+	<false/>
+	<key>softwareVersionBundleId</key>
+	<string>com.toyopagroup.picaboo</string>
+	<key>softwareVersionExternalIdentifier</key>
+	<integer>846604218</integer>
+	<key>sourceApp</key>
+	<string>com.apple.AppStore</string>
+	<key>storeCohort</key>
+	<string>10|date=1642797000000&amp;sf=143441&amp;pgtp=Search&amp;pgid=8cd66a14-b936-499e-95b7-5ea9ba6a2aba&amp;prpg=Genre_179183&amp;ctxt=Search&amp;issrch=1&amp;imptyp=lockup&amp;kind=iosSoftware&amp;itpltyp=TEXT&amp;lngid=1</string>
+	<key>subgenres</key>
+	<array/>
+	<key>variantID</key>
+	<string>1:iPhone10,1:15</string>
+</dict>
+</plist>

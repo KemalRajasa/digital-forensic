@@ -1,0 +1,83 @@
+q$YTSQLite format 3
+.S`
+
+{tablemetameta
+CREATE TABLE meta (id INTEGER PRIMARY KEY, version INT)~
+Otablelauncheslaunches
+CREATE TABLE launches (ts INTEGER, launchType INTEGER, PRIMARY KEY(ts, launchType)) WITHOUT ROWID
+~Q!n:x[
+
+~Q++
+~QG8:J
+
+~QcM#
+~Qju
+~Q%lBf
+
+~Q$0
+~P_(
+~Q0@
+~T2	
+~Q{"#j;
+~Q
+O[$9
+
+~Qg0;6
+~^8$
+~_{	
+~_|	
+~Q%lB=
+
+~c&&R	
+"NhM
+
+~Q'HFNn
+
+~Q2Y,j
+
+~c3
+
+~c:}	
+!:,'
+
+~Q+3I
+
+~sh	
+~QO%N
+fD7
+
+~K[	
+~Q,5d ,
+
+~j	
+X"F
+
+~
+'	
+~<\	
+~QFb
+
+~Qz&o
+~Q+
+
+~Q%kw
+
+~Q IS
+
+~Qr+i\
+
+~Qyr
+
+5q'jv
+
+~QKD
+S6&m
+
+~Uw
+
+~QN-E_7
+~Q|]
+k$
+
+~QXxKR
+

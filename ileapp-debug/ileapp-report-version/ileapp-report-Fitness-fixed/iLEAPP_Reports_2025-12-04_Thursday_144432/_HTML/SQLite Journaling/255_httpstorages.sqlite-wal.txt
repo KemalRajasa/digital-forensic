@@ -1,0 +1,19 @@
+=6HSQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+N>KE
+
+N>$
+SQLite format 3
+N>?M
++<SQLite format 3
+N>'BgSQLite format 3
+N>\
+(5V_SQLite format 3
+)!i,SQLite format 3
+<SQLite format 3
+R,SQLite format 3
+N>|P07SQLite format 3

@@ -1,0 +1,321 @@
+5;%J
+5;%c{
+SQLite format 3
+.S`
+
+X
+
+
+
+Atablepropertiesproperties
+CREATE TABLE properties (ROWID INTEGER PRIMARY KEY,
+    key,
+    value,
+    UNIQUE (key)
+)3
+indexsqlite_autoindex_properties_1properties
+uindexmetadata_recentsmetadataCREATE INDEX metadata_recents ON metadata(recent_id)m	
+!indexrecents_expungerecentsCREATE INDEX recents_expunge ON recents(bundle_identifier, last_date DESC)^
+}indexrecents_record_hashrecents
+CREATE INDEX recents_record_hash ON recents(record_hash)k
+indexcontacts_addresscontacts	CREATE INDEX contacts_address ON contacts(kind, display_name, address)^
+{indexcontacts_recentsidxcontacts
+CREATE INDEX contacts_recentsidx ON contacts(recent_id)
+Ytablemetadatametadata
+CREATE TABLE metadata (
+    ROWID INTEGER PRIMARY KEY AUTOINCREMENT,
+    
+    recent_id INTEGER,
+    key TEXT,
+    value,
+    
+    FOREIGN KEY (recent_id) REFERENCES recents (ROWID) ON DELETE CASCADE,
+    UNIQUE (recent_id, key)
+)/
+indexsqlite_autoindex_metadata_1metadata
+_tablecontactscontacts
+CREATE TABLE contacts (
+    ROWID INTEGER PRIMARY KEY AUTOINCREMENT,
+    
+    recent_id INTEGER,
+
+    display_name TEXT,
+    kind TEXT,
+    address TEXT,
+    
+    FOREIGN KEY (recent_id) REFERENCES recents (ROWID) ON DELETE CASCADE
+)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)+
+-tablerecentsrecents
+CREATE TABLE recents (
+    ROWID INTEGER PRIMARY KEY AUTOINCREMENT,
+    display_name TEXT,
+    bundle_identifier TEXT,
+    sending_address TEXT,
+    original_source TEXT,
+
+    dates TEXT NOT NULL,
+    last_date INTEGER,
+    weight FLOAT,
+    
+    /* A compounded hash of all contacts belonging to this recent record. */
+    record_hash TEXT NOT NULL,
+    
+    count INTEGER,
+
+    group_kind INTEGER
+)
+5;%qHD
+5;%:u
+^H?y
+
+5;%baPN
+
+5;%(GI
+5;%9E
+5;%N0a
+
+5;%%>$X
+
+version
+5;%<	Q
+Yr
+	version
+(rP"m
+
+max-recent-age:com.apple.maps<
+5;%f!8
+max-recent-age:com.apple.maps
+5;%a.L@d
+
+com.apple.MobileSMSSMS:23081com.apple.MobileSMS1641835686049
+h89493B928BB483D5A802A8AB1135159E
+5;%B70kr
+
+	contacts
+
+	recents
+5;%-}&'9
+
+phone23081
+P/#~
+
+	phone23081
+5;%fG
+M	89493B928BB483D5A802A8AB1135159E
+5;%k-
+	com.apple.MobileSMS
+nH@
+
+com.apple.MobileSMSSMS:23081com.apple.MobileSMS1641835688839:1641835686049
+s89493B928BB483D5A802A8AB1135159E
+5;%XfPNCct
+
+5;%nX
+1_\
+
+5;%r	U%?
+
+5;%i.W@SQLite format 3
+5;%
++Va<1
+3-3'
+com.apple.MobileSMSSMS:+18622176888com.apple.MobileSMS1642800922899
+9B692A8EF35ED6E5DF6A32BB87BA62A0|
+5;%*gvL
+
+recents
+contacts
+5;%#T
+phone+18622176888
+5;%
+d
+5;%'
+9B692A8EF35ED6E5DF6A32BB87BA62A0
+5;%i6
+com.apple.MobileSMS
+5;%5Y1U
+
+com.apple.MobileSMSSMS:78156com.apple.MobileSMS1642802564042
+~~9EFC3646AAA71B4245ABC05E39B7568Au
+5;%5~
+5;%`rZ
+phone78156
+5;%xB-h
+5;%P7Kj
+
+5;%/o
+9EFC3646AAA71B4245ABC05E39B7568A
+5;%u
+;
+{SQLite format 3
+5;%WW
+5;%A
+
+com.apple.MobileSMSSMS:78644com.apple.MobileSMS1642964427749
+~O67EFB564D1AA6E08E6816A4B2E3F4DB9n
+5;%<:r*
+phone78644
+5;%l8.*
+
+5;%dW]
+
+5;%OM
+p/Z=
+
+67EFB564D1AA6E08E6816A4B2E3F4DB9
+5;%82
+
+5;%PY??SQLite format 3
+5;%}
+`b,;
+
+com.apple.MobileSMSSMS:78644com.apple.MobileSMS1643495624600:1642964427749
+67EFB564D1AA6E08E6816A4B2E3F4DB9n
+5;%L7
+5;%Z
+cAX
+
+5;%i VI
+com.apple.MobileSMSSMS:52181com.apple.MobileSMS1643508257818
+0021A9A08C31C28E487B5168D347C202|
+5;%|6
+
+phone52181
+5;%^
+5;%-t
+0021A9A08C31C28E487B5168D347C202
+5;%cr-W
+
+3!3'
+com.apple.MobileSMSSMS:611611com.apple.MobileSMS1643509365123
+481B4799B166CEF12ACC9B01A958AF84n
+5;%~RW
+]Vg
+
+phone611611
+5;%g=
+
+5;%#~1m
+
+481B4799B166CEF12ACC9B01A958AF84
+5qo=
+
+,_mW
+
+
+
+<
+_$!<Other>!$_com.apple.passbookcom.apple.passd1643563535113
+K	
+E54B011C8EFF8ACC1F74C81507D4B912o
+5;%ZKS
+
+metadata
+/Pecf
+
+_$!<Other>!$_emailpbentley0107@gmail.com
+5;%l=(
+contactFromContactInformationbplist00	
+phoneticGivenNamebplist00P
+familyNamebplist00P
+phoneticFamilyNamebplist00P
+givenNamebplist00P
+5;%E
+contactFromContactInformation
+phoneticGivenName
+familyName
+phoneticFamilyName
+givenName
+5;%W1 ,-.
+
+5;%`
+
+email_$!<Other>!$_pbentley0107@gmail.com
+5;%PsicV
+
+E54B011C8EFF8ACC1F74C81507D4B912
+com.apple.passbook
+5;%w+=-
+
+5;%-R8
+
+
+<\
+_$!<Other>!$_com.apple.passbookcom.apple.passd1643563535155
+K3
+C3586748E14AB5BB93F249AAA02A3AA1n
+5;%f3P
+metadata
+
+5;%_Zzd
+
+_$!<Other>!$_phone9732941683/
+4
+
+
+f
+5;%`
+contactFromContactInformation
+
+phoneticGivenName	
+5;%V
+phone_$!<Other>!$_9732941683
+5;%b9dc
+
+C3586748E14AB5BB93F249AAA02A3AA1
+5;%,VeCP
+
+5;%7
+com.apple.MobileSMSSMS:23081com.apple.MobileSMS1643579552201:1641835688839:1641835686049
+~89493B928BB483D5A802A8AB1135159En
+5;%D
+
+5;%2
+B
+
+<\
+com.apple.MobileSMSSMS:78644com.apple.MobileSMS1643655663966:1643495624600:1642964427749
+^67EFB564D1AA6E08E6816A4B2E3F4DB9
+
+5;%3Sa4
+4
+
+<\
+com.apple.MobileSMSSMS:78644com.apple.MobileSMS1643841586373:1643655663966:1643495624600:1642964427749
+67EFB564D1AA6E08E6816A4B2E3F4DB9
+
+5;%<
+5;%#dsv
+5;%rC
+
+mZT
+
+lOv
+
+%
+
+<\
+com.apple.MobileSMSSMS:78644com.apple.MobileSMS1644014481055:1643841586373:1643655663966:1643495624600:1642964427749
+~.67EFB564D1AA6E08E6816A4B2E3F4DB9
+
+5;%Oaa%!
+
+5;%Tv
+5;%Eb&f
+
+%
+
+<\
+
+3G3'
+com.apple.MobileSMSSMS:naomakile3zro@outlook.comcom.apple.MobileSMS1644419165690
+-50AB5ADF39EB7AB37063C5F6CE3AFA9B'
+>^rJ
+recents	
+contacts	
+5;%X<
+?	emailnaomakile3zro@outlook.com#
+emailnaomakile3zro@outlook.com	"
+50AB5ADF39EB7AB37063C5F6CE3AFA9B	$

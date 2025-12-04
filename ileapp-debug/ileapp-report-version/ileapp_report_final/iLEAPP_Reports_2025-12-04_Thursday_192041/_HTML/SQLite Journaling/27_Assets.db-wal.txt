@@ -1,0 +1,235 @@
+^i|:NQPaX
+^i|:NpP
+fSQLite format 3
+.S`
+
+
+
+Wb
+indexAssetVolumeVolumeUUIDIndexAssetVolumeCREATE INDEX AssetVolumeVolumeUUIDIndex on AssetVolume (volumeUUID)
+ItableAssetVolumeAssetVolume
+CREATE TABLE AssetVolume (
+    volumeIndex     integer primary key,
+    volumeUUID      blob
+)i
+indexAssetHandleFileIDIndexAssetHandle	CREATE INDEX AssetHandleFileIDIndex on AssetHandle (fileID)i
+indexAssetHandleStatusIndexAssetHandle
+CREATE INDEX AssetHandleStatusIndex on AssetHandle (status){
+indexAssetHandleLastUsedTimeIndexAssetHandle
+CREATE INDEX AssetHandleLastUsedTimeIndex on AssetHandle (lastUsedTime)v
+indexAssetHandleSignatureIndexAssetHandle
+CREATE INDEX AssetHandleSignatureIndex on AssetHandle (fileSignature)b
+{indexAssetHandleUUIDIndexAssetHandle
+CREATE INDEX AssetHandleUUIDIndex on AssetHandle (UUID)
+{tableAssetHandleAssetHandle
+CREATE TABLE AssetHandle (
+    itemID        integer primary key,
+    UUID          blob not null,
+    lastUsedTime  integer not null,
+    volumeIndex      integer,
+    fileID        integer,
+    generationID  integer,
+    path          text,
+    fileSignature blob,
+    status        integer,
+    modTime       integer,
+    fileSize      integer,
+    chunkCount    integer
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+^i|:NYy4X
+
+'
+SchemaVersionAACF7DCBCFA6FAFB5A6223DBCD228F519DB805083706B27B8EB0A8ACFC81A749
+-Created664493134.094334
+^i|:N,L
+
+SchemaVersion
+	Created
+^i|:N
+^i|:Nw
+~o\7
+
+^i|:N-
+^i|:N4fvA3
+
+^i|:Nc#
+
+^i|:N 
+^i|:NOZj*
+
+^i|:NyySQLite format 3
+
+
+7[s
+indexAssetVolumeVolumeUUIDIndexAssetVolumeCREATE INDEX AssetVolumeVolumeUUIDIndex on AssetVolume (volumeUUID)i	
+indexAssetHandleFileIDIndexAssetHandleCREATE INDEX AssetHandleFileIDIndex on AssetHandle (fileID)i
+indexAssetHandleStatusIndexAssetHandle
+CREATE INDEX AssetHandleStatusIndex on AssetHandle (status){
+indexAssetHandleLastUsedTimeIndexAssetHandle	CREATE INDEX AssetHandleLastUsedTimeIndex on AssetHandle (lastUsedTime)v
+ItableAssetVolumeAssetVolume
+CREATE TABLE AssetVolume (
+    volumeIndex     integer primary key,
+    volumeUUID      blob
+)
+6iki
+^i|:N}E
+^i|:Nwg
+Am'
+
+^i|:N
+
+^i|:NYGA2c
+S
+
+}Dj
+
+^i|:Nr
+^i|:Nk
+^i|:Nw
+^i|:N8a~;
+
+!-LastVacuum664493134.102262Q
+^i|:N8
+
+LastVacuum
+^i|:NL.
+
+,apfsuuid
+@volum
+^i|:NE
+,	apfsuuid
+^i|:N"S
+F{1O9}^
+lIa$
+-
+a$
+^i|:Nl
+^i|:N+J$}wX
+
+^i|:Ny
+^i|:N?
+^i|:N	(o
+U,
+
+	
+d
+BI
+'{	da$
+^i|:N:B2^
+,	
+d
+BI
+'{	d
+^i|:N
+>Y
+^i|:N`AT
+^i|:N'$o
+
+^i|:NB86{
+
+^i|:Nx7q
+
+^i|:NA
+O.5
+
+^i|:NcV:2
+
+^i|:Nn"
+^i|:N$SDk
+^i|:N4gjLU7
+SQLite format 3
+^i|:Nw!dktNSQLite format 3
+^i|:N0#
+^i|:Nb_N
+^i|:N3viK
+^i|:N]9
+^i|:NF
+
+^i|:N
+cYgP
+
+^i|:N 0s
+
+!-LastVacuum665874779.294402Q
+^i|:N@_
+J@1M
+{Y9l
+
+^i|:NLi!E
+
+^i|:Nu,{H
+
+^i|:NVW>hT3
+
+	/@pHmS(O:b
+_Al?g"4,
+^i|:N8VaK
+
+/@pHmS(O:
+^i|:N#x7j
+
+^i|:N t_
+
+^i|:Ng"
+^i|:Nk^[
+^i|:Nh
+wYa7
+
+MaOu
+	sg'aL
+^i|:N))du
+
+sg'aL
+^i|:N ~<
+^i|:Nvu
+^i|:N<
+
+^i|:Np
+^i|:N^
+	*<yGU]
+^i|:N<8
+*<yGU]
+^i|:Nr
+
+^i|:Nz08
+
+^i|:N@
+^i|:NgCzL
+
+^i|:N*V
+^i|:N"
+^i|:Nv.&
+^i|:NL
+^i|:NVjfW
+
+^i|:N6>
+N3J
+
+^i|:NM
+^i|:NfHS
+^i|:Npb
+^i|:NS<f
+
+^i|:NwaAC
+*"f
+
+^i|:N82
+SW^
+
+^i|:NlZ<l$
+Ny0
+
+^i|:NuHE
+
+,8I
+
+^i|:Nu
+^i|:N)Wu;-
+
+^i|:Nbrn=o;

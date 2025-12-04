@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>store-version</key><string>1.0</string>
+  <key>store-client-application</key><string>Third-Party</string>
+  <key>available-subproducts</key>
+  <array>
+    <dict>
+      <key>item-id</key><integer>1254027712</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/diamond-membership/id329218549</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>14.99</real>
+          <key>price-display</key><string>$14.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>DIAMOND_MONTH_RENEWABLE</string>
+      <key>description</key><string>Unlimited access to all features! No ads.</string>
+      <key>title</key><string>Diamond Membership</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20364075</string>
+      <key>recurringSubscriptionPeriod</key><string>P1M</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>price</key><real>0</real>
+          <key>price-display</key><string>$0.00</string>
+          <key>modeType</key><string>FreeTrial</string>
+          <key>recurringSubscriptionPeriod</key><string>P1W</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1254029599</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/diamond-membership/id329218549</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>99.99</real>
+          <key>price-display</key><string>$99.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>DIAMOND_YEAR_RENEWABLE</string>
+      <key>description</key><string>Unlimited access to all features! No ads.</string>
+      <key>title</key><string>Diamond Membership</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20364075</string>
+      <key>recurringSubscriptionPeriod</key><string>P1Y</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>price</key><real>0</real>
+          <key>price-display</key><string>$0.00</string>
+          <key>modeType</key><string>FreeTrial</string>
+          <key>recurringSubscriptionPeriod</key><string>P1W</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1254032640</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/gold-membership/id329218549</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>4.99</real>
+          <key>price-display</key><string>$4.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>GOLD_MONTH_RENEWABLE</string>
+      <key>description</key><string>More Puzzles, Lessons &amp; Tournaments! No ads.</string>
+      <key>title</key><string>Gold Membership</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20364075</string>
+      <key>recurringSubscriptionPeriod</key><string>P1M</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>price</key><real>0</real>
+          <key>price-display</key><string>$0.00</string>
+          <key>modeType</key><string>FreeTrial</string>
+          <key>recurringSubscriptionPeriod</key><string>P1W</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1254033079</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/gold-membership/id329218549</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>29.99</real>
+          <key>price-display</key><string>$29.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>GOLD_YEAR_RENEWABLE</string>
+      <key>description</key><string>More Puzzles, Lessons &amp; Tournaments! No ads.</string>
+      <key>title</key><string>Gold Membership</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20364075</string>
+      <key>recurringSubscriptionPeriod</key><string>P1Y</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>price</key><real>0</real>
+          <key>price-display</key><string>$0.00</string>
+          <key>modeType</key><string>FreeTrial</string>
+          <key>recurringSubscriptionPeriod</key><string>P1W</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1254030277</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/platinum-membership/id329218549</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>6.99</real>
+          <key>price-display</key><string>$6.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>PLATINUM_MONTH_RENEWABLE</string>
+      <key>description</key><string>Full access to Tactics and more! No ads.</string>
+      <key>title</key><string>Platinum Membership</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20364075</string>
+      <key>recurringSubscriptionPeriod</key><string>P1M</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>price</key><real>0</real>
+          <key>price-display</key><string>$0.00</string>
+          <key>modeType</key><string>FreeTrial</string>
+          <key>recurringSubscriptionPeriod</key><string>P1W</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1254032257</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/platinum-membership/id329218549</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>49.99</real>
+          <key>price-display</key><string>$49.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>PLATINUM_YEAR_RENEWABLE</string>
+      <key>description</key><string>Full access to Tactics and more! No ads.</string>
+      <key>title</key><string>Platinum Membership</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20364075</string>
+      <key>recurringSubscriptionPeriod</key><string>P1Y</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>price</key><real>0</real>
+          <key>price-display</key><string>$0.00</string>
+          <key>modeType</key><string>FreeTrial</string>
+          <key>recurringSubscriptionPeriod</key><string>P1W</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+  </array>
+</dict>
+</plist>

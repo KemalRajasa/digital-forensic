@@ -1,0 +1,1 @@
+2022-01-06 14:41:07 Made container live com.apple.FunCamera.EmojiStickers /private/var/mobile/Containers/Data/Application/DA3E09F9-4605-4E1F-A9F4-085EC002472C

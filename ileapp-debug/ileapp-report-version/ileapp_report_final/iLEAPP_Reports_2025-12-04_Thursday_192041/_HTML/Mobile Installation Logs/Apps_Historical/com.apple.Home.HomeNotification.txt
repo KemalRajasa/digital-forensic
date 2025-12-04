@@ -1,0 +1,3 @@
+2022-01-10 12:29:20 Data container moved com.apple.Home.HomeNotification /private/var/mobile/Containers/Data/PluginKitPlugin/E9EE3691-8416-4757-86D2-0966CC0E1BAA
+2022-01-10 12:29:20 Data container moved com.apple.Home.HomeNotification /private/var/mobile/Containers/Data/PluginKitPlugin/E9EE3691-8416-4757-86D2-0966CC0E1BAA
+2022-01-06 17:41:30 Made container live com.apple.Home.HomeNotification /private/var/mobile/Containers/Data/PluginKitPlugin/174BF6BE-8446-40F1-969E-85AB88CB3771

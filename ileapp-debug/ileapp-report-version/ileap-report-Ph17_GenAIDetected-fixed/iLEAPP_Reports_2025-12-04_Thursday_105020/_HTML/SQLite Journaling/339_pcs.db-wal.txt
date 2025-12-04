@@ -1,0 +1,356 @@
+
+F:E
+/SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+]HzSQLite format 3
+.F?mh{
+1
+j`]
+
+3C8DAFB2-35AE-4564-8F5D-B3B0BBD94B4B:CloudTabs:__defaultOwner__
+75B3ECB7-70D4-4AAA-A49B-A85279D03233:CloudTabs:__defaultOwner__
+D941817D-FC8E-4ADE-A0B6-9CB92D1EB948:CloudTabs:__defaultOwner__
+CloudTabs:__defaultOwner__
+TabGroups:__defaultOwner__
+-
+EncryptionInfo:TabGroups:__defaultOwner__
+^&l
+
+com.apple.SafariShared.CloudTabsAAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+TabGroups:__defaultOwner__
+S\K
+
+CloudTabs:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+TabGroups:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+d
+TabGroups:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+J
+DlFv\
+
+6MUA
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+#'/56>?@DHINOPU$null
+
+ !"XParentID]RecordShareID_
+ChainParentPublicKeyID_
+ZoneishPublicKeyIDUKeyIDXRecordIDXChainPCS_
+PublicSharingKeyV$classZRecordType\RecordZoneID
+$%&YNS.string
++e696-OioA69A5Uw2a8UxzuLuGMjvrnyz0paEFSa7h9k()*+Z$classnameX$classes_
+NSMutableString,-._
+NSMutableStringXNSStringXNSObject
+01234ZRecordNameVZoneID
+
+$D941817D-FC8E-4ADE-A0B6-9CB92D1EB948789
+;<=_
+anonymousCKUserIDYownerNameXZoneName
+	YCloudTabs_
+__defaultOwner__()AB^CKRecordZoneIDC.^CKRecordZoneID()EFZCKRecordIDG.ZCKRecordID^CloudTabDevice789
+__defaultOwner__D
+()QR_
+CKDRecordPCSDataST._
+CKDRecordPCSDataZCKDPCSData
+com.apple.SafariShared.CloudTabsAAA3EB7E-485D-4C71-93D7-7C0CF8E04464CloudTabs:__defaultOwner__A
+	
+MUA
+ !%-567;<=ADU$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+ U9Q
+H`tEK
+frb/)PX
+{#'`
+f(iC0
+6D,x5U
+Q"l-#F?M[
+$st!y
+yXd'e..
++Ols
+d5|1kKG
+;iRL8v
+Q
+:5#('zwN
+=AprL40
+	~+Vx&4K
+gyx:D
+-^0N
+ 5%&bPY&$
+B%y&
+qz
+>)0'0%
+G4@_
+.[yA
+b\	?Lu=H
+ox{]F'6
+(F34998A19DD735F64A94A341C92C281FBB51F7C7
+"#$YNS.string
++NVdYugitYqfkU23PG7i5nsTiIaZfIbsj1tWC_AXxpCg&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneIDO
+JM>5bzA
+E0xHC 
+4'vq D
+r-~-w
+Ml(Wpz
+"Kr8r`}.
+vK0N
+OI~XZ,
+
+AsquCQ
+P?+(.G2
+Se[KO?*a
+FI5)9
+G	$wa^i
+VQ}Qb|TakJD
+>
+?@WNS.time#A
+
+&'BCVNSDateB,&'EF^CKDZonePCSDataGH,^CKDZonePCSDataZCKDPCSData
+Mcom.apple.SafariShared.CloudTabsAAA3EB7E-485D-4C71-93D7-7C0CF8E04464CloudTabs:__defaultOwner__A
+#'/56>?@DHIJU$null
+
++9USv8KYJjhlY9LMvcCzgPvf5vl6fQSicNxoEvEbTeiw()*+Z$classnameX$classes_
+0123"ZRecordNameVZoneID
+
+^EncryptionInfo789
+	YTabGroups_
+__defaultOwner__()AB^CKRecordZoneIDC.^CKRecordZoneID()EFZCKRecordIDG.ZCKRecordID^EncryptionInfoD)w()KL_
+CKDRecordPCSDataMN._
+com.apple.SafariShared.CloudTabsAAA3EB7E-485D-4C71-93D7-7C0CF8E04464TabGroups:__defaultOwner__A
+
+A
+F|?yme|x
+
+w0zaq!'
+NOrk8e
+rAp#NX/
+bxJpNy.
+/e!IEcLY3X.$eQ~
+3O]T
+}/0i
+Wuf|M&I+
+`.0O
+}d-@:pG)1
+B#[-c':"
+FZ;KMJ
+<)0'0%
+ xcl
+[
+:= Z[
+wp0n
+ pWsr'G
+p-oWB
+LOS~,fp
+B24yp_
+(023E6B67C39FF19DB52B908BA482458EF0A88797
++tESuJAVfhkxh0KtLex9FXLkmHpjj0wopQlHvX4Fi2HU&'()Z$classnameX$classes_
+/%3%
+K 1W
+Icp,
+w	j%l(+
+I^9
+A
+\>:
+IW.c}NJ
+sey0N
+>
+HQk5
+4IO{yzD
+ @J`
+)wp0n
+bSG6R?
+q/1h f
+D)w>
+.;C
+&'BCVNSDateB,&'EF^CKDZonePCSDataGH,^CKDZonePCSDataZCKDPCSData
+Mcom.apple.SafariShared.CloudTabsAAA3EB7E-485D-4C71-93D7-7C0CF8E04464TabGroups:__defaultOwner__A
+F:E
+*MUA
+$3C8DAFB2-35AE-4564-8F5D-B3B0BBD94B4B789
+__defaultOwner__()AB^CKRecordZoneIDC.^CKRecordZoneID()EFZCKRecordIDG.ZCKRecordIDXCloudTab789
+com.apple.SafariShared.CloudTabsAAA3EB7E-485D-4C71-93D7-7C0CF8E04464CloudTabs:__defaultOwner__A
+$75B3ECB7-70D4-4AAA-A49B-A85279D03233789
+wFK
+
+[-tZ
+
+$??s
+
+K+z]
+
+k-E
+
+$l
+z
+NMUA
+__defaultOwner__()AB^CKRecordZoneIDC.^CKRecordZoneID()EFZCKRecordIDG.ZCKRecordID^CloudTabDeviceD
+()KL_
+BMUA
+__defaultOwner__()AB^CKRecordZoneIDC.^CKRecordZoneID()EFZCKRecordIDG.ZCKRecordIDXCloudTabD
+()KL_
+:WPSQLite format 3
+0C700947-67AA-4543-87CF-9C760EB11C34:CloudTabs:__defaultOwner__
+vbP
+
+AeS6
+z
+F:E
+$0C700947-67AA-4543-87CF-9C760EB11C34789
+SQLite format 3
+:[q
+
+8
+
+=
+=
+=
+=
+=
+
+
+
+
+
+
+
+
+_Rr#[
+
+
+JW5
+
+1"!SQLite format 3
+	F:E
+q-}'
+r`sSQLite format 3
+x[;U
+7383072C-81DD-4477-B5E5-068C70B6DCFC:CloudTabs:__defaultOwner__
+$7383072C-81DD-4477-B5E5-068C70B6DCFC789
+MH5u
+
+
+=
+=
+WI20d
+
+
+
+
+
+
+^G
+
+oSQLite format 3
+1sSQLite format 3
+RK]L
+
+NR_
+
+wcb$
+
+|:]{x7
+
+vx&
+
+3Wi/
+
+
+B
+
+
+
+
+g'>wC
+
+']<
+
+[ec
+
+6SQLite format 3
+,/1
+
+	A
+e^&
+_
+;
+K;
+EncryptionInfo:TabGroups:__defaultOwner__
+
+TabGroups:__defaultOwner__	
+TabGroups:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs	
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs	
+t!LATSQLite format 3
+5U9=
+A
+es.&_
+EncryptionInfo:TabGroups:__defaultOwner__
+TabGroups:__defaultOwner__
+QG47
+
+e.p
+es.
+TabGroups:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabsd
+TabGroups:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+7]l;
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabsJ
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+e.
+KJkm
+TabGroups:__defaultOwner__
+
+*%zd
+TabGroups:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+
+[@
+
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.SafariShared.CloudTabs
+
+68(6do
+
+H>^
+
+'ih&
+G#L
+
+2sR
+
+Dp=&
+(fA
+
+$X"
+
+)2-u;|
+P9VK
+1V
+
+

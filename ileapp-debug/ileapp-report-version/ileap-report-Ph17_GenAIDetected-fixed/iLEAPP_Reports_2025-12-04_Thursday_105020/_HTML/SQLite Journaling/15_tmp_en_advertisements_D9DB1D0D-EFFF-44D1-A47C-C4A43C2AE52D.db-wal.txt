@@ -1,0 +1,19 @@
+sK6I
+wb85K
+sK6Q6$
+YSQLite format 3
+.S`
+
+sK6|Er+i
+SQLite format 3
+7tableen_advertisementsen_advertisements
+CREATE TABLE en_advertisements(rpi BLOB, encrypted_aem BLOB, timestamp INTEGER, scan_interval INTEGER, rssi INTEGER, max_rssi INTEGER, saturated BOOLEAN, counter INTEGER, PRIMARY KEY(rpi, timestamp)) WITHOUT ROWID
+sK6)
+sK6`
+xbgi
+
+yindextimestampen_advertisements
+CREATE INDEX timestamp ON en_advertisements(timestamp)
+sK6s$]
+sK67)Z?
+

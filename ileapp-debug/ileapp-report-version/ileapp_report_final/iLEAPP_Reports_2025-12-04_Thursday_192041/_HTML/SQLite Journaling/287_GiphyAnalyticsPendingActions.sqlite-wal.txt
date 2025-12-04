@@ -1,0 +1,17 @@
+O
+"rl
+4SQLite format 3
+.S`
+
+SQLite format 3
+tableyap2yap2
+CREATE TABLE "yap2" ("extension" CHAR NOT NULL,   "key" CHAR NOT NULL,   "data" BLOB,   PRIMARY KEY ("extension", "key") )'
+indexsqlite_autoindex_yap2_1yap2
+HaU
+
+Nyf+)SQLite format 3
+!tabledatabase2database2
+CREATE TABLE "database2" ("rowid" INTEGER PRIMARY KEY,  "collection" CHAR NOT NULL,  "key" CHAR NOT NULL,  "data" BLOB,  "metadata" BLOB )
+BsU@
+'indextrue_primary_keydatabase2
+CREATE UNIQUE INDEX "true_primary_key" ON "database2" ( "collection", "key" ))

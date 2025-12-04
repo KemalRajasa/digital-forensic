@@ -1,0 +1,123 @@
+'	9hvIpSQLite format 3
+.S`
+
+Ktabletrackingtracking
+CREATE TABLE tracking (created real, lat double, lng double, segment int, elevation double, horizontal_accuracy double, vertical_accuracy double, speed double)
+'	9W$&
+
+[IDSQLite format 3
+etablestatestate
+CREATE TABLE state (created real, state int)<
+'	9@UaH=bDcSQLite format 3
+Otablewaypointwaypoint
+CREATE TABLE waypoint (created real, name text, description text, lat double, lng double, elevation double, horizontal_accuracy double, vertical_accuracy double)B
+'	9	H
+'	9	*Y-SQLite format 3
+	tablephotosphotos
+CREATE TABLE photos (created real, lat double, lng double, comment text, imagedat blob, attributeId text, imagethumbnail blob)>
+'	9Vm{G}2(
+
+SQLite format 3
+Stablemetadatametadata
+CREATE TABLE metadata (created real, title text, rating int, activity_uid text, trail_local_id int)
+'	9tv
+y+SQLite format 3
+<
+
+
+
+wtablemetadatametadata
+CREATE TABLE metadata (created real, title text, rating int, activity_uid text, trail_local_id int, description text)
+'	9o
+?DSQLite format 3
+tablemetadatametadata
+CREATE TABLE metadata (created real, title text, rating int, activity_uid text, trail_local_id int, description text, is_private integer)
+'SQLite format 3
+.S`
+
+<
+
+etablesegment_statssegment_stats
+CREATE TABLE segment_stats (segment_index int primary key not null, elapsed_time double not null, moving_time double not null, point_count int not null, distance double not null, max_speed double not null, current_speed double not null)9
+indexsqlite_autoindex_segment_stats_1segment_stats
+'	9B{
+'	9-	
+
+'	9	0USQLite format 3
+<
+
+Etablemetadatametadata
+CREATE TABLE metadata (created real, title text, rating int, activity_uid text, trail_local_id int, description text, is_private integer, map_local_id text)
+'	9B#,WSQLite format 3
+.S`
+
+<
+	
+tablesegment_statssegment_stats
+CREATE TABLE segment_stats (segment_index int primary key not null, elapsed_time double not null, moving_time double not null, point_count int not null, distance double not null, max_speed double not null, current_speed double not null, elevation_gain double)9
+CREATE TABLE metadata (created real, title text, rating int, activity_uid text, trail_local_id int, description text, is_private integer, map_local_id text)
+'	9l8SQLite format 3
+
+	
+wtablewaypointwaypoint
+CREATE TABLE waypoint (created real, name text, description text, lat double, lng double, elevation double, horizontal_accuracy double, vertical_accuracy double, show_title integer)9
+CREATE TABLE photos (created real, lat double, lng double, comment text, imagedat blob, attributeId text, imagethumbnail blob)
+'	9g8vSQLite format 3
+5tablesegment_statssegment_stats
+CREATE TABLE segment_stats (segment_index int primary key not null, elapsed_time double not null, moving_time double not null, point_count int not null, distance double not null, max_speed double not null, current_speed double not null, elevation_gain double, calories double)9
+'	9:)h_NSQLite format 3
+mtabletrackingtracking
+CREATE TABLE tracking (created real, lat double, lng double, segment int, elevation double, horizontal_accuracy double, vertical_accuracy double, speed double, attributes text);
+CREATE TABLE state (created real, state int)
+'	9M
+w
+sSQLite format 3
+
+	
+!
+CREATE TABLE metadata (created real, title text, rating int, activity_uid text, trail_local_id int, description text, is_private integer, map_local_id text)
+indexsqlite_autoindex_properties_1properties
+
+Itablepropertiesproperties	CREATE TABLE properties (property_key text primary key not null, property_value text not null)
+'	9ehi5
+'	9B
+2
+'	9C.M
+cSQLite format 3
+	
+!
+ktablemetadatametadata
+CREATE TABLE metadata (created real, title text, rating int, activity_uid text, trail_local_id int, description text, is_private integer, map_local_id text, trail_review text)M
+CREATE TABLE segment_stats (segment_index int primary key not null, elapsed_time double not null, moving_time double not null, point_count int not null, distance double not null, max_speed double not null, current_speed double not null, elevation_gain double, calories double)
+$pSQLite format 3
+CREATE TABLE metadata (created real, title text, rating int, activity_uid text, trail_local_id int, description text, is_private integer, map_local_id text, trail_review text, trail_obstacles text)M
+'	9GZcb5SQLite format 3
+.S`
+	
+
+X
+!
+CREATE TABLE tracking (created real, lat double, lng double, segment int, elevation double, horizontal_accuracy double, vertical_accuracy double, speed double, attributes text)
+Qtablesegment_statssegment_stats
+CREATE TABLE segment_stats (segment_index int primary key not null, elapsed_time double not null, moving_time double not null, point_count int not null, distance double not null, max_speed double not null, current_speed double not null, elevation_gain double, calories double, steps double)3	
+'	9
+7k
+(+SQLite format 3
+
+@
+!
+CREATE TABLE segment_stats (segment_index int primary key not null, elapsed_time double not null, moving_time double not null, point_count int not null, distance double not null, max_speed double not null, current_speed double not null, elevation_gain double, calories double, steps double, flights_climbed double)3	
+
+)
+!
+/tablesegment_statssegment_stats
+CREATE TABLE segment_stats (segment_index int primary key not null, elapsed_time double not null, moving_time double not null, point_count int not null, distance double not null, max_speed double not null, current_speed double not null, elevation_gain double, calories double, steps double, flights_climbed double, elevation_loss double)3	
+ PSQLite format 3
+
+
+!
+ktablesegment_statssegment_stats
+CREATE TABLE segment_stats (segment_index int primary key not null, elapsed_time double not null, moving_time double not null, point_count int not null, distance double not null, max_speed double not null, current_speed double not null, elevation_gain double, calories double, steps double, flights_climbed double, elevation_loss double, legacy_elevation_gain double)3	
+'	9F-d(
+is_alerting_off_routefalse
+7	is_alerting_off_route

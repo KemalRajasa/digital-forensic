@@ -1,0 +1,425 @@
+6py+uSQLite format 3
+.S`
+
+?tablelocalelocale
+CREATE TABLE locale (    rowid INTEGER PRIMARY KEY NOT NULL,    locale TEXT NOT NULL    )
+\jOuL
+u
+u,
+
+r||YBuaSQLite format 3
+gtablepdplacespdplaces
+CREATE TABLE pdplaces (pdplacehash TEXT PRIMARY KEY NOT NULL, expiretime INT NOT NULL, pdplace BLOB NOT NULL)/
+indexsqlite_autoindex_pdplaces_1pdplaces
+0)5SQLite format 3
+tablepdplacelookuppdplacelookup
+CREATE TABLE pdplacelookup (requestkey TEXT PRIMARY KEY NOT NULL, pdplacehash TEXT NOT NULL, lastaccesstime INT NOT NULL)9
+indexsqlite_autoindex_pdplacelookup_1pdplacelookup
+Jj3|
+O["5
+
+en:en_US
+uSQLite format 3
+Oj9a0SQLite format 3
+H5SQLite format 3
+7i`
+
+\muid-13270751474905456672'
+}zA"
+com.apple.Maps"
+com.apple.Maps
+crossbusiness.parking*
+
+Parking2
+parkingsign.circle.fill
+"!crossbusiness.payments.creditcard*
+Accepts Credit Cards2
+creditcard.fill
+"&crossbusiness.payments.contactless_pay*
+Contactless Payments2
+nfcContactlessPaymentZ8
+$dacb6a31-8c24-4014-98cc-75d012289009
+
+1641861978158`
+com.yelp
+3ijbo-Yx3bT9C1OxcLezbQ"%yelp5.3:///biz/3ijbo-Yx3bT9C1OxcLezbQ"#yelp4:///biz/3ijbo-Yx3bT9C1OxcLezbQ""yelp:///biz/3ijbo-Yx3bT9C1OxcLezbQ"*http://yelp.com/biz/3ijbo-Yx3bT9C1OxcLezbQB
++1802658243329https://www.gardeners.com/our-garden-centers/williston-vtR+
+
+%Gardener's Supply Company - WillistonZ+
+
+%Gardener's Supply Company - Willistonb
+Shopping"
+shoppingb%
+
+Home Services"homeservicesb)
+Garden Supply Center"	gardeningb3
+Home & Garden Supply Store"
+homeandgardenb
+Gardener"	gardenersb"
+Landscaping"landscapingb)
+Garden Supply Center"	gardeningb)
+Garden Supply Center"	gardening
+shopping
+ shopping.homeandgarden.gardening
+Pond out front*
+WcVfAg43A0bA5NWC-eHaRA
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/WcVfAg43A0bA5NWC-eHaRA/o.jpg 
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/WcVfAg43A0bA5NWC-eHaRA/l.jpg 
+ZxDd0KyK7zk2KoPUSO3rjA
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/ZxDd0KyK7zk2KoPUSO3rjA/o.jpg 
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/ZxDd0KyK7zk2KoPUSO3rjA/l.jpg 
+1uFXkOrF71bgcgc6B3fGQw
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/1uFXkOrF71bgcgc6B3fGQw/o.jpg 
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/1uFXkOrF71bgcgc6B3fGQw/l.jpg 
+3ijbo-Yx3bT9C1OxcLezbQ`
+]
+9F@
+m+GR
+	!X99F@
+xPGR 
+3ijbo-Yx3bT9C1OxcLezbQ"%yelp5.3:///biz/3ijbo-Yx3bT9C1OxcLezbQ"#yelp4:///biz/3ijbo-Yx3bT9C1OxcLezbQ""yelp:///biz/3ijbo-Yx3bT9C1OxcLezbQ"*http://yelp.com/biz/3ijbo-Yx3bT9C1OxcLezbQBe
+b
+%Gardener's Supply Company - Williston
+Garden Supply Center
+@*	Williston0
+}zA"6
+NR%Y@
+}zA"	
+3ijbo-Yx3bT9C1OxcLezbQ"%yelp5.3:///biz/3ijbo-Yx3bT9C1OxcLezbQ"#yel
+?	muid-13270751474905456672
+phNo-+18026582433muid-13270751474905456672'
+muid-13270751474905456672muid-13270751474905456672'
+phNo-+18026582433
+p4:///biz/3ijbo-Yx3bT9C1OxcLezbQ""yelp:///biz/3ijbo-Yx3bT9C1OxcLezbQ"*http://yelp.com/biz/3ijbo-Yx3bT9C1OxcLezbQB
+Pond out front*h
+
+3ijbo-Yx3bT9C1OxcLezbQ"%yelp5.3:///biz/3ijbo-Yx3bT9C1OxcLezbQ"#yelp4:///biz/3ijbo-Yx3bT9C1OxcLezbQ""yelp:///biz/3ijbo-Yx3bT9C1OxcLezbQ"*http://yelp.com/biz/3ijbo-Yx3bT9C1OxcLezbQ
+3ijbo-Yx3bT9C1OxcLezbQ"%yelp5.3:///biz/3ijbo-Yx3bT9C1OxcLezbQ"#yelp4:///biz/3ijbo-Yx3bT9C1OxcLezbQ""yelp:///biz/3ijbo-Yx3bT9C1OxcLezbQ"*http://yelp.com/biz/3ijbo-Yx3bT9C1OxcLezbQ 
+}zA"I
+
+ 8fcf6613f2c998e67248596d05a870f4
+6
+$95be2113-f028-4738-90d1-a611e99c9cd3
+Products
+>
+$4e3e4da4-c65a-4469-9d50-30b84dede902
+Customer Service
+#9F@
+-
+%Gardener's Supply Company - Williston
+@GR"
+America/New_York:
+50007J
+appleJ
+placesJ
+poiJ
+ESTP
+This is my happy place. Great selection, friendly staff and I love the buy one get one deal along with the huge variety of items plus gotta love the clearance tent!
+6oA"W
+
+Ash S.
+Chttps://s3-media0.fl.yelpcdn.com/photo/EA141NMJ7tKBY_rLJjCgHQ/o.jpg*
+cEQU9cPzH3v784PooAvGSw2
+I do not recommend buying from their online store. Their online service is terrible. 1) They don't respond to emails. 2) Their phone support Tier 1 can't do much and will end up passing it to Tier 2. 
+<PIA"U
+
+C N.
+Chttps://s3-media0.fl.yelpcdn.com/photo/fIXsFUrlo5-PacbMOmtNMw/o.jpg*
+WfUo9HKSYJYNqaxvELQQbg2
+}zA"w
+=Garden Supply Center 
+ {s:s}Chittenden County, Vermont{/s:s}2
+10.2.0
+places2
+
+fromLegacy"
+472 Marshall AveZ
+Williston, VT  05495Z
+United Stateszi
+
+United States
+Vermont"
+VT*
+Chittenden2	Williston:
+05495RMarshall AveZ
+472b
+472 Marshall Avej
+7559*
+BS"Q
+$)
+9F@1`GR9/bDG9F@Ar:$
+$)."18F@1*
+HR9|
+H9F@Az>FGR
+pAZ8
+}zA(M:d
+%
+$2371A948-9489-4701-AA8C-5D01E629097C
+D~OySQLite format 3
+muid-10021136860554657603
+phNo-+18023992675muid-10021136860554657603':~:
+muid-10021136860554657603muid-10021136860554657603':~2
+phNo-+18023992675
+
+90t7oSIJWdZdygxg""yelp:///biz/4zkgxi90t7oSIJWdZdygxg"*http://yelp.com/biz/4zkgxi90t7oSIJWdZdygxg
+lp0CedxxC8lZuIiLKIHUKw
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/lp0CedxxC8lZuIiLKIHUKw/o.jpg 
+4zkgxi90t7oSIJWdZdygxg"%yelp5.3:///biz/4zkgxi90t7oSIJWdZdygxg"#yelp4:///biz/4zkgxi90t7oSIJWdZdygxg""yelp:///biz/4zkgxi90t7oSIJWdZdygxg"*http://yelp.com/biz/4zkgxi90t7oSIJWdZdygxg
+r0z-vlpJiIeLcSYGaGMKRQ
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/r0z-vlpJiIeLcSYGaGMKRQ/o.jpg 
+Wim_8Doj3Nixax9HwTnEMQ
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/Wim_8Doj3Nixax9HwTnEMQ/o.jpg 
+Tables by the window!*h
+
+G57ijZVyVR2_hzsugWQZ0w
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/G57ijZVyVR2_hzsugWQZ0w/o.jpg 
+Menu*h
+
+w_WUaUEL86GtpapPNVdkUg
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/w_WUaUEL86GtpapPNVdkUg/o.jpg 
+
+Come on in!*h
+
+z3TJxD16GJ7BnKqTDmEIfA
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/z3TJxD16GJ7BnKqTDmEIfA/o.jpg 
+
+
+Soup to go*h
+
+DrUInzNhlViHToBL2Uta-w
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/DrUInzNhlViHToBL2Uta-w/l.jpg 
+fXahvYwOj_mMQOOrnJUiNg
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/fXahvYwOj_mMQOOrnJUiNg/l.jpg 
+YjrsCNYgbnDNfhb_0ygj8Q
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/YjrsCNYgbnDNfhb_0ygj8Q/l.jpg 
+Low Sugar Ginger Greens*h
+
+oRhPW9c1r0iW4-NkIBTh-A
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/oRhPW9c1r0iW4-NkIBTh-A/l.jpg 
+sMp9hS4lfNIuX34ZRdD5IQ
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/sMp9hS4lfNIuX34ZRdD5IQ/l.jpg 
+4zkgxi90t7oSIJWdZdygxg"%yelp5.3:///biz/4zkgxi90t7oSIJWdZdygxg"#yelp4:///biz/4zkgxi90t7oSIJWdZdygxg""yelp:///biz/4zkgxi90t7oSIJWdZdygxg"*http://yelp.com/biz/4zkgxi90t7oSIJWdZdygxg Z
+4zkgxi90t7oSIJWdZdygxg`
+}BC?A"
+}BC?A"J
+4zkgxi90t7oSIJWdZdygxg"%yelp5.3:///biz/4zkgxi90t7oSIJWdZdygxg"#yelp4:///biz/4zkgxi90t7oSIJWdZdygxg""yelp:///biz/4zkgxi90t7oSIJWdZdygxg"*http://yelp.com/biz/4zkgxi90t7oSIJWdZdygxgB
+FFU8n3z5V34HYSSPJCZYHg
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/FFU8n3z5V34HYSSPJCZYHg/o.jpg 
+https://s3-media0.fl.yelpcdn.com/bphoto/FFU8n3z5V34HYSSPJCZYHg/l.jpg 
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/lp0CedxxC8lZuIiLKIHUKw/l.jpg 
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/r0z-vlpJiIeLcSYGaGMKRQ/l.jpg 
+Order
+Chttps://m.yelp.com/opportunity/juice-amour-burlington?vertical=food")com.yelp.yelpiphone.food-ordering-appclip(
+:!takeoutbag.and.cup.and.straw.fill
+
+Menu
+https://www.yelp.com/menu/juice-amour-burlington?adjust_creative=apple&utm_campaign=action_link_view_menu&utm_medium=feed_v2&utm_source=apple
+	284910350(
+:
+menucard.fill`
+	9 '<F@
+PNMR"
+$c1f8b20a-5a85-4928-bae4-8ba2cf284cee
+
+1641667878926`
+}BC?A"	
+We stumbled upon this place for a very light lunch. Ordered the avocado rice cakes and a blueberry smoothie. Everything is organic, fresh and made to order. Everything we ordered was delicious and the
+A"\
+Snickity N.
+Chttps://s3-media0.fl.yelpcdn.com/photo/zo0TfFKLtZbW8J9wzpK6aA/o.jpg*
+eXZfwDwyrY9PUoGlyxku4A2
+]Enjoyed a chocolate smoothie here after a day on the trail. Service was prompt and courteous.
+LA"W
+
+Sam Y.
+Chttps://s3-media0.fl.yelpcdn.com/photo/MrSlodtrujKtzcpiqfi0Eg/o.jpg*
+i5ciHnp0JIR_rTSQkhpZhQ2
+Juice is expensive but it's worth it. It's delicious and tastes fresh. The only thing I didn't like was that it wasn't made on the spot. The girl working makes a bunch of juices in the morning and pla
+q\@A"]
+Stephanie L.
+Chttps://s3-media0.fl.yelpcdn.com/photo/f4Oqc1n__L3HcFIKALA9vg/o.jpg*
+whKgB2SNQCDR4i1mgYEZvA2
+}BC?A"e
++Juice Bar 
+ {s:s}Burlington, Vermont{/s:s}2
+en"#
+
+198 St Paul StZ
+Burlington, VT  05401Z
+United Statesz
+
+
+United States
+Chittenden County2
+Burlington:
+05401B
+Designated Downtown DistrictR
+St Paul StZ
+198b
+198 St Paul St
+	South End
+Designated Downtown District"I
+\tn=address\ 198 
+\tn=normal\ 
+\toi=lhp\ se&Int.'pOl_'stR+it 
+\toi=orth\*
+
+United States
+Vermont*
+Chittenden County2
+BurlingtonB
+Designated Downtown DistrictR
+Saint Paul StreetZ
+\tn=normal\b0
+\tn=normal\ Saint Paul Street
+Designated Downtown District:
+BU"S
+$)
+t<F@1nTMR9_8<F@A2
+&)z
+
+<F@1f
+NR93U:=F@A5DMRP
+}BC?A(M:'
+%
+PNMR
+$0AF19EA9-117E-46FB-9002-2E79B3AEFDCE
+-
+2-&
+Nmuid-10021136860554657603'>
++180239926752
+http://www.juiceamour.comR
+Juice AmourZ
+Juice Amourb
+Food & Grocery"
+foodb
+	Juice Bar"	juicebarsb
+
+Acai Bowls"	acaibowlsb
+	Juice Bar"	juicebars
+
+fooddrinks
+food.juicebars
+":crossbusiness.accessibility_features.wheelchair_accessible*
+Wheelchair Accessible2
+accessibleWheelchair
+"#crossbusiness.parking.streetparking*
+Street Parking2
+"$crossbusiness.parking.parking_garage*
+Parking Garage2
+crossbusiness.pets.pets_welcome*
+Dogs Welcome2petsWelcome
+"(crossbusiness.techfeatures.wifi.freewifi*
+
+Free Wi-Fi2
+wifi
+"/crossbusiness.restrooms.gender_neutral_restroom*
+Gender-Neutral Restrooms2
+restroomGenderNeutral
+	Qr1<F@
+4zkgxi90t7oSIJWdZdygxg"%yelp5.3:///biz/4zkgxi90t7oSIJWdZdygxg"#yelp4:///biz/4zkgxi90t7oSIJWdZdygxg""yelp:///biz/4zkgxi90t7oSIJWdZdygxg"*http://yelp.com/biz/4zkgxi90t7oSIJWdZdygxgB+
+(
+Juice Amour
+	Juice Bar*
+Burlington0
+}BC?A"6
+4zkgxi90t7oSIJWdZdygxg"%yelp5.3:///biz/4zkgxi90t7oSIJWdZdygxg"#yelp4:///biz/4zkgxi
+EzT7
+{SQLite format 3
+BpY5
+8e,
+
+muid-13270751474905456672
+phNo-+18026582433muid-13270751474905456672'^:
+muid-13270751474905456672muid-13270751474905456672'^
+xUs86:
+
+n`Y
+
+}_N/A"
+
+1642455482926`
+}_N/A"6
+}_N/A"	
+}_N/A"I
+}_N/A"w
+}_N/A(M:d
+%
+$EE4F33B0-2812-409E-9664-8177BC4A6132
+G{{Ns/
+
+>iSQLite format 3
+t-
+r_
+
+phNo-+18023992675muid-10021136860554657603':~
+ROI9+_bSQLite format 3
+
+#;O
+2>Vc
+
+phNo-+18023992675muid-10021136860554657603'Z:
+muid-10021136860554657603muid-10021136860554657603'Z2
+N `]
+
+by the window!*h
+
+}bWs-A"
+
+1642385097423`
+}bWs-A"6
+}bWs-A"J
+Dhttps://s3-media0.fl.yelpcdn.com/bphoto/FFU8n3z5V34HYSSPJCZYHg/l.jpg 
+
+%]$Q
+"
+ d41d8cd98f00b204e9800998ecf8427e
+
+images/jpeg
+ *-@`
+}bWs-A"	
+}bWs-A"e
+}bWs-A(M:'
+%
+$09EA0D63-36AB-44E2-A75E-BFD6C2622144
+:muid-10021136860554657603'
+Tables 
+\E#!zSQLite format 3
+ELi9nN
+Utu
+
+by the window!*h
+
+XvGVJ
+
+phNo-+18026582433muid-13270751474905456672'^
++2.
+
+8hE:
+dSQLite format 3
+\yFRSQLite format 3
+'SQLite format 3
+:muid-10021136860554657603'`
+
+&b
+
+muid-10021136860554657603muid-10021136860554657603'C2
+phNo-+18023992675muid-10021136860554657603'C
+6.4
+
+phNo-+18023992675
+
+muid-10021136860554657603	
+	by the window!*h
+
+[A"6
+[A"J
+Dhttps://s3-media0.fl.yel
+pcdn.com/bphoto/lp0CedxxC8lZuIiLKIHUKw/o.jpg 
+[A"	
+[A"e
+[A(M:'
+%
+$023C2FB3-F49F-4470-9383-D6CD5D74509B
+muid-10021136860554657603muid-10021136860554657603'=2
+m,vSQLite format 3

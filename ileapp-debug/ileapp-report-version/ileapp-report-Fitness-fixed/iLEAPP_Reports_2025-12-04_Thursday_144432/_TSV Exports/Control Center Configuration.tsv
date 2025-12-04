@@ -1,0 +1,7 @@
+﻿Position	App Bundle	Control Type
+A-1	com.apple.control-center.MuteModule	Active
+A-2	com.apple.control-center.FlashlightModule	Active
+A-3	com.apple.mobiletimer.controlcenter.timer	Active
+A-4	com.apple.control-center.CalculatorModule	Active
+A-5	com.apple.control-center.CameraModule	Active
+A-6	com.apple.BarcodeSupport.NFCControlCenterModule	Active

@@ -1,0 +1,37 @@
+﻿Property	Property Value
+SiriOnBoardingPresented	True
+Locale	en_US
+chronicle	{'features': [{'type': 2, 'data': {'productVersion': '15.0.2'}}]}
+AppleIDPB10Presented	True
+SetupDone	True
+Language	en-US
+WebKitShrinksStandaloneImagesToFit	True
+setupMigratorVersion	10
+PhoneNumberPermissionPresentedKey	True
+UserChoseLanguage	True
+WebKitLocalStorageDatabasePathPreferenceKey	/var/mobile/Library/Caches
+AssistantPresented	True
+PBAppActivity2Presented	True
+PrivacyContentVersion	2
+PrivacyPresented	True
+MagnifyPresented	True
+Passcode4Presented	True
+Mesa2Presented	True
+PaymentMiniBuddy4Ran	True
+PBDiagnostics4Presented	True
+HSA2UpgradeMiniBuddy3Ran	True
+lastPrepareLaunchSentinel	[datetime.datetime(2022, 2, 14, 18, 25, 51, 177670), 0]
+CKStartupTime	1641835604
+SetupFinishedAllSteps	True
+CKPerBootTasks	['CKAcccountInfoCacheReset']
+GuessedCountry	{'countries': ['US'], 'at': datetime.datetime(2022, 1, 10, 17, 26, 53, 678689)}
+RestoreChoice	True
+WebKitAcceleratedDrawingEnabled	False
+WebDatabaseDirectory	/var/mobile/Library/Caches
+WebKitOfflineWebApplicationCacheEnabled	True
+AssistantPHSOffered	True
+SetupLastExit	2022-01-10 17:29:41.228838
+UserInterfaceStyleModePresented	True
+AutoUpdatePresented	True
+ScreenTimePresented	True
+SetupVersion	11

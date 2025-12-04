@@ -1,0 +1,2 @@
+2022-01-21 16:15:34 Made container live com.alltrails.AllTrails.NotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/6451DD89-382F-4B1D-AF22-16C30D89C336
+2022-01-21 16:15:34 Made container live com.alltrails.AllTrails.NotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/6451DD89-382F-4B1D-AF22-16C30D89C336

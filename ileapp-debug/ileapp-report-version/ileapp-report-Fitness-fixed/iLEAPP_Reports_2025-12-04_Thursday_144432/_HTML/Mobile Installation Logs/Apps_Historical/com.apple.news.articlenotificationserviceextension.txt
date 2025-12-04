@@ -1,0 +1,3 @@
+2022-01-10 12:28:40 Data container moved com.apple.news.articlenotificationserviceextension /private/var/mobile/Containers/Data/PluginKitPlugin/022DB110-DB3D-4626-B4D9-9CA5093F4592
+2022-01-10 12:28:40 Data container moved com.apple.news.articlenotificationserviceextension /private/var/mobile/Containers/Data/PluginKitPlugin/022DB110-DB3D-4626-B4D9-9CA5093F4592
+2022-01-06 17:41:32 Made container live com.apple.news.articlenotificationserviceextension /private/var/mobile/Containers/Data/PluginKitPlugin/7039E1CE-652D-47AE-BB70-BF005CDFC7AD

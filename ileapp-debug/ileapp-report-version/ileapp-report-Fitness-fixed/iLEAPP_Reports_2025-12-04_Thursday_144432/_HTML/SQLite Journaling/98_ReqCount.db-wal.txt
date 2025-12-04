@@ -1,0 +1,349 @@
+6?5I
+SQLite format 3
+.S`
+
+stablereqcountdatareqcountdata
+CREATE TABLE reqcountdata (    startTime REAL NOT NULL,    endTime REAL NOT NULL,    appid TEXT NOT NULL,    requesttype INT NOT NULL,    result INT NOT NULL,    xmitbytes INT NOT NULL,    recvbytes INT NOT NULL,    interface INT NOT NULL    )
+*xe3?8R
+'8=#SQLite format 3
+}tableproactivetileproactivetile
+CREATE TABLE proactivetile (    identifier TEXT NOT NULL,    policy INT NOT NULL,    start_timestamp INT NOT NULL,    end_timestamp INT,    tile_count INT,    dl_attempts INT,    success_count INT,    failure_count INT,    bytes_downloaded INT    )
+*Aq
+
+*
+7){SQLite format 3
+ctableanalyticshandlinganalyticshandling
+CREATE TABLE analyticshandling (    time INT NOT NULL,    logmsgtype INT NOT NULL,    persistcount INT,    uploadsuccesscount INT,    uploadsuccessbytecount INT,    uploadfailurecount INT,    dbexpirecount INT,    usedcellular INT    )
+Atableroute_preload_sessionsroute_preload_sessions
+CREATE TABLE route_preload_sessions (    start_time INT NOT NULL,    end_time INT NOT NULL,    transport_type INT NOT NULL,    tiles_preloaded INT NOT NULL,    tiles_used INT NOT NULL,    tiles_missed INT NOT NULL    )
+*wWvNSQLite format 3
+*66Q
+
+aSQLite format 3
+* q
+
+*fx<
++/SQLite format 3
+TCw!j
+
+'
+*
+*x
+*etp
+*'O1
+.pr
+
+0A3
+
+jVU
+
+*Yb	&
+
+9}	
+$
+
+
+Qx
+
+,2_
+8K|
+
+4tH
+
+*@'P
+s963
+
+*rH
+p
+
+'Z6*+
+*+@i>)
+
+
+
+
+
+'Z6*
+ 
+)lk/
+
+
+
+
+
+
+
+*I
+R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+*M	X
+N$
+
+
+
+
+
+
+
+
+{
+g
+*W,*'(
+
+
+
+
+
+
+
+
+{
+g
+S
+
+
+
+
+
+
+
+{
+g
+S
+@
+'\#*
+
+
+
+
+
+
+
+{
+g
+S
+@
+-
+'\#2
+-vTj
+
+
+
+
+
+
+
+
+{
+g
+S
+@
+-
+
+
+	
+
+	
+
+	
+'^*
+
+
+	
+
+	
+
+	
+
+	l
+~Y^t
+
+
+	lX
+
+	lXD
+
+	lXD1
+*2!+|l
+
+
+	lXD1
+'e*'
+	
+	
+*(:z
+	
+	
+*3T7'(
+
+	
+>
+c
+
+	}
+	}j
+*WC$
+
+	}jY
+*x ^
+	}jYG
+*p;1d
+
+	}jYG5
+L=r
+
+	}jYG5"
+	}jYG5"
+*J'{
+*Bmk
+
+
+Os
+
+'j.m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p
+
+
+
+
+
+
+
+
+p
+\
+5]H.
+
+
+
+
+
+
+
+
+
+p
+\
+H
+'j.
+$90
+
+
+
+
+
+
+
+
+
+p
+\
+H
+5
+
+
+
+
+
+
+
+
+p
+\
+H
+5
+!
+
+
+
+
+
+
+
+
+p
+\
+H
+5
+!
+
+
+t?
+
+*
+i|
+
+				
+'j23
+					
+X1i
+
+						
+							
+								o
+								o	]
+								o	]	L
+x=P
+
+								o	]	L	;
+_LSQLite format 3
+								o	]	L	;	)
+'bJ.
+								o	]	L	;	)	
+'bJ.	
+*hWBz-
+
+*0E
+
+'Bs.
+*\iJhQ
+
+*8c!j,z
+
+'Bs.s
+.Hd
+
+*#
+bq
+d%SQLite format 3
+*8VG4
+
+*X|"
+
+$]?v
+B>s
+
+*Gr`0>0uT
+
+'e.'

@@ -1,0 +1,601 @@
+{
+    "discoveryItems": [
+        {
+            "entitledToForceLargeCard": false,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "7"
+                }
+            },
+            "identifier": "AA3D3234-BC6C-4CF6-8A42-1D0165D370FB",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/AA3D3234-BC6C-4CF6-8A42-1D0165D370FB/version/5/layoutBundle.zip",
+            "maxViewCount": 5,
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "14.6"
+                }
+            },
+            "priority": 900,
+            "relevantDateRange": {
+                "endDate": "2022-05-18T06:00:00-08:00",
+                "startDate": "2021-08-18T06:00:00-08:00"
+            },
+            "ruleIdentifier": "4BCA1B67-1124-4766-9FB2-CEF869574FEE",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 5
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "7"
+                }
+            },
+            "identifier": "092DBC93-71CB-49CC-A65E-968D55521FD3",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/092DBC93-71CB-49CC-A65E-968D55521FD3/version/5/layoutBundle.zip",
+            "maxViewCount": 5,
+            "osVersionRange": {
+                "maximum": {
+                    "iPhone": "14.8"
+                },
+                "minimum": {
+                    "iPhone": "14.6"
+                }
+            },
+            "priority": 810,
+            "relevantDateRange": {
+                "endDate": "2022-01-20T11:00:00-08:00",
+                "startDate": "2021-05-24T06:00:00-08:00"
+            },
+            "ruleIdentifier": "91B00D92-013B-451F-A54A-6D2B1566C97D",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 5
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "7"
+                }
+            },
+            "identifier": "1F76A923-C9A9-40D8-92EA-88C7FCE11671",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/1F76A923-C9A9-40D8-92EA-88C7FCE11671/version/1/layoutBundle.zip",
+            "maxViewCount": 5,
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2021-09-30T10:00:00+08:00",
+                "startDate": "2021-08-23T10:00:00+08:00"
+            },
+            "ruleIdentifier": "123F4015-9A53-4B08-A216-C193A6AC6799",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 1
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "identifier": "B3F24882-8F41-4F48-A7AE-F9DF2AAAB313",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/B3F24882-8F41-4F48-A7AE-F9DF2AAAB313/version/3/layoutBundle.zip",
+            "maxViewCount": 5,
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2021-11-14T12:00:00+08:00",
+                "startDate": "2021-05-14T12:00:00+08:00"
+            },
+            "ruleIdentifier": "562F4015-9A53-4B08-A216-C193A6AC6791",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 3
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "10"
+                }
+            },
+            "identifier": "08F3626A-BB60-44C9-9183-344F38ECA91E",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/08F3626A-BB60-44C9-9183-344F38ECA91E/version/3/layoutBundle.zip",
+            "maxViewCount": 5,
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2022-01-19T23:00:00+08:00",
+                "startDate": "2021-08-19T10:00:00+08:00"
+            },
+            "ruleIdentifier": "D648AAB3-5387-499D-8E77-8CB0FA7DA1C3",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 3
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "10"
+                }
+            },
+            "identifier": "E3C88C55-82F8-440B-9E4C-96D24A171B48",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/E3C88C55-82F8-440B-9E4C-96D24A171B48/version/1/layoutBundle.zip",
+            "maxViewCount": 5,
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2022-01-19T23:00:00+08:00",
+                "startDate": "2021-08-19T10:00:00+08:00"
+            },
+            "ruleIdentifier": "161375E4-FE3C-461D-A0A8-6943B91E9696",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 1
+        },
+        {
+            "entitledToForceLargeCard": true,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "7"
+                }
+            },
+            "identifier": "40cc8cf6-f7d2-407b-9426-0986d1f39178",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/40cc8cf6-f7d2-407b-9426-0986d1f39178/version/27/layoutBundle.zip",
+            "maxViewCount": 10,
+            "maxViewCountLargeCard": 5,
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "13.2"
+                }
+            },
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2022-04-02T11:59:00-08:00",
+                "startDate": "2022-02-01T06:00:00-08:00"
+            },
+            "ruleIdentifier": "14d43bf6-8919-4043-b6d6-88f585589f26",
+            "type": "article",
+            "version": 27
+        },
+        {
+            "entitledToForceLargeCard": true,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "7"
+                }
+            },
+            "identifier": "681BED7E-16EA-4840-900E-A3E7A2E5118E",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/681BED7E-16EA-4840-900E-A3E7A2E5118E/version/4/layoutBundle.zip",
+            "maxViewCount": 10,
+            "maxViewCountLargeCard": 5,
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "13.2"
+                }
+            },
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2022-01-31T11:59:00-08:00",
+                "startDate": "2021-12-26T06:00:00-08:00"
+            },
+            "ruleIdentifier": "14d43bf6-8919-4043-b6d6-88f585589f26",
+            "type": "article",
+            "version": 4
+        },
+        {
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "maximum": "9",
+                    "models": [
+                        "iPhone10,1",
+                        "iPhone10,4",
+                        "iPhone10,2",
+                        "iPhone10,5",
+                        "iPhone12,8"
+                    ]
+                }
+            },
+            "identifier": "74594D5C-80A1-45C6-913D-638F25E0F26D",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/74594D5C-80A1-45C6-913D-638F25E0F26D/version/2/layoutBundle.zip",
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "13.4"
+                }
+            },
+            "priority": 800,
+            "ruleIdentifier": "2816F4F8-3AB6-4C85-A47E-43A58E31C41D",
+            "type": "article",
+            "version": 2
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "identifier": "02AA4913-46E3-4923-80B7-E3C218F75331",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/02AA4913-46E3-4923-80B7-E3C218F75331/version/2/layoutBundle.zip",
+            "maxViewCount": 5,
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "13.6"
+                }
+            },
+            "priority": 775,
+            "relevantDateRange": {
+                "endDate": "2022-01-01T07:00:00-08:00",
+                "startDate": "2021-11-16T07:00:00-08:00"
+            },
+            "ruleIdentifier": "16E1904A-943C-43C0-A1C1-01D28BBD682A",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 2
+        },
+        {
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "7"
+                }
+            },
+            "identifier": "E03E2007-595C-46F5-A457-2087E7F307AC",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/E03E2007-595C-46F5-A457-2087E7F307AC/version/1/layoutBundle.zip",
+            "maxViewCount": 5,
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "15.0"
+                }
+            },
+            "priority": 750,
+            "relevantDateRange": {
+                "endDate": "2022-05-16T23:00:00+01:00",
+                "startDate": "2021-11-16T08:00:00+01:00"
+            },
+            "ruleIdentifier": "27222963-7100-457C-86B9-9C787D474A8F",
+            "shouldBadge": true,
+            "trigger": "0770C472-AA16-4A5D-B34A-CF27409E02DB",
+            "type": "article",
+            "version": 1
+        },
+        {
+            "entitledToForceLargeCard": true,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "7"
+                }
+            },
+            "identifier": "05EBFD3D-01EA-4F89-9A76-F445108E46D4",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/05EBFD3D-01EA-4F89-9A76-F445108E46D4/version/1/layoutBundle.zip",
+            "maxViewCount": 6,
+            "maxViewCountLargeCard": 3,
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "14.0"
+                }
+            },
+            "priority": 700,
+            "relevantDateRange": {
+                "endDate": "2022-02-13T10:00:00+01:00",
+                "startDate": "2021-10-13T10:00:00+01:00"
+            },
+            "ruleIdentifier": "FE66BD8B-F4DC-4F9B-940F-A3590833BD02",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 1
+        },
+        {
+            "entitledToForceLargeCard": true,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "7"
+                }
+            },
+            "identifier": "90A7EB88-8FD5-42E4-86C4-DF581BD2DA5C",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/90A7EB88-8FD5-42E4-86C4-DF581BD2DA5C/version/6/layoutBundle.zip",
+            "maxViewCount": 10,
+            "maxViewCountLargeCard": 5,
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "13.4"
+                }
+            },
+            "priority": 700,
+            "relevantDateRange": {
+                "endDate": "2021-12-25T10:00:00+08:00",
+                "startDate": "2021-06-25T10:00:00+08:00"
+            },
+            "ruleIdentifier": "AF4F822F-5BC1-4D55-B993-071AC4D3B513",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 6
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "identifier": "3855EAD8-FEA0-43BA-B694-C6D6FB9438D",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/3855EAD8-FEA0-43BA-B694-C6D6FB9438D/version/1/layoutBundle.zip",
+            "maxViewCount": 5,
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2022-05-01T12:00:00+08:00",
+                "startDate": "2021-11-01T12:00:00+08:00"
+            },
+            "ruleIdentifier": "45ce8ebd-dff1-4c0f-bc72-438a2770aeb8",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 1
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "identifier": "0300140B-294B-44B4-BC31-66594BB070BD",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/0300140B-294B-44B4-BC31-66594BB070BD/version/1/layoutBundle.zip",
+            "maxViewCount": 5,
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2022-06-17T10:00:00+08:00",
+                "startDate": "2021-12-17T10:00:00+08:00"
+            },
+            "ruleIdentifier": "E386B87E-B3F1-4BE8-B384-41BF0D9DC6F4",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 1
+        },
+        {
+            "entitledToForceLargeCard": false,
+            "identifier": "76F69C2D-5CCF-4AB9-9203-E0255CA73514",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/76F69C2D-5CCF-4AB9-9203-E0255CA73514/version/1/layoutBundle.zip",
+            "maxViewCount": 5,
+            "priority": 801,
+            "relevantDateRange": {
+                "endDate": "2022-06-017T10:00:00+08:00",
+                "startDate": "2021-12-17T10:00:00+08:00"
+            },
+            "ruleIdentifier": "21AAB063-82D8-4B0A-9EB1-60FDF85B6216",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 1
+        },
+        {
+            "entitledToForceLargeCard": true,
+            "hardwareVersionRange": {
+                "iPhone": {
+                    "minimum": "10"
+                }
+            },
+            "identifier": "7B3C1719-CA57-4D3F-B171-609555DEC677",
+            "layoutBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/discoveryItems/7B3C1719-CA57-4D3F-B171-609555DEC677/version/1/layoutBundle.zip",
+            "maxViewCount": 10,
+            "maxViewCountLargeCard": 5,
+            "priority": 500,
+            "relevantDateRange": {
+                "endDate": "2022-09-16T12:00:00+08:00",
+                "startDate": "2022-03-08T12:00:00+08:00"
+            },
+            "ruleIdentifier": "62FFEA78-05C0-4349-BEBE-191D806D898B",
+            "shouldBadge": true,
+            "type": "article",
+            "version": 1
+        }
+    ],
+    "engagementMessagesMetadata": {
+        "messagesBundleURL": "https://smp-device-content.apple.com/static/discovery/v1/messages/version/47/messagesBundle.zip",
+        "version": 47
+    },
+    "miniCardsAllowed": true,
+    "rules": [
+        {
+            "identifier": "0475166D-E5F5-4AD0-A2C4-3416B071B4B1",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 6"
+        },
+        {
+            "identifier": "91B00D92-013B-451F-A54A-6D2B1566C97D",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && currentRegion LIKE 'US' && hasDefaultCreditAccount == TRUE && defaultCreditAccountIsShared == FALSE && defaultCreditAccountState == 1"
+        },
+        {
+            "identifier": "14d43bf6-8919-4043-b6d6-88f585589f26",
+            "predicateFormat": "defaultCreditAccountSetupFeatureState == 1 && deviceLanguage CONTAINS 'en' && currentRegion LIKE 'US'"
+        },
+        {
+            "identifier": "2d680495-f4b3-4a83-9414-c2ff3db2a969",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 10 && defaultCreditAccountDaysSinceCreatedDate < 17 && defaultCreditAccountPassIsDefault == FALSE && (defaultCreditAccountHasInStoreTransaction == TRUE || defaultCreditAccountHasInAppTransaction == TRUE || defaultCreditAccountHasWebTransaction == TRUE)"
+        },
+        {
+            "identifier": "D4709B24-4D6E-4EC0-97F0-3D3A3B747A6C",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 2 && defaultCreditAccountHasVirtualCardTransaction == FALSE"
+        },
+        {
+            "identifier": "db9079dc-e4d8-4beb-8f8d-4894cabe11c0",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 5 && defaultCreditAccountDaysSinceCreatedDate < 20"
+        },
+        {
+            "identifier": "D49B5BBE-AFA6-490F-99EC-F323FEDF4C92",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 15 && defaultCreditAccountDaysSinceCreatedDate < 22 && (defaultCreditAccountHasInStoreTransaction == TRUE || defaultCreditAccountHasInAppTransaction == TRUE || defaultCreditAccountHasWebTransaction == TRUE || defaultCreditAccountHasVirtualCardTransaction == TRUE || defaultCreditAccountHasPhysicalCardTransaction == TRUE)"
+        },
+        {
+            "identifier": "70394B47-FCB6-4443-AE69-AC64DACD3FD1",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 15 && (defaultCreditAccountHasInStoreTransaction == FALSE && defaultCreditAccountHasInAppTransaction == FALSE && defaultCreditAccountHasWebTransaction == FALSE && defaultCreditAccountHasVirtualCardTransaction == FALSE && defaultCreditAccountHasPhysicalCardTransaction == FALSE)"
+        },
+        {
+            "identifier": "0ABFC0A1-5218-4BD0-B46D-9C7D7BA40DE0",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && (defaultCreditAccountDaysSinceLastTransaction >= 14 && defaultCreditAccountDaysSinceLastTransaction < 30) && (defaultCreditAccountHasInStoreTransaction == TRUE || defaultCreditAccountHasInAppTransaction == TRUE || defaultCreditAccountHasWebTransaction == TRUE || defaultCreditAccountHasVirtualCardTransaction == TRUE || defaultCreditAccountHasPhysicalCardTransaction == TRUE)"
+        },
+        {
+            "identifier": "37A0FDCD-7AEB-49F9-97BB-F18BBD0BFEBC",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceLastTransaction >= 30 && (defaultCreditAccountHasInStoreTransaction == TRUE || defaultCreditAccountHasInAppTransaction == TRUE || defaultCreditAccountHasWebTransaction == TRUE || defaultCreditAccountHasVirtualCardTransaction == TRUE || defaultCreditAccountHasPhysicalCardTransaction == TRUE)"
+        },
+        {
+            "identifier": "AF18FCBA-ED10-430A-B4B1-CE1764B49E96",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 20 && defaultCreditAccountDaysSinceCreatedDate < 35"
+        },
+        {
+            "identifier": "BAA08A33-7123-4E60-BC6B-FF32337AA38A",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 35 && defaultCreditAccountDaysSinceCreatedDate < 45"
+        },
+        {
+            "identifier": "299C9AB4-F168-42EE-A3A5-419575E10A9E",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 25 && defaultCreditAccountDaysSinceCreatedDate < 30"
+        },
+        {
+            "identifier": "41B4B5C0-DAC2-43BA-840E-1EF01296B7FD",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 15 && defaultCreditAccountDaysSinceCreatedDate < 20"
+        },
+        {
+            "identifier": "715ec87d-dfea-401b-bdca-afd61a74614a",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 15 && defaultCreditAccountDaysSinceCreatedDate < 25"
+        },
+        {
+            "identifier": "123BB72D-8C5F-4166-A8FE-B8660D5088FD",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 65"
+        },
+        {
+            "identifier": "2816F4F8-3AB6-4C85-A47E-43A58E31C41D",
+            "predicateFormat": "hasPeerPaymentAccount == TRUE && isApplePayActive == FALSE && deviceLanguage CONTAINS 'en' && currentRegion LIKE 'US'"
+        },
+        {
+            "identifier": "D7A4C1E5-28D0-40DE-9D2D-490D2B9071DE",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate > 3"
+        },
+        {
+            "identifier": "261958AE-2573-41BE-941E-A19EC6237FF9",
+            "predicateFormat": "FALSEPREDICATE"
+        },
+        {
+            "identifier": "3C54C5DE-00AD-4D4A-8124-70959C1BBF70",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate > 30"
+        },
+        {
+            "identifier": "C3F60AF8-9A6F-4830-B956-128DCBA89F85",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 60 && defaultCreditAccountDaysSinceCreatedDate < 70 && defaultCreditAccountHasVirtualCardTransaction == TRUE"
+        },
+        {
+            "identifier": "569ACFDB-F768-4320-A595-3010AA4C7B9E",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountDaysSinceCreatedDate >= 70"
+        },
+        {
+            "identifier": "562F4015-9A53-4B08-A216-C193A6AC6791",
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "14.5"
+                }
+            },
+            "predicateFormat": "'5ED21C42-ABE8-48BF-AFE3-774CDBF47254' IN sentTransitDCINotifications"
+        },
+        {
+            "identifier": "AF4F822F-5BC1-4D55-B993-071AC4D3B513",
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "13.4"
+                }
+            },
+            "predicateFormat": "(deviceLanguage == 'en' || deviceLanguage CONTAINS 'zh') && currentRegion LIKE 'CN'"
+        },
+        {
+            "identifier": "DE9CC48F-0922-4459-A849-BD73CB5CFD99",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE && defaultCreditAccountState == 1 && defaultCreditAccountAccessLevel != 2 && defaultCreditAccountDaysSinceCreatedDate >= 30 && defaultCreditAccountDaysSinceCreatedDate <= 45"
+        },
+        {
+            "identifier": "977B1EFF-395D-4A3E-9BEA-124ACC3877DF",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && peerPaymentAccountDaysSinceIdentifiedDate == 2 && peerPaymentAccountRole == 1 && peerPaymentAccountHasTransaction == False && familyCircleCurrentUserAge >= 13"
+        },
+        {
+            "identifier": "D42C2F0B-5A2D-42A9-8523-5C24D4FF1D4F",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && familyCircleFamilyOrganizer == TRUE && peerPaymentFamilyParticipantAccounts >= 1"
+        },
+        {
+            "identifier": "D648AAB3-5387-499D-8E77-8CB0FA7DA1C3",
+            "osVersionRange": {
+                "maximum": {
+                    "iPhone": "14.99"
+                },
+                "minimum": {
+                    "iPhone": "14.0"
+                }
+            },
+            "predicateFormat": "'E5638136-0EBE-483A-9325-228DCA8BE352' IN sentTransitDCINotifications"
+        },
+        {
+            "identifier": "161375E4-FE3C-461D-A0A8-6943B91E9696",
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "15.0"
+                }
+            },
+            "predicateFormat": "('E5638136-0EBE-483A-9325-228DCA8BE352' IN sentTransitDCINotifications) && (NOT 'com.apple.transit.clipper' IN transitNetworksPresent)"
+        },
+        {
+            "identifier": "123F4015-9A53-4B08-A216-C193A6AC6799",
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "14.0"
+                }
+            },
+            "predicateFormat": "'456B2445-FFE5-47B6-9486-B13D188A0B70' IN sentTransitDCINotifications"
+        },
+        {
+            "identifier": "0770C472-AA16-4A5D-B34A-CF27409E02DB",
+            "predicateFormat": "'B8898EB9-08A8-48A7-8FC3-F26729BEADD5' IN supportedTransitMarketsForCurrentLocation && deviceLanguage CONTAINS 'en' && 'Payment' IN cardTypesWithExpressEnabled"
+        },
+        {
+            "identifier": "4BCA1B67-1124-4766-9FB2-CEF869574FEE",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount == TRUE  && defaultCreditAccountDaysSinceCreatedDate <= 30"
+        },
+        {
+            "identifier": "32DE768D-76C7-4337-82CB-0503DDF2374B",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && peerPaymentAccountRole == 0"
+        },
+        {
+            "identifier": "79920E92-109C-415C-902F-F4C73DBB37E4",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && peerPaymentAccountDaysSinceIdentifiedDate >2 && peerPaymentAccountRole == 0 && peerPaymentAccountHasTransaction == FALSE"
+        },
+        {
+            "identifier": "FE66BD8B-F4DC-4F9B-940F-A3590833BD02",
+            "predicateFormat": "deviceLanguage CONTAINS 'de' && currentRegion LIKE 'DE' && hasPaymentCard == TRUE && hasApplePayTransaction == TRUE"
+        },
+        {
+            "identifier": "27222963-7100-457C-86B9-9C787D474A8F",
+            "predicateFormat": "currentRegion LIKE 'GB' && deviceLanguage CONTAINS 'en' && 'Payment' IN cardTypesWithExpressEnabled"
+        },
+        {
+            "identifier": "16E1904A-943C-43C0-A1C1-01D28BBD682A",
+            "predicateFormat": "(currentRegion LIKE 'US' || currentRegion LIKE 'GB') && isApplePayActive == true && daysSinceLastTransaction >= 10"
+        },
+        {
+            "identifier": "636E44C9-B503-4F0A-813C-A1805C548B7F",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && hasDefaultCreditAccount==TRUE && defaultCreditAccountAccessLevel !=2 && ((defaultCreditAccountIsCoOwner == TRUE && defaultCreditAccountParticipantUsersCount < 4) || (defaultCreditAccountIsCoOwner == FALSE && defaultCreditAccountParticipantUsersCount <= 4)) && defaultCreditAccountDaysSinceCreatedDate > 5"
+        },
+        {
+            "identifier": "45ce8ebd-dff1-4c0f-bc72-438a2770aeb8",
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "14.0"
+                }
+            },
+            "predicateFormat": "'6B266243-A472-4F59-9CD8-31D51B90A948' IN sentTransitDCINotifications"
+        },
+        {
+            "identifier": "E386B87E-B3F1-4BE8-B384-41BF0D9DC6F4",
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "15.0"
+                }
+            },
+            "predicateFormat": "'758E48F0-45BC-11EC-8072-0800200C9A66' IN sentTransitDCINotifications && (NOT 'com.apple.transit.mot.shenzhen' IN transitNetworksPresent)"
+        },
+        {
+            "identifier": "21AAB063-82D8-4B0A-9EB1-60FDF85B6216",
+            "osVersionRange": {
+                "maximum": {
+                    "iPhone": "14.9"
+                },
+                "minimum": {
+                    "iPhone": "14.0"
+                }
+            },
+            "predicateFormat": "'758E48F0-45BC-11EC-8072-0800200C9A66' IN sentTransitDCINotifications"
+        },
+        {
+            "identifier": "7B02BAB0-E09B-42DF-B153-CF8D73D061CC",
+            "predicateFormat": "deviceLanguage CONTAINS 'en' && familyCircleCurrentUserAge < 0 || familyCircleCurrentUserAge > 17"
+        },
+        {
+            "identifier": "62FFEA78-05C0-4349-BEBE-191D806D898B",
+            "osVersionRange": {
+                "minimum": {
+                    "iPhone": "14.0"
+                }
+            },
+            "predicateFormat": "currentRegion LIKE 'HK'"
+        }
+    ],
+    "version": 1
+}

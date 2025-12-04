@@ -1,0 +1,49 @@
+bk1@
+SQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+. f`C
+nonecom.facebook.graphgraph.facebook.com
+a'ia5y
+		nonecom.facebook.graph
+ea'ia5y=
+nonecom.facebook.graph
+VSC`A
+
+nonenet.fbcdn.xx.scontent-bos3-1scontent-bos3-1.xx.fbcdn.net
+a'ia5y?
+$Bz/
+
+nonenet.fbcdn.xx.scontent-bos3-1
+ea'ia5yQ
+|SQLite format 3
+aFaV
+eaFaV=
+Ar
+Q
+
+nonecom.bumbcdn.pd2uspd2us.bumbcdn.com
+v/;K
+
+nonecom.bumbcdn.pd2us
+eaa;
+_S2
+
+8p4XOtsbSQLite format 3
+5Y2*~G
+
+6XWqx
+
+.zK
+
+ ,bkU
+eata=
+[9T5SQLite format 3
+><=/
+
+eaa=
+ S|
+

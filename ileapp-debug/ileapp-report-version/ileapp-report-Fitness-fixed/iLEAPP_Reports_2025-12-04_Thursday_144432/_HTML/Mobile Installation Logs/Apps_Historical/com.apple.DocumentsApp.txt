@@ -1,0 +1,9 @@
+2022-01-10 12:30:00 Data container moved com.apple.DocumentsApp /private/var/mobile/Containers/Data/Application/EF9D7D76-5961-4413-8222-A2B6D8CE2C61
+2022-01-10 12:30:00 Made container live com.apple.DocumentsApp /private/var/containers/Bundle/Application/5D067746-B6CC-406F-ABEA-5F2B7D149925
+2022-01-10 12:30:00 Install successful com.apple.DocumentsApp 
+2022-01-10 12:30:00 Data container moved com.apple.DocumentsApp /private/var/mobile/Containers/Data/Application/EF9D7D76-5961-4413-8222-A2B6D8CE2C61
+2022-01-10 12:30:00 Made container live com.apple.DocumentsApp /private/var/containers/Bundle/Application/5D067746-B6CC-406F-ABEA-5F2B7D149925
+2022-01-10 12:30:00 Install successful com.apple.DocumentsApp 
+2022-01-06 17:41:27 Made container live com.apple.DocumentsApp /private/var/mobile/Containers/Data/Application/A6C6548D-584A-4C98-8621-AF5E2D239E9D
+2022-01-06 17:41:27 Made container live com.apple.DocumentsApp /private/var/containers/Bundle/Application/EF597A1E-A847-400D-B67C-71FC26D3ED97
+2022-01-06 17:41:27 Install successful com.apple.DocumentsApp 

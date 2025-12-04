@@ -1,0 +1,140 @@
+vKdC
+
+mapbox.eventData:d2VhdGhlcg==#&
+mapbox.eventData.uuid:d2VhdGhlcg=="
+criteo_pt_cdb_mngr_metrics0
+criteo_pt_cdb_bidcachemap/
+rpaSession.
+in-session1
+_cc_aud%
+
+_cc_cc$
+
+_cc_id
+_GESPSK-esp.criteo.com
+cto_bundle
+wxu-web/keyval:usPrivacyDataNotice
+wfxtg
+wxu-web/keyval:airlyticsEventQueue
+wxu-web/keyval:airlyticsUserAttributes
+
+userConsents	
+wxu-web/keyval:userSession
+wxu-web/keyval:userLastSeenTime
+nerf-web/keyval:user
+wxu-web/keyval:user
+wxu-web/keyval:devSettings
+apstagCfg
+v+}E
+	M
+
+I
+L_cc_audA
+_cc_ccA
+GLmapbox.eventData:d2VhdGhlcg=={
+mapbox.eventData.uuid:d2VhdGhlcg==3
+QDwxu-web/keyval:usPrivacyDataNotice{
+wxu-web/keyval:airlyticsEventQueue[
+K@wxu-web/keyval:userLastSeenTime1
+wxu-web/keyval:user{
+5$nerf-web/keyval:user{
+_cc_id1
+9p_GESPSK-esp.criteo.com[
+apstagCfg{
+!|cto_bundlez
+v%S1Sk
+!<in-session7
+APcriteo_pt_cdb_mngr_metrics{
+?$criteo_pt_cdb_bidcachemap{
+!<rpaSessione
+vAG
+
+nerf-web/keyval:user2
+wxu-web/keyval:user3
+	M
+
+I		
+Y2z
+
+3(wxu-web/keyval:user{
+5Dnerf-web/keyval:user{
+wxu-web/keyval:userSession4#
+%
+F
+wxu-web/keyval:airlyticsUserAttributes{
+userConsents{
+A\wxu-web/keyval:devSettings{
+A@wxu-web/keyval:userSession[
+`x[
+
+SQLite format 3
+.S`
+
+QtableItemTableItemTable
+CREATE TABLE ItemTable (key TEXT UNIQUE ON CONFLICT REPLACE, value BLOB NOT NULL ON CONFLICT FAIL)1
+indexsqlite_autoindex_ItemTable_1ItemTable
+wxu-web/keyval:userLastSeenTime5
+vc8Ulv
+
+	M
+
+I	
+v(`>;
+v$CQSQLite format 3
+v=So
+
+vXyV
+
+vt80#
+v7x|
+v/^~
+
+wxu-web/keyval:airlyticsEventQueue8*
+wxu-web/keyval:airlyticsUserAttributes6
+v1d{
+
+Lwfxtg{
+vHp4
+
+
+.k
+E{b
+
+wxu-web/keyval:airlyticsEventQueue9*
+Qlwxu-web/keyval:airlyticsEventQueue[
+v
+L.z}F
+_cc_aud;
+
+_cc_cc:
+
+v3Znvb
+
+vr3X:
+_cc_ccA
+v9gGSn9SQLite format 3
+criteo_pt_cdb_mngr_metrics@
+criteo_pt_cdb_bidcachemap?
+rpaSession>
+wfxtg=&
+wxu-web/keyval:airlyticsEventQueue<*
+vIp.
+	C
+:
+v3i+t<z
+	
+@
+*	
+v@xmJ
+
+		M	&
+?,criteo_pt_cdb_bidcachemap{
+RjZ\
+
+rpaSessione
+Pwfxtg{
+va6k<l
+_GESPSK-esp.criteo.comB
+cto_bundleA&
+:
+cto_bundleg

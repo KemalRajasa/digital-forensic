@@ -1,0 +1,658 @@
+SQLite format 3
+5=3t	
+__CSDBRecordSequenceNumber154
+_ClientVersion15009
+counter_last_reset0
+counter_out_lifetime0
+counter_in_lifetime0
+counter_out_all0
+counter_in_all0
+h6?Or
+
+counter_out_lifetime
+counter_out_all
+counter_last_reset
+counter_in_lifetime
+)	counter_in_all
+__CSDBRecordSequenceNumber
+_ClientVersion
+5=e7m
+
+=_\@
+
+message
+
+handle
+chat
+kvtable
+r#'
+
+5=?xD
+
+naomakile3zro@outlook.comusSMSnaomakile3zro@outlook.com
+611611usSMS611611
+52181usSMS52181
+78644usSMS78644
+78156usSMS78156"
++18622176888usSMS8622176888
+23081usSMS23081
+5=^[{4
+
+5=VY
+naomakile3zro@outlook.comSMS
+78644SMS
+78156SMS
+611611SMS
+52181SMS
+	23081SMS
++18622176888SMS
+5=-o
+5=k9
+5=jT
+
+5=	Y
+5=xNp
+
+	>M{
+	<s
+	;ED
+	;Dsp
+	;9Y
+
+	9V:%`
+	84.
+	5S#
+	5S}Y
+F5EA61FE-EC90-6591-AEC8-5137D37A4B54
+D7677229-C39B-4D47-9435-2C026EB6503D
+(
+BFA04BAE-F0C7-13A8-3B8B-2A1772AB8676
+(
+B49ADCBF-FE7F-7C0D-3C0A-B227E889C6E0
+AD5DB1C1-EE21-28F1-8701-5F560B9722CB
+A81F064B-C9E9-4E29-5894-96A8F0E05B05(
+A6AECCDA-528D-7626-99A4-114DDCB57E42
+9850AA44-4AF9-F018-871B-9BED2D9AFE5E
+95D1F17C-4C5F-A9CA-21CC-1E1AE4EE14B6
+7EEC28DD-6511-086A-9E43-32751163DDB8
+778F7C4D-F6D6-C544-3BB4-01A96B3162B2	'
+U	5E1E1068-ED42-1707-F8BE-5719C4E43B8F(
+3A4EF1A1-7FC5-A2ED-ADA0-D7224DFD90D8
+
+
+
+	
+
+e
+indexsqlite_autoindex_chat_message_join_1chat_message_join
+Itablechat_message_joinchat_message_join
+CREATE TABLE chat_message_join (chat_id INTEGER REFERENCES chat (ROWID) ON DELETE CASCADE, message_id INTEGER REFERENCES message (ROWID) ON DELETE CASCADE, message_date INTEGER DEFAULT 0, PRIMARY KEY (chat_id, message_id))
+utablekvtablekvtable
+CREATE TABLE kvtable (ROWID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, key TEXT UNIQUE NOT NULL, value BLOB NOT NULL)-
+indexsqlite_autoindex_kvtable_2kvtable
+indexsqlite_autoindex_kvtable_1kvtable
+tablesync_deleted_attachmentssync_deleted_attachments
+CREATE TABLE sync_deleted_attachments (ROWID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, guid TEXT NOT NULL, recordID TEXT )O
+indexsqlite_autoindex_sync_deleted_attachments_1sync_deleted_attachments
+-tablemessage_attachment_joinmessage_attachment_join
+CREATE TABLE message_attachment_join (message_id INTEGER REFERENCES message (ROWID) ON DELETE CASCADE, attachment_id INTEGER REFERENCES attachment (ROWID) ON DELETE CASCADE, UNIQUE(message_id, attachment_id))M
+indexsqlite_autoindex_message_attachment_join_1message_attachment_join
+tablesync_deleted_chatssync_deleted_chats
+CREATE TABLE sync_deleted_chats (ROWID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, guid TEXT NOT NULL, recordID TEXT,timestamp INTEGER)C
+indexsqlite_autoindex_sync_deleted_chats_1sync_deleted_chats
+tablehandlehandle
+CREATE TABLE handle (ROWID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, id TEXT NOT NULL, country TEXT, service TEXT NOT NULL, uncanonicalized_id TEXT, person_centric_id TEXT, UNIQUE (id, service) )+
+indexsqlite_autoindex_handle_2handle
+indexsqlite_autoindex_handle_1handle
+tablemessage_processing_taskmessage_processing_taskCREATE TABLE message_processing_task (ROWID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, guid TEXT NOT NULL, task_flags INTEGER NOT NULL )M
+indexsqlite_autoindex_message_processing_task_1message_processing_task.
+{tablesync_deleted_messagessync_deleted_messages	CREATE TABLE sync_deleted_messages (ROWID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, guid TEXT NOT NULL, recordID TEXT )I	
+indexsqlite_autoindex_sync_deleted_messages_1sync_deleted_messages
+a
+utablechat_handle_joinchat_handle_join
+CREATE TABLE chat_handle_join (chat_id INTEGER REFERENCES chat (ROWID) ON DELETE CASCADE, handle_id INTEGER REFERENCES handle (ROWID) ON DELETE CASCADE, UNIQUE(chat_id, handle_id))?
+indexsqlite_autoindex_chat_handle_join_1chat_handle_join
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Qtabledeleted_messagesdeleted_messages
+CREATE TABLE deleted_messages (ROWID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, guid TEXT NOT NULL)?
+indexsqlite_autoindex_deleted_messages_1deleted_messages
+!table_SqliteDatabaseProperties_SqliteDatabaseProperties
+CREATE TABLE _SqliteDatabaseProperties (key TEXT, value TEXT, UNIQUE(key))Q
+indexsqlite_autoindex__SqliteDatabaseProperties_1_SqliteDatabaseProperties
+5=3'Y
+Etableattachmentattachment!CREATE TABLE attachment (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, guid TEXT UNIQUE NOT NULL, created_date INTEGER DEFAULT 0, start_date INTEGER DEFAULT 0, filename TEXT, uti TEXT, mime_type TEXT, transfer_state INTEGER DEFAULT 0, is_outgoing INTEGER DEFAULT 0, user_info BLOB, transfer_name TEXT, total_bytes INTEGER DEFAULT 0, is_sticker INTEGER DEFAULT 0, sticker_user_info BLOB, attribution_info BLOB, hide_attachment INTEGER DEFAULT 0, ck_sync_state INTEGER DEFAULT 0, ck_server_change_token_blob BLOB, ck_record_id TEXT, original_guid TEXT UNIQUE NOT NULL, is_commsafety_sensitive INTEGER DEFAULT 0)'
+indexsqlite_autoindex_chat_1chat >
+_tablechatchat
+CREATE TABLE chat (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, guid TEXT UNIQUE NOT NULL, style INTEGER, state INTEGER, account_id TEXT, properties BLOB, chat_identifier TEXT, service_name TEXT, room_name TEXT, account_login TEXT, is_archived INTEGER DEFAULT 0, last_addressed_handle TEXT, display_name TEXT, group_id TEXT, is_filtered INTEGER DEFAULT 0, successful_query INTEGER, engram_id TEXT, server_change_token TEXT, ck_sync_state INTEGER DEFAULT 0, original_group_id TEXT, last_read_message_timestamp INTEGER DEFAULT 0, cloudkit_record_id TEXT, last_addressed_sim_id TEXT, is_blackholed INTEGER DEFAULT 0, syndication_date INTEGER DEFAULT 0, syndication_type INTEGER DEFAULT 0)-
+indexsqlite_autoindex_message_1message
+9tablemessagemessage
+CREATE TABLE message (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, guid TEXT UNIQUE NOT NULL, text TEXT, replace INTEGER DEFAULT 0, service_center TEXT, handle_id INTEGER DEFAULT 0, subject TEXT, country TEXT, attributedBody BLOB, version INTEGER DEFAULT 0, type INTEGER DEFAULT 0, service TEXT, account TEXT, account_guid TEXT, error INTEGER DEFAULT 0, date INTEGER, date_read INTEGER, date_delivered INTEGER, is_delivered INTEGER DEFAULT 0, is_finished INTEGER DEFAULT 0, is_emote INTEGER DEFAULT 0, is_from_me INTEGER DEFAULT 0, is_empty INTEGER DEFAULT 0, is_delayed INTEGER DEFAULT 0, is_auto_reply INTEGER DEFAULT 0, is_prepared INTEGER DEFAULT 0, is_read INTEGER DEFAULT 0, is_system_message INTEGER DEFAULT 0, is_sent INTEGER DEFAULT 0, has_dd_results INTEGER DEFAULT 0, is_service_message INTEGER DEFAULT 0, is_forward INTEGER DEFAULT 0, was_downgraded INTEGER DEFAULT 0, is_archive INTEGER DEFAULT 0, cache_has_attachments INTEGER DEFAULT 0, cache_roomnames TEXT, was_data_detected INTEGER DEFAULT 0, was_deduplicated INTEGER DEFAULT 0, is_audio_message INTEGER DEFAULT 0, is_played INTEGER DEFAULT 0, date_played INTEGER, item_type INTEGER DEFAULT 0, other_handle INTEGER DEFAULT 0, group_title TEXT, group_action_type INTEGER DEFAULT 0, share_status INTEGER DEFAULT 0, share_direction INTEGER DEFAULT 0, is_expirable INTEGER DEFAULT 0, expire_state INTEGER DEFAULT 0, message_action_type INTEGER DEFAULT 0, message_source INTEGER DEFAULT 0, associated_message_guid TEXT, associated_message_type INTEGER DEFAULT 0, balloon_bundle_id TEXT, payload_data BLOB, expressive_send_style_id TEXT, associated_message_range_location INTEGER DEFAULT 0, associated_message_range_length INTEGER DEFAULT 0, time_expressive_send_played INTEGER, message_summary_info BLOB, ck_sync_state INTEGER DEFAULT 0, ck_record_id TEXT, ck_record_change_tag TEXT, destination_caller_id TEXT, is_corrupt INTEGER DEFAULT 0, reply_to_guid TEXT, sort_id INTEGER, is_spam INTEGER DEFAULT 0, has_unseen_mention INTEGER DEFAULT 0, thread_originator_guid TEXT, thread_originator_part TEXT, syndication_ranges TEXT, synced_syndication_ranges TEXT, was_delivered_quietly INTEGER DEFAULT 0, did_notify_recipient INTEGER DEFAULT 0)
+5=0a" 
+
+
+r
+	
+%
+U	
+SMS;-;naomakile3zro@outlook.com-
+C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EFbplist00
+[SMSCategory_
+wasDetectedAsSMSSpam_
+hasBeenAutoSpamReported
+2LNO
+Pnaomakile3zro@outlook.comSMSP:+19732941683+1973294168310103DB6-A8FF-4C1B-BA48-634BA810730EA889A38480C199AD7E0F80CAFDA555D0FF24FAFC4
+SMS;-;611611-
+P611611SMSP:+19732941683+19732941683A86577E8-C636-4122-87FB-7FA672B8BCD90445F3F96F9118AA51B9E8CAAC5DE4DC1B0B196B2
+SMS;-;52181-
+P52181SMSP:+19732941683+197329416834B2065F1-515A-4015-A80A-12295EAE83EA08F897212BF84DE4CAED1E9C6243741C869C05F9~
+SMS;-;78644-
+wasDetectedAsSMSSpam[SMSCategory_
+CKChatWatermarkMessageID_
+CKChatWatermarkTime_
+jC"	
+*6Qg
+78644SMSP:+19732941683+19732941683ED70C1BD-9B2E-48CC-BD9C-5EB1F8C24CE2099E6B0CFB71848DF04B39F719BC71791B479FBF	=sti
+SMS;-;78156-
+P78156SMSE:+19732941683DFA67ECC-ED6F-444C-BD0D-6B6B2F8CD18BD4A013BC0C56692E7008F6BF48265D1032C34ABC	8
+SMS;-;+18622176888-
+P+18622176888SMSE:+19732941683EFF7F6F3-3E4B-4A31-B7A4-35053A9DA297CA2DCEC8920BF8B5C01842B52287E58817B0E30D	8
+SMS;-;23081-
+wasDetectedAsSMSSpam[SMSCategory
+
+$01
+323081SMSP:+19732941683+19732941683530CC598-6F8A-4844-A722-B06945B2F5AD623D1CD506BFDC597F63EBB73035109066E15120	5SV
+5=^Jr
+
+SMS;-;naomakile3zro@outlook.com
+SMS;-;78644
+SMS;-;78156
+SMS;-;611611
+SMS;-;52181
+#	SMS;-;23081
+SMS;-;+18622176888
+
+
+
+g
+A
+
+P
+I
+handlesqlite_autoindex_handle_17 1(
+handlesqlite_autoindex_handle_27 1 1<
+chat_handle_joinsqlite_autoindex_chat_handle_join_17 1 15
+chat_handle_joinchat_handle_join_idx_handle_id7 1L
+_SqliteDatabasePropertiessqlite_autoindex__SqliteDatabaseProperties_17 1?
+chat_message_joinsqlite_autoindex_chat_message_join_113 2 1>
+chat_message_joinchat_message_join_idx_message_id_only13 16
+chat_message_joinchat_message_join_idx_chat_id13 2J
+chat_message_joinchat_message_join_idx_message_date_id_chat_id13 2 1 1)
+messagesqlite_autoindex_message_113 1
+messagemessage_idx_date13 12
+messagemessage_idx_thread_originator_guid13 13#
+messagemessage_idx_handle13 2 1$
+messagemessage_idx_handle_id13 2:
+U#messagemessage_idx_is_sent_is_from_me_error13 13 13 13.
+messagemessage_idx_associated_message13 131
+
+messagemessage_idx_cache_has_attachments13 13(
+messagemessage_idx_other_handle13 13*
+messagemessage_idx_was_downgraded13 13(
+
+messagemessage_idx_expire_state13 13&	
+messagemessage_idx_is_read13 7 7 77
+messagemessage_idx_isRead_isFromMe_itemType13 7 7 7(
+1#messagemessage_idx_failed13 13 13 13"
+chatsqlite_autoindex_chat_17 12
+chatchat_idx_chat_identifier_service_name7 1 1#
+chatchat_idx_chat_identifier7 11
+chatchat_idx_chat_room_name_service_name7 7 7
+chatchat_idx_is_archived7 7
+chatchat_idx_group_id7 1
+5=,t
+Q
+		
+
+
+
+Z	
+
+
+,}
+-indexmessage_idx_undelivered_one_to_one_imessagemessage4CREATE INDEX message_idx_undelivered_one_to_one_imessage ON message(cache_roomnames,service,is_sent,is_delivered,was_downgraded,item_type) where cache_roomnames IS NULL AND service = 'iMessage' AND is_sent = 1 AND is_delivered = 0 AND was_downgraded = 0 AND item_type == 04/
+Windexmessage_processing_task_idx_guid_task_flagsmessage_processing_task3CREATE INDEX message_processing_task_idx_guid_task_flags ON message_processing_task(guid, task_flags)g.
+	indexchat_idx_chat_identifierchat2CREATE INDEX chat_idx_chat_identifier ON chat(chat_identifier)
++indexmessage_idx_associated_messagemessage1CREATE INDEX message_idx_associated_message ON message(associated_message_guid)
+3indexchat_message_join_idx_message_id_onlychat_message_join0CREATE INDEX chat_message_join_idx_message_id_only ON chat_message_join(message_id)
+=indexmessage_idx_is_sent_is_from_me_errormessage/CREATE INDEX message_idx_is_sent_is_from_me_error ON message(is_sent, is_from_me, error)`*
+}indexmessage_idx_handle_idmessage.CREATE INDEX message_idx_handle_id ON message(handle_id)a)
+indexmessage_idx_handlemessage-CREATE INDEX message_idx_handle ON message(handle_id, date)
+1indexmessage_idx_thread_originator_guidmessage,CREATE INDEX message_idx_thread_originator_guid ON message(thread_originator_guid)~'
+indexattachment_idx_purged_attachments_v2attachment+CREATE INDEX attachment_idx_purged_attachments_v2 ON attachment(hide_attachment,ck_sync_state,transfer_state) WHERE hide_attachment=0 AND (ck_sync_state=1 OR ck_sync_state=4) AND transfer_state=0Q&
+iindexmessage_idx_datemessage*CREATE INDEX message_idx_date ON message(date)-%
+Mindexmessage_attachment_join_idx_attachment_idmessage_attachment_join)CREATE INDEX message_attachment_join_idx_attachment_id ON message_attachment_join(attachment_id)
+!indexchat_handle_join_idx_handle_idchat_handle_join(CREATE INDEX chat_handle_join_idx_handle_id ON chat_handle_join(handle_id)
+?indexchat_idx_chat_identifier_service_namechat&CREATE INDEX chat_idx_chat_identifier_service_name ON chat(chat_identifier, service_name)
+Aindexmessage_attachment_join_idx_message_idmessage_attachment_join%CREATE INDEX message_attachment_join_idx_message_id ON message_attachment_join(message_id)K!
+[tablesqlite_stat1sqlite_stat1$CREATE TABLE sqlite_stat1(tbl,idx,stat)3 
+indexsqlite_autoindex_attachment_2attachment#3
+indexsqlite_autoindex_attachment_1attachment"j8
+	indexmessage_idx_expire_statemessage<CREATE INDEX message_idx_expire_state ON message(expire_state)Q7
+mindexchat_idx_group_idchat;CREATE INDEX chat_idx_group_id ON chat(group_id)Z6
+yindexchat_idx_is_archivedchat:CREATE INDEX chat_idx_is_archived ON chat(is_archived)p5
+indexmessage_idx_was_downgradedmessage9CREATE INDEX message_idx_was_downgraded ON message(was_downgraded)j4
+	indexmessage_idx_other_handlemessage8CREATE INDEX message_idx_other_handle ON message(other_handle)
+1indexchat_idx_chat_room_name_service_namechat7CREATE INDEX chat_idx_chat_room_name_service_name ON chat(room_name, service_name)
+-indexmessage_idx_cache_has_attachmentsmessage6CREATE INDEX message_idx_cache_has_attachments ON message(cache_has_attachments)
+indexchat_message_join_idx_chat_idchat_message_join5CREATE INDEX chat_message_join_idx_chat_id ON chat_message_join(chat_id)
+5=*51!K
+
+5=Jp61B-
+
+	>M{
+
+>-
+	;	
+		5S}Y
+5=]h|{
+
+5=}=4
+5=`oac
+	>M{
+
+	;	
+
+5=frD4
+
+=q`
+
+5=(` 
+naomakile3zro@outlook.com
+78644
+78156
+611611
+52181
+	23081
++18622176888
+l"{
+
+5=[(H
+
+5=4W
+5=W<}K
+	SMS
+5=ZO!b
+#oMO
+
+?(E
+
+EFF7F6F3-3E4B-4A31-B7A4-35053A9DA297
+ED70C1BD-9B2E-48CC-BD9C-5EB1F8C24CE2
+DFA67ECC-ED6F-444C-BD0D-6B6B2F8CD18B
+A86577E8-C636-4122-87FB-7FA672B8BCD9
+U	530CC598-6F8A-4844-A722-B06945B2F5AD(
+4B2065F1-515A-4015-A80A-12295EAE83EA
+10103DB6-A8FF-4C1B-BA48-634BA810730E
+5=k<D#
+
+ YG
+
+	>M{
+
+
+	;		
+			5S}Y
+5={t<
+
+5=UW%
+
+95D1F17C-4C5F-A9CA-21CC-1E1AE4EE14B6Total Wireless: Please take a Total Wireless survey to help us improve your customer experience. Click here http://total-w.co/qbkKnp3 STOP to End.
+streamtyped
+NSMutableAttributedString
+NSAttributedString
+NSObject
+NSMutableString
+NSString
+Total Wireless: Please take a Total Wireless survey to help us improve your customer experience. Click here http://total-w.co/qbkKnp3 STOP to End.
+lNSDictionary
+__kIMMessagePartAttributeName
+NSNumber
+NSValue
+__kIMDataDetectedAttributeName
+NSData
+[573c]bplist00
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	
+WversionYdd-result
+$%&,-.26:U$null
+RMSV$classRARQTQPRSRRVN
+ !"#_
+NS.rangeval.length_
+NS.rangeval.locationZNS.special
+l'()*Z$classnameX$classesWNSValue)+XNSObject_
+http://total-w.co/qbkKnp3WHttpURL/
+01ZNS.objects	'(34^NSMutableArray35+WNSArray'(78_
+DDScannerResult9+_
+DDScannerResult
+__kIMLinkAttributeName
+NSURL
+http://total-w.co/qbkKnp3
+
+SMSE:C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	5S#
+	5SV+197329416835E1E1068-ED42-1707-F8BE-5719C4E43B8F6
+5E1E1068-ED42-1707-F8BE-5719C4E43B8FTotal Wireless: We'd love to have your feedback! Help us improve your activation experience by completing this short survey. http://total-w.co/qbkKgl3 STOP to End.
+Total Wireless: We'd love to have your feedback! Help us improve your activation experience by completing this short survey. http://total-w.co/qbkKgl3 STOP to End.
+}NSDictionary
+}'()*Z$classnameX$classesWNSValue)+XNSObject_
+http://total-w.co/qbkKgl3WHttpURL/
+http://total-w.co/qbkKgl3
+
+SMSE:C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	5S}Y	5SV+19732941683
+9850AA44-4AF9-F018-871B-9BED2D9AFE5ETotal Wireless: Get 5% off on your plan EVERY month when you enroll in Auto-Refill. It's easy, reliable and convenient: my-tw.co/mqwh STOP to End
+Total Wireless: Get 5% off on your plan EVERY month when you enroll in Auto-Refill. It's easy, reliable and convenient: my-tw.co/mqwh STOP to End
+xNSDictionary
+[558c]bplist00
+x'()*Z$classnameX$classesWNSValue)+XNSObject]my-tw.co/mqwhVWebURL/
+http://my-tw.co/mqwh
+
+SMSE:C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	9V:%`
+	=sti
++19732941683-
+F5EA61FE-EC90-6591-AEC8-5137D37A4B54Your SIGNAL verification code is: 915593
++(Your SIGNAL verification code is: 915593
+"NSDictionary
+__kIMOneTimeCodeAttributeName
+displayCode
+915593
+code
+[553c]bplist00
+"'()*Z$classnameX$classesWNSValue)+XNSObjectV915593XAuthCode/
+
+SMSE:C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	8
++19732941683W
+7EEC28DD-6511-086A-9E43-32751163DDB8Snapchat code: 949100. Do not share it or use it elsewhere!
++;Snapchat code: 949100. Do not share it or use it elsewhere!
+NSDictionary
+949100
+'()*Z$classnameX$classesWNSValue)+XNSObjectV949100XAuthCode/
+&
+SMSE:C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	84.
++19732941683
+A5
+f
+
+AD5DB1C1-EE21-28F1-8701-5F560B9722CBTotal Wireless: Your Service End Date is in 7 days. With Auto-Refill, your service will automatically renew, and you can cancel at any time. Enroll Today:  http://ttlw.co/hsdLoWG  STOP to End
+Total Wireless: Your Service End Date is in 7 days. With Auto-Refill, your service will automatically renew, and you can cancel at any time. Enroll Today:  http://ttlw.co/hsdLoWG  STOP to End
+)NSDictionary
+__kIMCalendarEventAttributeName
+[662c]bplist00
+	
+WversionYdd-result
+$%&,-.39
+=>?@CGKU$null
+)'()*Z$classnameX$classesWNSValue)+XNSObjectYin 7 daysTDate/
+02ZNS.objects1	
+:;"#
+,Q7[RelativeDay/
+'(DE^NSMutableArrayDF+WNSArray'(HI_
+DDScannerResultJ+_
+[666c]bplist00
+%&'-./4<@ADHIMU$null
+!"#$_
+()*+Z$classnameX$classesWNSValue*,XNSObjectUTodayTDate0
+13ZNS.objects2	
+
+!"#$
+[RelativeDay0
+B3
+()EF^NSMutableArrayEG,WNSArrayQ0()JK_
+DDScannerResultL,_
+__kIMDataDetectedAttributeName:
+[570c]bplist00
+'()*Z$classnameX$classesWNSValue)+XNSObject_
+http://ttlw.co/hsdLoWGWHttpURL/
+http://ttlw.co/hsdLoWG
+
+SMSP:+19732941683C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	;9Y
+
++197329416839850AA44-4AF9-F018-871B-9BED2D9AFE5E
+ac7F
+
+A6AECCDA-528D-7626-99A4-114DDCB57E42Wi-Fi usage helps reduce high-speed data consumption. For tips on how to enjoy your high-speed data longer, click here http://dr7.tracfone.com
+Wi-Fi usage helps reduce high-speed data consumption. For tips on how to enjoy your high-speed data longer, click here http://dr7.tracfone.com
+wNSDictionary
+[571c]bplist00
+w'()*Z$classnameX$classesWNSValue)+XNSObject_
+http://dr7.tracfone.comWHttpURL/
+http://dr7.tracfone.com
+SMSP:+19732941683C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	;ED
+
++19732941683
+B49ADCBF-FE7F-7C0D-3C0A-B227E889C6E0Microsoft access code: 1380
+Microsoft access code: 1380
+1380
+[547c]bplist00
+"$%+,-159U$null
+&'()Z$classnameX$classesWNSValue(*XNSObjectT1380XAuthCode.
+/0ZNS.objects	&'23^NSMutableArray24*WNSArray&'67_
+DDScannerResult8*_
+
+SMSP:+19732941683C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	;Dsp
+5=Y.x
+778F7C4D-F6D6-C544-3BB4-01A96B3162B2Total Wireless: You're out of High-Speed Data. Try the $35 Plan with 5GB of High-Speed Data today! http://total-w.co/q1Mrjrq STOP to End
+Total Wireless: You're out of High-Speed Data. Try the $35 Plan with 5GB of High-Speed Data today! http://total-w.co/q1Mrjrq STOP to End
+7NSDictionary
+__kIMMoneyAttributeName
+[893c]bplist00
+$%&,-.4<
+@ABEIJNTXYZ[\_U$null
+7'()*Z$classnameX$classesWNSValue)+XNSObjectS$35UMoney/
+03ZNS.objects12	
+=!"#
+Q$XCurrency/
+'(FG^NSMutableArrayFH+WNSArray_
+sUSD-CAD-AUD-HKD-TWD-SGD-KYD-BBD-BMD-BND-BSD-BZD-FJD-GYD-JMD-LRD-NAD-NZD-SBD-SRD-TTD-TVD-XCD-ZWD-MXN-ARS-CLP-COP-SVC'(KL_
+DDScannerResultM+_
+UV"#
+8R35[MoneyAmount/
+\()*+Z$classnameX$classesWNSValue*,XNSObjectUtodayTDate0
+__kIMDataDetectedAttributeName=
+c'()*Z$classnameX$classesWNSValue)+XNSObject_
+http://total-w.co/q1MrjrqWHttpURL/
+http://total-w.co/q1Mrjrq
+
+SMSP:+19732941683C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	;+1973294168395D1F17C-4C5F-A9CA-21CC-1E1AE4EE14B6
+BFA04BAE-F0C7-13A8-3B8B-2A1772AB8676Total Wireless: Your service expires soon! Save 5% EVERY month with Auto-Refill. Try today, cancel at any time. Start saving: my-tw.co/hefq STOP to End
+Total Wireless: Your service expires soon! Save 5% EVERY month with Auto-Refill. Try today, cancel at any time. Start saving: my-tw.co/hefq STOP to End
+UNSDictionary
+U()*+Z$classnameX$classesWNSValue*,XNSObjectUtodayTDate0
+__kIMDataDetectedAttributeName.
+~'()*Z$classnameX$classesWNSValue)+XNSObject]my-tw.co/hefqVWebURL/
+http://my-tw.co/hefq
+
+SMSP:+19732941683C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	;
++19732941683AD5DB1C1-EE21-28F1-8701-5F560B9722CB
+nf[PF
+
+A81F064B-C9E9-4E29-5894-96A8F0E05B05Total Wireless: Your Service End Date is in 3 days - refill online at  http://ttlw.co/zqJwVVc  STOP to End
++jTotal Wireless: Your Service End Date is in 3 days - refill online at  http://ttlw.co/zqJwVVc  STOP to End
+)'()*Z$classnameX$classesWNSValue)+XNSObjectYin 3 daysTDate/
+,Q3[RelativeDay/
+G'()*Z$classnameX$classesWNSValue)+XNSObject_
+http://ttlw.co/zqJwVVcWHttpURL/
+http://ttlw.co/zqJwVVc
+
+SMSP:+19732941683C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	<s
++19732941683BFA04BAE-F0C7-13A8-3B8B-2A1772AB8676
+D7677229-C39B-4D47-9435-2C026EB6503Dow.ly/kBfe30sa6o2?????S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article,a
+ow.ly/kBfe30sa6o2?????S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article,a
+ow.ly/kBfe30sa6o2?????SVWebURL/
+http://ow.ly/kBfe30sa6o2?????S
+
+SMSP:+19732941683C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	>M{+19732941683UN
+3A4EF1A1-7FC5-A2ED-ADA0-D7224DFD90D8Total Wireless: Your Service End Date is in 1 day - refill now online at  http://ttlw.co/hZWOrxQ  STOP to End
++mTotal Wireless: Your Service End Date is in 1 day - refill now online at  http://ttlw.co/hZWOrxQ  STOP to End
+[669c]bplist00
+)()*+Z$classnameX$classesWNSValue*,XNSObjectXin 1 dayTDate0
+B3
+()EF^NSMutableArrayEG,WNSArrayQ1()JK_
+J'()*Z$classnameX$classesWNSValue)+XNSObject_
+http://ttlw.co/hZWOrxQWHttpURL/
+http://ttlw.co/hZWOrxQ
+
+SMSP:+19732941683C0AE0CDE-65EA-42A4-9B51-D0B38E2C34EF	=
+>-	=sti
++19732941683A81F064B-C9E9-4E29-5894-96A8F0E05B05
+WD
+
+Ktriggerafter_delete_on_messagemessageCREATE TRIGGER after_delete_on_message AFTER DELETE ON message BEGIN     DELETE FROM handle         WHERE handle.ROWID = OLD.handle_id     AND         (SELECT 1 from chat_handle_join WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE other_handle = OLD.handle_id LIMIT 1) IS NULL; END;A
+triggerafter_insert_on_chat_message_joinchat_message_joinCREATE TRIGGER after_insert_on_chat_message_join  AFTER INSERT ON chat_message_join BEGIN     UPDATE message       SET cache_roomnames = (         SELECT group_concat(c.room_name)         FROM chat c         INNER JOIN chat_message_join j ON c.ROWID = j.chat_id         WHERE           j.message_id = NEW.message_id       )       WHERE         message.ROWID = NEW.message_id; ENDo@
+otriggerafter_delete_on_chat_handle_joinchat_handle_joinCREATE TRIGGER after_delete_on_chat_handle_join AFTER DELETE ON chat_handle_join BEGIN     DELETE FROM handle         WHERE handle.ROWID = OLD.handle_id     AND         (SELECT 1 from chat_handle_join WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE handle_id = OLD.handle_id LIMIT 1) IS NULL     AND         (SELECT 1 from message WHERE other_handle = OLD.handle_id LIMIT 1) IS NULL; END
++triggerafter_insert_on_message_attachment_joinmessage_attachment_joinCREATE TRIGGER after_insert_on_message_attachment_join AFTER INSERT ON message_attachment_join BEGIN     UPDATE message       SET cache_has_attachments = 1     WHERE       message.ROWID = NEW.message_id; END/>
+triggerafter_delete_on_attachmentattachmentCREATE TRIGGER after_delete_on_attachment AFTER DELETE ON attachment BEGIN   SELECT delete_attachment_path(OLD.filename); END
+triggerafter_delete_on_chat_message_joinchat_message_joinCREATE TRIGGER after_delete_on_chat_message_join AFTER DELETE ON chat_message_join BEGIN     UPDATE message       SET cache_roomnames = (         SELECT group_concat(c.room_name)         FROM chat c         INNER JOIN chat_message_join j ON c.ROWID = j.chat_id         WHERE           j.message_id = OLD.message_id       )       WHERE         message.ROWID = OLD.message_id;  DELETE FROM message WHERE message.ROWID = OLD.message_id AND OLD.message_id NOT IN (SELECT chat_message_join.message_id from chat_message_join WHERE chat_message_join.message_id = OLD.message_id LIMIT 1); END
+!indexmessage_idx_failedmessage@CREATE INDEX message_idx_failed ON message(is_finished, is_from_me, error)
+Eindexmessage_idx_isRead_isFromMe_itemTypemessage?CREATE INDEX message_idx_isRead_isFromMe_itemType ON message(is_read, is_from_me, item_type)t:
+'indexmessage_idx_is_readmessage>CREATE INDEX message_idx_is_read ON message(is_read, is_from_me, is_finished)=9
+qindexchat_message_join_idx_message_date_id_chat_idchat_message_join=CREATE INDEX chat_message_join_idx_message_date_id_chat_id ON chat_message_join(chat_id, message_date, message_id)
+J5=s-(Sm/
+
+
+%D
+	
+triggerupdate_last_failed_message_datemessageCREATE TRIGGER update_last_failed_message_date AFTER UPDATE OF error ON message WHEN   NEW.error != 0 AND NEW.date > COALESCE((SELECT value FROM kvtable WHERE key = 'lastFailedMessageDate'), 0) BEGIN   INSERT OR REPLACE INTO kvtable (key, value) VALUES ('lastFailedMessageDate', NEW.date);   INSERT OR REPLACE INTO kvtable (key, value) VALUES ('lastFailedMessageRowID', NEW.rowID); ENDsK
+[triggerafter_delete_on_message_attachment_joinmessage_attachment_joinCREATE TRIGGER after_delete_on_message_attachment_join AFTER DELETE ON message_attachment_join BEGIN     DELETE FROM attachment         WHERE attachment.ROWID = OLD.attachment_id     AND         (SELECT 1 from message_attachment_join WHERE attachment_id = OLD.attachment_id LIMIT 1) IS NULL; END/J
+triggeradd_to_deleted_messagesmessageCREATE TRIGGER add_to_deleted_messages AFTER DELETE ON message BEGIN     INSERT INTO deleted_messages (guid) VALUES (OLD.guid); ENDiI
+qtriggeradd_to_sync_deleted_attachmentsattachmentCREATE TRIGGER add_to_sync_deleted_attachments AFTER DELETE ON attachment BEGIN     INSERT INTO sync_deleted_attachments (guid, recordID) VALUES (OLD.guid, OLD.ck_record_id); END@H
+'triggerbefore_delete_on_attachmentattachmentCREATE TRIGGER before_delete_on_attachment BEFORE DELETE ON attachment BEGIN   SELECT before_delete_attachment_path(OLD.ROWID, OLD.guid); END:G
+striggerdelete_associated_messages_after_delete_on_messagemessageCREATE TRIGGER delete_associated_messages_after_delete_on_message AFTER DELETE ON message BEGIN DELETE FROM message WHERE (OLD.associated_message_guid IS NULL AND associated_message_guid IS NOT NULL AND guid = OLD.associated_message_guid); END!F
+triggerafter_delete_on_chatchatCREATE TRIGGER after_delete_on_chat AFTER DELETE ON chat BEGIN DELETE FROM chat_message_join WHERE chat_id = OLD.ROWID; ENDZE
+_triggeradd_to_sync_deleted_messagesmessageCREATE TRIGGER add_to_sync_deleted_messages AFTER DELETE ON message BEGIN     INSERT INTO sync_deleted_messages (guid, recordID) VALUES (OLD.guid, OLD.ck_record_id); ENDdD
+otriggerafter_delete_on_message_pluginmessageCREATE TRIGGER after_delete_on_message_plugin AFTER DELETE ON message WHEN OLD.balloon_bundle_id IS NOT NULL BEGIN   SELECT after_delete_message_plugin(OLD.ROWID, OLD.guid); END
+5triggerupdate_message_date_after_update_on_messagemessageCREATE TRIGGER update_message_date_after_update_on_message AFTER UPDATE OF date ON message BEGIN UPDATE chat_message_join SET message_date = NEW.date WHERE message_id = NEW.ROWID AND message_date != NEW.date; END
+J5=0+zq
+

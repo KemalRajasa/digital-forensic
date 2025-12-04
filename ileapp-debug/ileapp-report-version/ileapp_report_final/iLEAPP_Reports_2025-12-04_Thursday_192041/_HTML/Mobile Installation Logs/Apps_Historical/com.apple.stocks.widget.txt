@@ -1,0 +1,3 @@
+2022-01-10 12:30:36 Data container moved com.apple.stocks.widget /private/var/mobile/Containers/Data/PluginKitPlugin/BAA59E75-7290-408A-89E0-20149630CC6E
+2022-01-10 12:30:36 Data container moved com.apple.stocks.widget /private/var/mobile/Containers/Data/PluginKitPlugin/BAA59E75-7290-408A-89E0-20149630CC6E
+2022-01-06 17:41:32 Made container live com.apple.stocks.widget /private/var/mobile/Containers/Data/PluginKitPlugin/13B8DC4B-7FA8-4AE5-9DBD-600173E7E14C

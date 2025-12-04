@@ -1,0 +1,22 @@
+2022-01-21 17:11:26 Uninstalling identifier com.tencent.xin 
+2022-01-21 17:11:26 Destroying container com.tencent.xin /private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 17:11:26 Destroying container com.tencent.xin /private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 17:11:26 Destroying container com.tencent.xin /private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 17:11:26 Destroying container com.tencent.xin /private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 17:11:26 Uninstalling identifier com.tencent.xin 
+2022-01-21 17:11:26 Destroying container com.tencent.xin /private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 17:11:26 Destroying container com.tencent.xin /private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 17:11:26 Destroying container com.tencent.xin /private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 17:11:26 Destroying container com.tencent.xin /private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 16:14:46 Data container moved com.tencent.xin /private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 16:14:46 Made container live com.tencent.xin /private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 16:14:46 Install successful com.tencent.xin 
+2022-01-21 16:14:46 Data container moved com.tencent.xin /private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 16:14:46 Made container live com.tencent.xin /private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 16:14:46 Install successful com.tencent.xin 
+2022-01-21 16:14:20 Made container live com.tencent.xin /private/var/mobile/Containers/Data/Application/A9F17813-0202-4BB2-8CCD-3114CA3B02BF
+2022-01-21 16:14:20 Made container live com.tencent.xin /private/var/containers/Bundle/Application/1B9E90C1-E31E-4115-847C-164728F3E07D
+2022-01-21 16:14:20 Install successful com.tencent.xin 
+2022-01-21 16:14:20 Made container live com.tencent.xin /private/var/mobile/Containers/Data/Application/A9F17813-0202-4BB2-8CCD-3114CA3B02BF
+2022-01-21 16:14:20 Made container live com.tencent.xin /private/var/containers/Bundle/Application/1B9E90C1-E31E-4115-847C-164728F3E07D
+2022-01-21 16:14:20 Install successful com.tencent.xin 

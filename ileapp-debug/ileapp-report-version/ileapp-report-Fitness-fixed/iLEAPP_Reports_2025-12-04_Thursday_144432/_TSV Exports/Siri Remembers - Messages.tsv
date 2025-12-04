@@ -1,0 +1,12 @@
+﻿Timestamp	Recipient	Recipient Handle	Sender	Sender Handle	Direction	Donated by Siri	Application Bundle ID	Application UUID	Domain ID	Verb ID	Intents ID	Intents UUID	Active Row
+2022-01-21 21:35:22	Owner	Owner	Sender	+18622176888	Received	No	com.apple.MobileSMS	7EEC28DD-6511-086A-9E43-32751163DDB8	Messages	SendMessage	4	5841F636-0BBE-4D3A-8072-2BC367A11C5A	Active
+2022-01-21 22:02:44	Owner	Owner	Sender	78156	Received	No	com.apple.MobileSMS	F5EA61FE-EC90-6591-AEC8-5137D37A4B54	Messages	SendMessage	5	052CF4E1-852E-4D2D-B155-1F0E7711841F	Active
+2022-01-23 19:00:27	Owner	Owner	Sender	78644	Received	No	com.apple.MobileSMS	9850AA44-4AF9-F018-871B-9BED2D9AFE5E	Messages	SendMessage	6	7B6458E6-891D-4760-87BF-ACA857458DB0	Active
+2022-01-29 22:33:44	Owner	Owner	Sender	78644	Received	No	com.apple.MobileSMS	AD5DB1C1-EE21-28F1-8701-5F560B9722CB	Messages	SendMessage	7	8E8E784D-F5CA-4E94-8DFE-EF6398452F4C	Active
+2022-01-30 02:04:17	Owner	Owner	Sender	52181	Received	No	com.apple.MobileSMS	B49ADCBF-FE7F-7C0D-3C0A-B227E889C6E0	Messages	SendMessage	8	47AEDF23-81BB-4781-8214-908742147652	Active
+2022-01-30 02:22:45	Owner	Owner	Sender	611611	Received	No	com.apple.MobileSMS	A6AECCDA-528D-7626-99A4-114DDCB57E42	Messages	SendMessage	9	274F6ADA-C4E8-4199-8ACC-3EB391962BE0	Active
+2022-01-30 21:52:32	Owner	Owner	Sender	23081	Received	No	com.apple.MobileSMS	778F7C4D-F6D6-C544-3BB4-01A96B3162B2	Messages	SendMessage	10	AF2461A1-AF5C-4A12-B92F-737D51433499	Active
+2022-01-31 19:01:03	Owner	Owner	Sender	78644	Received	No	com.apple.MobileSMS	BFA04BAE-F0C7-13A8-3B8B-2A1772AB8676	Messages	SendMessage	11	BF1C325D-235B-479B-9CDF-1974FC3AF20B	Active
+2022-02-02 22:39:46	Owner	Owner	Sender	78644	Received	No	com.apple.MobileSMS	A81F064B-C9E9-4E29-5894-96A8F0E05B05	Messages	SendMessage	12	56F0E6B1-E891-41E6-8426-A0BE5F68234F	Active
+2022-02-04 22:41:21	Owner	Owner	Sender	78644	Received	No	com.apple.MobileSMS	3A4EF1A1-7FC5-A2ED-ADA0-D7224DFD90D8	Messages	SendMessage	13	F22B1056-5E56-48E7-B914-58DBB9A07862	Active
+2022-02-09 15:06:05	Owner	Owner	Sender	naomakile3zro@outlook.com	Received	No	com.apple.MobileSMS	D7677229-C39B-4D47-9435-2C026EB6503D	Messages	SendMessage	14	54F91408-564B-4752-8778-B09E0DE52C46	Active

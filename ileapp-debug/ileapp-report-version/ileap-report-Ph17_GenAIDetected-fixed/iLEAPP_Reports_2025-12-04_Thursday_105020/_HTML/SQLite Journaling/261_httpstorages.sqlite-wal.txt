@@ -1,0 +1,30 @@
+6tP=|\4
+6t(nNJ6&,SQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+6tbd
+6tZ4
+6tR6D
+%;\#
+
+nonecom.googleapis.firebasedynamiclinksfirebasedynamiclinks.googleapis.com
+a$a_[
+6t[>B
+		nonecom.googleapis.firebasedynamiclinks
+6tK=Z
+
+ea$a_[_
+nonecom.googleapis.firebasedynamiclinks
+6tyI0
+noneorg.ampproject.cdncdn.ampproject.org
+a%"a_a
+6tI|Oy;,Q
+
+noneorg.ampproject.cdn
+6tqr
+
+ea%"a_=
+6t]6*

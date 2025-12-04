@@ -1,0 +1,1031 @@
+B
+EF?
+}6ZSQLite format 3
+.S`
+
+;
+
+2
+	 T
+tablesuggestedWidgetssuggestedWidgets
+CREATE TABLE suggestedWidgets (widgetUniqueId TEXT NOT NULL, firstAppearDate REAL NOT NULL, PRIMARY KEY (widgetUniqueId)) WITHOUT ROWID_
+MtablewidgetReloadForSuggestionwidgetReloadForSuggestionCREATE TABLE widgetReloadForSuggestion (timestamp REAL NOT NULL, readyForDisplay INTEGER, extensionBundleId TEXT, kind TEXT, family INTEGER, intentHash INTEGER)T
+?tableproactiveStackRotationsproactiveStackRotations
+CREATE TABLE "proactiveStackRotations" (suggestionId TEXT, criterion TEXT NOT NULL, widgetBundleId TEXT NOT NULL, widgetKind TEXT NOT NULL, intentHash INTEGER, intent BLOB, isStalenessRotation INTEGER NOT NULL, rotationTimestamp INTEGER NOT NULL, relevancyDurationLimit INTEGER NOT NULL, coolDownTimeInterval INTEGER NOT NULL, clientModelId TEXT, PRIMARY KEY (suggestionId, isStalenessRotation)) WITHOUT ROWIDg
+
+]tablestackConfigurationHistorystackConfigurationHistory
+CREATE TABLE stackConfigurationHistory (widgetBundleId TEXT NOT NULL, widgetKind TEXT NOT NULL, widgetFamily INTEGER NOT NULL, containerBundleIdentifier TEXT, timestamp INTEGER NOT NULL, countOfSmartStacksWithWidget INTEGER, countOfNonSmartStacksWithWidget INTEGER, countOfStandaloneWidgets INTEGER, countOfWidgetsWithUnknownStackKind INTEGER, PRIMARY KEY (widgetBundleId, widgetKind, widgetFamily, timestamp)) WITHOUT ROWID.
+#tablesuggestionssuggestions
+CREATE TABLE suggestions (suggestionId TEXT NOT NULL, sourceId TEXT NOT NULL, data BLOB NOT NULL, criterion TEXT, appBundleIdentifier TEXT, widgetBundleIdentifier TEXT, widgetKind TEXT, layouts TEXT, intentIdentifier INT, startDate INT, endDate INT, lastUpdated INT, clientModelId TEXT, relevanceScore REAL, firstPassOfTimelineFilters INTEGER, PRIMARY KEY (suggestionId, sourceId)) WITHOUT ROWID	
+WtableabuseControlOutcomesabuseControlOutcomesCREATE TABLE abuseControlOutcomes (suggestionId TEXT NOT NULL, timestamp INTEGER NOT NULL, outcome INTEGER, PRIMARY KEY (suggestionId, timestamp DESC)) WITHOUT ROWID
+
+mindexfuzzyLookUpIndextimelineDonations
+CREATE INDEX fuzzyLookUpIndex ON timelineDonations (extensionBundleId, widgetKind, widgetFamily, timestamp DESC)
+5tablewidgetEngagementswidgetEngagements
+CREATE TABLE "widgetEngagements" (widgetUniqueId TEXT NOT NULL, date INTEGER NOT NULL, extensionBundleId TEXT NOT NULL, widgetKind TEXT NOT NULL, size INTEGER NOT NULL, intentHash INTEGER, engagementType INTEGER)
+
+indexupcomingDateIndextimelineDonations
+CREATE INDEX upcomingDateIndex ON timelineDonations (score, extensionBundleId, widgetKind, intentHash, timestamp, duration).
+tabletimelineDonationstimelineDonations
+CREATE TABLE "timelineDonations" (timestamp INTEGER NOT NULL, score REAL, duration REAL, containerBundleIdentifier TEXT, extensionBundleId TEXT, widgetKind TEXT, widgetFamily INTEGER, intentHash INTEGER, suggestionId TEXT, suggestionMappingReason INTEGER)U
+qindexendDateIndexsuggestions
+CREATE INDEX endDateIndex ON suggestions (endDate)[
+yindexstartDateIndexsuggestions
+CREATE INDEX startDateIndex ON suggestions (startDate)
+tablewidgetSuggestionDismisswidgetSuggestionDismiss	CREATE TABLE widgetSuggestionDismiss (extensionBundleId TEXT NOT NULL, kind TEXT NOT NULL, intentHash INTEGER, date REAL, duration REAL)!
+}tabledismissRecordsdismissRecords
+CREATE TABLE dismissRecords (widgetBundleId TEXT, criterion TEXT, blockWidgetUntil INTEGER, blockCriterionUntil INTEGER)
+B
+C5sG	
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+;U$null
+mainBundleIdentifier_
+_inputAttributeName\semanticRootUtitle_
+descriptiveTextLocIDXtypeName[entityVerbs_
+displayOrderedAttributes_
+defaultImageNameZforeground_
+_localizationTable_
+_keyAttributeNameV$class_
+descriptiveText_
+eligibleForSuggestions^versioningHashZdeprecated_
+eligibleForWidgets_
+_customLocalizationTable\configurableTverbZtitleLocIDYclassName^intentCategory_
+referencedCodableDescriptions_
+userConfirmationRequired_
+intentDefinitionNamespaceZattributes
+WZ"\#
+%
+^Y	]
+Vwnvc8p]WeatherIntent
+PWNS.keysZNS.objects
+2Xmetadata^supportsSearch[displayName_
+_originalTypeNameZwindowSize[_typeString\relationship_
+unsupportedReasons_
+supportsDynamicEnumeration]promptDialogs^fixedSizeArray_
+_arraySizesBySizeClass]entityKeypath_
+displayPriorityRank_
+_codableDescriptionXmodifier\propertyName]displayNameID_
+supportsResolution
+Y_metadata
+_INPBIntentMetadata
+Z$classnameX$classes_
+INCodableObjectAttribute
+INCodableObjectAttribute_
+INCodableAttributeXNSObject
+objectTypeNamespace^objectTypeName_
+codableDescription
+ 	XlocationXLocationVNuNBSo
+codableAttribute_
+_originalDictionary
+INCodableAttributeRelationship
+_codableAttribute\formatString^formatStringIDTtype
+^What location?VtFGpr3
+INCodableAttributePromptDialog
+INCodableAttributePromptDialog_
+INCodableAttributeDialog
++Enter a city, zip code, or airport locationVk8iYGk
+WNSArray
+VObject
+\NSDictionary
+WeatherLocation
+displayNameLocID
+U*VR
+INCodableCustomObjectAttribute
+INCodableCustomObjectAttribute_
+INCodableAttributeWWeather
+N[NS.object.1[NS.object.0$
+NSMutableOrderedSet
+NSMutableOrderedSet\NSOrderedSet
+bundleIdentifierYtableName(&'_
+com.apple.weather.widget^WeatherIntents
+INCodableLocalizationTable
+,-./0
+14:ADHL
+^subtitleString
+INCodableScalarAttribute
+INCodableScalarAttribute_
+INCodableAttribute
+Zidentifier
+>^capitalization_
+disableSmartDashes^defaultValueIDYmultiline]placeholderID_
+disableAutocorrect\defaultValue[placeholder_
+disableSmartQuotesTname
+7VString
+ INCodableStringAttributeMetadata
+ INCodableStringAttributeMetadata_
+INCodableAttributeMetadata
+[geolocationVdWCwJN
+YPlacemark
+#INCodablePlacemarkAttributeMetadata
+#INCodablePlacemarkAttributeMetadata_
+B
+'6
+ (
+
+0		8
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'	com.apple.weather.widgetcom.apple.weather
+15E393BD-AD49-4A90-B92A-1718E226EA08'	com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'com.apple.weather.widgetcom.apple.weather
+15E393BD-AD49-4A90-B92A-1718E226EA08'com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'com.apple.weather.widgetcom.apple.weather
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'bcom.apple.weather.widgetcom.apple.weather
+15E393BD-AD49-4A90-B92A-1718E226EA08'bcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'\com.apple.weather.widgetcom.apple.weather
+15E393BD-AD49-4A90-B92A-1718E226EA08'\com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+15E393BD-AD49-4A90-B92A-1718E226EA08'com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'
+com.apple.weather.widgetcom.apple.weather
+15E393BD-AD49-4A90-B92A-1718E226EA08'
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'~com.apple.weather.widgetcom.apple.weather
+15E393BD-AD49-4A90-B92A-1718E226EA08'~com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F' com.apple.weather.widgetcom.apple.weather
+15E393BD-AD49-4A90-B92A-1718E226EA08' com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+15E393BD-AD49-4A90-B92A-1718E226EA08'Scom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+SB
+%
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'Scom.apple.weather.widgetcom.apple.weather
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensioncom.apple.ScreenTimeWidgetApplicationdMAC
+B
+lEp
+
+(
+
+
+w
+<
+
+P
+d)
+
+
+x
+=
+
+			Q	
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensioncom.apple.ScreenTimeWidgetApplication
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'MW
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'9=9
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'@9
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'B9
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'nD9
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'K9
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'X9
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'Q9
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'}9
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'v:
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'H
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'
+
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'Y
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'[
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'\
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps']<
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'^@
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'^
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'_
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'a
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'ap
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'b
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'd
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'e
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'f
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'g
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'h 
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'iL
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'j
+
+
+th\
+
+0		'
+	'com.apple.ScreenTimeWidgetApplicationcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensioncom.apple.ScreenTimeWidgetApplication
+dMAC
+/=/	
+`com.apple.weathercom.apple.weather.widgetcom.apple.weather
+]Q>
+	'Pcom.apple.weathercom.apple.weather.widgetcom.apple.weather
+]Q=
+	'@com.apple.weathercom.apple.weather.widgetcom.apple.weather
+]Q<
+	'0com.apple.weathercom.apple.weather.widgetcom.apple.weather
+]Q;
+com.apple.weathercom.apple.weather.widgetcom.apple.weather
+]Q:
+	' com.apple.weathercom.apple.weather.widgetcom.apple.weather
+]L8
+)M)	
+'MWcom.apple.Mapscom.apple.Maps.GeneralMapsWidgetcom.apple.Maps
+7WQ	
+	'sBcom.apple.mobilenotescom.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidgetW
+	''com.apple.newscom.apple.news.widgettoday-c
+	'MUcom.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget
+?ee	
+	'MUcom.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget"3
+3cg	
+	'`com.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+	'Hcom.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+	'Pcom.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+	'Ycom.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+	'pcom.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+	'jcom.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+`com.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+	'\com.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+	'com.apple.weathercom.apple.weather.widgetcom.apple.weather
+15E393BD-AD49-4A90-B92A-1718E226EA08'Acom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+6831BB14-FC6F-48A3-A624-FA9B2AACA26F'Acom.apple.weather.widgetcom.apple.weather
+B
+k}mJc
+
+`L
+
+
+{
+
+
+
+S			$
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'`
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'\
+'76q
+'B>q
+'D?q
+'nCd
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'$
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'p
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'H
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'P
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'Y
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'j
+B
+1*'
+
+D
+
+f
+;
+
+]		
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidgetW
+'7,\
+'-#n
+
+0		'
+
+
+th\
+
+B
+IL
+DU
+.
+
+
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'_
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'P[
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'uP
+com.apple.weather.widgetcom.apple.weather'a
+com.apple.weather.widgetcom.apple.weather'
+com.apple.weather.widgetcom.apple.weather'
+p
+com.apple.news.widgettoday'
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'*
+com.apple.weather.widgetcom.apple.weather'P
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'H
+com.apple.weather.widgetcom.apple.weather'f
+com.apple.weather.widgetcom.apple.weather'|`
+kn|n0
+
+B
+ m]
+
+4
+
+Nh
+
+
+)		C
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensioncom.apple.ScreenTimeWidgetApplicr
+
+
+
+x
+G
+
+]u6y:
+
+
+}
+>				B	
+com.apple.news.widgettoday-c
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'MU
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'
+]'0O>
+]' U>
+]' N>
+]'S>
+]'L>
+]'lE>
+]'8>
+]'77>
+':a/
+':</
+'5+f
+B
+O,hic16
+
+
+
+7m
+>
+
+t
+
+				t
+<	M	&
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget
+com.apple.news.widgettoday''
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'c
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget' c
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'7dc
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'7-d
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget't%
+com.apple.news.widgettoday'u&
+com.apple.news.widgettoday'H
+com.apple.news.widgettoday'MW
+	com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget
+'7cd
+'7.e
+SB
+~U;
+
+H@A
+
+B
+,`
+
+
+
+A
+
+~=z9
+
+
+v
+5			r	1
+SB
+eb
+B
+w0&x<E
+
+
+
+D|
+`
+
+
+d
+
+		h	
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'sB
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget',$d
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'-#R
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'7YR
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'7,R
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'~R
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'eS
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'H
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget']_
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget']u
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget']|
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'MT
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget''
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'~
+com.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidget'
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'FP
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'5`
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'$p
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'7Zc
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'7/S
+	'MUcom.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidgetLK
+1at1A=a
+
+SB
+m
+
+B
+WH1qH
+
+
+
+
+@
+
+@
+@
+			@	
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'};
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'v;
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'X;
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'Q;
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'K;
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'nD;
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'B;
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'@;
+com.apple.Maps.GeneralMapsWidgetcom.apple.Maps'9=;
+
+
+
+r
+<
+
+d.V 
+
+
+~
+H
+
+			p	:	
+com.apple.weather.widgetcom.apple.weather'@
+com.apple.weather.widgetcom.apple.weather'0
+com.apple.weather.widgetcom.apple.weather'p
+com.apple.weather.widgetcom.apple.weather'$
+com.apple.weather.widgetcom.apple.weather'2
+com.apple.weather.widgetcom.apple.weather'9
+com.apple.weather.widgetcom.apple.weather'Q
+com.apple.weather.widgetcom.apple.weather'!
+com.apple.weather.widgetcom.apple.weather'~
+com.apple.weather.widgetcom.apple.weather' 
+com.apple.news.widgettoday'5+%
+com.apple.news.widgettoday':a%
+com.apple.news.widgettoday':<
+]QP
+]QO
+]QN
+[
+
+d
+
+B
+H5
+
+	
+
+G	
+
+
+G{
+)|=
+
+
+
+A]
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'e
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget' e
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'7.e
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'7-e
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'!e
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'se
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'7de
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'7c
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget't
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'e
+	com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget']
+SB
+!
+B
+6HQ^C
+
+B
+?t
+)FB
+
+com.apple.weather.widgetcom.apple.weather'G
+y6h
+
+]sS
+	'Gcom.apple.weathercom.apple.weather.widgetcom.apple.weather
+]QV
+]QU
+SB
+f
+SB
+v4
+
+	'MUcom.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidgetQX
+B
+
+cSc
+
+SB
+}|
+PSQLite format 3
+B
+LBzCh
+DU
+-
+
+
+B
+j/=
+B
+z7(}
+
+B
+TA
+B
+k-awn
+SB
+R|d;
+
+?
+C	
+}8E
+
+
+com.apple.weather.widgetcom.apple.weather
+]'VP
+]'0V
+XL%s
+
+(2
+
+<		F
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExte
+'wz	
+'bz	
+'Rz	
+'Jz	
+'nCz	
+'Az	
+'D?z	
+'B>z	
+'76z	
+'"z	
+'
+z	
+'	z	
+8j|
+
+,z
+
+]
+
+
+i!E
+H
+
+l
+;
+
+]
+':hn
+'pim
+')jn
+'7Zn
+'7/m
+',$m
+'`gm
+'u\m
+'u1m
+'P[m
+SB
+S
+dr
+
+]Q`
+]Q_
+]Q^
+]Q]
+]"\
+SB
+|
+Hm@
+
+%x,1
+
+B
+u/_@q
+
+SB
+9.	WX
+
+
+
+g
+B
+RI
+u6y:
+
+
+}
+>				B	
+B
+|<
+
+I	M	&
+SB
+\{BjU:w
+
+
+
+g
+DU
+
+;
+
+
+S			$
+
+
+=s
+D
+
+z
+
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'8
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'|`
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'kp
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'0P
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'S
+B
+0iHx
+
+
+g)
+?|m
+
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'7Z
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'7/c
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'P[c
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'P0c
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'u\c
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'u1c
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'fd
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'`gd
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget':
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget':hd
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'pid
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget')
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget')jd
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'{`
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'jp
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'/P
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'
+p
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'o
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'^
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget'#
+`
+6fiYp
+
+a|=
+
+
+
+A]
+B
+5b	
+
+SB
+'z
+com.apple.mobilenotescom.apple.mobilenotes.WidgetExtensioncom.apple.mobilenotes.FolderWidgetW
+B
+i^3s-SQLite format 3
+B
+xf""
+B
+m/
+			$
+'nC
+B
+ YEs
+x;PO/
+
+
+
+g)
+B
+z
+
+X&
+
+4	
+	'MUcom.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidgetQ%
+com.apple.ScreenTimeWidgetApplicationcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensioncom.apple.ScreenTimeWidgetApplication
+	'~com.apple.weathercom.apple.weather.widgetcom.apple.weather
+	'Dcom.apple.ScreenTimeWidgetApplicationcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensioncom.apple.ScreenTimeWidgetApplication
+	'fcom.apple.weathercom.apple.weather.widgetcom.apple.weather
+]Q
+B
+w"{
+
+;Mpg @
+
+ 
+
+xLd
+
+
+		B
+com.apple.mobilecalcom.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget"W
+	'MUcom.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidgetQT
+]Q9
+B
+L;B
+
+SB
+0x-
+
+com.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget
+B
+C|.cL?
+
+B
+*_OR
+
+Lkr
+
+com.apple.Mapscom.apple.Maps.GeneralMapsWidgetcom.apple.Maps
+hoH
+
+ 
+SB
+JH
+ (
+^
+"
+
+.tS~
+
+B
+%L
+p
+
+
+HL
+]Q{
+]Qz
+]Qy
+]Qx
+]Lw
+SB
+M28-h
+
+B
+%Z
+B
+,0*E	
+
+]'|`
+]'K 
+]'1"
+]'os
+]']N
+]'W$
+]'H@
+]':0
+]', 
+]'g@
+]'Y0
+B
+lV
+
+B
+2IZi
+
+	'MUcom.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget?c
+SB
+hH#tY
+
+P
+
+D		8
+p
+
+
+HL
+]Q|
+SB
+We
+ (
+
+ (
+
+0
+W				t
+	#)
+
+com.apple.newscom.apple.news.widgettoday-c
+3aZc
+D
+U
+;
+
+B
+`9
+SB
+9xH@-
+
+E"@Y
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExte{	
+LUF:
+
+B
+$^o
+
+mb$
+
+]
+;
+
+]
+SB
+{B
+	'8com.apple.ScreenTimeWidgetApplicationcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensioncom.apple.ScreenTimeWidgetApplication
+$TF,#z
+
+ (
+
+0	
+B
+u(rQzV
+]'0O
+
+
+D|(,
+
+
+0			4
+com.apple.mobilecal.CalendarWidgetExtensioncom.apple.CalendarWidget.CalendarUpNextWidget',$
+B
+sl
+,
+
+p
+
+V<
+
+
+"		f	
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'te
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'7ce
+fu`{
+
+:0O
+
+com.apple.mobileslideshowcom.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget"
+SB
+V
+
+
+
+H
+
+H
+H
+			H	
+]'0V>
+]'x>
+]'n>
+]'@W>
+]'@P?
+]'q2
+]'f#
+]' '
+]'
+p
+]'@|>
+]'@r>
+]'0{>
+]'0q>
+]' z>
+]' p>
+W6(G
+]' U
+B
+t:
+u6y:
+
+
+}
+>				B
+B
+\xQn
+
+SB
+U;
+L1/(
+B
+E<,}
+
+B
+r.+
+<Cv	
+
+B
+jm08
+^KWM
+
+SQLite format 3
+}]Y=
+?
+C	
+}8E
+B
+T
+g
+
+
+D|(
+l,
+
+
+0			4
+Ie#<"
+
+B
+b,;RrR
+'7Y\
+B
+8
+
+e
+
+
+3g
+)
+G
+
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget' f
+com.apple.mobileslideshow.PhotosReliveWidgetcom.apple.mobileslideshow.PhotosReliveWidget'!f
+B
+++
+B
+l`l)
+
+
+
+
+}
+L
+
+W&i*
+
+
+m
+.			q	2
+SB
+2W}X
+
+B
+}?
+2".)
+bM$8
+
+SB
+3@
+W&
+i*
+
+
+m
+.			q	2
+SB
+z
+B
+vZ
+
+{
+0
+Y_N
+
+SB
+r
+xgR
+
+P
+
+@
+D		8
+W@
+7
+p
+
+
+H
++p_F
+
+AzT
+
+s!I
+
+
+Ql\
+

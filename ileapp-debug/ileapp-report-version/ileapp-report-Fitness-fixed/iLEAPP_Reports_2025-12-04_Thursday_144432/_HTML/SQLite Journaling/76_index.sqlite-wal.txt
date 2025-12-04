@@ -1,0 +1,683 @@
+`({SQLite format 3
+.S`
+
+tablepreferencespreferences
+CREATE TABLE preferences (key TEXT UNIQUE PRIMARY KEY, value TEXT)5
+indexsqlite_autoindex_preferences_1preferences
+b#L
+
+/GK'
+SQLite format 3
+Windexkeypreferences
+CREATE INDEX key ON preferences (key)e
+/Gv!O
+version11
+	version
+/G`Yn|
+
+/G)SQLite format 3
+/tablebasic_filesbasic_files
+CREATE TABLE basic_files (fileId INTEGER PRIMARY KEY, fsid INTEGER, version BLOB)?
+/Gmj
+/Guou
+%tableprovider_filesprovider_files
+CREATE TABLE provider_files (fileProviderId TEXT, itemId TEXT, version BLOB)t
+/G;?
+SQLite format 3
+3indexfileProviderIdItemIdprovider_files
+CREATE UNIQUE INDEX fileProviderIdItemId ON provider_files (fileProviderId, itemId)u
+?tablethumbnailsthumbnails
+CREATE TABLE thumbnails (file_id INTEGER, size REAL, icon_mode INTEGER, hit_count INTEGER, last_hit_date REAL, width INTEGER, height INTEGER, bitmapFormat BLOB, bitmapdata_location INTEGER, bitmapdata_length INTEGER, plistbuffer_location INTEGER, plistbuffer_length INTEGER, flavor INTEGER, content_rect BLOB, badge_type INTEGER, icon_variant INTEGER, interpolation INTEGER, externalGeneratorDataHash INTEGER)
+/GZi
+,
+G
+indexsizethumbnails	CREATE UNIQUE INDEX size ON thumbnails (file_id, size, icon_mode, badge_type, icon_variant, interpolation, externalGeneratorDataHash):
+/GT;44NF
+
+/G]p
+,
+G
+
+}indexlast_hit_datethumbnails
+CREATE INDEX last_hit_date ON thumbnails (last_hit_date) 
+/Gc{
+/Gtf
+<tSQLite format 3
+,
+G
+
+~
+tablereserved_bufferreserved_bufferCREATE TABLE reserved_buffer (location INTEGER, length INTEGER)[	
+/G"l_Z.
+,
+G
+
+~	
+!indexlocation_reserved_bufferreserved_bufferCREATE UNIQUE INDEX location_reserved_buffer ON reserved_buffer (location)j
+
+/GKc
+fsI
+
+/G<c
+6SQLite format 3
+,
+G
+
+~		Z
+Qtablemissing_remote_thumbnailsmissing_remote_thumbnails
+CREATE TABLE missing_remote_thumbnails (fileProviderId TEXT, itemId TEXT, version BLOB, date REAL)~
+/GCy
+/G_glXsSQLite format 3
+_indexmissing_remote_thumbnails_indexmissing_remote_thumbnails
+CREATE UNIQUE INDEX missing_remote_thumbnails_index ON missing_remote_thumbnails (fileProviderId, itemId)!
+/GoP
+
+/G*S
+J_'
+
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+"(U$null
+
+V$classQgRviQmQiQvQs
+2com.apple.UserNotificationsUIKit.ThumbnailProvider_
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L
+
+ !WNS.time#Akb
+#$%&Z$classnameX$classesVNSDate%'XNSObject#$)*_
+QLThumbnailVersion+'_
+QLThumbnailVersion
+FAloFFbplist00
+U$null
+
+V$classQhSbppSbpcQiQwSbprRcs
+kCGColorSpaceSRGB
+ !Z$classnameX$classes_
+QLTBitmapFormat"#_
+QLTBitmapFormatXNSObject
+$)27ILQSX^ovx|
+8{Q"
+
+/G6
+
+	Alo
+/G{>
+Krok
+
+=u7	
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L&
+
+ !WNS.time#AX
+/GT.*
+&FAX
+FFbplist00
+/Go0H{
+
+/GcxSx=
+
+/Gjc
+
+/G<@t
+/G=W
+
+/Gw,]
+
+/G	K
+
+ !WNS.time#A?
+/Gkf
+xd
+/GZ
+)?s
+/G@63
+/G/Z:P
+
+f71 
+
+/GbO
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528LP7
+
+ !WNS.time#A
+Uk%I
+xd	
+7PFA7FFbplist00
+/GN`
+/GN|T
+/GLn9J
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L;
+)FFbplist00
+/GVK_
+
+/Gk'
+/Gn(}%T
+
+zFFbplist00
+/GFdbt
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L=
+
+ !WNS.time#A)"
+=FA*8!
+}HV
+
+A*8!
+/GiW<
+/G?Y
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L{K
+
+ !WNS.time#AzSCd
+/GC(
+hG.z
+
+K{FAzSFFbplist00
+S-4)
+
+/Gdb
+/GLs{C
+/Gq(t	s
+	
+/Gj<St
+
+,NG
+
+/G^A
+
+/GFG~_tSQLite format 3
+/GN7
+O4FA
+|FFbplist00
+/GU.
+e6U>
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L4O
+/G/Sz
+	
+}FFbplist00
+/G<q." E
+
+-p
+	
+_FFbplist00
+Hrqq
+
+/GY7
+/G(&x)3
+XFA&/
+"2i
+
+/G)Y
+/GA0y
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528LX
+
+ !WNS.time#A&/3,
+A-ZFFbplist00
+>Q\
+
+/GIw
+AYCFFbplist00
+/Gc+%	
+/G){3
+
+\FAZm1FFbplist00
+/GjTD>
+
+/GB 98
+
+AZm1
+
+/GbFTuy+
+
+
+<*e
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L\
+
+ !WNS.time#AZ:
+/G'sR
+/GRLc:t
+
+AqDU
+/Gu5
+/Gtak<
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L^
+
+ !WNS.time#AqD3
+/G
+|j|
+\J
+
+^FAqDUFFbplist00
+/Gk1
+/Gq<ZS.S
+
+/G#HTv
+
+/GM?
+2FFbplist00
+/GZ3G
+`M@
+
+Nc	
+/GGeBN
+
+5FFbplist00
+VG
+
+/GIlYG
+
+PaFFbplist00
+E9FFbplist00
+/Gi*y`
+
+7PF	A
+iFFbplist00
+:EQu
+
+KA/
+
+!	c
+7PF
+A
+ytFFbplist00
+De[n
+
+/GwZ%l
+lFFbplist00
+/G	z`
+
+/GrbE2,5	
+
+/Gx3;Oq
+
+/Gc2ZW
+(J:E
+
+{FFbplist00
+-pO
+
+/GF
+
+7PFA
+!}FFbplist00
+/G<6=
+
+/GMZu
+/G(EP<T
+
+7PFA
+#ylFFbplist00
+/GhdB
+
+qh6
+
+$$FFbplist00
+%FFbplist00
+/GvP/Xp,
+
+*Xw
+
+/Gl%
+/G<>;c
+A7-
+/G'\t|
+
+
+ !WNS.time#A7
+FA7-FFbplist00
+/GzDm
+
+/G0
+
+/GE2%?
+AP$M
+
+.r.
+
+/GRJ+	
+
+
+ !WNS.time#AP$
+ua
+FAP$MFFbplist00
+/GQ1Jp
+
+/Gu#=
+/GAK[SW
+
+Ae}z 
+/Gi`q_
+
+/GFR'I
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L#
+
+ !WNS.time#Ae}U
+m:B5
+
+ua	
+#FAe}z FFbplist00
+/G>y
+/GLnH]
+/G0kY
+
+/Gsv
+
+GFFbplist00
+{J%
+
+/GYs}"E
+
+/G}*
+VuFFbplist00
+d"X
+
+
+ !WNS.time#A{
+/GP
+
+/GJ/
+FSy
+
+/Gryk
+
+Z
+|9
+/G?*G
+Z
+|9FFbplist00
+/G3r/
+
+/GZ3?`q
+
+/Gs;AI
+
+/GL~
+/G*rx
+/GEg
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528Lc
+/G{PWSC
+
+{;EFFbplist00
+~]L
+
+/GOU|
+
+/Gs/
+
+/Gl4WH
+
+/G9<
+ce"
+
+/GB#'8
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528Lk
+/G|&
+
+/G'>\
+
+kFAL
+
+&FFbplist00
+/GY?!
+YJFFbplist00
+/Gk>[Z
+
+/G4_
+$M$
+
+_t6FFbplist00
+/GGW
+/GTu1	>#R
+
+/G]} t_
+
+/G2Z@`
+
+_
+FFbplist00
+tFFbplist00
+/GhW
+AT"x
+/Gp`J;
+/G`#
+/G5E
+
+/Gd$
+/Go.
+
+/G5H
+/Gk	
+/G-R
+p"?
+
+EFAW
+JFFbplist00
+/GBC
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528LE
+
+ !WNS.time#AW
+TFFbplist00
+AZ^L
+/GFFvY~K
+AZ^LFFbplist00
+R+"mf
+
+/GB{*Bs
+
+AmLJ
+/GDG
+
+UFAmLJFFbplist00
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528LU
+
+ !WNS.time#AmLw
+/Gd;^m
+
+AoFFbplist00
+/G4/
+/G#-
+A9
+
+K.L
+
+A9FFbplist00
+@fSQLite format 3
+/GSI{{
+A=DO	
+/GvN
+
+/G
+1d2
+
+ !WNS.time#A=D/7
+/GPU:H
+
+FA=DO	FFbplist00
+V,(
+
+AeFR
+/Ghu
+AeFRFFbplist00
+/G7*7BrG
+
+/Gt$
+A[/3
+/G?P|*
+
+/GrOo
+/GY4'nVN
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L_e
+
+ !WNS.time#A[
+/GJ8
+e_FA[/3FFbplist00
+/GjP~\z
+
+/G[$Ut\
+
+/G-H.
+
+}KJn
+
+/G4\e
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528LUi
+/Gu(
+
+
+iUFA
+ %FFbplist00
+/GN-*
+/G?2
+
+/GC3
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528Lj
+/GZm
+NeCFFbplist00
+NfPFFbplist00
+;DF
+
+/GHf{r
+
+/G@b
+
+/GU{
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528Ln
+nFA
+\FFbplist00
+/GH{
+A^.X
+/GIIP
+a
+A^.XFFbplist00
+/G?hW
+
+A^.W
+C6K
+a
+A^.WFFbplist00
+]FFbplist00
+/GJ-
+A^3-X}
+/GmU#y
+
+A^3-X}FFbplist00
+A^66~
+/G%>(O
+
+A^66~FFbplist00
+/GI4;&Ei
+
+/Go
+A^6FFbplist00
+A^7FFbplist00
+/Gj p*
+/G*?ain
+
+A^8FFbplist00
+/G^
+
+/G^J;
+
+/Gz1	
+/G
+!i
+
+$53005A8D-5C32-3AF7-AE8F-22E5385ED528L[
+
+ !WNS.time#Aa
+/G0a
+uzb
+a
+[FAa
+dbFFbplist00
+Pt
+
+/Gsa
+AgHFFbplist00
+/G>#
+
+kFFbplist00
+AgFFbplist00
+:Tx
+
+Ag
+9
+Ag
+9FFbplist00
+/GaHL
+IFFbplist00
+/GsI
+/GzZ
+AhFFbplist00
+/GFRv,\
+
+/G#@|&T
+
+Ah'FFbplist00
+bd^
+
+Ah	FFbplist00
+/G#Pw
+|WFFbplist00
+/G2
+
+/G&z
+
+Ah9FFbplist00
+Ai!(
+=g;
+
+Ai!(FFbplist00
+/Gh<80
+Ai#9
+/G_bg
+Ai#9FFbplist00
+/G.Z
+/GY<L
+/GR}-
+3FFbplist00
+/Gg*
+Ai$>
+/GPWs@_$
+
+"FFbplist00
+/GKDj
+:FFbplist00
+/G_U
+
+/Gnb[_
+
+#*Ta
+
+?tFFbplist00
+/GWQe
+A}FFbplist00
+/GQbZ
+
+BQFFbplist00
+/G.eKN|)
+
+/G
+}
+jF	AjD
+/G'x
+
+/G	g
+/GZ:4
+AjD(t
+/GK0'W
+
+AjD(tFFbplist00
+/G0\8
+
+AjFJ
+/Gf-z|Q
+
+AjFJFFbplist00

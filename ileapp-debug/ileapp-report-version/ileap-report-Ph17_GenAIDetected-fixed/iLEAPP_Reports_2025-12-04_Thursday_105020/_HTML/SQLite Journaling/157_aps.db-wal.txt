@@ -1,0 +1,331 @@
+]*SQLite format 3
+.S`
+
+	
+
+tablechannelchannel
+CREATE TABLE channel (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, channel_id TEXT NOT NULL, channel_topic TEXT NOT NULL, environment TEXT NOT NULL, token_name TEXT NOT NULL, checkpoint INTEGER, UNIQUE (channel_id, channel_topic, environment, token_name))-	
+indexsqlite_autoindex_channel_1channelq
+tableoutgoing_messageoutgoing_message
+CREATE TABLE outgoing_message (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, guid TEXT UNIQUE NOT NULL, sender_token_name TEXT, topic TEXT NOT NULL, environment TEXT NOT NULL, payload BLOB, is_sent INTEGER DEFAULT 0, message_id INTEGER, identifier INTEGER, priority INTEGER, payload_format INTEGER, timeout INTEGER, date INTEGER)?
+indexsqlite_autoindex_outgoing_message_1outgoing_message	P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)B
+7tableincoming_messageincoming_message
+CREATE TABLE incoming_message (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, guid TEXT UNIQUE NOT NULL, token BLOB, topic TEXT NOT NULL, environment TEXT NOT NULL, correlation_identifier TEXT, payload BLOB, from_storage INTEGER DEFAULT 0, last_from_storage INTEGER DEFAULT 0, message_id INTEGER, priority INTEGER, date INTEGER, tracing_enabled INTEGER, tracing_uuid BLOB, push_type INTEGER, push_flags INTEGER)?
+indexsqlite_autoindex_incoming_message_1incoming_message
+!table_SqliteDatabaseProperties_SqliteDatabaseProperties
+CREATE TABLE _SqliteDatabaseProperties (key TEXT, value TEXT, UNIQUE(key))Q
+indexsqlite_autoindex__SqliteDatabaseProperties_1_SqliteDatabaseProperties
+SQLite format 3
+b[_!
+__CSDBRecordSequenceNumber834
+_ClientVersion15002
+__CSDBRecordSequenceNumber
+)	_ClientVersion
+mSQLite format 3
+__CSDBRecordSequenceNumber835
+o
+ia
+
+I
+u
+u
+ULI!
+D067142A-9201-4197-966D-78DB5D23125Du
+)S>srPu
+com.apple.private.alloy.nearbyproductionbplist00
+	
+
+
+RcTQUQcRhsQhQiQeQsQb_
+application/x-apple-plistO
+D,dy
+strict-transport-security\x-b3-traceidRasRshRri_
+max-age=31536000_
+3dcf39b862a6e58eTMR11_
+SH:1:VEN-PROD:6031b584-0616-442c-b2ff-97cc64c3791c::1644861826:25ac5598f1da6b480e37974d4a5b7aad40b66f623a33e2dad91ce6b2120acc13:EM_
+MQueryService:380000:magent1885.usspk05.pie.apple.com:31011:2208B-128:nocommit
+V[{:
+se_
+kJ0	Z
+U+A
+8NN
+FjS~x
+
+	$E
+:U9;l	lVt
+!%]<9/^#
+4Z(!:uw^<g
+zw$(v
+v1
+!e
+u
+D^D
+$Y"o
+
+b<{|{
+c:@
+
+r>C@
+F.;7
+)|jy&
+(KFs
+abS[a`1
+<
+>?b}-a/@(
+gL6J
+U7[xsO^Q1fi!9z,1YHy\d(X$
+;*bjm{)
+DfbW#c^	N5
+X{D6
+b[ixs]_H
+?:ym-
+[#eSc
+mrYI;
+Nta6&
+LQRm,g! 
+~ A[8
+e6,B
+f5&mqFjAs3cuoE
+N|nVN- #[MkYq263m:5
+zE}$>}F
+K9b\;_v
+{b{m
+_N	INRH}
+>gwV
+<H#3~r
+)ba`?
+
+/;Of~@c`
+zP[3
+?f_&W
+t3C{{
+-wf"Qmh;
+FibdRS!`
+u_;6p
+KG(G/_
+P)
+'
+`Nd|
+
+D067142A-9201-4197-966D-78DB5D23125D
+incoming_message
+channel=
+__CSDBRecordSequenceNumber836
+Jkl6
+__CSDBRecordSequenceNumber837
+ycv
+
+%d+
+
+__CSDBRecordSequenceNumber838
+3XC1`SQLite format 3
+2V)O
+
+
+__CSDBRecordSequenceNumber839
+aq0>
+C46DF12E-B42A-4757-96C4-077FC7A8911Cu
+QURcTQcRhsQhQiQeQsQbO
+/LF?
+application/x-apple-plist
+e1d3f94067f139efTMR11_
+SH:1:VEN-PROD:89cf6204-f72f-4c46-a7ba-aa3fc3bfdfa3::1644862127:720199a61cf404576ecd16c6f3e8ba04ee644565a05651443c8f75b182ad9122:EM_
+IQueryService:380000:queryservice-7ff8cf5b8c-rgbbl:9008:2208B-127:nocommit
+}q *
+3N>Q
+.S_e
+V
+ o
+ZA8AVW1hW+
+$F83\
+uTI #
+uWA
+
+p8Dg
+Qq"L
+
+
+C*
+N
+6T;ta!
+yr^|
+I3PLBtdl_x
+ng7#
+Y8^-
+xe.or
+!cSr
+1/wD^g
+I/|
+	p o\?O
+ L@EAE`#bD
+
+:9O{QyT32>9
+U}mqYy
+EP#67
+8j,(>[a
+33WOYt9mCrm
+mHCdG#\Q6v{e
+}r!9
+	f-u#Z/C&j$w3]
+vk,vB6
+9]Bv0ZFY
+8Z,6.
+nN85&6|
+l.&,w$n
+mae?
+q3WF
+5^p3
+Z$>[jZ
+5x>Q
+QxoAh
+$:gRw
+{|ym
+'99SK!AS
+5FY
+~
+	'|^XB
+Yv4o4k
+(8c7,
+AmQx
+,lMv$
+6}4^nL
+>nu&k}ob
+R+Cip(EDV&aM?
+26Od:0
+*BYQN
+^>/l\
+s:5
+
+!rM
+
+C46DF12E-B42A-4757-96C4-077FC7A8911C
+=5Q=ia
+
+__CSDBRecordSequenceNumber840
+6tMf;/
+
+6=cU
+__CSDBRecordSequenceNumber841
+	(:I
+__CSDBRecordSequenceNumber842
+?~W&'SQLite format 3
+__CSDBRecordSequenceNumber843
+/]SQLite format 3
+__CSDBRecordSequenceNumber844
+/#m4
+
+N_e:Vd+SQLite format 3
+__CSDBRecordSequenceNumber845
+ !2?Q}w
+
+CF0EA471-2EE8-4BEB-AEBA-016CDB942035u
+RcTQbQcRhsQhQiQeQsQU_
+A,
+|-
+Nv'}{
+
+ Yw
+_.Al'N
+{we}5Dr)8vppW
+?Eoe*R
+-)zW
+JeqRP%QS 
+_K<V%
+rS~p7v
+
+3N!I
+d
+:e9;l	lV*wp
+fm<9/^#
+_]<3
+gvF	;N]
+bmZUl:_
+%V]]
+yC&;!
+bDe$v>
+k,;
+%#%9p
+(LlTT?qJs+l
+#`n]V
+K~N$N%0
+X]E[
+WMYWdfjtm8uRGVf
+G#*Bj
+'h2\GNH+hK-Z/}FJ4i
+Bp#~
+GYUb%4=
+<yx 
+7<)
+B
+%mjr
+ZS_O\M=OC
+H'^Snc
+,8N;r
+6j%(
+n+Tna$wZ,
+R$>[ji
+LVRNq_Ro
+FeRW)s
+Y$:gRw
+_AcL
+C3iH3
++Ala`
+dY>p^!jZaW#L<
+[^"x^<
+y"@&
+fW&W
+-7Z4
+'
+zrSkU
+hso^
+xosO
+fb18832c45eff08aTST11_
+SH:1:VEN-PROD:4461f643-512c-4c09-bfc5-bbc954255eeb::1644863176:abc2f8e8b8eb4858a49e83b99465fd7c201adca1c8c3bd01fbc8a465189a3edf:EM_
+HQueryService:580000:queryservice-6c5567b56-77gdc:9008:2208B-127:nocommit
+X-tZ
+DaCQ,L	
+l
+'H
+u3~!
+
+CF0EA471-2EE8-4BEB-AEBA-016CDB942035
+__CSDBRecordSequenceNumber846
+__CSDBRecordSequenceNumber847
+/WX
+
+SKOp
+
+__CSDBRecordSequenceNumber848
+__CSDBRecordSequenceNumber849
+__CSDBRecordSequenceNumber850
+Kl"ty
+
+L
+
+9ULPrU+uQcmOAmzRUPg/xg==com.apple.icloud.presence.mode.statusproductionTokenName
+6~F6
+YCrU2shhUQAM8n5GBQ==com.apple.trialdproductionTokenName
+v.F.
+YHhEqgRHcmD1ioB3BQ==com.apple.trialdproductionTokenName
+YFCdVvJ2aHbe4hwRBQ==com.apple.trialdproductionTokenName
+(BF;
+YB2UFfeVGQAMzUtpBQ==com.apple.trialdproductionTokenName
+YNpehKsMoBfazpq/BQ==com.apple.trialdproductionTokenName
+-LF-
+X/3lDOKqzQANR6lfBQ==com.apple.trialdproductionTokenName
+X8lDg0GBKQBbTprgBQ==com.apple.trialdproductionTokenName
+d-F<
+YCw0owRmYQAMnr3eBQ==com.apple.trialdproductionTokenName
+Yv?l98
+
+9ULPrU+uQcmOAmzRUPg/xg==com.apple.icloud.presence.mode.statusproductionTokenName5>
+YCrU2shhUQAM8n5GBQ==com.apple.trialdproductionTokenName6>
+YHhEqgRHcmD1ioB3BQ==com.apple.trialdproductionTokenName.>
+YFCdVvJ2aHbe4hwRBQ==com.apple.trialdproductionTokenName9>
+YNpehKsMoBfazpq/BQ==com.apple.trialdproductionTokenName=>
+YB2UFfeVGQAMzUtpBQ==com.apple.trialdproductionTokenName;>
+X8lDg0GBKQBbTprgBQ==com.apple.trialdproductionTokenName:>
+YCw0owRmYQAMnr3eBQ==com.apple.trialdproductionTokenName<>
+X/3lDOKqzQANR6lfBQ==com.apple.trialdproductionTokenName-

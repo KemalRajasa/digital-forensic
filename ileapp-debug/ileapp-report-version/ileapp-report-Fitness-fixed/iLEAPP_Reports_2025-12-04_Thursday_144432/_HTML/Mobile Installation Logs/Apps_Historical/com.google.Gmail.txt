@@ -1,0 +1,12 @@
+2022-01-21 15:32:02 Data container moved com.google.Gmail /private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9
+2022-01-21 15:32:02 Made container live com.google.Gmail /private/var/containers/Bundle/Application/9CEB8690-55FC-4630-9371-ACC6B617C9B5
+2022-01-21 15:32:02 Install successful com.google.Gmail 
+2022-01-21 15:32:02 Data container moved com.google.Gmail /private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9
+2022-01-21 15:32:02 Made container live com.google.Gmail /private/var/containers/Bundle/Application/9CEB8690-55FC-4630-9371-ACC6B617C9B5
+2022-01-21 15:32:02 Install successful com.google.Gmail 
+2022-01-21 15:30:42 Made container live com.google.Gmail /private/var/mobile/Containers/Data/Application/E5EB4009-9E4F-4AC6-8234-852CAEBE7FBA
+2022-01-21 15:30:42 Made container live com.google.Gmail /private/var/containers/Bundle/Application/4EFDA9CA-6B68-4B50-A3BA-16E73DAD3221
+2022-01-21 15:30:42 Install successful com.google.Gmail 
+2022-01-21 15:30:42 Made container live com.google.Gmail /private/var/mobile/Containers/Data/Application/E5EB4009-9E4F-4AC6-8234-852CAEBE7FBA
+2022-01-21 15:30:42 Made container live com.google.Gmail /private/var/containers/Bundle/Application/4EFDA9CA-6B68-4B50-A3BA-16E73DAD3221
+2022-01-21 15:30:42 Install successful com.google.Gmail 

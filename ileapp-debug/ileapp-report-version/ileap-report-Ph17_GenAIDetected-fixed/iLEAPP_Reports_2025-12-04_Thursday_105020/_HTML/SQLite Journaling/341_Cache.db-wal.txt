@@ -1,0 +1,57 @@
+uwhe
+	xhttps://configuration.apple.com/configurations/internetservices/safari/PasswordBreachAwarenessConfigurationBag-1.plist2022-01-10 17:29:47
+y	https://configuration.apple.com/configurations/internetservices/safari/PasswordBreachAwarenessConfigurationBag-1.plist
+9R[4
+
+5	cfurl_cache_response
+bplist00
+WVersionUArray
+
+
+"#
+_CFURLStringType\_CFURLString
+vhttps://configuration.apple.com/configurations/internetservices/safari/PasswordBreachAwarenessConfigurationBag-1.plist#ARE
+ !VServer\Content-TypeTEtag]Last-Modified_
+Content-LanguageX__hhaa__]Accept-RangesTDate^Content-LengthZConnectionVApacheYtext/html_
+"67-597bc9b8e66c0"_
+Wed, 20 Nov 2019 00:53:23 GMTUen-us_
+
+
+YnBsaXN0MDDZAQIDBAUGBwgJCgwOEBIUFhgaVlNlcnZlclxDb250ZW50LVR5cGVaQ29ubmVjdGlvbl1MYXN0LU1vZGlmaWVkXxAQQ29udGVudC1MYW5ndWFnZV1BY2NlcHQtUmFuZ2VzVERhdGVeQ29udGVudC1MZW5ndGhURXRhZ6ELVkFwYWNoZaENWXRleHQvaHRtbKEPWmtlZXAtYWxpdmWhEV8QHVdlZCwgMjAgTm92IDIwMTkgMDA6NTM6MjMgR01UoRNVZW4tdXOhFVVieXRlc6EXXxAdTW9uLCAxMCBKYW4gMjAyMiAxNzoyOTo0NyBHTVShGVMxMDOhG18QEiI2Ny01OTdiYzliOGU2NmMwIgAIABsAIgAvADoASABbAGkAbgB9AIIAhACLAI0AlwCZAKQApgDGAMgAzgDQANYA2AD4APoA/gEAAAAAAAAAAgEAAAAAAAAAHAAAAAAAAAAAAAAAAAAAARU=Ubytes_
+Mon, 10 Jan 2022 17:29:47 GMTS103Zkeep-alive_
+ __CFURLResponseNullTokenString__Ytext/html
+vhttps://configuration.apple.com/configurations/internetservices/safari/PasswordBreachAwarenessConfigurationBag-1.plist#@N
+__CFURLRequestNullTokenString__	
+SGET
+VAccept_
+Accept-Language_
+Accept-EncodingX__hhaa__S*/*^en-US,en;q=0.9_
+gzip, deflate, br_
+
+
+YnBsaXN0MDDTAQIDBAYIXxAPQWNjZXB0LUVuY29kaW5nVkFjY2VwdF8QD0FjY2VwdC1MYW5ndWFnZaEFXxARZ3ppcCwgZGVmbGF0ZSwgYnKhB1MqLyqhCV5lbi1VUyxlbjtxPTAuOQgPISg6PFBSVlgAAAAAAAABAQAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAZw==
+og2
+
+Z<!doctype html>
+
+<font size="24">Not Found</font>
+<br>
+The requested URL was not found on this server.
+
+u0}
+uqlg%y[
+
+3	2022-01-10 17:29:47
+u7/l
+
+
+
+"
+ !VServer\Content-TypeZConnection_
+Content-Language]Last-ModifiedX__hhaa__]Accept-RangesTDate^Content-LengthTEtagVApacheYtext/htmlZkeep-aliveUen-us_
+Wed, 20 Nov 2019 00:53:23 GMT_
+
+
+YnBsaXN0MDDZAQIDBAUGBwgJCgwOEBIUFhgaVlNlcnZlclxDb250ZW50LVR5cGVURXRhZ18QEENvbnRlbnQtTGFuZ3VhZ2VdTGFzdC1Nb2RpZmllZF1BY2NlcHQtUmFuZ2VzVERhdGVeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqELVkFwYWNoZaENWXRleHQvaHRtbKEPXxASIjY3LTU5N2JjOWI4ZTY2YzAioRFVZW4tdXOhE18QHVdlZCwgMjAgTm92IDIwMTkgMDA6NTM6MjMgR01UoRVVYnl0ZXOhF18QHU1vbiwgMTAgSmFuIDIwMjIgMTc6Mjk6NDcgR01UoRlTMTAzoRtaa2VlcC1hbGl2ZQAIABsAIgAvADQARwBVAGMAaAB3AIIAhACLAI0AlwCZAK4AsAC2ALgA2ADaAOAA4gECAQQBCAEKAAAAAAAAAgEAAAAAAAAAHAAAAAAAAAAAAAAAAAAAARU=Ubytes_
+Mon, 10 Jan 2022 17:29:47 GMTS103_
+ __CFURLResponseNullTokenString__

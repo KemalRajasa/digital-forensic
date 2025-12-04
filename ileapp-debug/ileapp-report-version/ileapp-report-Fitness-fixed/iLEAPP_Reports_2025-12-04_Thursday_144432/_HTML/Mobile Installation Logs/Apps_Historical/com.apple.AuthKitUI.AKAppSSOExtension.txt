@@ -1,0 +1,1 @@
+2022-01-06 17:41:13 Made container live com.apple.AuthKitUI.AKAppSSOExtension /private/var/mobile/Containers/Data/PluginKitPlugin/E15069FD-8CAD-4243-B8FE-52998F6899B8

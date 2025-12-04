@@ -1,0 +1,9 @@
+2022-01-12 17:20:07 Data container moved com.apple.Bridge /private/var/mobile/Containers/Data/Application/70E805AE-A727-4E45-983A-7A862F2C85C3
+2022-01-12 17:20:07 Made container live com.apple.Bridge /private/var/containers/Bundle/Application/27CE6AB1-CBA1-46B7-99E6-3870E5597E26
+2022-01-12 17:20:07 Install successful com.apple.Bridge 
+2022-01-12 17:20:07 Data container moved com.apple.Bridge /private/var/mobile/Containers/Data/Application/70E805AE-A727-4E45-983A-7A862F2C85C3
+2022-01-12 17:20:07 Made container live com.apple.Bridge /private/var/containers/Bundle/Application/27CE6AB1-CBA1-46B7-99E6-3870E5597E26
+2022-01-12 17:20:07 Install successful com.apple.Bridge 
+2022-01-06 17:41:28 Made container live com.apple.Bridge /private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A
+2022-01-06 17:41:28 Made container live com.apple.Bridge /private/var/containers/Bundle/Application/D646852A-6223-4373-9198-9BA10E09FB21
+2022-01-06 17:41:28 Install successful com.apple.Bridge 

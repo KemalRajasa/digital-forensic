@@ -1,0 +1,9015 @@
+F] &}F
+
+
+8
+n
+	
+
+W
+	}	Q	(
+PLAccountingOperator_EventInterval_EnergyEstimateEvents
+PLDuetService_EventForward_BatterySaverMode
+PLBatteryAgent_EventForward_MitigationState
+PLAudioAgent_EventForward_Output60
+PLStorageOperator_EventForward_Configuration
+PLDisplayAgent_EventNone_PanelStats
+PLDisplayAgent_EventPoint_Display
+PLAudioAgent_EventForward_Routing8
+PLApplicationAgent_EventNone_AllPlugins
+
+PLWifiAgent_EventForward_AWDLState
+PLBBAgent_EventNone_BBEurekaEventMsgLite5
+PLWifiAgent_EventForward_HotspotState
+PLBatteryAgent_EventBackward_KioskMode
+PLDisplayAgent_EventForward_Display
+PLProcessMonitorAgent_EventForward_ProcessID
+PLPerformanceAgent_EventPoint_SystemMemory
+PLStorageOperator_EventForward_ActivityStates
+PLAccountingOperator_EventBackward_PowerEvents
+PLWifiAgent_EventBackward_CumulativeProperties.H;"
+PLAccountingOperator_EventInterval_QualificationEvents6N2
+PLAccountingOperator_EventForward_PowerEvents
+PLConfigAgent_EventNone_PairedDeviceConfig
+PLAccountingOperator_EventForward_QualificationEvents.I-
+PLSleepWakeAgent_EventForward_PowerStateQm9
+PLAccountingOperator_EventForward_DistributionEvents
+PLBBAgent_EventNone_BBEurekaEventMsgLite_Dynamic
+PLPowerAssertionAgent_EventPoint_SnapshotReason
+PLNetworkAgent_EventForward_IsExpensive
+PLApplicationAgent_EventNone_AllApps
+PLStorageOperator_EventForward_TimeOffset
+PLDisplayAgent_EventForward_CAModeEnabled
+PLDisplayAgent_EventForward_ALSUserPreferences
+PLProcessMonitorAgent_EventBackward_ProcessMonitor
+PLDisplayAgent_EventForward_ALSEnabled
+PLEduAgent_EventPoint_Mode
+PLNetworkAgent_EventBackward_CumulativeNetworkUsage
+C4
+PLAccountingOperator_EventForward_QualificationEvents_Dynamic
+PLAccountingOperator_EventForward_DistributionEvents_Dynamic
+PLProcessMonitorAgent_EventBackward_ProcessMonitor_Dynamic
+PLLocationAgent_EventForward_TechStatus
+PLLocaleAgent_EventForward_TimeZone
+PLBatteryAgent_EventPoint_ChargingInfo3-;
+PLApplicationAgent_EventNone_AppVersions
+PLBBAgent_EventNone_BBMsgAll
+PLAccountingOperator_EventPoint_DistributionEvents
+PLBatteryAgent_EventBackward_Battery&V7$
+PLAccountingOperator_EventPoint_QualificationEvents
+PLBatteryAgent_EventBackward_BatteryUI
+
+PLAccountingOperator_EventNone_QualificationRules0;
+PLAccountingOperator_EventInterval_DistributionEvents
+++8
+PLBBAgent_EventPoint_TelephonyActivity
+PLBatteryAgent_EventNone_BatteryConfig
+PLBluetoothAgent_EventBackward_PowerProfileStats
+PLBluetoothAgent_EventForward_DeviceState
+PLAccountingOperator_EventInterval_PowerEvents
+PLAccountingOperator_EventBackward_DistributionEvents	0
+PLBBAgent_EventForward_TelephonyRegistrationt
+PLPowerAssertionAgent_EventPoint_AggregateReset
+PLPowerAssertionAgent_EventPoint_BufferStatus
+PLAccountingOperator_EventNone_DistributionRules
+S	PLWifiAgent_EventForward_ModuleInfo
+PLAccountingOperator_EventNone_Nodes.(
+PLStorageOperator_EventNone_Activity
+PLPowerAssertionAgent_EventForward_Assertion
+PLWifiAgent_EventBackward_CumulativeUserScanDurations
+PLCoreStorage_schemaVersions
+Ax
+
+
+jv.
+
+.&u-
+
+6z
+v
+
+
+
+
+
+w
+Z
+=
+ 
+
+fG(	hJ.
+
+
+
+
+
+u
+Y
+<
+ 
+
+				
+7776d
+[
+
+{
+y		d
+d D
+C%pd
+/%%v
+K
+
+d
+22d"@
+6
+(d
+{
+
+d
+477d
+ccD22F
+%%W,d
+j77rd
+9^
+
+
+%
+%d
+iE
+
+%
+iSJ
+
+
+g5%R
+		d 
+
+
+
+
+
+
+
+
+
+
+
+dLite
+aggregated?G
+GLite
+ Lite
++Lite
+7{`Lite
+Lite
+}aggregated?G
+~aggregated?G
+qEW
+h@
+8xP(
+
+>!@9^
+gi4@8
+cBY@
+F@8\
+	?.o
+'Uz@8\
+?@8\
+v@8\
+(@9L~
+	@ b8
+@9L~
+,|@9L~
+E%@9L~
+7{&@9L~
+`V-@9?7
+_b1@
+Q@97
+Q-@2M`D
+zp@2M`D
+'
+
+
+
+sA&
+9n`
+9U0~S'@
+9Tn\
+Sb$6
+9oF
+9nr
+";6C
+=lj
+e7g6d
+"<	V
+";&
+
+";1
+";0
+cP2
+3Da6|U
+0i[
+
+c
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+u
+uppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+
+
+
+
+
+
+
+t
+b
+=
+N
+:
+&
+
+s^I7"
+kYD2
+
+
+
+
+
+
+
+z
+e
+P
+;
+&
+
+								l	W	E	0	
+br
+4
+ 0"6
+ai
+x
+fUz
+
+*V~
+)
+
+
+`o
+^
+8*7
+
+8E
+%
+"4n
+)
+"$J7
+bO4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|
+u
+n
+g
+`
+Y
+R
+K
+D
+=
+6
+/
+(
+
+yrkd]VO:	
+A
+
+3
+
+!H
+%
+
+XpZi|
+
+
+
+
+
+
+
+
+r
+[
+F
+.
+
+)kU>
+l
+blX2
+bwF2
+F~ F
+
+FK#2o%
+FabpN
+@>g5
+*cOm
+Om%&
+r<f62
+*Om
+*E=
+*#Om
+)
+40
+)MOm#
+
+8&gF%
+		e	>	
+
+
+
+
+
+e
+?
++
+
+{U/	]7
+
+
+
+
+
+b
+;
+
+"hU@X>
+b
+Ej<%l	
+i.@RZ
+9&$i	
+iQ@B
+_@
+W
+l \$h	
+ilX@B
+r$g	
+u$f	
+_@
+C
+y$e	
+l$c	
+b @B
+	b	
+
+$`	
+
+$_	
+IV@C
+
+$^	
+b<@DV
+1 ]	
+[>?Y
+:|$[	
+<$Z	
+A9$X	
+9@Bz
+$V	
+`$U	
+%#T	
+#S	
+b@AX
+
+Zw$!	
+X$@C
+
+u# 	
+:8@B
+@A_v
+*@Hx
+?@B
+0A#
+>k@An
+#@Dq4
+a@D[
+U%=h@C
+S9@Bf
+R<@H$
+QaC@H$
+N
+F@H
+}^@H
+Cp
+@
+8$	
+t@Ad
+7@Ad
+o[#P	
+V&@Dx
+1$O	
+MP@Dl
+
+$N	
+@BhN
+$M	
+@BX|
+)xV$K	
+%@Cg
+
+$J	
+%?@CCr
+7
+#I	
+2@B$
+8#H	
+@B	0
+!@B	
+,#E	
+N@h"C	
+
+Fw$B	
+
+P.@Dnx
+ ^#A	
+@Dnx
+`#@	
+#?	
+j@A?n
+a$=	
++5@D;
+,@D
+f
+{+#8	
+@BM(
+'{#7	
+#x@A:
+X#6	
+JU%4	
+8v@I
+=%2	
+te(@I$
+tl#0	
+#.	
+ek@AX
+!-	
+aU(?
+
+2v#,	
+RU`@A
+:$*	
+Q}4@J
+	%)	
+z@J)
+
+e%'	
+
+?@I
+@$&	
+
+
+J@Hh
+2stillstill
+Mstillstill
+aq&stillstill
+!stillstill
+Qstillstill
+7{stillstill
+Ns@
+
+)																																																																											
+bqLge
+
+J|
+
+		
+
+PLLocationAgent_E
+PLLocationAgent_EventForward_ClientStatus
+PLBBAgent_EventBackward_LTESleepMgrStats
+PLApplicationAgent_EventForward_ApplicationObfuscated_Array_Reasone
+PLSpringBoardAgent_Aggregate_SBNotifications_Aggregate
+PLVideoAgent_EventForward_Video
+PLApplicationAgent_EventBackward_ApplicationMemory
+PLBBAgent_EventNone_CMCallEventConnCode;
+PLAudioAgent_EventForward_NowPlaying
+PLPushAgent_Aggregate_APSDConnected54k
+PLSCDynamicStoreAgent_EventForward_HotspotActive
+PLSpringBoardAgent_EventForward_SBWallpaper
+PLDisplayAgent_EventBackward_APLStats
+PLAppTimeService_Aggregate_AppRunTime
+PLSpringBoardAgent_EventForward_SBLockC
+PLRenderingAgent_EventBackward_FrameCount
+PLXPCAgent_EventForward_UIKitKeyboard
+PLApplicationAgent_EventPoint_ApplicationExitReasonObfuscatedT
+PLVideoAgent_EventBackward_CMFile((~
+PLVideoAgent_EventBackward_VTSession|
+u	PLDisplayAgent_EventForward_BlueLightReductionStatus
+PLAudioAgent_EventPoint_SpeakerAmp
+PLApplicationAgent_EventBackward_WidgetStatsy(v
+PLPushAgent_EventPoint_SentKeepAliveH.K
+PLIOReportAgent_EventBackward_EnergyModel
+PLSpringBoardAgent_EventForward_SBBlank
+PLXPCAgent_EventPoint_DASyncStart!%q
+PLCameraAgent_EventForward_CameraH$p
+PLCameraAgent_EventForward_Torch
+	PLIdentityServicesAgent_EventPoint_IDSLinkPreferenceRequest7n
+PLApplicationAgent_EventPoint_ApplicationExitReasonT-m
+PLBatteryAgent_EventForward_SmartCharging
+PLAudioAgent_EventPoint_AudioApp_
+PLXPCAgent_EventPoint_BackgroundTransfer
+PLSpringBoardAgent_EventForward_SBScreen
+PLSpringBoardAgent_Aggregate_SBBulletins_Aggregate
+PLButtonAgent_EventPoint_Button
+PLHomeKitAgent_EventForward_HomeConfiguration#
+@
+PLIOReportAgent_EventBackward_MultitouchMultitouchhighlevelstats
+PLIOReportAgent_EventBackward_IOMFBScanoutHistogram
+PLXPCService_EventPoint_ClientLoggingDrops
+PLApplicationAgent_EventForward_ApplicationObfuscated
+PLBBAgent_EventPoint_CMCDMAExitCode
+PLApplicationAgent_EventPoint_WidgetUpdates
+PLConfigAgent_EventNone_Config
+PLIOReportAgent_EventBackward_IOMFBSwapHistogram
+PLScreenStateAgent_EventForward_ScreenState
+PLApplicationAgent_EventForward_Application
+PLBBAgent_EventForward_LTERRCState
+PLAppTimeService_Aggregate_CellularCondition
+PLIOReportAgent_EventBackward_AOPAOPSensors
+PLBBAgent_EventForward_GSML1State
+PLIOReportAgent_EventBackward_AOPmuxPower
+PLIOReportAgent_EventBackward_PMPEnergyCounters
+PLIOReportAgent_EventBackward_SoCStatsEventsRaw
+PLSCDynamicStoreAgent_EventForward_CellularActive
+PLIOReportAgent_EventBackward_AOPAmpPower
+PLXPCAgent_EventForward_UIKitEclipse
+PLSleepWakeAgent_EventPoint_WakeGesture
+PLBatteryAgent_EventForward_ExternalCharger
+PLScreenStateAgent_EventPoint_BacklightEvent
+PLIOReportAgent_EventBackward_CorePerformanceLevelResidency
+PLAccountingOperator_EventInterval_QualificationEvents_Dynamic
+PLIOReportAgent_EventBackward_PPMStatsDroopController
+PLBatteryAgent_EventBackward_CurrentAccumulator
+
+PLApplicationAgent_EventForward_Application_Array_Reason
+4iw
+-
+
+	
+
+
+
+_
+:
+
+X
+iHcom.apple.mobilecal.CalendarWidgetExtension
+
+com.apple.WebKit.Networking
+com.apple.WebKit.WebContent
+Mcom.apple.Spotlight
+.com.apple.mobilenotes
+com.chess.iphone
+Atcom.moxco.bumble
+$com.atebits.Tweetie2
+,com.hammerandchisel.discord
+hcom.alltrails.AllTrails
+ com.reddit.Reddit
+wcom.apple.weather.widget
+'com.apple.CloudDocs.MobileDocumentsFileProvider
+com.apple.Spotlight
+com.apple.weather.widget
+&com.apple.springboard=
+com.apple.WebKit.Networking
+ocom.apple.WebKit.WebContent
+UCcom.apple.WebKit.WebContent
+com.apple.mobilenotes
+[*OV
+
+					u	V	5	
+)
+
+d
+77\d
+"
+ 22
+"zp#
+"v6R
+s
+
+^
+
+
+
+
+
+
+
+
+q
+]
+J
+8
+&
+
+
+m[I8'
+q_M;*
+
+
+
+
+
+
+
+
+y
+h
+V
+D
+2
+!
+
+									o	^	L	:	(	
+W5s2
+UmTT
+S81~
+P%Q2
+3
+	
+.]^D
+
+
+
+
+
+
+
+
+
+
+}
+h
+S
+0
+)
+
+sle^WPIB;-
+~wpib[TMF8*#
+
+
+
+
+v
+o
+>
+7
+"
+
+z4&
+?1
+
+
+
+
+
+
+
+
+
+
+
+a
+Z
+L
+E
+
+m7 l
+
+!`lq
+
+#gI
+
+=f>:
+/
+
+8j@
+2v98
+
+[;Z
+
+com.apple.system.lowpowermode*
+DQcom.apple.system.lowpowermode*
+;}com.apple.system.lowpowermode*
+7ypcom.apple.system.lowpowermode*
+:Zcom.apple.system.lowpowermode*
++com.apple.system.lowpowermode
+6<S
+
+PLAccountingOperator_EventForward_QualificationEvents.J-
+(f~'
+
+
+
+
+
+
+
+
+
+
+
+
+]
+0
+
+|O"nA
+
+
+
+
+e
+9
+
+				]	1	
+"!none&
+Mnone&
+[CwA
+bVnone&
+-none)
+D9,^A
+none[)
+noneW)
+@F(A
+Fe
+A
+noneQ)
+?ZSFA
+noneN)
+noneK)
+noneE)
+noneA)
+/[xA
+none;)
+none7)
+'M"A
+.U`B
+none1)
+
+none.)
+
+
+94A
+none+)
+
+none%)
+
+
+FjLA
+none!)	
+
+none
+none
+)
+Fz A
+(ZZA
+xx$A
+Fw`A
+F3	A
+
+
+
+
+
+
+o
+T
+9
+%
+
+iN3
+	
+cH-
+
+
+
+
+
+
+y
+]
+B
+'
+CoreDump0(null)
+USBTracerDump()
+MobileAnalyzer()
+BasebandTrace0(256)
+'
+Mux()
+Artemis()
+EURCoreDump0(null)
+Boot()
+USBDump()
+DIAG0(256)
+CSILog()
+BasebandTrace0(256)
+
+est_causeMO_DATA
+Short_drx_cycle65535
+Inactivity_timer65535"|
+Short_drx_cycle_timer65535
+Long_drx_cycle0
+On_duration_timer65535
+Inactivity_timer65535"v
+Inactivity_timer65535
+#'com.apple.news.widget
++com.apple.mobileslideshow.PhotosReliveWidget
+#P77d
+#P
+
+d
+:L@
+E5Ks
+
+6>r
+
+
+
+
+
+
+
+
+
+$
+
+),@
+
+T		P
+	U	A
+#`com.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+08CFDEA8-0DC6-4073-8254-46804218B446x,
+#Fcom.apple.mobileassetd:[com.apple.mobileassetd:(null)]FD61ADE4-38CA-475D-A6C8-F0B01954A206~+
+?Ncom.apple.cloudd:[com.apple.mobilenotes:(null)]
+&pdp_ip0
+C1455A82-4B13-49DC-B773-39A06AF73F5C~*
+:com.apple.cloudd:[com.apple.mobilenotes:(null)]
+pdp_ip0
+9B54F507-C886-4ADD-AA07-FDAA7A743126r)
+com.apple.cloudd:[com.apple.mobilenotes:(null)]
+C1455A82-4B13-49DC-B773-39A06AF73F5Cr(
+ com.apple.cloudd:[com.apple.mobilenotes:(null)]
+9B54F507-C886-4ADD-AA07-FDAA7A743126r'
+C1455A82-4B13-49DC-B773-39A06AF73F5Cr&
+com.apple.cloudd:[com.apple.mobilenotes:(null)]
+9B54F507-C886-4ADD-AA07-FDAA7A743126
+1com.apple.cloudd:[com.apple.donotdisturbd:(null)]
+1B62D63C-175F-4F08-BBF9-53C0939CA96Dt$
+Hcom.apple.cloudd:[com.apple.donotdisturbd:(null)]
+1B62D63C-175F-4F08-BBF9-53C0939CA96Dt#
+com.apple.cloudd:[com.apple.donotdisturbd:(null)]
+1B62D63C-175F-4F08-BBF9-53C0939CA96D
+hcom.apple.cloudd:[com.apple.bird:com.apple.bird]
+lpdp_ip0
+E2D135A9-52AB-43D1-968F-C9CC0C844199s!
+:com.apple.cloudd:[com.apple.bird:com.apple.bird]
+E2D135A9-52AB-43D1-968F-C9CC0C844199s 
+com.apple.cloudd:[com.apple.bird:com.apple.bird]
+E2D135A9-52AB-43D1-968F-C9CC0C844199y
+jcom.apple.cloudd:[com.apple.cloudd:(null)]
+F53933AB-D4DC-4063-AC66-E021B60B13B7m
+com.apple.cloudd:[com.apple.cloudd:(null)]
+F53933AB-D4DC-4063-AC66-E021B60B13B7
+
+
+
+
+p
+N
+'
+
+fD
+
+
+
+
+,
+				}	1	
+AssertionStorm, count=0 start=(null) end=(null)
+daemon<com.apple.SpringBoard>32-61-46:FBSystemApp-PreventIdleSleep
+N +e
+daemon<com.apple.bookassetd>32-225-152:com.apple.CFNetwork.StorageDB
+com.apple.apsd-delayed-keepalive-push.apple.com-WWAN
+hq
+S
+NSURLSessionTask A1FB754C-06CC-4FB7-A0CF-0104CF1B305B
+{R
+
+NSURLSessionTask 44EB9389-6A24-4B72-8DE1-A5B2FF6E1207
+s ]Q
+NSURLSessionTask 1A67D20D-6AD7-4005-BA60-FEB01BB0EFF4
+ss ]Q	
+NSURLSessionTask B43CA033-8CD2-40DD-A709-F7372B123EDE
+ss ]
+s
+s ]Q
+NSURLSessionTask 39514C1C-5F0C-4BF9-8357-56A096F1BC69
+s
+s ]
+ss ]Q
+NSURLSessionTask 065ED556-E90C-468F-8B05-4A2735D14560
+ss ]
+s ]Q
+NSURLSessionTask 42C921B9-A6BE-4CB5-8ED4-92F85DF8268F
+s \Q
+NSURLSessionTask 828B5A8C-DBD2-4FE9-9AEC-F5D9BA1F4980
+s \"}
+s
+s \
+s
+s \6{
+NWIOConnection 0x11088dcc8
+s
+s \Qz
+NSURLSessionTask 06159AA9-A337-4B3F-910D-65B3ED539468
+s \Qy
+NSURLSessionTask 626B9F32-FE55-45FE-80A4-468B51ACD4B3
+s \Qx
+NSURLSessionTask 8D68A8B1-46DA-4AD3-B06A-A3DABED4C96E
+s \Qw
+NSURLSessionTask ABF2319F-081C-4051-B89D-A99369DF66BD
+s \Qv
+NSURLSessionTask 002D1B43-E0DC-4385-8107-EEC2693481CA
+s \Qu
+NSURLSessionTask 413EE284-8544-49C8-997B-95DD8209FF21
+s \Qt
+NSURLSessionTask 53008045-70F9-4306-8982-3C30D1937588
+qeq \Hr
+com.apple.apsd-keepalive-push.apple.com-WWAN
+qeq \
+qfq \"p
+qbq \
+qdq \"n
+qaq \Pl
+qaq \
+qcq \"j
+com.apple.persistentconnection[apsd,113,schedulingwake-com.apple.apsd(push.apple.com)-WWAN-SystemWakeManager(0x1014462c0)]
+qbq \Dg
+APSCourier(tcpStream:dataReceived:)-WWAN
+qgq \
+ [Re
+NSURLSessionTask A3ABA9C5-C1D5-40D1-BDCE-9CBEDEE216AA
+ [Rc
+NSURLSessionTask 60CEA210-5814-4A0F-9410-A9DEEDBA3DCD
+ [#a
+ [#_
+ [#]
+ [#[
+ [RY
+ [#W
+ [7U
+NWIOConnection 0x13be44fd8
+ [RT
+NSURLSessionTask E2D135A9-52AB-43D1-968F-C9CC0C844199
+ [RS
+NSURLSessionTask F53933AB-D4DC-4063-AC66-E021B60B13B7
+ [RR
+NSURLSessionTask 41A9974F-32C7-4EB4-AF35-591187B3C13E
+Q8SQLite format 3
+z
+$24~
+$1va6
+W6pQRp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+v
+o
+h
+a
+Z
+S
+L
+E
+>
+7
+0
+)
+"
+
+zsle^WPIB;4-&
+~wpib[TMF?81*#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+t
+m
+f
+_
+X
+Q
+J
+C
+<
+5
+.
+'
+ 
+
+																			
+	x	q	j	c	\	U	N	G	@	9	2	+	$	
+iX3r
+
+*}|`
+
+
+
+
+
+
+
+
+
+
+
+
+
+|
+r
+f
+Z
+P
+D
+8
+,
+ 
+
+xlbVJ@6,"
+		-	>
+	-)	=
+	-.$
+		-	;
+	-)	:
+	-(+	9
+	-+*
+		-	6
+	-(+
+		-	.
+		-	*
+		-	&
+	-)	%
+		.M
+		.L
+		.K
+		.I
+		.F
+		.D	
+	.B'	
+	.A,
+		.@	
+	.?'	
+	.=+*	
+
+	.<(+	
+	.;'5	
+	.:.	
+
+	.9(+		
+	.8+*	
+	.7(+	
+	.6.	
+	.5'5	
+	.4.	
+	.3'	
+	.2(+	
+	.1+*	
+	.0(+	
+	./.	
+	..+*	~
+	.-(+	}
+	.,.
+		.*	{
+	.)(+	z
+	.''5
+		.&	x
+	.%(+
+		.#	v
+	.!(+	u
+(+	r
+'5	q
+.U	n
+(+	l
++*	k
+(+	j
+(+	g
+	.
++*	f
+	.(+	e
+	.'5
+		.
+	c
+	.	(+	b
+		-	X
+		-	U
+		-	R
+		-	M
+	-(+	L
+	-)	K
+	-.U	J
+	-)	I
+	-(+	H
+	-+*	G
+	-(+	F
+	-.T
+		-	D
+		-	B
+		-	@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+p
+h
+`
+X
+P
+H
+@
+8
+#$	a
+
+
+lV
+uO";
+
+sm
+
+xx
+
+
+?
+
+
+M
+8N&/F
+ m#[	
+zJ97
+J(C{Z
+dy1&
+						
+
+
+
+
+
+
+
+
+z
+i
+X
+G
+6
+%
+
+{jYH7&
+|kZI8'
+									
+mp~
+
+XXD
+:##
+	qdI
+	V6iH
+/^F3
+j ,p
+dx*U
+$t*"-
+N,@[	
+Cqt	t
+8H;
+
+l|N
+9cN
+
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+uCl'
+l%
+
+
+6
+!{f<
+M7.02.0019A404D20A
+@5 GBa219A404AuCD@DUUUUU1p
+M7.02.0019A404D20wdog,reset_in1A
+9B9@5 GBa219A404AuCD@DUUUUU1b
+W~<@5 GBa219A404AuCD@DUUUUU1b
+,8@5 GBa219A404AuCD@DUUUUU1b
+6$><
+X@5 GBa219A404AuCD@DUUUUU1b
+<@5 GBa219A404AuCD@DUUUUU1b
+@5 GBa219A404AuCD@DUUUUU1b
+X@5 GBa219A404AuCD@DUUUUU1
+$XUSen_USAmerica/New_Yorkpowerlog2
+,Y USen_USAmerica/New_Yorkpowerlog2
+cyFUSen_USAmerica/New_Yorkpowerlog2
+USen_USAmerica/New_Yorkpowerlog2
+9USen_USAmerica/New_Yorkpowerlog2
+
+	]USen_USAmerica/New_Yorkpowerlog2
+"rWlUSen_USAmerica/New_Yorkpowerlog
+lu}
+
+
+9TTh@&
+@s2)
+t*@w
+uH@YM
+F%1"
+Vu>C
+m	?BO
+?(!}
+ib[?Bk6
+CN0`
+?@#x[
+?}\J^H^
+>Q)R
+?DU{v
+sYJa0M
+
+9TTh
+d@s2)
+]<@
+|@R*
+
+NdwkroE
+J
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+9U\*
+}fa
+X
+z
+
+"	R
+9TTh9
+d&)+
+y&(.
+~&(-
+w&@\v0
+?eU.r
+,!'2
+, )4
+-!(4
+@$vFI
+6!D#
+VWA@ 
+QQ@=e
+@F=33M
+@A51
+
+@{;<
+t{GY>`@s2)
+_o]Q=
+dUM6
+e@YM
+)$wI2
+
+9TThd4X
+p6Uz@
+qg@@
+iI @
+t* |h>
+\`
+ :@YM
+#upA
+b%A
+
+
+
+
+
+
+v
+]
+D
++
+
+|cJ1
+#zBacklight
+Backlight
+gjBacklight
+:
+Backlight
+M~Backlight
+yBacklight
+PPBacklight
+OBacklight
+pRBacklight
+jBacklight
+)"Backlight
+2Backlight
+[H$Backlight
+s6DBacklight
+HBacklight
+CBacklight
+YXBacklight
+qBacklight
+?Backlight
+vqDBacklight
+.Backlight
+QBacklight
+	Backlight
+]JBacklight
+
+vBacklight
+
+bBacklight
+DBBacklight
+b$Backlight
+EcBacklight
+f=Backlight
+e7Backlight
+EBacklight
+8+Backlight
+f@6Backlight
+f[2
+bR2
+8{|
+fl
+#V@X>
+
+EjP%o	
+
+EjP%n	
+"@X>
+5
+Ej4%m	
+^T~+1
+
+
+
+
+@
+
+@
+@
+d@XW@
+A~ah
+A~[I
+A};U
+Az	Wq
+Ax( 
+Ax&v 
+#[
+6
+&F
+5
+b|A
+4
+4?
+3
+#`D @
+SpeakerAudio/Video#8	
+r3"SpeakerAudio/Video#7	
+b3SpeakerAudio/Video#6	
+SpeakerAudio/Video#5	
+$ SpeakerAudio/Video#4	
+LSpeakerFindMyPhone#3	
+SpeakerAudio/Video#2	
+SpeakerFindMyPhone#0	
+8SpeakerAudio/Video#/	
+HZSpeakerAudio/Video#1	
+SpeakerAudio/Video
+VoffInactiveLTEAutomaticAutomatic
+"offInactiveLTEAutomaticAutomatic
+offInactiveLTEAutomaticAutomatic
+ offInactiveLTEAutomaticAutomatic
+,foffInactiveLTEAutomaticAutomatic
+xoffInactiveLTEAutomaticAutomatic
+u6@offInactiveLTEAutomaticAutomatic
+qMoffInactiveLTEAutomaticAutomatic
+-offInactiveLTEAutomaticAutomatic
+oc#WoffInactiveLTEAutomaticAutomatic6?
+hBoffInactiveLTEAutomaticAutomatic6>
+eG0offInactiveLTEAutomaticAutomatic6=
+MQoffInactiveLTEAutomaticAutomatic
+#f4offInactiveLTEAutomaticAutomatic
+1noffInactiveLTEAutomaticAutomatic
+eoffInactiveLTEAutomaticAutomatic
+93offInactiveLTEAutomaticAutomatic
+O_e
+	
+																															
+4GTFWRegisteredHome
+U4GTFWRegisteredHome(t
+
+sh4GTFWRegisteredHome(s
+
+b?4GTFWRegisteredHome(r
+
+WB4GTFWRegisteredHome(q
+
+$4GTFWRegisteredHome(o
+
+>4GTFWRegisteredHome
+F^d
+
+o
+	
+bbHXY8
+!Nc	PG
+ccHXY8
+"Nc	PG
+ddHXY8
+bHXY8
+Nc	PG
+HXY8
+dHXY8
+>ar5
+A;HXY8
+>aRS
+>za]
+A~)d
+.)HXY8
+A~.{
+95HXY8
+?b
+k
+?b
+D
+HXY8
+%9H
+
+
+
+
+
+P
+
+
+P/3
+
+P/2
+
+P01
+
+P.0
+
+P0/
+
+P0.
+
+P.-
+
+P0,
+
+P0*
+
+P0)
+
+P.(
+
+P0'
+
+P.&
+
+P.+
+3v
+e
+t_c
+eJzb
+w!
+
+
+JYqiM
+
+lCk_
+6p{DD
+c&r2
+dd_-z
+d_,:
+#r	hdj&+
+d,K)
+=qvct'v
+rc
+&6
+b&%
+
+Rr8b
+a78"
+$`C!f
+awdl0
+8Hen0
+8hGpdp_ip0	K
+#Nawdl0
+#Nnen0
+6hawdl0
+5en0
+Ppdp_ip0
+b0awdl0
+ben0
+b+pdp_ip0
+"2pdp_ip0
+r\awdl0
+r&en0
+opdp_ip0!
+s#Bawdl0
+s!xen0
+?pdp_ip0
+r^en0
+fXawdl0
+fen0
+																																																					
+rB
+{
+b[
+z
+= l
+x
+xh,V
+
+80/
+
+?o.
+
+Wn2
+
+s`M
+
+iP7
+
+
+
+
+
+
+o
+V
+=
+$
+						u	\	C	*	
+L\hj
+YmQz
+5zt2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+
+
+
+
+D
+
+
+
+
+
+
+
+
+
+
+y
+r
+k
+d
+]
+V
+O
+H
+A
+:
+3
+,
+%
+
+}vohaZSLE>70)"
+
+tmX_QJC
+
+
+
+
+
+
+
+
+
+n
+!
+6
+Y
+R
+/
+		
+
+
+(
+K
+D
+g
+`
+
+|
+u
+"						{	t	m	f	_	X	Q	J	C	<	5	.	'	 	
+<' 
+5.
+
+
+
+
+				
+x+n
+Y
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+l
+b
+X
+N
+D
+:
+0
+&
+
+|rh^TJ@6,"
+
+
+ukaWMC9/%
+
+
+
+
+
+
+
+
+
+
+
+
+{
+q
+g
+]
+S
+I
+?
+5
++
+!
+
+														w	m	c	Y	O	E	;	1	'	
+b
+|x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+p
+h
+`
+X
+P
+H
+@
+8
+0
+
+(
+ 
+
+
+wog_WOG?7/'
+
+wog_WOG?7/'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+o
+g
+_
+
+W
+?
+7
+/
+'
+
+																	
+	w	o	g	_	W	O	G	?	7	/	'	
+
+O
+G
+4w!
+
+4w!	
+
+
+
+
+
+o
+]
+K
+9
+::::::::::::
+4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>mS*
+:[$
+PLAudioAgent_EventForward_Output70
+PLAudioAgent_EventForward_Routing9
+PLProcessMonitorAgent_EventForward_ProcessID d
+PLWifiAgent_EventBackward_CumulativeProperties.I;"
+PLAccountingOperator_EventForward_QualificationEvents.N-
+PLBatteryAgent_EventPoint_ChargingInfo4-;
+PLBatteryAgent_EventBackward_Battery&Y7$
+PLBBAgent_EventForward_TelephonyRegistrationu
+B-:6
+(Vr4j
+
+PLHomeKitAgent_EventForward_HomeConfiguration$
+@
+
+
+
+
+h
+6
+N
+[&
+
+
+
+N
+%			|	U	)
+PLSpringBoardAgent_EventPoint_SBAutoLock
+PLLocationAgent_EventInterval_SeparationAlert
+PLDuetService_EventForward_DASPrediction
+PLAccountingOperator_EventPoint_DistributionEvents_Dynamic
+PLXPCAgent_EventForward_AirDrop
+PLSCDynamicStoreAgent_EventForward_WifiActive
+PLWifiAgent_EventBackward_BeaconProfile
+PLXPCAgent_EventPoint_Symptoms-NetworkAdvisory
+PLBBAgent_EventBackward_BBMavHwRf1x
+PLXPCAgent_EventBackward_ODOff
+PLXPCAgent_EventBackward_ODHN
+PLXPCAgent_EventBackward_UbiquityAccountStatistics
+PLPushAgent_EventPoint_ReceivedPush
+PLXPCAgent_EventBackward_ODOn
+PLPowerAssertionAgent_EventPoint_TimedOutProcesses
+PLBBAgent_EventBackward_BBMavHwRfWCDMA
+PLXPCAgent_EventBackward_CKKSSyncing
+PLDisplayAgent_EventBackward_HParameters
+PLProcessNetworkAgent_EventBackward_NetworkBitmap
+W	PLXPCAgent_EventForward_UIKitActivity$P
+PLMDNSAgent_EventPoint_MDNSEvent
+PLXPCAgent_EventPoint_DeepScanReasons
+PLHealthKitAgent_EventPoint_HealthKitCloudSync($I
+PLPushAgent_Aggregate_SentPushes
+a	PLLocationAgent_EventInterval_MapsBusyness)C
+PLXPCAgent_EventForward_InCallService
+PLDuetService_Aggregate_DuetEnergyAccumulator+%A
+PLXPCAgent_EventForward_Accessory
+PLBBAgent_EventForward_CMCallEventOrigCode!;>
+PLProcessMonitorAgent_EventPoint_AppNotFrozenObfuscatedR1=
+PLProcessMonitorAgent_EventPoint_AppNotFrozenR#<
+PLARKitAgent_EventForward_State
+PLApplicationAgent_EventPoint_AppDocking%1:
+PLCameraAgent_EventInterval_SmartCamDetection
+PLAccountingOperator_Aggregate_QualificationEnergy
+PLBBAgent_EventBackward_BBMavHwRfHDR.(3
+PLBBAgent_EventBackward_BBMavHwRfTDS
+PLBBAgent_EventBackward_BBMavHwRfGSM
+PLBBAgent_EventBackward_BBMavHwRfOos1/0
+PLIOReportAgent_EventBackward_HapticsStats
+PLStorageOperator_EventPoint_Archive&(.
+PLCoalitionAgent_Aggregate_NANDStats[,-
+PLApplicationAgent_EventPoint_AppPrewarmi2,
+PLAccountingOperator_Aggregate_RootNodeEnergy&-+
+PLUserActiveStateService_EventPoint_Statex(*
+PLDuetService_EventNone_DASActivity'I))
+PLDuetService_EventNone_DASDropCount
+PLDuetService_EventNone_DASInfo
+PLBBAgent_EventBackward_CMCallEventEndCode?8&
+PLProcessMonitorAgent_EventPoint_SystemFreezerStats
+PLProcessMonitorAgent_EventInterval_KernelTaskMonitor7&$
+PLXPCAgent_EventPoint_CacheDelete
+PLHomeKitAgent_EventForward_CameraConfiguration
+PLSleepWakeAgent_EventPoint_ScheduledWake
+/!
+PLNetworkAgent_EventPoint_UnattributedWake
+PLProcessMonitorAgent_EventPoint_FreezerStatsObfuscatedH2
+PLProcessMonitorAgent_EventPoint_FreezerStatsH'
+PLAppTimeService_Aggregate_Metrics
+PLCoalitionAgent_EventInterval_CoalitionInterval!C
+PLAccountingOperator_EventBackward_DistributionEvents_DynamicyH
+PLProcessMonitorAgent_EventInterval_ProcessMonitorInterval_Dynamic[@
+PLProcessMonitorAgent_EventInterval_ProcessMonitorInterval
+PLAccountingOperator_EventInterval_DistributionEvents_Dynamic*2
+PLProcessNetworkAgent_EventInterval_UsageDiff$/'
+PLBatteryAgent_EventPoint_PPMDebug
+PLBatteryAgent_EventPoint_PPMClientMetrics
+PLBatteryAgent_Aggregate_UILevel
+PLBBAgent_EventBackward_MavBBHwOtherPerRAT.#
+PLNetworkAgent_EventPoint_Wake
+PLBBAgent_EventBackward_BBMavHwRfLTE.
+PLSleepWakeAgent_EventForward_PowerState_Array_Reason;9
+PLBatteryAgent_EventForward_LightningConnectorStatus
+PLBBAgent_EventPoint_SleepWakeActivityMavABM
+PLBBAgent_EventBackward_MavBBHwOther.:6
+
+PLDuetService_EventBackward_DASEnergyBudgetReport
+PLDuetService_EventForward_DASEnergyBudgetAvailable
+PLBluetoothAgent_EventBackward_WirelessProxScanDStatsq)
+PLAppTimeService_Aggregate_UsageTime
+PLDisplayAgent_EventBackward_BlueLightParameters
+
+
+
+d
+1I
+m6
+
+
+
+n
+=
+			y	H
+com.apple.cloudd:[com.apple.siriknowledged:(null)]
+com.apple.cloudd:[com.apple.imagent:(null)]
+com.apple.lock-screen
+com.apple.iMessageAppsViewService
+com.apple.geod:[com.apple.geod:(null)]
+com.apple.control-center
+com.apple.cloudd:[com.apple.triald:(null)]
+com.apple.cloudd:[com.apple.syncdefaultsd:(null)]
+com.apple.cloudd:[com.apple.securityd:(null)]
+com.apple.cloudd:[com.apple.purplebuddy:(null)]
+com.apple.cloudd:[com.apple.mobileslideshow:(null)]
+com.apple.cloudd:[com.apple.mobilesafari:(null)]
+com.apple.cloudd:[com.apple.mobilephone:(null)]
+com.apple.cloudd:[com.apple.mediasetupd:(null)]
+com.apple.cloudd:[com.apple.locationd:(null)]
+com.apple.cloudd:[com.apple.kbd:(null)]
+com.apple.cloudd:[com.apple.dprivacyd:(null)]
+com.apple.cloudd:[com.apple.coreidv.coreidvd:(null)]
+com.apple.cloudd:[com.apple.coreduetd:(null)]
+com.apple.cloudd:[com.apple.cloudpaird:(null)]
+com.apple.cloudd:[com.apple.businessservicesd:(null)]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+y
+p
+g
+^
+U
+L
+C
+:
+1
+(
+
+}tkbYPG>5,#
+xof]TKB90'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|
+s
+j
+a
+X
+O
+F
+=
+4
++
+"
+
+																w	n	e	\	S	J	A	8	/	&	
+}
+
+l
+	h
+b
+X
+N
+D
+
+
+
+
+
+
+t
+~
+j
+`
+V
+L
+B
+8
+.
+$
+
+													z	p	f	\	R	H	>	4	*	 
+
+
+
+
+
+
+2PnZdx
+^TJ@6,"
+|r
+:
+0
+&
+
+
+(F<
+E
+*
+	dC"
+P
+c
+M
+7			w
+com.apple.appstored:[com.apple.AppStore:com.atebits.Tweetie2]
+com.apple.appstored:[com.apple.AppStore:com.moxco.bumble]
+com.apple.appstored:[com.apple.AppStore:com.toyopagroup.picaboo]
+com.apple.appstored:[com.apple.AppStore:org.whispersystems.signal]
+com.apple.appstored:[com.apple.AppStore:com.google.Gmail]
+com.apple.appstored:[com.apple.AppStore:com.hammerandchisel.discord]
+com.apple.appstored:[com.apple.AppStore:com.reddit.Reddit]
+com.apple.cloudd:[com.apple.Health:(null)]
+com.apple.cloudd:[com.apple.assistant.assistantd:(null)]
+com.apple.Translate.CacheDeleteExtension
+com.apple.bird:[com.apple.bird:(null)]
+com.apple.UserNotificationsUIKit.ThumbnailProvider
+com.apple.WebKit.GPU
+com.apple.camera
+com.apple.appstored:[com.apple.AppStore:com.chess.iphone]
+d
+0W
+
+
+
+
+y
+
+W	=	
+yccccccccccc
+
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+T
+
+com.apple.springboard.spotlight
+com.atebits.Tweetie2
+com.apple.springboard.home-screen
+com.apple.springboard.passcode
+com.atebits.Tweetie2.NotificationServiceExtension
+com.gma.water.sort.puzzle
+com.apple.weather
+com.google.Gmail
+y^C(
+kP5
+(			g	+
+
+T
+W
+<creen
+com.apple
+com.apple.pipelined:[com.apple.pipelined:(null)]
+com.apple.mobilemail
+com.apple.springboard.app-switcher
+com.apple.mobiletimer
+com.apple.mobileslideshow
+com.apple.mobilesafari
+com.apple.mobilephone
+com.apple.mobilenotes.WidgetExtension
+com.apple.mobilecal.CalendarWidgetExtension
+com.apple.mobilecal
+com.apple.mobileassetd:[com.apple.mobilesafari:(null)]
+com.apple.news.widget
+com.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+com.apple.mobileslideshow.PhotosReliveWidget
+com.apple.mobileassetd:[com.apple.online-auth-agent:(null)]
+#CH
+
+
+
+Y	^
+	F	2
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+com.apple.Maps
+com.apple.Preferences
+com.alltrails.AllTrails
+com.apple.ContactsUI.ContactViewViewService
+com.apple.MobileSMS
+com.apple.FocusSettingsUI.UserNotificationExtension
+com.apple.AppleMediaDiscovery.AMDEngagementExtension
+com.apple.PeopleSuggester.ProactiveSharesheetLighthousePlugin
+com.apple.FileProvider.LocalStorage
+com.apple.CoreAuthUI
+com.apple.RemoteManagement.PasscodeSettingsExtension
+com.apple.RemoteManagement.ManagementTestExtension
+com.apple.RemoteManagement.InteractiveLegacyProfilesExtension
+com.apple.RemoteManagement.LegacyProfilesExtension
+com.apple.RemoteManagement.AccountExtension
+com.apple.MobileSMS.spotlight
+com.apple.CloudDocs.MobileDocumentsFileProvider
+com.apple.AppTrackingTransparency.EnforcementService
+com.apple.InCallService
+SBPowerDownViewController
+com.apple.Maps.GeneralMapsWidget
+com.apple.AppStore
+<	>
+o
+
+
+]
+		q
+gg	
+com.toyopagroup.picaboo.notification
+com.hammerandc
+com.hammerandchisel.discord
+com.moxco.bumble
+com.google.Gmail.NotificationServiceExtension
+com.reddit.Reddit
+com.wearezeta.zclient.ios
+org.whispersystems.signal
+com.toyopagroup.picaboo
+ru.appscraft.CollectorGame
+com.reddit.Reddit.NotificationServiceExtension
+>#;
+8
+
+
+
+
+
+
+p
+`
+H
+8
+ 
+
+								x	h	X	@	0	
+@4PH
+@(e
+@
+/,b
+)
+@Et)<
+@sil
+@sIP
+.b@'e
+@$qF
+@@
+<d
+Kja
+
+@>
+i{
+@A%R
+x)
+@K@%t!:@$
+@O2;
+@=D=Fl
+\pC^
+MYO
+z
+@o XS~@pB^o|@ ;
+flLYu@%*@,
+@AB_
+q
+@>&*V
+@AAZ-s
+@AT2;
+@("]
+@>xl
+C:[h
+@>#I'>
+a
+@AL 
+@@#R__
+?!gQG
+V
+@OX
+L/
+Q
+j8
+O
+@A6$
+M
+@>*p
+@'j
+G
+@AO;Oag
+@A>]y
+@>(Pr
+?W;
+=
+l@p~
++|@qeH
+@8P*@7x
+wlH(
+7
+@&e0
+@{a@|}n
+@%tf
+@#aI
+2
+c6W]'
+
+
+
+
+
+
+
+
+
+}
+l
+[
+J
+9
+(
+
+								~	m	\	K	:	)	
+3q*d
+~b
+s
+eQ
+r
+sbf
+h<	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v
+l
+b
+X
+N
+D
+:
+0
+&
+
+xndZPF<2(
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+t
+j
+`
+V
+L
+B
+8
+.
+$
+
+														z	p	f	\	R	H	>	4	*	 	
+
+
+
+
+
+
+
+
+
+
+
+
+p
+x
+h
+`
+X
+(
+H
+
+h
+8P H@`
+0(
+Xxp
+
+
+@
+8
+0
+P
+
+
+
+
+
+hxpPX8@0( 
+
+
+
+
+
+
+H	
+X
+h
+
+	
+8
+0
+(
+@
+P
+`	 
+x
+p
+
+
+		
+
+
+
+	
+
+
+	
+	
+										
+		x	h	`	X	P	H	@	8	(	
+	0	p
+H`
+com.apple.CommCenterMobileHelper:[com.apple.CommCenterMobileHelper:(null)]
+com.apple.Music
+com.apple.OTACrashCopier:[com.apple.OTACrashCopier:(null)]
+Q}B(EB
+
+\		p	Z	D	.
+ru.appscraft
+$
+
+
+X
+
+H
+oT9
+|
+	b
+=	
+
+
+
+
+
+
+x
+]
+B
+'
+jO4
+p?
+
+
+
+
+
+
+l
+Q
+6
+
+	d	I	-	
+~*T
+
+		
+z
+W
+		n
+\
+
+
+T
+*
+
+	M	.	
+;
+
+
+vG
+
+
+(nn1
+$+;&
+"kLs
+
+3
+2
+0`[O
+& !
+FE
+vi;
+$*`[O
+u#a
+S
+R
+"`[O
+qX!	Q	P
+"t`7~
+"`7~
+"
+]
+Y"kx]
+0~ce
+Y"j[HzH
+~.~Tbi
+[Hz)
+H.}*bi
+",dZ`y
+Rv,|
+!Z`x
+RG,|'!_Q
+!+Y3x
+$	q?
+
+
+
+
+
+_
+-^1Y0
+
+
+
+Q
+
+			W	
+com.moxco.bumble@*K
+com.atebits.Tweetie2@*Lu_mY
+com.hammerandchisel.discord@*M
+com.reddit.Reddit@*MEJ
+org.whispersystems.signal@*NNHboa
+ru.appscraft.CollectorGame@
+com.toyopagroup.picaboo@*O
+com.apple.mobileslideshow.PhotosReliveWidget?
+com.apple.springboard.home-screen@*)Ie
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension?l:KU
+com.apple.news.widget?3;
+com.apple.Maps.GeneralMapsWidget?
+com.apple.weather.widget?(| 
+com.apple.Spotlight?9yQ
+com.apple.mobilecal.CalendarWidgetExtension?]ce
+com.apple.mobilenotes.WidgetExtension?)#
+com.chess.iphone@*P
+com.alltrails.AllTrails@*S
+com.apple.CloudDocs.MobileDocumentsFileProvider@*Z*B>
+com.apple.mobilenotes@*K
+SBPowerDownViewController@FAx
+com.apple.CoreAuthUI@"
+com.apple.Translate.CacheDeleteExtension?
+com.apple.mobilenotes?
+com.apple.mobilephone@
+com.wearezeta.zclient.ios@>"
+com.gma.water.sort.puzzle@>
+;`(_
+com.apple.WebKit.WebContent@
+com.apple.mobilesafari@
+com.google.Gmail@>]s
+com.apple.InCallService@Y:l
+com.apple.springboard.passcode@Mt
+com.apple.lock-screen@Ls~4E1
+com.apple.Preferences@
+com.apple.springboard.home-screen@V55
+com.apple.weather.widget@
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension@
+com.reddit.Reddit.NotificationServiceExtension@
+$0n\
+com.reddit.Reddit.NotificationServiceExtension?V
+n5J
+
+
+
+
+
+
+
+v
+^
+F
+.
+
+nV>&
+~fN6
+							n	V	>	&	
+9NY<
+9HR
+9?j
+94h{
+9.{wf
+9&wg_
+;ZPU
+U&
+9
+x&
+8 m
+8^[
+8`[W
+8H!
+S1
+8y1)
+8s>)
+8GG
+8AH
+83fc
+8,c_
+
+s!
+7p8
+7dq
+77q
+7Zz
+7!Z
+7}Ix
+7pHf
+7fb=
+7b>Z
+7U(
+7 ($U
+7l$V I
+
+ov
+
+\:W
+
+QX
+
+
+4^
+
+-t
+
+&u
+
+
+B[=
+
+:
+
+
+!)
+
+i))
+
+*9
+
+xyF
+
+?G
+
+J~
+
+\~<
+
+p"
+
+b#
+
+Ob
+
+Ib
+
+=x
+
+7P
+
+&@
+
+!BAx6
+x6g
+ag]
+
+
+J%!E
+
+~-
+
+W'
+
+(j
+
+kr
+_sQ
+
+CsQn
+8nK
+
+eE
+
+[E
+
+Vy
+
+J<mn
+
+CNmnS
+
+<SO
+
+*ZO/
+U{t
+
+
+tpx
+.
+
+
+
+b
+1
+
+`6U)
+
+
+
+k
+%				g	5
+%<Hru.appscraft.CollectorGame?B > '[
+$4Acom.apple.MobileSMSXBHXBHVZ
+rcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+BH+Y
+#jcom.apple.Maps.GeneralMapsWidget
+#com.apple.CloudDocs.MobileDocumentsFileProvider! ! )U
+##com.apple.mobileslideshow.PhotosReliveWidget
+BH?S
+#com.apple.mobilecal.CalendarWidgetExtension{H{H;R
+com.apple.WebKit.WebContentL
+~com.apple.weather.widget
+'com.apple.Spotlightk
+com.apple.WebKit.WebContent1A1A.M
+b]|com.apple.CloudDocs.MobileDocumentsFileProvider"
+a>6com.apple.Spotlightm
+ocom.apple.WebKit.WebContent?A?A/H
+eorg.whispersystems.signal
+ncom.apple.Spotlight
+B .E
+3ru.appscraft.CollectorGame@p@pTD
+fhcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionI IB 'C
+com.apple.MobileSMSYB YB .B
+jcom.apple.weather.widget
+com.apple.CloudDocs.MobileDocumentsFileProvider 
+M	com.apple.SpotlightlBk
+5acom.apple.InCallService
+}com.apple.InCallService
+pcom.apple.CoreAuthUI
+#com.apple.InCallService
+VjBcom.apple.Translate.CacheDeleteExtension
+'com.apple.mobilenotes
+C8&8
+]"xcom.google.Gmail
+yX/7
+"com.wearezeta.zclient.ios
+A0,5
+WTcom.apple.WebKit.WebContentMB M
++com.apple.AppStoreRHRH)2
+fcom.apple.mobilephoneF F /1
+com.apple.WebKit.WebContent+
+hcom.apple.InCallService
+'
+
+}
+
+`	^
+
+
+
+H			W	
+?Da=
+?pXCcom.apple.cloudd:[com.apple.mobilenotes:(null)]Y%
+com.apple.cloudd:[com.apple.siriknowledged:(null)]Q
+i?^6Kgcom.apple.cloudd:[com.apple.cloudd:(null)]4$
+Acom.apple.news.widget?#
+?`Hcom.apple.Maps.GeneralMapsWidgetD"
+?ZQcom.apple.mobilenotes.WidgetExtensionJ!
+lcom.apple.cloudd:[com.apple.imagent:(null)]2 
+3com.apple.SpotlightK
+Lcom.apple.mobileslideshow.PhotosReliveWidgetJ
+hr com.apple.mobilecal.CalendarWidgetExtensionH
+com.apple.springboard.home-screen@&e0
+?G>Rcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionO
+7com.apple.cloudd:[com.apple.bird:com.apple.bird]A&
+PaA@
+PaAru.appscraft.CollectorGameX
+?a|&+?g
+
+Ncom.apple.cloudd:[com.apple.donotdisturbd:(null)]W
+com.apple.cloudd:[com.apple.assistant.assistantd:(null)]M
+com.apple.cloudd:[com.apple.cloudpaird:(null)]O
+Mrcom.apple.cloudd:[com.apple.mobilesafari:(null)]
+@*NNHboa@*NNHboaorg.whispersystems.signal7
+gcom.apple.weather.widget@
+@&
+n
+h@&
+n
+horg.whispersystems.signalV
+?Xtj~?Xtj~com.apple.cloudd:[com.apple.mobilenotes:(null)]F
+com.apple.springboard.spotlight?e
+;?V~
+;com.apple.cloudd:[com.apple.assistant.assistantd:(null)]Q
+?LqOtl?LqOtlcom.apple.cloudd:[com.apple.cloudd:(null)]A
+57&@
+57&ru.appscraft.CollectorGame:
+
+?~B& %9?~B& %9com.apple.SpotlightW
+?Z
+oX?Z
+oXcom.apple.cloudd:[com.apple.mobilesafari:(null)]>
+com.toyopagroup.picabooM
+
+P~com.apple.cloudd:[com.apple.cloudpaird:(null)]Q	
+?`bfe
+com.apple.cloudd:[com.apple.siriknowledged:(null)]J
+?FakTdcom.apple.cloudd:[com.apple.imagent:(null)]K
+com.apple.CoreAuthUI@"0<
+@"0<
+
+@FAx
+HomeKitQ
+CV?_K
+CVcom.apple.cloudd:[com.apple.triald:(null)]O
+lucom.apple.Translate.CacheDeleteExtensionV
+TR?Z
+TRcom.apple.cloudd:[com.apple.purplebuddy:(null)]T
+)(?<
+)(com.apple.cloudd:[com.apple.dprivacyd:(null)]]
+s;?K	
+s;com.apple.mobileassetd:[com.apple.mobileassetd:(null)][
+com.apple.cloudd:[com.apple.coreidv.coreidvd:(null)]\~
+ccom.apple.cloudd:[com.apple.businessservicesd:(null)]W}
+?=\1Y>_?=\1Y>_com.apple.cloudd:[com.apple.bird:com.apple.bird]M|
+_?;Q
+_com.apple.bird:[com.apple.bird:(null)]<{
+7zcom.apple.mobilenotes9z
+com.apple.AppStore=y
+com.apple.mobilesafariBx
+qAcom.apple.WebKit.WebContent]w
+Y?Qj
+Ycom.apple.mobileassetd:[com.apple.mobilesafari:(null)]<v
+!com.apple.mobilephone7u
+@>]s@>]scom.google.Gmail
+
+
+
+E
+
+v1b
+
+
+
+N
+				;
+#T6DestinationdLocationBundleiOS.bundleVisitK,
+#4DestinationdLocationBundleiOS.bundleSignificant;+
+#ChronoCore.frameworkSignificant=*
+#FindMyDevice.frameworkSignificantB)
+ExposureNotificationBundle.bundleVisit5(
+MobileWiFi.frameworkVisit;'
+#rSystemCustomization.bundleVisitB&
+MobileWiFi.framework
+LocationA
+4E%
+DestinationdLocationBundleiOS.bundleVisitK$
+DestinationdLocationBundleiOS.bundleSignificant;#
+rChronoCore.frameworkSignificant="
+jFindMyDevice.frameworkSignificantB!
+ExposureNotificationBundle.bundleVisit5 
+MobileWiFi.frameworkVisit;
+SystemCustomization.bundleVisitB
+bkDestinationdLocationBundleiOS.bundleVisitK
+Y^6A
+DestinationdLocationBundleiOS.bundleSignificant;
+Y^3PA
+b`AChronoCore.frameworkSignificant=
+Y^0PA
+8FindMyDevice.frameworkSignificantB
+bMExposureNotificationBundle.bundleVisit5
+bHMobileWiFi.frameworkVisit;
+Y^*A
+br:SystemCustomization.bundleVisitB
+V\DestinationdLocationBundleiOS.bundleVisitK
+PzDestinationdLocationBundleiOS.bundleSignificant;
+DChronoCore.frameworkSignificant=
+FindMyDevice.frameworkSignificantB
+,
+ExposureNotificationBundle.bundleVisit5
+kzSystemCustomization.bundleVisitB
+Lx[MobileWiFi.framework
+&B
+
+l_$A
+lB
+QXMobileWiFi.framework
+zB
+ A
+
+CoreParsec.frameworkdLocationA
+G4MobileWiFi.framework
+eOEA
+f>MobileWiFi.framework
+a1WMobileWiFi.framework
+bYVB
+MNMobileWiFi.framework
+L\vB
+@MobileWiFi.framework
+?.pB
+(MobileWiFi.framework
+HMobileWiFi.framework
+:B~
+ovSA
+hMobileWiFi.framework
+oK}
+{VWirelessDiagnostics.frameworkddLocationA
+rB|
+{0<MobileWiFi.framework
+9B{
+<Bz
+TdMobileWiFi.framework
+dBy
++MMobileWiFi.framework
+vBx
+>Bw
+bMobileWiFi.framework
+.2Bv
+|,MobileWiFi.framework
+9NBt
+^MobileWiFi.framework
+c(&=c
+
+
+{naTG:- 
+
+
+
+
+
+
+
+
+
+
+
+w
+j
+]
+P
+C
+6
+)
+
+											s	f	Y	L	?	2	%	
+
+
+
+
+
+
+
+
+
+
+
+v
+i
+\
+O
+B
+5
+(
+
+
+reXK>1$
+	6N.(	
+	6N.0	
+	6M.(	
+	6M.0	
+	6M.>	
+	6L.(	
+	6L.0	
+	6K.(	
+	6K.0	
+	6K.;	
+	6J.0	
+	6J.1	
+	6J.9	
+	6J.(	
+	6I.(	
+	6H.3	
+
+	6H..	
+	6H'	
+	6H.(	
+
+	6G.'	
+	6F.(	
+	6F.0	
+	6E.(	
+	6E.0	
+	6E.;	
+	6D.(	
+	6D.0	
+	6C.(	
+	6C.0	
+	6C'	~
+	6B.0	}
+	6B'	|
+	6B.;	{
+	6B.1	z
+	6B.(	y
+	6A.0	x
+	6A.1	w
+	6A.9	v
+	6A.(	u
+	6@.9	t
+	6@.1	s
+	6@.(	r
+	6@'	q
+	6@.0	p
+	6@..	o
+	6@.%	n
+	6@'	m
+	6?'#	j
+	6>.(	i
+	6=.(	h
+	6=./	g
+	6<.(	f
+	6;.(	e
+	6;)
+	6:.(	c
+	69'	b
+	69.	a
+	69'	`
+	69.(	_
+	68.(	^
+	67'#	]
+	67.(	\
+	66.(	[
+	65.[	Z
+	65.(	Y
+	64.(	X
+	63.(	W
+	63./	V
+	62.(	U
+	61(,	T
+	61.;	S
+	61'	R
+	61.(	Q
+	60.(	P
+	6/.(	O
+	6/'	N
+	6.'3	M
+	6..0	L
+	6.*	K
+	6..(	J
+	6.'	I
+	6-.(	H
+	6-'	G
+	6,.(	F
+	6+'	E
+	6+.(	D
+	6*.(	C
+	6))
+	6)'	A
+	6).(
+./	o
+.(	n
+./	m
+.(	l
+.N	k
+./	j
+	6
+./	i
+	6
+'	h
+	6
+.N	g
+	6
+.(	f
+	6.(	e
+	6.(	d
+	6(f	c
+	6
+.	b
+	6
+'
+	6
+(f	`
+	6
+.(	_
+	6	.(	^
+.(	]
+(]	Z
+.(	X
+.(	V
+.(	U
+*@	S
+.(	R
+.(	Q
+.L	P
+.(	K
+.(	H
+.(	E
+*@	A
+	5.(	@
+	5.(	?
+	5./	>
+	5.(	=
+	5.(	<
+	5'	;
+	5'	:
+	5'	9
+	5.(	8
+	5.(	7
+	5.(	6
+	5'	5
+	5.(	4
+	5'	3
+	5.(	2
+	5.(	1
+	5.,	0
+	5.0	/
+	5.(	.
+	5(\	-
+	5.(	,
+	5.5	+
+	6(.(	<
+	6'.	;
+	6'.(	:
+	6&.	9
+	6&.	8
+	6&.(	7
+	6%.	6
+	6%.	5
+	6%)M	4
+	6%./	3
+	6%.(	2
+	6$.	1
+	6$.(	0
+	6#.	/
+	6#.	.
+	6#.(	-
+	6".	,
+	6".	+
+	6".	*
+	6".(	)
+	6!'
+	6!.	'
+	6!'	&
+	6!'	%
+	6!.(	$
+	6 .(	#
+	6 ./	"
+.(	!
+./	 
+.N	
+
+.(	
+./	
+
+.(		
+.(	~
+./	}
+.(	|
+./	{
+.(	x
+./	w
+.(	v
+./	u
+.(	s
+'#	r
+.K	q
+,
+@Yv
+	
+',b@Xfmm
+@;
+=p
+9@Xk)+
+&&cb@Xfmm
+9@Xk)
+$X4b@XgYr
+@<J=p
+
+9@XngI>
+
+cVV
+Nd@X
+@<
+=p
+IhUV
+,|<d@Xf
++bTV
+gWBd@X_HR
+@<c
+=p
+9@Xv[
+Pd@X[1 
+9@Xbz
++hRV
+bhd@X[1 
++iQV
+,d@Xs<
+4@:
+=p
+*@X$
+
+ePV
+\dd@Xs<
+@:=p
+
+
+w_OV
+8d@Xs<
+
+wcNV
+
+whMV
+d@Xs<
+4@:
+=q
+
+mnLV
+
+d@Xs<
+
+m^KV
+	sxdd
+p@`[-X]ZI
+Y)F 
+X+
+
+
+
+k
+1				D	
+',org.whispersystems.signal
+%</<ru.appscraft.CollectorGame
+$4=com.apple.MobileSMS
+$.Fcom.apple.MobileSMS
+<com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+#k	com.apple.mobilenotes
+#?6com.atebits.Tweetie2
+#,com.hammerandchisel.discord
+Xcom.reddit.Reddit
+#com.apple.MobileSMS
+#"ru.appscraft.CollectorGame
+#Fcom.toyopagroup.picaboo
+#com.apple.Spotlight
+#|com.apple.mobilenotes.WidgetExtension
+#*com.apple.Maps.GeneralMapsWidget
+com.apple.springboard<
+#Ofcom.apple.mobilenotes.WidgetExtension
+$1@66
+#Y2{'
+m
+&d
+#R;{
+
+&
+#V<
+
+
+d"g
+S
+]d
+
+
+
+
+
+_
+H
+/s\7
+pP3
+
+
+
+
+t
+[
+>
+
+			s	W	'
+pasted
+duetexpertd
+accessoryd
+axassetsdQ!
+Xcom.apple.mobileslideshow.PhotosReliveWidget
+PhotosReliveWidget0 
+com.apple.CloudDocsDaemon
+birdN
+com.apple.audio.toolbox.reporting.service
+CAReportingService8
+Ucom.apple.MediaAnalysis
+mediaanalysisd!
+photoanalysisd?
+com.apple.AppleMediaServicesUI
+amsengagementdg
+com.apple.proactive.AppPredictionIntentsHelperService
+AppPredictionIntentsHelperServi<
+com.apple.UsageTracking
+UsageTrackingAgentM
+com.apple.AssetCacheLocatorService
+AssetCacheLocatorService 
+rtcreportingdA
+hLcom.apple.ctcategories.service
+CategoriesServiceA
+[Jcom.apple.ctcategories.serviceC
+CategoriesService$
+filecoordinationd 
+com.apple.sbdO
+-com.apple.proactive.HeuristicInterpreter
+HeuristicInterpreterB
+com.apple.ctcategories.service
+CategoriesServiceZ
+com.apple.FaceTime.FTConversationService
+com.apple.FaceTime.FTConversati
+absdR
+3com.apple.MapKit.SnapshotService
+com.apple.MapKit.SnapshotServic
+logd_helperB
+
+^com.apple.ctcategories.service
+CategoriesService 
+fileproviderdA
+8com.apple.MTLCompilerService
+MTLCompilerServicec
+
+com.apple.CloudDocsDaemon.container-metadata-extractor
+ContainerMetadataExtractora	
+com.apple.CloudDocs.MobileDocum3
+AllTrails(
+#com.chess.iphone
+	Chess2
+#com.toyopagroup.picaboo
+
+Snapchat6
+#2ru.appscraft.CollectorGame
+Collector/
+#_com.apple.MobileSMS
+MobileSMS2
+#Gorg.whispersystems.signal
+
+Signal!
+symptomsd-diag&
+videosubscriptionsd-
+RedditApp
+triald5~
+#ocom.hammerandchisel.discord
+Discord.}
+#\com.atebits.Tweetie2
+Twitter)|
+#*com.moxco.bumble
+Bumble3{
+#com.apple.mobilenotes
+MobileNotes
+mkernel_task
+`8launchd
+UserEventAgent
+logd6v
+com.apple.AssistantServices	
+assistantd
+8 runningboardd(t
+Pcom.apple.People
+!peopled
+"fseventsd
+#mediaserverd
+$mediaremoted
+%routined
+&misd
+'configd+m
+-com.apple.HealthKit
+(healthd'l
+com.apple.powerd
+)powerd"k
+com.apple.TCC
+*tccd
+py!+atc&i
+#,WirelessRadioManagerd
+!%-biomed
+'.keybagd
+U)/remoted@e
+com.apple.FamilyNotification-1familynotificationd
+/2wifid
+q13fud b
+P34softwareupdated
+55mobiletimerd
+76seld=_
+com.apple.identityservicesd97identityservicesd
+k;8watchdogd
+?:nfcd
+ A;wcd
+1E<contextstored1Z
+com.apple.springboardC=SpringBoard Y
+G>thermalmonitord
+WI?askpermissiond
+)K@backboardd
+MAsharingd>U
+bncom.apple.ManagedSettingsOBManagedSettingsAgent
+.QCtimed
+$SDlocationd
+ouUEcloudpaird"Q
+
+8WFcontainermanagerd)P
+\com.apple.imagentYGimagent
+		OA
+#Pcom.apple.springboard.home-screen2?	
+~com.apple.springboard.home-screen
+.-o|
+
+=
+
+
+
+
+=
+ 
+
+RgB"
+
+
+
+R
+)			]	;
+biometrickitds?h
+com.apple.siri.context.service
+ContextServices?
+
+logds?Su
+
+Signals?
+}coreduetds?&-5S
+com.apple.CoreSuggestions
+suggestds?l
+
+seserviceds?
+
+Snapchats?{g
+zBlueTools?sO2O
+com.apple.MapsSupport
+mapspushds?|R\
+Idriverkitds?
+webbookmarksds?8q`l
+bL
+com.apple.CloudDocs.MobileDocums?X
+?G,K
+com.apple.GeoServiceswgeods?
+com.apple.MobileBackup.framework
+backupds?
+ z$I
+Fcontainermanagerds?E,]
+fileproviderds?
+tcloudds@
+[X3F
+com.apple.quicklook.ThumbnailsAs?
+Ctimeds?
+$(4 D
+searchpartyds?o8
+com.apple.MapKit.SnapshotService
+com.apple.MapKit.SnapshotServics?G
+qfmflocatords?f
+bookassetds?XaK,
+@backboardds@
+m;C?
+CategoriesServices?kvpL
+nsecurityds@
+com.apple.security.cloudkeychainproxy3
+CloudKeychainProxys?,![Z <
+=contextstoreds?
+Hil0;
+com.apple.CryptoTokenKit
+ctkds?x+]w
+filecoordinationds?L 9
+kdonotdisturbds?
+:nfcds?b
+iconservicesagents?
+rtcreportingds?
+hdasds@
+AXHN#4
+OTATaskingAgents?
+'%!?3
+com.apple.identityservicesd7identityservicesds?
+eanalyticsds?$;
+com.apple.FontServices.UserFontManager
+com.apple.FontServices.UserFonts?w
+4softwareupdateds?f5LB/
+com.apple.MTLCompilerService
+MTLCompilerServices@
+com.apple.FamilyNotification1familynotificationds?
+MTLCompilerServices?*95
+kernel_tasks@ 
+watchlistds?y,_9*
+com.apple.MediaAnalysis
+mediaanalysisds?
+XOLn
+bmobileassetds@
+t8 (
+itunescloudds?'ah'
+AppPredictionIntentsHelperServis?R
+com.apple.siri.parsec.CoreParsec
+parsecds?
+_MobileGestaltHelpers?
+parsec-fbfs?
+.keybagds?
+com.apple.CoreSpeech
+corespeechds?
+^hM9!
+com.apple.SystemConfiguration
+SCHelpers?rNB
+\analyticsds?"
+siriknowledgeds?T/g
++atcs?
+com.apple.speech.localspeechrecognition
+localspeechrecognitions?jVnZ	
+Yfairplayd.H2s?Y
+com.apple.FontServices.UserFonts?+
+com.apple.HealthKit(healthds?,B	`9
+com.apple.MapsSuggestions
+destinationds?Re/
+Vbluetoothds@
+nsurlsessionds?+g
+%routineds?e#09
+trustds?:V0[
+com.apple.FaceTime.FTConversatis?Iv
+homeds?^
+"fseventsds?+UQ
+fmflocatords?v% JB
+com.apple.TrustedPeersHelper
+TrustedPeersHelpers?
+Lx7/
+PAppleCredentialManagerDaemons?6+
+coreauthds?QfK8
+
+com.apple.AssistantServices
+assistantds?
+ V)
+Chesss?F
+~applecamerads?^GL
+
+CloudKeychainProxys?,q!	
+MOTACrashCopiers?Yi)!
+fontservicesds?@/p
+Twitters?/e
+{coreduetds?EW
+RG]
+
+#
+
+
+
+O
+
+{F
+r=
+',R40E420DF454D1C02A5D54B13D2E22D8B
+%<1LF43247B7DB02E26BE719BE0D692D0DB5
+$4@1665D67B33DEF6B6887DF316107D20C5A
+$.97CDA342E816FA0015BC781CD3B4B133
+$.N665D67B33DEF6B6887DF316107D20C5A
+622F2B1D323BD9AF91163F5101980DF5
+6CCF25D47C9CC30960E38A1429923A19
+#@BAEFDE82FFE2FAB988670558A3B565AFA
+#-ED310C662C7E854B6809B7F7C9DE0B69
+E83B62C40B99391E3382BF098C0A4302
+B40E420DF454D1C02A5D54B13D2E22D8B
+#665D67B33DEF6B6887DF316107D20C5A
+#6F43247B7DB02E26BE719BE0D692D0DB5
+#hF6AEC6BE073F93EA75048986EEC84D54
+#749B57AD304F5451B5AD691459B8C7D3
+#n7993D55A55E80FD75FB4E5AD7660666CB
+#v97CDA342E816FA0015BC781CD3B4B133
+97CDA342E816FA0015BC781CD3B4B133
+749B57AD304F5451B5AD691459B8C7D3
+C6CCF25D47C9CC30960E38A1429923A19
+AEFDE82FFE2FAB988670558A3B565AFA
+]nNa
+
+
+
+
+
+
+
+
+
+m
+Z
+G
+4
+!
+
+|eN8!
+~gP9"
+p6<%4
+p6=j
+O;5
+
+A6E511E8-6451-4DE0-83DB-1D665C2F01F5z<
+0315841F-7208-417B-ADF1-7A2D60A2592Ax;
+com.apple.mobileassetd:[com.apple.mobileassetd:(null)]0315841F-7208-417B-ADF1-7A2D60A2592Ax:
+qcom.apple.mobileassetd:[com.apple.mobileassetd:(null)]FF391021-3349-47CD-865F-0BB5B0F61BD5x9
+Hcom.apple.mobileassetd:[com.apple.mobileassetd:(null)]987B2DB5-1D62-45D7-A261-98773AC99D56x8
+com.apple.mobileassetd:[com.apple.mobileassetd:(null)]ED79ED56-F0AB-4280-80B2-11D876D299F2z7
+Ycom.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+FD61ADE4-38CA-475D-A6C8-F0B01954A206{6
+#^Rcom.apple.cloudd:[com.apple.assistant.assistantd:(null)]
+A6E511E8-6451-4DE0-83DB-1D665C2F01F5{5
+#Xcom.apple.cloudd:[com.apple.assistant.assistantd:(null)]
+A6E511E8-6451-4DE0-83DB-1D665C2F01F5z4
+#com.apple.cloudd:[com.apple.imagent:(null)]
+677415B3-0C2B-42B9-85C8-883A1CF452FC}3
+#com.apple.cloudd:[com.apple.cloudpaird:(null)]
+B7AA2E89-33EA-45BA-A74E-0AF0076AA809n2
+677415B3-0C2B-42B9-85C8-883A1CF452FCq1
+B7AA2E89-33EA-45BA-A74E-0AF0076AA809n0
+#7com.apple.cloudd:[com.apple.imagent:(null)]
+677415B3-0C2B-42B9-85C8-883A1CF452FCq/
+B7AA2E89-33EA-45BA-A74E-0AF0076AA809x.
+#4com.apple.mobileassetd:[com.apple.mobileassetd:(null)]08CFDEA8-0DC6-4073-8254-46804218B446z-
+{
+D
+
+9
+
+
+A
+
+C
+xJ
+
+
+
+C
+#			C	
+com.apple.WelcomeKit
+matd
+itunescloudd
+appstored!n
+languageassetd$m
+iconservicesagent
+itunesstored'k
+$	nL
+installcoordinationd/j
+ctkd
+$	N8
+swcd#h
+nesessionmanager
+searchpartyd
+nearbyd
+pipelined2d
+~com.apple.CoreFollowUp
+followupd'c
+ncom.apple.AuthKit
+akd b
+webbookmarksd a
+useractivityd `
+fontservicesd
+seservicedA^
+Jcom.apple.MTLCompilerService
+MTLCompilerService
+announced
+homedL[
+0com.apple.siri.embeddedspeech	
+com.apple.siri.embeddedspeech
+voiced!Y
+siriknowledged!X
+siriinferenced7W
+jzcom.apple.VoiceShortcuts
+siriactionsd=V
+YBcom.apple.siri.parsec.CoreParsec
+parsec-fbf
+fmfd T
+nsurlsessiond6S
+wcom.apple.FamilyCircle
+familycircled/R
+com.apple.visualvoicemail
+adid;P
+com.apple.accessibility.HearingCore
+heard:O
+qcom.apple.ScreenTimeCore
+ScreenTimeAgent
+dmd_M
+pcom.apple.accessibility.AccessibilityUIServer
+com.apple.accessibility.Accessi@L
+MTLCompilerService%K
+privacyaccountingdjJ
+=com.apple.MobileSoftwareUpdate.CleanupPreparePathService
+com.apple.MobileSoftwareUpdate.XI
+3	com.apple.FontServices.UserFontManager
+com.apple.FontServices.UserFont
+coreauthd4G
+com.apple.Search.framework
+searchd"F
+OTATaskingAgent&E
+nanoregistrylaunchd#D
+ckdiscretionaryd/C
+(com.apple.Spotlight
+Spotlight2B
+com.apple.iCloudNotification
+indKA
+CloudKeychainProxyK@
+Bcom.apple.WallpaperKit.WallpaperMigratorC
+WallpaperMigratorA?
+TrustedPeersHelper
+bookassetdP=
+qcom.apple.speech.localspeechrecognition
+localspeechrecognitionQ<
+com.apple.StreamingUnzipService
+com.apple.StreamingUnzipService2;
+com.apple.quicklook.ThumbnailsA(:
+Ncom.apple.CoreCDP
+cdpd+9
+ProtectedCloudKeySyncing:8
+1Lcom.apple.MobileBackup.framework
+backupd
+contactsd86
+destinationd15
+\com.apple.MapsSupport
+mapspushdR4
+3com.apple.imdpersistence.IMDPersistenceAgent
+IMDPersistenceAgent43
+com.apple.StatusKit
+StatusKitAgent42
+suggestd81
+}com.apple.weather.widget
+WeatherWidget?0
+Qcom.apple.siri.context.service
+ContextServicel/
+H<com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+ScreenTimeWidgetExtensionD.
+;com.apple.Maps.GeneralMapsWidget
+GeneralMapsWidgetW-
+(com.apple.mobilenotes.WidgetExtension
+com.apple.mobilenotes.WidgetExt2,
+NewsToday2B+
+CategoriesService
+aggregated:)
+parsecd
+AppSSODaemonU'
+Ncom.apple.mobilecal.CalendarWidgetExtension
+CalendarWidgetExtension
+GSSCred
+	
+
+
+
+c
+
+dD'h8
+
+
+
+L
+.
+
+				o	V	
+!+atc&S
+$!#,WirelessRadioManagerd
+$!1@%-biomed
+$! '.keybagd
+$ }p)/remoted@O
+ 13fud L
+734softwareupdated
+76seld=I
+HIcom.apple.identityservicesd97identityservicesd
+;8watchdogd
+=9atwakeup
+x?:nfcd
+ A;wcd1D
+com.apple.springboardC<SpringBoard
+$E=contextstored B
+`G>thermalmonitord
+I?askpermissiond
+	K@backboardd
+bMAsharingd>>
+
+com.apple.ManagedSettingsOBManagedSettingsAgent
+QCtimed
+SDlocationd
+{ UEcloudpaird":
+ZdWFcontainermanagerd)9
+*scom.apple.imagentYGimagent;8
+Rcom.apple.NanoPreferencesSync[Hnanoprefsyncd
+]Idriverkitd
+_Jlockdownd,5
+com.apple.SleepDaemonaKsleepd
+pqeMOTACrashCopier
+cgNdistnoted-2
+VkPAppleCredentialManagerDaemon*1
+@com.apple.MapsSupportmQnavd"0
+1<oRpeakpowermanagerd
+>qSremindd
+sTnotifyd
+JuUrapportd
+wVbluetoothd9+
+6com.apple.AppleMediaServices{Xamsaccountsd
+{_}Yfairplayd.H2
+ZCommCenter
+[cfprefsdL'
+com.apple.AppleUserHIDDrivers
+\com.apple.AppleUserHIDDrivers%&
+]MobileGestaltHelperM%
+~com.apple.ACCHWComponentAuthServiceK^ACCHWComponentAuthService
+_awdd
+`nanoregistryd
+alsd
+bmobileassetd, 
+com.apple.PassKitCore
+cpassd-
+6com.apple.Accounts
+daccountsd
+eanalyticsd
+fpfd8
+com.apple.filesystems.fs.apfs
+gapfs_iosd
+hdasd
+iPowerUIAgent>
+com.apple.datamigrator
+jcom.apple.datamigrator
+kdonotdisturbd
+lnehelper
+msymptomsd
+nsecurityde
+$
+com.apple.PerfPowerTelemetryClientRegistrationService
+oPerfPowerTelemetryClientRegistr
+pfindmydeviced
+qfmflocatord?
+$
+>-com.apple.MTLCompilerServiceKrMTLCompilerService-
+$
+2fcom.apple.aps.framework
+sapsd
+tcloudd
+umDNSResponder
+vcarkitd+
+$$com.apple.GeoServices
+wgeod
+xassetsd
+ychronod
+zBlueTool
+{touchsetupd%
+|networkserviceproxy
+}coreduetd
+~applecamerad
+$aA
+calaccessd 
+biometrickitdS
+$)com.apple.wifi.WiFiCloudAssetsXPCService/
+WiFiCloudAssetsXPCService)
+CommCenterMobileHelper
+$
+
+trustd 
+syncdefaultsd8~
+$hcom.apple.SystemConfiguration
+SCHelper
+misagent!|
+wifianalyticsd({
+$iH
+localizationswitcherd
+pkd/y
+$3com.apple.CacheDelete
+deleted$x
+mobileactivationd<w
+$
+"com.apple.TelephonyUtilities
+callservicesd2v
+$
+com.apple.CoreSpeech
+corespeechd@u
+com.apple.MTLCompilerServiceC
+MTLCompilerService t
+medialibraryd
+profiled
+watchlistd
+$#1Ykernel_task
+launchd
+logd6`
+$"zcom.apple.AssistantServices	
+$" runningboardd(^
+$"com.apple.People
+!peopled
+$"ud
+'configd+W
+$!com.apple.HealthKit
+(healthd'V
+$!com.apple.powerd
+)powerd
+h4MobileWiFi.framework
+.
+
+
+
+t
+6
+
+vY&
+yY#
+
+
+U
+6
+
+		~	;	!
+CommCenterMobileHelpers?6I,'
+com.apple.MapsSupportQnavds?#5.
+homeds?>
+n_ %
+ runningboardds?Vl.'$
+videosubscriptionsds?T{:
+calaccessds?k
+Ndistnoteds?
+UserEventAgents?.
+MobileSMSs?v~&
+|networkserviceproxys?
+StatusKitAgents?
+com.apple.SleepDaemonKsleepds?
+V)@!
+fontservicesds?
+zy)
+	Chesss?l	=
+ychronods?K
+destinationds?Z
+com.apple.NanoPreferencesSyncHnanoprefsyncds?1u4
+com.apple.AuthKit
+akds?
+ContainerMetadataExtractors?X	d
+vcarkitds?c,
+ProtectedCloudKeySyncings?
+Ecloudpairds?
+pipelineds?
+jwIC
+CategoriesServices?W!O
+com.apple.aps.frameworksapsds?
+com.apple.StreamingUnzipServices?TG
+com.apple.ManagedSettingsBManagedSettingsAgents?q
+absds?' 
+pfindmydeviceds?ZTB
+P8!
+
+?askpermissionds?
+gf=P	
+com.apple.proactive.HeuristicInterpreter
+HeuristicInterpreters?
+msymptomsds?
+inds?7d
+com.apple.springboard<SpringBoards@
+installcoordinationds?
+CategoriesServices?7<?
+com.apple.datamigratorjcom.apple.datamigrators?$
+ckdiscretionaryds?.jv_
+9atwakeups?nCDj
+languageassetds?
+AssetCacheLocatorServices?VPPz9~
+com.apple.filesystems.fs.apfsgapfs_iosds?[x5}
+searchds?I\+
+6selds?>i@{
+amsengagementds?;
+w.z
+com.apple.Accountsdaccountsds?R*ky
+com.apple.MobileSoftwareUpdate.CleanupPreparePathService
+com.apple.MobileSoftwareUpdate.s?x\
+3fuds?F_K
+profileds?(jHOv
+CAReportingServices?;Zl
+alsds?es
+com.apple.accessibility.AccessibilityUIServer
+com.apple.accessibility.Accessis?^c e3s
+axassetsds?
+com.apple.ACCHWComponentAuthService^ACCHWComponentAuthServices?
+heards?q
+-biomeds?\0n
+com.apple.CacheDelete
+deleteds?[#
+pasteds?
+[cfprefsds@
+R]0k
+vmds?
+com.apple.TCC*tccds?DD-"i
+wifianalyticsds?^z h
+AppSSODaemons?A2o;g
+com.apple.AppleMediaServicesXamsaccountsds?6DN
+
+fmfds?}
+'configds?Se
+SCHelpers?#.Cc
+CategoriesServices?
+Urapportds?x
+
+siriinferenceds?>c
+$mediaremoteds?
+=e/_
+Twitters?M]
+trustds?B
+GeneralMapsWidgets?[
+Rpeakpowermanagerds?5m
+com.apple.siri.embeddedspeechs?u>p~
+com.apple.People!peopleds?
+RedditApps?
+PYmO
+
+
+
+
+
+
+U
+,
+q=!d5
+
+
+
+
+z
+[
+1
+
+				Z	<	
+Bumbles?
+l<g=!}
+syncdefaultsds?$;ZX|
+com.apple.mobilenotes.WidgetExts?
+Sremindds?O
+voiceds?{I+
+"fseventsds?=!]
+trialds?w
+com.apple.wifi.WiFiCloudAssetsXPCService
+WiFiCloudAssetsXPCServices?d
+Ymv	
+ScreenTimeWidgetExtensions?B
+PAppleCredentialManagerDaemons?
+announceds?.
+assistantds?R~"r
+symptomsd-diags?)o
+~applecamerads?^r]9p
+WeatherWidgets?/
+<u!o
+MOTACrashCopiers?
+MTLCompilerServices?r
+X,7m
+Collectors?
+{touchsetupds?
+FH*Sk
+com.apple.imdpersistence.IMDPersistenceAgent
+IMDPersistenceAgents?j!M7
+Jlockdownds?z[
+!i
+useractivityds?
+AllTrailss?%{k)
+xassetsds?
+contactsds?n;FS+e
+com.apple.imagentGimagents?W
+com.apple.CoreFollowUp
+followupds?
+MTLCompilerServices?Wd* b
+umDNSResponders?
+Ku)a
+com.apple.CoreCDP
+cdpds?OV`W
+Dlocationds@
+nearbyds?<k
+logd_helpers?)PX
+com.apple.MTLCompilerServicerMTLCompilerServices?Pq
+localspeechrecognitions?L\
+Asharingds?
+nesessionmanagers?t
+C
+[Y
+com.apple.FaceTime.FTConversatis?KZygX
+com.apple.PerfPowerTelemetryClientRegistrationServiceoPerfPowerTelemetryClientRegistrs?3MW
+com.apple.WallpaperKit.WallpaperMigrator
+WallpaperMigrators?
+
+
+vR"V
+>thermalmonitords?Wa*
+swcds?iz:!T
+com.apple.sbds?x
+lnehelpers?EkD0R
+Spotlights?IB
+;wcds?e P
+itunesstoreds?h1CO
+CategoriesServices?0
+iPowerUIAgents?
+nanoregistrylaunchds?
+8watchdogds?q
+appstoreds?:s
+UsageTrackingAgents?2B
+fpfds?T
+coreauthds?-us9
+5mobiletimerds?eA
+matds?
+photoanalysisds?Y
+com.apple.PassKitCorecpassds?c
+rW&C
+privacyaccountingds?$;AfC
+2wifids?
+medialibraryds?z](
+launchds@
+birds?aG >
+`nanoregistryds?
+I5b2
+dmds?V
+/remoteds?4E:U
+com.apple.TelephonyUtilities
+callservicesds?w
+accessoryds?E|
+]MobileGestaltHelpers?&#
+,WirelessRadioManagerds?
+pkds?}
+GSSCreds?bC
+ZCommCenters@
+com.apple.FamilyCircle
+familycircleds?
+com.apple.powerd)powerds?@
+^{'/
+misagents?65
+parsecds?Vj	
+&misds?
+MobileNotess?
+S3-
+NewsToday2s?e
+Tnotifyds?
+siriknowledgeds?;;
+#mediaserverds?)n+B6)
+Discords?0
+7
+
+
+
+
+B
+(
+PhotosReliveWidgets?
+_awdds?
+com.apple.ScreenTimeCore
+ScreenTimeAgents?`
+mobileactivationds?L
+duetexpertds@
+com.apple.AppleUserHIDDrivers\com.apple.AppleUserHIDDriverss?
+adids?y.
++atcs?u3)
+localizationswitcherds?%<A@V
+CalendarWidgetExtensions?doN
+Yfairplayd.H2s?-KZ!
+nsurlsessionds?0C
+com.apple.HealthKit(healthds?M
+aggregateds?*$
+Vbluetoothds?>|`\
+com.apple.VoiceShortcuts
+siriactionsds?
+%routineds?01
+
+
+-;7
+
+?		O
+749D2D4E-4F14-48CF-950B-9F891D31EE5D~R
+&xcom.apple.cloudd:[com.apple.mobilenotes:(null)]
+B785D845-1387-43A3-BDA3-48F658C79A97rQ
+B785D845-1387-43A3-BDA3-48F658C79A97rP
+&com.apple.cloudd:[com.apple.mobilenotes:(null)]
+749D2D4E-4F14-48CF-950B-9F891D31EE5DrO
+B785D845-1387-43A3-BDA3-48F658C79A97rN
+&<com.apple.cloudd:[com.apple.mobilenotes:(null)]
+749D2D4E-4F14-48CF-950B-9F891D31EE5D{M
+&com.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+8D99C7C6-9D2F-4C6E-B9DB-11CD9B8DBB36
+0pdp_ip0
+C6C1EA49-0B27-44B4-9D58-4FA7CAC294FFtK
+$com.apple.cloudd:[com.apple.donotdisturbd:(null)]
+C6C1EA49-0B27-44B4-9D58-4FA7CAC294FFtJ
+C6C1EA49-0B27-44B4-9D58-4FA7CAC294FFxI
+$Ccom.apple.mobileassetd:[com.apple.mobileassetd:(null)]8D99C7C6-9D2F-4C6E-B9DB-11CD9B8DBB36xH
+$com.apple.mobileassetd:[com.apple.mobileassetd:(null)]8D99C7C6-9D2F-4C6E-B9DB-11CD9B8DBB36zG
+8F428DDB-27D5-4D95-B4B9-CBF8232C3343uE
+$Ecom.apple.cloudd:[com.apple.siriknowledged:(null)]
+8F428DDB-27D5-4D95-B4B9-CBF8232C3343uD
+$xcom.apple.cloudd:[com.apple.siriknowledged:(null)]
+8F428DDB-27D5-4D95-B4B9-CBF8232C3343yC
+$xcom.apple.cloudd:[com.apple.cloudd:(null)]
+5C3D5764-739D-40D2-91C5-B47CE5D2502CmB
+5C3D5764-739D-40D2-91C5-B47CE5D2502CmA
+5C3D5764-739D-40D2-91C5-B47CE5D2502Cx@
+$ncom.apple.mobileassetd:[com.apple.mobileassetd:(null)]0315841F-7208-417B-ADF1-7A2D60A2592Ax?
+$com.apple.mobileassetd:[com.apple.mobileassetd:(null)]FD61ADE4-38CA-475D-A6C8-F0B01954A206x>
+com.apple.mobileassetd:[com.apple.mobileassetd:(null)]08CFDEA8-0DC6-4073-8254-46804218B446
+8
+
+e
+cB
+
+
+w
+V
+
+			X	(
+daemon<com.apple.SpringBoard>32-60-3:FBSystemApp-PreventIdleSleep
+ f,
+daemon<com.apple.icloud.fmfd>32-183-181:com.apple.CFNetwork.StorageDB
+application<com.apple.MobileSMS>32-60-194:FBApplicationProcess
+NSURLSessionTask 56C1C5E1-CE4D-4211-8238-FCF446BEDB57
+bt	~S)
+NSURLSessionTask B7AA2E89-33EA-45BA-A74E-0AF0076AA809
+
+,(
+IDSPeerIDLookup
+com.apple.apsd-connectcouriers
+AE&
+com.apple.APEndpointManagerCarPlay.timed
+&Q$
+aNSURLSessionTask A3CEC3F5-A63A-429B-9367-A8F22ECF5C0E
+&Q"
+aNSURLSessionTask 22B6E1E7-035A-4EE8-8B22-38CCF83EC440
+&Q 
+aNSURLSessionTask F06ECA72-146F-4746-8DF1-177B6A1AEB2C
+aNSURLSessionTask 8ED646BA-629B-4EAB-8490-864151487320
+xpcservice<com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension([daemon<com.apple.chronod>:121])>32-121-47:[ScreenTimeWidgetApplication.ScreenTimeWidgetExtension-24F9D096D00D]
+Q <d
+daemon<com.apple.appstored>32-151-171:com.apple.CFNetwork.StorageDB
+daemon<com.apple.bookassetd>32-208-174:com.apple.CFNetwork.StorageDB
+bt
+S
+as	E
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+p
+h
+`
+X
+P
+H
+@
+8
+0
+(
+ 
+
+xph`XPH@80( 
+xph`XPH@80( 
+																	x	p	h	`	X	P	H	@	8	0	(	 	
+o'o
+
+																
+A!TLite
+ 
+
+
+
+l@9L~
+'
+
+
+
+sA&bH-
+Vw
+	O9
+Qql
+
+AER7
+A?;
+
+}ciQ
+
+v
+A}
+
+3o
+
+!H
+L
+r?
+Y
+
+AlV
+uQPD;
+*cQP@/
+QPL&
+*QP6
+*QP=:
+*#QPC
+)MQPJ
+
+h-e
+
+A:T
+	
++*	1
+	
+AGkstillstill
+PYd7
+
+"515Z
+
+;W!
+
+Acom.apple.system.lowpowermode*
+RMf
+
+B.:6
+PLSpringBoardAgent_EventForward_SBWallpaper
+%com.apple.Spotlightkg/]
+AR2A
+A5none&
+
+
+
+
+
+
+y
+]
+B
+'
+
+							s	W	<	!
+BasebandTrace0(256)
+2
+
+ZX|
+
+AV.Qcom.apple.weather.widget
+com.apple.springboard=
+ZmFw
+
+A77+d
+22.d
+AHr6K
+ACt}t"
+
+67
+r=
+L97CDA342E816FA0015BC781CD3B4B133
+~}8^wua
+
+ ua-
+SQLite format 3
+7\AH
+
+BxrT
+		.Q
+\-s
+
+BxCZ
+x
+RzsT
+
+vE>
+L
+D6(
+
+AlV+
+BQ^02
+uQf;
+*Qf
+?
+
+
+M
+
+B(!*;	
+Oc@CT
+								
+Y5|n
+
+3i-mb
+
+zTw
+
+
+
+	Lq<
+xen
+
+B	Backlight
+B8@I
+	[Q
+
+			@
+D
+
+
+
+
+
+AKSpeakerAudio/Video#9	
+																														
+Ab4GTFWRegisteredHome(u
+
+
+
+
+
+
+
+z
+b
+Bmvawdl0
+Blen0
+BJr"@pdp_ip0
+.<VJ
+A
+}
+M'Ez
+
+E+x
+
+PLAudioAgent_EventForward_Output80
+PLAudioAgent_EventForward_Routing:
+PLAccountingOperator_EventForward_QualificationEvents.Q-
+PLBatteryAgent_EventBackward_Battery&Z7$
+PLBBAgent_EventForward_TelephonyRegistrationv
+D6:6
+Fd$
+
+PLHomeKitAgent_EventForward_HomeConfiguration%
+@
+FpBx*
+
+PLBluetoothAgent_EventBackward_WirelessProxScanDStatsr)
+Dy'
+
+Qt'o
+
+BGcom.apple.CloudDocs.MobileDocumentsFileProvider!A '^
+?laR*o?com.apple.cloudd:[com.apple.siriknowledged:(null)]Q
+Mcom.apple.cloudd:[com.apple.cloudd:(null)]4$
+(Zcom.apple.cloudd:[com.apple.imagent:(null)]2 
+@'?]V+com.apple.weather.widget@
+s?=G-
+
+b@X|
+4@<0
+=q
+G*:m
+dge
+
+B0com.apple.mobilenotes
+@com.chess.iphone
+Bcom.moxco.bumble
+BXcom.atebits.Tweetie2
+B.com.hammerandchisel.discord
+Bvcom.alltrails.AllTrails
+BAcom.apple.weather.widget
+Blcom.apple.CloudDocs.MobileDocumentsFileProvider
+fcom.apple.CloudDocs.MobileDocumentsFileProvider
+
+
+2d
+P&22
+BxOPw
+
+
+ACt"'
+y
+60d
+tO"Z
+Bcom.apple.springboard.home-screen2@	
+
+
+
+i
+4			
+B2T622F2B1D323BD9AF91163F5101980DF5
+BFAEFDE82FFE2FAB988670558A3B565AFA
+B6:ED310C662C7E854B6809B7F7C9DE0B69
+993D55A55E80FD75FB4E5AD7660666CB
+BrE83B62C40B99391E3382BF098C0A4302
+%YvP
+
+B9uDestinationdLocationBundleiOS.bundleVisitK4
+<P;A
+BDestinationdLocationBundleiOS.bundleSignificant;3
+<J4A
+Be8ChronoCore.frameworkSignificant=2
+B9&FindMyDevice.frameworkSignificantB1
+BcExposureNotificationBundle.bundleVisit50
+MobileWiFi.frameworkVisit;/
+<?tA
+A7SystemCustomization.bundleVisitB.
+8747A653-CAB5-4E21-99F8-98A829C9233Fm\
+BLcom.apple.cloudd:[com.apple.cloudd:(null)]
+1B86F948-1CC4-4DFB-A24A-80EC20EC21F1
+B6com.apple.cloudd:[com.apple.assistant.assistantd:(null)]
+2712D4A4-CF29-4E9F-AF0E-D8EC4A9A01C3mZ
+Bcom.apple.cloudd:[com.apple.cloudd:(null)]
+1B86F948-1CC4-4DFB-A24A-80EC20EC21F1{Y
+2712D4A4-CF29-4E9F-AF0E-D8EC4A9A01C3{X
+B6icom.apple.cloudd:[com.apple.assistant.assistantd:(null)]
+2712D4A4-CF29-4E9F-AF0E-D8EC4A9A01C3
+24F738FF-CFBE-4C13-A741-9BA3B1E5E3D8uV
+24F738FF-CFBE-4C13-A741-9BA3B1E5E3D8uU
+BxGcom.apple.cloudd:[com.apple.siriknowledged:(null)]
+24F738FF-CFBE-4C13-A741-9BA3B1E5E3D8}T
+Bwcom.apple.cloudd:[com.apple.cloudpaird:(null)]
+90FFB243-3F65-43F6-B98C-B9F51123B73C~S
+c>!0
+
+rro
+ro"I
+rro
+ro"G
+ro"E
+ro"C
+ro"A
+ro"?
+ro"=
+Bcom.apple.persistentconnection[apsd,114,schedulingwake-APSDaemon-courierconnecttimer-SystemWakeManager(0x103505b10)]
+rro:9
+Bcom.apple.apsd-connectcouriers
+Bcom.apple.persistentconnection[apsd,114,APSDaemon-courierconnecttimer-PendingSimpleTimer(0x103461b10)]
+rro]6
+DASActivity:ckdiscretionaryd.com.apple.imagent.3B31998ED9F1282B
+#7%R4
+NSURLSessionTask DB19FBF3-9F16-4B14-BCDA-7B691DC5E01F
+.a3
+daemon<com.apple.SpringBoard>32-61-3:FBSystemApp-PreventIdleSleep
+ f2
+daemon<com.apple.icloud.fmfd>32-185-180:com.apple.CFNetwork.StorageDB
+gS1
+NSURLSessionTask 35A7478B-0982-4B09-AA1F-B85615A0AB53
+PrE/
+#J.
+Ft,
+
+
+
+
+
+
+`
+:
+
+jH:
+
+
+
+
+
+"
+
+				m	L	&	
+9VS
+:V#V"
+Bcom.apple.bluetoothd-SPOwner-SPBeaconManager.stateChanged
+:V #!
+Bdaemon<com.apple.watchlistd>32-149-27:com.apple.CFNetwork.StorageDB
+Bdaemon<com.apple.icloud.findmydeviced>32-110-25:com.apple.CFNetwork.StorageDB
+r2r"
+r4r"
+rr\
+Bcom.apple.icloud.findmydeviced-FMDRequestRegister-0x0x15de1d7e0
+Bcom.apple.ipTelephony.registration
+Bcom.apple.ipTelephony.stack.2A6F0069-2E59-4E75-8A24-2CCB1A46D476
+4Zd
+36C-
+Bseld[RemoteAdmin]
+36@j
+Bdaemon<com.apple.icloud.fmflocatord>32-111-23:com.apple.CFNetwork.StorageDB
+/  
+r3r_"
+r/r_"
+
+rr_
+r1r_"
+rr_
+r0r_"	
+r,r_"
+r-r_"
+r.r_"
+r)r_"
+r+r_"
+r*r_"}
+r&r_"{
+r(r_"y
+r'r_"w
+r#r_"u
+r%r_"s
+r$r_"q
+r_"p
+rr^
+0Ven
+Bcom.apple.bluetoothd-SPOwner-SPBeaconManager.notifyBeaconingKeysChanged
+C"l
+C"j
+Bcom.apple.persistentconnection[UserEventAgent,29,schedulingwake-BTA-PeriodicConditionMonitor-SystemWakeManager(0x104c36d20)]
+Clg
+Bdaemon<com.apple.icloud.searchpartyd>32-163-22:com.apple.CFNetwork.StorageDB
+r rs"c
+rrs
+r"rs"a
+rrs
+r!ro"_
+ro"]
+ro"[
+ro"Y
+ro"W
+ro"U
+ro"S
+ro"Q
+ro"O
+ro"M
+LV~p
+
+J
+
+
+l
+E
+#
+
+q.
+
+
+
+
+
+Y
+8
+
+				;	
+Bapplication<com.apple.Spotlight>32-61-53:FBApplicationProcess
+F 7s
+BSeshat session in progress
+D	Dyo
+Bcom.apple.locationd.CLLocationAwarenessProvider.1052ec850(Active location session has begun)
+D
+DPm
+Bcom.apple.locationd.NetworkProvider.1051405e0(query)
+DD"k
+DD"i
+Bcom.apple.persistentconnection[locationd,68,schedulingwake-TimeZoneManager.ActiveModeTimer-SystemWakeManager(0x1053ea760)]
+rGr	"e
+rCr	"c
+rr	
+rEr	"a
+rr	
+rDr	"_
+r@r	"]
+rBr	"[
+rAr	"Y
+r	:X
+r=r "U
+rr 
+r?r "S
+rr 
+r>r"Q
+r:P
+Cr O
+8 y
+; y
+7 gD
+Bdaemon<com.apple.Maps.mapspushd>32-206-36:com.apple.CFNetwork.StorageDB
+B  
+AZ#B
+@Z#@
+r<r">
+r5r"<
+r7r":
+Bcom.apple.persistentconnection[apsd,114,com.apple.apsd(sandbox.push.apple.com)-WWAN-connectionmanager(0x103669f70)]
+Bcom.apple.persistentconnection[apsd,114,com.apple.apsd(push.apple.com)-WWAN-connectionmanager(0x10341ceb0)]
+r6r"4
+r"3
+Bdaemon<com.apple.amsaccountsd>32-88-33:com.apple.CFNetwork.StorageDB
+= .
+Bcom.apple.icloud.fmflocatord-FMRequestRegister-45227B0
+Bcom.apple.icloud.fmflocatord-FMRequestRegister-4613280
+Bcom.apple.icloud.fmflocatord-FMRequestRegister-460E470
+<Zu>&
+Bcom.apple.ipTelephony.sipIncoming
+<Zt`%
+Bdaemon<com.apple.locationd>32-68-28:com.apple.CFNetwork.StorageDB
+; ]
+
+
+
+
+
+f
+@
+
+iH'lF%
+
+
+
+
+q
+P
+*
+					{	U	4
+6/"K
+rRr"H
+rTr"F
+V"D
+V"B
+V"@
+V">
+V"<
+V":
+L(8
+BMC activity
+7+6
+Bcom.apple.persistentconnection[identityservicesd,55,schedulingwake-com.apple.identityservices.registration-hbi-SystemWakeManager(0x143e58e10)]
+Bcom.apple.persistentconnection[identityservicesd,55,schedulingwake-PCCancelAllProcessWakesOperation(0x143e58af0)]
+rSr"2
+rOr"0
+rQr".
+rPr",
+rLr"*
+rMr"(
+rNr"&
+rIr"$
+rKr""
+rJr" 
+rrf
+Bdaemon<com.apple.nsurlsessiond>32-166-61:com.apple.CFNetwork.StorageDB
+E.\
+Bdaemon<com.apple.ind>32-217-60:com.apple.CFNetwork.StorageDB
+V
+V"
+VV"
+VV"
+V	V"
+V"
+V"
+
+Bcom.apple.bluetooth.LeObserver.ScannConfigAssertion
+Bcom.apple.persistentconnection[locationd,68,schedulingwake-com.apple.locationd.clSeparationAlertsServicePersistentTimer-SystemWakeManager(0x1057...]
+Bnfcd[process:unavailable,pid:46,_NFSeshatSession,sessionID:0].
+rFr"x
+rHr"v
+Bxpcservice<com.apple.weather.widget([daemon<com.apple.chronod>:120])>32-120-59:[weather.widget-8A495DB80FFD]
+
+
+f
+@
+
+kJgF 
+
+
+
+X			
+Bnfcd[process:passd,pid:99,_NFSecureElementManagerSession,sessionID:2]c
+Bnfcd[process:seserviced,pid:167,_NFSecureElementManagerSession,sessionID:1]
+Bnfcd[process:seld,pid:54,_NFSecureElementManagerSession,sessionID:0]6
+Bdaemon<com.apple.atc>32-137-66:com.apple.medialibraryd C8903CF5-8014-4592-9DC4-F28ECCC56D16 Finish Task Assertion, Database transaction for library at path: /var/mobile/Media/iTunes_Control/iTunes/MediaLibrary.sqlitedb(FinishTask)
+Z  
+WV4
+UVR~
+BNSURLSessionTask 35A7478B-0982-4B09-AA1F-B85615A0AB53
+XV#|
+:V#{
+VV#x
+:V#w
+0V#v
+VN"r
+KAp
+Bcom.apple.mobile.keybagd.first_unlock
+BNWIOConnection 0x103447c58
+Bcom.apple.persistentconnection[imagent,71,schedulingwake-message-watchdog-timer-SystemWakeManager(0x102c3f2e0)]
+Bcom.apple.persistentconnection[imagent,71,schedulingwake-message-expire-state-timer-SystemWakeManager(0x102c3eb00)]
+Bcom.apple.persistentconnection[imagent,71,schedulingwake-message-routing-timer-SystemWakeManager(0x102e2d310)]
+Bdaemon<com.apple.ind>32-217-64:com.apple.CFNetwork.StorageDB
+D"e
+D"c
+Bcom.apple.persistentconnection[locationd,68,schedulingwake-Awareness-SystemWakeManager(0x109f23330)]
+DY`
+Bcom.apple.locationd.CLAvengerScanner aggressive scan.9(none)
+r[r"^
+rUr"\
+rVr"Z
+rYr"X
+Bcom.apple.persistentconnection[apsd,114,schedulingwake-APSTopicManager-SystemWakeManager(0x103465550)]
+rWr"T
+r:S
+PrvR
+BDASActivity:com.apple.CFNetwork-cc-166-8-Task <35A7478B-0982-4B09-AA1F-B85615A0AB53>.<57>
+Og Q
+L Z
+Bcom.apple.persistentconnection[imagent,71,schedulingwake-PCCancelAllProcessWakesOperation(0x102e28130)]
+NG" N
+^
+
+
+|
+[
+5
+
+hA
+l
+
+
+
+I
+&
+
+		v	
+BNSURLSessionTask 7FEACB82-BB9D-4BFC-BBBB-BE42676D3A75
+BNSURLSessionTask B29916B9-27DF-4911-8C2B-F886B6A053BC
+BNSURLSessionTask 1E4827A0-4C2F-40A3-9891-44EA15AA4B5C
+BNSURLSessionTask 6A901F82-CF5D-4307-ADD1-A4CB370BD31F
+BNSURLSessionTask DCA25CBD-3F7F-4195-B9E3-EDA3CBE0728D
+BNSURLSessionTask 0A501CA8-4D9C-413E-9116-A61B4A2D68CB
+Bdaemon<com.apple.icloud.fmfd>32-185-180:com.apple.CFNetwork.StorageDB
+C#D
+C C
+Bdaemon<com.apple.itunescloudd>32-137-166:com.apple.medialibraryd CEB2DCB9-DFBA-4B6C-B00A-659272A16135 Finish Task Assertion, Database transaction for library at path: /var/mobile/Media/iTunes_Control/iTunes/MediaLibrary.sqlitedb(FinishTask)
+Bdaemon<com.apple.bookassetd>32-223-163:com.apple.CFNetwork.StorageDB
+Bdaemon<com.apple.itunescloudd>32-137-156:com.apple.medialibraryd A928CC99-0D6C-4773-8E25-4EC76268DA47 Finish Task Assertion, Database transaction for library at path: /var/mobile/Media/iTunes_Control/iTunes/MediaLibrary.sqlitedb(FinishTask)
+`e5
+Bdaemon<com.apple.icloud.fmfd>32-185-154:com.apple.CFNetwork.StorageDB
+X#2
+Bdaemon<com.apple.bookassetd>32-223-150:com.apple.CFNetwork.StorageDB
+_ 
+nc*
+Bdaemon<com.apple.appstored>32-153-120:com.apple.CFNetwork.StorageDB
+f 
+
+^ h'
+Bdaemon<com.apple.amsengagementd>32-256-119:com.apple.CFNetwork.StorageDB
+d f&
+Bdaemon<com.apple.itunescloudd>32-152-110:com.apple.CFNetwork.StorageDB
+c 4
+aV
+^
+bV
+K##
+:V
+J#"
+0V
+J
+Bcom.apple.sesd.kml.sharingAuthExpiry
+BNSURLSessionTask DB19FBF3-9F16-4B14-BCDA-7B691DC5E01F
+Bdaemon<com.apple.amsaccountsd>32-88-99:com.apple.CFNetwork.StorageDB
+Bxpcservice<com.apple.ctcategories.service([daemon<com.apple.SpringBoard>:61])>:24332-243-96:com.apple.CFNetwork.StorageDB
+BNWIOConnection 0x129d64268
+BDASActivity:ckdiscretionaryd.com.apple.imagent.3B31998ED9F1282B
+#X5
+
+
+
+
+@
+
+b`
+
+
+
+k
+
+					a	:	
+BDASActivity:com.apple.siri.inference.FirstBoot
+BDASActivity:com.apple.profiled.reschedulePasscodeExpiry
+BDASActivity:ckdiscretionaryd.com.apple.siriactionsd.A299E586796C4B16
+BDASActivity:ckdiscretionaryd.com.apple.siriknowledged.F99856EC927287BC
+BDASActivity:ckdiscretionaryd.com.apple.cloudpaird.2C591973D26541D1
+BDASActivity:com.apple.icloud.searchpartyd.AfterFirstUnlock
+BDASActivity:com.apple.webbookmarksd.restoreReadingListQueueActivityIdentifier
+BDASActivity:com.apple.fileprovider.indexing
+BDASActivity-ClientRequested:com.apple.locationd.TileDownloadCellReachabilityD
+BDASActivity:com.apple.donotdisturbd.Production.Private.synch
+BDASActivity:com.apple.coreduet.sync.update-source-device-identifiers|
+BDASActivity:com.apple.UsageTrackingAgent.activity.reset-device-activity-alarms
+BDASActivity:com.apple.SafariBookmarksSyncAgent.XPC.ZoneSubscriptionRegistration
+BNSURLSessionTask 1B86F948-1CC4-4DFB-A24A-80EC20EC21F1
+BNSURLSessionTask 2712D4A4-CF29-4E9F-AF0E-D8EC4A9A01C3
+BNSURLSessionTask 24F738FF-CFBE-4C13-A741-9BA3B1E5E3D8
+BNSURLSessionTask 90FFB243-3F65-43F6-B98C-B9F51123B73C
+BNSURLSessionTask 030B023F-C6D9-4C98-91D8-EA30615AAD1C
+BNSURLSessionTask 9EC8FACB-4A66-47E3-9191-1980B20872FA
+BNSURLSessionTask 439330FC-9BB7-4D37-A757-11AA56832492
+BNSURLSessionTask 0CFEDCC5-ECFC-479B-B28C-D91892BAB42D
+BNSURLSessionTask CE22931F-7BBC-492B-AC5E-278093B7C9D1
+BNSURLSessionTask 339D85F5-778E-4F62-A849-2D757227EEC3
+BNSURLSessionTask 91DC4B25-1683-4F9E-A936-3C1964D6DF42
+BNSURLSessionTask 9F99C861-414B-4232-86E8-A23EB268B4B6
+BNSURLSessionTask DD945801-B80E-4B7D-A013-4DA7E5984664
+BNSURLSessionTask C7CFF6A4-F36F-418B-954A-1B11A53F86BD
+3
+
+m
+/
+	{Z4
+_>
+
+
+
+
+
+i
+C
+"				
+Bcom.apple.apsd-outgoingmessage
+Bcom.apple.persistentconnection[apsd,114,APSDaemon-courierconnecttimer-PendingSimpleTimer(0x103368a90)]
+BDASActivity:com.apple.CFNetwork-cc-166-15-Task <90FFB243-3F65-43F6-B98C-B9F51123B73C>.<1>
+BDASActivity:ckdiscretionaryd.com.apple.assistant.assistantd.260E16D5029BDADB
+|_	
+
+Bcom.apple.cloudd:[com.apple.imagent:(null)]
+8747A653-CAB5-4E21-99F8-98A829C9233Fy^
+Bpcom.apple.cloudd:[com.apple.cloudd:(null)]
+
+
+
+
+
+
+|
+c
+J
+cBlm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3P>
+
+EN?,l
+
+R=.M
+
+~wpib[TMF8*#
+
+
+
+n	
+
+
+	.W.	
+	.V'	
+	.U.U
+		.T
+		.R
+)v~b
+
+vE>70)"
+b"M!w;
+
+
+
+
+
+
+
+
+
+
+q
+a
+P
+>
+,
+
+
+tcSB2!
+|l\K:*
+	
+
+
+
+
+
+
+
+
+r
+a
+Q
+@
+/
+
+									x	g	V	F	6	%	
+bJ8
+3
+ey
+B
+Nxla
+	VD,
+q
+
+.
+(h
+(
+]t
+&
+ti
+~
+87-
+8+$/
+5SD
+3VX)
+3EZ
+3?6
+30H
+3)F.
+3 O(
+2{'
+1$1,
+0rq+
+0(
+
+/|$
+	_	X	Q	J	C	<	5
+)&'u 
+
+reXK>1
+I)d
+<
+H.$d
+;
+G)d
+:
+F(+d
+9
+E+*d
+8
+D(+d
+7
+B(+d
+6
+?."d
+5
+>."d
+4
+4(+d
+/
+0)d
+.
+/'d
+-
+.Ud
+
++*d
+
+(+d
+
+'5d
+
+.d
+~
+(+d
+}
++*d
+|
+(+d
+{
+.d
+z
+'5d
+y
+.d
+x
+'d
+w
+(+d
+v
++*d
+u
+(+d
+t
+.d
+s
++*d
+r
+(+d
+q
+.d
+p
+(+d
+o
+'5d
+n
+(+d
+m
+(+d
+l
+'5d
+k
+(+d
+j
+'5d
+i
+.d
+h
+'d
+g
+.Ud
+f
+'d
+e
+(+d
+d
++*d
+c
+(+d
+b
+'5d
+`
+(+d
+_
+.d
+^
++*d
+]
+(+d
+\
+'5d
+[
+(+d
+Z
+'d
+Y
+)d
+X
+(+d
+W
++*d
+V
+(+d
+U
+(+d
+T
+(+d
+S
+(+d
+R
+(+d
+Q
+})d
+P
+|.Ud
+O
+{)d
+N
+z(+d
+M
+y+*d
+L
+x(+d
+K
+w.Td
+J
+v(+d
+I
+r(+d
+G
+q(d
+F
+p(d
+E
+o(d
+D
+m(+d
+C
+l' d
+B
+j.Sd
+@
+i.Rd
+?
+g':d
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+e
+b	J	J	J	J	J	J	J	J	J
+[24Pd
+ek d
+RVCJd
+
+mPHd
+Qa=d
+S)]
+*
+
+
+
+
+				
+eLd
+-]/
+
+P,%k
+BU*
+2
+
+
+6n
+@g0<
+:!@5 GBa219A404AuCD@DUUUUU1b
+%ts
+
+C/7USen_USAmerica/New_Yorkpowerlog2
+% d4
+
+s
+ssssssssssssssssssssssssssssssssssssssssss
+			A
+UD.
+
+
+"~dy
+
+(
+
+
+
+bB0
+
+?e
+J
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+gbP#
+
+Y @"
+S
+
+
+
+
+
+
+
+
+~
+o
+_
+P
+@
+1
+!
+
+									v	f	W	G	7	(	
+
+
+
+
+
+
+
+
+
+
+
+p
+`
+P
+@
+1
+!
+
+ak,
+1U
+!
+h	 
+$^	
+(Q	
+vwl
+
+t_$	
+
+tl4
+
+UmQ
+
+T*	
+
+
+oq	u
+Nxi"
+D
+	VEb	@
+E	>
+i	<
+r=	
+9
+.	7
+%	4
+;.1
+A8
+.
+O*	-
+:	*
+f<	
+$
+vp	
+2)	y
+>|J	w
+`B@a
+
+e"\@
++,Mr
+
+Bpz
+x2(
+
+
+
+
+
+
+
+
+
+
+q
+`
+N
+=
++
+
+ziWF4#
+q`O>-
+
+
+
+
+
+
+
+
+
+p
+_
+N
+=
++
+
+								z	i	X	G	5	#	
+e>vO
+}Jd0
+8R"0
+#V=0
+"`]	0
+!;hb
+x4@
+S{,@
+RXW@
+RQ*@
+SAb
+
+F:WyoffInactiveLTEAutomaticAutomatic
+#Nc	PG
+rs
+
+
+X
+ZsK0
+
+P07
+
+P.6
+
+P05
+
+P04
+G9`MPNn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+s
+i
+_
+U
+K
+A
+7
+
+-
+#
+
+y[Qoe
+|F<2(
+~
+tj`VLB8.$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+z
+p
+f
+\
+R
+H
+>
+4
+*
+ 
+
+														v	l	b	X	N	D	:	0	&	
+d$eT
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+p
+h
+`
+X
+P
+H
+@
+(
+8
+0
+x
+Hph`XPH@80( 
+eDj
+{% 
+
+
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+l
+/2*P
+
+B>	"
+`4s
+ay$c
+pf8\
+
+-CL*Kg
+^							
+4w!
+6}oU
+PLAudioAgent_EventForward_Output:0
+PLProcessMonitorAgent_EventForward_ProcessID!B
+PLWifiAgent_EventBackward_CumulativeProperties.J;"
+PLAccountingOperator_EventInterval_QualificationEvents6_2
+PLAccountingOperator_EventForward_QualificationEvents.W-
+PLBatteryAgent_EventPoint_ChargingInfo8-;
+PLBatteryAgent_EventBackward_Battery&g7$
+D?:6
+p9km
+PLPushAgent_Aggregate_APSDConnected64k
+PLPushAgent_EventPoint_SentKeepAliveI.K
+6?# 
+
+zYvf
+
+m'f
+
+k	v	m	d	[	R	I	@	7	.	%	
+|sjaXOF=4+"
+wne\SJA8/&
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+r
+i
+`
+W
+N
+E
+<
+3
+*
+!
+
+															
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+o
+f
+]
+T
+K
+B
+9
+0
+'
+
+d(xv
+
+l
+
+*
+	dC"
+^nqxQh
+
+			n	4
+HomeKit
+{us
+
+yccccccccc
+
+t
+j
+`
+V
+L
+B
+8
+.
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+<een
+S
+s
+.YuF
+rB	
+
+=@fL"
+8
+@@x
+pb3T
+
+
+
+
+
+
+
+
+
+~
+t
+j
+`
+V
+L
+B
+8
+.
+$
+
+
+
+
+
+0
+:
+D
+v
+
+
+N
+X
+
+b
+&
+
+$
+P&d
+
+?
+				i	H
+
+
+
+
+
+
+t
+Y
+>
+#
+
+fK0
+B[
+
+
+		p	Z	D	.
+}R+
+
+
+]
+B
+'
+jO4
+com.app
+tjk
+
+\	M	.	
+3|]>
+
+com.moxco.bumble@@r
+com.apple.WebKit.WebContent@M 
+com.atebits.Tweetie2@@
+com.apple.springboard.home-screen@`Va
+com.reddit.Reddit@@H
+com.apple.mobilenotes@A*
+com.alltrails.AllTrails@M hLt
+com.chess.iphone@A
+{m
+com.apple.CloudDocs.MobileDocumentsFileProvider@atP9hZ
+com.apple.CoreAuthUI@
+com.apple.WebKit.Networking@M 
+com.hammerandchisel.discord@@R
+~$##U
+
+\b
+e
+LwFeF
+
+	v	m	d	[	R	I	@	7	.	%	
+k`C3
+
+Q;/com.alltrails.AllTrails
+Q;+com.apple.WebKit.WebContent
+Q;'
+com.apple.WebKit.Networkingp
+NA*h
+O2com.apple.CoreAuthUI
+K@B0com.apple.mobilenotes
+K0(scom.chess.iphone
+K)Zlcom.moxco.bumble
+kcom.atebits.Tweetie2
+Khcom.hammerandchisel.discord}H|
+J3com.reddit.Reddit
+d8/a
+Dq`Acom.apple.WebKit.WebContent11.`
+com.apple.springboard.home-screen@a{
+@b
+S._
+NQ?.6Ccom.apple.cloudd:[com.apple.donotdisturbd:(null)]W
+btcom.apple.cloudd:[com.apple.mobilesafari:(null)]@'
+
+	v	m	d	[	R	I	@	7	.	%	
+|sjaXOF=4+"
+rfgIE
+
+
+
+
+
+
+
+x
+`
+H
+0
+
+pX@(
+hP8 
+
+
+
+
+
+
+
+p
+[
+E
+/
+
+						|	d	L	4	
+Kpl
+Kp!
+Kp~
+KpP
+Kp*~
+Kp|Q
+Kp8|QxZ
+KpxZr$
+r$l
+Kplh;
+h;d'
+Kpd(_v
+hKfT
+hKd(T
+hKao
+hK^
+hK[x
+hKX%
+hKTh
+hK,w
+s^
+
+sXB
+	S
+sV	S
+sS X
+sQXT
+sOPT
+sEN{`
+sC`\j
+s>-\kHg
+s<pHg4
+s740
+s40$
+s2$
+s)bseoA
+gz&B
+z4E#
+gy%B
+gyC
+gy,
+gyx,5
+gy6e
+gy{f
+gyl~
+gy]
+gyN`r
+gy>`sZ
+gy03Z
+gy!W
+gx(
+gxA
+gx"B[r
+gxt[sW
+gxvl
+gxh
+
+gxX:t
+	6V.(	@
+	6U'	?
+	6U.0	>
+	6U.;	=
+	6U.1	<
+	6U.(	;
+	6T'	:
+	6T.0	9
+	6T.;	8
+	6T.9	7
+	6T.(	6
+	6S'	5
+	6S.0	4
+	6S.;	3
+	6S.9	2
+	6S'	1
+	6S.(	0
+	6R'	/
+	6R'	.
+	6Q'	-
+	6Q'	,
+	6Q'	+
+	6Q.&	*
+	6Q.*	)
+	6Q..	(
+	6Q.%	'
+	6P.%	&
+	6P'	%
+	6O.3	$
+	6O*@	#
+	6O'#	"
+	6O.'	!
+	6O'	 
+	6O.%	
+hC-
+
+C/Xb@X|
+9o5
+
+[2a@j._bb
+`com.apple.springboard.home-screen@,
+
+Yi@@lmVtdff	
+Oyp@T
+xxxxx:><
+Nxz@j
+_a`
+,,k
+
+Q;)com.apple.WebKit.WebContent
+Q;"com.apple.WebKit.Networking
+Nqcom.apple.CoreAuthUI
+K@=com.apple.mobilenotes
+K)Pcom.moxco.bumble
+Kcom.hammerandchisel.discord
+J,4com.reddit.Reddit
+Dwcom.apple.WebKit.Networking
+Dqacom.apple.WebKit.WebContent
+Dq%com.apple.WebKit.WebContent
+6com.apple.Spotlight
+
+0d 
+TS^0
+
+|d!
+TS^|
+TS	^
+
+K
+Ee\a
+
+
+		?A
+!SBPowerDownViewController2E	
+com.apple.springboard.home-screen2D	
+Y&com.apple.springboard.home-screen2C	
+ORcom.apple.springboard.home-screen(B	
+		5A
+!com.apple.CoreAuthUI2A	
+
+
+
+i
+4				`	+
+Q;-Q993D55A55E80FD75FB4E5AD7660666CB
+O"3179EE84413FB0A59627531C4A1A1B17
+>3179EE84413FB0A59627531C4A1A1B17
+K@@5622F2B1D323BD9AF91163F5101980DF5
+K0%749B57AD304F5451B5AD691459B8C7D3
+K)V6CCF25D47C9CC30960E38A1429923A19
+K.ED310C662C7E854B6809B7F7C9DE0B69
+J/E83B62C40B99391E3382BF098C0A4302
+|eN8!
+~gP9"
+
+
+
+
+
+
+
+u
+b
+O
+<
+)
+
+							v	`	J	4	
+Sf]
+
+
+
+z
+^
+-n
+g(
+
+
+p
+M				Z
+mapspushd4
+Brcom.apple.CoreSuggestions
+suggestdF
+Bbcom.apple.UARPUpdaterServiceHID1
+UARPUpdaterServiceHIDf
+BVBcom.apple.MobileAccessoryUpdater.GenericKextUpdaterService1
+GenericKextUpdaterService&
+videosubscriptionsd2
+rcom.apple.iCloudNotification
+indK
+Bcom.apple.security.cloudkeychainproxy3
+CloudKeychainProxy/
+Bcom.apple.Spotlight
+SpotlightK
+BNcom.apple.WallpaperKit.WallpaperMigratorC
+WallpaperMigratorA
+B\com.apple.TrustedPeersHelper
+contactsd
+bookassetd8
+Bcom.apple.weather.widget
+WeatherWidgetQ
+Bcom.apple.StreamingUnzipService
+com.apple.StreamingUnzipService2
+com.apple.quicklook.ThumbnailsA8
+Bztcom.apple.MapsSuggestions
+destinationdP
+BGscom.apple.speech.localspeechrecognition
+localspeechrecognitionR
+B'com.apple.imdpersistence.IMDPersistenceAgent
+IMDPersistenceAgent
+axassetsd(
+Bcom.apple.CoreCDP
+cdpd+
+ProtectedCloudKeySyncing
+pasted:	
+Bcom.apple.MobileBackup.framework
+backupdZ
+BnHcom.apple.FaceTime.FTConversationService
+duetexpertd?
+Bcom.apple.siri.context.service
+ContextService
+aggregated0
+bird:
+absdg
+Bcom.apple.proactive.AppPredictionIntentsHelperService
+AppPredictionIntentsHelperServiA
+com.apple.ctcategories.serviceC
+BN&com.apple.ctcategories.service
+CategoriesService$~
+filecoordinationd }
+fileproviderdB|
+CategoriesServicec{
+Bcom.apple.CloudDocsDaemon.container-metadata-extractor
+ContainerMetadataExtractoraz
+com.apple.CloudDocs.MobileDocum
+AppSSODaemon
+GSSCredMw
+BJcom.apple.AssetCacheLocatorService
+AssetCacheLocatorService v
+com.apple.sbd!u
+symptomsd-diagOt
+HeuristicInterpreter?s
+amsengagementd<r
+Bcom.apple.UsageTracking
+UsageTrackingAgent(q
+diagnosticextensionsd#p
+promotedcontentd-o
+Bcom.reddit.Reddit
+RedditApp3n
+AllTrailsMm
+com.apple.SafariBookmarksSyncAgent
+SafariBookmarksSyncAgent.l
+Bcom.apple.ClassKit
+progressd5k
+DiscordSj
+BNcom.apple.MobileAccessoryUpdater.EAUpdaterService1
+	EAUpdaterService.i
+B4com.atebits.Tweetie2
+
+Twitter
+triald)g
+B#xcom.moxco.bumble
+Bumble(f
+Bwcom.chess.iphone
+
+Chess3e
+Bcom.apple.mobilenotes
+4
+
+
+b
+Ti/A
+|B6
+ChmTMobileWiFi.framework
+BE5
+;M.4Q
+7
+
+
+
+
+B
+(iGX
+
+
+
+M
+4
+
+			o	U	
+siriknowledgeds?Y
+com.apple.TCC*tccds?
+m;l!Q
+medialibraryds?i
+ProtectedCloudKeySyncings?x
+com.apple.AppleMediaServicesXamsaccountsds?6	53
+announceds?
+'configds?
+rL9L
+SCHelpers?>~SK
+IMDPersistenceAgents?TW
+Urapportds?(
+MTLCompilerServices?
+s7k!G
+syncdefaultsds?s%3F
+com.apple.quicklook.ThumbnailsAs?
+B$E
+Rpeakpowermanagerds?_~[!D
+fontservicesds?
+2**C
+com.apple.People!peopleds?B
+biometrickitds?"
+bookassetds?
+Optpds?$6bK(?
+akds?-"
+logds?
+FWz)=
+
+Chesss?x
+com.apple.wifi.WiFiCloudAssetsXPCService}WiFiCloudAssetsXPCServices?
+WallpaperMigrators?
+aA/9
+
+Twitters?VdQ
+ztouchsetupds?/{|x37
+inds?
+Sy&5
+privacyaccountingds?Ac
+S/4
+com.apple.ClassKit
+progressds?|S_j:
+wBlueTools?-d$2
+Fcontainermanagerds?R
+
+coreauthds?
+tanalyticsds?YLZ
+19=-
+UsageTrackingAgents?kHMvXA,
+com.apple.MTLCompilerServiceqMTLCompilerServices?Y
+swcds?
+symptomsd-diags?$z+
+nfindmydeviceds?8HW
+StatusKitAgents?yU3&
+com.apple.springboard=SpringBoards@
+iconservicesagents?Q
+GSSCreds?
+knehelpers?
+o15"
+searchds?v
+:nfcds?pR
+appstoreds?,b^d
+ContainerMetadataExtractors?W2 
+hdonotdisturbds?V
+adids?_ui!
+epfds?&D~`
+com.apple.accessibility.Accessis?
+4softwareupdateds?f;
+ScreenTimeAgents?
+com.apple.FamilyNotification1familynotificationds?1AB
+MTLCompilerServices?Sa)%
+profileds?
+AppPredictionIntentsHelperServis?iw
+com.apple.identityservicesd7identityservicesds?@
+%Nn%
+filecoordinationds?<`
+																	x	p	h	`	X	P	H	@	8	0	(	 
+
+
+
+
+
+i
+C
+"					K	
+\gH,>
+#7WR=
+aa<
+ 1f;
+daemon<com.apple.ind>32-217-182:com.apple.CFNetwork.StorageDB
+n  
+#4
+
+:		K
+E!1com.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+F04939A5-0EB9-4EF6-B4A1-546D9DA8490A~s
+Cspcom.apple.cloudd:[com.apple.mobilenotes:(null)]
+9E3A8FC0-B96E-4355-B3CF-A5B72B61E5D5rr
+CpPcom.apple.cloudd:[com.apple.mobilenotes:(null)]
+9E3A8FC0-B96E-4355-B3CF-A5B72B61E5D5
+Cm.com.apple.cloudd:[com.apple.donotdisturbd:(null)]
+9EC8FACB-4A66-47E3-9191-1980B20872FA
+Cgcom.apple.cloudd:[com.apple.mobilesafari:(null)]
+Npdp_ip0
+030B023F-C6D9-4C98-91D8-EA30615AAD1Cso
+Cdcom.apple.cloudd:[com.apple.mobilesafari:(null)]
+030B023F-C6D9-4C98-91D8-EA30615AAD1Csn
+030B023F-C6D9-4C98-91D8-EA30615AAD1Cxm
+C\ com.apple.mobileassetd:[com.apple.mobileassetd:(null)]F04939A5-0EB9-4EF6-B4A1-546D9DA8490A
+CXcom.apple.cloudd:[com.apple.mobilesafari:(null)]
+439330FC-9BB7-4D37-A757-11AA56832492tk
+C@com.apple.cloudd:[com.apple.donotdisturbd:(null)]
+9EC8FACB-4A66-47E3-9191-1980B20872FAsj
+C=com.apple.cloudd:[com.apple.mobilesafari:(null)]
+439330FC-9BB7-4D37-A757-11AA56832492si
+439330FC-9BB7-4D37-A757-11AA56832492
+C8&com.apple.cloudd:[com.apple.mobilesafari:(null)]
+0CFEDCC5-ECFC-479B-B28C-D91892BAB42Dtg
+C5Ccom.apple.cloudd:[com.apple.donotdisturbd:(null)]
+9EC8FACB-4A66-47E3-9191-1980B20872FAsf
+C2com.apple.cloudd:[com.apple.mobilesafari:(null)]
+0CFEDCC5-ECFC-479B-B28C-D91892BAB42Dse
+C/rcom.apple.cloudd:[com.apple.mobilesafari:(null)]
+0CFEDCC5-ECFC-479B-B28C-D91892BAB42D
+C(Rcom.apple.cloudd:[com.apple.mobilesafari:(null)]
+@pdp_ip0
+CE22931F-7BBC-492B-AC5E-278093B7C9D1sc
+C"|com.apple.cloudd:[com.apple.mobilesafari:(null)]
+CE22931F-7BBC-492B-AC5E-278093B7C9D1xb
+com.apple.mobileassetd:[com.apple.mobileassetd:(null)]F04939A5-0EB9-4EF6-B4A1-546D9DA8490Aza
+F04939A5-0EB9-4EF6-B4A1-546D9DA8490As`
+CE22931F-7BBC-492B-AC5E-278093B7C9D1z_
+C
+
+
+
+M
+1hD 
+V
+
+
+
+
+c
+9
+
+		x	P	0	
+
+iPowerUIAgent>x
+B`tcom.apple.datamigrator
+knehelper
+lsymptomsd
+msecurityd
+nfindmydeviced
+ofmflocatord
+pmDNSResponder?q
+BV~com.apple.MTLCompilerServiceKqMTLCompilerService-p
+BFcom.apple.aps.framework
+rapsd
+scloudd
+tanalyticsd
+uassetsd
+vcarkitd
+wBlueTool
+xchronod+i
+com.apple.GeoServices
+ygeod
+ztouchsetupd%g
+{networkserviceproxy
+|coreduetdRe
+BCcom.apple.wifi.WiFiCloudAssetsXPCService/}WiFiCloudAssetsXPCService
+calaccessd b
+biometrickitd)a
+trustd _
+syncdefaultsd!^
+wifianalyticsd8]
+Bfcom.apple.SystemConfiguration
+misagent [
+medialibraryd(Z
+localizationswitcherd<Y
+Bcom.apple.TelephonyUtilities
+callservicesd
+pkd2W
+Lcom.apple.CoreSpeech
+corespeechd$V
+mobileactivationd/U
+Bcscom.apple.CacheDelete
+deleted@T
+BB0com.apple.MTLCompilerServiceC
+MTLCompilerService@S
+B6Lcom.apple.MTLCompilerServiceC
+appstored!M
+languageassetd/L
+Boqcom.apple.CryptoTokenKit
+ctkd$K
+itunesstored'I
+installcoordinationd
+swcd#G
+coreauthd C
+nsurlsessiond
+seserviced%A
+privacyaccountingdj@
+com.apple.MobileSoftwareUpdate.2?
+followupd
+pipelined'=
+Vcom.apple.AuthKit
+akd <
+webbookmarksd ;
+useractivityd :
+fontservicesd69
+B6com.apple.FamilyCircle
+familycircledN8
+CAReportingServiceA7
+homed
+announced/4
+B0com.apple.visualvoicemail
+fmfd!2
+siriknowledged!1
+siriinferenced70
+B	com.apple.VoiceShortcuts
+siriactionsd=/
+Bcom.apple.siri.parsec.CoreParsec
+parsec-fbfL.
+com.apple.siri.embeddedspeech	
+voiced:,
+dmd;*
+B 6com.apple.accessibility.HearingCore
+heard_)
+Bcom.apple.accessibility.AccessibilityUIServer
+com.apple.accessibility.Accessi (
+rtcreportingd@'
+Bacom.apple.MTLCompilerService
+adidX%
+Bcom.apple.FontServices.UserFontManager
+com.apple.FontServices.UserFont"$
+OTATaskingAgent4#
+Bcom.apple.Search.framework
+searchd&"
+nanoregistrylaunchd#!
+ckdiscretionaryd4 
+Bmcom.apple.StatusKit
+StatusKitAgent
+'
+
+
+
+}
+A
+#
+
+jR5
+k?
+
+
+
+
+
+i
+K
+)
+
+					e	%	
+
+Bskernel_task
+B[hlaunchd
+logd6>
+'com.apple.AssistantServices	
+B runningboardd(<
+B@com.apple.People
+!peopled
+'configd+5
+BXcom.apple.HealthKit
+(healthd'4
+)powerd"3
+!+atc&1
+B_#,WirelessRadioManagerd
+BO%-biomed
+BC'.keybagd
+B `)/remoted@-
+Bcom.apple.FamilyNotification-1familynotificationd
+B /2wifid
+BD13fud *
+Bw34softwareupdated
+Bjr55mobiletimerd
+BZ76seld='
+l;8watchdogd
+B?:nfcd
+B8A;wcd
+E<contextstored1"
+BY)com.apple.springboardC=SpringBoard !
+B;SI?askpermissiond
+BFK@backboardd
+BMAsharingd>
+BXcom.apple.ManagedSettingsOBManagedSettingsAgent
+B=>QCtimed
+BSDlocationd
+BZUEcloudpaird"
+B~WFcontainermanagerd)
+BDRcom.apple.imagentYGimagent;
+B1com.apple.NanoPreferencesSync[Hnanoprefsyncd
+B_Jlockdownd,
+B?com.apple.SleepDaemonaKsleepd
+BTeMOTACrashCopier
+B0gNdistnoted
+&iOptpd-
+kPAppleCredentialManagerDaemon*
+BvWcom.apple.MapsSupportmQnavd"
+BGoRpeakpowermanagerd
+BuUrapportd
+wVbluetoothd9
+
+com.apple.AppleMediaServices{Xamsaccountsd
+Bv}Yfairplayd.H2
+[cfprefsdL
+\com.apple.AppleUserHIDDrivers%
+]MobileGestaltHelperM
+com.apple.ACCHWComponentAuthServiceK^ACCHWComponentAuthService
+`lsd
+ananoregistryd
+bmobileassetd,
+Bpcom.apple.PassKitCore
+cpassd-~
+com.apple.Accounts
+epfd8|
+fapfs_iosd
+gdasd
+hdonotdisturbd
+Q;,wcom.alltrails.AllTrails
+Y6
+xU.
+
+
+
+
+d
+A				x	Q	3	
+2wifids?I+B(
+MTLCompilerServices?L
+parsecds?A(9
+`lsds?c!
+voiceds?/ED
+/remoteds?3(/%"
+mobileactivationds?HK@!
+ContextServices?
+]MobileGestaltHelpers?
+siriactionsds?n:^(
+callservicesds?s>;
+backupds?Q
+ZCommCenters@
+N
+fmfds?_JgR)
+com.apple.powerd)powerds?
+4/Q&
+misagents?h
+.mB)
+cdpds?
+&misds?
+wifianalyticsds?
+localspeechrecognitions?{\P
+Tnotifyds?22
+CAReportingServices?
+#mediaserverds?
+trustds?
+com.apple.StreamingUnzipServices?o
+com.apple.MapsSupportQnavds?Wl!
+
+useractivityds?i
+ runningboardds?M
+calaccessds?G,
+contactsds?HBP
+Ndistnoteds?v}4
+pipelineds?`QQ!
+UserEventAgents@
+Bumbles?
+|coreduetds?
+Spotlights?DTD
+com.apple.SleepDaemonKsleepds?	J.U
+com.apple.MobileAccessoryUpdater.EAUpdaterService
+	EAUpdaterServices?<x@
+com.apple.GeoServicesygeods?y
+com.apple.NanoPreferencesSyncHnanoprefsyncds?ejdi}
+SafariBookmarksSyncAgents?
+vcarkitds?DNh|	
+com.apple.MobileAccessoryUpdater.GenericKextUpdaterService
+GenericKextUpdaterServices?
+Ecloudpairds?>o
+nearbyds?aR*o?S$y
+promotedcontentds?
+scloudds@	:
+com.apple.ManagedSettingsBManagedSettingsAgents?PL/$v
+nesessionmanagers?)
+amsengagementds?
+X; t
+pmDNSResponders?{A{/5s
+suggestds?}r!r
+?askpermissionds?3
+com.apple.sbds?z:
+msecurityds@
+ckdiscretionaryds?z5PC m
+<contextstoreds?*
+ctkds?N=3
+AppSSODaemons?*^x[[p?j
+com.apple.datamigratorjcom.apple.datamigrators?"
+itunescloudds?
+gdasds@
+MTLCompilerServices@%=S%R
+6selds?
+watchlistds?
+B9Cb
+CategoriesServices?!N.a
+com.apple.Accountsdaccountsds@
+heards?3"
+3fuds?
+accessoryds?=
+absds??g
+ananoregistryds?.0[
+deleteds?~*
+
+aggregateds?
+TaOY
++>X
+parsec-fbfs?B
+35
+-biomeds?$
+pkds?B
+com.apple.FaceTime.FTConversatis?hDu3
+-
+
+
+
+`
+AsRaB
+
+
+
+
+
+Q
+'
+
+		c	D
+birds?zlF
+com.apple.siri.embeddedspeechs?
+v
+corespeechds?\U
+duetexpertds?]
+qcaMh
+com.apple.AppleUserHIDDrivers\com.apple.AppleUserHIDDriverss?)
+
+siriinferenceds?8
++atcs?d%
+localizationswitcherds?
+pasteds?[4J
+Yfairplayd.H2s?
+vmds?&m
+}-a
+com.apple.HealthKit(healthds?e1kk
+axassetsds?i
+Vbluetoothds?P
+homeds?#t}
+%routineds?
+destinationds?
+Z=h7[
+familycircleds?!0C
+"fseventsds?
+FV*Y
+CommCenterMobileHelpers?)Ez9X
+WeatherWidgets?
+cY!V
+webbookmarksds?<
+MobileNotess?x1j
+~applecamerads?C
+trialds?k
+{networkserviceproxys?T\xLN
+CloudKeychainProxys?
+z$LD
+Jlockdownds?
+@DkL
+com.apple.MobileSoftwareUpdate.s?
+Z+6K
+Discords?E
+xchronods?
+videosubscriptionsds?
+8
+com.apple.imagentGimagents?=? !G
+nsurlsessionds?
+AllTrailss?)b
+uassetsds?`
+com.apple.UARPUpdaterServiceHID
+UARPUpdaterServiceHIDs?m3	B
+j7 B
+searchpartyds?b
+diagnosticextensionsds?W`9%{.@
+com.apple.aps.frameworkrapsds?Pft
+Asharingds?X
+ofmflocatords?=h@[92<
+mapspushds?w
+>thermalmonitords?
+itunesstoreds?d9N9
+AssetCacheLocatorServices?74,
+lsymptomsds?
+nanoregistrylaunchds?U
+;wcds?^
+languageassetds?q
+1rib4
+com.apple.CloudDocs.MobileDocums?F
+iPowerUIAgents?"
+com.apple.FontServices.UserFonts?3I
+8watchdogds?Ei!0
+$5inY9/
+com.apple.filesystems.fs.apfsfapfs_iosds?)r0!.
+rtcreportingds?-j
+5mobiletimerds?[
+@!C,
+CategoriesServices?X
+com.apple.PassKitCorecpassds?,
+dmds?oC
+
+
+
+
+
+
+
+t
+^
+`
+L
+8
+$
+
+p[I4
+
+}kVD.
+
+
+
+
+
+
+
+w
+b
+M
+8
+#
+
+							~	i	W	B	-	
+EG)
+
+
+qcWw#C
+
+[H"'
+[H"
+
+
+3dF4
+
+	6_.(	^
+	6_.0	]
+	6^.@	\
+	6^.0	[
+	6^.(	Z
+	6].(	Y
+	6].0	X
+	6\.0	W
+	6\.(	V
+	6\'	U
+	6\.6	T
+	6\'	S
+	6[.(	R
+	6[.0	Q
+	6Z.0	P
+	6Z.1	O
+	6Z.(	N
+	6Z.=	M
+	6Y.(	L
+	6Y.0	K
+	6X.0	J
+	6X.>	I
+	6X'	H
+	6X.(	G
+	6W.(	F
+	6W.0	E
+	6W'	D
+	6V'	C
+	6V.0	B
+	6V'
+$
+=Vk
+z	
+dt;`c@X,
+4@=c
+=p
+*{mfV
+_tec@X#u
+9@X(nX
+*meV
+[c@X
+4@=0
+=q
+9@X@
+*gmdV
+Utc@X}
+4@<=p
+
+9@X<+
+*?mcV
+Puvc@Xr+}
+4@<
+=q
+9@XPkW
+*5mbV
+Nnc@Xr+}
+*5maV
+b@X$^T
+@<
+=q
+9@Xd`
+5g`V
+ub@X$^T
++c_V
+Hb@Xm
+9@Xzg#
++c^V
+H}^b@Xx	
+b@Xx	
+%b@XZ$*
+!F}F
+	
+TB"@DQ,
+H@@DY`
+F@DR
+EO@DS 
+D~@I
+D
+#$}	
+`.b@B
+D
+#$|	
+
+-${	
+[2I@Bj
+
+Zw"y	
+YfV@DQ,
+B_@M
+B_com.alltrails.AllTrails;0
+LQ</
+com.apple.mobilenotes7.
+!~@A
+!~com.chess.iphone8-
+@@J-
+H@@J-
+Hcom.reddit.Reddit7,
+@@&2
+@@&2
+com.moxco.bumble;+
+@@m3	B@@m3	Bcom.atebits.Tweetie2B*
+@@ i@@ icom.hammerandchisel.discordB)
+@Ig?@Ig?com.apple.WebKit.WebContentB(
+@I.w
+"CX
+
+#aggregated?G
+OE
+
+ 
+
+
+
+|
+;[@9L~
+
+
+
+
+
+0
+|
+c
+J
+DUn
+
+A}
+
+
+!H
+
+tL 
+
+/Ai
+
+ stillstill
+ldc
+	
+																													
+NoneNotRegistered(v
+
+Ekd
+	
+Hrn50
+
+Vcom.apple.system.lowpowermode*
+8OUt
+
+PLBatteryAgent_EventBackward_Battery&h7$
+PLBBAgent_EventForward_TelephonyRegistrationw
+D@:6
+PLSpringBoardAgent_EventForward_SBWallpaper
+
+
+
+
+
+
+
+
+
+
+^'none&
+Gk1-
+							s	W	<	!	
+
+BasebandTrace0(256)
+=
+KY=
+# u]?
+4[)0D
+Qcom.apple.springboard
+Icom.apple.CloudDocs.MobileDocumentsFileProvider
+1{-
+
+nyU
+
+d@X;
+4@@XQ
+}B\
+
+
+
+
+
+
+0
+
+af
+:
+$1v
+$/@
+
+3o
+
+AlV+
+"w0;%
+F_)?0
+*c[/
+*[
+*[:
+*#[
+)M[
+
+o|b
+
+
+Os\'
+
+
+7h:
+
+SpeakerAudio/Video#:	
+1
+
+
+
+on7S
+J
+PLAudioAgent_EventForward_Output;0
+PLAudioAgent_EventForward_Routing;
+com.apple.CloudDocs.MobileDocumentsFileProvider@
+
+PWVI
+4
+
+
+b
+$q1]
+DestinationdLocationBundleiOS.bundleVisitK>
+(DestinationdLocationBundleiOS.bundleSignificant;=
+ChronoCore.frameworkSignificant=<
+$FindMyDevice.frameworkSignificantB;
+ExposureNotificationBundle.bundleVisit5:
+ypMobileWiFi.frameworkVisit39
+N<Routine.bundledLocation;8
+ZSystemCustomization.bundleVisitB7
+
+
+
+
+
+k
+L
+:
+
+)
+P
+*8t
+
+WF| 
+
+		.X	
+t7!
+
+3tm_
+
+L0(
+
+C
+ $)Z
+
+reXK>1$
+
+
+
+
+
+
+
+
+
+
+
+
+
+r&8:
+
+OdW%d
+
+PLAccountingOperator_EventForward_QualificationEvents.Y-
+W,b
+
+g44
+
+/
+
+
+
+k
+B
+
+qR3
+kL5
+
+
+
+
+
+
+x
+Y
+@
+-
+
+						z	a	A	-	
+LOOS
+sPsleepd
+~Rsysdiagnose_helper
+{psecurityuploadd :
+xMobileFileIntegrity 9
+fVcom.apple.terminusd&8
+SBPowerDownViewController"7
+com.apple.purplebuddy
+
+com.apple.triald 5
+com.apple.dprivacyd"4
+pReportMemoryException#3
+6MobileAccessoryUpdater$2
+softwareupdateservicesd
+businessservicesd(0
+P3com.apple.AssistantServices
+gy4triald
+appleaccountd
+gyfud'+
+gxUcom.apple.coreidv.coreidvd
+gx'0businessservice!)
+gwcom.apple.SharedDocs
+{com.apple.awd
+uremindd*&
+"purplebuddy.budd
+deferredmediad$#
+contacts.donation-agent
+fsosd
+`AssertionPID-453
+apfs_iosd
+contactsdonatio
+budd
+Xcontactsd
+Mmedialibraryd
+:zrapportd
+:zProtectedCloudK
+:alsd
+:C$tailspind
+9)softwareupdated
+9(idcredd
+9siriknowledged
+9_voiced
+9ERprivacyaccounti
+9+biomed
+spotlightknowle
+<symptomsd-diag
+8deleted
+84batteryintellig
+8signpost_report
+com.apple.quick
+8Ymetrickitd
+8Smcalaccessd
+89"microstackshot
+8*bidentityservice
+8'pipelined
+8%Bproactiveeventt
+8Fremotemanagemen
+7sgeocorrectiond
+mapspushd
+7bird
+7localizationswi
+com.apple.Maps ~
+"Maps.geocorrectiond#}
+mobile.assertion_agent&|
+bmobile.installation_proxy!{
+batteryintelligenced?z
+com.apple.RemoteManagement.LegacyProfilesExtension#y
+gmediaanalysisd.service5x
+mobile.cache_delete_app_container_caches w
+nnand_task_scheduler8v
+com.apple.RemoteManagement.AccountExtension#u
+proactiveeventtrackerd&t
+mobile.notification_proxy
+ucache_delete
+jtccd
+notifyd?p
+com.apple.UserNotificationsUIKit.ThumbnailProvider
+VReportCrash
+afcd
+k&mediaanalysisdKl
+a|com.apple.RemoteManagement.InteractiveLegacyProfilesExtension
+
+
+
+
+
+
+
+
+
+r
+4
+
+
+b
+$q1]!
+9CoreParsec.frameworkdLocationE?
+
+$,
+
+C%com.apple.mobileassetd:[com.apple.mobileassetd:(null)]CDCFA3E7-1E7B-429D-A860-2B8BCF6B9858{t
+bZkG
+
+LLRX
+
+
+
+
+
+
+k
+L
+.
+
+jN2
+n77d
+n
+
+d
+aj
+
+ld
+-
+,
+
+
+
+
+
+
+
+
+
+
+r
+b
+GSQLite format 3
+2Z63
+
+
+
+
+
+
+
+
+
+|
+biI
+
+
+		.Z
+H?ZVX;
+
+uSc_hd\
+
+
+
+(2
+
+(d
+
+
+(d
+	
+&7x$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+p
+d\Oq
+
+p?&4
+
+9#R
+
+7D{A
+l{j
+nTyt
+
+@Backlight
+z}]wO
+
+$-iH
+
+			@	
+b_Wp>
+
+X&
+
+P08
+ECnN(
+t[IDp
+
+M?#E
+
+3E
+8
+
+
+
+
+
+
+
+z
+b
+D
+0
+
+Mawdl0
+M8en0
+Lf%pdp_ip0
+PLAccountingOperator_EventForward_QualificationEvents.Z-
+PLBatteryAgent_EventPoint_ChargingInfo9-;
+FJ:6
+y<rP
+,q)j
+m%{"
+ *#
+
+Icom.apple.locationd.CLLocationAwarenessProvider.13fd654e0(Active location session has begun)
+Idaemon<com.apple.bluetoothd>49-103-18:com.apple.CFNetwork.StorageDB
+Icom.apple.persistentconnection[apsd,132,schedulingwake-APSTopicManager-SystemWakeManager(0x10271bea0)]
+Icom.apple.persistentconnection[UserEventAgent,46,schedulingwake-MobileBackupRegularWake-SystemWakeManager(0x111d47360)]
+Icom.apple.persistentconnection[locationd,85,schedulingwake-FenceDownloadTimer-SystemWakeManager(0x140879bb0)]
+FD
+DASActivity:com.apple.dasd.closureOnBootx
+Waiting for springboard or equivalent process to start
+daemon<com.apple.SpringBoard>;49-274-128:FBSystemShellInitialize;49-274-129:FBSystemApp-PreventIdleSleep
+daemon<com.apple.atc>49-60-165:com.apple.CFNetwork.StorageDB
+{&.
+
+jN2
+22d"7
+
+
+
+
+z
+W
+
+i
+zS1
+
+
+s
+P
+(
+
+				o	G	$
+Icom.apple.apsd-connectcouriers
+Icom.apple.persistentconnection[apsd,132,APSDaemon-courierconnecttimer-PendingSimpleTimer(0x104027550)]
+Icom.apple.persistentconnection[apsd,132,schedulingwake-APSDaemon-courierconnecttimer-SystemWakeManager(0x104020fd0)]
+Icom.apple.persistentconnection[SpringBoard,78,schedulingwake-com.chess.iphone-SystemWakeManager(0x101c18c30)]
+-g#
+0g#]
+/g#\$
+'g#\Y
+Icom.apple.bluetoothd-SPOwner-SPBeaconManager.statusChanged
+/g#\
+,g#[m
+
+Idaemon<com.apple.icloud.searchpartyd>49-182-22:com.apple.CFNetwork.StorageDB
+.1#?
++g#0$
+$g#
+Idaemon<com.apple.akd>49-193-21:com.apple.CFNetwork.StorageDB
+*1"
+Icom.apple.bluetooth.LeObserver.ScanningAssertion
+Icom.apple.bluetooth.LeObserver.ScannConfigAssertion
+g"#~
+Icom.apple.persistentconnection[SpringBoard,78,schedulingwake-PCCancelAllProcessWakesOperation(0x282291700)]
+Icom.apple.bluetoothd-SPOwner-SPBeaconManager.stateChanged
+}$x
+$v
+$t
+$r
+Icom.apple.bluetoothd-SPOwner-SPBeaconManager.notifyBeaconingKeysChanged
+IIDSPeerIDLookup
+|#j
+|#h
+-^e
+Icom.apple.audio.VAD [vzzz] AggDev 2.context.preventuseridlesleep
+-^c
+Icom.apple.audio.VAD [vhaw] AggDev 6.context.preventuseridlesleep
+Icom.apple.backboardd.enable-idle-sleep
+'AW
+Icom.apple.system.powersources.source
+ILASD cells fetched
+Icom.apple.persistentconnection[locationd,85,schedulingwake-TimeZoneManager.ActiveModeTimer-SystemWakeManager(0x1408d0980)]
+{
+xs6
+
+
+
+
+
+]
+:
+
+v
+[9
+
+
+
+\
+9			o	L	'
+Icom.apple.persistentconnection[findmydeviced,127,schedulingwake-PCCancelAllProcessWakesOperation(0x100d15c50)]
+*]g
+Icom.apple.icloud.findmydeviced-FMDRequestRegister-0x0x100d215e0
+*!f
+31*
+*cTd
+Icom.apple.icloud.fmflocatord-FMRequestRegister-39162A0
+*cTb
+Icom.apple.icloud.fmflocatord-FMRequestRegister-3A22E00
+*cT`
+Icom.apple.icloud.fmflocatord-FMRequestRegister-2F1D890
+Ak*C?^
+Icom.apple.ipTelephony.sipIncoming
+Ak*A
+>g*
+Idaemon<com.apple.locationd>49-85-34:com.apple.CFNetwork.StorageDB
+@1)
+?g)$Z
+'g)$Y
+$g)
+Idaemon<com.apple.Maps.mapspushd>49-224-32:com.apple.CFNetwork.StorageDB
+<1)
+Idaemon<com.apple.amsaccountsd>49-105-31:com.apple.CFNetwork.StorageDB
+;1(!A
+.1'
+9k'@?
+Icom.apple.ipTelephony.registration
+:k'
+7g'_=
+Icom.apple.ipTelephony.stack.B7767EE0-8F88-44FF-8C96-C685C286678F
+9k'
+8g'h$;
+'g'g$:
+$g'g!9
+*1'@d8
+Idaemon<com.apple.watchlistd>49-164-27:com.apple.CFNetwork.StorageDB
+61&
+g&#6
+&m4
+Idaemon<com.apple.icloud.findmydeviced>49-127-24:com.apple.CFNetwork.StorageDB
+51&]3
+&Al2
+Idaemon<com.apple.icloud.fmflocatord>49-128-23:com.apple.CFNetwork.StorageDB
+31&?
+2G%.0
+Iseld[RemoteAdmin]
+2G%z
+%$$-
+%$$+
+ 
+
+
+
+
+g
+?
+
+oG$r
+
+
+
+m
+E
+"					m	K	#
+Icom.apple.persistentconnection[UserEventAgent,46,schedulingwake-BTA-PeriodicConditionMonitor-SystemWakeManager(0x111f32850)]
+HB,5
+Icom.apple.persistentconnection[identityservicesd,72,schedulingwake-com.apple.identityservices.registration-hbi-SystemWakeManager(0x10343b3f0)]
+Icom.apple.persistentconnection[identityservicesd,72,schedulingwake-PCCancelAllProcessWakesOperation(0x1034575c0)]
+HBm2
+Idaemon<com.apple.ap.promotedcontentd>49-236-56:com.apple.CFNetwork.StorageDB
+K1?
+?$/
+?$-
+>$+
+>$*
+UU=#(
+U
+U=#&
+:$#
+:$!
+Ik9$
+Hk9
+Hk90
+ k9
+U	U9Q
+Icom.apple.locationd.NetworkProvider.13fe32d50(query)
+U	U9
+4#
+4#	
+Icom.apple.persistentconnection[apsd,132,com.apple.apsd(sandbox.push.apple.com)-WWAN-connectionmanager(0x1026539e0)]
+Icom.apple.persistentconnection[apsd,132,com.apple.apsd(push.apple.com)-WWAN-connectionmanager(0x10261fbe0)]
+.$~
+.<}
+. |
+@1.!{
+<1- z
+;1,
+Ek+$x
+Ak+
+Dk+$v
+Ck+z
+:k+i$s
+Ak+h!r
+61+9 q
+51+9
+Icom.apple.persistentconnection[findmydeviced,127,schedulingwake-com.apple.icloud.findmydeviced.retry.FMDRequestRetryHelper-0x100b30cc0-SystemWakeMana...]
+
+
+
+
+
+a
+	i)
+
+
+
+C
+ 					b	?	
+Idaemon<com.apple.SpringBoard>49-261-73:FBSystemShellInitialize
+W1S
+IWaiting for springboard or equivalent process to start
+Icom.apple.locationd.CLFenceMonitorWifi.14182c3e0(recalculate)
+Sgg
+Tg-$
+'g'$
+$g&
+Rk}
+Nkh$|
+Ake
+Qkg$z
+Akd
+PkV$x
+AkP
+OkM$v
+AkJ$u
+($s
+p$q
+p$o
+p)m
+IMC activity
+C$j
+C$h
+C$f
+B$d
+B$b
+B$`
+B$^
+B$\
+B$Z
+B$X
+BFV
+IAPSCourier(tcpStream:dataReceived:)-WWAN
+BRT
+Icom.apple.apsd-delayed-keepalive-push.apple.com-WWAN
+B<R
+Icom.apple.apsd-outgoingmessage
+BJP
+Icom.apple.apsd-keepalive-push.apple.com-WWAN
+Icom.apple.persistentconnection[apsd,132,schedulingwake-com.apple.apsd(push.apple.com)-WWAN-SystemWakeManager(0x10401a3e0)]
+B$L
+BTJ
+Icom.apple.apsd-connectionestablish-push.apple.com-WWAN
+B$H
+B$F
+B!E
+IFoo
+gl#A
+gl#?
+gl >
+1l6=
+IIOAccessoryUSBConnectShim
+i&!<
+K1D
+Cu$:
+Cu<9
+'
+
+
+c
+<
+
+a?P,
+
+
+
+~
+M
+'
+
+				v	O	-	
+#a
+G"_
+Icom.apple.persistentconnection[imagent,88,schedulingwake-PCCancelAllProcessWakesOperation(0x1044387d0)]
+b1B
+U1X
+Icom.apple.persistentconnection[locationd,85,schedulingwake-com.apple.locationd.clSeparationAlertsServicePersistentTimer-SystemWakeManager(0x1408...]
+UgW
+Idaemon<com.apple.nsurlsessiond>49-186-143:com.apple.CFNetwork.StorageDB
+g"T
+g
+g"R
+gg"P
+gg"N
+g
+g"L
+\(AJ
+Icom.apple.mobile.keybagd.first_unlock
+\([I
+Infcd[process:unavailable,pid:63,_NFSeshatSession,sessionID:0]?
+cK]H
+Idaemon<com.apple.ind>49-277-142:com.apple.CFNetwork.StorageDB
+b17G
+ISeshat session in progress
+`gB#E
+Icom.apple.icloud.fmflocatord-FMRequestRegister-2F174E0
+Idaemon<com.apple.SpringBoard>49-274-128:FBSystemShellInitialize
+_1 A
+]1R@
+Idaemon<com.apple.SpringBoard>49-270-113:FBSystemShellInitialize
+]1%
+@#:
+@#8
+@#6
+g	g"4
+g"2
+g-1
+IAppleARMBacklight
+V:C/
+\Q .
+Z1T^+
+Idaemon<com.apple.SpringBoard>49-264-89:FBSystemShellInitialize
+Z1 *
+IDASActivity:com.apple.securityd.prng}
+U%#&
+U%#$
+U%#"
+U%# 
+U
+U-|
+Icom.apple.persistentconnection[locationd,85,FenceManagerStart-PendingSimpleTimer(0x13fdb2da0)]
+U
+U-
+UU-[
+UU-
+Icom.apple.icloud.fmflocatord-FMRequestRegister-3829830
+
+
+
+:
+
+`>
+
+
+
+Y			r	P
+DI&
+IDASActivity:com.apple.poweruiagent.runOnBooty
+DZ$
+IDASActivity:com.apple.wifimanager.3BarsCacheObserverActivityC
+D$"
+g
+" 
+IDASActivity:com.apple.HMFoundation.Message.Dispatcher.Index
+IDASActivity-ClientRequested:com.apple.locationd.Mobility.ProcessBoutsU
+IDASActivity:com.apple.bird.stage.gc
+IDASActivity:com.apple.fileprovider.indexing
+IDASActivity:com.apple.cloudkit.packageGarbageCollection
+IDASActivity:com.apple.cloudkit.assetHandleExpiration
+IDASActivity-ClientRequested:com.apple.locationd.TileDownloadCellReachabilityU
+xY
+IDASActivity:com.apple.chronod.nextScheduledTimelineRefresh
+x#
+.@	
+Icom.apple.sesd.kml.sharingAuthExpiry
+Infcd[process:passd,pid:115,_NFSecureElementManagerSession,sessionID:2]s
+Infcd[process:seserviced,pid:187,_NFSecureElementManagerSession,sessionID:1]
+Infcd[process:seld,pid:71,_NFSecureElementManagerSession,sessionID:0]G
+Idaemon<com.apple.atc>49-156-145:com.apple.medialibraryd EC6341BC-26D4-4D38-86C8-D25E752C9D1B Finish Task Assertion, Database transaction for library at path: /var/mobile/Media/iTunes_Control/iTunes/MediaLibrary.sqlitedb(FinishTask)
+m1W
+lgz#t
+'gy#s
+$gy
+ig`
+hg:
+jg##o
+'g #n
+$g #m
+XEk
+Icom.apple.persistentconnection[imagent,88,schedulingwake-message-watchdog-timer-SystemWakeManager(0x10601c330)]
+Icom.apple.persistentconnection[imagent,88,schedulingwake-message-expire-state-timer-SystemWakeManager(0x10440f2d0)]
+XEg
+Icom.apple.persistentconnection[imagent,88,schedulingwake-message-routing-timer-SystemWakeManager(0x104404860)]
+XE]f
+Idaemon<com.apple.ind>49-277-144:com.apple.CFNetwork.StorageDB
+g1 e
+#c
+0
+
+
+D
+!zX4F
+
+~
+[
+			y	)	
+PFI
+1SH
+^:y	G
+x \LD
+IDASActivity:com.apple.siri.inference.FirstBoot
+x \HB
+IDASActivity:com.apple.CoreAnalytics.2Hours
+x \L@
+IDASActivity:com.apple.ind.cloudfeatures.reload
+x \S>
+IDASActivity:com.apple.icloud.fmfd.keep-alive-on-dirty
+x \m=
+IDASActivity:com.apple.UsageTrackingAgent.activity.reset-device-activity-alarms
+x \[<
+Idaemon<com.apple.atc>49-60-165:com.apple.CFNetwork.StorageDB
+d ;
+Dg:
+Idaemon<com.apple.rtcreportingd>49-181-164:com.apple.CFNetwork.StorageDB
+cY5
+IDASActivity:com.apple.icloud.searchpartyd.AfterFirstUnlock
+cl3
+IDASActivity:com.apple.webbookmarksd.restoreReadingListQueueActivityIdentifier
+cU1
+IDASActivity:com.apple.profiled.reschedulePasscodeExpiry
+cE0
+IDASActivity:com.apple.dasd.closureOnBootx
+b /
+Idaemon<com.apple.icloud.fmfd>49-210-159:com.apple.CFNetwork.StorageDB
+Idaemon<com.apple.bookassetd>49-281-155:com.apple.CFNetwork.StorageDB
+rkng
+					
+$1v@
+$1@
+$/@@3
+FSvJ
+y=jv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+p
+h
+`
+X
+P
+H
+@
+s*_Vxm
+
+
+
+6n
+M7.02.00kaddr1=0xfffffff007d4caacL kaddr2=0xfffffff007fd77c4L rootdev=md0 quiesce trm_default=0 preinit19A404D20A
+	GUSen_USAmerica/New_Yorkpowerlog2
+!uV#
+8Vx
+
+(
+
+
+
+t
+p;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+KT5
+
+	
+@ 
+W@4t
+
+
+
+
+
+
+l
+R
+0
+
+|b@
+/&@YO
+;$F@,h
+;
+=@`b
+ML@YV
++y4f
+J@3p@&r
+k`@Ty[bm
+@`\@
+)w@\'
+@G ,
+@U+X
+"@Y.@
+@Y.@
+o@e`
+vwi@
+tll@aco
+Qr@fT 
+@fT 
+8P@d 
+F@X@
+bu@[
+c*@_k
+b@ZQ
+b&@h-
+ ?;#
+
+vH
+
+
+=x;
+
+(8aw
+
++
+
+UV
+	#	#	#	#	#	#	#	#	#	#	#	#
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionAD3CDA64-D572-45FB-8448-E14BB1815EDFcation}
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionAD3CDA64-D572-45FB-8448-E14BB1815EDFcation
+)x com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionAD3CDA64-D572-45FB-8448-E14BB1815EDFcationT
+rcom.apple.weather.widget6831BB14-FC6F-48A3-A624-FA9B2AACA26FeatherT
+com.apple.weather.widget6831BB14-FC6F-48A3-A624-FA9B2AACA26Feather|
+!com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionAD3CDA64-D572-45FB-8448-E14BB1815EDFcation}
+E
+scom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionAD3CDA64-D572-45FB-8448-E14BB1815EDFcation
+ucom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionAD3CDA64-D572-45FB-8448-E14BB1815EDFcation
+'
+p
+
+#nP
+
+&
+
+
+
+
+p
+A
+AUUUUUUUUUUUUUUUU
+$
+$
+$	H	H	H	H	H
+/;"c
+i
+-u
+
+SZ$`
+7M?!^
+
+C([
+
+NN; Z
+
+C;&U
+
+"
+"
+"
+"
+"
+"	'	'	'	'	'	'
+
+NN;
+7;}5)l
+
+PLProcessMonitorAgent_EventForward_ProcessID"
+PLWifiAgent_EventBackward_CumulativeProperties.K;"
+PLBatteryAgent_EventBackward_Battery&y7$
+|x?6
+
+PLHomeKitAgent_EventForward_HomeConfiguration&
+@
+9.&`Egs
+;/-sd
+'m~U
+
+gqv
+
+
+(P}
+
+jcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension( ( -k
+tPPq=B
+
+
+
+
+
+
+
+
+
+
+r
+b
+R
+wcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtensionV
+@b
+S.O
+com.apple.cloudd:[com.apple.cloudpaird:(null)]W
+][ 
+
+cQ
+BB]|
+B5n!
+B+j
+4
+
+
+b
+$q1]
+:)(A
+<RmCoreParsec.frameworkdLocationA@
+9CoreParsec.frameworkdLocationA
+Lm^
+
+JDcom.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+08CFDEA8-0DC6-4073-8254-46804218B446{|
+FA1F0764-71F3-4776-961B-33251238C167{{
+Bcom.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+ACD6DA2F-CB17-4363-A264-66F9E5DF67D9{z
+:com.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+FF391021-3349-47CD-865F-0BB5B0F61BD5{y
+987B2DB5-1D62-45D7-A261-98773AC99D56{x
+fcom.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+ED79ED56-F0AB-4280-80B2-11D876D299F2{w
+C2B32226-F8F0-44EB-A621-C91647A82448mv
+Zcom.apple.trustd:[com.apple.trustd:(null)]
+B28C6B22-9332-440A-907D-72C61E50630Bxu
+com.apple.FaceTime.FTConversatiRW
+ duetexpertd$U
+!filecoordinationd T
+"fileproviderd
+#aggregated?R
+$ContextServiceAQ
+wcom.apple.ctcategories.service
+%CategoriesServicecP
+_com.apple.CloudDocsDaemon.container-metadata-extractor
+&ContainerMetadataExtractoraO
+8com.apple.CloudDocs.MobileDocumentsFileProvider
+'com.apple.CloudDocs.MobileDocum
+(accessorydPM
+)localspeechrecognition
+*triald!K
++symptomsd-diag
+,abm-helper8I
+;com.apple.MapsSuggestions
+-destinationd<H
+'0com.apple.UsageTracking
+.UsageTrackingAgentSG
+com.apple.MobileAccessoryUpdater.EAUpdaterService1
+/EAUpdaterService
+0corecapturedOE
+1HeuristicInterpreter
+2pasted
+3logd
+QJ6
+
+gcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+&0com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+MTLCompilerServices?b	
+7misds?8HG
+&ContainerMetadataExtractors?,(
+wifianalyticsds?W
+4mediaserverds@
+Nu
+#aggregateds@
+calaccessds?2
+1runningboardds@
+ duetexpertds?
+Ce u
+applecamerads?
+kernel_tasks@1,;
+rj90s
+com.apple.SetupAssistant
+budds?E
+com.apple.MapsSupportbnavds?Oci(q
+enotifyds?
+zL!o
+useractivityds?S4
+jN2t
+3d@X;
+4@@q
+3w`d@X;
+4@@e
+	ld@X;
+D6{
+
+#
+
+
+
+j
+L
+%G&
+}E
+
+
+
+y
+N
+-				b	<	
+appstored!'
+languageassetd/&
+Acom.apple.CryptoTokenKit
+itunesstored'$
+installcoordinationd##
+nesessionmanagerN"
+CAReportingService$!
+swcd 
+rtcreportingd
+coreauthd
+pipelined 
+seserviced%
+privacyaccountingdj
+com.apple.MobileSoftwareUpdate.2
+mcom.apple.CoreFollowUp
+followupd'
+(com.apple.AuthKit
+akdf
+com.apple.PerfPowerTelemetryClientRegistrationService
+PerfPowerTelemetryClientRegistr 
+webbookmarksd 
+useractivityd 
+fontservicesd/
+1Ycom.apple.visualvoicemail
+vmdA
+#lcom.apple.MTLCompilerService
+announcedL
+
+~com.apple.siri.embeddedspeech	
+homed6
+0com.apple.FamilyCircle
+familycircled
+voiced!	
+siriknowledged!
+siriinferenced7
+Bhcom.apple.VoiceShortcuts
+siriactionsd=
+fmfd
+adid:
+Fcom.apple.ScreenTimeCore
+dmd;
+^com.apple.accessibility.HearingCore
+heard@
+scom.apple.MTLCompilerService
+MTLCompilerServiceX
+i"com.apple.FontServices.UserFontManager
+com.apple.FontServices.UserFont4~
+^Bcom.apple.Search.framework
+searchd&}
+nanoregistrylaunchd#|
+ckdiscretionaryd1{
+$com.apple.MapsSupport
+mapspushd4z
+com.apple.CoreSuggestions
+suggestd&y
+videosubscriptionsd4x
+>com.apple.StatusKit
+logd_helper(v
+(com.apple.CoreCDP
+cdpd?u
+amsengagementd#t
+promotedcontentd
+axassetsdBr
+qcom.apple.IDSBlastDoorService9
+IDSBlastDoorService5q
+com.apple.ClipServices
+clipserviced/p
+budd9o
+com.apple.GenerationalStorage
+revisiond
+amfid
+heartbeatd
+diagnosticd8k
+SCHelper,j
+TVRemoteConnectionService>i
+com.apple.FamilyControls
+FamilyControlsAgent0h
+tcom.apple.CloudDocsDaemon
+bird$g
+online-auth-agent
+wifip2pdFe
+com.apple.NanoTimeKitCompanion
+nanotimekitcompaniond
+coreduetd
+fseventsd2b
+eIcom.apple.springboardC
+SpringBoard2a
+indK`
+4rcom.apple.security.cloudkeychainproxy3
+CloudKeychainProxy
+fudA^
+bookassetdQ\
+tcom.apple.StreamingUnzipService
+com.apple.StreamingUnzipService+[
+ProtectedCloudKeySyncing:Z
+jcom.apple.MobileBackup.framework
+
+
+
+
+c
+:
+
+vV9
+_>
+
+
+
+
+
+
+g
+,
+
+			f	E	#	
+Zlaunchd
+client_loader
+.UserEventAgent6
+com.apple.AssistantServices	0assistantd
+1runningboardd(
+com.apple.People
+2peopled
+4mediaserverd
+5mediaremoted
+6routined
+7misd
+8configd+
+com.apple.HealthKit
+9healthd'
+,com.apple.powerd
+:powerd"
+ecom.apple.TCC
+;tccd
+;!<atc&
+ #=WirelessRadioManagerd
+&%>biomed
+'?keybagd
+)@remoted@
+mHcom.apple.FamilyNotification-Bfamilynotificationd
+*A/Cwifid ~
+:3Esoftwareupdated
+5Fmobiletimerd
+7Gseld={
+com.apple.identityservicesd9Hidentityservicesd
+?Knfcd
+PALwcd
+m3EMcontextstored w
+e0GOthermalmonitord
+IPaskpermissiond
+KQbackboardd
+MRsharingd>s
+jcom.apple.ManagedSettingsOSManagedSettingsAgent
+QTtimed
+;KSUlocationd
+.UVcloudpaird"o
+WWcontainermanagerd)n
+com.apple.imagentYXimagent;m
+com.apple.NanoPreferencesSync[Ynanoprefsyncd
+`]Zdriverkitd
+vS_[lockdownd,j
+com.apple.SleepDaemona\sleepd
+.e^OTACrashCopier
+"g_distnoted
+i`ptpd-f
+kaAppleCredentialManagerDaemon*e
+com.apple.MapsSupportmbnavd"d
+ocpeakpowermanagerd
+senotifyd
+ufrapportd
+I4wgbluetoothd9`
+0com.apple.AppleMediaServices{iamsaccountsd
+L}jfairplayd.H2
+kCommCenter
+lcfprefsd%\
+mMobileGestaltHelperM[
+>Fcom.apple.ACCHWComponentAuthServiceKnACCHWComponentAuthService
+oawdd
+plsd
+qnanoregistryd
+rmobileassetd,V
+mcom.apple.PassKitCore
+spassdLU
+K'com.apple.AppleUserHIDDrivers
+tcom.apple.AppleUserHIDDrivers-T
+uaccountsd
+vpfd8R
+lcom.apple.filesystems.fs.apfs
+wapfs_iosd
+xdasd
+yPowerUIAgent
+{donotdisturbd
+|nehelper
+}securityd
+~symptomsd
+findmydeviced
+fmflocatord@I
+;com.apple.MTLCompilerServiceK
+MTLCompilerService$H
+mobileactivationd G
+mDNSResponder.F
+}9com.apple.aps.framework
+apsd
+cloudd
+carkitd
+analyticsd
+BlueTool,A
+9com.apple.GeoServices
+geod
+chronod
+assetsd
+trustd
+touchsetupd&<
+networkserviceproxy
+coreduetd
+applecamerad 9
+biometrickitdS8
+com.apple.wifi.WiFiCloudAssetsXPCService/
+WiFiCloudAssetsXPCService
+calaccessd)6
+CommCenterMobileHelper 5
+syncdefaultsd!4
+wifianalyticsd"3
+OTATaskingAgent
+misagent(1
+localizationswitcherd 0
+pkd<.
+cfcom.apple.TelephonyUtilities
+callservicesd2-
+G<com.apple.CoreSpeech
+corespeechd/,
+tcom.apple.CacheDelete
+deleted
+cokernel_task
+kiE
+
+8EFD67EB-4015-41DA-9384-B6C0A80CEE69{
+4F0229DE-8106-4711-861F-D9968E8F6506x
+
+com.apple.mobileassetd:[com.apple.mobileassetd:(null)]AD56804C-1AF8-4620-A855-84C729D3DF3D{
+_com.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+0315841F-7208-417B-ADF1-7A2D60A2592A{~
+Wcom.apple.mobileassetd:[com.apple.mobileassetd:(null)]
+FD61ADE4-38CA-475D-A6C8-F0B01954A206
+4JpG4
+%
+
+
+;
+
+eJ8
+
+
+
+
+]
+>
+
+			z	\	8	
+deleteds?
+GN?Q
+FamilyControlsAgents?
+plsds?rq6
+siriinferenceds?
+?keybagds?'uH9=M
+.UsageTrackingAgents?6,
+SCHelpers?*'!&K
+mMobileGestaltHelpers?
+familycircleds?c^t*
+<atcs?
+Lz"H
++symptomsd-diags?
+heartbeatds?|pgg
+jfairplayd.H2s?.4Bn
+announceds?gd
+com.apple.HealthKit9healthds?E[|
+(accessoryds?I;T
+gbluetoothds@
+>@20A
+6routineds?#)
+%CategoriesServices?u?h
+syncdefaultsds?@yM'!=
+webbookmarksds?_
+Nd!<
+"fileproviderds?%uU;
+WiFiCloudAssetsXPCServices?Xj
+clipserviceds?
+aAppleCredentialManagerDaemons?Ru
+followupds?k87
+com.apple.AssistantServices0assistantds?1
+IMDPersistenceAgents?N+x
+coreduetds?<:\
+^OTACrashCopiers?
+backupds?{Fp
+trustds?O4,
+amsengagementds?@+M
+[lockdownds?e1kkA!.
+geods?
+logd_helpers? @
+com.apple.imagentXimagents?O
+nearbyds?
+UOL(
+CloudKeychainProxys?LDKA
+carkitds?5&
+StatusKitAgents?	 :2*
+Ulocationds@
+Kj!$
+mDNSResponders?y
+Rsharingds?(
+CAReportingServices?l
+fmflocatords?j :" 
+Othermalmonitords?goi(
+installcoordinationds?sCu
+}securityds@
+Lwcds?F}0
+ctkds?
+MTLCompilerServices@#C =
+appstoreds?rJG
+nanotimekitcompanionds@
+< 9
+com.apple.filesystems.fs.apfswapfs_iosds?+WU	
+dmds?
+Fmobiletimerds?t
+com.apple.AppleUserHIDDriverstcom.apple.AppleUserHIDDriverss?O
+adids?
+Cwifids?N
+2pasteds?EWP' 
+client_loaders@
+qnanoregistryds?
+siriactionsds?$+
+@remoteds?TU
+/EAUpdaterServices?
+@R=
+callservicesds?
+k#O
+
+com.apple.ACCHWComponentAuthServicenACCHWComponentAuthServices?qUf
+voiceds?`s
+=WirelessRadioManagerds?ou&r
+,abm-helpers?
+medialibraryds?rrC
+diagnosticds@+k
+kCommCenters@
+com.apple.siri.embeddedspeechs?Ug6)
+com.apple.powerd:powerds?
+CoYQ
+)localspeechrecognitions?R} z
+misagents?
+amfids?u]g#}
+L!>K
+
+
+
+
+
+
+I
++
+h1
+~[4
+
+
+
+
+d
+F
+
+				F	,	
+mapspushds@
+j?qA!,
+Paskpermissionds? 
+nesessionmanagers?
+~symptomsds?8k
+ckdiscretionaryds?kb (
+Mcontextstoreds?
+
+GS '
+itunesstoreds?
+coreduetds@
+{donotdisturbds?
+com.apple.FontServices.UserFonts?}o"#
+languageassetds?	VD
+xdasds@
+k%Y<!
+heards?u;
+Gselds?i/R.
+com.apple.Accountsuaccountsds?k&j
+3logds?u9}
+profileds?<B
+birds?`6
+rmobileassetds?
+parsec-fbfs?l
+0corecaptureds?|3
+corespeechds?*]-
+TVRemoteConnectionServices?h93
+oawdds?
+siriknowledgeds?
+>biomeds?T$9
+-destinationds?~
+pkds?[2
+lcfprefsds@
+ynr*
+homeds?
+com.apple.TCC;tccds?(
+*trialds?
+d?N)
+
+COH;
+com.apple.AppleMediaServicesiamsaccountsds?
+8configds?&
+'com.apple.CloudDocs.MobileDocums?@t
+@#	
+OTATaskingAgents?|
+revisionds?
+frapportds?|,H!
+5mediaremoteds?
+$ContextServices?_*
+CommCenterMobileHelpers?P
+cpeakpowermanagerds?jOp0h
+PerfPowerTelemetryClientRegistrs?B
+com.apple.People2peopleds?
+!filecoordinationds?
++{!~
+biometrickitds?i
+launchds@	`x[
+`ptpds?
+com.apple.FaceTime.FTConversatis?
+F7c'z
+networkserviceproxys?fW^;
+axassetsds?:9(O[&x
+privacyaccountingds?3
+assetsds?r
+cdpds?[
+Zdriverkitds?K=^
+pipelineds?y
+BlueTools?!d	
+Wcontainermanagerds?
+A- o
+searchpartyds?T8>3n
+inds?L(c
+cloudds?r'l
+videosubscriptionsds?(j
+Ttimeds?
+swcds?G
+J4i
+com.apple.springboard
+SpringBoards?
+hg%h
+mobileactivationds?%
+suggestds?UxI.
+Qbackboardds@.`ER
+findmydeviceds?
+fseventsds?l
+|nehelpers@
+Zx#n5b
+searchds?&x
+Knfcds?
+yPowerUIAgents?Ob
+com.apple.identityservicesdHidentityservicesds@
+wifip2pds?
+vpfds?ET|7;Z
+oO"Y
+Esoftwareupdateds?:$/
+online-auth-agents?rg2-V
+com.apple.PassKitCorespassds?
+fmfds?6
+iRBT
+com.apple.FamilyNotificationBfamilynotificationds?
+1HeuristicInterpreters?
+!
+
+
+z
+S
+1
+
+com.apple.IDSBlastDoorService
+IDSBlastDoorServices?
+_distnoteds?>`
+:a!?
+.UserEventAgents@
+contactsds?]?_-
+touchsetupds?
+promotedcontentds? 
+com.apple.SleepDaemon\sleepds?
+seserviceds?W]
+MYR9
+com.apple.StreamingUnzipServices?
+chronods?:#
+com.apple.NanoPreferencesSyncYnanoprefsyncds?
+o/
+coreauthds?JvZA
+fuds?1
+analyticsds?>
+Vcloudpairds?
+FQ!2
+UY/1
+com.apple.aps.framework
+apsds?{I@0
+com.apple.ManagedSettingsSManagedSettingsAgents?
+Q;[%/
+iconservicesagents?#co;B.
+MTLCompilerServices?7)
+N
+h
+
+
+;5?Qj	@,k
+2U?P
+I?m@,kD
+?HJ?Jw?{
+h?`?D
++y4f?x
+m}"?}>5
+_8b>
+ ?T*#@DrH@
+;kW@,
+Q_?R
+-p@)^
+@T*qX3?;pVf@3
++0?%P@
+]@<>u!S@S
+'mr@ FDl_?%}
+9TH@Z
+@^f?$
+GA	a2
+?(=#1_?
+&*@X1
+4Pk?V
+RC@8F?1VC
+;xk?H4
+ke7a0
+bFo?
++@(O6
+@6w*=a
+Z@c1c
+@DwE
+?Klz@h)
+~@*r s?om2l@Q
+Lt@7|!L9N@KzR
+@UR>Ga/6?
+O@TL
+?.&u@"
+(>@A|0
+f?.%Af@
+.! >@5Ga?+L@G
+k^R*;
+?teY@
+l|?v
+#`?F/
+;?+U
+$q@0aA
+VZ?#
+?4<?!h/D?td@
+V8Q8$@
+sR_(?
+
+@RFF
+@U+X?sPds@U
+El?m<"~i?gHh@)u:v#
+@)?lyp.fF@)
+6Ka9
+
+38@
+ ?x@
+
+*zn@-WAw
+m
+N?"
+l@
+rvI8
+@#t?'?	
+Mh@"w.c%"
+@#y=
+?^y@
+?^=q@
+Ov?]W /@
+e
+E!b6
+tl?x=?
+@N
+/?J@R
+y@Zh
+@aco?@
+8ta5
+QV?ofxH
+?nkdx@
+~?of
+?_^@
+\'?23X
+)Q?n].g@
+fpI4
+Kj
+?u
+@
+Tq)
+%6<
+@
+?Wh@
+U3O+
+/'3?Ig
+g@jw
+?IgDw@Y0q
+@hg
+"/0@r
+?G<I,@r
+J2W
+
+$
+6HZ
+l	
+;/%d@X;
+4@Ae
+9@X<
+*
+ixV
+6.d@X;
+4@AXQ
+9@X't
+*
+iwV
+14d@X;
+4@AK
+*
+jvV
+,37d@X;
+4@A1
+*
+ojuV
+'.|Nd@X;
+4@A%
+*
+ejtV
+"4s!d@X;
+*
+[jsV
+.f<d@X;
+4@A
+*
+QcrV
+.l&d@X;
+9@X;e|x-
+*
+HjqV
+4
+d@X;
+*
+3jpV
+3jd@X;
+4@@Q
+9@XK
+*
+)joV
+	3d@X;
+9@XO1J
+4D|d@X;
+*
+jmV
+_C
+
+A`e
+
+r
+
+v
+K|/
+
+
+
+{n
+F_-0
+`YA&
+h0g"
+
+ &5
+
+PLAccountingOperator_EventForward_QualificationEvents.[-
+PLBBAgent_EventBackward_MavBBHwOther.<6
+
+	+v
+
+
+
+
+
+
+
+
+
+
+r
+b
+R
+A
+vO6
+
+
+~
+	
+6$,A
+=!7L
+eUHT
+{dZ
+cYlA
+%/6A
+/!8A
+%'
+{Z
+F~R	
+4h4#5'`
+Gj8D	A
+}-PiLnL
+pn-s
+y~HA
+s03#&
+
+<RmCoreParsec.frameworkdLocationA
+=|rA@
+jN2tW:
+
+
+
+
+
+
+n
+>i<77Hd
+>i<M
+
+e
+
+
+
+
+
+
+
+
+
+r
+b
+R
+A
+1

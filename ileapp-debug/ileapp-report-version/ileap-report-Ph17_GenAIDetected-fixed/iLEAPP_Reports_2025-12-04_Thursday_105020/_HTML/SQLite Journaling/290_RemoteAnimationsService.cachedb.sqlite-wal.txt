@@ -1,0 +1,29 @@
+1l@'0
+snapshot	
+~=y|ff
+
+RemoteAnimationsService.cachedbbumble_relationship_profile_builder_startbplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$nullO
+H{"id":"bumble_relationship_profile_builder_start","files":[{"remoteURL":"https:\/\/pd2us.bumbcdn.com\/i\/big\/animations\/screen_story\/bumble_relationship_profile_builder_start\/bumble_relationship_profile_builder_start.json","relativePath":"bumble_relationship_profile_builder_start.json"}],"area":1,"loopsCount":0,"format":3}
+}b
+|
+3H\Y
+
+K_	RemoteAnimationsService.cachedbbumble_relationship_profile_builder_start
+}boSR_
+}bot{t]SQLite format 3
+.S`
+
+!tabledatabase2database2
+CREATE TABLE "database2" ("rowid" INTEGER PRIMARY KEY,  "collection" CHAR NOT NULL,  "key" CHAR NOT NULL,  "data" BLOB,  "metadata" BLOB )
+tableyap2yap2
+CREATE TABLE "yap2" ("extension" CHAR NOT NULL,   "key" CHAR NOT NULL,   "data" BLOB,   PRIMARY KEY ("extension", "key") )'
+indexsqlite_autoindex_yap2_1yap2
+}bo
+}bo
+M
+

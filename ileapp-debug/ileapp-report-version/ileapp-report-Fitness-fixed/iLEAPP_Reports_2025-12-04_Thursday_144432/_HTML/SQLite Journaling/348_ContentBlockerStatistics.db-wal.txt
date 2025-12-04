@@ -1,0 +1,37 @@
+yE
+N
+SQLite format 3
+.S`
+
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)1
+tableFirstPartyDomainsFirstPartyDomains
+CREATE TABLE FirstPartyDomains (firstPartyDomainID INTEGER PRIMARY KEY AUTOINCREMENT,domain TEXT NOT NULL UNIQUE ON CONFLICT FAIL)A
+indexsqlite_autoindex_FirstPartyDomains_1FirstPartyDomains
+yE
+b;
+yE
+}
+
+yE
+L
+tableThirdPartyDomainsThirdPartyDomains
+CREATE TABLE ThirdPartyDomains (thirdPartyDomainID INTEGER PRIMARY KEY AUTOINCREMENT,domain TEXT NOT NULL UNIQUE ON CONFLICT FAIL)A
+indexsqlite_autoindex_ThirdPartyDomains_1ThirdPartyDomains
+y!
+
+yE
+c;M`;
+
+yE
+DiSQLite format 3
+l
+w
+tableBlockedResourcesBlockedResources
+CREATE TABLE BlockedResources (firstPartyDomainID INTEGER NOT NULL,thirdPartyDomainID INTEGER NOT NULL,lastSeen REAL NOT NULL,FOREIGN KEY (firstPartyDomainID) REFERENCES FirstPartyDomains(firstPartyDomainID) ON DELETE CASCADE,FOREIGN KEY (thirdPartyDomainID) REFERENCES ThirdPartyDomains(thirdPartyDomainID) ON DELETE CASCADE,PRIMARY KEY (firstPartyDomainID, thirdPartyDomainID))?
+indexsqlite_autoindex_BlockedResources_1BlockedResources
+yE
+P +
+yE
+y
+<SQLite format 3

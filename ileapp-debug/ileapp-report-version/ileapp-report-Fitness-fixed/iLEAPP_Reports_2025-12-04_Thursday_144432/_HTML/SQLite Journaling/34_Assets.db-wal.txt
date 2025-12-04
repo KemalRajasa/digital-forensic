@@ -1,0 +1,102 @@
+Q2GTapSQLite format 3
+.S`
+
+
+
+7[s
+indexAssetVolumeVolumeUUIDIndexAssetVolumeCREATE INDEX AssetVolumeVolumeUUIDIndex on AssetVolume (volumeUUID)i	
+indexAssetHandleFileIDIndexAssetHandleCREATE INDEX AssetHandleFileIDIndex on AssetHandle (fileID)i
+indexAssetHandleStatusIndexAssetHandle
+CREATE INDEX AssetHandleStatusIndex on AssetHandle (status){
+indexAssetHandleLastUsedTimeIndexAssetHandle	CREATE INDEX AssetHandleLastUsedTimeIndex on AssetHandle (lastUsedTime)v
+indexAssetHandleSignatureIndexAssetHandle
+CREATE INDEX AssetHandleSignatureIndex on AssetHandle (fileSignature)b
+{indexAssetHandleUUIDIndexAssetHandle
+CREATE INDEX AssetHandleUUIDIndex on AssetHandle (UUID)
+ItableAssetVolumeAssetVolume
+CREATE TABLE AssetVolume (
+    volumeIndex     integer primary key,
+    volumeUUID      blob
+)
+{tableAssetHandleAssetHandle
+CREATE TABLE AssetHandle (
+    itemID        integer primary key,
+    UUID          blob not null,
+    lastUsedTime  integer not null,
+    volumeIndex      integer,
+    fileID        integer,
+    generationID  integer,
+    path          text,
+    fileSignature blob,
+    status        integer,
+    modTime       integer,
+    fileSize      integer,
+    chunkCount    integer
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+SQLite format 3
+Q/V)O
+
+!-LastVacuum663908255.579381Q
+'
+SchemaVersionAACF7DCBCFA6FAFB5A6223DBCD228F519DB805083706B27B8EB0A8ACFC81A749
+-Created663908255.574582
+2nK_
+
+SchemaVersion
+LastVacuum
+	Created
+Q2Z[/:
+
+,apfsuuid
+@volum
+Q!CD
+QGpJ
+
+5L(
+
+p\C
+
+Q"X$
+,	apfsuuid
+!-LastVacuum665202281.918554Q
+!*N I1vB]a
+,	!*N I1vB]
+Q?^5u|
+
+53WP
+
+
+eF:
+
+Q	hs
+^SQLite format 3
+Q\:/
+
+QAt
+
+Q#}Z
+o}E
+
+Q>b=
+QHs
+
+!-LastVacuum666553578.783401Q
+RDY.-NJY
+Q-2yQ]
+
+Q_hv])
+
+Q:[S
+
+Q>dh
+
+2H
+C
+QVl9
+

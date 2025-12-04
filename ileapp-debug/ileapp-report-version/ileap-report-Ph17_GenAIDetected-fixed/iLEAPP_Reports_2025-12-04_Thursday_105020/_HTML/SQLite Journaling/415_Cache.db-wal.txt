@@ -1,0 +1,142 @@
+UsEHEq u
+Us*Z
+https://gsa.apple.com/grandslam/GsService2/lookup2022-01-10 17:27:54
+UsBt2oS
+o	https://gsa.apple.com/grandslam/GsService2/lookup
+UskDp.=
+
+5	cfurl_cache_response
+UstR#
+bplist00
+WVersionUArray
+
+
+"#
+_CFURLStringType\_CFURLString
+1https://gsa.apple.com/grandslam/GsService2/lookup#AR
+0
+ !VServer\Content-TypeZConnection_
+Strict-Transport-SecurityX__hhaa__TDate_
+X-Frame-OptionsZKeep-Alive^Content-Length]Cache-ControlUApple_
+text/x-xml-plistZkeep-alive_
+#max-age=31536000; includeSubdomains_
+ 
+
+YnBsaXN0MDDZAQIDBAUGBwgJCgwOEBIUFhgaVlNlcnZlclxDb250ZW50LVR5cGVaS2VlcC1BbGl2ZV8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlURGF0ZV8QD1gtRnJhbWUtT3B0aW9uc15Db250ZW50LUxlbmd0aF1DYWNoZS1Db250cm9sWkNvbm5lY3Rpb26hC1VBcHBsZaENXxAQdGV4dC94LXhtbC1wbGlzdKEPWnRpbWVvdXQ9MzChEV8QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRNfEB1Nb24sIDEwIEphbiAyMDIyIDE3OjI3OjU0IEdNVKEVWlNBTUVPUklHSU6hF1UxNDk4NKEZXW1heC1hZ2U9ODY0MDChG1prZWVwLWFsaXZlAAgAGwAiAC8AOgBWAFsAbQB8AIoAlQCXAJ0AnwCyALQAvwDBAOcA6QEJAQsBFgEYAR4BIAEuATAAAAAAAAACAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAABOw==_
+Mon, 10 Jan 2022 17:27:54 GMTZSAMEORIGINZtimeout=30U14984]max-age=86400_
+ __CFURLResponseNullTokenString___
+text/x-xml-plist
+1https://gsa.apple.com/grandslam/GsService2/lookup#@N
+__CFURLRequestNullTokenString__	
+SGET
+ !"#$%&'()*+,VAccept_
+X-Apple-I-TimeZone_
+X-Apple-I-SKU-Country_
+X-Apple-I-TimeZone-Offset_
+X-MMe-Client-Info_
+X-Mme-Device-IdX__hhaa___
+Accept-Language_
+X-Apple-I-Locale_
+Accept-Encoding]X-MMe-CountryS*/*_
+America/New_YorkRLLV-18000_
+N<iPhone10,1> <iPhone OS;15.0.2;19A404> <com.apple.akd/1.0 (com.apple.akd/1.0)>_
+(fb028ddefa8af7df5b12d3e729f075d150637a31_
+
+
+YnBsaXN0MDDaAQIDBAUGBwgJCgsNDxETFRcZGx1WQWNjZXB0XxASWC1BcHBsZS1JLVRpbWVab25lXxAVWC1BcHBsZS1JLVNLVS1Db3VudHJ5XxAZWC1BcHBsZS1JLVRpbWVab25lLU9mZnNldF8QEVgtTU1lLUNsaWVudC1JbmZvXxAPQWNjZXB0LUVuY29kaW5nXxAPQWNjZXB0LUxhbmd1YWdlXxAQWC1BcHBsZS1JLUxvY2FsZV1YLU1NZS1Db3VudHJ5XxAPWC1NbWUtRGV2aWNlLUlkoQxTKi8qoQ5fEBBBbWVyaWNhL05ld19Zb3JroRBSTEyhElYtMTgwMDChFF8QTjxpUGhvbmUxMCwxPiA8aVBob25lIE9TOzE1LjAuMjsxOUE0MDQ+IDxjb20uYXBwbGUuYWtkLzEuMCAoY29tLmFwcGxlLmFrZC8xLjApPqEWXxARZ3ppcCwgZGVmbGF0ZSwgYnKhGF5lbi1VUyxlbjtxPTAuOaEaVWVuX1VToRxSVVOhHl8QKGZiMDI4ZGRlZmE4YWY3ZGY1YjEyZDNlNzI5ZjA3NWQxNTA2MzdhMzEACAAdACQAOQBRAG0AgQCTAKUAuADGANgA2gDeAOAA8wD1APgA+gEBAQMBVAFWAWoBbAF7AX0BgwGFAYgBigAAAAAAAAIBAAAAAAAAAB8AAAAAAAAAAAAAAAAAAAG1^en-US,en;q=0.9Uen_US_
+gzip, deflate, brRUS
+UscHH	
+	U6C9CD74A-DA5A-4AF2-94E4-093F2D9659E0
+Usb@8II
+
+x'I"j
+3	2022-01-10 17:27:54
+Usy
+
+2Ep
+UsJ|
+Us-RW
+
+1https://gsa.apple.com/grandslam/GsService2/lookup#A
+ 
+
+YnBsaXN0MDDZAQIDBAUGBwgJCgwOEBIUFhgaVlNlcnZlclxDb250ZW50LVR5cGVaS2VlcC1BbGl2ZV8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlURGF0ZV8QD1gtRnJhbWUtT3B0aW9uc15Db250ZW50LUxlbmd0aF1DYWNoZS1Db250cm9sWkNvbm5lY3Rpb26hC1VBcHBsZaENXxAQdGV4dC94LXhtbC1wbGlzdKEPWnRpbWVvdXQ9MzChEV8QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRNfEB1XZWQsIDEyIEphbiAyMDIyIDIyOjE4OjM0IEdNVKEVWlNBTUVPUklHSU6hF1UxNDk4NKEZXW1heC1hZ2U9ODY0MDChG1prZWVwLWFsaXZlAAgAGwAiAC8AOgBWAFsAbQB8AIoAlQCXAJ0AnwCyALQAvwDBAOcA6QEJAQsBFgEYAR4BIAEuATAAAAAAAAACAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAABOw==_
+Wed, 12 Jan 2022 22:18:34 GMTZSAMEORIGINZtimeout=30U14984]max-age=86400_
+UsSsom
+1https://gsa.apple.com/grandslam/GsService2/lookup#A$*
+ 
+
+YnBsaXN0MDDZAQIDBAUGBwgJCgwOEBIUFhgaVlNlcnZlclxDb250ZW50LVR5cGVaS2VlcC1BbGl2ZV8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlURGF0ZV8QD1gtRnJhbWUtT3B0aW9uc15Db250ZW50LUxlbmd0aF1DYWNoZS1Db250cm9sWkNvbm5lY3Rpb26hC1VBcHBsZaENXxAQdGV4dC94LXhtbC1wbGlzdKEPWnRpbWVvdXQ9MzChEV8QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRNfEB1TYXQsIDE1IEphbiAyMDIyIDAwOjA4OjU3IEdNVKEVWlNBTUVPUklHSU6hF1UxNDk4NKEZXW1heC1hZ2U9ODY0MDChG1prZWVwLWFsaXZlAAgAGwAiAC8AOgBWAFsAbQB8AIoAlQCXAJ0AnwCyALQAvwDBAOcA6QEJAQsBFgEYAR4BIAEuATAAAAAAAAACAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAABOw==_
+Sat, 15 Jan 2022 00:08:57 GMTZSAMEORIGINZtimeout=30U14984]max-age=86400_
+UsRl7MSQLite format 3
+.S`
+
+f
+
+#u
+indexreceiver_data_indexcfurl_cache_receiver_dataCREATE INDEX receiver_data_index ON cfurl_cache_receiver_data(entry_ID)t	
+indexproto_props_indexcfurl_cache_blob_dataCREATE INDEX proto_props_index ON cfurl_cache_blob_data(entry_ID)r
+indextime_stamp_indexcfurl_cache_response
+CREATE INDEX time_stamp_index ON cfurl_cache_response(time_stamp)u
+indexrequest_key_indexcfurl_cache_response	CREATE INDEX request_key_index ON cfurl_cache_response(request_key)+
+etablecfurl_cache_receiver_datacfurl_cache_receiver_data
+CREATE TABLE cfurl_cache_receiver_data(entry_ID INTEGER PRIMARY KEY, isDataOnFS INTEGER, receiver_data BLOB)I
+1tablecfurl_cache_blob_datacfurl_cache_blob_data
+CREATE TABLE cfurl_cache_blob_data(entry_ID INTEGER PRIMARY KEY, response_object BLOB, request_object BLOB, 			  proto_props BLOB, user_info BLOB)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)"
+gtablecfurl_cache_responsecfurl_cache_response
+CREATE TABLE cfurl_cache_response(entry_ID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, 	 version INTEGER, hash_value INTEGER, storage_policy INTEGER, request_key TEXT UNIQUE, 	 time_stamp NOT NULL DEFAULT CURRENT_TIMESTAMP, partition TEXT)G
+indexsqlite_autoindex_cfurl_cache_response_2cfurl_cache_response
+indexsqlite_autoindex_cfurl_cache_response_1cfurl_cache_response
+waoFLhttps://gsa.apple.com/grandslam/GsService2/lookup/000548-08-f13aace4-469a-4e18-b925-29a5dad92ee12022-01-21 20:21:13P
+Us|6lJ7
+
+https://gsa.apple.com/grandslam/GsService2/lookup/000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1
+UsuGIq\
+
+cfurl_cache_response
+UsQY^4
+i0bm
+
+	U7C40DA72-F5F5-46E4-A3D3-96486A29966A(
+Us3p`&
+
+2022-01-21 20:21:13
+UsZx
+Usj`
+`https://gsa.apple.com/grandslam/GsService2/lookup/000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1#A
+ 
+
+YnBsaXN0MDDZAQIDBAUGBwgJCgwOEBIUFhgaVlNlcnZlclxDb250ZW50LVR5cGVaS2VlcC1BbGl2ZV8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlURGF0ZV8QD1gtRnJhbWUtT3B0aW9uc15Db250ZW50LUxlbmd0aF1DYWNoZS1Db250cm9sWkNvbm5lY3Rpb26hC1VBcHBsZaENXxAQdGV4dC94LXhtbC1wbGlzdKEPWnRpbWVvdXQ9MzChEV8QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRNfEB1GcmksIDIxIEphbiAyMDIyIDIwOjIxOjEyIEdNVKEVWlNBTUVPUklHSU6hF1UxNTU0MaEZXW1heC1hZ2U9ODY0MDChG1prZWVwLWFsaXZlAAgAGwAiAC8AOgBWAFsAbQB8AIoAlQCXAJ0AnwCyALQAvwDBAOcA6QEJAQsBFgEYAR4BIAEuATAAAAAAAAACAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAABOw==_
+Fri, 21 Jan 2022 20:21:12 GMTZSAMEORIGINZtimeout=30U15541]max-age=86400_
+Bbplist00
+`https://gsa.apple.com/grandslam/GsService2/lookup/000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1#@N
+FLhttps://gsa.apple.com/grandslam/GsService2/lookup/000548-08-f13aace4-469a-4e18-b925-29a5dad92ee12022-01-21 20:21:13P
+UsMC
+ 
+
+YnBsaXN0MDDZAQIDBAUGBwgJCgwOEBIUFhgaVlNlcnZlclxDb250ZW50LVR5cGVaS2VlcC1BbGl2ZV8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlURGF0ZV8QD1gtRnJhbWUtT3B0aW9uc15Db250ZW50LUxlbmd0aF1DYWNoZS1Db250cm9sWkNvbm5lY3Rpb26hC1VBcHBsZaENXxAQdGV4dC94LXhtbC1wbGlzdKEPWnRpbWVvdXQ9MzChEV8QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRNfEB1TdW4sIDMwIEphbiAyMDIyIDAxOjU3OjIyIEdNVKEVWlNBTUVPUklHSU6hF1UxNTU0MaEZXW1heC1hZ2U9ODY0MDChG1prZWVwLWFsaXZlAAgAGwAiAC8AOgBWAFsAbQB8AIoAlQCXAJ0AnwCyALQAvwDBAOcA6QEJAQsBFgEYAR4BIAEuATAAAAAAAAACAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAABOw==_
+Sun, 30 Jan 2022 01:57:22 GMTZSAMEORIGINZtimeout=30U15541]max-age=86400_
+Us'tK\
+
+
+
+
+`https://gsa.apple.com/grandslam/GsService2/lookup/000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1#AU[bS
+VServer\Content-TypeX__hhaa___
+Strict-Transport-SecurityTDate_
+x-frame-options^Content-Length]Cache-ControlUApple_
+text/x-xml-plist_
+
+
+YnBsaXN0MDDXAQIDBAUGBwgKDA4QEhRWU2VydmVyXENvbnRlbnQtVHlwZV8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlURGF0ZV8QD3gtZnJhbWUtb3B0aW9uc15Db250ZW50LUxlbmd0aF1DYWNoZS1Db250cm9soQlVQXBwbGWhC18QEHRleHQveC14bWwtcGxpc3ShDV8QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoQ9fEB1GcmksIDA0IEZlYiAyMDIyIDAwOjI4OjM0IEdNVKERWlNBTUVPUklHSU6hE1UxNTU0MaEVXW1heC1hZ2U9ODY0MDAACAAXAB4AKwBHAEwAXgBtAHsAfQCDAIUAmACaAMAAwgDiAOQA7wDxAPcA+QAAAAAAAAIBAAAAAAAAABYAAAAAAAAAAAAAAAAAAAEH_
+Fri, 04 Feb 2022 00:28:34 GMTZSAMEORIGINU15541]max-age=86400_
+Us#8p
+
+1https://gsa.apple.com/grandslam/GsService2/lookup#Aj
+ 
+
+YnBsaXN0MDDZAQIDBAUGBwgJCgwOEBIUFhgaVlNlcnZlclxDb250ZW50LVR5cGVaS2VlcC1BbGl2ZV8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHlURGF0ZV8QD1gtRnJhbWUtT3B0aW9uc15Db250ZW50LUxlbmd0aF1DYWNoZS1Db250cm9sWkNvbm5lY3Rpb26hC1VBcHBsZaENXxAQdGV4dC94LXhtbC1wbGlzdKEPWnRpbWVvdXQ9MzChEV8QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoRNfEB1Nb24sIDE0IEZlYiAyMDIyIDE4OjE2OjQ0IEdNVKEVWlNBTUVPUklHSU6hF1UxNTc2OaEZXW1heC1hZ2U9ODY0MDChG1prZWVwLWFsaXZlAAgAGwAiAC8AOgBWAFsAbQB8AIoAlQCXAJ0AnwCyALQAvwDBAOcA6QEJAQsBFgEYAR4BIAEuATAAAAAAAAACAQAAAAAAAAAcAAAAAAAAAAAAAAAAAAABOw==_
+Mon, 14 Feb 2022 18:16:44 GMTZSAMEORIGINZtimeout=30U15769]max-age=86400_
+`https://gsa.apple.com/grandslam/GsService2/lookup/000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1#Aj

@@ -1,0 +1,163 @@
+eDG"
+4O:kh
+SQLite format 3
+.S`
+
+
+
+7[s
+indexAssetVolumeVolumeUUIDIndexAssetVolumeCREATE INDEX AssetVolumeVolumeUUIDIndex on AssetVolume (volumeUUID)i	
+indexAssetHandleFileIDIndexAssetHandleCREATE INDEX AssetHandleFileIDIndex on AssetHandle (fileID)i
+indexAssetHandleStatusIndexAssetHandle
+CREATE INDEX AssetHandleStatusIndex on AssetHandle (status){
+indexAssetHandleLastUsedTimeIndexAssetHandle	CREATE INDEX AssetHandleLastUsedTimeIndex on AssetHandle (lastUsedTime)v
+indexAssetHandleSignatureIndexAssetHandle
+CREATE INDEX AssetHandleSignatureIndex on AssetHandle (fileSignature)b
+{indexAssetHandleUUIDIndexAssetHandle
+CREATE INDEX AssetHandleUUIDIndex on AssetHandle (UUID)
+ItableAssetVolumeAssetVolume
+CREATE TABLE AssetVolume (
+    volumeIndex     integer primary key,
+    volumeUUID      blob
+)
+{tableAssetHandleAssetHandle
+CREATE TABLE AssetHandle (
+    itemID        integer primary key,
+    UUID          blob not null,
+    lastUsedTime  integer not null,
+    volumeIndex      integer,
+    fileID        integer,
+    generationID  integer,
+    path          text,
+    fileSignature blob,
+    status        integer,
+    modTime       integer,
+    fileSize      integer,
+    chunkCount    integer
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
++ORLSQLite format 3
+h<d
+
+!-LastVacuum664496899.052627Q
+'
+SchemaVersionAACF7DCBCFA6FAFB5A6223DBCD228F519DB805083706B27B8EB0A8ACFC81A749
+-Created664496899.046456
+SchemaVersion
+LastVacuum
+	Created
+w0Ra3
+VmE7!yhK	<Xa3
+,apfsuuid
+@volum
+"srt
+
+z2GD
+
+MP:
+
+4vjp*C
+
+,	apfsuuid
+!-LastVacuum665874890.209891Q
+m@.[ pb
+4O/r2e
+
+m@.[ p
+;i#
+
+4BBb
+4tN@)
+
+f=
+*
+
+4xzyoC
+
+1]NZ
+4O=B
+4H?]
+
+OmRWJbb
+
+1$b
+y:K
+
+OmRWJb
+4Le{j`a
+
+(LB
+
+4
+g|T
+pwH
+
+4wb`]
+
+4eC
+
+49%4
+$TB+
+
+h9g
+
+_"	[
+
+4[Xen
+
+4[Vc(PQ
+
+4Ku
+
+4Wsp'
+
+@Y_
+
+4Ha7]R
+
+hu++0
+
+!-LastVacuum666553386.609419Q
+4i_Z*
+
+
+o+,
+
+fg^b
+
+,	(oP
+4%'W
+	(oP
+48z?t
+
+3B?Tb
+
+
+19b
+
+4yKH
+3B?T
+4K]H
+
+4.K
+
+(aw0
+4Xb1
+4
+V
+
+Q[p
+
+4^/L
+4&1Cg
+
+4t4{n
+6 1
+
+43`41
+

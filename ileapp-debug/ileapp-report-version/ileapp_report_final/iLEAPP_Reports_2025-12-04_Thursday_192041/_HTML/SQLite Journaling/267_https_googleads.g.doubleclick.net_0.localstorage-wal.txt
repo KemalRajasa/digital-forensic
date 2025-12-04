@@ -1,0 +1,42 @@
+$=MS9/SQLite format 3
+.S`
+
+QtableItemTableItemTable
+CREATE TABLE ItemTable (key TEXT UNIQUE ON CONFLICT REPLACE, value BLOB NOT NULL ON CONFLICT FAIL)1
+indexsqlite_autoindex_ItemTable_1ItemTable
+$=gl^,
+
+LLSQLite format 3
+$=Ae)Y
+Tgmafs{
+)(admob_app_name3
+1(experiment_seed_v2{
+gmafs
+admob_app_name
+1	experiment_seed_v2
+$==c
+$=UB
+$=mGkn
+$=&
+bw
+$=Zpv
+$=^q
+$=p9
+$=4G#Zt
+
+(s}
+
+$=4BT
+
+$=>:pv^
+
+"*]
+
+$=`\Z
+
+$=w!
+$=M3C"
+
+$=5x
+70
+

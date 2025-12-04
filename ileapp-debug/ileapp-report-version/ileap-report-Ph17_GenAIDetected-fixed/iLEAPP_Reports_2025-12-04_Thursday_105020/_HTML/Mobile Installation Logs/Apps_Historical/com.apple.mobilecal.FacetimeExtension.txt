@@ -1,0 +1,3 @@
+2022-01-10 12:29:51 Data container moved com.apple.mobilecal.FacetimeExtension /private/var/mobile/Containers/Data/PluginKitPlugin/1C83B4CC-AF1F-4D90-B724-2F28687BC83F
+2022-01-10 12:29:51 Data container moved com.apple.mobilecal.FacetimeExtension /private/var/mobile/Containers/Data/PluginKitPlugin/1C83B4CC-AF1F-4D90-B724-2F28687BC83F
+2022-01-06 17:41:30 Made container live com.apple.mobilecal.FacetimeExtension /private/var/mobile/Containers/Data/PluginKitPlugin/C28B7BA1-22CF-4ABC-B3A6-8DA3B89E33FB

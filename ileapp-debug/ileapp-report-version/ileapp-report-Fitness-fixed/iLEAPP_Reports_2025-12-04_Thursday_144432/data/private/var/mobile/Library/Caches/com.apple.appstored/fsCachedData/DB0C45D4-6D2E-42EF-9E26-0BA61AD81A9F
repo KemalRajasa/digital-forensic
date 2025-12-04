@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>store-version</key><string>1.0</string>
+  <key>store-client-application</key><string>Third-Party</string>
+  <key>available-subproducts</key>
+  <array>
+    <dict>
+      <key>item-id</key><integer>1462237232</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/alltrails-pro/id405075943</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>59.99</real>
+          <key>price-display</key><string>$59.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>com.alltrails.AllTrails.pro.threeyear.59.int</string>
+      <key>description</key><string>Three Year Subscription to AllTrails Pro</string>
+      <key>title</key><string>AllTrails Pro</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1456651237</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/alltrails-pro/id405075943</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>29.99</real>
+          <key>price-display</key><string>$29.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>com.alltrails.AllTrails.pro.yearly.30.int</string>
+      <key>description</key><string>Subscription to AllTrails Pro</string>
+      <key>title</key><string>AllTrails Pro</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>12572965</string>
+      <key>recurringSubscriptionPeriod</key><string>P1Y</string>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1564791981</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/alltrails-pro/id405075943</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>29.99</real>
+          <key>price-display</key><string>$29.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>com.alltrails.AllTrails.pro.yearly.30.trial7.int</string>
+      <key>description</key><string>Subscription to AllTrails Pro</string>
+      <key>title</key><string>AllTrails Pro</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>12572965</string>
+      <key>recurringSubscriptionPeriod</key><string>P1Y</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>price</key><real>0</real>
+          <key>price-display</key><string>$0.00</string>
+          <key>modeType</key><string>FreeTrial</string>
+          <key>recurringSubscriptionPeriod</key><string>P1W</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+  </array>
+</dict>
+</plist>

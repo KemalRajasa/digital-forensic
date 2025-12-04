@@ -1,0 +1,24 @@
+3@1 [
+3CN|SQLite format 3
+.S`
+
+3#{|SQLite format 3
+tableyap2yap2
+CREATE TABLE "yap2" ("extension" CHAR NOT NULL,   "key" CHAR NOT NULL,   "data" BLOB,   PRIMARY KEY ("extension", "key") )'
+indexsqlite_autoindex_yap2_1yap2
+3)bB
+
+di"=
+
+SQLite format 3
+!tabledatabase2database2
+CREATE TABLE "database2" ("rowid" INTEGER PRIMARY KEY,  "collection" CHAR NOT NULL,  "key" CHAR NOT NULL,  "data" BLOB,  "metadata" BLOB )
+3l!q]B
+3#/=SQLite format 3
+'indextrue_primary_keydatabase2
+CREATE UNIQUE INDEX "true_primary_key" ON "database2" ( "collection", "key" ))
+3Rzn[
+0;6HSQLite format 3
+3Xd6
+
+	snapshot

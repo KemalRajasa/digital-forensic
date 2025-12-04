@@ -1,0 +1,125 @@
+VvOy]Y! 
+VvOjy\B	
+SQLite format 3
+.S`
+
+;tabletable_versionstable_versions
+CREATE TABLE table_versions (id TEXT NOT NULL, version TEXT NOT NULL, PRIMARY KEY (id));
+indexsqlite_autoindex_table_versions_1table_versions
+VvOu^
+VvOW
+VvOW2
+ISQLite format 3
+tablegeocodedLocationgeocodedLocation
+CREATE TABLE geocodedLocation (id TEXT NOT NULL, location BLOB NOT NULL, timeZoneIdentifier TEXT NOT NULL, PRIMARY KEY (id))?
+indexsqlite_autoindex_geocodedLocation_1geocodedLocation
+VvOo
+VvO^
+c&:
+
+geocodedLocation0.0.4
+VvO]S
+-	geocodedLocation
+VvOSj.
+
+;(-44.474 -73.213 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.474240453850136:-73.2132908492738","coordinate":{"longitude":-73.213290849273804,"latitude":44.474240453850136},"preciseName":"Champlain College","name":"Burlington","lastRefreshDate":663898336.02050602}America/New_York
+OlY
+
+;	44.474 -73.213 en-US US
+VvO^B
+;*-44.474 -73.214 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.474011581085435:-73.21358665249129","coordinate":{"longitude":-73.213586652491287,"latitude":44.474011581085435},"preciseName":"Champlain College","name":"Burlington","lastRefreshDate":663898611.38004804}America/New_York:
+VvO5 
+44.474 -73.214 en-US US
+;*-44.452 -73.171 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.45195030964126:-73.1714226487547","coordinate":{"longitude":-73.171422648754699,"latitude":44.451950309641262},"preciseName":"W Twin Oaks Terr","name":"South Burlington","lastRefreshDate":663948657.40414}America/New_York;
+VvOPv
+]~+#'
+
+44.452 -73.171 en-US US
+VvOf2x
+
+
+G
+-44.442 -73.121 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.442310533527696:-73.12102479866996","coordinate":{"longitude":-73.121024798669964,"latitude":44.442310533527696},"preciseName":"Harvest Ln","name":"Williston","lastRefreshDate":663949580.43209195}America/New_York;
+VvO)S
+
+44.442 -73.121 en-US US
+VvO R:
+
+-44.445 -73.114 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.44530258187682:-73.1136411656921","coordinate":{"longitude":-73.113641165692101,"latitude":44.445302581876817},"preciseName":"Marshall Ave","name":"Williston","lastRefreshDate":664034627.88978398}America/New_York3
+isLd
+
+44.445 -73.114 en-US US
+VvOk:_
+;4-44.475 -73.200 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.47480308730454:-73.20045204441506","coordinate":{"longitude":-73.200452044415059,"latitude":44.474803087304537},"preciseName":"The University of Vermont","name":"Burlington","lastRefreshDate":664297111.296808}America/New_York3
+44.475 -73.200 en-US US
+;"-44.490 -73.185 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.49005230067322:-73.1847206459586","coordinate":{"longitude":-73.184720645958606,"latitude":44.49005230067322},"preciseName":"Winooski Falls Way","name":"Winooski","lastRefreshDate":664488907.16080904}America/New_York@
+VvO_M
+44.490 -73.185 en-US US
+VvO4`p8a
+;*-44.474 -73.214 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.474011581085435:-73.21358665249129","coordinate":{"longitude":-73.213586652491287,"latitude":44.474011581085435},"preciseName":"Champlain College","name":"Burlington","lastRefreshDate":663898611.38004804}America/New_York
+VvOk1
+VvOFh
+;*-44.452 -73.171 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.45195030964126:-73.1714226487547","coordinate":{"longitude":-73.171422648754699,"latitude":44.451950309641262},"preciseName":"W Twin Oaks Terr","name":"South Burlington","lastRefreshDate":663948657.40414}America/New_York
+VvOb]
+VvO)
+}m
+G
+-44.442 -73.121 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.442310533527696:-73.12102479866996","coordinate":{"longitude":-73.121024798669964,"latitude":44.442310533527696},"preciseName":"Harvest Ln","name":"Williston","lastRefreshDate":663949580.43209195}America/New_York
+G~Y1&
+
+VvO
+}
+p3
+
+-44.445 -73.114 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.44530258187682:-73.1136411656921","coordinate":{"longitude":-73.113641165692101,"latitude":44.445302581876817},"preciseName":"Marshall Ave","name":"Williston","lastRefreshDate":664034627.88978398}America/New_York
+VvO)+q
+VvOt
+	
+;4-44.475 -73.200 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.47480308730454:-73.20045204441506","coordinate":{"longitude":-73.200452044415059,"latitude":44.474803087304537},"preciseName":"The University of Vermont","name":"Burlington","lastRefreshDate":664297111.296808}America/New_York
+VvOB
+VvO|Z~c
+
+;"-44.490 -73.185 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.49005230067322:-73.1847206459586","coordinate":{"longitude":-73.184720645958606,"latitude":44.49005230067322},"preciseName":"Winooski Falls Way","name":"Winooski","lastRefreshDate":664488907.16080904}America/New_York
+VvOTf
+VvO%
+
+-44.476 -73.212 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.47568169443819:-73.21205251114426","coordinate":{"longitude":-73.212052511144265,"latitude":44.475681694438187},"preciseName":"Main St","name":"Burlington","lastRefreshDate":665200586.71427703}America/New_York
+VvOnzS 
+
+;	44.476 -73.212 en-US US
+VvOwg
+;(-44.474 -73.214 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.47398918153888:-73.21353094858192","coordinate":{"longitude":-73.213530948581919,"latitude":44.473989181538883},"preciseName":"Champlain College","name":"Burlington","lastRefreshDate":665200589.23034096}America/New_York0
+VvOHju!
+
+U$>f
+
+VvOn<
+;*-44.474 -73.214 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.474035044248275:-73.21354133409933","coordinate":{"longitude":-73.213541334099332,"latitude":44.474035044248275},"preciseName":"Champlain College","name":"Burlington","lastRefreshDate":665874289.93592298}America/New_York0
+VvOr
+|>)
+
+-44.445 -73.196 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.44531959485674:-73.19647458388765","coordinate":{"longitude":-73.19647458388765,"latitude":44.445319594856741},"preciseName":"Swift St","name":"South Burlington","lastRefreshDate":665875267.944157}America/New_York;
+44.445 -73.196 en-US US
+VvOI
+k
+
+XX
+;*-44.474 -73.214 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.474035044248275:-73.21354133409933","coordinate":{"longitude":-73.213541334099332,"latitude":44.474035044248275},"preciseName":"Champlain College","name":"Burlington","lastRefreshDate":665874289.93592298}America/New_York
+VvOZrG,
+
+VvOH/W^
+XXX
+-44.445 -73.196 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:44.44531959485674:-73.19647458388765","coordinate":{"longitude":-73.19647458388765,"latitude":44.445319594856741},"preciseName":"Swift St","name":"South Burlington","lastRefreshDate":665875267.944157}America/New_York
+VvOK=
+VvO+R
+
+J*5
+
+XX
+-38.843 -77.278 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:38.842771855354236:-77.27773296366472","coordinate":{"longitude":-77.277732963664718,"latitude":38.842771855354236},"preciseName":"Bradwater St","name":"Fairfax","lastRefreshDate":666549349.35239899}America/New_York
+;	38.843 -77.278 en-US US
+VvOha]
+
+-38.844 -77.287 en-US US{"timeZone":{"identifier":"America\/New_York"},"id":"LocationID:38.84412764999998:-77.28686522999998","coordinate":{"longitude":-77.286865229999975,"latitude":38.844127649999983},"preciseName":"Main St","name":"Fairfax","lastRefreshDate":666554343.14539802}America/New_York3
+VvO'u/
+38.844 -77.287 en-US US

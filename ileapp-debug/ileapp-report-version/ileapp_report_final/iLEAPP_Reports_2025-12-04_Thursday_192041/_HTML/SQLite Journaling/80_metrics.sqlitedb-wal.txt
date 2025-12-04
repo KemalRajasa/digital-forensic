@@ -1,0 +1,102 @@
+PfGX{ic.
+PfGX'^
+SQLite format 3
+.S`
+
+r
+
+\
+indexidentifiers_store_uuididentifiersCREATE INDEX identifiers_store_uuid ON identifiers (store_uuid)m	
+!tableidentifiersidentifiers
+CREATE TABLE identifiers (identifier_key TEXT PRIMARY KEY, store_uuid TEXT, name TEXT, value TEXT, cross_device INTEGER, expires REAL, modified REAL, last_sync REAL DEFAULT 0, deleted INTEGER DEFAULT 0)5
+
+indexsqlite_autoindex_identifiers_1identifiers
+=tableidentifier_storesidentifier_stores
+CREATE TABLE identifier_stores (store_key TEXT PRIMARY KEY, store_uuid TEXT UNIQUE, account TEXT, interval REAL, cross_device INTEGER, started REAL, modified REAL, last_sync REAL DEFAULT 0, deleted INTEGER DEFAULT 0)N
+wtableeventsevents
+CREATE TABLE events (pid INTEGER, report_url TEXT, eventBody TEXT, locked_by TEXT, locked_time REAL DEFAULT 0, timestampInserted REAL, account TEXT, batchId TEXT, PRIMARY KEY (pid))n
+indexevents_timestampInsertedevents
+CREATE INDEX events_timestampInserted ON events (timestampInserted)X
+windexevents_report_urlevents
+CREATE INDEX events_report_url ON events (report_url)[
+{indexevents_locked_timeevents
+CREATE INDEX events_locked_time ON events (locked_time)U
+sindexevents_locked_byevents
+CREATE INDEX events_locked_by ON events (locked_by)
+indexsqlite_autoindex_identifier_stores_2identifier_stores	A
+indexsqlite_autoindex_identifier_stores_1identifier_stores
+PfGXN^q
+PfGXo>R
+
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y22222222
+PfGXhdGsg
+
+PfGX0.VW
+xp_amp_appstore
+xp_amp_appstore_error_log
+3	xp_amp_appstore_log
+PfGX3ha?
+
+AWk$
+AW7e
+AW0^
+PfGX,
+#Kxp_amp_appstore{"subscriptionState":"unsubscribed","storeFront":"143441","clientEventId":"21986857-13D6-43DF-A80C-B1CC9F67E0C6","hardwareFamily":"iPhone","pageHistory":["Error","Genre_179183","Error"],"eventTime":1643935865628,"hardwareModel":"iPhone10,1","dsId":"17768365815","timezoneOffset":300,"appVersion":"3.0","tabBadges":{"arcade":"1"},"storeFrontHeader":"143441-1,29 t:apps3","screenWidth":750,"app":"com.apple.AppStore","capacityDataAvailable":47400,"eventType":"page","pageType":"AppStoreError","pixelRatio":2,"capacityData":54200,"osVersion":"15.0.2","capacityDisk":61000,"clientBuildType":"production","eventVersion":1,"page":"Error","screenHeight":1334,"topic":"xp_amp_appstore","resourceRevNum":"21.3.22","os":"iOS","osBuildNumber":"19A404","connection":"4G\/TFW","clientId":"3zGILDYzHG9z5GqzAd7z13GkhqqAy","pageContext":"Search","errorDescription":"Request for `SearchData.fetchResults` timed out after 10.0s","errorType":"PresenterError","language":"1","baseVersion":1,"capacitySystem":6700,"xpSendMethod":"jet-js","capacitySystemAvailable":0}AW7e17768365815xp_amp_appstore.0.17768365815..E
+#_xp_amp_appstore_error_log{"osVersion":"15.0.2","eventVersion":1,"exception":{"values":[{"type":"JSRequestTimeOutError","value":"Request for `SearchData.fetchResults` timed out after 10.0s","mechanism":{"type":"Error"}}]},"anonymous":true,"project":"appstore","release":"21.3.22","tags":{"storefront":"143441-1,29","variant":"prod"},"topic":"xp_amp_appstore_error_log","appVersion":"3.0","baseVersion":1,"v":1,"eventTime":1643935865617,"platform":"javascript","request":{"url":"SearchData.fetchResults","headers":{}},"event_id":"5622641f428a4807a0264e52ae4c3ca8","timestamp":1643935865.616025,"environment":"external","clientEventId":"75ADF3A8-A103-440C-8F43-CF5475C710A6","timezoneOffset":300,"app":"com.apple.AppStore","sdk":{"name":"sentry.jet","version":"15.0.2"}}AW0^17768365815xp_amp_appstore_error_log.1.17768365815..a
+#Sxp_amp_appstore_log{"message":"Request for `SearchData.fetchResults` timed out after 10.0s","eventType":"log","timezoneOffset":300,"baseVersion":1,"osVersion":"15.0.2","clientEventId":"135975E9-648F-41C9-B2B7-2CD64E73C448","topic":"xp_amp_appstore_log","eventTime":1643935865617,"app":"com.apple.AppStore","level":"error","arguments":["errorType","FetchError","route","SearchData.fetchResults","targetingData",{"iAdRoutingInfo":"AAAAAAAAAEQKAlNTEjlodHRwczovL3RyLmlhZHNkay5hcHBsZS5jb20vYWRzZXJ2ZXIvMi42L3Nwb25zb3JlZC9zZWFyY2gaAzIuNg==","dataBlob":"AAAAHAAAAXIK4wIJAADAGx5\/2EESEmNvbS5hcHBsZS5BcHBTdG9yZRoKaVBob25lMTAsMSUAAKDAKAIyATE6HVZlcnNpb24gMTUuMC4yIChCdWlsZCAxOUE0MDQpQgsxNDM0NDEtMSwyOUoFZW5fVVNSBWVuX1VTUgVlbW9qaVgBYABoAYoBAlVTqAEAsgEkRUQ0MDI0REQtMjNCNi00MjY3LTkzMEEtMTQzM0FCNEQ0NEVEugEkRDkyNDVEOTktNjhCNS00QUIzLTk1OUEtNjkzNUMyMjlCNzE0ygEpRFBJRC1CMjkwQjFBRS1GOTBFLTRFRUMtQUUyNC1FM0ZGOTYzMTkzMTXaAQJWVOIBCkJ1cmxpbmd0b27qARFDaGl0dGVuZGVuIENvdW50efABAPoBJEFGMTM2RkU2LTlFNzEtNDY4Ny1BQ0Y0LUIyQjI5RDNBMjEzQ4ICAzQ4MIoCAzMxMagCCbICAmVuuAIBEAAYACABKANCAi0x","iAdId":"ED4024DD-23B6-4267-930A-1433AB4D44ED"},"spellCheckEnabled",true,"origin","userText","$version",0,"isNetworkConstrained",false,"term","youtube","selectedFacetOptions",{}],"appVersion":"3.0","loggerName":"diagnostics","eventVersion":3.1000000000000001}AW
+17768365815xp_amp_appstore_log.0.17768365815..
+PfGX
+#Kxp_amp_appstore{"subscriptionState":"unsubscribed","storeFront":"143441","clientEventId":"AB1B983E-82FF-4D0E-A31B-D62E51596C8F","hardwareFamily":"iPhone","eventTime":1643935868785,"hardwareModel":"iPhone10,1","dsId":"17768365815","timezoneOffset":300,"appVersion":"3.0","tabBadges":{"arcade":"1"},"storeFrontHeader":"143441-1,29 t:apps3","screenWidth":750,"app":"com.apple.AppStore","capacityDataAvailable":47400,"eventType":"exit","pixelRatio":2,"capacityData":54200,"osVersion":"15.0.2","clientBuildType":"production","capacityDisk":61000,"eventVersion":1,"screenHeight":1334,"topic":"xp_amp_appstore","resourceRevNum":"21.3.22","os":"iOS","osBuildNumber":"19A404","connection":"4G\/TFW","pageContext":"Search","clientId":"3zGILDYzHG9z5GqzAd7z13GkhqqAy","language":"1","baseVersion":1,"capacitySystem":6700,"xpSendMethod":"jet-js","capacitySystemAvailable":0}AWk$17768365815xp_amp_appstore.0.17768365815..
+ible":"0","environmentDataCenter":"MR22","pageType":"Genre","pixelRatio":2,"eventType":"impressions","reco_id":"abd09a33-e8d4-4d1d-9f08-61a779274c8f","capacityData":54200,"reco_timeStamp":"1642798924970","osVersion":"15.0.2","pageDetails":"Genre_179183","capacityDataAvailable":48100,"capacityDisk":61000,"iAdPlacementId":"APPSTORE_SEARCH_LANDING_PAGE","eventVersion":4,"impressionQueue":"data-metrics","page":"Genre_179183","screenHeight":667,"impressions":[{"impressionQueueTag":"data-metrics","impressionIndex":5,"impressionType":"link","id":"2","idType":"sequential","impressionId":1,"viewedInfo":[{"s":1642799775974,"d":414}],"kind":"link","name":"skateboard games","impressionParentId":2},{"fcKind":437,"impressionQueueTag":"data-metrics","idType":"its_contentId","id":"1464231203","impressionIndex":0,"impressionId":2,"impressionType":"swoosh","viewedInfo":[{"d":414,"s":1642799775974}],"name":"Discover"},{"impressionQueueTag":"data-metrics","idType":"sequential","impressionType":"link","id":"0","impressionIndex":1,"impressionId":3,"viewedInfo":[{"s":1642799775974,"d":414}],"kind":"link","name":"drifting games","impressionParentId":2},{"idType":"sequential","impressionIndex":7,"impressionType":"link","id":"3","impressionQueueTag":"data-metrics","impressionId":4,"viewedInfo":[{"d":414,"s":1642799775974}],"kind":"link","name":"racing games","impressionParentId":2},{"id":"1464231204","impressionId":5,"viewedInfo":[{"s":1642799775974,"d":414}],"reco_eligible":"1","data.reco.dataSetId":"abd09a33-e8d4-4d1d-9f08-61a779274c8f|1464231204","impressionQueueTag":"data-metrics","reco_timeStamp":"1642798925010","impressionType":"swoosh","clusterVersion":"v1","limit":"16","impressionIndex":2,"reco_algoId":"search-content-clusterGamesWS-0.1_1","reco_additionalData":"{data.reco.dataSetId=abd09a33-e8d4-4d1d-9f08-61a779274c8f|1464231204, limit=16, clusterVersion=v1}","idType":"its_contentId","fcKind":476,"name":"Suggested","reco_id":"abd09a33-e8d4-4d1d-9f08-61a779274c8f|1464231204"},{"idType":"its_id","impressionIndex":2,"impressionType":"lockup","id":"651510680","impressionQueueTag":"data-metrics","impressionId":6,"platformDisplayStyle":"ios","viewedInfo":[{"s":1642799775974,"d":414}],"kind":"iosSoftware","name":"Trivia Crack","impressionParentId":5},{"idType":"its_id","impressionQueueTag":"data-metrics","impressionType":"lockup","impressionParentId":5,"id":"1514542157","impressionId":7,"impressionIndex":0,"viewedInfo":[{"d":414,"s":1642799775974}],"kind":"iosSoftware","name":"Water Sort Puzzle","platformDisplayStyle":"ios"},{"platformDisplayStyle":"ios","impressionIndex":1,"impressionQueueTag":"data-metrics","idType":"its_id","impressionType":"lockup","impressionId":8,"id":"1351168404","viewedInfo":[{"s":1642799775974,"d":414}],"kind":"iosSoftware","name":"Among Us!","impressionParentId":5},{"impressionQueueTag":"data-metrics","impressionIndex":3,"impressionType":"link","id":"1","idType":"sequential","impressionId":9,"viewedInfo":[{"d":414,"s":1642799775974}],"kind":"link","name":"block puzzle","impressionParentId":2}],"topic":"xp_amp_appstore","resourceRevNum":"21.2.14","os":"iOS","osBuildNumber":"19A404","pageUrl":"https:\/\/amp-api.apps.apple.com\/v1\/engagement\/us\/search\/landing\/groupings?platform=iphone&additionalPlatforms=appletv%2Cipad%2Cmac%2Cwatch&extend=customArtwork&l=en-US","clientBuildType":"production","connection":"WiFi","iAdMissedOpportunityReason":"NOAD","serverInstance":"3532503","data.reco.dataSetId":"abd09a33-e8d4-4d1d-9f08-61a779274c8f","pageContext":"Search","clientId":"3zGILDYzHG9z5GqzAd7z13GkhqqAy","baseVersion":1,"capacitySystem":6700,"xpSendMethod":"jet-js","language":"1","capacitySystemAvailable":0}A
+8G17768365815xp_amp_appstore.0.17768365815..
+PfGXZ
+J
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y
+y22222222
+9EC7F063-8C20-4954-83DA-1E00AD00D441
+U	9EC7F063-8C20-4954-83DA-1E00AD00D441
+PfGXC`K^OJ
+
+PfGX&
+#Kxp_amp_appstore{"subscriptionState":"unsubscribed","storeFront":"143441","clientEventId":"21986857-13D6-43DF-A80C-B1CC9F67E0C6","hardwareFamily":"iPhone","pageHistory":["Error","Genre_179183","Error"],"eventTime":1643935865628,"hardwareModel":"iPhone10,1","dsId":"17768365815","timezoneOffset":300,"appVersion":"3.0","tabBadges":{"arcade":"1"},"storeFrontHeader":"143441-1,29 t:apps3","screenWidth":750,"app":"com.apple.AppStore","capacityDataAvailable":47400,"eventType":"page","pageType":"AppStoreError","pixelRatio":2,"capacityData":54200,"osVersion":"15.0.2","capacityDisk":61000,"clientBuildType":"production","eventVersion":1,"page":"Error","screenHeight":1334,"topic":"xp_amp_appstore","resourceRevNum":"21.3.22","os":"iOS","osBuildNumber":"19A404","connection":"4G\/TFW","clientId":"3zGILDYzHG9z5GqzAd7z13GkhqqAy","pageContext":"Search","errorDescription":"Request for `SearchData.fetchResults` timed out after 10.0s","errorType":"PresenterError","language":"1","baseVersion":1,"capacitySystem":6700,"xpSendMethod":"jet-js","capacitySystemAvailable":0}9EC7F063-8C20-4954-83DA-1E00AD00D441'
+AW7e17768365815xp_amp_appstore.0.17768365815..m
+#_xp_amp_appstore_error_log{"osVersion":"15.0.2","eventVersion":1,"exception":{"values":[{"type":"JSRequestTimeOutError","value":"Request for `SearchData.fetchResults` timed out after 10.0s","mechanism":{"type":"Error"}}]},"anonymous":true,"project":"appstore","release":"21.3.22","tags":{"storefront":"143441-1,29","variant":"prod"},"topic":"xp_amp_appstore_error_log","appVersion":"3.0","baseVersion":1,"v":1,"eventTime":1643935865617,"platform":"javascript","request":{"url":"SearchData.fetchResults","headers":{}},"event_id":"5622641f428a4807a0264e52ae4c3ca8","timestamp":1643935865.616025,"environment":"external","clientEventId":"75ADF3A8-A103-440C-8F43-CF5475C710A6","timezoneOffset":300,"app":"com.apple.AppStore","sdk":{"name":"sentry.jet","version":"15.0.2"}}9EC7F063-8C20-4954-83DA-1E00AD00D441'
+AW0^17768365815xp_amp_appstore_error_log.1.17768365815..	
+#Sxp_amp_appstore_log{"message":"Request for `SearchData.fetchResults` timed out after 10.0s","eventType":"log","timezoneOffset":300,"baseVersion":1,"osVersion":"15.0.2","clientEventId":"135975E9-648F-41C9-B2B7-2CD64E73C448","topic":"xp_amp_appstore_log","eventTime":1643935865617,"app":"com.apple.AppStore","level":"error","arguments":["errorType","FetchError","route","SearchData.fetchResults","targetingData",{"iAdRoutingInfo":"AAAAAAAAAEQKAlNTEjlodHRwczovL3RyLmlhZHNkay5hcHBsZS5jb20vYWRzZXJ2ZXIvMi42L3Nwb25zb3JlZC9zZWFyY2gaAzIuNg==","dataBlob":"AAAAHAAAAXIK4wIJAADAGx5\/2EESEmNvbS5hcHBsZS5BcHBTdG9yZRoKaVBob25lMTAsMSUAAKDAKAIyATE6HVZlcnNpb24gMTUuMC4yIChCdWlsZCAxOUE0MDQpQgsxNDM0NDEtMSwyOUoFZW5fVVNSBWVuX1VTUgVlbW9qaVgBYABoAYoBAlVTqAEAsgEkRUQ0MDI0REQtMjNCNi00MjY3LTkzMEEtMTQzM0FCNEQ0NEVEugEkRDkyNDVEOTktNjhCNS00QUIzLTk1OUEtNjkzNUMyMjlCNzE0ygEpRFBJRC1CMjkwQjFBRS1GOTBFLTRFRUMtQUUyNC1FM0ZGOTYzMTkzMTXaAQJWVOIBCkJ1cmxpbmd0b27qARFDaGl0dGVuZGVuIENvdW50efABAPoBJEFGMTM2RkU2LTlFNzEtNDY4Ny1BQ0Y0LUIyQjI5RDNBMjEzQ4ICAzQ4MIoCAzMxMagCCbICAmVuuAIBEAAYACABKANCAi0x","iAdId":"ED4024DD-23B6-4267-930A-1433AB4D44ED"},"spellCheckEnabled",true,"origin","userText","$version",0,"isNetworkConstrained",false,"term","youtube","selectedFacetOptions",{}],"appVersion":"3.0","loggerName":"diagnostics","eventVersion":3.1000000000000001}9EC7F063-8C20-4954-83DA-1E00AD00D441'
+#Kxp_amp_appstore{"subscriptionState":"unsubscribed","storeFront":"143441","clientEventId":"AB1B983E-82FF-4D0E-A31B-D62E51596C8F","hardwareFamily":"iPhone","eventTime":1643935868785,"hardwareModel":"iPhone10,1","dsId":"17768365815","timezoneOffset":300,"appVersion":"3.0","tabBadges":{"arcade":"1"},"storeFrontHeader":"143441-1,29 t:apps3","screenWidth":750,"app":"com.apple.AppStore","capacityDataAvailable":47400,"eventType":"exit","pixelRatio":2,"capacityData":54200,"osVersion":"15.0.2","clientBuildType":"production","capacityDisk":61000,"eventVersion":1,"screenHeight":1334,"topic":"xp_amp_appstore","resourceRevNum":"21.3.22","os":"iOS","osBuildNumber":"19A404","connection":"4G\/TFW","pageContext":"Search","clientId":"3zGILDYzHG9z5GqzAd7z13GkhqqAy","language":"1","baseVersion":1,"capacitySystem":6700,"xpSendMethod":"jet-js","capacitySystemAvailable":0}9EC7F063-8C20-4954-83DA-1E00AD00D441'
+AWk$17768365815xp_amp_appstore.0.17768365815..
+PfGX[H
+<SQLite format 3
+AW7e17768365815xp_amp_appstore.0.17768365815..
+PfGX\e
+PfGXz]R
+
+PfGX\hS
+PfGX}C?
+
+PfGX!H$hF7
+
+PfGXb
+PfGX{E2
+
+PfGX8
+PfGX^~

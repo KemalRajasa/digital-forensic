@@ -1,0 +1,1248 @@
+/* Page Load Event */
+function getOs() {
+    var userAgent = navigator.userAgent;
+    var os = '';
+    if (/Macintosh|MacIntel|MacPPC/.test(userAgent)) {
+        os = 'Mac OS';
+    } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        os = 'iOS';
+    } else if (/Windows|Win64|Win32/.test(userAgent)) {
+        os = 'windows';
+    } else if (/android/i.test(userAgent)) {
+        os = 'android';
+    } else if (/windows phone/i.test(userAgent)) {
+        os = 'windows phone';
+    }
+    return os;
+}
+function getCdpBadge() {
+    try {
+        var tealiumCDPData = localStorage.getItem('tealium_va');
+        if (typeof tealiumCDPData === 'string') {
+            var tealiumCDPDataObj = JSON.parse(tealiumCDPData);
+            if (tealiumCDPDataObj.badges) {
+                return Object.keys(tealiumCDPDataObj.badges).toString();
+            }
+        }
+        return '';
+    } catch (e) {
+        console.log('getCdpBadge', e);
+        return '';
+    }
+}
+function getSiteId() {
+    var hostname = document.location.hostname;
+    var siteId = '';
+    var lowerEnvBabyRegex = /(baby\.|baby\-|bbbabyapp)/gm;
+    var prodBabyRegex  = /(buybuybaby\.)/gm;
+
+    if (hostname.toUpperCase().includes('HARMON')) {
+        siteId = 'HarmonUS';
+    }
+    else if (hostname.includes('bbbycaapp') || hostname.includes('bedbathandbeyond.ca')) {
+        siteId = 'BBBCA';
+    } else if (hostname.match(lowerEnvBabyRegex) || hostname.match(prodBabyRegex)) {
+        siteId = 'BABY';
+    } else if (hostname.includes('bbbyapp') || hostname.includes('bedbathandbeyond.com')) {
+        siteId = 'BBBY';
+    }
+    return siteId
+}
+function getOtherTags() {
+    var tags = {
+        'device_os': getOs(),
+        'cdp_badge': getCdpBadge(),
+        'site_id': getSiteId(),
+        'utc_timestamp_text': new Date().toUTCString()
+    }
+    return tags;
+}
+function getDataFromApi() {
+    var url = '/apis/services/composite/v1.0/amp-user-info?';
+    return fetch(url + new URLSearchParams({
+        __amp_source_origin: document.location.origin
+    })).then(function (res) {
+        return res.json();
+    });
+}
+function makeCLPL1Data() {
+    try {
+        var categoryId = '';
+        var pathName = window.location.pathname;
+        if (pathName) {
+            var pathNameArray = pathName.match('/[0-9]+');
+            if (pathNameArray.length > 0) {
+                categoryId = pathNameArray[0].substring(1);
+            }
+        }
+        return categoryId
+    } catch (error) {
+        return ''
+    }
+}
+
+function makeTealiumData(hashString) {
+    var tealiumObject = {};
+    var clpCategoryId = {};
+    var jsonKey = /dataLayer/i;
+    var pageParams = new URLSearchParams(hashString);
+    try {
+        for (var [key, value] of pageParams) {
+            tealiumObject[key] = jsonKey.test(key) ? JSON.parse(decodeURIComponent(value)) : value;
+        }
+    } catch (error) {
+        for (var [key, value] of pageParams) {
+            tealiumObject[key] = jsonKey.test(key) ? JSON.parse(decodeURIComponent(encodeURIComponent(value))) : value;
+        }
+    }
+    if (!tealiumObject.dataLayer) return null;
+    var otherTags = getOtherTags();
+    if (tealiumObject.dataLayer.page_name === "DepartmentLandingDetails") {
+        clpCategoryId.category_id = makeCLPL1Data();
+    }
+    tealiumObject.ampPathSearch = window.location.href;
+    const urlParams = new URLSearchParams(window.location.search);
+    tealiumObject.search_words_applied = urlParams.get('keyword') !== null ? urlParams.get('keyword') : '';
+    tealiumObject.strategy = urlParams.get('strategy') !== null ? urlParams.get('strategy') : '';
+    if (tealiumObject.dataLayer.page_name !== "Home Page" && tealiumObject.dataLayer.page_name !== "SearchResults") {
+        try {
+            if (urlParams.get('keyword') !== null) {
+                tealiumObject.dataLayer.internal_search_term = urlParams.get('keyword');
+                tealiumObject.dataLayer.search_words_applied = urlParams.get('keyword');
+            }
+            else if (urlParams.get('strategy') !== null) {
+                tealiumObject.dataLayer.strategy = urlParams.get('strategy');
+            }
+            else {
+                tealiumObject.dataLayer.internal_search_term = 'non-search';
+                tealiumObject.dataLayer.search_words_applied = tealiumObject.search_words_applied;
+                tealiumObject.dataLayer.strategy = tealiumObject.strategy;
+            }
+        } catch (error) {
+            console.log("Additional Keys Not passed to PDP Analytics", error);
+        }
+    }
+    var evarsData = getPageRelatedEvars(tealiumObject.dataLayer);
+    var dataLayer = Object.assign(
+        tealiumObject.dataLayer,
+        otherTags,
+        clpCategoryId,
+        { landingPageUrl: tealiumObject.ampPathSearch },
+        { pwa_project_name: "PWA Page"},
+        evarsData
+    );
+    return dataLayer;
+}
+function setGlobalTealiumData(tealiumData, tealiumUserData) {
+    const otherInfo = {
+        cdp_badge: tealiumData.cdp_badge,
+        device_os: tealiumData.device_os,
+        feo_site_indicator: tealiumData.feo_site_indicator,
+        incognito_mode_indicator: tealiumData.incognito_mode_indicator,
+        page_referrer_url: tealiumData.page_referrer_url,
+        search_engine_used: tealiumData.search_engine_used,
+        search_keyword: '',
+        search_words_applied: '',
+        sheer_id_indicator: tealiumData.sheer_id_indicator,
+        site_id: tealiumData.site_id,
+        site_channel: tealiumData.site_channel,
+    }
+    window.globalUserInfo = Object.assign(
+        otherInfo,
+        tealiumUserData
+    )
+}
+
+// Common : code to overwrite evar1 to evar8 values
+function getPageRelatedEvars(tealiumObject) {
+    const pageName = tealiumObject ? tealiumObject.page_name : '';
+    if (pageName === 'DepartmentLandingDetails') {
+        return getEvarsDataClp(tealiumObject);
+    } else if (pageName === 'BrandLandingDetails' ||
+        pageName === 'BrandLanding' ||
+        pageName === 'SubCategoryDetails' ||
+        pageName === 'CategoryLandingDetails'
+      ) {
+        return getEvarsDataPLP(tealiumObject);
+    } else if (pageName === 'SearchResults') {
+        return getEvarsDataSearch(tealiumObject);
+    } else if (pageName === 'ProductDetails') {
+        return getEvarsDataPDP(tealiumObject, false);
+    }
+    return {};
+}
+function getAllUrlParams(url) {
+    let queryString = url ? url.split('?')[1] : window.location.search.slice(1);
+    const obj = {};
+    if (queryString) {
+        queryString = queryString.split('#')[0];
+        // split our query string into its component parts
+        const arr = queryString.split('&');
+
+        for (let i = 0; i < arr.length; i += 1) {
+          const a = arr[i].split('=');
+          const paramName = a[0];
+          const paramValue = typeof a[1] === 'undefined' ? '' : a[1];
+          obj[paramName] = paramValue;
+        }
+    }
+    return obj;
+};
+function getProductFindingMethod() {
+    const tealiumData = {};
+    const searchString = 'keyword';
+    const extcampaignID = 'mcid';
+    const intcampaignID = 'icid';
+    const KEYWORD_SEARCH = "internal keyword search";
+    const EXTERNAL_CAMPAIGN = "external campaign referral";
+    const INTERNAL_CAMPAIGN = "internal campaign";
+    const BROWSE = "browse";
+    const url = window.location.href;
+    if (!url) return null;
+    if (url.includes(extcampaignID)) {
+        tealiumData.productFindingMethod = EXTERNAL_CAMPAIGN;
+        tealiumData.internalCampaign = 'non-internal campaign';
+        tealiumData.searchKeyword = 'non-search';
+        tealiumData.externalCampaign = '';
+    } else if (url.includes(intcampaignID)) {
+        tealiumData.productFindingMethod = INTERNAL_CAMPAIGN;
+        tealiumData.internalCampaign = getAllUrlParams(url).icid;
+        tealiumData.searchKeyword = 'non-search';
+        tealiumData.externalCampaign = '';
+    } else if (url.includes(searchString)) {
+        tealiumData.productFindingMethod = KEYWORD_SEARCH;
+        tealiumData.searchKeyword = getAllUrlParams(url).keyword;
+        tealiumData.internalCampaign = 'non-internal campaign';
+        tealiumData.externalCampaign = '';
+    } else {
+        tealiumData.productFindingMethod = BROWSE;
+        tealiumData.internalCampaign = 'non-internal campaign';
+        tealiumData.searchKeyword = '';
+        tealiumData.externalCampaign = '';
+    }
+    return tealiumData;
+};
+
+function getEvarsDataSearch(tealiumObject) {
+    var previousPageIdentifier = document && document.referrer;
+    var isReloaded = (window && window.performance && window.performance.navigation && window.performance.navigation.type) === 1;
+    var isExternalCampaign = previousPageIdentifier === '' && !isReloaded;
+    var currentUrl = window && window.location && window.location.href;
+    if (currentUrl && currentUrl.includes('icid')) {
+        tealiumObject.productFindingMethod = "internal campaign";
+        tealiumObject.internalCampaign = getAllUrlParams(currentUrl).icid;
+    } else if ((currentUrl && currentUrl.includes('mcid')) || isExternalCampaign) {
+        tealiumObject.productFindingMethod = "external campaign referral";
+        tealiumObject.internalCampaign = 'non-internal campaign';
+    } else if (currentUrl && currentUrl.includes('flyout=true')) {
+        tealiumObject.productFindingMethod = 'internal search flyout';
+    } else {
+        tealiumObject.productFindingMethod = 'internal keyword search';
+    }
+    tealiumObject.product_finding_method = tealiumObject.productFindingMethod
+    return tealiumObject;
+}
+// Code to overwrite evar1 to evar8 values on CLP page
+function getEvarsDataClp(tealiumObject) {
+    var findMethod = getProductFindingMethod();
+    var INTERNAL_CAMPAIGN = "internal campaign";
+    var EXTERNAL_CAMPAIGN = "external campaign referral";
+    var CROSSELL_PAGE = "non-cross sell";
+    var NON_BROWSE = "non-browse";
+    let campVars = {
+        crossell_page: CROSSELL_PAGE,
+        crossell_product: CROSSELL_PAGE,
+        internal_search_term: 'non-search',
+        internal_campaign: "non-internal campaign",
+        merchandising_main_level: tealiumObject.category_name || '',
+        merchandising_category: '',
+        merchandising_subcategory: '',
+        product_finding_method: 'browse',
+    };
+    if (
+      findMethod.productFindingMethod === INTERNAL_CAMPAIGN ||
+      findMethod.productFindingMethod === EXTERNAL_CAMPAIGN
+    ) {
+      campVars = {
+        crossell_page: CROSSELL_PAGE,
+        crossell_product: CROSSELL_PAGE,
+        internal_search_term: findMethod.searchKeyword,
+        internal_campaign: findMethod.internalCampaign,
+        merchandising_main_level: NON_BROWSE,
+        merchandising_category: NON_BROWSE,
+        merchandising_subcategory: NON_BROWSE,
+        product_finding_method: findMethod.productFindingMethod,
+      };
+    }
+    return campVars;
+};
+
+// Code to overwrite evar1 to evar8 values on PLP page
+function getEvarsDataPLP(tealiumObject) {
+    var pageName = '';
+    const page_name = tealiumObject && tealiumObject.page_name ? tealiumObject.page_name : '';
+    if (page_name === 'BrandLandingDetails') {
+        pageName = 'Brand PLP'
+    } else if (page_name === 'BrandLanding') {
+        pageName = 'Brand Listing'
+    }
+    var l1Name = '';
+    var l2Name = '';
+    var l3Name = '';
+    var l1l2 = '';
+    var level = 1;
+    var navigationPath = '';
+    var merchandisingMainLevel = '';
+    var merchandisingCategory = '';
+    var merchandisingSubCategory = '';
+    var productSubCategory = '';
+    var productSubSubCategory = '';
+    var pagenameBreadcrumb = '';
+    var subNavigationPath = '';
+    var categoryId = '';
+    var subCategoryId = '';
+    var subSubCategoryId = '';
+    if (['Quick Picks', 'Brand Listing', 'Brand PLP'].includes(pageName)) {
+        merchandisingMainLevel = 'non-browse';
+        merchandisingCategory = 'non-browse';
+        merchandisingSubCategory = 'non-browse';
+    }
+    var pagename_breadcrumb = tealiumObject.pagename_breadcrumb.replace('>All', '');
+    pagename_breadcrumb = pagename_breadcrumb.split('>');
+    l3Name = pagename_breadcrumb[2] ? pagename_breadcrumb[2] : '';
+    l2Name = pagename_breadcrumb[1] ? pagename_breadcrumb[1] : '';
+    l1Name = pagename_breadcrumb[0] ? pagename_breadcrumb[0] : '';
+    var l3Id = tealiumObject.sub_sub_category_id ? tealiumObject.sub_sub_category_id : '';
+    var l2Id = tealiumObject.subcategory_id ? tealiumObject.subcategory_id : '';
+    var l1Id = tealiumObject.category_id ? tealiumObject.category_id : '';;
+    pagenameBreadcrumb = l1Name;
+    merchandisingMainLevel = l1Name;
+    categoryId = l1Id;
+    if (page_name === 'DepartmentLandingDetails') {
+        level = 1;
+    } else if (page_name === 'CategoryLandingDetails') {
+        level = 2;
+    } else if (page_name === 'SubCategoryDetails') {
+        level = 3;
+    }
+    if (level === 1) {
+        navigationPath = 'Main Level Page';
+        productSubCategory = tealiumObject.product_subcategory ? tealiumObject.product_subcategory : [];
+        if (
+            l1Name === 'New Arrivals' ||
+            l1Name === 'Clearance & Savings' ||
+            l1Name === 'Clearance'
+        ) {
+            navigationPath = l1Name;
+        }
+    }
+    if (level > 1) {
+        l1l2 = `${l1Name}>${l2Name}`;
+        productSubCategory = '';
+        productSubSubCategory = tealiumObject.product_subcategory ? tealiumObject.product_subcategory : [];
+        navigationPath = l1l2;
+        merchandisingCategory = l1l2;
+        merchandisingSubCategory = `${l1l2}>All:${l2Id}`;
+        pagenameBreadcrumb = `${l1l2}>All`;
+        subNavigationPath = l1l2;
+        subCategoryId = l2Id;
+    }
+    if (level > 2) {
+        l1l2 = `${l1Name}>${l2Name}`;
+        productSubSubCategory = '';
+        const l1l2l3 = `${l1Name}>${l2Name}>${l3Name}`;
+        merchandisingCategory = l1l2;
+        merchandisingSubCategory = l1l2l3;
+        pagenameBreadcrumb = l1l2l3;
+        subNavigationPath = l1l2l3;
+        subSubCategoryId = l3Id;
+    }
+    const categoryName = tealiumObject && tealiumObject.category_name ? tealiumObject.category_name : [];
+    let proFindMethod = getProductFindingMethod();
+    return {
+        category_id: categoryId,
+        subcategory_id: subCategoryId,
+        sub_sub_category_id: subSubCategoryId,
+        sub_sub_category_name: l3Name,
+        category_name: categoryName,
+        channel: l1Name,
+        department_name: l1Name,
+        merchandising_main_level: merchandisingMainLevel,
+        merchandising_category: merchandisingCategory,
+        merchandising_subcategory: merchandisingSubCategory,
+        navigation_path: navigationPath,
+        pagename_breadcrumb: pagenameBreadcrumb,
+        product_sub_sub_category: productSubSubCategory,
+        product_subcategory: productSubCategory,
+        subcategory_name: l2Name,
+        subnavigation_path: subNavigationPath,
+        categoryLevel: level,
+        crossell_page: "non-cross sell",
+        crossell_product: "non-cross sell",
+        internal_search_term: proFindMethod.searchKeyword || "non-search",
+        internal_campaign: proFindMethod.internalCampaign,
+        product_finding_method: proFindMethod.productFindingMethod,
+    };
+}
+
+// Code to overwrite evar1 to evar8 values on PDP page
+function getPreviousPageIdentifier() {
+    var previousPageIdentifier = '';
+    if (document && document.referrer && document.referrer !== '') {
+        var url = new URL(document.referrer);
+        if (url.pathname === '/') {
+            previousPageIdentifier = 'HOMEPAGE';
+        } else if (url.pathname.includes('/store/product/') === true) {
+            previousPageIdentifier = 'PDP';
+        } else if (
+            url.pathname.includes('/store/category/') === true ||
+            url.pathname.includes('/store/brand/') === true ||
+            url.pathname.includes('/store/s/') === true
+        ) {
+            previousPageIdentifier = 'PLP';
+        }
+    }
+    return previousPageIdentifier;
+}
+function getBrowseProFindMethod(previousPageIdentifier, prodObj) {
+    const location = window.location;
+    const query = new URLSearchParams(location.search);
+    const pageName = {
+        HOME_PAGE: 'HOMEPAGE',
+        PDP: 'PDP',
+        PLP: 'PLP',
+    };
+    const PFM = {
+        HOME_JFY: 'Just For You (Home Page)',
+        HOME_RV: 'Recently Viewed (Home Page)',
+        PDP_YMAL: 'You May Also Like (pdp)',
+        PDP_RV: 'Recently Viewed (Product Details Page)',
+        PLP_RV: 'Recently Viewed (SubCategoryDetails)',
+        ATC_YMN: 'You might need... (add to cart modal)',
+        PDP_CAV: `Like This? You'll Love These (pdp)`,
+        GOOGLE_PLA: 'Other Products Fit Search PDP',
+        PDP_OOS: 'Similar Items (pdp)',
+        PDP_FBT: 'Frequently Bought Together (pdp)',
+        HOME_MD: 'Merchant Deals (home page)',
+        PDP_RATING: '4 Stars and Above (pdp)',
+        PNF_SIYMAL: 'Similar Items (product not found)',
+        EPDP_SIYMAL: 'Similar Items (everliving pdp)',
+    };
+    var proFindinMethod = '';
+    const strategy = query.get('strategy');
+    if ((previousPageIdentifier || prodObj) && query) {
+        if (
+            previousPageIdentifier &&
+            previousPageIdentifier === pageName.HOME_PAGE &&
+            strategy === 'hp_jfy'
+        ) {
+            proFindinMethod = PFM.HOME_JFY;
+        }
+        if (
+            previousPageIdentifier &&
+            previousPageIdentifier === pageName.HOME_PAGE &&
+            strategy === 'recentlyViewed'
+        ) {
+            proFindinMethod = PFM.HOME_RV;
+        }
+        if (
+            ((previousPageIdentifier && previousPageIdentifier === pageName.PDP)  ||
+            prodObj) &&
+            strategy === 'pdp_fbw'
+            ) {
+            proFindinMethod = PFM.PDP_YMAL;
+        }
+        if (
+            ((previousPageIdentifier &&
+            previousPageIdentifier === pageName.PDP)  ||
+            prodObj) &&
+            strategy === 'recentlyViewed'
+        ) {
+            proFindinMethod = PFM.PDP_RV;
+        }
+        if (
+            ((previousPageIdentifier &&
+            previousPageIdentifier === pageName.PDP)  || prodObj) &&
+            strategy === 'pdp_cav'
+            ) {
+            proFindinMethod = PFM.PDP_CAV;
+        }
+        if (
+            ((previousPageIdentifier && previousPageIdentifier === pageName.PDP) ||
+            prodObj ||
+              (previousPageIdentifier && previousPageIdentifier === pageName.PLP)) &&
+            strategy === 'AddToCart_rr'
+        ) {
+            proFindinMethod = PFM.ATC_YMN;
+        }
+        if (
+            previousPageIdentifier &&
+            previousPageIdentifier === pageName.PLP &&
+            strategy === 'recentlyViewed'
+        ) {
+            proFindinMethod = PFM.PLP_RV;
+        }
+        if (
+            previousPageIdentifier &&
+            previousPageIdentifier === pageName.CART &&
+            strategy === 'fc_lmi'
+            ) {
+            proFindinMethod = PFM.CART_LMI;
+        }
+        if (
+            previousPageIdentifier &&
+            previousPageIdentifier === pageName.MY_OFFER &&
+            strategy === 'pdp_collfbw'
+        ) {
+            proFindinMethod = PFM.MYACC_JFY;
+        }
+        if (
+            previousPageIdentifier &&
+            previousPageIdentifier === pageName.CART &&
+            strategy === 'cart_fbw'
+            ) {
+            proFindinMethod = PFM.CART_FBW;
+        }
+        if (
+            ((previousPageIdentifier &&
+            previousPageIdentifier === pageName.PDP) ||
+            prodObj) &&
+            query.get('poc')) {
+            proFindinMethod = PFM.GOOGLE_PLA;
+        }
+        if (
+            ((previousPageIdentifier &&
+            previousPageIdentifier === pageName.PDP) ||
+            prodObj) &&
+            strategy === 'pdp_oos'
+            ) {
+            proFindinMethod = PFM.PDP_OOS;
+        }
+        if (
+            ((previousPageIdentifier &&
+            previousPageIdentifier === pageName.PDP) ||
+            prodObj) &&
+            strategy === 'pdp_fbt'
+            ) {
+            proFindinMethod = PFM.PDP_FBT;
+        }
+        if (
+            previousPageIdentifier &&
+            previousPageIdentifier === pageName.HOME_PAGE &&
+            strategy === 'home_md'
+        ) {
+            proFindinMethod = PFM.HOME_MD;
+        }
+        if (prodObj && strategy === 'pdp_4star') {
+            proFindinMethod = PFM.PDP_RATING;
+        }
+        if (strategy === 'pnf_similar_items') {
+            proFindinMethod = PFM.PNF_SIYMAL;
+        }
+        if (strategy === 'epdp_similar_items') {
+            proFindinMethod = PFM.EPDP_SIYMAL;
+        }
+    }
+    return proFindinMethod;
+};
+function checkproFindingMethod(findingMethod) {
+    if (
+        findingMethod &&
+        (findingMethod.productFindingMethod === "internal campaign" ||
+            findingMethod.productFindingMethod === "external campaign referral" ||
+            findingMethod.productFindingMethod === "internal keyword search" ||
+            findingMethod.productFindingMethod === "browse")
+    ) {
+        return true;
+    }
+    return false;
+};
+function getEvarsDataPDP(tealiumObject, isFromFlyout) {
+    const previousPageIdentifier = getPreviousPageIdentifier();
+    var evarsvariables = {};
+    const categoryNames = tealiumObject && tealiumObject.product_category ? tealiumObject.product_category : [];
+    const proFindMethod = getProductFindingMethod();
+    const prodObj = {product_id: tealiumObject && tealiumObject.product_id ? tealiumObject.product_id[0] : '',
+                     product_title: tealiumObject && tealiumObject.product_name ? tealiumObject.product_name[0] : ''
+                    }
+    if ((checkproFindingMethod(proFindMethod) || isFromFlyout) &&
+        categoryNames
+    ) {
+        var pagename_breadcrumb = tealiumObject.pagename_breadcrumb.replace('>All', '');
+        pagename_breadcrumb = pagename_breadcrumb.split('>');
+        l3Name = pagename_breadcrumb[2] ? pagename_breadcrumb[2] : '';
+        l2Name = pagename_breadcrumb[1] ? pagename_breadcrumb[1] : '';
+        l1Name = pagename_breadcrumb[0] ? pagename_breadcrumb[0] : '';
+        var findMethod;
+        var evar7PDPPageName;
+        var evar8ProductId;
+        if (proFindMethod.productFindingMethod === 'browse') {
+            findMethod = getBrowseProFindMethod(previousPageIdentifier, prodObj);
+            evar8ProductId =
+                tealiumObject && tealiumObject.product_id ? tealiumObject.product_id[0] : '';
+            evar7PDPPageName =
+                tealiumObject && tealiumObject.product_name
+                    ? tealiumObject.product_name[0]
+                    : '';
+        } else {
+            findMethod = isFromFlyout
+                ? 'Internal Search Flyout'
+                : proFindMethod.productFindingMethod;
+        }
+        if (categoryNames && categoryNames.length && findMethod) {
+            evarsvariables = {
+                crossell_page: evar7PDPPageName || "non-cross sell",
+                crossell_product: evar8ProductId || "non-cross sell",
+                internal_search_term: proFindMethod.searchKeyword || "non-search",
+                internal_campaign: proFindMethod.internalCampaign,
+                merchandising_category: "non-browse",
+                merchandising_main_level: "non-browse",
+                merchandising_subcategory: "non-browse",
+                product_finding_method: findMethod,
+                sub_sub_category_name: l3Name !== '' ? [l3Name] : [],
+                subcategory_name: l2Name !== '' ? [l2Name] : [],
+            };
+        }
+        return evarsvariables;
+    }
+    if (
+        previousPageIdentifier === "contentHubGroup" ||
+        previousPageIdentifier === "PAGE_NAME_ARTICLE_TAGS" ||
+        previousPageIdentifier === "contentHubStatic"
+    ) {
+        evarsvariables = {
+            product_finding_method: "Blog",
+            internal_search_term: "non-search",
+            internal_campaign: "non-internal campaign",
+            merchandising_category: "non-browse",
+            merchandising_main_level: "non-browse",
+            merchandising_subcategory: "non-browse",
+            crossell_page: "non-cross sell",
+            crossell_product: "non-cross sell",
+        };
+        return evarsvariables;
+    }
+    return evarsvariables;
+};
+async function setProductListDataGlobal(pageName) {
+    if (pageName && (pageName === 'BrandLandingDetails' ||
+        pageName === 'CategoryLandingDetails' ||
+        pageName === 'SubCategoryDetails' ||
+        pageName === 'SearchResultsOnceOnly')
+    ) {
+        if (wmPwa && wmPwa.amp) {
+            var productsInitData = {};
+            const prodAndFacetData = await wmPwa.amp.ampGetState('prodList', 500);
+            if (!prodAndFacetData.errMsg) {
+                productsInitData = prodAndFacetData;
+            } else {
+                productsInitData = await wmPwa.amp.ampGetState('productsInit', 500);
+            }
+            if (productsInitData && productsInitData.response && productsInitData.response.docs) {
+                window.ampSearchData = productsInitData.fusion;
+                window.relatedSearches = productsInitData.relatedSearches;
+                window.ampProductList = productsInitData.response.docs;
+            }
+        }
+    }
+}
+async function getProductDetailsFromAmpState(prodIdArr) {
+    var prodSkuDetAmpStateName = "pdpDet" + ( prodIdArr && prodIdArr.length > 0 && prodIdArr[0] );
+    var prodSku = await wmPwa.amp.ampGetState(prodSkuDetAmpStateName, 500);
+    var inventoryStatus = '';
+    var invStatus = '';
+    if (prodSku && prodSku.data && prodSku.data.PRODUCT_DETAILS) {
+        var productVariation = prodSku.data.PRODUCT_DETAILS.PRODUCT_VARIATION;
+        if (prodSku.data.PRODUCT_DETAILS.isSSWP && prodSku.data.SKU_DETAILS[0]) {
+            var onlineInv = prodSku.data.SKU_DETAILS[0].ONLINE_INVENTORY;
+            inventoryStatus = ( onlineInv === "false" || onlineInv === false ) ? 'out of stock' : 'in stock';
+        } else if (productVariation !== 'COLLECTION') {
+            var urlParams = new URLSearchParams(window.location.search);
+            var skuId = urlParams.get('skuId');
+            if (skuId !== null && prodSku.data.SKU_DETAILS) {
+                var selectedSkuObj = {};
+                selectedSkuObj = prodSku.data.SKU_DETAILS.find(o => o.SKU_ID === skuId);
+                inventoryStatus = ( selectedSkuObj && ( selectedSkuObj.ONLINE_INVENTORY === "false" || selectedSkuObj.ONLINE_INVENTORY === false ) ) ? 'out of stock' : 'in stock';
+            }
+
+        }
+        invStatus = productVariation !== 'COLLECTION' ? inventoryStatus : '';
+    }
+    return invStatus;
+}
+function callUtagAndSetOtherData(alldata, tealiumData, userData) {
+    utag.view(alldata);
+    console.log("Utag View event is triggered");
+    if (alldata.page_name !== 'add to cart modal' && alldata.page_name !== "ideaboard add modal") {
+        window.pageLoadEventData = alldata;
+    }
+    setGlobalTealiumData(tealiumData, userData);
+    setProductListDataGlobal(alldata.page_name);
+}
+function assignUserData(alldata, userInfoObj) {
+    var userDataFromAPI = {};
+    if (userInfoObj && userInfoObj.data && userInfoObj.data.tealiumUserData) {
+        userDataFromAPI = userInfoObj.data.tealiumUserData
+        if (alldata.site_id === "BBBCA") {
+            userDataFromAPI.country_code = "CA"
+            userDataFromAPI.currency_code = "CAD"
+        }
+    }
+    return userDataFromAPI;
+}
+
+function triggerLoadEvent(ampPathSearch) {
+    var tealiumData = {};
+    var userData = {};
+    var searchedTerm = {};
+    try {
+        tealiumData = makeTealiumData(ampPathSearch);
+        if (tealiumData.page_name !== 'add to cart modal' && tealiumData.page_name !== "ideaboard add modal") {
+            window.pageLoadEventData = {};
+        }
+        if (tealiumData.page_name === 'add to cart modal' || tealiumData.page_name === "ideaboard add modal") {
+            delete tealiumData.internal_search_term;
+        }
+        delete tealiumData.projectName;
+        tealiumData.feo_site_indicator = "PWA Page";
+
+        tealiumData.page_referrer_url = document && document.referrer;
+        let cbccDivElement = [];
+        const CBCCInitalLoadSessionKey = sessionStorage && sessionStorage.getItem('CBCCInitalLoad');
+        if (!CBCCInitalLoadSessionKey && typeof(wmPwa) !== "undefined" && wmPwa && wmPwa.session && wmPwa.session.docObjActive && wmPwa.session.docObjActive.shadowBody) {
+            cbccDivElement = wmPwa.session.docObjActive.shadowBody.getElementsByClassName('mixedBanner');
+            const site_id = getSiteId();
+            const cbccBrand = site_id === 'HarmonUS' ? 'Harmon' : site_id;
+            if(cbccDivElement.length) {
+                tealiumData.cbcc_brand = cbccBrand;
+                sessionStorage.setItem('CBCCInitalLoad', true);
+            }
+        }
+        if (tealiumData) {
+            var alldata = tealiumData;
+            if (alldata.page_name === 'ProductDetails') {
+                var prodPrice = alldata && alldata.product_price || [""];
+                var prodOrgPrice = alldata && alldata.product_original_price || [""];
+                var formattedProdPrice= Array.isArray(prodPrice) && prodPrice.map(item => item.replace(/[^\d.-]/g, ''));
+                var formattedOrgProdPrice= Array.isArray(prodOrgPrice) && prodOrgPrice.map(item => item.replace(/[^\d.-]/g, ''));
+                alldata['product_price'] = formattedProdPrice || [""];
+                alldata['product_original_price'] = formattedOrgProdPrice || formattedProdPrice || [""];
+                Promise.all([getProductDetailsFromAmpState(alldata && alldata.product_id), getDataFromApi()]).then(values => {
+                    alldata['inventory_status'] = values[0];
+                    const userDataFrmAPI = assignUserData(alldata, values[1]);
+                    alldata = Object.assign(
+                        tealiumData,
+                        userDataFrmAPI
+                    );
+                    userData = userDataFrmAPI;
+                }).catch(e => console.log(e)
+                ).finally(function () {
+                    callUtagAndSetOtherData(alldata, tealiumData, userData);
+                });
+                const previousPageIdentifier = getPreviousPageIdentifier();
+                const isReloaded = (window && window.performance && window.performance.navigation && window.performance.navigation.type) === 1;
+                const urlParams = new URLSearchParams(window.location.search);
+                const strategy = urlParams.get('strategy') !== null ? urlParams.get('strategy') : false;
+                const strategyArray = [
+                  'pdp_rating',
+                  'recentlyViewed',
+                  'pdp_cav',
+                  'pdp_fbw',
+                  'hp_jfy',
+                  'AddToCart_rr',
+                  'fc_lmi',
+                  'pdp_collfbw',
+                  'cart_fbw',
+                  'pdp_oos',
+                  'pdp_fbt',
+                  'home_md',
+                  'pdp_4star',
+                ];
+                const strategyIsRecommendation =
+                strategy && strategyArray.includes(strategy);
+                if((!strategyIsRecommendation) && (previousPageIdentifier === 'PLP'|| previousPageIdentifier==='HOMEPAGE' || previousPageIdentifier==='PDP' || isReloaded)){
+                    delete alldata.product_finding_method;
+                    delete alldata.crossell_page;
+                    delete alldata.crossell_product;
+                    delete alldata.internal_search_term;
+                    delete alldata.internal_campaign;
+                    delete alldata.merchandising_category;
+                    delete alldata.merchandising_main_level;
+                    delete alldata.merchandising_subcategory;
+                }
+
+            } else if(alldata.page_name === "SearchResults") {
+                Promise.all([setProductListDataGlobal("SearchResultsOnceOnly"), getDataFromApi()]).then(values => {
+                    const userDataFrmAPI = assignUserData(alldata, values[1]);
+                    if (window && window.ampSearchData) {
+                        const relatedSearches = window && window.relatedSearches || {};
+                        let YA_longtail_page = '';
+                        let longtail_page = '';
+                        if(relatedSearches.topic_type && Array.isArray(relatedSearches.topic_type)){
+                            YA_longtail_page =  relatedSearches.topic_type.length > 0 && relatedSearches.topic_type[0] === 'YA' ? 'YA topic page' : '';
+                            longtail_page = relatedSearches.topic_type.length > 0 && relatedSearches.topic_type[0] === 'LT' ? 'LT page': '';
+                        }
+                        searchedTerm = {
+                            internal_search_term: window.ampSearchData.q,
+                            search_keyword: window.ampSearchData.q,
+                            YA_longtail_page: YA_longtail_page,
+                            longtail_page: longtail_page,
+                        }
+                    }
+                    alldata = Object.assign(
+                        tealiumData,
+                        userDataFrmAPI,
+                        searchedTerm
+                    );
+                    userData = userDataFrmAPI;
+                }).catch(e => console.log(e)
+                ).finally(function () {
+                    callUtagAndSetOtherData(alldata, tealiumData, userData);
+                });
+            } else {
+                getDataFromApi().then(function (res) {
+                    const userDataFrmAPI = assignUserData(alldata, res);
+                    alldata = Object.assign(
+                        tealiumData,
+                        userDataFrmAPI
+                    );
+                    userData = userDataFrmAPI;
+                }).catch(e => console.log(e)
+                ).finally(function () {
+                    callUtagAndSetOtherData(alldata, tealiumData, userData);
+                });
+            }
+        } else {
+            console.log("Utag View event is not triggered");
+        }
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+/* Header and Footer click events*/
+var remove_global_vars_1 = [
+    'customer_name',
+    'language_code',
+    'country_code',
+    'customer_postal_code',
+    'customer_city',
+    'customer_state',
+  ]
+  function getPageName() {
+    let hpLoadData = window.pageLoadEventData;
+    const page_name = hpLoadData && hpLoadData.page_name ? hpLoadData.page_name : '';
+    let link_location_name = '';
+    if (page_name === 'Home Page') {
+      link_location_name = 'HOMEPAGE'
+    } else if (page_name === 'BrandLandingDetails') {
+      link_location_name = 'BrandLanding'
+    } else if (page_name === 'BrandLanding') {
+      link_location_name = 'BrandListing'
+    } else if (page_name === 'ProductDetails') {
+      link_location_name = 'PDP'
+    } else if (page_name === 'SearchResults') {
+      link_location_name = 'SearchResults'
+    } else if (page_name === 'SubCategoryDetails' || page_name === 'CategoryLandingDetails') {
+      link_location_name = 'PLP'
+    } else if (page_name === 'DepartmentLandingDetails') {
+      link_location_name = 'CLP'
+    }
+    return link_location_name;
+  }
+  function typeaheadLinkClick(ampData) {
+    const actionType = 'typeahead link click';
+    const link_location_name = getPageName();
+    const ampKeys = ["search_words_applied"]
+    const getPayLoadData = getPayload(
+      ["product_position_clicked","pagename_breadcrumb"],
+      ["",""],
+      ["","Search"]);
+    const getPayloadAmpData = getPayloadFromAmpData(ampKeys,ampData);
+    const actionData = Object.assign(getPayLoadData,getPayloadAmpData,{link_location_name: link_location_name, link_name: ampData && ampData.search_term ? ampData.search_term + "|InternalSearchFlyout" : '',});
+
+    const pageName = { page_type: 'product', page_name: 'typeahead link click' };
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function buyBuyBabyTClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Buy Buy Baby T","Buy Buy Baby T click",""]);  const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Buy Buy Baby T click';
+    const pageName = 'Buy Buy Baby T click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function worldMarketClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","World Market","World Market click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'World Market click';
+    const pageName = 'World Market click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function harmonFaceValuesClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Harmon Face Values","Harmon Face Values click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Harmon Face Values click';
+    const pageName = 'Harmon Face Values click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function christmasTreeShopsClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Christmas Tree Shops","Christmas Tree Shops click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Christmas Tree Shops click';
+    const pageName = 'Christmas Tree Shops click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function decoristClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Decorist","Decorist click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Decorist click';
+    const pageName = 'Decorist click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function downloadOnIOSClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Download On IOS","Download On IOS click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Download On IOS click';
+    const pageName = 'Download On IOS click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function downloadOnAndroidClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Download On Android","Download On Android click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Download On Android click';
+    const pageName = 'Download On Android click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function facebookClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Facebook","Facebook click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Facebook click';
+    const pageName = 'Facebook click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function twitterClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Twitter","Twitter click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Twitter click';
+    const pageName = 'Twitter click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function followUsOnInstagramClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Follow us on Instagram","Follow us on Instagram click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Follow us on Instagram click';
+    const pageName = 'Follow us on Instagram click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function followUsOnPinterestClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Follow us on Pinterest","Follow us on Pinterest click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Follow us on Pinterest click';
+    const pageName = 'Follow us on Pinterest click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function followUsOnYoutubeClick() {
+    const getPayLoadData = getPayload(
+      ["link_location_name","page_type","pagename_breadcrumb","link_name","page_name"],
+      ["page_name","page_type","pagename_breadcrumb","",""],
+      ["","","","Follow us on Youtube","Follow us on Youtube click",""]);
+    const actionData = Object.assign(getPayLoadData,{remove_global_vars: remove_global_vars_1});
+    const actionType = 'Follow us on Youtube click';
+    const pageName = 'Follow us on Youtube click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  function bookAnAppointmentClick() {
+    const bookAnAppointment = "book an appointment :" + getPageName();
+    const actionType = 'book an appointment clicked';
+    const getPayLoadData = getPayload(
+      ["channel","navigation_path","page_function","page_type","subnavigation_path","page_name","pagename_breadcrumb","registry_id","registry_type"],
+      ["","","","","","","","","",""],
+      ["Registry","Registry","Registry","Registry","Registry","book an appointment clicked","Registry Book an Appointment","",""]);
+    const actionData = Object.assign(getPayLoadData,{appt_scheduler_entry: bookAnAppointment});
+    const pageName = '';
+    tealiumLinkEvent(actionType, actionData, pageName);
+  }
+  /* Header and Footer click events*/
+
+/* Page Click Events */
+function excludeCurrenyCode(object, pos) {
+    if (
+        object[pos] !== null &&
+        object[pos].substring(0, 1) === '$'
+      ) {
+        return object[pos].slice(1);
+    }
+    return object[pos];
+}
+function isString(arg) {
+    return typeof arg === 'string';
+};
+function excludeCurrenyCodeFromArray(object, pos) {
+    if (object[pos] !== null) {
+      return object[pos].replace(/[^\d.-]/g, '');
+    }
+    return object[pos];
+};
+function changeArray(data, key) {
+    const values = data;
+    if (data.length < 1) {
+      return values;
+    } else if (values) {
+      const len = values.length;
+
+      for (let index = 0; index < len; index += 1) {
+        if (!isString(values[index])) {
+            let modValue = '';
+            if (values[index] !== null && values[index] !== undefined) {
+                modValue = values[index].toString();
+            }
+          values[index] = modValue;
+        }
+        if (key === 'product_price' || key === 'product_original_price') {
+          values[index] = excludeCurrenyCodeFromArray(values, index);
+        }
+      }
+    }
+    return values;
+};
+function convertData(tealiumData) {
+    const data = tealiumData;
+    try {
+        Object.keys(data).forEach(key => {
+        if (Array.isArray(data[key])) {
+            return changeArray(data[key], key);
+        } else if (!isString(data[key])) {
+            let modValue = '';
+            if (data[key] !== null && data[key] !== undefined) {
+                modValue = data[key].toString();
+            }
+            data[key] = modValue;
+            return null;
+        }
+        data[key] = excludeCurrenyCode(data, key);
+        return null;
+        });
+        if (data.page_type === '') {
+        data.page_type = 'Snowplow';
+        }
+        return data;
+    } catch (e) {
+        console.log(`${e.name}: ${e.message}`);
+        return data;
+    }
+}
+function filteredGlobalUserInfo() {
+    const globalUserInfoObj = window.globalUserInfo;
+    delete globalUserInfoObj.cart_total_items;
+    delete globalUserInfoObj.cart_total_value;
+    delete globalUserInfoObj.customer_bill_country;
+    delete globalUserInfoObj.customer_bill_name;
+    delete globalUserInfoObj.customer_bill_postal_code;
+    delete globalUserInfoObj.customer_bill_state;
+    delete globalUserInfoObj.customer_country;
+    delete globalUserInfoObj.customer_postal_code;
+    delete globalUserInfoObj.device_fingerprint;
+    delete globalUserInfoObj.product_displayed;
+    return globalUserInfoObj;
+}
+function mergeGlobalAndActioData(globalData, actionData) {
+    const utagData = Object.assign(globalData, actionData);
+    const removeVariables = actionData.remove_global_vars;
+    if (removeVariables) {
+      try {
+        for (let i = 0; i < removeVariables.length; i += 1) {
+          delete utagData[removeVariables[i]];
+        }
+      } catch (e) {
+        console.log(`${e.name}: ${e.message}`);
+      }
+    }
+    delete utagData.remove_global_vars;
+    return utagData;
+};
+function getPageNameAndType(pageName) {
+    var TEALIUM_PAGE_INFO = '';
+    var TEALIUM_PAGE_INFO_L2 = {
+        page_name: 'CategoryLandingDetails',
+        page_type: 'Category Page',
+    };
+    var TEALIUM_PAGE_INFO_L3 = {
+        page_name: 'SubCategoryDetails',
+        page_type: 'Sub Category Page',
+    };
+    var TEALIUM_PAGE_INFO_BRAND_PLP = {
+        page_name: 'BrandLandingDetails',
+        page_type: 'Brand Page',
+    };
+    var TEALIUM_PAGE_INFO_SR_PLP = {
+        page_name: 'SearchResults',
+        page_type: 'Search',
+    };
+    if (pageName) {
+      if (pageName === 'L2_PLP') {
+        TEALIUM_PAGE_INFO = TEALIUM_PAGE_INFO_L2;
+      } else if (pageName === 'L3_PLP') {
+        TEALIUM_PAGE_INFO = TEALIUM_PAGE_INFO_L3;
+      } else if (pageName === 'Brand_PLP') {
+        TEALIUM_PAGE_INFO = TEALIUM_PAGE_INFO_BRAND_PLP;
+      } else if (pageName === 'SearchResults_PLP') {
+        TEALIUM_PAGE_INFO = TEALIUM_PAGE_INFO_SR_PLP;
+      }
+    }
+    return TEALIUM_PAGE_INFO;
+};
+function tealiumLinkEvent(actionType, actionData, pageName){
+    let GLOBAL_INFO = {};
+    var PAGE_IDENTIFIER_ARRAY = [
+        'L2_PLP',
+        'L3_PLP',
+        'Brand_PLP',
+        'SearchResults_PLP',
+    ];
+    GLOBAL_INFO.utc_timestamp_text = new Date().toUTCString();
+    let PAGE_INFO = pageName;
+    if (
+      typeof pageName === 'string' &&
+      pageName !== '' &&
+      PAGE_IDENTIFIER_ARRAY.includes(pageName)
+    ) {
+      PAGE_INFO = getPageNameAndType(pageName);
+    }
+    if (actionType || actionType === '') {
+      GLOBAL_INFO.call_to_actiontype = actionType;
+      const currentPageName =
+        typeof PAGE_INFO === 'object' ? PAGE_INFO.page_name : '';
+      const pageType = typeof PAGE_INFO === 'object' ? PAGE_INFO.page_type : '';
+      // use diffPageName in cases where the page_name from siteConfig needs to be overwritten
+      GLOBAL_INFO.page_name = currentPageName;
+      GLOBAL_INFO.page_type = pageType;
+      const utagData = mergeGlobalAndActioData(GLOBAL_INFO, actionData);
+      const globalUserInfoObj = filteredGlobalUserInfo();
+      globalUserInfoObj.page_referrer_url = document && document.referrer;
+      const mergedUtagData = Object.assign(utagData, globalUserInfoObj);
+      const data = convertData(mergedUtagData);
+      utag.link(data);
+    } else {
+        console.log('unable to trigger tags, please check actionType');
+    }
+}
+function tealiumClickEventHandler(element, dataObj) {
+    if (element) {
+        var functionName = element.getAttribute("data-cta");
+        if (functionName !== null) {
+            var newFuncName = functionName === "plpAddToCartOnATCModal" ? "plpAddToCart" : functionName;
+            if (newFuncName === "pdpPickItUpClick" || newFuncName === "pdpAddToCartOnATCModal" || newFuncName === "plpPickItUpClick" || newFuncName === "plpAddToCart") {
+                try {
+                   this[newFuncName](dataObj);
+                } catch (e) {
+                    console.log("Execution failed for function named : ", newFuncName, " with error : ", e);
+                }
+            } else {
+                var dataAttribute = element.getAttribute("data-attribute");
+                try {
+                    if(isString(dataAttribute))
+                    {
+                        this[newFuncName](dataAttribute);
+                    }
+                    else {
+                        this[newFuncName](JSON.parse(dataAttribute));
+                    }
+                } catch (e) {
+                    console.log("Execution failed for function named : ", newFuncName, " with error : ", e);
+                }
+            }
+        }
+    }
+}
+
+function getPayload(keys, windowObj, defaultValue) {
+    const pageLoadData = window.pageLoadEventData;
+    let output = {};
+    for (let i = 0; i < keys.length; i++) {
+        let tmp = '';
+        if (windowObj[i] !== '') {
+            if (pageLoadData[windowObj[i]]) {
+                tmp = pageLoadData[windowObj[i]];
+            } else {
+                tmp = defaultValue[i];
+            }
+        } else {
+            tmp = defaultValue[i];
+        }
+        output[keys[i]] = tmp;
+    }
+    return output;
+}
+
+function getPayloadFromAmpData(keys, ampData) {
+    return keys.reduce(function (o, k) { o[k] = ampData[k] ? ampData[k] : ''; return o; }, {});
+}
+
+function cbccBannerClick(url) {
+    let linkName;
+    if (url && url.includes('baby')) {
+      linkName = 'globalnav|baby';
+    }
+    else if (url && url.toUpperCase().includes('HARMON')) {
+      linkName = 'globalnav|harmon';
+    }
+    else {
+      linkName = 'globalnav|bbby';
+    }
+    const getPayLoadData = getPayload(
+        ["channel","navigation_path","page_function","page_type","subnavigation_path","page_name","pagename_breadcrumb","registry_id","registry_type"],
+        ["channel","navigation_path","page_function","page_type","subnavigation_path","page_name","pagename_breadcrumb","registry_id","registry_type"],
+        ["","","","CrossSite Banner","CrossSite Banner Click",""]);
+    const actionData = Object.assign(getPayLoadData,{cbccLinkName: linkName});
+    const actionType = "clickCBCC";
+    const pageName = 'CrossSite Banner Click';
+    tealiumLinkEvent(actionType, actionData, pageName);
+}
+
+function onSearchStoreClick() {
+    const actionType = 'find a store search';
+    const DEFAULT_BREADCRUMB = 'My Account>Find a Store';
+    const pageName = 'find a store search';
+    const PAGE_TYPE = {
+        page_type: 'My Account',
+        page_name: 'FindStore',
+      };
+    const getPayLoadData = getPayload(
+        ["channel","navigation_path","page_function","page_type","subnavigation_path"],
+        ["channel","navigation_path","page_function","page_type","subnavigation_path"],
+        ["","","Find a store",PAGE_TYPE,""]);
+    const actionData = Object.assign(getPayLoadData,{page_name: pageName, pagename_breadcrumb: DEFAULT_BREADCRUMB});
+    tealiumLinkEvent(actionType, actionData, pageName);
+}

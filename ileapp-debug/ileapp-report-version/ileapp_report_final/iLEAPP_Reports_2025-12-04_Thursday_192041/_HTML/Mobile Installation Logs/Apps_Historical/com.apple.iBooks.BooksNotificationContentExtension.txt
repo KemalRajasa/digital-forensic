@@ -1,0 +1,3 @@
+2022-01-10 12:30:32 Data container moved com.apple.iBooks.BooksNotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/3BD50A3E-F4F5-4A8E-B8E9-DAA3444FA6D6
+2022-01-10 12:30:32 Data container moved com.apple.iBooks.BooksNotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/3BD50A3E-F4F5-4A8E-B8E9-DAA3444FA6D6
+2022-01-06 17:41:29 Made container live com.apple.iBooks.BooksNotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/E0D628B0-EE6A-48B1-BF16-9951769E411D

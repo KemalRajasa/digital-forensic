@@ -1,0 +1,121 @@
+=[M$
+2YIz
+=[M\
+
+
+
+
+
+
+~
+b
+W
+G
+8
+%
+
+lS>%
+vXE-
+
+
+
+
+
+
+
+k
+W
+B
+,
+
+							e	J	3	
+TurnBasedSessionList
+TurnBasedSessionEntry
+TurnBasedSession
+TurnBasedParticipant
+TurnBasedExchangeReply
+TurnBasedExchange
+TopGamesListEntry
+TopGamesList!C
+ReengagementAchievementEntry
+RecentPlayerList
+RecentPlayerEntry
+RecentGameList
+RecentGameEntry
+PlayerToInvite
+	PlayerProfile
+CompatiblePlayerList;
+PlayerList
+CompatiblePlayerEntry9
+PlayerEntry
+PlayerEmail 7
+MultiplayerGroupParticipant
+MultiplayerGroupList
+MultiplayerGroup
+MessageInboxEntry
+Localization
+LeaderboardTitleMapList
+LeaderboardTitleMap
+LeaderboardSetList
+LeaderboardSet
+LeaderboardListEntry
+LeaderboardList
+Leaderboard+
+Invite
+GKCDGameSettings
+GKCDGameFriendList
+GKCDGameFriend
+GKCDGameAccessList
+GKCDFriendCodeDetail
+GameSummary
+GamesPlayedSummaryList
+GamesPlayed
+GameRecord
+GameRecommendationList
+GameRecommendationEntry
+GameRating
+GamePlatform
+
+GameList
+GameEntry	
+Game
+FriendsPlayedGameList
+FriendRequestList
+FriendRequestEntry
+FriendRecommendationList
+FriendRecommendationEntry
+FriendPlayedGameEntry
+FriendPlayedEntry
+FriendList
+FriendEntry
+
+FlowRate
+CompatibilityMatrixVersion$
+CompatibilityMatrixShortVersion
+CompatibilityMatrixList
+CompatibilityMatrixEntry
+ChallengeList 
+ChallengeCompatibleBundleID
+ScoreChallenge
+AchievementChallenge
+Challenge
+BadgeCount
+AchievementPointsList
+AchievementPointsEntry
+AchievementList
+AchievementDescriptionList
+AchievementDescription
+Achievement
+U:a3b375ee71aa52268a135b8e74d20105
+=[M^/
+=[MhwdT
+
+=[MU
+=[Ma
+
+=[M[w/
+=[M's
+
+=[M8
+=[Mh
+Q	U:a3b375ee71aa52268a135b8e74d20105

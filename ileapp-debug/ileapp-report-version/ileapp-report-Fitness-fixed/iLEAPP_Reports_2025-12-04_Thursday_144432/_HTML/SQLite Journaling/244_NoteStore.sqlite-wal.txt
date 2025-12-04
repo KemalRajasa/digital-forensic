@@ -1,0 +1,972 @@
+$5|Spq
+APh]
+[APr
+A."-
+
+$5|Q
+ICServerChangeToken
+TRANSACTION#
+TRANSACTIONSTRING
+ICCloudState	
+ICNoteData
+ICAttachmentLocation
+ICLocation
+ICFolder
+ICAccount
+ICNoteContainer
+ICNote
+ICMedia
+ICLegacyTombstone
+ICInlineAttachment
+ICHashtag
+ICDeviceMigrationState
+ICAttachmentPreviewImage
+ICAttachment
+ICAccountData
+CHANGEY
+ICCloudSyncingObject	
+$5|{a-o
+Z
+
+
+
+
+
+
+
+
+x
+h
+X
+@
+1
+!
+
+w`J:*
+nXH4$
+
+
+
+
+
+
+
+w
+g
+P
+9
+*
+
+
+
+					
+>	#
+>	"
+R	
+@
+1	
+
+
++	
+
+
+*	
+
+
+(	
+$5|[R,
+
+
+
+
+
+
+
+n
+R
+6
+
+z^B&
+APr>
+APj+
+A<`I
+D^`$
+$5|"
+|oT
+
+$5| Qv
+$5|
+$o57
+
+$5|O5|\
+
+$5|)'37
+
+kU>
+
+$5|z
+APr>#
+APj+"
+A<M!
+A<`I 
+!|<
+
+A.r
+
+A.Q	
+$5|cQcz0
+	
+LocalAccount3_On My iPhoneOn My iPhonebplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ &),U$null
+
+WNS.keysZNS.objectsV$class
+&com.apple.mobilenotes.SharingExtension_
+&com.apple.mobilenotes.IntentsExtension_
+com.apple.mobilenotes
+\NS.uuidbytesO
+_ZHb
+!"#$Z$classnameX$classesVNSUUID#%XNSObject
+M]I-!2
+!"-.\NSDictionary-%
+A.|s`A.~5A
+APrA.~A.
+r<A.
+A9247171-B2F3-4B18-B17F-B4C2FC117327Energy drinksGrocery list
+
+826
+
+"integerValue"	UUIDIndex*
+com.apple.CRDT.NSNumber*
+com.apple.CRDT.NSString*
+com.apple.CRDT.NSUUID*
+com.apple.CRDT.CRTuple*(com.apple.CRDT.CRRegisterMultiValueLeast*#com.apple.CRDT.CRRegisterMultiValue*
+com.apple.CRDT.CRTree*
+com.apple.CRDT.CRTreeNode*1com.apple.notes.ICCloudSyncingObjectActivityEvent*
+com.apple.notes.CRTable*
+com.apple.notes.ICTable2
+?hY2
+DefaultFolder-LocalAccount3_On My iPhoneNotess
+TrashFolder-LocalAccount3_On My iPhoneRecently Deleted
+B$5|V
+APgo
+APh9PA)
+hc(A)
+hc(APhb
+r<APgo
+DF6D6432-0216-4AF3-BC31-8AE187789E05New Note
+
+!
+DeviceMigrationState_AAA3EB7E-485D-4C71-93D7-7C0CF8E04464AAA3EB7E-485D-4C71-93D7-7C0CF8E04464bplist00
+VX$versionY$archiverT$topX$objects
+	
+
+
+ !"#$%&'()*+,-./0/23/06/////<=/////C/E/0///KL0/0/QR/0/_
+TombstonedPublicKeyIDs_
+HasUpdatedParentReference_
+ChainProtectionData]KnownToServer_
+DisplayedHostnameYBaseToken_
+WantsChainPCSKey[RecordCtimeZRoutingKey_
+ProtectionDataEtag_
+&PreviousProtectionDataEtagFromUnitTest_
+ConflictLoserEtags_
+PreviousProtectionDataEtagZRecordType_
+CreatorUserRecordID_
+ParentReferenceYShareEtagXPCSKeyID\ZoneishKeyID_
+ MutableEncryptedPublicSharingKeyTETag_
+PreviousShareReference_
+ModifiedByDevice^ProtectionData_
+UseLightweightPCS^ShareReferenceSURL_
+ChainParentPublicKeyID_
+LastModifiedUserRecordID[RecordMtime_
+WantsPublicSharingKey_
+ZoneProtectionDataEtagYWasCached_
+ChainPrivateKeyZPermissionXRecordID\AllPCSKeyIDs_
+HasUpdatedShareReference_
+PreviousParentReference
+WXY`aijkrvz}U$null^MigrationStateZ[\]^_V$classZRecordNameVZoneID
+$AAA3EB7E-485D-4C71-93D7-7C0CF8E04464bcdZ/fgh_
+anonymousCKUserIDYownerNameXZoneName
+XMetadata_
+__defaultOwner__lmnoZ$classnameX$classes^CKRecordZoneIDpq^CKRecordZoneIDXNSObjectlmstZCKRecordIDuqZCKRecordIDwZxyWNS.time#A
+;
+lm{|VNSDate{qwZ~y#A
+2
+Z[\]
+__defaultOwner__bcdZ/h
+\_defaultZone_
+__defaultOwner__Z[\]
+__defaultOwner__XiPhone 8Q4^www.icloud.com
+$5|R`n
+
+TRANSACTION$
+CHANGEZ
+$5|A8A
+
+
+
+						
+>	$
+$5|:
+MeR
+
+$5|b;`w
+
+
+
+
+
+
+$5|GYW
+$5|xxa0
+
+$5|u
+$5|w=wLxb
+
+B$5|
+
+AR7
+$5|j
+buM,.Q
+#8XQI
+'sF]
+"a`!j)+
+382+m)
+;;[R(^#1{v!
+BKrB
+.^7S+d2S;LUQV$e
+T
+5p^c
+hhq['
+h-1(Z
+Y
+V]LL1
+=G	
+OnqE+fh5&%!u
+><M_
+}/{L
+$5|[zi]t
+
+TRANSACTION%
+CHANGE]
+
+
+							m	]	L
+>	%$
+>	%
+$5|
+'Sl
+
+ARyN3
+$5|RHDE`
+
+
+
+
+
+
+
+
+$5|B4%a
+
+$5|.o
+
+$5|	6I
+
+$5|gr5:G
+$5|D
+q&
+
+ARyN3%
+B$5|(
+0W9'
+
+:3	9
+r<AR7XDF6D6432-0216-4AF3-BC31-8AE187789E05East
+
+$5|O
+$5|a
+:  Q5D!<??X#3;UJ
+~:8[IKK :i]W
++2g<
+bF->
+%P>
+$5|q
+TRANSACTION&
+CHANGE`
+>h;
+
+
+
+							m	]	L	4	$	
+>	&$
+>	&
+$5|ByW
+
+
+$5|!0
+
+
+
+
+
+
+
+
+
+
+
+$5|L
+$5|gC
+
+$5|rW
+$5|76
+$5|9mR
+
+AS&
+B$5|-i'
+
+r<AS2DF6D6432-0216-4AF3-BC31-8AE187789E05East Woods Hike
+
+$5|P
+  uQH5D!<??X#3;KJ
+$5|8K
+TRANSACTION'
+CHANGEc
+$5|UT
+>	'$
+>	'
+r
+$5|'G8W
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-3f
+
+sK@c
+
+$5|$CM
+$5||j8
+
+$5|
+dbN:ST
+
+r<AT
+DF6D6432-0216-4AF3-BC31-8AE187789E05East Woods Hike
+
+ At]
+  QH5D!<??X#3;DTGAXRJ
+Lk0E
+"*R`ZIJ
+w9^Yg0RC
+8fJ0f,^
+g@,PR4ehP>#
+TRANSACTION(
+CHANGEf
+$5|^<YXh
+
+>	($
+>	(
+$5|^
+rT
+$5|)"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~.M|
+
+$5|G20<
+
+$5|R
+$5|O@#sg
+$5|*(
+$5|j,v
+
+DF6D6432-0216-4AF3-BC31-8AE187789E0544.44545, -73.19659East Woods Hike
+
+$5|~
+TRANSACTION)
+CHANGEh
+$5|ft
+>	)
+>	)$
+$5|d:w
+rT6
+$5|?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$5|k
+"
+$5|c_\
+$5||cZ
+
+r<At
+yDF6D6432-0216-4AF3-BC31-8AE187789E0544.44545, -73.19659East Woods Hike
+
+$5|b
+"Auo_
+$5|U
+`(X\
+Rebgbbjbknghifj %
+U)0$%
+@up
+[],Vdx
+LB@3%
+3CK|
+)24r(
+y/<F0
+DJT	
+TRANSACTION*
+CHANGEk
+>	*$
+>	*
+rT6
+$5|pdx_,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$5|5N;
+
+$5|{
+$5|Vq6
+$5|J
+$5|)
+Au*
+B$5|/=
+
+r<Auo
+DF6D6432-0216-4AF3-BC31-8AE187789E0544.44545, -73.19659East Woods Hike
+
+$5|LQNycSQLite format 3
+$5|gw
+Notes
+Metadata
+H76bt
+$5|5 
+TRANSACTION+
+CHANGEl
+$5|r
+A^9]
+$5|Kz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$5|t'yU0
+
+$5|Ev
+$5|i
+B$5|@9M
+:6)
+
+$5|
+Bu>.=
+
+TRANSACTION,
+CHANGEm
+AM/2
+
+$5|I
+
+A^9jB
+$5| 
+$5|v"0
+
+$5|xYC
+pyP3/
+
+Z'I
+
+B$5|L
+
+
+
+
+
+
+
+A^9jB,
+F=3SQLite format 3
+w9(}q
+
+TRANSACTION-
+CHANGEn
+$5|(^s*
+
+$5|M
+
+y
+s
+$5|^AvTR
+$5|M ,
+
+$5|gIB<al
+$5|Qv
+B$5|<u/C
+
+
+
+
+
+
+
+$5|o_
+$5|8
+
+TRANSACTION.
+CHANGEo
+%d"5
+
+
+y
+s
+m
+$5|2
+$5|^`
+
+$5|
+yR
+$5|+9=
+$5|3^^
+B$5|d$
+$5|*[6
+SQLite format 3
+$5|R!
+
+$5|z
+TRANSACTION/
+CHANGEp
+$5|nN!
+$5|V<
+o.le
+
+$5|{+_-R
+
+
+y
+s
+m
+g
+$5|)6l%
+$5|K,
+
+$5|Ic^
+}'uJ
+
+}%<*uj
+
+B$5|MF$d
+
+
+
+
+
+
+
+
+
+
+AhM/
+$5|ir
+$5|0t
+
+TRANSACTION0
+CHANGEq
+$5|2g#t
+
+$5|T
+= D
+
+
+
+
+
+
+
+p
+$5|5
+R*\
+
+
+y
+s
+m
+g
+a
+$5|D
+x.9n
+
+$5||
+=Na
+
+$5|$x}
+$5|@pR
+T
+
+B$5|c
+
+
+
+
+
+
+
+
+
+
+Ah00
+$5|Z?#48SQLite format 3
+$5|TUh0
+$5|1s
+
+TRANSACTION1
+CHANGEr
+$5|4
+)
+$5|<6
+
+
+
+
+
+
+p
+T
+Ai'x
+l.*
+
+
+y
+s
+m
+g
+a
+[
+$5|j?s?
+
+$5|M8\?
+$5|md
+
+$5|Eu?NU
+
+	e]
+
+Ai'x1
+$5|c
+$5|3>#
+
+TRANSACTION2
+CHANGEs
+$5|qVL
+
+$5|LcC
+
+
+
+
+
+
+
+p
+T
+8
+Ai'X.
+$5|,
+_g9
+
+
+y
+s
+m
+g
+a
+[
+U
+$5|\
+$5|	2^+A
+
+$5|h>f.bN
+
+$5|$_E1
+
+$5|p
+;Mv
+
+
+
+
+
+
+
+
+
+
+
+
+w
+Ai'X.2
+.vSQLite format 3
+$5|GK
+TRANSACTION3
+CHANGEt
+$5||*!
+$5|9fVy
+
+
+
+
+
+
+p
+T
+8
+
+
+y
+s
+m
+g
+a
+[
+U
+O
+{~wz
+
+$5|m:
+$5|yV
+!~z]O
+
+B$5|'Ya9PO2
+
+
+
+
+
+
+
+
+
+
+
+
+w
+j
+$5|wn	
+
+$5|tjI
+
+TRANSACTION4
+CHANGEu
+$5|8yg
+$5|X
+$5|Wp[
+
+y
+s
+m
+g
+a
+[
+U
+O
+I
+$5|
+{up
+
+$5|tl
+B$5|E.f-w
+
+
+
+
+
+
+
+
+
+
+
+
+w
+j
+]
+$5|!
+\SQLite format 3
+$5|;
+~uQp
+$5|6
+TRANSACTION5
+TRANSACTIONSTRING 
+CHANGEv
+$5|fH
+N0VQU
+
+AjKCX
+Ofg
+
+
+y
+s
+m
+g
+a
+[
+U
+O
+I
+C
+$5|F
+$5|<kO
+$5|8}{q
+B$5|1K
+
+
+
+
+
+
+
+
+
+
+
+w
+j
+]
+P
+AjKCX5
+$5|>sP-
+
+$5|2|xa7
+TRANSACTION6
+CHANGEw
+$5|cZwV
+
+AjKF
+$5|[k
+
+y
+s
+m
+g
+a
+[
+U
+O
+I
+C
+=
+$5|^7wr
+e>
+
+$5|AB~
+
+$5|@e
+
+$5|@ (g5
+
+$5|F~)rOZ
+
+`qzj
+
+
+
+
+
+
+
+
+
+
+
+
+w
+j
+]
+P
+C

@@ -1,0 +1,282 @@
+#Q;MJ
+5e1
+aSQLite format 3
+.S`
+
+)tabledatabase_infodatabase_info
+CREATE TABLE database_info (key TEXT PRIMARY KEY NOT NULL,value TEXT NOT NULL)9
+indexsqlite_autoindex_database_info_1database_info
+Ctableicon_infoicon_info
+CREATE TABLE icon_info (uuid TEXT PRIMARY KEY NOT NULL,url TEXT NOT NULL,timestamp INTEGER)1
+indexsqlite_autoindex_icon_info_1icon_info
+cindexPageURLIndexpage_url
+CREATE INDEX PageURLIndex ON page_url (url)
+tablepage_urlpage_url
+CREATE TABLE page_url (url TEXT NOT NULL ON CONFLICT FAIL UNIQUE ON CONFLICT REPLACE,uuid TEXT NOT NULL ON CONFLICT FAIL)/
+indexsqlite_autoindex_page_url_1page_url
+#Q;MJN$'
+#Q;MJQ
+
+0)
+
+#Q;MJT}+"$
+
+#Q;MJ_?R
+
+#Q;MJIX
+#Q;MJe(SQLite format 3
+SQLite format 3
+)tableicon_infoicon_info
+CREATE TABLE icon_info (uuid TEXT PRIMARY KEY NOT NULL,url TEXT NOT NULL,timestamp INTEGER, width INTEGER DEFAULT 0, height INTEGER DEFAULT 0)u
+OSQLite format 3
+tableicon_infoicon_info
+CREATE TABLE icon_info (uuid TEXT PRIMARY KEY NOT NULL,url TEXT NOT NULL,timestamp INTEGER, width INTEGER DEFAULT 0, height INTEGER DEFAULT 0, has_generated_representations INTEGER DEFAULT 0)u
+#Q;MJ0
+JSQLite format 3
+Itablerejected_resourcesrejected_resources	CREATE TABLE rejected_resources (page_url TEXT NOT NULL ON CONFLICT FAIL,icon_url TEXT NOT NULL ON CONFLICT FAIL,timestamp INTEGER,UNIQUE(page_url, icon_url))^
+indexsqlite_autoindex_rejected_resources_1rejected_resources
+
+
+#Q;MJ,{m
+
+
+#Q;MJ&c"PXSQLite format 3
+AfF
+
+EUhttps://www.google.com/search?q=plant+shops+near+me&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari197187D3-6CAC-46BB-B179-A4E66A8CC041
+aM.
+
+E	https://www.google.com/search?q=plant+shops+near+me&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari
+#Q;MJ@9
+#Q;MJL2\@
+197187D3-6CAC-46BB-B179-A4E66A8CC041https://www.google.com/favicon.icoA
+
+#Q;MJE]6
+
+U	197187D3-6CAC-46BB-B179-A4E66A8CC041
+#Q;MJ$4"
+
+Uhttps://www.google.com/search?q=plant+shops+near+me&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari&dlnr=1&sei=5d7iYf6jKZKtptQP_-GIwAE197187D3-6CAC-46BB-B179-A4E66A8CC041
+#Q;MJ^j]
+https://www.google.com/search?q=plant+shops+near+me&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari&dlnr=1&sei=5d7iYf6jKZKtptQP_-GIwAE
+
+#Q;MJ
+#Q;MJY
+z1:
+
+?Uhttps://www.google.com/maps/dir//472+Marshall+Ave,+Williston,+VT+05495/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cca78fdb4999e8b:0x7a59527145808dbf?entry=s&sa=XE5F98069-D979-40B4-AEAD-6AB5C342F853'
+c)V_
+
+https://www.google.com/maps/dir//472+Marshall+Ave,+Williston,+VT+05495/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x4cca78fdb4999e8b:0x7a59527145808dbf?entry=s&sa=X
+#Q;MJJ	P
+Go4i
+
+	E5F98069-D979-40B4-AEAD-6AB5C342F853https://www.google.com/images/branding/product/ico/maps15_bnuw3a_32dp.icoA
+Ov  W
+9v!)'
+
+E5F98069-D979-40B4-AEAD-6AB5C342F853
+sUhttps://maps.app.goo.gl/?utm_campaign=ml_promo&pcampaignid=ml-dv2&apn=com.google.android.apps.maps&amv=965100030&link=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%2F472%2BMarshall%2BAve%2C%2BWilliston%2C%2BVT%2B05495%2F%4044.4443318%2C-73.1208343%2C15z%2Fdata%3D!4m7!4m6!1m1!4e2!1m2!1m1!1s0x4cca78fdb4999e8b%3A0x7a59527145808dbf!3e0%3Fentry%3Dml&isi=585027354&ibi=com.google.Maps&ius=comgooglemapsurl&pt=9008&mt=8&ct=ml-dv2-d5-en&efr=196117722-C660-4143-A24D-91A0DB0934FFA
+https://maps.app.goo.gl/?utm_campaign=ml_promo&pcampaignid=ml-dv2&apn=com.google.android.apps.maps&amv=965100030&link=https%3A%2F%2Fwww.google.com%2Fmaps%2Fdir%2F%2F472%2BMarshall%2BAve%2C%2BWilliston%2C%2BVT%2B05495%2F%4044.4443318%2C-73.1208343%2C15z%2Fdata%3D!4m7!4m6!1m1!4e2!1m2!1m1!1s0x4cca78fdb4999e8b%3A0x7a59527145808dbf!3e0%3Fentry%3Dml&isi=585027354&ibi=com.google.Maps&ius=comgooglemapsurl&pt=9008&mt=8&ct=ml-dv2-d5-en&efr=1
+#Q;MJ{
+	96117722-C660-4143-A24D-91A0DB0934FFhttps://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/1x/firebase_64dp.pngA
+96117722-C660-4143-A24D-91A0DB0934FF
+-
+MUhttps://www.bedbathandbeyond.comD27051CC-1EF6-47DA-B040-26D144971501[
+D%tD
+
+https://www.bedbathandbeyond.com
+#Q;MJZ
+#Q;MJc_#tR
+
+	D27051CC-1EF6-47DA-B040-26D144971501https://www.bedbathandbeyond.com/favicon/BedBathUS/favicon-32x32.pngA.
+  
+D27051CC-1EF6-47DA-B040-26D144971501
+j$d
+
+MUhttps://www.bedbathandbeyond.comAFC70F20-597C-45BA-BB79-2D2330083FF1[
+#Q;MJj
+U}|Y
+AFC70F20-597C-45BA-BB79-2D2330083FF1https://www.bedbathandbeyond.com/favicon/BedBathUS/favicon.icoA.
+
+
+#Q;MJ8.gw
+
+AFC70F20-597C-45BA-BB79-2D2330083FF1
+#Q;MJ/
+-M
+eUhttps://www.google.com/search?q=when+does+bed+bath+and+beyond+close&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari197187D3-6CAC-46BB-B179-A4E66A8CC041G
+xn`
+
+https://www.google.com/search?q=when+does+bed+bath+and+beyond+close&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari
+
+#Q;MJ6
+#Q;MJnN
+kUhttps://www.google.com/search?q=whatsmyip.com&client=safari&hl=en-us&ei=MiXkYc-ZMLOfptQPgvCg2Ak&oq=whatsmyip.com&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBwgAEIAEEAoyBggAEAoQHjIECAAQHjIGCAAQChAeMgQIABAeOgcIABBHELADOg0ILhDHARCjAhCwAxBDOgcIABCwAxBDOg4IABCPARDqAhCMAxDlAjoFCAAQkQI6DgguEIAEELEDEMcBENEDOgsILhCABBDHARCjAjoOCC4QgAQQsQMQxwEQowI6CwguEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoECAAQQzoLCC4QgAQQxwEQrwE6BwgAELEDEEM6CAgAEIAEELEDOgoIABCxAxCDARBDOgcILhCABBAKOggIABCxAxCDAToLCAAQgAQQsQMQgwE6BAgAEAM6CAgAEIAEEMkDOgUIABCSAzoLCAAQgAQQsQMQyQM6BwgAELEDEAo6CggAELEDEIMBEApKBAhBGABQ7A9YuEdg4lBoCnABeACAAasBiAGlDJIBBDE0LjOYAQCgAQGwAQ_IAQvAAQE&sclient=mobile-gws-wiz-serp197187D3-6CAC-46BB-B179-A4E66A8CC041
+Ds7WC
+
+	r(
+https://www.google.com/search?q=whatsmyip.com&client=safari&hl=en-us&ei=MiXkYc-ZMLOfptQPgvCg2Ak&oq=whatsmyip.com&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBQgAEIAEMgUIABCABDIFCAAQgAQyBwgAEIAEEAoyBggAEAoQHjIECAAQHjIGCAAQChAeMgQIABAeOgcIABBHELADOg0ILhDHARCjAhCwAxBDOgcIABCwAxBDOg4IABCPARDqAhCMAxDlAjoFCAAQkQI6DgguEIAEELEDEMcBENEDOgsILhCABBDHARCjAjoOCC4QgAQQsQMQxwEQowI6CwguEIAEELEDEIMBOhEILhCABBCxAxCDARDHARDRAzoECAAQQzoLCC4QgAQQxwEQrwE6BwgAELEDEEM6CAgAEIAEELEDOgoIABCxAxCDARBDOgcILhCABBAKOggIABCxAxCDAToLCAAQgAQQsQMQgwE6BAgAEAM6CAgAEIAEEMkDOgUIABCSAzoLCAAQgAQQsQMQyQM6BwgAELEDEAo6CggAELEDEIMBEApKBAhBGABQ7A9YuEdg4lBoCnABeACAAasBiAGlDJIBBDE0LjOYAQCgAQGwAQ_IAQvAAQE&sclient=mobile-gws-wiz-serp
+
+#Q;MJ	
+197187D3-6CAC-46BB-B179-A4E66A8CC041https://www.google.com/favicon.icoAX
+#Q;MJ%C
+YUhttps://www.totalwireless.com/collectminpinpromo?utm_source=ret&utm_medium=sms&utm_campaign=19160_ret&utm_content=WRR_19160A_0L1C1S1_03_SP&utm_term=437836267006721187E3CE85BD-0A9F-45B5-8B21-45F2EADE3B86W
+#Q;MJmteX+
+
+https://www.totalwireless.com/collectminpinpromo?utm_source=ret&utm_medium=sms&utm_campaign=19160_ret&utm_content=WRR_19160A_0L1C1S1_03_SP&utm_term=437836267006721187
+#Q;MJp_
+#Q;MJNT6a
+
+	E3CE85BD-0A9F-45B5-8B21-45F2EADE3B86https://www.totalwireless.com/favicon.ico?v=9878787A
+
+#Q;MJ,c-=PU
+
+E3CE85BD-0A9F-45B5-8B21-45F2EADE3B86
+AFC70F20-597C-45BA-BB79-2D2330083FF1https://www.bedbathandbeyond.com/favicon/BedBathUS/favicon.icoAPL  
+#Q;MJ7MC
+WUhttps://www.google.com/search?q=what+to+do+if+you+get+hacked&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari197187D3-6CAC-46BB-B179-A4E66A8CC041N
+#Q;MJ
+}>
+Z	r(
+https://www.google.com/search?q=what+to+do+if+you+get+hacked&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari	+
+
+#Q;MJ}z
+scP
+
+197187D3-6CAC-46BB-B179-A4E66A8CC041https://www.google.com/favicon.icoAW
+#Q;MJl!|
+-Uhttps://www.avnet-cyber.com/the-first-5-things-you-should-do-when-you-get-hackedE4F0364A-2ECC-4EB4-B383-1ABB399CCFC5
+	
+#Q;MJk"{
+https://www.avnet-cyber.com/the-first-5-things-you-should-do-when-you-get-hacked
+j
+r"(*
+
+#Q;MJ)
+/Oa;
+
+	E4F0364A-2ECC-4EB4-B383-1ABB399CCFC5https://www.avnet-cyber.com/wp-content/uploads/2017/02/cropped-A-192x192.pngAq
+
+#Q;MJFUJy
+
+E4F0364A-2ECC-4EB4-B383-1ABB399CCFC5
+-Uhttps://www.avnet-cyber.com/the-first-5-things-you-should-do-when-you-get-hackedA0F165AC-08F4-44BB-8FED-F52AAE8744A2
+	
+-%NI
+#Q;MJ?Z?
+	A0F165AC-08F4-44BB-8FED-F52AAE8744A2https://www.avnet-cyber.com/wp-content/uploads/2017/02/A.pngAq$;3
+i-+
+
+A0F165AC-08F4-44BB-8FED-F52AAE8744A2
+#Q;MJa
+13~
+
+-Uhttps://www.avnet-cyber.com/the-first-5-things-you-should-do-when-you-get-hackedAF51F61C-C3D4-446B-8744-F474F79F59BA
+	
+#Q;MJ#bR
+
+7
+,
+,
+	AF51F61C-C3D4-446B-8744-F474F79F59BAhttps://www.avnet-cyber.com/wp-content/uploads/2017/02/cropped-A-32x32.pngAqC
+
+#Q;MJ6	
+AF51F61C-C3D4-446B-8744-F474F79F59BA	(
+#Q;MJ\
+wUhttps://www.google.com/search?q=how+to+fix+a+computer+from+being+hacked&client=safari&hl=en-us&sxsrf=APq-WBv440JvWYzM-_FnkYZpf3tZhpfs_A%3A1644551980149&ei=LN8FYoTICOCZptQP2_SxkAs&oq=how+to+fix+a+computer+from+being+hacked&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBQghEKsCOgcIIxCwAxAnOgcIABBHELADOgcIABCwAxBDOgcIIxDqAhAnOg4ILhCABBCxAxDHARCjAjoECAAQQzoLCC4QgAQQxwEQowI6CwgAEIAEELEDEIMBOggIABCABBCxAzoOCC4QsQMQgwEQxwEQowI6BAgjECc6BQgAEJECOgUIABCABDoLCC4QgAQQsQMQ1AI6CAgAELEDEIMBOgUIABCxAzoGCAAQFhAeOgUIABCGAzoFCCEQoAE6CAghEBYQHRAeSgQIQRgAUKIbWL2RAWD4pgFoBXAAeAGAAb8CiAHaGZIBCDM1LjIuMS4xmAEAoAEBsAEIyAEKwAEB&sclient=mobile-gws-wiz-serp197187D3-6CAC-46BB-B179-A4E66A8CC041x
+
+y$s
+
+https://www.google.com/search?q=how+to+fix+a+computer+from+being+hacked&client=safari&hl=en-us&sxsrf=APq-WBv440JvWYzM-_FnkYZpf3tZhpfs_A%3A1644551980149&ei=LN8FYoTICOCZptQP2_SxkAs&oq=how+to+fix+a+computer+from+being+hacked&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBQghEKsCOgcIIxCwAxAnOgcIABBHELADOgcIABCwAxBDOgcIIxDqAhAnOg4ILhCABBCxAxDHARCjAjoECAAQQzoLCC4QgAQQxwEQowI6CwgAEIAEELEDEIMBOggIABCABBCxAzoOCC4QsQMQgwEQxwEQowI6BAgjECc6BQgAEJECOgUIABCABDoLCC4QgAQQsQMQ1AI6CAgAELEDEIMBOgUIABCxAzoGCAAQFhAeOgUIABCGAzoFCCEQoAE6CAghEBYQHRAeSgQIQRgAUKIbWL2RAWD4pgFoBXAAeAGAAb8CiAHaGZIBCDM1LjIuMS4xmAEAoAEBsAEIyAEKwAEB&sclient=mobile-gws-wiz-serpU
+
+#Q;MJi
+#Q;MJ#P~=
+
+{Uhttps://clario.co/blog/what-to-do-if-computer-is-hackedA64AF27D-7834-435A-8E99-61622006A401
+#Q;MJThv@
+https://clario.co/blog/what-to-do-if-computer-is-hackedz
+#Q;MJJcN
+
+7
+,
+	A64AF27D-7834-435A-8E99-61622006A401https://static-cdn.clario.co/blog/images/favicons/196x196.pngAp
+A64AF27D-7834-435A-8E99-61622006A401
+(
+#Q;MJ}}E
+
+{Uhttps://clario.co/blog/what-to-do-if-computer-is-hacked69B8885A-7B41-4E7E-8C40-27EF72E0044A
+#Q;MJ}
+s/Z
+
+#Q;MJ%yx>
+
+7
+,BB
+	69B8885A-7B41-4E7E-8C40-27EF72E0044Ahttps://static-cdn.clario.co/blog/images/favicons/32x32.pngAw2  
+69B8885A-7B41-4E7E-8C40-27EF72E0044A
+#Q;MJU
+Uhttps://www.google.com/search?q=computer+fix+near+me&client=safari&hl=en-us&sxsrf=APq-WBsuADyKT4P1ZTetum6s6kZyy0aZwg%3A1644552222467&ei=HuAFYriCHPujptQPlcyV-AQ&oq=computer+&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADIHCAAQyQMQQzIFCAAQkQIyBAgAEEMyBAgAEEMyCAgAELEDEJECMgUIABCRAjIECAAQQzIECAAQQzoHCCMQsAMQJzoHCAAQRxCwAzoHCCMQ6gIQJzoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOgUIABCABDoHCC4Q1AIQQzoECC4QQzoKCAAQgAQQhwIQFDoRCC4QgAQQsQMQgwEQxwEQowI6DgguEIAEELEDEMcBENEDOgcIABCxAxBDSgQIQRgAUMw5WMdOYLZbaARwAHgAgAHVAYgB8AaSAQU3LjEuMZgBAKABAbABCcgBCcABAQ&sclient=mobile-gws-wiz-serp197187D3-6CAC-46BB-B179-A4E66A8CC041^
+https://www.google.com/search?q=computer+fix+near+me&client=safari&hl=en-us&sxsrf=APq-WBsuADyKT4P1ZTetum6s6kZyy0aZwg%3A1644552222467&ei=HuAFYriCHPujptQPlcyV-AQ&oq=computer+&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADIHCAAQyQMQQzIFCAAQkQIyBAgAEEMyBAgAEEMyCAgAELEDEJECMgUIABCRAjIECAAQQzIECAAQQzoHCCMQsAMQJzoHCAAQRxCwAzoHCCMQ6gIQJzoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOgUIABCABDoHCC4Q1AIQQzoECC4QQzoKCAAQgAQQhwIQFDoRCC4QgAQQsQMQgwEQxwEQowI6DgguEIAEELEDEMcBENEDOgcIABCxAxBDSgQIQRgAUMw5WMdOYLZbaARwAHgAgAHVAYgB8AaSAQU3LjEuMZgBAKABAbABCcgBCcABAQ&sclient=mobile-gws-wiz-serp
+;
+
+#Q;MJa
+hSQLite format 3
+#Q;MJR
+https://www.google.com/search?q=computer+fix+near+me&client=safari&hl=en-us&sxsrf=APq-WBsuADyKT4P1ZTetum6s6kZyy0aZwg%3A1644552222467&ei=HuAFYriCHPujptQPlcyV-AQ&oq=computer+&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADIHCAAQyQMQQzIFCAAQkQIyBAgAEEMyBAgAEEMyCAgAELEDEJECMgUIABCRAjIECAAQQzIECAAQQzoHCCMQsAMQJzoHCAAQRxCwAzoHCCMQ6gIQJzoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOgUIABCABDoHCC4Q1AIQQzoECC4QQzoKCAAQgAQQhwIQFDoRCC4QgAQQsQMQgwEQxwEQowI6DgguEIAEELEDEMcBENEDOgcIABCxAxBDSgQIQRgAUMw5WMdOYLZbaARwAHgAgAHVAYgB8AaSAQU3LjEuMZgBAKABAbABCcgBCcABAQ&sclient=mobile-gws-wiz-serp&dlnr=1&sei=veAFYoyEGNGiptQPrPKJ6AI
+#Q;MJ
+GUhttps://www.google.com/search?q=computer+fix+near+me&client=safari&hl=en-us&sxsrf=APq-WBsuADyKT4P1ZTetum6s6kZyy0aZwg%3A1644552222467&ei=HuAFYriCHPujptQPlcyV-AQ&oq=computer+&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYADIHCAAQyQMQQzIFCAAQkQIyBAgAEEMyBAgAEEMyCAgAELEDEJECMgUIABCRAjIECAAQQzIECAAQQzoHCCMQsAMQJzoHCAAQRxCwAzoHCCMQ6gIQJzoLCC4QgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOgUIABCABDoHCC4Q1AIQQzoECC4QQzoKCAAQgAQQhwIQFDoRCC4QgAQQsQMQgwEQxwEQowI6DgguEIAEELEDEMcBENEDOgcIABCxAxBDSgQIQRgAUMw5WMdOYLZbaARwAHgAgAHVAYgB8AaSAQU3LjEuMZgBAKABAbABCcgBCcABAQ&sclient=mobile-gws-wiz-serp&dlnr=1&sei=veAFYoyEGNGiptQPrPKJ6AI197187D3-6CAC-46BB-B179-A4E66A8CC041
+#Q;MJ?k
+
+https://m.yelp.com/search?cflt=itservices&find_loc=Burlington%2C+VThttps://m.yelp.com/favicon.icoA;3
+I	https://m.yelp.com/search?cflt=itservices&find_loc=Burlington%2C+VThttps://m.yelp.com/favicon.ico
+{SQLite format 3
+#Q;MJxd&=
+https://www.google.com/search?q=hacked+computer+what+to+do&client=safari&hl=en-us&sxsrf=APq-WBsUyzWg9BTfOi2kW_EuAQzeax0GiA%3A1644552384868&ei=wOAFYt-zNLybptQP8ri-KA&oq=hacked+computer&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYAjIKCAAQgAQQhwIQFDIKCAAQgAQQhwIQFDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQsAMQJzoHCAAQRxCwAzoKCAAQsAMQyQMQQzoICAAQkgMQsAM6EgguEMcBEKMCEMgDELADEEMYADoMCC4QyAMQsAMQQxgAOgcIIxDqAhAnOg4ILhCABBCxAxDHARCjAjoECAAQQzoLCC4QgAQQxwEQowI6CwguEMcBEK8BEJECOg0ILhCxAxDHARCjAhBDOgcIABCxAxBDOgcIABDJAxBDOgsILhCABBCxAxDUAjoICC4QgAQQsQM6CgguELEDENQCEEM6CwgAEIAEELEDEIMBOgQILhBDOgsILhCABBDHARCvAToKCAAQsQMQgwEQQzoNCC4QsQMQxwEQ0QMQQzoICAAQgAQQsQM6BQguELEDOggIABCxAxCDAUoFCDgSATFKBAhBGABQxtECWIyMA2CynQNoBnAAeACAAZEBiAGvCZIBBDEzLjKYAQCgAQGwAQrIAQ_AAQHaAQQIABgI&sclient=mobile-gws-wiz-serp
+
+x
+"
+cUhttps://www.google.com/search?q=hacked+computer+what+to+do&client=safari&hl=en-us&sxsrf=APq-WBsUyzWg9BTfOi2kW_EuAQzeax0GiA%3A1644552384868&ei=wOAFYt-zNLybptQP8ri-KA&oq=hacked+computer&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAEYAjIKCAAQgAQQhwIQFDIKCAAQgAQQhwIQFDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDoHCCMQsAMQJzoHCAAQRxCwAzoKCAAQsAMQyQMQQzoICAAQkgMQsAM6EgguEMcBEKMCEMgDELADEEMYADoMCC4QyAMQsAMQQxgAOgcIIxDqAhAnOg4ILhCABBCxAxDHARCjAjoECAAQQzoLCC4QgAQQxwEQowI6CwguEMcBEK8BEJECOg0ILhCxAxDHARCjAhBDOgcIABCxAxBDOgcIABDJAxBDOgsILhCABBCxAxDUAjoICC4QgAQQsQM6CgguELEDENQCEEM6CwgAEIAEELEDEIMBOgQILhBDOgsILhCABBDHARCvAToKCAAQsQMQgwEQQzoNCC4QsQMQxwEQ0QMQQzoICAAQgAQQsQM6BQguELEDOggIABCxAxCDAUoFCDgSATFKBAhBGABQxtECWIyMA2CynQNoBnAAeACAAZEBiAGvCZIBBDEzLjKYAQCgAQGwAQrIAQ_AAQHaAQQIABgI&sclient=mobile-gws-wiz-serp197187D3-6CAC-46BB-B179-A4E66A8CC041
+https://clario.co/blog/what-to-do-if-computer-is-hacked
+https://www.avnet-cyber.com/the-first-5-things-you-should-do-when-you-get-hacked
+
+
+
+#2	|	
+
+https://www.google.com/search?q=what+to+do+if+you+get+hacked&ie=UTF-8&oe=UTF-8&hl=en-us&client=safari	
+E	https://www.google.com/search?q=plant+shops+near+me&ie=UTF-8&oe=UTF-8&hl=en-us&client=safariz
+https://www.google.com/search?q=how+to+fix+a+computer+from+being+hacked&client=safari&hl=en-us&sxsrf=APq-WBv440JvWYzM-_FnkYZpf3tZhpfs_A%3A1644551980149&ei=LN8FYoTICOCZptQP2_SxkAs&oq=how+to+fix+a+computer+from+being+hacked&gs_lcp=ChNtb2JpbGUtZ3dzLXdpei1zZXJwEAMyBQghEKsCOgcIIxCwAxAnOgcIABBHELADOgcIABCwAxBDOgcIIxDqAhAnOg4ILhCABBCxAxDHARCjAjoECAAQQzoLCC4QgAQQxwEQowI6CwgAEIAEELEDEIMBOggIABCABBCxAzoOCC4QsQMQgwEQxwEQowI6BAgjECc6BQgAEJECOgUIABCABDoLCC4QgAQQsQMQ1AI6CAgAELEDEIMBOgUIABCxAzoGCAAQFhAeOgUIABCGAzoFCCEQoAE6CAghEBYQHRAeSgQIQRgAUKIbWL2RAWD4pgFoBXAAeAGAAb8CiAHaGZIBCDM1LjIuMS4xmAEAoAEBsAEIyAEKwAEB&sclient=mobile-gws-wiz-serp
+#Q;MJXq
+
+7
+,Bf
+	964AC754-AC49-4759-94FD-49C0DE973D23https://i2.wp.com/preyproject.com/NmYlNzIlM2QlMjIlMjMlMzAlMzAlMzAlMzAlMzglMzAlMjIlM2UlMGQ/wp-content/uploads/2018/07/cropped-favicon.png?fit=192%2C192&#038;ssl=1A
+%R
+#Q;MJ,
+:; 
+
+69B8885A-7B41-4E7E-8C40-27EF72E0044A(
+964AC754-AC49-4759-94FD-49C0DE973D23(
+#Q;MJUo
+
+x
+"	
+'Uhttps://preyproject.com/blog/en/my-computer-was-hacked-3-things-you-should-do964AC754-AC49-4759-94FD-49C0DE973D23S
+#Q;MJ"{j_K
+
+https://preyproject.com/blog/en/my-computer-was-hacked-3-things-you-should-do
+#Q;MJ~;Q
+f
+7
+,B
+
+
+	7D970E64-F3D2-4F30-B783-88069945E984https://i2.wp.com/preyproject.com/NmYlNzIlM2QlMjIlMjMlMzAlMzAlMzAlMzAlMzglMzAlMjIlM2UlMGQ/wp-content/uploads/2018/07/cropped-favicon.png?fit=32%2C32&#038;ssl=1A
+%S  
+7D970E64-F3D2-4F30-B783-88069945E984
+(
+#Q;MJ<
+'Uhttps://preyproject.com/blog/en/my-computer-was-hacked-3-things-you-should-do7D970E64-F3D2-4F30-B783-88069945E984S
+#Q;MJ>H6L
+

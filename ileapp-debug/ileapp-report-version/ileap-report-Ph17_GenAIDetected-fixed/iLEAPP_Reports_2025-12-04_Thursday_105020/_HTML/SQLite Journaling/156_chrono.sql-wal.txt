@@ -1,0 +1,200 @@
+# N:
+"*6l
+`f=y
+
+
+v
+*X	t#
+
+
+P
+
+		|	
+K_com.reddit.Reddit.RedditWidgets308547-308547-(2022-01-21T15:45:57-05:00)V
+Qocom.toyopagroup.picaboo.homeWidget11.62.0.36-11.62.0.36-(2022-01-21T15:37:24-05:00)h
+com.google.Gmail.WidgetKitExtension6.0.211226.1395752-6.0.211226.1395752-(2022-01-21T15:31:29-05:00)F
+?acom.apple.podcasts.widget1606.2.2-1.0.1-(2022-01-10T12:30:37-05:00)K
+Eecom.apple.Music.MusicWidgets4019.100.137-1.0-(2022-01-10T12:30:18-05:00)=
+;Scom.apple.stocks.widget892-892-(2022-01-10T12:30:35-05:00)>
+=Scom.apple.weather.widget109-109-(2022-01-10T12:29:13-05:00)@
+IKcom.apple.tv.TVWidgetExtension1-1-(2022-01-10T12:30:03-05:00)O
+cOcom.apple.mobilecal.CalendarWidgetExtension1.0-1-(2022-01-10T12:29:43-05:00)O
+Mecom.apple.Maps.GeneralMapsWidget2683.30.7.27.9-1-(2022-01-10T12:28:46-05:00)B
+=[com.apple.tips.TipsSwift613.2-613.2-(2022-01-10T12:29:30-05:00)O
+S_com.apple.reminders.WidgetExtension2391.2-2391.2-(2022-01-10T12:28:57-05:00)M
+
+WWcom.apple.mobilenotes.WidgetExtension1957-1957-(2022-01-10T12:28:36-05:00)=
+7Wcom.apple.news.widget2916-2916-(2022-01-10T12:28:36-05:00):
+1Wcom.apple.news.tag2916-2916-(2022-01-10T12:28:36-05:00)U
+
+]acom.apple.mobilemail.MailWidgetExtension3693.0.2.2.3-1-(2022-01-10T12:28:25-05:00)J	
+YOcom.apple.mobiletimer.WorldClockWidget1.0-1-(2021-10-06T23:06:09-04:00)F
+QOcom.apple.findmy.FindMyWidgetItems259-1-(2021-10-06T23:06:09-04:00)^
+ekcom.apple.mobileslideshow.PhotosReliveWidget402.5.150-402.5.150-(2021-10-06T23:06:09-04:00)H
+YKcom.apple.gamecenter.widgets.extension1-1-(2021-10-06T23:06:09-04:00)G
+SOcom.apple.findmy.FindMyWidgetPeople259-1-(2021-10-06T23:06:09-04:00)N
+eKcom.apple.PeopleViewService.PeopleWidget-iOS1-1-(2021-10-06T23:06:09-04:00)<
+AKcom.apple.AppStore.Widgets1-1-(2021-10-06T23:06:09-04:00)p
+gcom.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension500.0.25-500.0.25-(2021-10-06T23:06:09-04:00)M
+cKcom.apple.Health.Sleep.SleepWidgetExtension1-1-(2021-10-06T23:06:09-04:00)
+$\[
+
+
+
+
+!
+
+6Z
+com.reddit.Reddit.RedditWidgets
+com.toyopagroup.picaboo.homeWidget
+com.google.Gmail.WidgetKitExtension
+com.apple.podcasts.widget
+com.apple.Music.MusicWidgets
+com.apple.stocks.widget
+com.apple.weather.widget
+com.apple.tv.TVWidgetExtension
+com.apple.mobilecal.CalendarWidgetExtension
+com.apple.Maps.GeneralMapsWidget
+com.apple.tips.TipsSwift
+com.apple.reminders.WidgetExtension
+com.apple.mobilenotes.WidgetExtension
+
+com.apple.news.widget
+com.apple.news.tag,
+com.apple.mobilemail.MailWidgetExtension
+*
+com.apple.mobiletimer.WorldClockWidget	&
+com.apple.findmy.FindMyWidgetItems
+com.apple.mobileslideshow.PhotosReliveWidget
+com.apple.gamecenter.widgets.extension
+com.apple.findmy.FindMyWidgetPeople
+com.apple.PeopleViewService.PeopleWidget-iOS
+com.apple.AppStore.Widgets
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+c	com.apple.Health.Sleep.SleepWidgetExtension
+
+2H
+
+6
+q
+
+
+
+
+~3W
+com.reddit.Reddit.RedditWidgets"&
+com.toyopagroup.picaboo.homeWidget!'
+com.google.Gmail.WidgetKitExtension 
+com.apple.mobilenotes.WidgetExtension
+com.apple.news.widget
+com.apple.news.tag
+com.apple.Health.Sleep.SleepWidgetExtension
+com.apple.mobiletimer.WorldClockWidget&
+com.apple.mobileslideshow.PhotosReliveWidget
+*
+com.apple.findmy.FindMyWidgetPeople0
+com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension
+
+com.apple.mobilemail.MailWidgetExtension
+com.reddit.Reddit.RedditWidgetsbplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+-./01234;FGHIJKLXYZ[\]^jklmnoU$null
+
+ZNS.objectsV$class
+ !"#$%&'()*+,_
+widgetDescription_
+containerBundleIdentifierZintentType_
+supportedSizeClasses_
+widgetVisibility_
+extensionBundleIdentifier_
+eventMachServiceName[localeTokenTkind[transparent[displayName
+com.reddit.Reddit.RedditWidgets_
+com.reddit.RedditXTopPosts^The Front Page_
+TopPostsWidgetIntent_
+@Stay in the loop with top posts redditors are talking about now.O
+i!|:Z+e7
+5678Z$classnameX$classes_
+CHSAvocadoDescriptor9:_
+CHSAvocadoDescriptorXNSObject
+ <">$%&@(BC+E
+com.reddit.Reddit.RedditWidgetsUImage_
+Pretty Pictures_
+ImageWidgetIntent_
+)Enjoy the best photos from across Reddit.O
+ M"OP%&R(TU+W
+com.reddit.Reddit.RedditWidgetsTText_
+Deep Contemplation_
+TextWidgetIntento
+ _"(b%&d(fg+i
+com.reddit.Reddit.RedditWidgetsXCalendar\Cat Calendar_
+1Finally, a puuuurfect way to know what day it is.O
+56pqWNSArrayp:
+com.toyopagroup.picaboo.homeWidgetbplist00
+*+,-./07U$null
+
+ !"#$ &'()_
+"com.toyopagroup.picaboo.homeWidget_
+com.toyopagroup.picaboo_
+com.snapchat.snapcode[My Snapcode_
+"This widget displays your snapcodeO
+1234Z$classnameX$classes_
+CHSAvocadoDescriptor56_
+CHSAvocadoDescriptorXNSObject1289WNSArray86
+com.google.Gmail.WidgetKitExtensionbplist00
++,-./0129DEFGHIJU$null
+
+ !"#$%&'()*_
+#com.google.Gmail.WidgetKitExtension_
+com.google.Gmail_
+ com.google.Gmail.EmailListWidget]Email updates_
+ItemListWidgetIntent_
+:Get the latest email updates directly on your home screen.O
+3456Z$classnameX$classes_
+CHSAvocadoDescriptor78_
+: <"#$>&@A)C
+"com.google.Gmail.QuickActionWidget_
+Quick email actions_
+SearchWidgetIntent_
+BSearch, compose, and get email updates faster on your home screen.O
+34KLWNSArrayK8
+a
+5s
+AB$
+
+ ;>f1C#
+
+com.apple.Health.Sleep.SleepWidgetExtensionbplist00
++com.apple.Health.Sleep.SleepWidgetExtension_
+com.apple.Health.Sleep_
+com.apple.health.SleepWidget_
+Data and Schedule_
+1See how you slept and review your Sleep schedule.O
+com.apple.findmy.FindMyWidgetItemsbplist00
+*+,-./018U$null
+
+ !"#$%&'()_
+"com.apple.findmy.FindMyWidgetItems_
+com.apple.findmy_
+"com.apple.findmy.FindMyWidgetItemsUItems_
+ItemSelectorIntent_
+&Never lose track of your tagged items.O
+2345Z$classnameX$classes_
+CHSAvocadoDescriptor67_
+CHSAvocadoDescriptorXNSObject239:WNSArray97
+com.apple.PeopleViewService.PeopleWidget-iOSbplist00
++,-./0129EFGHIJU$null
+
+,com.apple.PeopleViewService.PeopleWidget-iOS_
+com.apple.PeopleViewService_
+SingleContactWidget_iOSXContacts_
+SelectPersonIntent_
+:Easily check the status of the people you care about most.O
+: <=#$?&AB)*
+MultipleContactWidget_iOS_
+SelectPeopleIntent_
+
+v,O
+

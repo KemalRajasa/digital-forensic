@@ -1,0 +1,659 @@
+o/G`)JB|.2v`3
+o/G`)JB TSQLite format 3
+.S`
+
+
+cA
+
+#	#	
+WindexEdgeValue_stringValueEdgeValue
+CREATE INDEX EdgeValue_stringValue on EdgeValue (attributeId, stringValue) where stringValue not null
+KindexEdgeValue_realValueEdgeValue
+CREATE INDEX EdgeValue_realValue on EdgeValue (attributeId, realValue) where realValue not null
+EindexEdgeValue_intValueEdgeValue
+CREATE INDEX EdgeValue_intValue on EdgeValue (attributeId, intValue) where intValue not nullJ
+ctableEdgeValueEdgeValue
+CREATE TABLE EdgeValue (elementId integer, attributeId integer, intValue integer, realValue real, stringValue text, dataType integer, primary key (elementId, attributeId))1
+
+indexsqlite_autoindex_EdgeValue_1EdgeValue
+WindexNodeValue_stringValueNodeValue
+CREATE INDEX NodeValue_stringValue on NodeValue (attributeId, stringValue) where stringValue not null
+KindexNodeValue_realValueNodeValueCREATE INDEX NodeValue_realValue on NodeValue (attributeId, realValue) where realValue not null
+EindexNodeValue_intValueNodeValueCREATE INDEX NodeValue_intValue on NodeValue (attributeId, intValue) where intValue not nullJ
+ctableNodeValueNodeValue	CREATE TABLE NodeValue (elementId integer, attributeId integer, intValue integer, realValue real, stringValue text, dataType integer, primary key (elementId, attributeId))1
+indexsqlite_autoindex_NodeValue_1NodeValue
+
+otableAttributeAttribute
+CREATE TABLE Attribute (identifier integer primary key autoincrement, name text, dataType integer, flags integer)*
+7tableEdgeEdge
+CREATE TABLE Edge (identifier integer primary key autoincrement, weight float, labels blob, sourceNodeId integer, targetNodeId integer, attrIds blob)
+tableNodeNode
+CREATE TABLE Node (identifier integer primary key autoincrement, weight float, labels blob, edgesIn blob, edgesOut blob, attrIds blob)}
+9tableGraphMetadataGraphMetadata
+CREATE TABLE GraphMetadata (metadataKey integer primary key autoincrement, value text)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+]tableLabelLabel
+CREATE TABLE Label (identifier integer primary key autoincrement, name text, nodeIds blob, edgeIds blob)
+o/G`)JB1sO!
+o/G`)JB
+Edges
+Nodec
+
+AttributeM
+Labelc
+GraphMetadata
+o/G`)JBNl*k
+Infxr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+y
+p
+g
+^
+U
+L
+C
+:
+1
+(
+
+
+}tkbYPG>5,#
+xof]TKB90'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|
+s
+j
+a
+X
+O
+F
+=
+4
++
+"
+
+																w	n	e	\	S	J	A	8	/	&	
+o/G`)JB4@
+mN2
+"
+
+HW;p
+4
+ug
++
+
+
+~
+
+u
+
+m
+
+e
+
+]
+
+Ux
+
+Mp
+
+Eh
+~
+=y`
+
+
+
+
+
+
+)
+
+
+
+
+
+ 
+^
+o/G`)JBH9`
+l
+4
+
+\
+D
+
+.Azzf\
+*Azy#l
+0Azf\
+2Az#l
+.AxD
+*Ax^
+!A`"+
+o/G`)JBq1
+
+
+
+m
+9
+[
+
+u
+
+A
+3Super Bowl Sunday
+GC863618B-3744-4C7E-AF9F-7A7CFA538AC9
+G6BCC7A10-0B36-4F5C-9C2A-5455E5393A3F
+G61395202-1186-4705-8765-802731168215
+G7649BA01-5933-4B14-825D-B74B5F4FB132
+en-US
+3Evening
+301-14-2022
+32022-01-14 19
++5D94D755-056D-4834-B75C-FF47A898750D
+3Sunday
+302-06-2022
+32022-02-06 16
++E9AB62EC-4D75-4AE2-9A79-7BF1ADE7AB9C
+3Morning
+3Saturday
+301-15-2022
+32022-01-15 09
++F933BFF3-A96D-4C6B-A0AE-1A6D1014C50A
+3Afternoon
+3Friday
+3Winter
+301-21-2022
+32022-01-21 17
++6D827E00-D87D-4097-A5E9-2F5FB68B9BAA
+7618
+en_US
+o/G`)JB4"s
+o/G`)JB#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Y
+y
+q
+i
+a
+1
+Q
+I
+A
+9
+	
+)
+!
+
+iyqAaYQI
+91)!
+gyp:^ULC	
+o/G`)JBd4L
+	
+
+
+
+A
+
+		k	C
+
+
+
+di@
+3a8
+
+
+
+
+]
+:
+
+		c	;
+
+V
+3
+
+	
+
+
+
+zY0
+			[	3		
+
+
+
+
+s
+O
+,
+	{Q(		+	
+\	{	S
+
+
+
+
+
+HI 		#
+
+l
+%
+
+	s	K
+}																																																														
+o/G`)JB/yv1L
+
+4
+		#
+@
+<SCENE
+!<<domain_600
+Illustrations
+Printed_Page
+Document
+Handwriting
+Raw_Cardboard
+Painting
+Raw_Plastic
+Clothing
+Gas_Mask
+Holiday
+Celebration
+Bath
+Skeleton
+Mask
+Skull
+Costume
+<PARTOFWEEK
+Weekday
+<DATE
+o/G`)JB#0Cu
+
+#F
+i
+o/G`)JBnT
+F
+i
+	<<<<
+o/G`)JByW0LZ
+
+:
+
+'	z
+o/G`)JBR
+3
+i
+?
+?
+o/G`)JB_]]4
+
+o/G`)JBqD
+o/G`)JB\sQ
+
+
+L
+<?UU`
+o/G`)JB,
+
+
+
+
+
+
+
+|
+g
+[
+F
+,
+
+j]QD6)
+tgZM@3&
+
+
+
+
+}
+h
+S
+F
+1
+%
+
+											{	o	b	V	J	3	&	
+b3Super Bowl Sunday
+a.Azzf\
+a*Azy#l
+aGC863618B-3744-4C7E-AF9F-7A7CFA538AC9
+a0Azf\
+a2Az#l
+`.AxD
+`*Ax^
+`G6BCC7A10-0B36-4F5C-9C2A-5455E5393A3F
+`0Ax
+`2Ax
+_G61395202-1186-4705-8765-802731168215
+^G7649BA01-5933-4B14-825D-B74B5F4FB132
+]3Evening
+	[3r
+E
+Y301-14-2022
+	XA	B
+	X@
+A
+	X>	?
+	X=	>
+	X<	=
+	X;	<
+	X:	;
+	X9
+:
+	X7	8
+	X6	7
+	X5
+6
+X32022-01-14 19
+	X,.-
+X+5D94D755-056D-4834-B75C-FF47A898750D
+N3Sunday
+H302-06-2022
+F3Morning
+	DB
+
+;3Saturday
+	83s
+u
+6301-15-2022
+	5A	r
+	5@
+q
+	5>	o
+	5=	n
+	5<	m
+	5;	l
+	5:
+k
+	57	h
+	56	g
+	55
+f
+532022-01-15 09
+52Ax
+50Ax
+5.AxD
+5+F933BFF3-A96D-4C6B-A0AE-1A6D1014C50A
+5*Ax^
+ 3Afternoon
+3Friday
+3Winter
+3y	?
+	&	m
+	 
+g
+	
+
+T
+	
+	O
+o/G`)JB~]<
+
+	GA	&
+	G@
+%
+	G>	#
+	G=	"
+	G<	!
+	G;	 
+	G:
+
+	G7	
+	G6	
+	G5
+
+G32022-02-06 16
+G+E9AB62EC-4D75-4AE2-9A79-7BF1ADE7AB9C
+o/G`)JBG
+<?HX
+o/G`)JBd9pXV
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+a
+V
+K
+@
+5
+*
+
+
+	yncXLA6+
+	yncXMB7,!
+
+
+
+
+
+
+
+
+
+
+
+
+z
+m
+`
+T
+H
+<
+0
+#
+
+
+												y	l
+	qF	
+	qE	
+	qD
+
+	pE	
+	pD
+
+	oE	
+
+	oD
+	
+	nE	
+	nD
+
+	mE	
+	mD
+
+	lF	|
+	lE	{
+	lD
+z
+	k,	x
+	kF	w
+	kE	v
+	kD	u
+	kC	t
+	j,	s
+	jF	r
+	jE	q
+	jD	p
+	jC
+o
+	iE	l
+	iD
+k
+	hF	h
+	hE	g
+	hD	f
+	hC	e
+	],	d
+	]F	c
+	]E	b
+	]D	a
+	]C	`
+	\,	_
+	\F	^
+	\E	]
+	\D	\
+	\C	[
+	[,	Z
+	[F	Y
+	[E	X
+	[D	W
+	[CCV
+PJ912AB330-D45C-4191-A158-610A7116E569,6253304C-B0B7-408D-B01E-886A946B0523,560892CA-0687-429D-8E62-7A30751EB040,40EC5500-27CF-4635-B682-A7DEB6F1859B,7BCCC703-A235-49E7-BE71-F8D0569B0825
+OJ40EC5500-27CF-4635-B682-A7DEB6F1859B,912AB330-D45C-4191-A158-610A7116E569
+	4F	
+	4E	
+	4D	
+	4C
+
+	3F	
+	3E	
+	3D	
+
+	3C
+
+	2F	
+
+	2E		
+	2D	
+	2C
+
+	1F	
+	1E	
+	1D	
+	1C
+
+	0E	
+	0D
+~
+	/,	|
+	/F	{
+	/E	z
+	/D	y
+	/C	x
+	.,	w
+	.F	v
+	.E	u
+	.D	t
+	.C	s
+	-,	r
+	-F	q
+	-E	p
+	-D	o
+	-C	n
+	,,	m
+	,F	l
+	,E	k
+	,D	j
+	,C	i
+	+,	h
+	+F	g
+	+E	f
+	+D	e
+	+C	d
+	*,	c
+	*F	b
+	*E	a
+	*D	`
+	*C
+_
+	)F	]
+	)E	\
+	)D	[
+	)C
+Z
+	(F	X
+	(E	W
+	(D
+V
+	
+,	
+	
+F	
+
+	
+E	
+	
+D	
+	
+C	
+
+	,		
+	F	
+	E	
+	D	
+	C	
+	,	
+	F	
+	E	
+	D	
+0o/G`)JB]#GogN
+
+	sF	
+	sE	
+	sD	
+	sC
+
+	rE	
+	rD
+

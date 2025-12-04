@@ -1,0 +1,6 @@
+2022-01-21 17:11:26 Destroying container com.tencent.xin.WeChatNotificationServiceExtension /private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-21 17:11:26 Destroying container com.tencent.xin.WeChatNotificationServiceExtension /private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-21 17:11:26 Destroying container com.tencent.xin.WeChatNotificationServiceExtension /private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-21 17:11:26 Destroying container com.tencent.xin.WeChatNotificationServiceExtension /private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-21 16:14:46 Made container live com.tencent.xin.WeChatNotificationServiceExtension /private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-21 16:14:46 Made container live com.tencent.xin.WeChatNotificationServiceExtension /private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9

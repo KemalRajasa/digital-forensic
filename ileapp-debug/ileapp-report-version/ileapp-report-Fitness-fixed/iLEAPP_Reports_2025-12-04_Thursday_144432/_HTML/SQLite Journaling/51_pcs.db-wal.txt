@@ -1,0 +1,231 @@
+P"S1>7
+P"S1>_b
+SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+P"S1>
+P"S1>)2!54F
+P"S1>l}
+
+o
+3
+g	
+{
+G
+
+26A2009B-612E-46EA-8F14-9E3A2A79252B:com.apple.coredata.cloudkit.zone:__defaultOwner__
+33A718CE-0831-4B07-B568-3883E15912EF:com.apple.coredata.cloudkit.zone:__defaultOwner__
+D51F0412-4E69-4EC4-BB69-09370F0E3D55:com.apple.coredata.cloudkit.zone:__defaultOwner__
+BEEE9286-C991-424E-80CB-22CD2FBBFE4B:com.apple.coredata.cloudkit.zone:__defaultOwner__
+25ECDEA7-E17C-441C-BD4F-A3FEAA6A75DB:com.apple.coredata.cloudkit.zone:__defaultOwner__
+AC0B8586-9D80-4DA8-97F5-11F7DD189201:com.apple.coredata.cloudkit.zone:__defaultOwner__
+FCCBD623-9D35-4A3A-A4B7-5066E092BB67:com.apple.coredata.cloudkit.zone:__defaultOwner__
+F2B7D0DE-E459-40A3-8CBF-E8102E529678:com.apple.coredata.cloudkit.zone:__defaultOwner__
+FB975C0F-2CE3-44B9-8691-0A1CC5177279:com.apple.coredata.cloudkit.zone:__defaultOwner__
+[
+E4CB4B08-D076-44C3-B0A8-171518C5C560:com.apple.coredata.cloudkit.zone:__defaultOwner__[
+9B24ED6B-340A-48D8-97B2-3B1B194E02DB:com.apple.coredata.cloudkit.zone:__defaultOwner__[
+124B38AB-9CD5-4DE1-BD3A-5141B1213109:com.apple.coredata.cloudkit.zone:__defaultOwner__
+[
+B7504C7E-799C-4CA8-BAEC-5B637DAAB086:com.apple.coredata.cloudkit.zone:__defaultOwner__	[
+FBF5622C-DE70-41F4-87AD-3E8910CE4B4E:com.apple.coredata.cloudkit.zone:__defaultOwner__
+9A1C6F91-EAAE-474B-B899-685EE1DC3B40:com.apple.coredata.cloudkit.zone:__defaultOwner__
+321016B9-8FC2-4664-9710-68ABAB9423EE:com.apple.coredata.cloudkit.zone:__defaultOwner__
+C62EE4FF-2E93-40E7-A15B-D0EF8134B86E:com.apple.coredata.cloudkit.zone:__defaultOwner__
+DE4241A0-9D90-480E-92C8-3263CC8DEC2D:com.apple.coredata.cloudkit.zone:__defaultOwner__
+4200EB98-2387-42DE-8090-4E217CCA11F3:com.apple.coredata.cloudkit.zone:__defaultOwner__
+4641E296-A885-4D63-B8DB-08F12E1D7DC2:com.apple.coredata.cloudkit.zone:__defaultOwner__
+o	com.apple.coredata.cloudkit.zone:__defaultOwner__
+P"S1>7!0Nq
+
+com.apple.routined2AAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+FB975C0F-2CE3-44B9-8691-0A1CC5177279:com.apple.coredata.cloudkit.zone:__defaultOwner__
+
+!	9
+E4CB4B08-D076-44C3-B0A8-171518C5C560:com.apple.coredata.cloudkit.zone:__defaultOwner__
+!	9
+9B24ED6B-340A-48D8-97B2-3B1B194E02DB:com.apple.coredata.cloudkit.zone:__defaultOwner__
+!	9
+124B38AB-9CD5-4DE1-BD3A-5141B1213109:com.apple.coredata.cloudkit.zone:__defaultOwner__
+G
+!	9
+B7504C7E-799C-4CA8-BAEC-5B637DAAB086:com.apple.coredata.cloudkit.zone:__defaultOwner__
+	!	9
+	com.apple.coredata.cloudkit.zone:__defaultOwner__
+E
+
+g
+<
+
+^			
+com.apple.coredata.cloudkit.zone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2
+com.apple.coredata.cloudkit.zone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2
+n
+com.apple.coredata.cloudkit.zone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2n
+com.apple.coredata.cloudkit.zone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2n
+com.apple.coredata.cloudkit.zone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2	n
+oU3	com.apple.coredata.cloudkit.zone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2
+P"S1>:
+
+
+
+W
+
+_!g)
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2
+=
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2=
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2=
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2	=
+U3	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.routined2
+P"S1>H_xEgs
+
+P"S1>Hoji-
+23Uo
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+#'/56>?@DHINOPQU$null
+
+ !"XParentID]RecordShareID_
+ChainParentPublicKeyID_
+ZoneishPublicKeyIDUKeyIDXRecordIDXChainPCS_
+PublicSharingKeyV$classZRecordType\RecordZoneID
+$%&YNS.string
++kHmzLxP6iY_aNj_AUdsN_NB1PY36GyPs5Rb2rtYwpyI()*+Z$classnameX$classes_
+NSMutableString,-._
+NSMutableStringXNSStringXNSObject
+01234ZRecordNameVZoneID
+
+$4641E296-A885-4D63-B8DB-08F12E1D7DC2789
+;<=_
+anonymousCKUserIDYownerNameXZoneName
+ com.apple.coredata.cloudkit.zone_
+__defaultOwner__()AB^CKRecordZoneIDC.^CKRecordZoneID()EFZCKRecordIDG.ZCKRecordID]CD_RTDeviceMO789
+__defaultOwner__D
+()RS_
+CKDRecordPCSDataTU._
+CKDRecordPCSDataZCKDPCSData
+Gcom.apple.routined2AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.coredata.cloudkit.zone:__defaultOwner__A
+	:3Uo
+com.apple.coredata.cloudkit.zone:__defaultOwner__
+ !%-567;<=ADU$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+ }h
+F`uV
+J#P+
+tH--*'
+{=RRq?w
+
+]5pY
+kX{i;}V dn5Lx,i
+.d~qnAC
+W&#m1Ez
+|s$wRM(b`=vgk
+FU/YZ\l7V
+Z:!EO
+[?0
+r6C+9h(
+r:WNH0r@v
+EB7<
+t:^|
+d)0'0%
+ U?65/s
+8=eeN
+7(KLRL
+(6905FD26933204AADC1E5678077648F47DCE098B
+"#$YNS.string
++y2LukE_A0uKWPschNVG19ZueeEKosnNbBRRscFoR1NE&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneIDO
+9O.x
+&Vy0
+d|1[f,v
+O8F+
+[kt;/
+k	-0
+_6gI2yE#
+KbV|
+t3`#kPL	E
+tE'Jb
+ AT
+xMo>^Q
+Vt|2Nm
+8V1	
+\E~k-s
+?@WNS.time#A
+
+&'BCVNSDateB,&'EF^CKDZonePCSDataGH,^CKDZonePCSDataZCKDPCSData
+ecom.apple.routined2AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.coredata.cloudkit.zone:__defaultOwner__A
+P"S1><
+L3Uo
+$C62EE4FF-2E93-40E7-A15B-D0EF8134B86E789
+__defaultOwner__()AB^CKRecordZoneIDC.^CKRecordZoneID()EFZCKRecordIDG.ZCKRecordID_
+CD_RTLearnedTransitionMO789
+Tcom.apple.routined2AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.coredata.cloudkit.zone:__defaultOwner__A
+B3Uo
+$DE4241A0-9D90-480E-92C8-3263CC8DEC2D789
+CD_RTLearnedVisitMO789
+Ocom.apple.routined2AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.coredata.cloudkit.zone:__defaultOwner__A
+$4200EB98-2387-42DE-8090-4E217CCA11F3789
+P"S1>9!
+$FBF5622C-DE70-41F4-87AD-3E8910CE4B4E789
+$9A1C6F91-EAAE-474B-B899-685EE1DC3B40789
+$321016B9-8FC2-4664-9710-68ABAB9423EE789
+P"S1>r5
+u
+9
+$9B24ED6B-340A-48D8-97B2-3B1B194E02DB789
+u
+
+9
+$124B38AB-9CD5-4DE1-BD3A-5141B1213109789
+Gp	
+9
+$B7504C7E-799C-4CA8-BAEC-5B637DAAB086789
+P"S1>u<v
+$F2B7D0DE-E459-40A3-8CBF-E8102E529678789
+p
+
+9
+$FB975C0F-2CE3-44B9-8691-0A1CC5177279789
+p
+9
+$E4CB4B08-D076-44C3-B0A8-171518C5C560789
+P"S1>
+U~
+
+$25ECDEA7-E17C-441C-BD4F-A3FEAA6A75DB789
+$AC0B8586-9D80-4DA8-97F5-11F7DD189201789
+$FCCBD623-9D35-4A3A-A4B7-5066E092BB67789
+$33A718CE-0831-4B07-B568-3883E15912EF789
+$D51F0412-4E69-4EC4-BB69-09370F0E3D55789
+$BEEE9286-C991-424E-80CB-22CD2FBBFE4B789
+P"S1>}<4
+$26A2009B-612E-46EA-8F14-9E3A2A79252B789

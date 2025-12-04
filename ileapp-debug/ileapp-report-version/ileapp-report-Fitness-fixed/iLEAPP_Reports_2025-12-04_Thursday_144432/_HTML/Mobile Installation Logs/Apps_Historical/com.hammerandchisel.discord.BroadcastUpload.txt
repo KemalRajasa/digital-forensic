@@ -1,0 +1,2 @@
+2022-01-21 15:34:19 Made container live com.hammerandchisel.discord.BroadcastUpload /private/var/mobile/Containers/Data/PluginKitPlugin/77F6CDED-CC55-4BED-93B0-D8C38DC01CFE
+2022-01-21 15:34:19 Made container live com.hammerandchisel.discord.BroadcastUpload /private/var/mobile/Containers/Data/PluginKitPlugin/77F6CDED-CC55-4BED-93B0-D8C38DC01CFE

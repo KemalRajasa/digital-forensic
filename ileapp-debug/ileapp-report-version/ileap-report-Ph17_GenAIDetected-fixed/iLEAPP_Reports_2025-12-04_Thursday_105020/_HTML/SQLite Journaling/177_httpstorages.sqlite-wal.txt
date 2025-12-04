@@ -1,0 +1,22 @@
+nhSQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+bD3
+bB#d
+
+Z,2n,SQLite format 3
+bkllf6SQLite format 3
+b*$<LSQLite format 3
+bW]SQLite format 3
+!SQLite format 3
+b&r*
+j4SQLite format 3
+b^@JDfSQLite format 3
+J$SQLite format 3
+&g9SQLite format 3
+KSQLite format 3
+bupj
+SQLite format 3

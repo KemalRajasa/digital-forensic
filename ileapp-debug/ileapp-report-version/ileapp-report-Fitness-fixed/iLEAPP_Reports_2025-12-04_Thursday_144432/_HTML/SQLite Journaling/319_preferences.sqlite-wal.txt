@@ -1,0 +1,970 @@
+kf<*V.
+haSQLite format 3
+.S`
+
+Iindexdoc_manual_index_docprefitemnameGroup_1index_docprefitemnameGroup
+CREATE INDEX doc_manual_index_docprefitemnameGroup_1 ON index_docprefitemnameGroup (nameGroup)
+7tableindex_docprefitemnameGroupindex_docprefitemnameGroup
+CREATE TABLE index_docprefitemnameGroup (rowid INTEGER PRIMARY KEY, nameGroup STRING)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Utabledocprefitemdocprefitem
+CREATE TABLE docprefitem (rowid INTEGER PRIMARY KEY AUTOINCREMENT, p BLOB, key STRING, UNIQUE (key))5
+indexsqlite_autoindex_docprefitem_1docprefitem
+authenticationFeature.userSession.id
+U	authenticationFeature.userSession.id
+#	docprefitem
+DI!8
+^'QY8
+authenticationFeature.userSession.username
+authenticationFeature.userSession.usernamei
+docprefitem
+authenticationFeature.userSession.lagunaId
+authenticationFeature.userSession.lagunaIds
+!k,
+
+I<G$;o=
+
+authenticationFeature.userSession.email
+authenticationFeature.userSession.emails
+-cN\
+
+nk`
+
+kSCForcedLogoutTelemetryHasLoggedInSessionKey
+kSCForcedLogoutTelemetryHasLoggedInSessionKeyl
+r|Ap
+
+=
+
+S
+kCofIPInferredCountryCodePreferencesKey
+kCofIPInferredCountryCodePreferencesKeyz
+u!Z
+
+=Quk
+
+=
+
+S
+COF_Property_StickyMaxConnectionType
+COF_Property_StickyMaxConnectionTypel
+T-
+
+CVli.}
+
+=
+
+S
+CRASH_LAST_SESSION_APP_STATE
+CRASH_LAST_SESSION_APP_STATEi
+<H1%y
+
++r42
+
+QQgY
+
+W@^G
+
+=
+
+SD
+NAVIGATION_LAST_PAGE
+NAVIGATION_LAST_PAGEX
+NAVIGATION_LAST_PAGE	 
+docprefitem	
+=
+
+SD
+com.snapchat.SCBetaUpdater.lastBetaVersion
+com.snapchat.SCBetaUpdater.lastBetaVersionH	
+y'{
+
+com.snapchat.SCBetaUpdater.lastBetaVersion
+
+docprefitem
+
+TSAF
+11.62.0.36
+=
+
+SDW
+appCrashedANR
+appCrashedANR/
+
+appCrashedANR.
+docprefitem
+p^QH
+
+k;_
+
+=
+
+SDO
+PHz~
+=
+
+S
+O
+app_start_up
+NAVIGATION_LAST_PAGEA
+,J;
+
+=
+
+S
+O
+4
+com.snapchat.SCBetaUpdater.userCurrentlyUpdatingApp
+com.snapchat.SCBetaUpdater.userCurrentlyUpdatingApp		
+com.snapchat.SCBetaUpdater.userCurrentlyUpdatingApp
+.7/FA
+
+docprefitem
+=
+
+S
+O
+4L
+currentOSVersion
+currentOSVersionX
+currentOSVersion
+7
+J
+D
+=
+
+S
+O
+4	
+15.0.2
+currentOSVersion
+BR;Ek
+
+c2^
+
+=
+
+S
+O
+4	D
+com.snapchat.SCBetaUpdater.lastBetaVersionH
+DidManuallyTerminate
+DidManuallyTerminateX
+<:	{|
+
+
+Ope
+
+:t]`H
+D
+=
+
+S
+O
+4		g
+DidManuallyTerminatey
+
+hR<)x
+
+!3
+D
+=
+
+S
+O
+4		gR
+systemBootTime
+systemBootTimeX
+&pF
+
+
+;w
+D
+1642205317
+systemBootTimeP
+q5
+D
+SCCrashReportLastCrashReportedOnLaunch
+SCCrashReportLastCrashReportedOnLaunchw
+rZc|
+
+SCOneTapLoginMultiAccountUserIdsKey
+SCOneTapLoginMultiAccountUserIdsKeys
+6\U
+
+}~`h
+
+X
+D
+SCHasLoggedInBeforeKey
+
+
+e
+
+Nz
+
+F^	
+
+F%\u	
+
+Ph-f]
+D
+cfr_device_id_dict
+cfr_device_id_dictX
+em
+
+3<SR
+D
+'@zA
+cfr_device_id_date
+26BD81BF-D77D-4D33-AC66-584797C643BA
+cfr_device_id
+cfr_device_id_dictJ
+HAS_ASKED_FOR_ALWAYS_LOCATION_PERMISSIONS
+HAS_ASKED_FOR_ALWAYS_LOCATION_PERMISSIONSS
+BZ,V
+
+|
+D
+
+O
+4		g
+com.snapchat.SCBetaUpdater.lastBetaVersion
+S
+8gxw|X 
+
+SCRegistrationFlowUUIDKey
+SCRegistrationFlowUUIDKeyz
+
+
+e
+
+
+"fw
+
+ox.!
+
+kSCRegistrationContactPrepromptInfoABTestKey
+kSCRegistrationContactPrepromptInfoABTestKey 
+&+M*m
+[~(
+
+D
+D
+kSCRegistrationContactPrepromptSystemLevelPromptStateKey
+kSCRegistrationContactPrepromptSystemLevelPromptStateKeyy
+3>2!#-
+
+3;(v
+
+<Z1
+
+lU|
+D
+A1FF1A2C-5DA0-4B81-BDEC-1EB1BA8D075E
+8^B_
+D
+SCLastRegistrationPageKey
+SCLastRegistrationPageKeyz
+
+
+ev
+
+
+d8_x
+(4+
+
+p}X
+D
+sFQY
+D
+app_inactive
+r&6yK
+
+SCRegistrationContactPrepromptInfo
+PREPROMPT_ENABLED
+USER_LEVEL_CONTACT_PERMISSION_GRANTED
+kSCRegistrationContactPrepromptInfoABTestKey*
+kSCRegistrationContactPrepromptSystemLevelPromptStateKeyD
+adM^
+
+q*@`
+
+SCRegistrationFlowUUIDKeyD
+kSCRegistrationContactPrepromptSystemLevelPromptStateKey 
+zS3
+
+pwJo
+
+Ig3
+
+s72R#F
+
+FpL
+
+kPasswordHashPreferencesKey
+hkn$
+
+SCPasswordHash
+USER_ID
+4b7806c0-7381-4984-b53b-cb36fbecbb0e
+PASSWORD_HASH
+PASSWORD_LENGTH
+ASCII
+kPasswordHashPreferencesKey
+
+patrick_bentl22
+SCLastLoginUsernameKey
+
+
+e;v
+
+
+`&3vw
+
+SCLastLoginUserSCPhoneNumberKey
+T?m
+
+
+
+e
+;v
+
+
+H0Zd
+
+v
+_4
+
+SCPreferencesUnverifiedUserKey
+?j.
+
+;v
+
+
+eSf8
+
+Hl?C
+
+P
+
+
+@		s
+SCUnverifiedUser
+EMAIL
+SUBMITTED_EMAIL
+NEEDS_CAPTCHA
+UNVERIFIED_PHONE_NUMBER
+PRE_VERIFY_REG_ID
+SCPreferencesUnverifiedUserKey[
+kPasswordHashPreferencesKeyf
+kSCRegistrationContactPrepromptSystemLevelPromptStateKey
+
+com.snapchat.SCBetaUpdater.userCurrentlyUpdatingAppA
+com.snapchat.SCBetaUpdater.lastBetaVersion		
+NAVIGATION_LAST_PAGEa
+COF_Property_StickyMaxConnectionType 
+SCUserPhoneNumber
+MOBILE
+(973) 294-1683
+PHONE_NUMBER_COUNTRY_CODE
+"v8%
+
+X_'a5
+cSQLite format 3
+J	~
+
+b
+	
+
+
+h~l
+
+d(5p
+
+8b9f68418ab04491ae7f5e26ea736e01
+authenticationFeature.userSession.lagunaIdA
+>Ii
+
+com.snapchat.appappearance.choice
+2JK,
+com.snapchat.appappearance.choiceZ
+eA3}
+
+
+kSCForcedLogoutTelemetryHasLoggedInSessionKey7
+)Fm*
+
+
+
+kSCForcedLogoutTelemetryLoggedInSessionTimestampKey
+e0k8[
+
+(zA3
+kSCForcedLogoutTelemetryLoggedInSessionTimestampKeyb
+p7~t
+4b7806c0-7381-4984-b53b-cb36fbecbb0e-HasGrantedContactsAccess
+
+vg;
+
+4b7806c0
+nF7#
+
+4b7806c0-7381-4984-b53b-cb36fbecbb0e-HasGrantedContactsAccess@
+,d->
+
+b
+
+:	
+
+
+
+4
+	
+b
+
+:
+
+
+eN+#
+e3&?x
+	
+C*_
+
+:
+	
+:/
+
+J
+
+said B
+opF
+
+docprefitem 
+($#w
+	
+ad9fb1d6-ffa2-4771-ab1f-64b8117dc65c
+said
+SCChangeLanguageInSettingsPreferencesKey!
+1?P
+
+docprefitem!
+xa.+
+	
+SCChangeLanguageInSettingsPreferencesKey
+SCChangeLanguageInSettingsPreferencesKey7
+SCSnapAdsAdvertiserId",
+x) ,QI
+
+docprefitem"
+oyH
+
+d2k
+	
+SCSnapAdsAdvertiserId
+SCSnapAdsAdvertiserIdq!
+SCSnapAdsLastAdvertiserIdPersistedTimestamp#
+docprefitem#
+I+16
+
+!1w
+
+$
+	
+SCSnapAdsLastAdvertiserIdPersistedTimestamp
+SCSnapAdsLastAdvertiserIdPersistedTimestampI"
+00000000-0000-0000-0000-000000000000
+SCSnapAdsAdvertiserIdt#
+SCSnapAdsLastAdvertiserIdPersistedTimestamp	
+SCSnapAdsAdvertiserId	
+TR	zA+
+SCSnapAdsLastAdvertiserIdPersistedTimestampq!
+>}N&7
+
+ad_source_config$/
+st,
+
+docprefitem$
+eIn
+
+T
+Fs
+ad_source_config
+ad_source_config""
+iB2
+
+
+J
+
+on_device_excluded_match_keys%
+A
+|C+rS
+
+docprefitem%
+vq}
+q?'`
+on_device_excluded_match_keys
+on_device_excluded_match_keys@$
+
+}
+J
+
+last_init_timestamp_in_sec&!
+docprefitem&
+Rup
+
+last_init_timestamp_in_sec
+last_init_timestamp_in_secY%
+ai/P
+
+
+}
+
+kJ
+
+on_device_key'
+docprefitem'
+b1/7
+
+/#SC
+%M[
+
+on_device_key
+on_device_keyR&
+r_qeSQLite format 3
+
+jDN
+
+	S #
+frzE
+
+SCSnapAdsOnDeviceKey
+PRIVATE_KEY
+
+4C/
+\$E
+YgZTh=Q;\;yL7
+2lu,
+)a
+-X
+n3<^
+d~;j
+tJ6|]{NJ!>#
+5[jL0ndH".:
+BrSCIv
+eELq?%mR
+Ck1[<
+DAsoE&
+926`s
+wZXK;iF
+`49U
+a[+s7RX|*I_
+5Fg~u
+AH`K
+m{qbt
+@"icK=
+wlY	
+{f_
+swtb8s]arq
+z
+/]E
+Y0&oP
+*
+qwuE
+`RtKeQ]
+?mH4&P
+8q7=G
+!6$2:
+B?_G:
+@9~T
+(O9k&p
+(}-#=C
+k?\Bj
+ BbZ8'g?*
+*VE=bh~v'1aZel
+u	Nr}
+XWW
+`?6I<C
+-Vv&@-Z
+=B1|
+&oGdCHN^&yd*
+JH36
+<\6q
+o66[g&
+Od,>Oo4r|
+#p&h)NE%E}
+&Rt>Mp
+(sj|
+PUBLIC_KEY
+KEY_GENERATION_TIMESTAMP_MILLIS
+KEY_TYPE
+
+}
+
+k
+:J
+
+on_device_server_last_fetch_timestamp_millis(
+docprefitem(
+',=)
+
+on_device_server_last_fetch_timestamp_millis
+on_device_server_last_fetch_timestamp_millisJ'
+'e`(
+
+
+}
+
+k
+
+
+:J
+
+on_device_latest_generation_number)0
+docprefitem)
+R3.W{
+
+yA
+
+
+	=Xc
+
+on_device_latest_generation_number
+on_device_latest_generation_numbery(
+CAMERA/VIEW_FINDER
+NAVIGATION_LAST_PAGEG
+encrypted_user_data*&
+docprefitem*
+encrypted_user_data
+encrypted_user_datac)
+PER_USER_LOCATION_PERMISSION_SUPPORTED+
+Zp|
+
+docprefitem+
+F4my6?
+
+PER_USER_LOCATION_PERMISSION_SUPPORTED
+PER_USER_LOCATION_PERMISSION_SUPPORTEDC*
+j{h
+
+PER_USER_LOCATION_PERMISSION_SUPPORTED.4b7806c0-7381-4984-b53b-cb36fbecbb0e,*
+hNZM
+docprefitem,
+kPER_USER_LOCATION_PERMISSION_SUPPORTED.4b7806c0
+PER_USER_LOCATION_PERMISSION_SUPPORTED.4b7806c0,
+PER_USER_LOCATION_PERMISSION_SUPPORTED.4b7806c0
+PER_USER_LOCATION_PERMISSION_SUPPORTED.4b7806c0-7381-4984-b53b-cb36fbecbb0e
+PER_USER_LOCATION_PERMISSION_SUPPORTED.4b7806c0-7381-4984-b53b-cb36fbecbb0ek+
+	j
+
+ 
+DateFirstOpenApp-P
+1B4A
+
+docprefitem-
+, ?Kd
+
+FMj#	
+
+DateFirstOpenApp
+DateFirstOpenAppm,
+'}vB
+
+Q&zA
+
+'zA
+(:)
+
+SCSnapAdsAdSourceConfig
+PROTO_INIT_ENDPOINT
+https://usc.adserver.snapads.com/v2/init
+PROTO_SERVE_ENDPOINT
+https://us-central1-gcp.api.snapchat.com/adserver/v3/get
+PROTO_INIT_APIGATEWAY_ENABLED_ENDPOINT
+https://us-central1-gcp.api.snapchat.com/prod/ad/init/v1
+SHOULD_DISABLE_SERVE_REQUEST
+ad_source_configo&
+\aC@
+
+SCSnapAdsAdSessionId.
+docprefitem.
+){U
+
+6C8FE1C7-2F20-4C30-80EA-1E9A82E44A01
+SCSnapAdsAdSessionId
+SCSnapAdsAdSessionId}-
+k414790<
+mbU=a9
+w~WD
+adrequest-encryption
+B,?O!'dF|
++
+encrypted_user_data!.
+nxUI
+
+	5
+
+SCSnapAdsUserPixelToken/
+docprefitem/
+{Q
+
+Hy=C
+
+BgAAAAcAAABrNDU2MzEyNAAAALVk-rWMm63dH6cVIzXWM8pK6e6zLvhGEicUWpS6fFJ5B5UjrhltQvr7uE6g4fDwjwQsdNQLAAAAcGl4ZWwtdG9rZW4QAAAAeYiGr7gH3tAXXPuwQCHxXA==
+SCSnapAdsUserPixelToken
+SCSnapAdsUserPixelTokenx*
+
+:J	
+
+
+should_send_geo_location_in_ad_request0
+docprefitem0
+*'
+
+L`n
+
+should_send_geo_location_in_ad_request
+
+}
+
+
+k
+
+on_device_configs1*
+54rTV
+
+docprefitem1
+2E6X
+
+@t2{3v
+
+[9e
+
+on_device_configs
+on_device_configsc)
+c~/&|
+
+YX]w
+on_device_configss0
+U
+D>m
+on_device_server_last_fetch_timestamp_millisz1
+
+:J
+savedLevelerModeEnableStatus2
+docprefitem2
+7WH@
+
+savedLevelerModeEnableStatus
+savedLevelerModeEnableStatusJ'
+y-T
+
+7EDB3827-03F3-4CB5-B107-78ECD8EF71FD
+'.`
+
+}b W
+Ybrk?^
+"C(m@|A.
+^+|h8
+90L
+
+BgAAAAcAAABrNDU2MjQwNAAAAL2_LHRl0x5kxr0Sw6UGKB1eGBR_z1jzCuV5t52v7j9XRgxJ-3iF4S4CV9CSX_cnLRTdcY0LAAAAcGl4ZWwtdG9rZW4QAAAATsZjMpytlEKtqIgPxBqEgQ==
+Sy:0
+
+SCAdOnDeviceConfig
+AD_PRODUCT_TYPE
+MULTI_AUCTION_REQUEST_SIZE
+ON_DEVICE_SIDGENABLED
+ON_DEVICE_CAN_OPEN_URLENABLED
+on_device_can_open_url_match_keys3 
+docprefitem3
+on_device_can_open_url_match_keys
+on_device_can_open_url_match_keyss0
+*\P
+
+L`lr
+on_device_can_open_url_match_keysz1
+savedMainCameraPosition4%
+docprefitem4
+md]"r
+
+savedMainCameraPosition
+savedMainCameraPositions0
+hI.
+
+a0Ns
+
+MESSAGING/FEED
+RDj
+
+2t\
+
+ADD_FRIENDS
+nDa~
+
+
+b
+
+PROFILE/MY
+/e&
+
+
+`V|[:
+
+l2,
+	s
+
+
+@	
+
+systemBootTime
+
+DidManuallyTerminatel
+*
+	s
+CRASH_LAST_SESSION_APP_STATEG
+systemBootTimeP
+NAVIGATION_LAST_PAGE
+
+app_background
+SCStorageEventHandler_last_reported5
+docprefitem5
+SCStorageEventHandler_last_reported
+SCStorageEventHandler_last_reportedK4
+on_device_can_open_url_match_keysX2
+savedLevelerModeEnableStatusz1
+SCSnapAdsUserPixelToken!.
+PER_USER_LOCATION_PERMISSION_SUPPORTEDx*
+DzA#
+@6)zA3
+=4y
+
+1!K-
+	s
+ySQLite format 3
+d>aC
+KSCRASH_NAMED_NON_FATALS6'
+docprefitem6
+
+S #
+KSCRASH_NAMED_NON_FATALS
+)y)wm
+
+/ZzA+
+vhPK
+
+>y*6U
+	s
+systemBootTime
+NAVIGATION_LAST_PAGEi
+<(+5
+
+9Xi#!
+
+*Dr{A3
+}rq
+
+jXr
+
+s
+	s
+r#d
+
+`_K
+
+*c'
+
+<r{A+
+Id|
+	s
+&HF
+N$
+
+%e%!
+
+|}A3
+~h%
+
+wH<
+	s
+Cd\
+
+!1F|K
+
+1643317635
+|}A+
+;!?"
+
+q4=
+
+?<d&
+
+
+#
+CRASH_LAST_SESSION_APP_STATEl
+YY
+
+
+'
+DISCOVER_FEED
+NumberOfTimesDismissOpera7
+docprefitem7
+NumberOfTimesDismissOpera
+NumberOfTimesDismissOpera	6
+s4D0
+
+QL|}A
+++A^
+
+&E'?|
+
+085977E0-B260-4892-9501-F964D1F1CD8D
+|3^
+
+u"tA&W
+^<}r? _oh='H)Fkd
+FETRW
+eMo
+
+BgAAAAcAAABrNDU2NDU2NAAAALCoK274KoqOpH6zh7i2tMhdH2CPNHEGRkciFJ71RCEyj9M8ZJu4KokTKzx8vTjXDaY7hMALAAAAcGl4ZWwtdG9rZW4QAAAAlaaqfOFaXXIxQ47QWKx6bA==
+06K{
+
+)/ +
+O4FH
++
+
+5A;b
+
+DISCOVER_FEED to DISCOVER/EDITION
+*0
+
+DISCOVER/EDITION
+last429ResponseTime8
+docprefitem8
+BAH
+
+PoX(a
+
+last429ResponseTime
+last429ResponseTimeQ7
+Ct4}
+S.
+
+Pl*
+
+r
+6&=
+	s
+
+
+@	
+com.snapchat.SCBetaUpdater.lastBetaVersiona
+DidManuallyTerminate		
+bn
+	s
+A.)
+
+CFx
+
+JC|}A#

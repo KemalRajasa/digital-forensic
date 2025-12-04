@@ -1,0 +1,112 @@
+:9JTArSQLite format 3
+.S`
+
+
+
+z
+ktablesuccess_countsuccess_count
+CREATE TABLE success_count (
+event_type STRING PRIMARY KEY,
+success_count INTEGER,
+wrap_failure_count INTEGER
+)9
+indexsqlite_autoindex_success_count_1success_count
+Atriggermaintain_ring_buffer_all_eventsall_eventsCREATE TRIGGER maintain_ring_buffer_all_events AFTER INSERT ON all_events
+BEGIN
+DELETE FROM all_events WHERE id != NEW.id AND id % 999 = NEW.id % 999;
+ENDP
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq){
+Atableall_eventsall_events
+CREATE TABLE all_events (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+-Created664296640.485317
++VS
+
+
+	Created
+SQLite format 3
+Atriggermaintain_ring_buffer_all_eventsall_eventsCREATE TRIGGER maintain_ring_buffer_all_events AFTER INSERT ON all_events
+BEGIN
+DELETE FROM all_events WHERE id != NEW.id AND id % 999 = NEW.id % 999;
+END
+:ChF
+&%Z
+
+:jK
+
+:0/FD
+
+:w;xW
+
+taK
+
+!-LastVacuum664296640.492002
+:uN*
+
+LastVacuum
+'
+SchemaVersion9A6C0FEAC24BA66D7789AED519B0BD177C05AA470FE6E01C907A569EE22F7CBB
+SchemaVersion
+(A.`?
+bplist00
+	
+
+
+wiredAuthDuration[productTypeYeventType_
+accessoryManufacturerYauthTriesYauthState[isInductive_
+accessoryFirmwareVersionActive^authCertCached]accessoryName_
+authErrorDescription_
+accessoryHardwareVersion^accessoryModel^productVersion[modelStringXplatformYeventTimeUbuild
+ZiPhone10,1_
+accessoryAuthCPEventP
+VPassed
+U0.0.0
+[AuthSuccessV15.0.2UMX8H2ViPhone#Bw-
+=V19A404
+!	all_events
+:b#WoBk
+
+accessoryDatabaseCounts
+:|O.Y
+;	accessoryDatabaseCounts
+:	a_>
+
+#?upload_date2022-01-19T10:50:40-05:00Q
+upload_date
+s\Ob
+
+(A2	5bplist00
+U0.0.0	[AuthSuccessV15.0.2UMX8H2ViPhone#Bw/24
+V19A404
+all_events
+:CoT
+:_w=)SQLite format 3
+F2SQLite format 3
+<s+
+
+E@iE
+
+cIUA
+
+:ZDF
+:Q"y
+!-LastVacuum665874287.033129
+*-#
+
+5]#
+
+(A7dbplist00
+U0.0.0	[AuthSuccessV15.0.2UMX8H2ViPhone#Bw
+FV19A404
+#?upload_date2022-02-06T17:04:47-05:00Q
+8"u
+

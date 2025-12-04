@@ -1,0 +1,12 @@
+2022-01-21 16:13:31 Data container moved com.wearezeta.zclient.ios /private/var/mobile/Containers/Data/Application/5F6D548F-428E-46FD-B1F9-FCFA2EBB7C00
+2022-01-21 16:13:31 Made container live com.wearezeta.zclient.ios /private/var/containers/Bundle/Application/2C6CF3CC-904B-4844-9A59-EC58DB0ECEA1
+2022-01-21 16:13:31 Install successful com.wearezeta.zclient.ios 
+2022-01-21 16:13:31 Data container moved com.wearezeta.zclient.ios /private/var/mobile/Containers/Data/Application/5F6D548F-428E-46FD-B1F9-FCFA2EBB7C00
+2022-01-21 16:13:31 Made container live com.wearezeta.zclient.ios /private/var/containers/Bundle/Application/2C6CF3CC-904B-4844-9A59-EC58DB0ECEA1
+2022-01-21 16:13:31 Install successful com.wearezeta.zclient.ios 
+2022-01-21 16:13:28 Made container live com.wearezeta.zclient.ios /private/var/mobile/Containers/Data/Application/DBAEFC5A-EB5E-499A-9F48-FCB31BAD53A7
+2022-01-21 16:13:28 Made container live com.wearezeta.zclient.ios /private/var/containers/Bundle/Application/1C3CE53B-4779-4DF8-814A-5507A99F4232
+2022-01-21 16:13:28 Install successful com.wearezeta.zclient.ios 
+2022-01-21 16:13:28 Made container live com.wearezeta.zclient.ios /private/var/mobile/Containers/Data/Application/DBAEFC5A-EB5E-499A-9F48-FCB31BAD53A7
+2022-01-21 16:13:28 Made container live com.wearezeta.zclient.ios /private/var/containers/Bundle/Application/1C3CE53B-4779-4DF8-814A-5507A99F4232
+2022-01-21 16:13:28 Install successful com.wearezeta.zclient.ios 

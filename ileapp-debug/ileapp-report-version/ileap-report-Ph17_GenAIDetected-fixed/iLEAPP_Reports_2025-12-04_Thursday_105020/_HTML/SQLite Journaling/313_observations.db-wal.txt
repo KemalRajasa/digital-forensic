@@ -1,0 +1,195 @@
+Q*F[--dKd
+Q*F[4l
+SQLite format 3
+.S`
+
+AtableObservedDomainsObservedDomains
+CREATE TABLE ObservedDomains (domainID INTEGER PRIMARY KEY, registrableDomain TEXT NOT NULL UNIQUE ON CONFLICT FAIL, lastSeen REAL NOT NULL, hadUserInteraction INTEGER NOT NULL, mostRecentUserInteractionTime REAL NOT NULL, grandfathered INTEGER NOT NULL, isPrevalent INTEGER NOT NULL, isVeryPrevalent INTEGER NOT NULL, dataRecordsRemoved INTEGER NOT NULL,timesAccessedAsFirstPartyDueToUserInteraction INTEGER NOT NULL, timesAccessedAsFirstPartyDueToStorageAccessAPI INTEGER NOT NULL,isScheduledForAllButCookieDataRemoval INTEGER NOT NULL)=
+indexsqlite_autoindex_ObservedDomains_1ObservedDomains
+Q*F[rQ
+
+Q*F[y;,
+Q*F[&
+ktableTopLevelDomainsTopLevelDomains
+CREATE TABLE TopLevelDomains (topLevelDomainID INTEGER PRIMARY KEY, CONSTRAINT fkDomainID FOREIGN KEY(topLevelDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)E
+Q*F[|
+Q*F[+_%:&SQLite format 3
+}tableStorageAccessUnderTopFrameDomainsStorageAccessUnderTopFrameDomains
+CREATE TABLE StorageAccessUnderTopFrameDomains (domainID INTEGER NOT NULL, topLevelDomainID INTEGER NOT NULL ON CONFLICT FAIL, CONSTRAINT fkDomainID FOREIGN KEY(domainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(topLevelDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)Z
+Q*F[92
+Q*F[
+i%0SQLite format 3
+
+	
+tableTopFrameUniqueRedirectsToTopFrameUniqueRedirectsTo
+CREATE TABLE TopFrameUniqueRedirectsTo (sourceDomainID INTEGER NOT NULL, toDomainID INTEGER NOT NULL, FOREIGN KEY(sourceDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(toDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)
+Q*F[R
+Q*F[l\g
+[tableTopFrameUniqueRedirectsToSinceSameSiteStrictEnforcementTopFrameUniqueRedirectsToSinceSameSiteStrictEnforcement
+CREATE TABLE TopFrameUniqueRedirectsToSinceSameSiteStrictEnforcement (sourceDomainID INTEGER NOT NULL, toDomainID INTEGER NOT NULL, FOREIGN KEY(sourceDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(toDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)H
+Q*F[F
+Q*F[ 2
+zSQLite format 3
++tableTopFrameUniqueRedirectsFromTopFrameUniqueRedirectsFrom
+CREATE TABLE TopFrameUniqueRedirectsFrom (targetDomainID INTEGER NOT NULL, fromDomainID INTEGER NOT NULL, FOREIGN KEY(targetDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(fromDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)"
+Q*F[G
+Q*F[?d2Vj5SQLite format 3
+QtableTopFrameLinkDecorationsFromTopFrameLinkDecorationsFrom	CREATE TABLE TopFrameLinkDecorationsFrom (toDomainID INTEGER NOT NULL, lastUpdated REAL NOT NULL, fromDomainID INTEGER NOT NULL, FOREIGN KEY(toDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(fromDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)R
+	Q*F[C
+[SQLite format 3
+WtableTopFrameLoadedThirdPartyScriptsTopFrameLoadedThirdPartyScripts
+CREATE TABLE TopFrameLoadedThirdPartyScripts (topFrameDomainID INTEGER NOT NULL, subresourceDomainID INTEGER NOT NULL, FOREIGN KEY(topFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(subresourceDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)e
+
+Q*F[#9
+Q*F[&8]B+SQLite format 3
+{tableSubframeUnderTopFrameDomainsSubframeUnderTopFrameDomainsCREATE TABLE SubframeUnderTopFrameDomains (subFrameDomainID INTEGER NOT NULL, lastUpdated REAL NOT NULL, topFrameDomainID INTEGER NOT NULL, FOREIGN KEY(subFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(topFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)p	
+Q*F[
+Q*F[1g^SQLite format 3
+
+tableSubresourceUnderTopFrameDomainsSubresourceUnderTopFrameDomainsCREATE TABLE SubresourceUnderTopFrameDomains (subresourceDomainID INTEGER NOT NULL, lastUpdated REAL NOT NULL, topFrameDomainID INTEGER NOT NULL, FOREIGN KEY(subresourceDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(topFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)|
+
+Q*F[
+Q*F[2BzvSQLite format 3
+Q*F[s9=t
+
+Q*F[qe"	Z
+
+Q*F[51x
+
+%
+
+otableSubresourceUniqueRedirectsToSubresourceUniqueRedirectsTo
+CREATE TABLE SubresourceUniqueRedirectsTo (subresourceDomainID INTEGER NOT NULL, lastUpdated REAL NOT NULL, toDomainID INTEGER NOT NULL, FOREIGN KEY(subresourceDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(toDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)
+QtableTopFrameLinkDecorationsFromTopFrameLinkDecorationsFrom	CREATE TABLE TopFrameLinkDecorationsFrom (toDomainID INTEGER NOT NULL, lastUpdated REAL NOT NULL, fromDomainID INTEGER NOT NULL, FOREIGN KEY(toDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(fromDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)
+Q*F[q4G
+Q*F[H?:j*5
+
+EtableSubresourceUniqueRedirectsFromSubresourceUniqueRedirectsFrom
+CREATE TABLE SubresourceUniqueRedirectsFrom (subresourceDomainID INTEGER NOT NULL, fromDomainID INTEGER NOT NULL, FOREIGN KEY(subresourceDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(fromDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)v
+Q*F[_	
+YtableOperatingDatesOperatingDates
+CREATE TABLE OperatingDates (year INTEGER NOT NULL, month INTEGER NOT NULL, monthDay INTEGER NOT NULL)e
+
+Q*F[D
+FiR
+F
+
+KSmSQLite format 3
+Q*F[!
+7tableUnattributedPrivateClickMeasurementUnattributedPrivateClickMeasurement
+CREATE TABLE UnattributedPrivateClickMeasurement (sourceSiteDomainID INTEGER NOT NULL, destinationSiteDomainID INTEGER NOT NULL, sourceID INTEGER NOT NULL, timeOfAdClick REAL NOT NULL, token TEXT, signature TEXT, keyID TEXT, FOREIGN KEY(sourceSiteDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(destinationSiteDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)
+Q*F[9Y
+
+|SQLite format 3
+ItableAttributedPrivateClickMeasurementAttributedPrivateClickMeasurement
+CREATE TABLE AttributedPrivateClickMeasurement (sourceSiteDomainID INTEGER NOT NULL, destinationSiteDomainID INTEGER NOT NULL, sourceID INTEGER NOT NULL, attributionTriggerData INTEGER NOT NULL, priority INTEGER NOT NULL, timeOfAdClick REAL NOT NULL, earliestTimeToSendToSource REAL, token TEXT, signature TEXT, keyID TEXT, earliestTimeToSendToDestination REAL, FOREIGN KEY(sourceSiteDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(destinationSiteDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)h
+Q*F[!j
+Q*F[l
+m|SQLite format 3
+Q*F[%
+?
+3indexStorageAccessUnderTopFrameDomains_domainID_topLevelDomainIDStorageAccessUnderTopFrameDomains
+CREATE UNIQUE INDEX StorageAccessUnderTopFrameDomains_domainID_topLevelDomainID on StorageAccessUnderTopFrameDomains ( domainID, topLevelDomainID )m
+WNE
+
+Q*F[Fyo{SQLite format 3
+Q*F[:f#u
+
+indexTopFrameUniqueRedirectsTo_sourceDomainID_toDomainIDTopFrameUniqueRedirectsTo
+CREATE UNIQUE INDEX TopFrameUniqueRedirectsTo_sourceDomainID_toDomainID on TopFrameUniqueRedirectsTo ( sourceDomainID, toDomainID )}
+Q*F[=o-c
+
+Q*F[+
+]_ZSQLite format 3
+Q*F[3
+
+tableSubresourceUnderTopFrameDomainsSubresourceUnderTopFrameDomainsCREATE TABLE SubresourceUnderTopFrameDomains (subresourceDomainID INTEGER NOT NULL, lastUpdated REAL NOT NULL, topFrameDomainID INTEGER NOT NULL, FOREIGN KEY(subresourceDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(topFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)
+indexTopFrameUniqueRedirectsToSinceSameSiteStrictEnforcement_sourceDomainID_toDomainIDTopFrameUniqueRedirectsToSinceSameSiteStrictEnforcement
+CREATE UNIQUE INDEX TopFrameUniqueRedirectsToSinceSameSiteStrictEnforcement_sourceDomainID_toDomainID on TopFrameUniqueRedirectsToSinceSameSiteStrictEnforcement ( sourceDomainID, toDomainID )
+Q*F[i7
+Q*F[1r
+6SQLite format 3
+Q*F[P]
+uX
+
+#indexTopFrameUniqueRedirectsFrom_targetDomainID_fromDomainIDTopFrameUniqueRedirectsFrom
+CREATE UNIQUE INDEX TopFrameUniqueRedirectsFrom_targetDomainID_fromDomainID on TopFrameUniqueRedirectsFrom ( targetDomainID, fromDomainID )U
+Q*F[Ex4
+Q*F[i_H	
+indexTopFrameLinkDecorationsFrom_toDomainID_fromDomainIDTopFrameLinkDecorationsFrom
+CREATE UNIQUE INDEX TopFrameLinkDecorationsFrom_toDomainID_fromDomainID on TopFrameLinkDecorationsFrom ( toDomainID, fromDomainID )j
+Q*F[+L5SQLite format 3
+Q*F[LJ6c
+
+WindexTopFrameLoadedThirdPartyScripts_topFrameDomainID_subresourceDomainIDTopFrameLoadedThirdPartyScripts
+CREATE UNIQUE INDEX TopFrameLoadedThirdPartyScripts_topFrameDomainID_subresourceDomainID on TopFrameLoadedThirdPartyScripts ( topFrameDomainID, subresourceDomainID )^
+Q*F[PM
+G&.
+
+Q*F[l<SQLite format 3
+S?=
+
+cT,
+
+
+
+
+otableSubresourceUniqueRedirectsToSubresourceUniqueRedirectsTo
+CREATE TABLE SubresourceUniqueRedirectsTo (subresourceDomainID INTEGER NOT NULL, lastUpdated REAL NOT NULL, toDomainID INTEGER NOT NULL, FOREIGN KEY(subresourceDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(toDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)
+?indexSubframeUnderTopFrameDomains_subFrameDomainID_topFrameDomainIDSubframeUnderTopFrameDomains
+CREATE UNIQUE INDEX SubframeUnderTopFrameDomains_subFrameDomainID_topFrameDomainID on SubframeUnderTopFrameDomains ( subFrameDomainID, topFrameDomainID )
+Q*F[w
+BE8
+
+Q*F[l-
+HXSQLite format 3
+Q*F[[
+}FN
+
+Q*F[fZ
+J
+
+
+{tableSubframeUnderTopFrameDomainsSubframeUnderTopFrameDomainsCREATE TABLE SubframeUnderTopFrameDomains (subFrameDomainID INTEGER NOT NULL, lastUpdated REAL NOT NULL, topFrameDomainID INTEGER NOT NULL, FOREIGN KEY(subFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE, FOREIGN KEY(topFrameDomainID) REFERENCES ObservedDomains(domainID) ON DELETE CASCADE)
+Q*F[aPc
+Q*F[G{
+!
+
+	
+WindexSubresourceUnderTopFrameDomains_subresourceDomainID_topFrameDomainIDSubresourceUnderTopFrameDomains
+CREATE UNIQUE INDEX SubresourceUnderTopFrameDomains_subresourceDomainID_topFrameDomainID on SubresourceUnderTopFrameDomains ( subresourceDomainID, topFrameDomainID )
+CREATE UNIQUE INDEX TopFrameUniqueRedirectsToSinceSameSiteStrictEnforcement_sourceDomainID_toDomainID on TopFrameUniqueRedirectsToSinceSameSiteStrictEnforcement ( sourceDomainID, toDomainID )\
+CREATE UNIQUE INDEX TopFrameUniqueRedirectsTo_sourceDomainID_toDomainID on TopFrameUniqueRedirectsTo ( sourceDomainID, toDomainID )
+Q*F[,
+[s
+Q*F[
+c
+c
+3indexSubresourceUniqueRedirectsTo_subresourceDomainID_toDomainIDSubresourceUniqueRedirectsTo
+CREATE UNIQUE INDEX SubresourceUniqueRedirectsTo_subresourceDomainID_toDomainID on SubresourceUniqueRedirectsTo ( subresourceDomainID, toDomainID )
+Q*F[Eo
+Q*F[+)B4SQLite format 3
+wz2U
+
+CindexSubresourceUniqueRedirectsFrom_subresourceDomainID_fromDomainIDSubresourceUniqueRedirectsFrom
+CREATE UNIQUE INDEX SubresourceUniqueRedirectsFrom_subresourceDomainID_fromDomainID on SubresourceUniqueRedirectsFrom ( subresourceDomainID, fromDomainID )x
+1&N
+
+uHSQLite format 3
+QindexOperatingDates_year_month_monthDayOperatingDates
+CREATE UNIQUE INDEX OperatingDates_year_month_monthDay on OperatingDates ( year, month, monthDay )
+Q*F[n
+Q*F[[[lxXSQLite format 3
+Q*F[jg
+indexUnattributedPrivateClickMeasurement_sourceSiteDomainID_destinationSiteDomainIDUnattributedPrivateClickMeasurement CREATE UNIQUE INDEX UnattributedPrivateClickMeasurement_sourceSiteDomainID_destinationSiteDomainID on UnattributedPrivateClickMeasurement ( sourceSiteDomainID, destinationSiteDomainID )
+ Q*F[)
+B3Vg
+
+Q*F[|PT
+5SQLite format 3
+Q*F[6
+windexAttributedPrivateClickMeasurement_sourceSiteDomainID_destinationSiteDomainIDAttributedPrivateClickMeasurement!CREATE UNIQUE INDEX AttributedPrivateClickMeasurement_sourceSiteDomainID_destinationSiteDomainID on AttributedPrivateClickMeasurement ( sourceSiteDomainID, destinationSiteDomainID )8
+!Q*F[CV
+
+!Q*F[C2r
+

@@ -1,0 +1,710 @@
+Mon Jan 10 12:27:12 2022 [151] <debug> (0x16f76f000) MA: handle_activate: Activation State: Activated
+Mon Jan 10 12:27:12 2022 [151] <notice> (0x16f6e3000) MA: -[MobileActivationDaemon createTunnel1SessionInfoWithCompletionBlock:]: Session creation requested by Setup
+Mon Jan 10 12:27:12 2022 [151] <notice> (0x16f6e3000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Jan 10 12:27:14 2022 [151] <notice> (0x16f7fb000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by nfcd
+Mon Jan 10 12:27:54 2022 [151] <notice> (0x16f7fb000) MA: -[MobileActivationDaemon createTunnel1ActivationInfo:options:withCompletionBlock:]: Tunnel1 Activation info creation requested by Setup
+Mon Jan 10 12:27:57 2022 [151] <debug> (0x16f6e3000) MA: -[MobileActivationDaemon createTunnel1ActivationInfo:options:withCompletionBlock:]_block_invoke: Activation info: 
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ActivationInfoXML</key>
+	<data>
+	PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPCFET0NUWVBFIHBs
+	aXN0IFBVQkxJQyAiLS8vQXBwbGUvL0RURCBQTElTVCAxLjAvL0VOIiAiaHR0cDovL3d3
+	dy5hcHBsZS5jb20vRFREcy9Qcm9wZXJ0eUxpc3QtMS4wLmR0ZCI+CjxwbGlzdCB2ZXJz
+	aW9uPSIxLjAiPgo8ZGljdD4KCTxrZXk+QWN0aXZhdGlvblJlcXVlc3RJbmZvPC9rZXk+
+	Cgk8ZGljdD4KCQk8a2V5PkFjdGl2YXRpb25SYW5kb21uZXNzPC9rZXk+CgkJPHN0cmlu
+	Zz42NDkxMjhBNC1BMTFELTRGRTAtQTA0MC0wMDAxMzM3NUQwRjQ8L3N0cmluZz4KCQk8
+	a2V5PkFjdGl2YXRpb25TdGF0ZTwva2V5PgoJCTxzdHJpbmc+QWN0aXZhdGVkPC9zdHJp
+	bmc+CgkJPGtleT5GTWlQQWNjb3VudEV4aXN0czwva2V5PgoJCTxmYWxzZS8+Cgk8L2Rp
+	Y3Q+Cgk8a2V5PkJhc2ViYW5kUmVxdWVzdEluZm88L2tleT4KCTxkaWN0PgoJCTxrZXk+
+	QWN0aXZhdGlvblJlcXVpcmVzQWN0aXZhdGlvblRpY2tldDwva2V5PgoJCTx0cnVlLz4K
+	CQk8a2V5PkJhc2ViYW5kQWN0aXZhdGlvblRpY2tldFZlcnNpb248L2tleT4KCQk8c3Ry
+	aW5nPlYyPC9zdHJpbmc+CgkJPGtleT5CYXNlYmFuZENoaXBJRDwva2V5PgoJCTxpbnRl
+	Z2VyPjI0MTg4OTwvaW50ZWdlcj4KCQk8a2V5PkJhc2ViYW5kTWFzdGVyS2V5SGFzaDwv
+	a2V5PgoJCTxzdHJpbmc+OENCMTVFRTRDODAwMjE5OTA3MEQ5NTAwQkI4RkIxODNCMDI3
+	MTNBNUNBMkE2QjkyREI1RTc1Q0UxNTUzNjE4Mjwvc3RyaW5nPgoJCTxrZXk+QmFzZWJh
+	bmRTZXJpYWxOdW1iZXI8L2tleT4KCQk8ZGF0YT4KCQlOOFp3UVE9PQoJCTwvZGF0YT4K
+	CQk8a2V5PkdJRDE8L2tleT4KCQk8c3RyaW5nPmJhMDEyNzAwMDAwMDAwMDA8L3N0cmlu
+	Zz4KCQk8a2V5PkdJRDI8L2tleT4KCQk8c3RyaW5nPmExMDAwMDAwMDAwMDAwMDA8L3N0
+	cmluZz4KCQk8a2V5PkludGVncmF0ZWRDaXJjdWl0Q2FyZElkZW50aXR5PC9rZXk+CgkJ
+	PHN0cmluZz44OTE0ODAwMDAwNzA3NzIyMjIwMjwvc3RyaW5nPgoJCTxrZXk+SW50ZXJu
+	YXRpb25hbE1vYmlsZUVxdWlwbWVudElkZW50aXR5PC9rZXk+CgkJPHN0cmluZz4zNTMy
+	MTkxMDg0NDI1MDk8L3N0cmluZz4KCQk8a2V5PkludGVybmF0aW9uYWxNb2JpbGVTdWJz
+	Y3JpYmVySWRlbnRpdHk8L2tleT4KCQk8c3RyaW5nPjMxMTQ4MDY3MTgxMDkyMjwvc3Ry
+	aW5nPgoJCTxrZXk+SW50ZXJuYXRpb25hbE1vYmlsZVN1YnNjcmliZXJJZGVudGl0eU92
+	ZXJyaWRlPC9rZXk+CgkJPGZhbHNlLz4KCQk8a2V5Pk1vYmlsZUVxdWlwbWVudElkZW50
+	aWZpZXI8L2tleT4KCQk8c3RyaW5nPjM1MzIxOTEwODQ0MjUwPC9zdHJpbmc+CgkJPGtl
+	eT5QUklWZXJzaW9uX01ham9yPC9rZXk+CgkJPGludGVnZXI+MTwvaW50ZWdlcj4KCQk8
+	a2V5PlBSSVZlcnNpb25fTWlub3I8L2tleT4KCQk8aW50ZWdlcj4yPC9pbnRlZ2VyPgoJ
+	CTxrZXk+UFJJVmVyc2lvbl9SZWxlYXNlTm88L2tleT4KCQk8aW50ZWdlcj4xMjE8L2lu
+	dGVnZXI+CgkJPGtleT5QaG9uZU51bWJlcjwva2V5PgoJCTxzdHJpbmc+KzE5NzMyOTQx
+	NjgzPC9zdHJpbmc+CgkJPGtleT5TSU1HSUQxPC9rZXk+CgkJPGRhdGE+CgkJdWdFbkFB
+	QUFBQUE9CgkJPC9kYXRhPgoJCTxrZXk+U0lNR0lEMjwva2V5PgoJCTxkYXRhPgoJCW9R
+	QUFBQUFBQUFBPQoJCTwvZGF0YT4KCQk8a2V5PlNJTVN0YXR1czwva2V5PgoJCTxzdHJp
+	bmc+a0NUU0lNU3VwcG9ydFNJTVN0YXR1c1JlYWR5PC9zdHJpbmc+CgkJPGtleT5TdXBw
+	b3J0c1Bvc3Rwb25lbWVudDwva2V5PgoJCTx0cnVlLz4KCQk8a2V5PmtDVFBvc3Rwb25l
+	bWVudEluZm9QUklWZXJzaW9uPC9rZXk+CgkJPHN0cmluZz4xLjIuMTIxPC9zdHJpbmc+
+	CgkJPGtleT5rQ1RQb3N0cG9uZW1lbnRJbmZvUFJMTmFtZTwva2V5PgoJCTxpbnRlZ2Vy
+	PjE8L2ludGVnZXI+CgkJPGtleT5rQ1RQb3N0cG9uZW1lbnRJbmZvU2VydmljZVByb3Zp
+	c2lvbmluZ1N0YXRlPC9rZXk+CgkJPHRydWUvPgoJPC9kaWN0PgoJPGtleT5EZXZpY2VD
+	ZXJ0UmVxdWVzdDwva2V5PgoJPGRhdGE+CglMUzB0TFMxQ1JVZEpUaUJEUlZKVVNVWkpR
+	MEZVUlNCU1JWRlZSVk5VTFMwdExTMEtUVWxKUW5oRVEwTkJVekJEUVZGQgoJZDJkWlRY
+	aE1WRUZ5UW1kT1ZrSkJUVlJLUkZwSFQxUmtRazVVYkVWTVZHaEVUVEJGZEU1RVdrUlBR
+	ekZEVFVSbmVRMEsKCVRGUmFSazVFYUVSTlJWWkRUVlZKTTFKVVJVeE5RV3RIUVRGVlJV
+	Sm9UVU5XVmsxNFEzcEJTa0puVGxaQ1FXZFVRV3RPCglRazFTU1hkRlFWbEVWbEZSU0Ew
+	S1JYZHNSR1JZUW14amJsSndZbTA0ZUVWNlFWSkNaMDVXUWtGdlZFTnJSbmRqUjNocwoJ
+	U1VWc2RWbDVOSGhFZWtGT1FtZE9Wa0pCYzFSQ2JXeFJZVWM1ZFEwS1dsUkRRbTU2UVU1
+	Q1oydHhhR3RwUnpsM01FSkIKCVVVVkdRVUZQUW1wUlFYZG5XV3REWjFsRlFXbFpXalJ6
+	TTNkSlQzWjZlSFZvTlRKMVNsSTRRV3RaTXcwS2VXRmxUWGhUCglibkl3ZEdZeWNWcGxj
+	M1pUUWl0YVYyZ3lSMHR5VHprdk9VWnlkRXhvVEZkaFZGaHNVa2NyT1V0UlZtMXVWazVr
+	UTFaYQoJYzJ4aE9IRTRZZzBLT1U4M0wxWlZkVUZhU1RkMlV6aGtSbkZvZFVSV2NDdHhW
+	a3BxTVV0V2FXdEllV1ZwUlhOWFFYYzMKCU1TczRVRzVIU1ZOWVZXRlJWV1UzV1U5VE15
+	OVpiUTBLYjJsaWNUbFdMM1phTW5CdFVHVlRVblJOTUVOQmQwVkJRV0ZCCglRVTFCTUVk
+	RFUzRkhVMGxpTTBSUlJVSkNVVlZCUVRSSFFrRkZaazV6SzI1VlpWaGxXUTBLZWpsaE0w
+	VlJZWFF3Ym1wQgoJYlZreVNTOTFRM3BVVERSek56RlFaMlphUlZJd1JuRndNUzl5S3lz
+	cldHdG1SR2hqZEhwVE9IVTVXV05XZGt3eFRXcGEKCVR3MEtkbmg2T0ZCRFNUWlVXRWh0
+	UmtKU2ExZGtSRVZYYnl0dldFNWhLMWxvVmxwTFVqZGpjMnBhZGpCSlN6VmtaV2h3CglS
+	M2xIV1ZJeGJ6QTBTVVpIYm1WeU1nMEtkSGxCV0ZkamJuUjVNSGs0TWpCalNHbERaM0ly
+	VlVscmNqUnNabE5sZWxvSwoJTFMwdExTMUZUa1FnUTBWU1ZFbEdTVU5CVkVVZ1VrVlJW
+	VVZUVkMwdExTMHQKCTwvZGF0YT4KCTxrZXk+RGV2aWNlSUQ8L2tleT4KCTxkaWN0PgoJ
+	CTxrZXk+U2VyaWFsTnVtYmVyPC9rZXk+CgkJPHN0cmluZz5GRk1DODU1SEpDNkM8L3N0
+	cmluZz4KCQk8a2V5PlVuaXF1ZURldmljZUlEPC9rZXk+CgkJPHN0cmluZz5mYjAyOGRk
+	ZWZhOGFmN2RmNWIxMmQzZTcyOWYwNzVkMTUwNjM3YTMxPC9zdHJpbmc+Cgk8L2RpY3Q+
+	Cgk8a2V5PkRldmljZUluZm88L2tleT4KCTxkaWN0PgoJCTxrZXk+QnVpbGRWZXJzaW9u
+	PC9rZXk+CgkJPHN0cmluZz4xOUE0MDQ8L3N0cmluZz4KCQk8a2V5PkRldmljZUNsYXNz
+	PC9rZXk+CgkJPHN0cmluZz5pUGhvbmU8L3N0cmluZz4KCQk8a2V5PkRldmljZVZhcmlh
+	bnQ8L2tleT4KCQk8c3RyaW5nPkE8L3N0cmluZz4KCQk8a2V5Pk1vZGVsTnVtYmVyPC9r
+	ZXk+CgkJPHN0cmluZz5NWDhIMjwvc3RyaW5nPgoJCTxrZXk+T1NUeXBlPC9rZXk+CgkJ
+	PHN0cmluZz5pUGhvbmUgT1M8L3N0cmluZz4KCQk8a2V5PlByb2R1Y3RUeXBlPC9rZXk+
+	CgkJPHN0cmluZz5pUGhvbmUxMCwxPC9zdHJpbmc+CgkJPGtleT5Qcm9kdWN0VmVyc2lv
+	bjwva2V5PgoJCTxzdHJpbmc+MTUuMC4yPC9zdHJpbmc+CgkJPGtleT5SZWdpb25Db2Rl
+	PC9rZXk+CgkJPHN0cmluZz5MTDwvc3RyaW5nPgoJCTxrZXk+UmVnaW9uSW5mbzwva2V5
+	PgoJCTxzdHJpbmc+TEwvQTwvc3RyaW5nPgoJCTxrZXk+UmVndWxhdG9yeU1vZGVsTnVt
+	YmVyPC9rZXk+CgkJPHN0cmluZz5BMTg2Mzwvc3RyaW5nPgoJCTxrZXk+U2lnbmluZ0Z1
+	c2U8L2tleT4KCQk8dHJ1ZS8+CgkJPGtleT5VbmlxdWVDaGlwSUQ8L2tleT4KCQk8aW50
+	ZWdlcj4yODczMDkyOTQ4OTgzODU0PC9pbnRlZ2VyPgoJPC9kaWN0PgoJPGtleT5SZWd1
+	bGF0b3J5SW1hZ2VzPC9rZXk+Cgk8ZGljdD4KCQk8a2V5PkRldmljZVZhcmlhbnQ8L2tl
+	eT4KCQk8c3RyaW5nPkE8L3N0cmluZz4KCTwvZGljdD4KCTxrZXk+U29mdHdhcmVVcGRh
+	dGVSZXF1ZXN0SW5mbzwva2V5PgoJPGRpY3Q+CgkJPGtleT5FbmFibGVkPC9rZXk+CgkJ
+	PHRydWUvPgoJPC9kaWN0PgoJPGtleT5VSUtDZXJ0aWZpY2F0aW9uPC9rZXk+Cgk8ZGlj
+	dD4KCQk8a2V5PkJsdWV0b290aEFkZHJlc3M8L2tleT4KCQk8c3RyaW5nPmUwOmViOjQw
+	OjhmOmNkOjA0PC9zdHJpbmc+CgkJPGtleT5Cb2FyZElkPC9rZXk+CgkJPGludGVnZXI+
+	MjwvaW50ZWdlcj4KCQk8a2V5PkNoaXBJRDwva2V5PgoJCTxpbnRlZ2VyPjMyNzg5PC9p
+	bnRlZ2VyPgoJCTxrZXk+RXRoZXJuZXRNYWNBZGRyZXNzPC9rZXk+CgkJPHN0cmluZz5l
+	MDplYjo0MDo4YTo5ZDo5NTwvc3RyaW5nPgoJCTxrZXk+VUlLQ2VydGlmaWNhdGlvbjwv
+	a2V5PgoJCTxkYXRhPgoJCU1JSVk3Z0lCQWpDQ0dPY0VJUDRDM3NxUXRQMVMyaHdCWnpD
+	b0hjc29IMnhOdTVjK2E0UTQ1b0oxTUtGMwoJCUJFRUVlaFNuMmtQNmljV3JLT3RyZ0Ry
+	NlBXVVlTb3RkS1RRMkc5T3NyZVhST1pyQkRxRHpycEVDUS95WQoJCWFmcnJPaTdPUWlo
+	NFVXMm83T0V0Vmo0SlpBYUlsd1FRTDQ0RnIwb3VUdFpORDVCWE1IOWxid1FRZ1dUUgoJ
+	CU15R2NBWUw5bXQzelhBQ3Rsd1NDR0ZxSGdNZVBWM2F5SVQwcWFVaTNPNTJMKzQyelB1
+	d3lNTWhyTUpBawoJCWc2bHFUbytodG1hTUR3SnhwZEhaQnZML09BNDBxdURCajdVWmZ1
+	MG4zUllpN2Z4MDZmeW5JMjF3QmhhUwoJCXhiZTRmQjdTSk13Z3ZodWtYZ1liRDhQS2Na
+	Z0ZhV3VzVnBDbmFUbTJTd1VXSEJhZms3M1NlT1JCNWFyTwoJCUc5WWtyam5aQ09nY2dV
+	YzNxQkh3eGp0dDZwRjR2ZG83YlREcGRUWi9BNFAwYkV2cGN3dkxGOFduME8xYgoJCWNh
+	UHI3NmRjVmFSdkltZHY1SEpOVms3TklwVGVBSVhWcXk0Q2dtbmtiY1VyOCtsRGt5aThj
+	YTZmTDZScQoJCWxjSWY3RmQ3UWpKVDdlYTRkYXpuaHhaa2ZHc2ZXb0JjODlFUFViblpn
+	YmJERHZQUTVlSHNLeHBqK3ZyRAoJCTh1TXJYY005Q3hlM3d3NEd0a2dHWjFDbEtXUTgw
+	ZTJxd3RNaGpkOHJIeklTUVlGc2lqK01adkl1cmg2QgoJCWp4TzJKenZ2QmhYTEttS1dh
+	NWpPaVIrQUQxVUVOdStVaWZDaWZjZlVQNUxhRE5ERWJLYlNNOXN1ZEs1QgoJCWpQdWNB
+	UVhNbVBrNVRjN2diMjg4bVlEdkxwTEljUFcyYWtqdzRpVmo5L3F3MnFOUlQyaUtHYzZC
+	TURBTAoJCWJZVlVhZXBYTzBRK0RTRE5QK2M0V2pLT2pydUVOMnlhV2F1RC83bUxDVi9D
+	ZWtDM2E3UWtTaXE0ZHJPaAoJCUxZZzMzVTNHVSs5aGNtRXlZdG95SlRFRmViNnlxckFW
+	RUJMWEU4R2xYM3E5YnV2Q2VpbFM4NEltMHE3ZQoJCXpoRngreklLODlQa2RHeEJYejBm
+	VTUxNHdDNGVIWjQ2UTNBMmVaMVFlQWtjZkY4NXVPVjRqdFp5QjA0UwoJCVl2ekpjZkZF
+	cFRoMVAzcllDUy8ya2syTktqeDcwcHUrVXR3WVpsdmVEMi9xTjc3WEluaGM0MldCY2ZB
+	SgoJCUlZb0VZOUdrNmhVOTB6cU5qT3IrWXZkbzFEQjY0MzhKR2haSWpiN1VzQ3Fzc3Fh
+	QkloK0g4V09GMXR1QQoJCXJLYUwvN3FGUlYxckNQaEtlb2srYVYrN0E4N2JDSDFNRmp6
+	M0pNSFMyUG9RSko2S0hhRkRYbXdUb2xRQQoJCWpmcGVYRFNmYXQvK1RjaGJEVmRmbWZY
+	RUNRQzFLczFmbXpqWDg2bWJjdXhTTWtZSUh3aUUxZGpBNFY1NQoJCXBoSjVyOWZpS2tK
+	UjRNeWtVM3RJci9mU3BreTl3MjQ5T1RsUTFlclpXMEIzMzhYYXF6RUVGUUp3N2VqNgoJ
+	CWhneWlTc1JvSnhTb2tSZjM3MDZldUVET1h6T20wa05xek1aU21zOW5EdWQwNmM3eU44
+	SkFqZVV5Ykg3agoJCTJOL0dZNHV4cDNhY0l3aWNZdE15VCsxZjYvYUQraE9xUzR2NDJO
+	NTcwNGRTYW9aazQwelpudEM2UmkybQoJCXlYWlI4M1BNcHUyN1JvVWQySkNiWkNhdjZh
+	NFZsZVE5aHJVYkN5TlU0MDAwR3dkTXhrZlNRZm0vVitaOAoJCXU0NWN5TXJpcW9uTzJK
+	ZzU1b0tMdUFYb3BQVGE3R1hlZmNxQll3RkR0WVdnSjJ4WXBuWmtBSmJveEJEbwoJCUpw
+	M3AvNHUwTnJSQ2NyVzk0NktuUHdKaG5YbTVWNEVoU0dScjRQUVpsVUhyV1dXNEVVTTZt
+	QXZtRTEwYwoJCXE2aVVBWS8rZnM3a0g5cjNreWhQVVpYMDJJTU5KdFpKUEwrNTd0eG9w
+	RENkNXNHcnRZc0s3U3FPU2pQNgoJCUFCTStlOU9EQk1PcVY2OUdJNGpDZ3hhRFZyRmZq
+	L3NpVEpZWGdmQURFTUg4TFNUa1BCdnpGSGl2L3lwZQoJCTJDWlFOaFhCajBXK0MzMGRZ
+	WloyMXgveGxmNkJrV1hhK2QzZVFWMjZ3RWlGOGhRM0lNbU9DOHkvOGdSKwoJCUloUm5y
+	b3M0SzZNWldFRmlLQVRSY0NUbUpGQjZDdnhTcDg0dzNiYVpFVzFFWklQNXdaK01JS1Jk
+	b0hTNwoJCWNnS09ZNnlPYnpTNHJ4SWxXZU5DMTNPRW5TUW9XREpBMUNuUThJMUFKdlZj
+	Z3lmOXUrRWJhd29LTWRZVwoJCU05bGphL0NnaDRMdlMzbkpRMHNiMGswaFRSU0ZwMkVy
+	SzU1ZnhxK2IzSjhTMXRlVEVqZ2haWUw5ODh6SwoJCWtlMm9rN0FBejVoL0lOcXBkcmRY
+	SUdxN0xJdXJ0N1VicFdqRW9iNE15WnpDNVN3K3J2dDRDRTJWVFcvMQoJCVMwTjg0RWtN
+	VWVUMUI5bzhrUXVaSnNDRDY1OGUzMTdoUjNaVUJIUGlyQUErWE9JbnpzTWgvZ0Z5SDB5
+	SwoJCUYzUlNRaGJDdHVpWWhpUEhaZUtGK0hQeFBHUU51N015VWswRTgwYTN4QzBQQWpl
+	TlpIUGtvZ0RsaHoyYwoJCXVtdUdyUm9qZ2ZQeFRybVFVODQveWV5d2J5SjdVbkdRNWxn
+	NjZMOTB1bjl6OWZrcEZabU8zcHJpTE0wdwoJCW5FMjRnTkF6NDFNdGdSQmtjSjUxUCtZ
+	Qkt0bFpWNmREV3RnSVRHdGlSOVJ6MEd0eTZHRk9yODdDNlcyWgoJCXI0WitaL250dnBn
+	eW91cDFiT3ZiU0t6NVVlcExGVGx2WlorQ09ZeUE1V2pERFRzMTZOMklsMmhrOHJoaQoJ
+	CTU0TXZobEZLS2hMaTZGeG44WTR3N2VIQTh3NmNNTHAwZmhXNmk3OWxHdFBkS2FOckhp
+	QzE5VWc5alFzTQoJCUJsRkU0VXFxZ2JGamIrV092UjdBRFBIWDhoZHZaL3lBYzJBV2tj
+	RU9Yc01VS3cxYVpucVRrUXdHM05aVAoJCVFsdU1DVGRNZVZLRkpocmdCZHU0MTk4R0lO
+	OVY4V01NRlRaSWo1UWV1OTJZL3IyOXpOSkcyeXJCblBpKwoJCWgvM2IxSk9HMUZlNEo0
+	UXRmbzBpeEFUalZLMFVmNWY2Zjl4eDdvQmhWTTlQbURhWXpzMUJCemNwbFdhVgoJCVcz
+	M1Q4ak9hRGk4TUVmRmNDY1FNZDMzMUNzQi9lQTZIZ2tycFJOcGhxNUZpRm9CbGdFNTdC
+	OFNYQWJmUQoJCTlWamc2WElWcHVTQ250VFBuWDRGaUs1Z00rbE4xdkE2eHJaWDc3Zzlt
+	U2gwZUEzaDhXRzdXcDlNUVZpVQoJCTJ3V1NnMWtja1REMnd2MVZ4TmRTSXJpTFp6cld2
+	NlgraFJ1UlozcWRyVGphdjBQQjNzN3dJeCs0NWlmZwoJCUcrQUZXanJlR3J2SGhFWVI0
+	RVpIOHcxbUdUVWNacGFWMm5HN1RQV2QxZ1FuaUw3eFBKdVNWYlhYZ094dAoJCVlGVEtr
+	bVU0aWpTWExEQmhHYVJxRnlCa09oZlBQMXJaNGg1cHlUTzFHRDVjaWlSdnM5V3J1V201
+	RU1YRwoJCUQ5dDBmdE4wU01tWUwxaWpONzJXQUVkZktYdjlWL3ZrVnliRmxvY09BVm4w
+	VktJOEtPVm03MWtxdHdLNAoJCUk3UmNnVzRobldJT2RNM1E5UEY4K2ovQmtETWl1K1ZY
+	aXpWQi9RenVrNzY5RmZ1d0FrMnB2bkhHMjluWgoJCWVjdGR5aGhKRlhjTmhQV0ZORTM5
+	SDlpdlU0Q1hrSVdESEUxbWYwYVVuZXBiTU00ZDRJa1BSRDlWTmM4MQoJCWJTL29nU2NN
+	bGFJelVSQ3pLRFRyMFg2d3FDaGh6cTBya0hTNjROaEZPc25sVXRGUFJpY25lN2RrNlFi
+	NAoJCUNZOE1QV1NVYzNuU0VCSkZ6TmFUa0lqcytmaUIrQms1UWJBZy9mQ1VIWUF4eTJ3
+	MVVmblg1UWcyRWcxaQoJCXE3dTFOVjVuNEhsMTd0NGdwMEt2UGd6a2hOdG5XdXpmcjJF
+	V2k3VVFJOVJiOEg0bHFrZktUK0JGSHJndAoJCTI5cytRWmRaMXBLdU1kZkxaTHJ1Ukcr
+	eGZHUXE5ZCt3blZlbXptelE0VXVLZGRrdGwwc1VTYkNmVG5CdQoJCW5EUXdmQ3dtSEVL
+	TjdENkxCMVB5WkVWRjJkN1VIQ3R2cUVTNUNyR0hzTHJiOURxTHpCMmNNb3UwQXFiawoJ
+	CWRNN2txOFlIblVxSFZpZWt2VUp6aXdkZGpNTi84ZlYybHFYcFRCRXZFN202ekZoYUlR
+	UVh3VloyNFFqKwoJCUNVdzR2YlpXVk5rRjlJOCt5cjZFRkcwdWpjREJSMEJscVhHVS8w
+	UUhaVE5JUkFoZlkxeU1zQ29CcEpXNgoJCTRNYkI4NGpEVmR3QUtranFGb1pJN1NiTjlj
+	aU5iWlBEaUF5bTRXUFRiMkZKV3haOG9uN3hBcGR3eG5CQQoJCWNZc1lGSXM1ekI3bDht
+	MmVVVVBqUUF3MlYzVDdNMzNXemRIZU10ZUh4SlBSS2ZHNHM5YXo2ZkU2akRuMgoJCXdP
+	SGJJVmpVL1dMSEFkQmE0Mi9Yb0RtUTZ6emV6eXRDaG53OUtWc0taKzhka3BKSDBFQWho
+	UmhSNHhkNwoJCTVQem9GRzI0VnBZKzJSWHRldDdsTk1TYmd2NFRKMFQ4WklUMnRUYW4y
+	TjRNbExBaTBuSzdzU3V3WkdRWAoJCVhaYyt0ejR6T1pmOEpEUnFYRk9YNjZsZ2VjYzY3
+	eWJsZW9kdFFLZlRxOFd6d1FoSnhLeUNVSTNGK2dJVQoJCVVTS05pK0FTUGdONmVRbVEw
+	dHFhamtsWG1nUU5RTlZ2WmQxWWxNRFpQc05zWU9FSTBOU0sxY2U5U1UrWAoJCVcvL2Q0
+	ZGpiQ2Y3OWg2M1NBVWlNdFVJZ1R4ejVlWDlldklOTFQ3YStBdlM3NGdjVk8vVFN2Rkti
+	VEVadwoJCTh5ZkNKYkpCZWMxc2lOQ1FxekJJbUpkUmt5RDVUSmFBcXpoK2tJOVFTMTNI
+	RGQzNnBxQWZpNnBaakRLNQoJCUl3ZUNsVDh2VFVCWjRKZkphUDcvL0dQYmMvbFRwc0pG
+	K2cyb1BKVlVlR3pFQnFiUDJhcnRkdHNuTWJ5TwoJCW1BOG5ZVUhWYXZkeElZa1JKYzAy
+	VmtZSjhlQkUzWXJTbmNHSW1uQmlwOG5BYVBtSlJOdlJ0aG56L0dJMQoJCU9HMC9NdEZD
+	UlA1K3E3SEt5WmtVU2ZqUSs5MnpGeDIxNE9LS25FaTJPM2RyUG5pOGJKUzZmNENhOE9L
+	QwoJCTVDVVZQT3B3WWxYR0xad0tvcWRIMUhhYjFkeTMzSEZmMnkvUlFFbGdtdEwzek1U
+	SHNnTGxJQUozZmtLSAoJCU81ZU15bzBoUW5oSC9yejBwRWVFekdQeTg0SDlQbEZNenRU
+	MWx0VnJGa0tTTmpoeU9ucG1IWFdCeG9TTgoJCXgyTThhZ2VDa2xoeWMxS0ltcGYyUElw
+	bDBKekZ3VUY0aFZNMG1tRW1KRVNRblEyVWthaDF5M2hSU2FkUAoJCWlMVWNVRmJ0WUZD
+	eW1vYURsRjdyeHd2Z0FEQW9pOHNkbGNBUGN3RWdMNjUvZHVzV3FGWUt1L2puQnhhWQoJ
+	CUFwNlJ1Z3hSVHlmVWZlNk1JMWJxcUFVYkUyL1ZPK1Ardk5vTVZUeWRJSmNMMzNyT3Ux
+	M1d4ZVJsSGFUUgoJCTcxa0tnaGFaQzU4c0c2N1UvZkdjcGdEVjlPVzMyWklIM1NTVnZj
+	ZEE4b1U0VDFwSFQ0RXpxVU5wVWNxKwoJCVNXd1V6Q2FQcmo3cWJGTzNGRXdLNkVvOC9t
+	QkhNWk5KcGx1aWM4dlpPOUJSeGp5Q2ttSDBsSXVuREl1WgoJCTJ5L1BDVGJYOW9EUnNR
+	M3pyK1J6Y0paMWMza0NvRHNNa1RpSHRWMHBWSU9XQW5wME94RmM3eFRxbWFWSAoJCXBk
+	WGNqNk5wV0tqTGNDRnVjQThuZE5YSEt0ZlR1THpsVDEzMXYzU3hqRDQvWCtJTmZoVGRK
+	MmNMbGFJawoJCUhwWXhNK0gzT3BDMVprWU5Pd0VmcmhyVXNwcmcxc1V5WnN2Z1RhaWJM
+	NjlNV3lpeitHLzBnMHVDMTU2VQoJCWJCS0RZYW1jTjlRNXUvdkZJbkt1UnNoWVZHRnRZ
+	SElNVUxEM2c4MWI4eGFxckwzZFVNK2hXL2xDM3FJRgoJCXVpWDd5MUI0ZVNyeEZiSUpO
+	VXJRSVQ2TGRxVWFrdWRYYWE4QmJVLzI2MEtOYytmMVVhTm9GeVoyRm55UwoJCVFBSHBw
+	VEliM0xaREtncmg2dzUxbHZORzR3K0pQejVFRytmMTcyNnQvaTU1T0Rua2Qyc1E4b2hn
+	L3NjTgoJCTNhRmZQSzQrRDJKbW14YmF3OXFiMExhU2tBSnRqekd6SVZqVW5hSlBQV2w3
+	WUR0dUpuOTRMUkE4SHpHMwoJCUd0TzVlemFzUnBjL1paeEVQOTJqZ0dhQUJwMkR5WmZS
+	Vk5QTGFTaytlODAyZ3lpVm9xVG9YV1cyS2hRZQoJCTVVRDZuWHI2UTFmM2Q2RVh6NWRF
+	ZzY1UG80cWsvTE55QXpSSHhDUzNQM21udEVQM0wwd3ZaUzdkaWVpaAoJCWR5M2lDQjEr
+	TkkxV1l2Y1lvYWlMNVZIV3NCZEp2cXlEbjF4emRRZTFUbGxLZERYMjNjckFsNWpKTy9y
+	bAoJCXdiandTcE5qKzhrTGZmdE44UWdFeHNjaGh1azJGLzFnVTFzSmZFaTJGZ1dUVDEy
+	SXZiMnd1a3BvNEMwUgoJCWZMbUNLblN0N29KelhPMUNSZFZCcXRwY3ZQOUlaVWhLa29E
+	d1NoK0tTelMvemc0emNOZGxZWW9lSkdNTAoJCWVaZWl1M1dUVE40QU9xZUlwTUxiMnBW
+	R1R2bW9VSDNudlFoTURHWnBKZDk2RCsxM04vdGJPUnlnNW9QTwoJCTczN1IxWGg1cUhU
+	SWF0Rm5TUUJXZUJOcU00R0pMWmVYTytsZWRvZVk4RkdaOEgxVjU4QnYwamlyRHBJZwoJ
+	CWwzUkZ4cGVRZkxtYlErK3dtYk5WdlU4a0NNN1VyeHJZQzBGb3FTK1ZNbWZXOURCM0xp
+	a2dkby9QenRBVgoJCW5NZzBPbUhNYlVqVTlmenZFRzhuTzhqZmVGOUhzVzg3SEFReDBh
+	V3VKUTdLdHdKMS9RamxXVHlkV01pcAoJCUlpR2FGMTNDVGNUaEVHRXJBZ1dEVGNzRzZu
+	RkxRRmN2VS93TjJJcTNjSEo1ZjJ5YnNOYkVwdDAxVTc4TgoJCVIzQWlyTTU5elg0RFNC
+	MU16SEgzOW91ajF4TW1RTTdrMElsQks3c2ZzWmpJOCtETDRheS93WEdFNmhLVAoJCXRE
+	TjdQN21lZTBMeXR3emZJREFybGRUNWJaQm1DU2xRSXlJd1JwSENtRDdUZmFEaklmY09H
+	VnVXQUVIegoJCXVrYUtyWlp2dHF6R2VtMVdSRW92OEpaSnhSb3B0b3Z2T3pBNFNwdjFt
+	alhlYTVYVXg1NExsRW50eGtHcAoJCVQ1TE5pK3NOWDE1NDFVbEEzN2ZNWjNLU29NS0ww
+	SmJic1RuWFF6TjJlUC9OZ09sN3JQdXNCZUIyeWZpcwoJCTJrU3lpM215N2NZQmpuZEU3
+	bVRCRld6cW8zYXBxdTYvbFJTbW4wK1VVRGpnTTQ0SEthbWp5T0dwMTlscAoJCTYreERq
+	Ni84TXNjZi9kU256VTNnb2FtR1pkMDJETlQzZm1hUVVoZmxVVUpGbkkxSFYyaWFXSjdF
+	Zm1qUgoJCVZoZTZFVFdrZ01xM1FyVkNucVRmeWwzWFI5QVpHclYwYjAvdmdvTzRKOTBS
+	REtWN2xPdXMrcUVoK2hsNAoJCVRsVDRza0krRWY4aUoycm5OOU41RjViQmZhU1NyRDBK
+	cmxXdzU5V2wvOVBFQ3U0eDJkTWhKVFhVOWw1QgoJCW1qeDAybUJuWWRkaGpFV204cXJv
+	dHM2QVlBcSs3Y3VaVEszMXVQQzZSY3hINlBXQlNUYzhqcGlCczhRdQoJCUxmWHdkdENJ
+	VjZPZ2xRZXBpL1VaczlSd2hSd2thVmxudG82NVRIZmM5S2YzVVJ5aG1jM1YvOWowQ25V
+	VQoJCVBUZnl4UFU2cS9Jd3FlNW93UHFud0R6TGllOHBDcTRkQXhqTnNXYkE0TzlLRmlK
+	Zk9mQk9nZlg1SnpkSwoJCU5WaThDcGJQQnpzQklEUTA3TnlHb0lObTZsWnIwNWRLbFY5
+	VTI4V1QyZEZwOGxieHhhRGhCVEZNSHJOLwoJCW4zS1RVZ2VQVmx6dGZzV1VkN2V5UE1n
+	QkVpcTY3amppTExtZWpNRkVpZm9CVWtKblUyd1ZqL015bkdaOQoJCThuTUt2RStUcXhj
+	RDdNRjBmWE9tQ1BxaTRNVVhPWWJzRmdEaGcxY0IyTzl6VEV0R3ZBRTdLNFlXa01sNAoJ
+	CTlWMVJtc08rcnhiK2tHMnZWNjRmSW5lQnFKUDBNL0Z0RHZsQkN5NlJhbjVwNEhOUm9y
+	YVgvdGhXSEJjYwoJCVgyNHdEOGR4ZEdwODhaVUEvSTh0ZnBqb0FZbzZibFM3SGVoajNn
+	cUNKUzcrTklkanZZQzV5SVd2SmwzSwoJCVV3UWFTcEFROFpNWGVNcFZQaEQ3bjQ1QWJm
+	NEJYdEhMOEtnTWkwczRBRnF3NFdTd29KalJaM0JDS1NJeQoJCVNXRU8xSkxmMGJ1Q29V
+	OXZ6VmtJNngraGhFQ2ZXTU96MzZheXZrTEhMVVBhcnJYaTZzSHF1UU0xQjVMaQoJCXZk
+	TUlYc25peHVadW5Eb2Q0cUpSaThTMWZSQTBadi92cFBoZm9hVWJBZzRxY1ZNdDFnZHBR
+	M0g1KzV3QwoJCVF2anlRWFdGSEpoYkhWekI4YjkrVVY1bkZJYW5zUmkzWXNDRUMzNjJw
+	RmYxeVd3SSt5aWo1Vmljd1YrcwoJCWVLaHZqNHpkM2R1ZzhwWlRJRDc5Umd4N1JqSzdW
+	ZVFNM25uRThOQTFKM3kxR1FnOHM4V1pYcWI1aDYvTAoJCTV5clBWeWlLQW5oa0h6Z05B
+	SWpIVFliamZyOHh6NlI4bmg4VGY3MmFtQnZhdk9rWGVvRWE2ei9mSzVLTAoJCWc4aWJV
+	cEhRUEcwaTFMUHJVenBaeDJNRnlmWmpsNUpaMWVJU3gzREN0bW1xMGxYRGZNYU1VZ2Jk
+	WkVObQoJCVJoYys1SnVrdnBucVdDdlNRS3JaYkg4dEhVTmVtNngxWWxRUnl1Zk0rSDBi
+	RTdVOS9TTXdFbjVDNzZXUAoJCXRnR3ptdkdtVm1qVXVPTWNNWjlIdjcreS93dWljM05G
+	dGxsY0lTdFBzTDA0a2lYNGxneEVFcmhqckZvSgoJCWpzRHQ2cWpzSklKMi9sV1RDVEVM
+	RmM2TUFVNHRjUmQ5QzZLWUJqMW1VSFhSSWkxa01aTlBuczVoVnNsTgoJCVRKbFJ5VkVC
+	cnFWdnNlT0FPdkhvamFzaGFKQlliREN4MW1IeWdKdmNyK3BkUFlDdXVWZW9uMTVxTHQw
+	NgoJCU00M1d4OHNwVGRJd2d3SUl4WHZlaGFyRmlTUWkzMUx0Zm5UYVArTG0vZVBBMkVh
+	YzBaZVMvdDFZNWdveAoJCVVlbVNjMmlVRjdwZEs0SWppLy9VZW1iS2xWSzdqUTFTNmJT
+	YmpZL1RHbHQ1SWpWM2ZmWGhhTyt3TEc2SwoJCUhlWVlickJpeWhsTER5MUVVVysrYWRM
+	d0tPdGRUWGhyS2NUNGxRMjlhcnpoWXlSZlRXdVhocGtDWmJOawoJCUdqRVd1M2c4VjZW
+	VDFtd1RZNG1SRlV2MktKdnVFU1lDZ2MxWU85S0hESHo0OVlGZjdGK3J5UExkbTFzQgoJ
+	CWt6aFFkNkE3VGxLNzdBd29uMTVVOFpFNG52OW1yNjZ0VnN4UkszT1B3QnE5RzVZeW05
+	VWNHa1JGZXNBYQoJCWE1bERZMVBiQXVkUDdaVXUwZUNQTndOSnRXNG85WTBlYWwrMnJ4
+	S3lxL1dTeVp4NTRWZEtoL29jRXZVTQoJCXJjQnZHcjZZWUh0VnFFcDRvbzhjckJWcXNN
+	OFkyRzhJSXFrWmNwN1dER3BFN2ZiY1RMelNJaDVScTB0MQoJCStjR1B2dXNCWldoUFVE
+	d0VYVjUyZ0pFUWlmWnF5MjcyVG50dXBBMzdLZHo4a2ZpYk4zSVJLcys3REhLbAoJCVNm
+	UlpQeGhidnFiaTYxaTlQZ2E2a2JRWFp0YXZPZTRvalpuczhOc2xOdENWWHlSSXlrekYx
+	VmUzRkgrNAoJCWoxVFhxU05XakI2MHkzWW9LS0xSbnllUWpYbi8wakVmUk5NYnViNVVH
+	RGdVQkFxOG9OSzY3V0NGdGNnTwoJCU9HMmNFdUptUFVheFU4RVpmam0vMWEzdkQvRFZK
+	b1F4Z3lRZTM3eGhXeXhhWUpsUXhrZm1MekJlVktMQQoJCUVlYmhJdmFvaDd3ZHU0Wm84
+	SGFWd1VEZko5T3R1NWMxNGc4WU9mSVlRQkV6RTQrTGkyWjI4aHdwcGVNQwoJCTJIOWsr
+	cDdFVUpFaHIxVWpHK3dVNllyNnplZlo3dFpNbW5hQ0ZKcWRkNFZzdEVJaVhKSGRRekJ0
+	T0VIYQoJCVoyYWlZZ0gyeVZnZ0c0WG9pcUViNTdndy96UzZDMmNYdEpMMkxzenJkcEZV
+	djR3TEV3UkxpZXA1SE84eAoJCTJ4MHY1WHFSalFHc2JxekR5amw0L1FiZ0NvR0taY0pV
+	LzZNZXc3NElqSDVGNUhzTUNxWFNlSFNEbWhHNAoJCTFEMFU2Y3VZTUxvTU5JUExOc01m
+	Z3hieHJvODJsaHdIUjVSWmRYWUJaakdlTTYvVk5KU2REN21LKzBYawoJCXRkZGlXUXdk
+	VkFvTjh6ZHBjZ3VxY2JDaU11MG5OSFN3Qm9BTGxVa2diMUVnZUg3bjh2RXB5L2IwdTVH
+	dAoJCVFld29ieWIrWEFpQWZwQlRqbHZtd0Z0WldGZ0NiWXEveEJYdURvTkpOQkRMc2tS
+	QnpMaGk3T2c2TkhBMwoJCXZyWnVRUmJKR3dic2lEeHNzQng1aGVQL1o4emtyYXJid1g1
+	a2VsYzQrbUM0Wk1RZFJ5VFlGbW80eWZpQwoJCVJnMVNPbjQ3QmpnMjMzbGU4dG9pOHFn
+	dW5DRTFXWXFzT1RSTWdJcG1rbjhERXdoYjV5bUdyQjczVTJjMgoJCTQ1R2NaZFVhTlpC
+	eXMvTkVERXJMVytQN2tneDM3bzdvN1pSTlRQNi92YkFpaVRZcEduN0wzT0p3SkFOdQoJ
+	CTNBQ1d1bjJ2THJjelY3cEdIYmFrWG02b1lMOUJGQ0dhMmFEcGtOanlKUEZXUndCNkgw
+	YW5kRmtnMkZhNQoJCTVWRlk2OC9kZlNUWTVIZy9BUWZ0VS96UWQ4U0dYNEZMWGhlMjZl
+	U3Rhbno3emR1Y0lFVVpDczFCWlA5ZAoJCWxYMkxrRU94ejhIMnZLanpYekZpWDh4am9l
+	eFE2a2NIMmdEb3VYWWlpMWUzYUh4UWlhK2FhblU9CgkJPC9kYXRhPgoJCTxrZXk+V2lm
+	aUFkZHJlc3M8L2tleT4KCQk8c3RyaW5nPmUwOmViOjQwOjhmOjQ2OjJiPC9zdHJpbmc+
+	Cgk8L2RpY3Q+CjwvZGljdD4KPC9wbGlzdD4K
+	</data>
+	<key>FairPlayCertChain</key>
+	<data>
+	MIICxDCCAi2gAwIBAgINMzOvBwQCrwACrwAAATANBgkqhkiG9w0BAQUFADB7MQswCQYD
+	VQQGEwJVUzETMBEGA1UEChMKQXBwbGUgSW5jLjEmMCQGA1UECxMdQXBwbGUgQ2VydGlm
+	aWNhdGlvbiBBdXRob3JpdHkxLzAtBgNVBAMTJkFwcGxlIEZhaXJQbGF5IENlcnRpZmlj
+	YXRpb24gQXV0aG9yaXR5MB4XDTA3MDQwMjE1MTcyN1oXDTEyMDMzMTE1MTcyN1owZzEL
+	MAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xFzAVBgNVBAsTDkFwcGxlIEZh
+	aXJQbGF5MSowKAYDVQQDEyFpUGhvbmUuMzMzM0FGMDcwNDAyQUYwMDAyQUYwMDAwMDEw
+	gZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANeOK/G/ndTY2+7jsfla4L5tv40V36AQ
+	jFek/fJQfe428mJFq05w0wACziIba5VgUHXNji8wBBJO+rzqefJncLt3RSr1eVlK2sOv
+	52nErdQnrSf6yYNT7ng1iuDh8cfKNt2gTyN2943yMR0WmdGi+5G/jqncYioaVgZyTfCj
+	PEI/AgMBAAGjYDBeMA4GA1UdDwEB/wQEAwIDuDAMBgNVHRMBAf8EAjAAMB0GA1UdDgQW
+	BBRP3NB9MdROc1SthHsfTiS6AZem6TAfBgNVHSMEGDAWgBT6DdQRkRvmsk4eBkmUEd1j
+	YgdZZDANBgkqhkiG9w0BAQUFAAOBgQBTxW91h2k/wiQSSIVpxjqfGJDDgPitlVwjGoVU
+	k8qGVhjuDmXEIrbfYRSV92VUpGgqJ+OlHng4YKS++52P3a+57rEiyji8LwaWPmmKs/Kp
+	XugV9MeREqQ/KAui0zVd1LMaSDo1uSlru1+72jEPUXA2B5hOoYQA15EogpNJz5EeZzCC
+	A3EwggJZoAMCAQICAREwDQYJKoZIhvcNAQEFBQAwYjELMAkGA1UEBhMCVVMxEzARBgNV
+	BAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9y
+	aXR5MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMB4XDTA3MDIxNDE5MjA0MVoXDTEyMDIx
+	NDE5MjA0MVowezELMAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNV
+	BAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MS8wLQYDVQQDEyZBcHBsZSBG
+	YWlyUGxheSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eTCBnzANBgkqhkiG9w0BAQEFAAOB
+	jQAwgYkCgYEAsmc8XSrnj/J3z+8xvNEE/eqf0IYpkAqj/2RK72n0CrnvxMRjyjotIT1S
+	jCOJKarbF9zLKMRpzXIkwhDB9HgdMRbF5uoZHSozvoCr3BFIBiofDmGBzXmaXRL0hJDI
+	fPZ4m1L4+vGIbhBy+F3LiOy2VRSXpE0LwU8nZ5mmpLPX2q0CAwEAAaOBnDCBmTAOBgNV
+	HQ8BAf8EBAMCAYYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQU+g3UEZEb5rJOHgZJ
+	lBHdY2IHWWQwHwYDVR0jBBgwFoAUK9BpR5R2Cf70a40uQKb3R01/CF4wNgYDVR0fBC8w
+	LTAroCmgJ4YlaHR0cDovL3d3dy5hcHBsZS5jb20vYXBwbGVjYS9yb290LmNybDANBgkq
+	hkiG9w0BAQUFAAOCAQEAwKBz+B3qHNHNxYZ1pLvrQMVqLQz+W/xuwVvXSH1AqWEtSzdw
+	OO8GkUuvEcIfle6IM29fcur21Xa1V1hx8D4Qw9Uuuy+mOnPCMmUKVgQWGZhNC3ht0KN0
+	ZJhU9KfXHaL/KsN5ALKZ5+e71Qai60kzaWdBAZmtaLDTevSV4P0kiCoQ56No/617+tm6
+	8aV/ypOizgM3A2aFkwUbMfZ1gpMv0/DaOTc9X/66zZpwwAaLIu6pzgRuJGk7FlKlwPLA
+	rkNwhLshkUPLu7fqW7qT4Ld3ie9NVgQzXc5cWTGn1ztFVhHNrsubDqDP3JOoysVYeAAF
+	2Zmr1l6H6pJzNFSjkxikgzCCBLswggOjoAMCAQICAQIwDQYJKoZIhvcNAQEFBQAwYjEL
+	MAkGA1UEBhMCVVMxEzARBgNVBAoTCkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENl
+	cnRpZmljYXRpb24gQXV0aG9yaXR5MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMB4XDTA2
+	MDQyNTIxNDAzNloXDTM1MDIwOTIxNDAzNlowYjELMAkGA1UEBhMCVVMxEzARBgNVBAoT
+	CkFwcGxlIEluYy4xJjAkBgNVBAsTHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5
+	MRYwFAYDVQQDEw1BcHBsZSBSb290IENBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+	CgKCAQEA5JGpCR+R2x5HUOsF7V55hC3rNqJXTFXsixmJ3vlLbPUHqyIwAugYPvhQCdN/
+	QaiY+dHKZpwkaxHQo7vkGyrDH5WeegykR4tb1BY3M8vED03OFGnRyRly9V0O1X9fm/Il
+	A7pVj01dDfFkNSMVSxVZHbOU9/acns9QusFYUGePCLQg98usLCBvcLY/ATCMt0PPD509
+	8ytJKBrI/s61uQ7ZXhzWyz21Oq30Dw4AkguxIRYudNU8DdtiFqujcZJHU1XBry9Bs/j7
+	43DN5qNMRX4fTGtQlkGJxHRiCxCDQYczioGxMFjsWgQyjGizjx3eZXP/Z15lvEnYdp8z
+	FGWhd5TJLQIDAQABo4IBejCCAXYwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMB
+	Af8wHQYDVR0OBBYEFCvQaUeUdgn+9GuNLkCm90dNfwheMB8GA1UdIwQYMBaAFCvQaUeU
+	dgn+9GuNLkCm90dNfwheMIIBEQYDVR0gBIIBCDCCAQQwggEABgkqhkiG92NkBQEwgfIw
+	KgYIKwYBBQUHAgEWHmh0dHBzOi8vd3d3LmFwcGxlLmNvbS9hcHBsZWNhLzCBwwYIKwYB
+	BQUHAgIwgbYagbNSZWxpYW5jZSBvbiB0aGlzIGNlcnRpZmljYXRlIGJ5IGFueSBwYXJ0
+	eSBhc3N1bWVzIGFjY2VwdGFuY2Ugb2YgdGhlIHRoZW4gYXBwbGljYWJsZSBzdGFuZGFy
+	ZCB0ZXJtcyBhbmQgY29uZGl0aW9ucyBvZiB1c2UsIGNlcnRpZmljYXRlIHBvbGljeSBh
+	bmQgY2VydGlmaWNhdGlvbiBwcmFjdGljZSBzdGF0ZW1lbnRzLjANBgkqhkiG9w0BAQUF
+	AAOCAQEAXDaZTC14t+2Mm9zzd5vydtJ3ME/BH4WDhRuZPUc38qmbQI4s1LGQEti+9HOb
+	7tJkD8t5TzTYoj75eP9ryAfsfTmDi1Mg0zjEsb+aTwpr/yv8WacFCXwXQFYRHnTTt4sj
+	O0ej1W8k4uvRt3DfD0XhJ8rxbXjt57UXF6jcfiI1yiXV2Q/Wa9SiJCMR96Gsj3OBYMYb
+	WwkvkrL4REjwYDieFfU9JmcgijNq9w2Cz97roy/5U2pbZMBjM3f3OgcsVuvaDyEO2rpz
+	GU+12TZ/wYdV2aeZuTJC+9jVcZ5+oVK3G72TQiQSKscPHbZNnF5jyEuAF1CqitXa5PzQ
+	CQc3sHV1IQ==
+	</data>
+	<key>FairPlaySignature</key>
+	<data>
+	ucJhAAFrrw7e1nKKMp7Q9+AHfj57D1Mkh7UIZbFYZv5htWgaYwhYrWbIebUQcU1Z3g3L
+	wrdyySzUMT1J/i3ftTzeQAHH3kNeZh9ukYF55aHpJOSW57DGBxBwZkgC9jhMNbZ//sC+
+	QP4x97bNVgALKOlJNbRh0tTICl22VuTa0dc=
+	</data>
+	<key>RKCertification</key>
+	<data>
+	MIIELQIBAjCCBCYEIP4C3sqQtP1S2hwBZzCoHcsoH2xNu5c+a4Q45oJ1MKF3BEEEEWLs
+	dfbaBGFH5fw7AL0TRvXw/SJCl5DlPGumM1d7E6UlPQkh33FvUilu4lvCWLJ9wA2Y0iml
+	6m2TzU1WrvtNmwQQL/yk/W30zd8smaRq+RBJlAQQZOGqcBl+0kR7k6RRhmyrgQSCA5nY
+	iEpuSgItX67CxcAUHGWU1LomfF9WV46g/d019eS/QVRqxzLdvsgvuAlpGLltKlg5RkQC
+	4N0tLyfN3yqGJYWM6CcNLU9/DH2/bMaqzuA2QvjvH319MBDIGrIqVH7X5TaD/pLOOucE
+	4mKUfJ/UwpjyE85FevQ6rR2dyYykMREM1ogdVHyGGe76XhE2YKWBoPWlH3beGc05A8JM
+	huD51gQqrFfbNVTstMS3yYZwWexUP5tbu6ARLmimgJTHxmr+0tTa6dZcXVMHiiwa4Wj4
+	4VqapL0Gx3NRgvlzMk45Uasq+e63HUK8Gm5imk/aegl86hjMGZHkdq83jwG7wTjf/V4k
+	2lT9eEJ0u0fYNj3YXTcqZBTrFA1jmztNGq9h6yxZG8PPTlf6IJ96ewCvTW7btMhle4Y6
+	DQWZT7fJp+6DmDbsvSNK3uaK4dIi0i6JUXpLYwkyUbYfRJB4Svs3useKqhHteNHjNHjJ
+	80asDezV8ReVIhJUu4HbeK7bmmJdJ6eycCgVKAiR3VacVE0lM2IpGXaD/xHVu/JUzxIT
+	5sIrNuU5Jyno6GMgJhtQGeE092Y9fhpikwweOXagALOBRrsBw3ySj6IcGhSXxDJcDw/N
+	x9QRwGr8CGAFa3b8wxwGCD/AW0MfPRAvLNtqNarvzaa6KGRVGFoA9AqqRFe/3fEe6mMN
+	ozyrY6yHXi8E4crszL3MhxTSNFR/H0FyYU8uy8F/gzms04up/uVusu1/W9sn+qp8yU7w
+	V09wIF6Ahgj3J6V5agNQy9uP42Lh9EhpdOalxeI4WY6QYt/nctT5olRQqhKCcVwWmLW7
+	TnyF/PWfZHtt51zitHwPYikajGLgn6V7bfBRjApPeOu5MrbaxOgJXOE8ZNQO7otKRZox
+	EVJj4A3vxC9yiOGsf/eU7Z/eSbO+jBIOlnEjkRnMsvFM/vGbgxOwCPhd4jGoDBUJV2Fy
+	VXsQ92kS9RkX0aQDHpWxRATPrkAj68A0B7EmvV+A2Jk67k2a4as3yhsy9G4Quks5Fuiq
+	DkM5a+m27AKW4D056v6WispfNkI/0QEdbWK8/dUTzwoNQ4gebECRs2FAaUzrhqqX+p9r
+	AZbRtZ7pQpITKfywwElehPTnVjD4sd1QO2PPPgrurHPVsS6LIgTyNjAz6NeStuW62/K8
+	rbnsn3xfT1+cE8oAbDtNbHFWiaQ19w/WxsUSi+mSTzDb34WkuATj5h7mG7bIHTkasEOX
+	LaQ=
+	</data>
+	<key>RKSignature</key>
+	<data>
+	MEQCIGROzR8hr9KCALUQV2dvrLSkaBsvfif8WD4X/XVi5mjBAiAskXEfxrUNOyIUcCF+
+	kd693DTbBhLVwzhlCZBqjW/GbA==
+	</data>
+	<key>serverKP</key>
+	<data>
+	AxCYpBJA7dIWEX2Ul8flaN7T/3+aHr0RUXE19fG+vLNZ0SjpcfEpxP8krbVT9KSAxmnD
+	Z4lUtMlONX2rsJD1ZCwC3YdU
+	</data>
+	<key>signActRequest</key>
+	<data>
+	SkqIIdkG5X6o+Sx29NcpBA==
+	</data>
+</dict>
+</plist>
+
+Mon Jan 10 12:27:58 2022 [151] <notice> (0x16f887000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by locationd
+Mon Jan 10 12:27:58 2022 [151] <notice> (0x16f913000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by CommCenter
+Mon Jan 10 12:28:02 2022 [151] <notice> (0x16f99f000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by networkserviceproxy
+Mon Jan 10 12:28:02 2022 [151] <notice> (0x16f6e3000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by networkserviceproxy
+Mon Jan 10 12:28:02 2022 [151] <notice> (0x16f6e3000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by networkserviceproxy
+Mon Jan 10 12:28:12 2022 [151] <notice> (0x16fa2b000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Jan 10 12:28:19 2022 [151] <notice> (0x16f913000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by nfcd
+Mon Jan 10 12:28:19 2022 [151] <notice> (0x16f913000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by CommCenter
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: ____________________ Mobile Activation Startup _____________________
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: build_version: 19A404
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: internal_build: false
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: uid: 501
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: user_name: mobile
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: hardware_model: D20AP
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: product_type: iPhone10,1
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: device_class: iPhone
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: has_telephony: true
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: should_hactivate: false
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: is_fpga: false
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: is_devfused_undemoted: false
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: is_prodfused_demoted: false
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: soc_generation: H10
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f5e7000) MA: main: ____________________________________________________________________
+Wed Jan 12 17:18:17 2022 [157] <debug> (0x16f6ff000) MA: dealwith_activation: Activation State: Activated
+Wed Jan 12 17:18:22 2022 [157] <notice> (0x16f6ff000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Wed Jan 12 17:18:22 2022 [157] <notice> (0x16f6ff000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Wed Jan 12 17:18:22 2022 [157] <notice> (0x16f6ff000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Wed Jan 12 17:18:54 2022 [157] <notice> (0x16f673000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by CommCenter
+Thu Jan 13 11:03:46 2022 [157] <debug> (0x16b3a3000) MA: main: ____________________ Mobile Activation Startup _____________________
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: build_version: 19A404
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: internal_build: false
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: uid: 501
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: user_name: mobile
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: hardware_model: D20AP
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: product_type: iPhone10,1
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: device_class: iPhone
+Thu Jan 13 11:03:47 2022 [157] <debug> (0x16b3a3000) MA: main: has_telephony: true
+Thu Jan 13 11:03:48 2022 [157] <debug> (0x16b3a3000) MA: main: should_hactivate: false
+Thu Jan 13 11:03:48 2022 [157] <debug> (0x16b3a3000) MA: main: is_fpga: false
+Thu Jan 13 11:03:48 2022 [157] <debug> (0x16b3a3000) MA: main: is_devfused_undemoted: false
+Thu Jan 13 11:03:48 2022 [157] <debug> (0x16b3a3000) MA: main: is_prodfused_demoted: false
+Thu Jan 13 11:03:48 2022 [157] <debug> (0x16b3a3000) MA: main: soc_generation: H10
+Thu Jan 13 11:03:50 2022 [157] <debug> (0x16b3a3000) MA: main: ____________________________________________________________________
+Thu Jan 13 11:03:50 2022 [157] <debug> (0x16b3a3000) MA: dealwith_activation: Activation State: Activated
+Thu Jan 13 11:03:50 2022 [157] <notice> (0x16b3a3000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Thu Jan 13 11:03:50 2022 [157] <notice> (0x16b5d3000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Thu Jan 13 11:03:50 2022 [157] <notice> (0x16b5d3000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: ____________________ Mobile Activation Startup _____________________
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: build_version: 19A404
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: internal_build: false
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: uid: 501
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: user_name: mobile
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: hardware_model: D20AP
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: product_type: iPhone10,1
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: device_class: iPhone
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: has_telephony: true
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: should_hactivate: false
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: is_fpga: false
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: is_devfused_undemoted: false
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: is_prodfused_demoted: false
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: soc_generation: H10
+Fri Jan 14 19:08:41 2022 [150] <debug> (0x16b0bf000) MA: main: ____________________________________________________________________
+Fri Jan 14 19:08:42 2022 [150] <debug> (0x16b14b000) MA: dealwith_activation: Activation State: Activated
+Fri Jan 14 19:08:47 2022 [150] <notice> (0x16b637000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Fri Jan 14 19:08:47 2022 [150] <notice> (0x16b6c3000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Fri Jan 14 19:08:47 2022 [150] <notice> (0x16b637000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Fri Jan 14 19:09:01 2022 [150] <notice> (0x16b1d7000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by locationd
+Fri Jan 14 21:57:34 2022 [150] <notice> (0x16b1d7000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by transparencyd
+Sat Jan 15 11:04:41 2022 [150] <notice> (0x16b0bf000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Sat Jan 15 11:04:41 2022 [150] <notice> (0x16b0bf000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Sat Jan 15 11:04:41 2022 [150] <notice> (0x16b1d7000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Fri Jan 21 15:22:00 2022 [150] <notice> (0x16b1d7000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by identityservicesd
+Fri Jan 21 15:26:13 2022 [150] <notice> (0x16b0bf000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by FindMyDeviceIdentityXPCService
+Fri Jan 21 16:33:17 2022 [150] <notice> (0x16b0bf000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by searchpartyd
+Fri Jan 21 16:35:12 2022 [150] <notice> (0x16b1d7000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by devicecheckd
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: ____________________ Mobile Activation Startup _____________________
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: build_version: 19A404
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: internal_build: false
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: uid: 501
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: user_name: mobile
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: hardware_model: D20AP
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: product_type: iPhone10,1
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: device_class: iPhone
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: has_telephony: true
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: should_hactivate: false
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: is_fpga: false
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: is_devfused_undemoted: false
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: is_prodfused_demoted: false
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: soc_generation: H10
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bccf000) MA: main: ____________________________________________________________________
+Fri Jan 21 16:54:34 2022 [1141] <debug> (0x16bd5b000) MA: dealwith_activation: Activation State: Activated
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: ____________________ Mobile Activation Startup _____________________
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: build_version: 19A404
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: internal_build: false
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: uid: 501
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: user_name: mobile
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: hardware_model: D20AP
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: product_type: iPhone10,1
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: device_class: iPhone
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: has_telephony: true
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: should_hactivate: false
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: is_fpga: false
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: is_devfused_undemoted: false
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: is_prodfused_demoted: false
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: soc_generation: H10
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d953000) MA: main: ____________________________________________________________________
+Fri Jan 21 17:11:27 2022 [1216] <debug> (0x16d9df000) MA: dealwith_activation: Activation State: Activated
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: ____________________ Mobile Activation Startup _____________________
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: build_version: 19A404
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: internal_build: false
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: uid: 501
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: user_name: mobile
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: hardware_model: D20AP
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: product_type: iPhone10,1
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: device_class: iPhone
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: has_telephony: true
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: should_hactivate: false
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: is_fpga: false
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: is_devfused_undemoted: false
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: is_prodfused_demoted: false
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: soc_generation: H10
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b847000) MA: main: ____________________________________________________________________
+Fri Jan 21 17:56:24 2022 [1420] <debug> (0x16b8d3000) MA: dealwith_activation: Activation State: Activated
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: ____________________ Mobile Activation Startup _____________________
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: build_version: 19A404
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: internal_build: false
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: uid: 501
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: user_name: mobile
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: hardware_model: D20AP
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: product_type: iPhone10,1
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: device_class: iPhone
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: has_telephony: true
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: should_hactivate: false
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: is_fpga: false
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: is_devfused_undemoted: false
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: is_prodfused_demoted: false
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: soc_generation: H10
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16af97000) MA: main: ____________________________________________________________________
+Thu Jan 27 16:07:20 2022 [148] <debug> (0x16b023000) MA: dealwith_activation: Activation State: Activated
+Thu Jan 27 16:07:23 2022 [148] <notice> (0x16af97000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Thu Jan 27 16:07:23 2022 [148] <notice> (0x16af97000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Thu Jan 27 16:07:23 2022 [148] <notice> (0x16b2df000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: ____________________ Mobile Activation Startup _____________________
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: build_version: 19A404
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: internal_build: false
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: uid: 501
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: user_name: mobile
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: hardware_model: D20AP
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: product_type: iPhone10,1
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: device_class: iPhone
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: has_telephony: true
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: should_hactivate: false
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: is_fpga: false
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: is_devfused_undemoted: false
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: is_prodfused_demoted: false
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: soc_generation: H10
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: main: ____________________________________________________________________
+Thu Feb  3 12:05:13 2022 [146] <debug> (0x16d1d7000) MA: dealwith_activation: Activation State: Activated
+Thu Feb  3 12:05:13 2022 [146] <notice> (0x16d1d7000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Thu Feb  3 12:05:13 2022 [146] <notice> (0x16d1d7000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Thu Feb  3 12:05:13 2022 [146] <notice> (0x16d1d7000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb  7 06:40:00 2022 [146] <notice> (0x16d2ef000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by networkserviceproxy
+Mon Feb  7 06:40:01 2022 [146] <notice> (0x16d2ef000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by networkserviceproxy
+Wed Feb  9 09:01:46 2022 [146] <notice> (0x16d2ef000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by networkserviceproxy
+Wed Feb  9 09:01:47 2022 [146] <notice> (0x16d263000) MA: -[MobileActivationDaemon issueClientCertificateWithReferenceKey:options:completion:]: Client certification requested by networkserviceproxy
+Mon Feb 14 09:41:44 2022 [145] <debug> (0x16f12f000) MA: main: ____________________ Mobile Activation Startup _____________________
+Mon Feb 14 09:41:44 2022 [145] <debug> (0x16f12f000) MA: main: build_version: 19A404
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: internal_build: false
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: uid: 501
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: user_name: mobile
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: hardware_model: D20AP
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: product_type: iPhone10,1
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: device_class: iPhone
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: has_telephony: true
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: should_hactivate: false
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: is_fpga: false
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: is_devfused_undemoted: false
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: is_prodfused_demoted: false
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: soc_generation: H10
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: main: ____________________________________________________________________
+Mon Feb 14 09:41:45 2022 [145] <debug> (0x16f12f000) MA: dealwith_activation: Activation State: Activated
+Mon Feb 14 09:41:47 2022 [145] <notice> (0x16f12f000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 09:41:47 2022 [145] <notice> (0x16f2d3000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 09:41:47 2022 [145] <notice> (0x16f733000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 12:58:45 2022 [143] <debug> (0x16f883000) MA: main: ____________________ Mobile Activation Startup _____________________
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: build_version: 19A404
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: internal_build: false
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: uid: 501
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: user_name: mobile
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: hardware_model: D20AP
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: product_type: iPhone10,1
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: device_class: iPhone
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: has_telephony: true
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: should_hactivate: false
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: is_fpga: false
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: is_devfused_undemoted: false
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: is_prodfused_demoted: false
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: soc_generation: H10
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: main: ____________________________________________________________________
+Mon Feb 14 12:58:46 2022 [143] <debug> (0x16f883000) MA: dealwith_activation: Activation State: Activated
+Mon Feb 14 12:58:47 2022 [143] <notice> (0x16f99b000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 12:58:47 2022 [143] <notice> (0x16fab3000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 12:58:47 2022 [143] <notice> (0x16fa27000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: ____________________ Mobile Activation Startup _____________________
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: build_version: 19A404
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: internal_build: false
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: uid: 501
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: user_name: mobile
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: hardware_model: D20AP
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: product_type: iPhone10,1
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: device_class: iPhone
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: has_telephony: true
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: should_hactivate: false
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: is_fpga: false
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: is_devfused_undemoted: false
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: is_prodfused_demoted: false
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: soc_generation: H10
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f773000) MA: main: ____________________________________________________________________
+Mon Feb 14 13:03:23 2022 [141] <debug> (0x16f7ff000) MA: dealwith_activation: Activation State: Activated
+Mon Feb 14 13:03:26 2022 [141] <notice> (0x16f917000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:03:26 2022 [141] <notice> (0x16f7ff000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:03:26 2022 [141] <notice> (0x16f7ff000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: ____________________ Mobile Activation Startup _____________________
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: build_version: 19A404
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: internal_build: false
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: uid: 501
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: user_name: mobile
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: hardware_model: D20AP
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: product_type: iPhone10,1
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: device_class: iPhone
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: has_telephony: true
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: should_hactivate: false
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: is_fpga: false
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: is_devfused_undemoted: false
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: is_prodfused_demoted: false
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: soc_generation: H10
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16fe77000) MA: main: ____________________________________________________________________
+Mon Feb 14 13:08:24 2022 [143] <debug> (0x16ff03000) MA: dealwith_activation: Activation State: Activated
+Mon Feb 14 13:08:27 2022 [143] <notice> (0x16ff03000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:08:27 2022 [143] <notice> (0x16ff03000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:08:27 2022 [143] <notice> (0x170133000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: ____________________ Mobile Activation Startup _____________________
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: build_version: 19A404
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: internal_build: false
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: uid: 501
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: user_name: mobile
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: hardware_model: D20AP
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: product_type: iPhone10,1
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: device_class: iPhone
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: has_telephony: true
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: should_hactivate: false
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: is_fpga: false
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: is_devfused_undemoted: false
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: is_prodfused_demoted: false
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: soc_generation: H10
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc03000) MA: main: ____________________________________________________________________
+Mon Feb 14 13:16:33 2022 [141] <debug> (0x16bc8f000) MA: dealwith_activation: Activation State: Activated
+Mon Feb 14 13:16:37 2022 [141] <notice> (0x16bda7000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:16:37 2022 [141] <notice> (0x16be33000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:16:37 2022 [141] <notice> (0x16bda7000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:18:33 2022 [142] <debug> (0x16fc5f000) MA: main: ____________________ Mobile Activation Startup _____________________
+Mon Feb 14 13:18:34 2022 [142] <debug> (0x16fc5f000) MA: main: build_version: 19A404
+Mon Feb 14 13:18:34 2022 [142] <debug> (0x16fc5f000) MA: main: internal_build: false
+Mon Feb 14 13:18:34 2022 [142] <debug> (0x16fc5f000) MA: main: uid: 501
+Mon Feb 14 13:18:34 2022 [142] <debug> (0x16fc5f000) MA: main: user_name: mobile
+Mon Feb 14 13:18:34 2022 [142] <debug> (0x16fc5f000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Mon Feb 14 13:18:34 2022 [142] <debug> (0x16fc5f000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: hardware_model: D20AP
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: product_type: iPhone10,1
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: device_class: iPhone
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: has_telephony: true
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: should_hactivate: false
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: is_fpga: false
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: is_devfused_undemoted: false
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: is_prodfused_demoted: false
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: soc_generation: H10
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: main: ____________________________________________________________________
+Mon Feb 14 13:18:35 2022 [142] <debug> (0x16fc5f000) MA: dealwith_activation: Activation State: Activated
+Mon Feb 14 13:18:35 2022 [142] <notice> (0x16fc5f000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:18:35 2022 [142] <notice> (0x16fe8f000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:18:35 2022 [142] <notice> (0x16fe8f000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: ____________________ Mobile Activation Startup _____________________
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: build_version: 19A404
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: internal_build: false
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: uid: 501
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: user_name: mobile
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: system_container_path: /private/var/containers/Data/System/EDA0E1E2-00AD-4F3D-ABD1-688A27515DDA
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: regulatory_images_path: /private/var/containers/Shared/SystemGroup/32D747E3-4F34-4471-AA5B-6E22A9E054BF
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: hardware_model: D20AP
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: product_type: iPhone10,1
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: device_class: iPhone
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: has_telephony: true
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: should_hactivate: false
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: is_fpga: false
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: is_devfused_undemoted: false
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: is_prodfused_demoted: false
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: soc_generation: H10
+Mon Feb 14 13:25:49 2022 [130] <debug> (0x16dd97000) MA: main: ____________________________________________________________________
+Mon Feb 14 13:25:50 2022 [130] <debug> (0x16dd97000) MA: dealwith_activation: Activation State: Activated
+Mon Feb 14 13:25:53 2022 [130] <notice> (0x16dfc7000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:25:53 2022 [130] <notice> (0x16e16b000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter
+Mon Feb 14 13:25:53 2022 [130] <notice> (0x16e283000) MA: -[MobileActivationDaemon unbrickDeviceWithCompletionBlock:]: Unbrick requested by CommCenter

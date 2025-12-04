@@ -1,0 +1,298 @@
+	7'k
+	7'ke6D8~]
+
+h	
+	-
+
+p	$
+
+P
+HD
+@
+8
+0
+(;
+ 
+
+2)
+
+| 
+xph`XPH@7.
+
+
+
+5qh_VM
+
+
+
+
+
+
+
+
+
+
+
+
+{
+r
+i
+a
+X
+P
+>
+,
+G
+6
+-	6
+
+j										x	o	f	S
+	?	]	I	
+	7'k\V
+zmK>#
+
+
+
+
+
+
+
+
+
+@
+							3			y	l
+xqjc\UN
+sf7)
+
+
+
+
+
+
+
+									
+	r	e
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+x
+r
+l
+f
+`
+Z
+T
+N
+H
+B
+<
+5
+.
+'
+ 
+
+
+G@_Q0
+
+
+
+~
+i
+[
+T
+F
+2
++
+
+		^	W	B	;	-	&	
+
+$9+	I	4
+X
+
+
+
+w
+p
+b
+M
+9	P	
+D
+
+
+
+
+~DF]
+
+;			
+
+^
+
+
+
+E
+
+
+
+>
+
+
+
+
+
+
+
+7
+0
+{
+u	
+o
+i
+
+
+c
+]
+W
+Q
+
+
+K)
+E
+
+?
+9
+3
+-
+'
+!
+
+"	
+}v
+o	haZSL
+-zs	le
+WPIB;4	-&	
+
+
+
+
+
+
+
+
+
+
+
+%
+
+
+
+
+
+|
+t
+l
+d
+\
+T
+L
+D
+<
+4		
+Q	~	v
+1	g	_
+	W	O
+)	G	?
+!	7	/
+a	'	
+$	7'k
+t,z:Z
+
+bplist00
+%sceneID:com.apple.mobilephone-default
+sceneSessionRole_
+persistenceIdentifier[canvasTitle^defaultPNGName_
+#UIWindowSceneSessionRoleApplication_
+$C0EDD31A-60E5-4215-9835-ACA1F812AE79PWDefault
+3<Ogs
+%	bplist00O
+Vbplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+!/0123456>?@AGHILPQTU$null
+
+WNS.keysZNS.objectsV$class
+Wversion_
+applicationShortcutItemsYlanguages
+"(.#$%&'
+	
+)*+,-
+
+Xbs_class^activationModeTiconUtitleTtype_
+SBSApplicationShortcutItem
+7:.#9
+templateIconName_
+"SBSApplicationShortcutTemplateIcon_
+VoicemailShortcutIconBCDEZ$classnameX$classes\NSDictionaryDFXNSObject_
+View Most Recent Voicemail_
+com.apple.mobilephone.voicemailBCJKWNSArrayJF
+Uen-USBCRS^NSMutableArrayRJFBCUV_
+NSMutableDictionaryUDF
+	bplist00O
+"0123456>?@AGHIWXYabcdefimnqU$null
+
+"Wversion_
+#)/$%&'(
+	
+*
+,-.
+
+SBSApplicationShortcutItem
+
+7:/$9
+quickaction_addfriendsBCDEZ$classnameX$classes\NSDictionaryDFXNSObject[Add Friends_
+*com.snapchat.quick_action_type.add_friends
+
+JP/$L&'(
+
+Q
+^activationMode_
+Z]/$\
+quickaction_chat\Chat With..._
+(com.snapchat.quick_action_type.chat_withBCghWNSArraygF
+jlk !Uen-USBCop^NSMutableArrayogFBCrs_
+NSMutableDictionaryrDF
+*sceneID:ru.appscraft.CollectorGame-default
+persistenceIdentifier_
+$08E11FF2-30B3-49D9-B3BE-E4EB4937EE9C
+8;S
+	7&!
+.2G
+
+D
+
+
+
+8^
+	
+$	7&!

@@ -1,0 +1,1732 @@
+n537c
+S#SQLite format 3
+:u6
+
+AMDWorkflowInFlight
+AMDWorkflow
+AMDTasteProfile
+
+AMDModel
+AMDHistory
+AMDDescriptor
+AMDColdstartURL
+AMDAppTabInfo
+AMDAppStoreEvent
+AMDAppSegment
+	AMDAppEvent
+!)LL
+
+6.0.21122617768365815
+AMDTasteProfile
+I4=
+
+DAPPS_RATINGS_RANKdevice{"422689480":100}5
+DAPPS_IS_ARCADEdevice{"422689480":false}
+DAPPS_HAS_ARCADEdevice05
+DAPPS_PURCHASEDdevice{"422689480":false}0
+DAPPS_GENREdevice{"422689480":6007}3
+DAPPS_PURCHASED_ALLdevice["422689480"]
+APPS_HAS_ARCADE
+APPS_PURCHASED
+APPS_RATINGS_RANK
+APPS_PURCHASED_ALL
+APPS_IS_ARCADE
+	!	APPS_GENRE
+AMDTasteProfile	
+DOD_STOREFRONT_IDdevice{"143441":1}(
+DOD_DSIDdevice"17768365815"
+DOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}6
+OD_STOREFRONT_ID	 
+OD_STOREFRONT_ID_NORMALIZED
+OD_DSID
+AMDAppEvent
+NOfp
+
+#:M:
+109.0177683658155
+>(_
+
+*
+
+
+
+
+
+DOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+DAPPS_HAS_ARCADEdevice0
++tH
+
+v|o
+
+
+APPS_PURCHASED_ALLdevice["422689480","985746746"]
+APPS_HAS_ARCADEdevice06
+APPS_GENREdevice{"422689480":6007,"985746746":6005}G
+	
+APPS_IS_ARCADEdevice{"422689480":false,"985746746":false}G	
+APPS_PURCHASEDdevice{"422689480":false,"985746746":false}
+APPS_RATINGS_RANKdevice{"422689480":100,"985746746":600}
+APPS_GENRE
+APPS_RATINGS_RANK
+
+APPS_IS_ARCADE
+
+APPS_PURCHASED
+S(``
+
+cGl@E
+
+
+APPS_PURCHASED_ALLdevice["422689480","985746746"]
+
+OD_DSIDdevice"17768365815"
+OD_STOREFRONT_IDdevice{"143441":1}
+APPS_HAS_ARCADEdevice0
+OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}A
+11.62.0177683658150
+OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+
+ME
+
+APPS_RATINGS_RANKdevice{"422689480":100,"447188370":300,"985746746":600}L
+APPS_PURCHASED_ALLdevice["447188370","985746746","422689480"])
+APPS_IS_ARCADEdevice{"422689480":false,"447188370":false,"985746746":false}R
+APPS_GENREdevice{"422689480":6007,"447188370":6008,"985746746":6005}Y
+APPS_PURCHASEDdevice{"422689480":false,"447188370":false,"985746746":false}
+TfC}
+nDt
+
+
+xc[ 
+
+#7ui
+~~a]5.247.0177683658152
+AMDTasteProfile!
+
+8v u
+
+'
+,
+d_
+APPS_IS_ARCADEdevice{"422689480":false,"447188370":false,"930441707":false,"985746746":false}X
+APPS_PURCHASED_ALLdevice["422689480","985746746","930441707","447188370"]
+
+APPS_RATINGS_RANKdevice{"422689480":100,"447188370":300,"930441707":600,"985746746":600})
+APPS_PURCHASEDdevice{"422689480":false,"447188370":false,"930441707":false,"985746746":false}d
+APPS_GENREdevice{"422689480":6007,"447188370":6008,"930441707":6012,"985746746":6005}
+wux
+
+u2CE)
+
+AMDTasteProfile$
+*
+Z
+
+'
+uaSQLite format 3
+8.97177683658152
+41Z^
+
+'
+AMDTasteProfile*
+xW
+[
+!td
+]APPS_GENREdevice{"333903271":6009,"422689480":6007,"447188370":6008,"930441707":6012,"985746746":6005}~%
+
+]APPS_PURCHASEDdevice{"333903271":false,"422689480":false,"447188370":false,"930441707":false,"985746746":false}
+[
+]APPS_IS_ARCADEdevice{"333903271":false,"422689480":false,"447188370":false,"930441707":false,"985746746":false}e
+]APPS_PURCHASED_ALLdevice["333903271","422689480","985746746","930441707","447188370"]
+
+]APPS_HAS_ARCADEdevice0
+]APPS_RATINGS_RANKdevice{"333903271":600,"422689480":100,"447188370":300,"930441707":600,"985746746":600}
+APPS_GENRE(
+APPS_IS_ARCADE'
+APPS_RATINGS_RANK)
+APPS_PURCHASED%
+AMDTasteProfile-
+
++.mN
+[
+]OD_DSIDdevice"17768365815"
+]OD_STOREFRONT_IDdevice{"143441":1}
+]OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+~~c2022.02.017768365815/
+"D{
+
+AMDTasteProfile3
+U{3;
+!;[
+APPS_IS_ARCADEdevice{"333903271":false,"422689480":false,"447188370":false,"930441707":false,"985746746":false,"1064216828":false}
+
+APPS_PURCHASEDdevice{"333903271":false,"422689480":false,"447188370":false,"930441707":false,"985746746":false,"1064216828":false}
+APPS_GENREdevice{"333903271":6009,"422689480":6007,"447188370":6008,"930441707":6012,"985746746":6005,"1064216828":6009}r
+APPS_PURCHASED_ALLdevice["333903271","1064216828","422689480","985746746","930441707","447188370"])
+APPS_RATINGS_RANKdevice{"333903271":600,"422689480":100,"447188370":300,"930441707":600,"985746746":600,"1064216828":600}
+APPS_GENRE/
+APPS_PURCHASED.
+APPS_RATINGS_RANK3
+APPS_IS_ARCADE2
+AMDTasteProfile6
+]/
+
+~~dS5.26.10177683658154
+_[t<
+
+
+AMDTasteProfile<
+/a
+
+>
+APPS_PURCHASEDdevice{"333903271":false,"422689480":false,"447188370":false,"874139669":false,"930441707":false,"985746746":false,"1064216828":false}~
+APPS_PURCHASED_ALLdevice["422689480","447188370","333903271","874139669","1064216828","985746746","930441707"]
+
+APPS_RATINGS_RANKdevice{"333903271":600,"422689480":100,"447188370":300,"874139669":300,"930441707":600,"985746746":600,"1064216828":600}
+APPS_GENREdevice{"333903271":6009,"422689480":6007,"447188370":6008,"874139669":6005,"930441707":6012,"985746746":6005,"1064216828":6009})
+APPS_IS_ARCADEdevice{"333903271":false,"422689480":false,"447188370":false,"874139669":false,"930441707":false,"985746746":false,"1064216828":false}
+APPS_GENRE<
+APPS_RATINGS_RANK8
+APPS_IS_ARCADE:
+APPS_PURCHASED7
+[%i@
+
+AMDTasteProfile?
+%]X
+!r5
+
+hq%Z4e
+
+3.94177683658152
+{A<
+>
+!
+2
+2
+2
+2
+AMDTasteProfileE
+)UF
+
+!
+q
+
+	a!APPS_RATINGS_RANKdevice{"333903271":600,"422689480":100,"447188370":300,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600}
+ 	a!APPS_GENREdevice{"333903271":6009,"422689480":6007,"447188370":6008,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009}
+
+a!APPS_PURCHASED_ALLdevice["422689480","447188370","333903271","930944768","930441707","1064216828","985746746","874139669"]
+
+0	a!APPS_IS_ARCADEdevice{"333903271":false,"422689480":false,"447188370":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false})
+a!APPS_HAS_ARCADEdevice0
+0	a!APPS_PURCHASEDdevice{"333903271":false,"422689480":false,"447188370":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false}
+QWXi+
+
+APPS_PURCHASEDD
+APPS_GENREE
+APPS_IS_ARCADEC
+APPS_RATINGS_RANKA
+AMDTasteProfileH
+sRR
+
+a!OD_DSIDdevice"17768365815"
+a!OD_STOREFRONT_IDdevice{"143441":1}
+a!OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+AMDAppEvent	
+
+~~}~8.0.1717768365815/
+Jn@9
+
+!PPPP
+[$_U<
+
+AMDTasteProfileN
+0	a"GAPPS_RATINGS_RANKdevice{"333903271":600,"414478124":600,"422689480":100,"447188370":300,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600}
+#
+T	a"GAPPS_IS_ARCADEdevice{"333903271":false,"414478124":false,"422689480":false,"447188370":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false}:K
+
+B	a"GAPPS_GENREdevice{"333903271":6009,"414478124":6005,"422689480":6007,"447188370":6008,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009}
+h		a"GAPPS_PURCHASED_ALLdevice["422689480","447188370","333903271","930944768","930441707","414478124","1064216828","985746746","874139669"]
+
+		a"GAPPS_HAS_ARCADEdevice0
+T	a"GAPPS_PURCHASEDdevice{"333903271":false,"414478124":false,"422689480":false,"447188370":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false}
+L y
+
+APPS_GENREK
+APPS_IS_ARCADEM
+APPS_PURCHASEDJ
+APPS_RATINGS_RANKI
+c.Q
+
+AMDTasteProfileQ
+&		a"GOD_DSIDdevice"17768365815"
+$		a"GOD_STOREFRONT_IDdevice{"143441":1}
+		a"GOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+AMDAppEvent
+
+
+#Iw
+
+~~~E14.3.1177683658151	
+Dyy
+
+#
+
+wV3
+
+AMDTasteProfileW
+$Z
+
+x	a"zAPPS_PURCHASEDdevice{"333903271":false,"405075943":false,"414478124":false,"422689480":false,"447188370":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false}HV
+
+P	a"zAPPS_RATINGS_RANKdevice{"333903271":600,"405075943":200,"414478124":600,"422689480":100,"447188370":300,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600}KU
+
+d	a"zAPPS_GENREdevice{"333903271":6009,"405075943":6013,"414478124":6005,"422689480":6007,"447188370":6008,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009}"
+	
+a"zAPPS_PURCHASED_ALLdevice["422689480","405075943","333903271","930944768","447188370","930441707","414478124","1064216828","985746746","874139669"])
+	
+a"zAPPS_HAS_ARCADEdevice0
+x	a"zAPPS_IS_ARCADEdevice{"333903271":false,"405075943":false,"414478124":false,"422689480":false,"447188370":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false}
+PY`^
+
+APPS_GENREU
+APPS_PURCHASEDW
+APPS_RATINGS_RANKV
+APPS_IS_ARCADET
+AMDTasteProfileZ
+&	
+a"zOD_DSIDdevice"17768365815"
+$	
+a"zOD_STOREFRONT_IDdevice{"143441":1}
+	
+a"zOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+TVRS
+
+AMDAppEvent
+
+_}a
+
+16.9177683658151
+
+!
+
+
+
+
+AMDTasteProfile`
+b8q46
+
+	a"APPS_PURCHASED_ALLdevice["422689480","405075943","333903271","930944768","705203926","447188370","930441707","414478124","1064216828","985746746","874139669"]
+
+	a"APPS_IS_ARCADEdevice{"333903271":false,"405075943":false,"414478124":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false}k_
+
+	a"APPS_PURCHASEDdevice{"333903271":false,"405075943":false,"414478124":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false}\^
+
+	a"APPS_GENREdevice{"333903271":6009,"405075943":6013,"414478124":6005,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009})
+	a"APPS_HAS_ARCADEdevice0
+p	a"APPS_RATINGS_RANKdevice{"333903271":600,"405075943":200,"414478124":600,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600}
+APPS_GENRE^
+APPS_IS_ARCADE`
+APPS_PURCHASED_
+APPS_RATINGS_RANK]
+ayFC
+
+AMDTasteProfilec
+f00uZT
+
+&	a"OD_DSIDdevice"17768365815"
+$	a"OD_STOREFRONT_IDdevice{"143441":1}
+	a"OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+AMDAppEvent
+
+0
+
+
+
+3.0.2317768365815/
+WW":X
+
+N(FT
+
+AMDTasteProfilei
+<Xn
+
+B	a#
+APPS_PURCHASEDdevice{"333903271":false,"405075943":false,"414478124":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false};
+2	a#
+APPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","414478124","985746746","422689480","930441707","930944768","1064216828","1514542157"]
+
+APPS_RATINGS_RANKdevice{"333903271":600,"405075943":200,"414478124":600,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300}~h
+
+APPS_IS_ARCADEdevice{"333903271":false,"405075943":false,"414478124":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false})
+	a#
+*	a#
+APPS_GENREdevice{"333903271":6009,"405075943":6013,"414478124":6005,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014}
+:P=U
+
+APPS_RATINGS_RANKi
+APPS_GENREg
+APPS_IS_ARCADEh
+APPS_PURCHASEDd
+LLV
+
+AMDTasteProfilel
+]D9r
+
+&	a#
+$	a#
+FqU
+
+0
+
+
+
+f
+~~6s3.9.29177683658151
+!
+AMDTasteProfiler
+!/h+
+	I
+L	a#APPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"414478124":6005,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014}
+f	a#APPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"414478124":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}G
+J	
+a#APPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","414478124","985746746","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+
+2	a#APPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"414478124":600,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300})
+	
+a#APPS_HAS_ARCADEdevice0
+f	a#APPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"414478124":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}
+APPS_GENREq
+APPS_IS_ARCADEp
+APPS_PURCHASEDo
+APPS_RATINGS_RANKm
+AMDTasteProfileu
+Z^E$X
+&	
+a#OD_DSIDdevice"17768365815"
+$	
+a#OD_STOREFRONT_IDdevice{"143441":1}
+	
+a#OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+0
+
+
+
+f
+0
+11.62.0177683658151
+
+F+n3O
+
+0
+
+
+
+f
+0
+8.97177683658154
+0
+
+
+
+f
+0
+8.97177683658151
+0
+
+
+
+f
+0
+8.97177683658150
+0
+
+
+
+f
+0`
+2022.02.0177683658151
+0
+
+
+
+f
+0`(
+6.0.211226177683658156
+sT".%
+
+0
+
+
+
+f
+0`(
+#:M:m
+109.0177683658156
+B85%8
+
+0
+
+
+
+f
+0`(
+~~
+p
+109.0177683658151
+ Ygp
+
+9@NE
+0
+
+
+
+f
+0`(
+~~18
+109.0177683658152
+LQ&
+
+bj7
+
+0
+
+
+
+f
+0`(Y
+#7ui
+5.247.0177683658151
++?H)T
+
+0
+
+
+
+f
+0`(Y#
+5.247.0177683658153
+AMDTasteProfilex
+T"Xv_)
+	I
+a-cOD_DSIDdevice"17768365815"
+a-cOD_STOREFRONT_IDdevice{"143441":1}
+a-cOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+0
+
+
+
+f
+0`(Y#
+
+8.0.17177683658154
+/Y2D
+
+AMDTasteProfile~
+!
+I	T
+*	a/APPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014}
+	a/APPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300};
+a/APPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+
+B	a/APPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false})
+a/APPS_HAS_ARCADEdevice0
+B	a/APPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}
+APPS_GENREz
+APPS_RATINGS_RANKy
+APPS_IS_ARCADE~
+APPS_PURCHASED}
+2)BQiC
+
+;oew/
+E
+a/OD_DSIDdevice"17768365815"
+a/OD_STOREFRONT_IDdevice{"143441":1}
+a/OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+oD;SQLite format 3
+#*O
+
+0
+
+
+
+f
+0`(Y#
+
+
+~~Q 
+16.9177683658151
+0
+
+
+
+f
+0`(Y#
+
+
+
+3.9.29177683658150
+DI"
+
+0
+
+
+
+f
+0`(Y#
+
+
+
+V
+3.9.29177683658152
+0
+
+
+
+f
+0`(Y#
+
+
+
+V
+!
+`VJr
+
+;$&[
+
+0
+
+
+
+f
+0`(Y#
+
+
+
+V
+!	
+~~)8
+3.9.29177683658153
+0
+
+
+
+f
+0`(Y#
+
+
+
+V
+!		
+14.3.1177683658152
+AMDAppEvent 
+
+0
+
+
+
+f
+0`(Y#
+
+
+
+V
+!			
+AMDAppEvent!
+
+XmDR
+
+0
+
+
+
+f
+0`(Y#
+
+
+
+V
+!				Q
+3.0.23177683658152 
+AMDAppEvent"
+
+-4/|
+
+0
+
+
+
+f
+0`(Y#
+
+
+
+V
+!				Q	
+3.94177683658152!
+i#B^
+
+AMDAppEvent#
+
+3.94177683658150"
+AMDAppEvent$
+
+,0
+
+5.26.10177683658150#
+AMDAppEvent%
+
+:)IE
+
+#7uiH
+5.247.0177683658153$
+
+O:0
+AMDAppEvent&
+
+8.0.17177683658153%
+AMDAppEvent'
+
+w$Y%
+
+~~
+x
+8.0.17177683658152&
+AMDAppEvent(
+
+8.0.17177683658152'
+)&fRa
+E
+a;OD_DSIDdevice"17768365815"
+a;OD_STOREFRONT_IDdevice{"143441":1}
+a;OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+/8
+
+topAppsByRecency{"group_by_descriptors":["adamId"],"num_records":128,"predicates":["type==3"],"properties_to_fetch":[{"property_name":"adamId"},{"aggregated_data_type":"int64","aggregator_function":"max:","aggregator_keys":["time"],"property_name":"most_recent"}],"sort_descriptors":[{"sort_order":0}],"source_entity":"AMDAppEvent"}
+		1,
+topAppsByFrequency{"group_by_descriptors":["adamId"],"num_records":128,"predicates":["type==3"],"properties_to_fetch":[{"property_name":"adamId"},{"aggregated_data_type":"int32","aggregator_function":"count:","aggregator_keys":["foregroundDuration"],"property_name":"frequently_used"}],"sort_descriptors":[{"sort_order":0}],"source_entity":"AMDAppEvent"}_
+topAppsByUsage{"group_by_descriptors":["adamId"],"num_records":128,"predicates":["type==3"],"properties_to_fetch":[{"property_name":"adamId"},{"aggregated_data_type":"int32","aggregator_function":"sum:","aggregator_keys":["foregroundDuration"],"property_name":"most_used"}],"sort_descriptors":[{"sort_order":0}],"source_entity":"AMDAppEvent"}
+	1	topAppsByFrequency
+topAppsByUsage
+topAppsByRecency
+	AMDWorkflow
+7%{
+
+U313*
+8DA08030-D7F8-4C04-A03C-02D3D5690F3C__segmentAggregator__defaultTreatment__segmentAggregator{"excluded_storefront_ids":[],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"model_id":"__segmentAggregator","rule_params":{"duration_threshold":5,"lookback_days":60},"use_case_id":"__segmentAggregator","workflow_id":3,"workflow_type":"Rules"}
+	13	__defaultTreatment__segmentAggregator
+&Eg7
+
+	AMDWorkflowInFlight
+aE8DA08030-D7F8-4C04-A03C-02D3D5690F3Cod_hybrid_arcade2__defaultTreatmentarcadeGFY{"excluded_storefront_ids":[143465],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"input_definitions":{"activity":[{"feature_id":"topAppsByUsage","map_op":"keys_order_desc_by_value","remap_dictionary_id":"content_id_to_logical_id","size":127},{"feature_id":"OD_STOREFRONT_ID_NORMALIZED","map_op":"keys_order_desc_by_value","size":1}],"hyperparameters":[{"feature_id":"alpha","size":1,"value":[0.5]}],"weights":[{"feature_id":"topAppsByUsage","map_op":"values_order_desc_by_value","size":127}]},"max_items_to_display":24,"model_format":"CoreML","model_id":"od_hybrid_arcade2","output_definitions":{"results":{"bitmask_ids":["storefront_availability_bitmask"],"mode":"top_n","model_output_name":"Identity","model_top_n":64,"modifiers":[{"feature_ids":["PURCHASED_ITEM_AFFINITY"],"js_method_name":"exclude_purchases_filter"},{"feature_ids":["HISTORY"],"js_method_name":"history_based_demotion"}],"ranker":{"js_method_name":"score_based_ranker"},"remap_dictionary_id":"label_index_to_content_id","score_threshold_as_multiple_of_random_score":1}},"resources":[{"coldstart_model_id":"arcade_cold_start"}],"tab_ids":["arcade"],"use_case_id":"arcadeGFY","workflow_id":4,"workflow_type":"MLModel"}
+	__defaultTreatmentarcadeGFY
+^	/7H]
+
+]B?Z
+E
+>d
+a/APPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+	aEstorefront_idserver-1(
+&	aEuser_idserver"17768365815"
+
+storefront_id
+user_id
+!>ddddd
+r%9;
+!>d
+B	aEAPPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}
+B	aEAPPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false};
+aEAPPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+*	aEAPPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014})
+aEAPPS_HAS_ARCADEdevice0
+	aEAPPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300}
+6	aEtopAppsByRecencydevice{"329218549":1642803571000,"333903271":1642802025000,"405075943":1642803092000,"414478124":1642802914000,"422689480":1642800342000,"447188370":1642800790000,"705203926":1642803188000,"874139669":1642802545000,"930441707":1642802611000,"930944768":1642802783000,"985746746":1642800755000,"1064216828":1642802221000,"1514542157":1642803607000}	M
+~	aEtopAppsByFrequencydevice{"329218549":4,"333903271":3,"405075943":2,"414478124":3,"422689480":1,"447188370":1,"705203926":1,"874139669":1,"930441707":3,"930944768":2,"985746746":3,"1064216828":1,"1514542157":1}p
+
+&	aEtopAppsByUsagedevice{"329218549":332,"333903271":797,"405075943":73,"414478124":237,"422689480":97,"447188370":205,"705203926":80,"874139669":61,"930441707":410,"930944768":140,"985746746":279,"1064216828":295,"1514542157":9}~
+
+aEOD_DSIDdevice"17768365815"
+aEOD_STOREFRONT_IDdevice{"143441":1}
+aEOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+FT!P
+topAppsByFrequency
+U-$
+
+AMDAppSegment
+
+-QO
+
+undefined1__defaultTreatment)
+undefined1__defaultTreatment
+undefined1__defaultTreatment)
+
+o,undefined1__defaultTreatment)
+1undefined1__defaultTreatment)
+
+Mundefined1__defaultTreatment)
+$undefined1__defaultTreatment)	
+yundefined1__defaultTreatment)
+:M:undefined1__defaultTreatment)
+7uiundefined1__defaultTreatment)
+?nundefined1__defaultTreatment
+/6DD&
+
+y1	
+
+7ui1
+:M:1
+LS4Y
+
+CQ7
+
+~g?
+
+U313*
+
+6C938E72-B8BA-48D6-8A89-173A4D39E11E__segmentAggregator__defaultTreatment__segmentAggregator{"excluded_storefront_ids":[],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"model_id":"__segmentAggregator","rule_params":{"duration_threshold":5,"lookback_days":60},"use_case_id":"__segmentAggregator","workflow_id":3,"workflow_type":"Rules"}
+y^j
+
+aE6C938E72-B8BA-48D6-8A89-173A4D39E11Eod_hybrid_arcade2__defaultTreatmentarcadeGFY{"excluded_storefront_ids":[143465],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"input_definitions":{"activity":[{"feature_id":"topAppsByUsage","map_op":"keys_order_desc_by_value","remap_dictionary_id":"content_id_to_logical_id","size":127},{"feature_id":"OD_STOREFRONT_ID_NORMALIZED","map_op":"keys_order_desc_by_value","size":1}],"hyperparameters":[{"feature_id":"alpha","size":1,"value":[0.5]}],"weights":[{"feature_id":"topAppsByUsage","map_op":"values_order_desc_by_value","size":127}]},"max_items_to_display":24,"model_format":"CoreML","model_id":"od_hybrid_arcade2","output_definitions":{"results":{"bitmask_ids":["storefront_availability_bitmask"],"mode":"top_n","model_output_name":"Identity","model_top_n":64,"modifiers":[{"feature_ids":["PURCHASED_ITEM_AFFINITY"],"js_method_name":"exclude_purchases_filter"},{"feature_ids":["HISTORY"],"js_method_name":"history_based_demotion"}],"ranker":{"js_method_name":"score_based_ranker"},"remap_dictionary_id":"label_index_to_content_id","score_threshold_as_multiple_of_random_score":1}},"resources":[{"coldstart_model_id":"arcade_cold_start"}],"tab_ids":["arcade"],"use_case_id":"arcadeGFY","workflow_id":4,"workflow_type":"MLModel"}
+aEstorefront_idserver-1)
+aEuser_idserver"17768365815"`
+aEAPPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+
+6	aEtopAppsByRecencydevice{"329218549":1642803571000,"333903271":1642802025000,"405075943":1642803092000,"414478124":1642802914000,"422689480":1642800342000,"447188370":1642800790000,"705203926":1642803188000,"874139669":1642802545000,"930441707":1642802611000,"930944768":1642802783000,"985746746":1642800755000,"1064216828":1642802221000,"1514542157":1642803607000}
+&	aEtopAppsByUsagedevice{"329218549":332,"333903271":797,"405075943":73,"414478124":237,"422689480":97,"447188370":205,"705203926":80,"874139669":61,"930441707":410,"930944768":140,"985746746":279,"1064216828":295,"1514542157":9}
+rk<hB
+
+R'Kq
+
+|#SK
+
+	aEAPPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300}~
+B	aEAPPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}n
+*	aEAPPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014};
+B	aEAPPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}
+OH1A
+aEtopAppsByFrequencydevice{"329218549":4,"333903271":3,"405075943":2,"414478124":3,"422689480":1,"447188370":1,"705203926":1,"874139669":1,"930441707":3,"930944768":2,"985746746":3,"1064216828":1,"1514542157":1}$
+aEuser_idserver"17768365815"
+aEtopAppsByUsagedevice{"329218549":332,"333903271":797,"405075943":73,"414478124":237,"422689480":97,"447188370":205,"705203926":80,"874139669":61,"930441707":410,"930944768":140,"985746746":279,"1064216828":295,"1514542157":9}i
+aEtopAppsByRecencydevice{"329218549":1642803571000,"333903271":1642802025000,"405075943":1642803092000,"414478124":1642802914000,"422689480":1642800342000,"447188370":1642800790000,"705203926":1642803188000,"874139669":1642802545000,"930441707":1642802611000,"930944768":1642802783000,"985746746":1642800755000,"1064216828":1642802221000,"1514542157":1642803607000})
+S*P
+
+P^Ht
+
+1undefined1__defaultTreatment)
+yundefined1__defaultTreatment
+Mundefined1__defaultTreatment)
+$undefined1__defaultTreatment
+?nundefined1__defaultTreatment)
+o,undefined1__defaultTreatment
+xB"]
+^jx	SQLite format 3
+
+0
+0
+0
+AMDDescriptor	
+.`4
+
+topAppsByFrequency{"group_by_descriptors":["adamId"],"num_records":128,"predicates":["type==3"],"properties_to_fetch":[{"property_name":"adamId"},{"aggregated_data_type":"int32","aggregator_function":"count:","aggregator_keys":["foregroundDuration"],"property_name":"frequently_used"}],"sort_descriptors":[{"sort_order":0}],"source_entity":"AMDAppEvent"}_	
+topAppsByUsage	
+DEC
+
+.V]$
+87A0D87D-3F45-4160-8328-29313169A347__segmentAggregator__defaultTreatment__segmentAggregator{"excluded_storefront_ids":[],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"model_id":"__segmentAggregator","rule_params":{"duration_threshold":5,"lookback_days":60},"use_case_id":"__segmentAggregator","workflow_id":3,"workflow_type":"Rules"}
+}dt
+
+a87A0D87D-3F45-4160-8328-29313169A347od_hybrid_arcade2__defaultTreatmentarcadeGFY{"excluded_storefront_ids":[143465],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"input_definitions":{"activity":[{"feature_id":"topAppsByUsage","map_op":"keys_order_desc_by_value","remap_dictionary_id":"content_id_to_logical_id","size":127},{"feature_id":"OD_STOREFRONT_ID_NORMALIZED","map_op":"keys_order_desc_by_value","size":1}],"hyperparameters":[{"feature_id":"alpha","size":1,"value":[0.5]}],"weights":[{"feature_id":"topAppsByUsage","map_op":"values_order_desc_by_value","size":127}]},"max_items_to_display":24,"model_format":"CoreML","model_id":"od_hybrid_arcade2","output_definitions":{"results":{"bitmask_ids":["storefront_availability_bitmask"],"mode":"top_n","model_output_name":"Identity","model_top_n":64,"modifiers":[{"feature_ids":["PURCHASED_ITEM_AFFINITY"],"js_method_name":"exclude_purchases_filter"},{"feature_ids":["HISTORY"],"js_method_name":"history_based_demotion"}],"ranker":{"js_method_name":"score_based_ranker"},"remap_dictionary_id":"label_index_to_content_id","score_threshold_as_multiple_of_random_score":1}},"resources":[{"coldstart_model_id":"arcade_cold_start"}],"tab_ids":["arcade"],"use_case_id":"arcadeGFY","workflow_id":4,"workflow_type":"MLModel"}
+tgQ
+
+	M
+qm
+
+astorefront_idserver-1)
+auser_idserver"17768365815"
+@Z|
+
+;	A	A	A	A
+auser_idserver"17768365815"
+aEtopAppsByUsagedevice{"329218549":332,"333903271":797,"405075943":73,"414478124":237,"422689480":97,"447188370":205,"705203926":80,"874139669":61,"930441707":410,"930944768":140,"985746746":279,"1064216828":295,"1514542157":9}
+B	aAPPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}a
+B	aAPPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}n&
+
+*	aAPPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014};
+aAPPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+
+aAPPS_HAS_ARCADEdevice0
+	aAPPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300}
+:/`
+
+atopAppsByFrequencydevice{"329218549":4,"333903271":3,"405075943":2,"414478124":3,"422689480":1,"447188370":1,"705203926":1,"874139669":1,"930441707":3,"930944768":2,"985746746":3,"1064216828":1,"1514542157":1}$
+atopAppsByUsagedevice{"329218549":332,"333903271":797,"405075943":73,"414478124":237,"422689480":97,"447188370":205,"705203926":80,"874139669":61,"930441707":410,"930944768":140,"985746746":279,"1064216828":295,"1514542157":9}
+atopAppsByRecencydevice{"329218549":1642803571000,"333903271":1642802025000,"405075943":1642803092000,"414478124":1642802914000,"422689480":1642800342000,"447188370":1642800790000,"705203926":1642803188000,"874139669":1642802545000,"930441707":1642802611000,"930944768":1642802783000,"985746746":1642800755000,"1064216828":1642802221000,"1514542157":1642803607000})
+aOD_DSIDdevice"17768365815"
+aOD_STOREFRONT_IDdevice{"143441":1}
+aOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+AMDAppSegment'
+G|$_?z
+
+undefined1__defaultTreatment)&
+yundefined1__defaultTreatment)$
+:M:undefined1__defaultTreatment)"
+undefined1__defaultTreatment)'
+7uiundefined1__defaultTreatment)%
+Mundefined1__defaultTreatment)#
+1undefined1__defaultTreatment)!
+5pei
+
+:M:1$
+
+?n1 
+
+7ui1'
+
+11#
+
+/TQ+SQLite format 3
+>^uv
+AMDDescriptor
+Sp2
+
+topAppsByRecency{"group_by_descriptors":["adamId"],"num_records":128,"predicates":["type==3"],"properties_to_fetch":[{"property_name":"adamId"},{"aggregated_data_type":"int64","aggregator_function":"max:","aggregator_keys":["time"],"property_name":"most_recent"}],"sort_descriptors":[{"sort_order":0}],"source_entity":"AMDAppEvent"}k
+
+topAppsByFrequency{"group_by_descriptors":["adamId"],"num_records":128,"predicates":["type==3"],"properties_to_fetch":[{"property_name":"adamId"},{"aggregated_data_type":"int32","aggregator_function":"count:","aggregator_keys":["foregroundDuration"],"property_name":"frequently_used"}],"sort_descriptors":[{"sort_order":0}],"source_entity":"AMDAppEvent"}
+topAppsByRecency
+topAppsByFrequency
+
+topAppsByUsage
+vf	J
+
+5AD1FB46-C492-4680-8BD7-5169442E21FE__segmentAggregator__defaultTreatment__segmentAggregator{"excluded_storefront_ids":[],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"model_id":"__segmentAggregator","rule_params":{"duration_threshold":5,"lookback_days":60},"use_case_id":"__segmentAggregator","workflow_id":3,"workflow_type":"Rules"}
+a5AD1FB46-C492-4680-8BD7-5169442E21FEod_hybrid_arcade2__defaultTreatmentarcadeGFY{"excluded_storefront_ids":[143465],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"input_definitions":{"activity":[{"feature_id":"topAppsByUsage","map_op":"keys_order_desc_by_value","remap_dictionary_id":"content_id_to_logical_id","size":127},{"feature_id":"OD_STOREFRONT_ID_NORMALIZED","map_op":"keys_order_desc_by_value","size":1}],"hyperparameters":[{"feature_id":"alpha","size":1,"value":[0.5]}],"weights":[{"feature_id":"topAppsByUsage","map_op":"values_order_desc_by_value","size":127}]},"max_items_to_display":24,"model_format":"CoreML","model_id":"od_hybrid_arcade2","output_definitions":{"results":{"bitmask_ids":["storefront_availability_bitmask"],"mode":"top_n","model_output_name":"Identity","model_top_n":64,"modifiers":[{"feature_ids":["PURCHASED_ITEM_AFFINITY"],"js_method_name":"exclude_purchases_filter"},{"feature_ids":["HISTORY"],"js_method_name":"history_based_demotion"}],"ranker":{"js_method_name":"score_based_ranker"},"remap_dictionary_id":"label_index_to_content_id","score_threshold_as_multiple_of_random_score":1}},"resources":[{"coldstart_model_id":"arcade_cold_start"}],"tab_ids":["arcade"],"use_case_id":"arcadeGFY","workflow_id":4,"workflow_type":"MLModel"}
+Hv9
+
+7c"h
+R	aPURCHASED_ITEM_AFFINITYserver{"329218549":0.98807173999999998,"333903271":0.98807173999999998,"405075943":0.98807173999999998,"414478124":0.98807173999999998,"422689480":0.98807173999999998,"447188370":0.98807173999999998,"705203926":0.98807173999999998,"874139669":0.98807173999999998,"930441707":0.98807173999999998,"930944768":0.98807173999999998,"985746746":0.98807173999999998,"1064216828":0.98807173999999998,"1514542157":0.98807173999999998}~'
+
+::s7f
+
+PURCHASED_ITEM_AFFINITY
+R	aPURCHASED_ITEM_AFFINITYserver{"329218549":0.98807173999999998,"333903271":0.98807173999999998,"405075943":0.98807173999999998,"414478124":0.98807173999999998,"422689480":0.98807173999999998,"447188370":0.98807173999999998,"705203926":0.98807173999999998,"874139669":0.98807173999999998,"930441707":0.98807173999999998,"930944768":0.98807173999999998,"985746746":0.98807173999999998,"1064216828":0.98807173999999998,"1514542157":0.98807173999999998}
+l< #
+
+.~?d
+
+I	]
+_
+*	aAPPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014}a
+atopAppsByUsagedevice{"329218549":332,"333903271":797,"405075943":73,"414478124":237,"422689480":97,"447188370":205,"705203926":80,"874139669":61,"930441707":410,"930944768":140,"985746746":279,"1064216828":295,"1514542157":9}	M
+aAPPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","414478124","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+
+B	aAPPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}~7
+
+B	aAPPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}i2
+
+	aAPPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300}{
+atopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+atopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+atopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+aAPPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","414478124","422689480","930441707","329218549","930944768","1064216828","1514542157"]N
+	aAPPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300}
+
+tfeA
+
+J+6
+
+AMDAppSegment4
+$undefined1__defaultTreatment).
+1undefined1__defaultTreatment)+
+yundefined1__defaultTreatment)0
+Mundefined1__defaultTreatment)2
+undefined1__defaultTreatment)/
+undefined1__defaultTreatment)(
+:M:undefined1__defaultTreatment)*
+undefined1__defaultTreatment)1
+undefined1__defaultTreatment)3
+undefined1__defaultTreatment),
+7uiundefined1__defaultTreatment
+O3zc
+11)
+
+M10
+
+$14
+
+o,1.
+?n12
+:M:1(
+7ui1,
+AMDAppEvent)
+
+aq/??
+11.62.0177683658153(
+AMDAppEvent*
+
+h|Cn
+
+11.62.0177683658153)
+AMDAppEvent+
+
+f~6
+
+2022.02.0177683658154*
+AMDAppEvent,
+
+6.0.211226177683658156+
+!,
+*`
+
+AMDAppEvent-
+
+5.247.0177683658156,
+AMDAppEvent.
+
+GHXctQOn
+
+#7uiL
+5.247.0177683658154-
+AMDAppEvent/
+
+j3Z
+
+
+5.247.0177683658153.
+AMDAppEvent0
+
+#7uiU
+5.247.0177683658153/
+AMDAppEvent1
+
+5.247.01776836581530
+sJc
+
+AMDAppEvent2
+
+0U3.
+#7uiZ
+5.247.01776836581531
+AMDAppEvent3
+
+5.247.01776836581532
+eu])V
+
+PuA!v
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f(~
+
+AMDAppSegmentA
+undefined1__defaultTreatment)?
+undefined1__defaultTreatment)8
+o,undefined1__defaultTreatment)A
+undefined1__defaultTreatment):
+:M:undefined1__defaultTreatment
+?nundefined1__defaultTreatment)5
+Mundefined1__defaultTreatment)7
+undefined1__defaultTreatment)@
+1undefined1__defaultTreatment)9
+$undefined1__defaultTreatment);
+7uiundefined1__defaultTreatment)=
+M15
+
+11@
+
+7ui1;
+
+o,18
+:M:1:
+?n1>
+AMDAppEvent4
+
+-h
+
+#?n+
+2022.02.01776836581543
+AMDAppEvent5
+
+2022.02.01776836581554
+9i*B
+AMDAppEvent6
+
+#?ng
+2022.02.01776836581565
+H
+{U
+
+AMDAppSegmentN
+:M:undefined1__defaultTreatment)H
+undefined1__defaultTreatment)L
+o,undefined1__defaultTreatment)N
+yundefined1__defaultTreatment)C
+Mundefined1__defaultTreatment
+$undefined1__defaultTreatment)I
+undefined1__defaultTreatment)K
+undefined1__defaultTreatment)M
+?nundefined1__defaultTreatment)B
+undefined1__defaultTreatment)D
+7uiundefined1__defaultTreatment)F
+1undefined1__defaultTreatment
+y1N
+
+:M:1E
+
+?n1M
+
+7ui1D
+
+o,1L
+|FydRh
+
+\q^)
+
+topAppsByUsage{"group_by_descriptors":["adamId"],"num_records":128,"predicates":["type==3"],"properties_to_fetch":[{"property_name":"adamId"},{"aggregated_data_type":"int32","aggregator_function":"sum:","aggregator_keys":["foregroundDuration"],"property_name":"most_used"}],"sort_descriptors":[{"sort_order":0}],"source_entity":"AMDAppEvent"}k
+
+B2F7B201-6B72-460A-8FBB-EC34FDF8B480__segmentAggregator__defaultTreatment__segmentAggregator{"excluded_storefront_ids":[],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"model_id":"__segmentAggregator","rule_params":{"duration_threshold":5,"lookback_days":60},"use_case_id":"__segmentAggregator","workflow_id":3,"workflow_type":"Rules"}
+auB2F7B201-6B72-460A-8FBB-EC34FDF8B480od_hybrid_arcade2__defaultTreatmentarcadeGFY{"excluded_storefront_ids":[143465],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"input_definitions":{"activity":[{"feature_id":"topAppsByUsage","map_op":"keys_order_desc_by_value","remap_dictionary_id":"content_id_to_logical_id","size":127},{"feature_id":"OD_STOREFRONT_ID_NORMALIZED","map_op":"keys_order_desc_by_value","size":1}],"hyperparameters":[{"feature_id":"alpha","size":1,"value":[0.5]}],"weights":[{"feature_id":"topAppsByUsage","map_op":"values_order_desc_by_value","size":127}]},"max_items_to_display":24,"model_format":"CoreML","model_id":"od_hybrid_arcade2","output_definitions":{"results":{"bitmask_ids":["storefront_availability_bitmask"],"mode":"top_n","model_output_name":"Identity","model_top_n":64,"modifiers":[{"feature_ids":["PURCHASED_ITEM_AFFINITY"],"js_method_name":"exclude_purchases_filter"},{"feature_ids":["HISTORY"],"js_method_name":"history_based_demotion"}],"ranker":{"js_method_name":"score_based_ranker"},"remap_dictionary_id":"label_index_to_content_id","score_threshold_as_multiple_of_random_score":1}},"resources":[{"coldstart_model_id":"arcade_cold_start"}],"tab_ids":["arcade"],"use_case_id":"arcadeGFY","workflow_id":4,"workflow_type":"MLModel"}
+vdX0
+
+auPURCHASED_ITEM_AFFINITYserver{"329218549":0.98807173999999998,"333903271":0.98807173999999998,"405075943":0.98807173999999998,"414478124":0.98807173999999998,"422689480":0.98807173999999998,"447188370":0.98807173999999998,"705203926":0.98807173999999998,"874139669":0.98807173999999998,"930441707":0.98807173999999998,"930944768":0.98807173999999998,"985746746":0.98807173999999998,"1064216828":0.98807173999999998,"1514542157":0.98807173999999998}n3
+
+austorefront_idserver-1)
+auuser_idserver"17768365815"
+u
+_
+_
+_
+_
+auPURCHASED_ITEM_AFFINITYserver{"329218549":0.98807173999999998,"333903271":0.98807173999999998,"405075943":0.98807173999999998,"414478124":0.98807173999999998,"422689480":0.98807173999999998,"447188370":0.98807173999999998,"705203926":0.98807173999999998,"874139669":0.98807173999999998,"930441707":0.98807173999999998,"930944768":0.98807173999999998,"985746746":0.98807173999999998,"1064216828":0.98807173999999998,"1514542157":0.98807173999999998}
+u	
+	auAPPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300}a
+auAPPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","414478124","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+
+B	auAPPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}
+
+B	auAPPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}nO
+
+*	auAPPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014})
+auAPPS_HAS_ARCADEdevice0
+E^u
+
+autopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+autopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+autopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+auOD_DSIDdevice"17768365815"
+auOD_STOREFRONT_IDdevice{"143441":1}
+auOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+=n7E}u
+
+AMDAppSegment[
+undefined1__defaultTreatment)Q
+undefined1__defaultTreatment)U
+undefined1__defaultTreatment)W
+:M:undefined1__defaultTreatment)Y
+undefined1__defaultTreatment)P
+o,undefined1__defaultTreatment)R
+Mundefined1__defaultTreatment)T
+yundefined1__defaultTreatment)V
+undefined1__defaultTreatment)X
+?nundefined1__defaultTreatment)Z
+:M:1W
+
+o,1P
+
+y1T
+
+?n1X
+
+7ui1Y
+Rq\0
+
+AMDAppEvent7
+
+.w!,
+5.247.01776836581556
+'@kkZ
+
+AMDAppEvent8
+
+QgpS
+#7ui)
+5.247.01776836581537
+SXR
+
+AMDAppEvent9
+
+F%8
+
+5.247.01776836581538
+AMDAppEvent:
+
+b2}x
+
+2022.02.01776836581539
+AMDAppSegmenth
+ZM$.}
+
+o,undefined1__defaultTreatment)g
+yundefined1__defaultTreatment)_
+undefined1__defaultTreatment)`
+undefined1__defaultTreatment)b
+:M:undefined1__defaultTreatment)h
+$undefined1__defaultTreatment)\
+undefined1__defaultTreatment)^
+1undefined1__defaultTreatment)a
+undefined1__defaultTreatment)c
+?nundefined1__defaultTreatment)e
+V==l
+
+y1]
+
+o,1d
+
+$1h
+
+11^
+
+?n1c
+
+:M:1f
+7ui1e
+AMDAppEvent;
+
+#?n
+2022.02.0177683658155:
+mc=;
+
+AMDAppEvent<
+
+8.97177683658155;
+AMDAppEvent=
+
+8.97177683658150<
+AMDAppEvent>
+
+thH
+
+8.97177683658150=
+n2j/X
+
+AMDAppEvent?
+
+,Oi
+
+8.97177683658151>
+AMDAppEvent@
+
+HNofP
+
+8.97177683658150?
+AMDAppEventA
+
+16.9177683658150@
+AMDAppEventB
+
+16.9177683658150A
+eV3
+
+AMDAppEventC
+
+_f=st
+
+3.9.29177683658150B
+P:78
+AMDAppEventD
+
+f4s
+
+3.9.29177683658153C
+6 k
+
+AMDAppEventE
+
+%`Z
+
+5.247.0177683658152D
+RO_3
+~		a
+topAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+topAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+topAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+AMDAppSegmentu
+undefined1__defaultTreatment)o
+$undefined1__defaultTreatment)l
+7uiundefined1__defaultTreatment)q
+o,undefined1__defaultTreatment)s
+undefined1__defaultTreatment)i
+1undefined1__defaultTreatment)k
+:M:undefined1__defaultTreatment)p
+undefined1__defaultTreatment)r
+undefined1__defaultTreatment)t
+?nundefined1__defaultTreatment)m
+$1j
+
+o,1q
+
+11i
+
+?n1t
+
+7ui1l
+:M:1k
+SQLite format 3
+AMDAppEventF
+
+#?n$
+2022.02.0177683658154E
+AWqm
+
+~	
+arZtopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+~	
+arZtopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+~	
+arZtopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+arZOD_DSIDdevice"17768365815"
+arZOD_STOREFRONT_IDdevice{"143441":1}
+arZOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+\!"]
+:e_5
+
+]g]JT
+
+:M:undefined1__defaultTreatment)|
+yundefined1__defaultTreatment)z
+o,undefined1__defaultTreatment)x
+$undefined1__defaultTreatment)
+7uiundefined1__defaultTreatment)}
+undefined1__defaultTreatment){
+undefined1__defaultTreatment)y
+Mundefined1__defaultTreatment)v
+?*3]&
+
+:M:1~
+
+o,1z
+
+11w
+
+AMDAppEventG
+
+5.247.0177683658155F
+DDeS`
+
+AMDAppEventH
+
+~(X8
+5.247.0177683658153G
+AMDAppEventI
+
+5.247.0177683658154H
+AMDAppEventJ
+
+~.Sx
+5.247.0177683658153I
+AMDAppEventK
+
+5.247.0177683658153J
+AMDAppEventL
+
+Da-a9
+
+^7xV
+
+#7ui*
+5.247.017768365815
+AMDAppEventM
+
+5.247.0177683658153L
+AMDAppEventN
+
+A>]
+
+5.247.0177683658153M
+AMDAppEventO
+
+5.247.0177683658154N
+1YV
+
+AMDAppEventP
+
+D}W
+
+5.247.0177683658153O
+AMDAppEventQ
+
+#7uiR
+5.247.0177683658153P
+AMDAppEventR
+
+#?n	
+2022.02.0177683658153Q
+AMDAppEventS
+
+5\|d
+2022.02.0177683658155R
+~	aytopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+~	aytopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+~	aytopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+ayOD_DSIDdevice"17768365815"
+ayOD_STOREFRONT_IDdevice{"143441":1}
+ayOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+2>%'
+?nundefined1__defaultTreatment)
+
+yundefined1__defaultTreatment)
+
+|HK_
+
+AMDAppEventT
+
+GuHa9
+
+3.9.29177683658155S
+AMDAppEventU
+
+3.9.29177683658153T
+!|dl'
+
+~	atopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+~	atopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+~	atopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+\m[
+
+
+J,c;
+Wz&z
+
+e{P
+
+topAppsByRecency{"group_by_descriptors":["adamId"],"num_records":128,"predicates":["type==3"],"properties_to_fetch":[{"property_name":"adamId"},{"aggregated_data_type":"int64","aggregator_function":"max:","aggregator_keys":["time"],"property_name":"most_recent"}],"sort_descriptors":[{"sort_order":0}],"source_entity":"AMDAppEvent"}_
+5N=
+
+F6F8BC31-8AC8-4F6D-8921-8C1E8CFD471C__segmentAggregator__defaultTreatment__segmentAggregator{"excluded_storefront_ids":[],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"model_id":"__segmentAggregator","rule_params":{"duration_threshold":5,"lookback_days":60},"use_case_id":"__segmentAggregator","workflow_id":3,"workflow_type":"Rules"}
+KCw
+
+F6F8BC31-8AC8-4F6D-8921-8C1E8CFD471Cod_hybrid_arcade2__defaultTreatmentarcadeGFY{"excluded_storefront_ids":[143465],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"input_definitions":{"activity":[{"feature_id":"topAppsByUsage","map_op":"keys_order_desc_by_value","remap_dictionary_id":"content_id_to_logical_id","size":127},{"feature_id":"OD_STOREFRONT_ID_NORMALIZED","map_op":"keys_order_desc_by_value","size":1}],"hyperparameters":[{"feature_id":"alpha","size":1,"value":[0.5]}],"weights":[{"feature_id":"topAppsByUsage","map_op":"values_order_desc_by_value","size":127}]},"max_items_to_display":24,"model_format":"CoreML","model_id":"od_hybrid_arcade2","output_definitions":{"results":{"bitmask_ids":["storefront_availability_bitmask"],"mode":"top_n","model_output_name":"Identity","model_top_n":64,"modifiers":[{"feature_ids":["PURCHASED_ITEM_AFFINITY"],"js_method_name":"exclude_purchases_filter"},{"feature_ids":["HISTORY"],"js_method_name":"history_based_demotion"}],"ranker":{"js_method_name":"score_based_ranker"},"remap_dictionary_id":"label_index_to_content_id","score_threshold_as_multiple_of_random_score":1}},"resources":[{"coldstart_model_id":"arcade_cold_start"}],"tab_ids":["arcade"],"use_case_id":"arcadeGFY","workflow_id":4,"workflow_type":"MLModel"}
+jDi:
+
+PURCHASED_ITEM_AFFINITYserver{"329218549":0.97824025000000003,"333903271":0.97824025000000003,"405075943":0.97824025000000003,"414478124":0.97824025000000003,"422689480":0.97824025000000003,"447188370":0.97824025000000003,"705203926":0.97824025000000003,"874139669":0.97824025000000003,"930441707":0.97824025000000003,"930944768":0.97824025000000003,"985746746":0.97824025000000003,"1064216828":0.97824025000000003,"1514542157":0.97824025000000003}
+storefront_idserver-1)
+user_idserver"17768365815"
+!Mm
+
+PURCHASED_ITEM_AFFINITYserver{"329218549":0.97824025000000003,"333903271":0.97824025000000003,"405075943":0.97824025000000003,"414478124":0.97824025000000003,"422689480":0.97824025000000003,"447188370":0.97824025000000003,"705203926":0.97824025000000003,"874139669":0.97824025000000003,"930441707":0.97824025000000003,"930944768":0.97824025000000003,"985746746":0.97824025000000003,"1064216828":0.97824025000000003,"1514542157":0.97824025000000003}n}
+
+APPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014}a
+APPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","414478124","422689480","930441707","329218549","930944768","1064216828","1514542157"]	
+APPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}
+
+APPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300}~|
+
+APPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false})
+~	
+a
+AiD
+
+mFY
+
+m+y6&
+
+undefined1__defaultTreatment))
+yundefined1__defaultTreatment)&
+?nundefined1__defaultTreatment)$
+:M:undefined1__defaultTreatment) 
+1undefined1__defaultTreatment)(
+$undefined1__defaultTreatment)'
+o,undefined1__defaultTreatment)%
+undefined1__defaultTreatment)#
+undefined1__defaultTreatment)!
+Y6	SQLite format 3
+\|%@
+AMDAppEventV
+
+'\Lc5
+
+#7ui;
+5.247.0177683658152U
+<xv?,
+
+AMDAppEventW
+
+#7uiE
+5.247.0177683658153V
+AMDAppEventX
+
+
+
+
+
+M
+#:M:V
+109.0177683658153W
+AMDAppEventY
+
+
+
+
+
+M
+
+#:M:#
+109.0177683658151X
+aHtopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+aHtopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+aHtopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+aHOD_DSIDdevice"17768365815"
+aHOD_STOREFRONT_IDdevice{"143441":1}
+aHOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+/I6d}
+
+?nundefined1__defaultTreatment)3
+undefined1__defaultTreatment)+
+yundefined1__defaultTreatment)-
+undefined1__defaultTreatment)4
+undefined1__defaultTreatment)2
+1undefined1__defaultTreatment)0
+$undefined1__defaultTreatment),
+o,undefined1__defaultTreatment).
+Mundefined1__defaultTreatment)5
+AMDAppEventZ
+
+[y=
+
+8.97177683658151Y
+M*6
+
+aStopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+aStopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+aStopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+aSOD_DSIDdevice"17768365815"
+aSOD_STOREFRONT_IDdevice{"143441":1}
+aSOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+0t_S
+
+'~jc
+
+o,undefined1__defaultTreatment)9
+yundefined1__defaultTreatment)?
+undefined1__defaultTreatment)=
+undefined1__defaultTreatment)B
+Mundefined1__defaultTreatment):
+?nundefined1__defaultTreatment)<
+$undefined1__defaultTreatment)>
+1undefined1__defaultTreatment)C
+undefined1__defaultTreatment)A
+7uiundefined1__defaultTreatment)8
+undefined1__defaultTreatment)7
+AMDAppEvent[
+
+~a=(
+8.97177683658151Z
+Q	
+
+AMDAppEvent\
+
+db&
+
+14.3.1177683658150[
+ad/topAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+ad/topAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+ad/topAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+&	 ad/OD_DSIDdevice"17768365815"
+$	 ad/OD_STOREFRONT_IDdevice{"143441":1}
+	 ad/OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+gM}
+
+9R	
+
+yundefined1__defaultTreatment)D
+undefined1__defaultTreatment)N
+Mundefined1__defaultTreatment)H
+undefined1__defaultTreatment)G
+undefined1__defaultTreatment)E
+:M:undefined1__defaultTreatment)O
+?nundefined1__defaultTreatment)M
+1undefined1__defaultTreatment)K
+NY
+i
+AMDAppEvent]
+
+wW=	
+L
+14.3.1177683658153\
+AMDAppEvent^
+
+L
+14.3.1177683658152]
+AnC
+
+BtopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+BtopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+BtopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+&	!b
+BOD_DSIDdevice"17768365815"
+$	!b
+BOD_STOREFRONT_IDdevice{"143441":1}
+BOD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+tp:
+
+iF!U
+
+$undefined1__defaultTreatment)Z
+?nundefined1__defaultTreatment)S
+7uiundefined1__defaultTreatment)]
+Mundefined1__defaultTreatment)[
+yundefined1__defaultTreatment)Y
+undefined1__defaultTreatment)V
+1undefined1__defaultTreatment)T
+undefined1__defaultTreatment)R
+o,undefined1__defaultTreatment)\
+AMDAppEvent_
+
+14.3.1177683658152^
+?kE
+
+AMDAppEvent`
+
+S_%ub
+
+14.3.1177683658152_
+8Sj;w
+
+Y
+z
+
+PtopAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+PtopAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+PtopAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+&	"b
+POD_DSIDdevice"17768365815"
+$	"b
+POD_STOREFRONT_IDdevice{"143441":1}
+POD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+g+5
+
+:M:undefined1__defaultTreatment)a
+7uiundefined1__defaultTreatment)_
+undefined1__defaultTreatment)f
+1undefined1__defaultTreatment)d
+$undefined1__defaultTreatment)`
+?nundefined1__defaultTreatment)j
+Mundefined1__defaultTreatment)h
+undefined1__defaultTreatment)g
+undefined1__defaultTreatment)e
+GwgW
+/`8
+
+AMDAppEventa
+
+|9J^
+
+|
+#:M:3
+109.0177683658153`
+*
+V~9n
+
+AMDAppEventb
+
+^Wc7
+|I
+109.0177683658151a
+AMDAppEventc
+
+|I
+14.3.1177683658151b
+\ut5
+d`%
+
+&	#b
+$	#b
+7uiundefined1__defaultTreatment)t
+$undefined1__defaultTreatment)p
+yundefined1__defaultTreatment)n
+o,undefined1__defaultTreatment)w
+1undefined1__defaultTreatment)u
+?nundefined1__defaultTreatment)s
+undefined1__defaultTreatment)q
+undefined1__defaultTreatment)k
+:M:undefined1__defaultTreatment)m
+FSQLite format 3
+k2C's
+
+F
+F
+F
+
+bweH]
+
+l&.
+
+E6E0697B-DBFD-4A9D-A643-5A11E2803EB2__segmentAggregator__defaultTreatment__segmentAggregator{"excluded_storefront_ids":[],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"model_id":"__segmentAggregator","rule_params":{"duration_threshold":5,"lookback_days":60},"use_case_id":"__segmentAggregator","workflow_id":3,"workflow_type":"Rules"}
+b
+`E6E0697B-DBFD-4A9D-A643-5A11E2803EB2od_hybrid_arcade2__defaultTreatmentarcadeGFY{"excluded_storefront_ids":[143465],"included_device_families":["iPad","iPhone"],"included_storefront_ids":[],"input_definitions":{"activity":[{"feature_id":"topAppsByUsage","map_op":"keys_order_desc_by_value","remap_dictionary_id":"content_id_to_logical_id","size":127},{"feature_id":"OD_STOREFRONT_ID_NORMALIZED","map_op":"keys_order_desc_by_value","size":1}],"hyperparameters":[{"feature_id":"alpha","size":1,"value":[0.5]}],"weights":[{"feature_id":"topAppsByUsage","map_op":"values_order_desc_by_value","size":127}]},"max_items_to_display":24,"model_format":"CoreML","model_id":"od_hybrid_arcade2","output_definitions":{"results":{"bitmask_ids":["storefront_availability_bitmask"],"mode":"top_n","model_output_name":"Identity","model_top_n":64,"modifiers":[{"feature_ids":["PURCHASED_ITEM_AFFINITY"],"js_method_name":"exclude_purchases_filter"},{"feature_ids":["HISTORY"],"js_method_name":"history_based_demotion"}],"ranker":{"js_method_name":"score_based_ranker"},"remap_dictionary_id":"label_index_to_content_id","score_threshold_as_multiple_of_random_score":1}},"resources":[{"coldstart_model_id":"arcade_cold_start"}],"tab_ids":["arcade"],"use_case_id":"arcadeGFY","workflow_id":4,"workflow_type":"MLModel"}
+*hU
+
+b
+`PURCHASED_ITEM_AFFINITYserver{"329218549":0.9685066,"333903271":0.9685066,"405075943":0.9685066,"414478124":0.9685066,"422689480":0.9685066,"447188370":0.9685066,"705203926":0.9685066,"874139669":0.9685066,"930441707":0.9685066,"930944768":0.9685066,"985746746":0.9685066,"1064216828":0.9685066,"1514542157":0.9685066}n}
+
+b
+`storefront_idserver-1)
+b
+`user_idserver"17768365815"
+w5E6X
+
+
+b
+`PURCHASED_ITEM_AFFINITYserver{"329218549":0.9685066,"333903271":0.9685066,"405075943":0.9685066,"414478124":0.9685066,"422689480":0.9685066,"447188370":0.9685066,"705203926":0.9685066,"874139669":0.9685066,"930441707":0.9685066,"930944768":0.9685066,"985746746":0.9685066,"1064216828":0.9685066,"1514542157":0.9685066}
+APPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","414478124","422689480","930441707","329218549","930944768","1064216828","1514542157"]
+
+b
+`PURCHASED_ITEM_AFFINITYserver{"329218549":0.9685066,"333903271":0.9685066,"405075943":0.9685066,"414478124":0.9685066,"422689480":0.9685066,"447188370":0.9685066,"705203926":0.9685066,"874139669":0.9685066,"930441707":0.9685066,"930944768":0.9685066,"985746746":0.9685066,"1064216828":0.9685066,"1514542157":0.9685066}n1
+
+*	b
+`APPS_GENREdevice{"329218549":6014,"333903271":6009,"405075943":6013,"422689480":6007,"447188370":6008,"705203926":6014,"874139669":6005,"930441707":6012,"930944768":6000,"985746746":6005,"1064216828":6009,"1514542157":6014}a
+b
+`APPS_PURCHASED_ALLdevice["405075943","333903271","705203926","447188370","874139669","985746746","414478124","422689480","930441707","329218549","930944768","1064216828","1514542157"]	
+B	b
+`APPS_IS_ARCADEdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}
+
+B	b
+`APPS_PURCHASEDdevice{"329218549":false,"333903271":false,"405075943":false,"422689480":false,"447188370":false,"705203926":false,"874139669":false,"930441707":false,"930944768":false,"985746746":false,"1064216828":false,"1514542157":false}i/
+
+	b
+`APPS_RATINGS_RANKdevice{"329218549":100,"333903271":600,"405075943":200,"422689480":100,"447188370":300,"705203926":600,"874139669":300,"930441707":600,"930944768":100,"985746746":600,"1064216828":600,"1514542157":300})
+b
+`APPS_HAS_ARCADEdevice0
+mYdw
+Zag_
+
+b
+`topAppsByFrequencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}$
+b
+`topAppsByRecencydevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}	M
+b
+`topAppsByUsagedevice{"329218549":0,"333903271":0,"405075943":0,"414478124":0,"422689480":0,"447188370":0,"705203926":0,"874139669":0,"930441707":0,"930944768":0,"985746746":0,"1064216828":0,"1514542157":0}G
+&	$b
+`OD_DSIDdevice"17768365815"
+$	$b
+`OD_STOREFRONT_IDdevice{"143441":1}
+	$b
+`OD_STOREFRONT_ID_NORMALIZEDdevice{"1":1}
+Mundefined1__defaultTreatment)}
+:M:undefined1__defaultTreatment){
+yundefined1__defaultTreatment)~
+undefined1__defaultTreatment)|
+$undefined1__defaultTreatment)z
+undefined1__defaultTreatment)x
+c8;
+

@@ -1,0 +1,12 @@
+2022-01-21 16:21:39 Data container moved com.chess.iphone /private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B
+2022-01-21 16:21:39 Made container live com.chess.iphone /private/var/containers/Bundle/Application/382CCEB1-2F70-45CC-A24B-B7BF2C2FC5BB
+2022-01-21 16:21:39 Install successful com.chess.iphone 
+2022-01-21 16:21:39 Data container moved com.chess.iphone /private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B
+2022-01-21 16:21:39 Made container live com.chess.iphone /private/var/containers/Bundle/Application/382CCEB1-2F70-45CC-A24B-B7BF2C2FC5BB
+2022-01-21 16:21:39 Install successful com.chess.iphone 
+2022-01-21 16:21:34 Made container live com.chess.iphone /private/var/mobile/Containers/Data/Application/935FC4FD-CCB4-42B7-B103-F349EE1FDE3C
+2022-01-21 16:21:34 Made container live com.chess.iphone /private/var/containers/Bundle/Application/B8A9D50A-6DB0-4F53-AE2D-D75D21A505ED
+2022-01-21 16:21:34 Install successful com.chess.iphone 
+2022-01-21 16:21:34 Made container live com.chess.iphone /private/var/mobile/Containers/Data/Application/935FC4FD-CCB4-42B7-B103-F349EE1FDE3C
+2022-01-21 16:21:34 Made container live com.chess.iphone /private/var/containers/Bundle/Application/B8A9D50A-6DB0-4F53-AE2D-D75D21A505ED
+2022-01-21 16:21:34 Install successful com.chess.iphone 

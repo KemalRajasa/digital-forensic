@@ -1,0 +1,1144 @@
+wO[_b4BRr
+wO[_bi>1\!SQLite format 3
+wO[_b
+/U_UniqueIdentifier88679272-0EBD-4B5E-8AA8-C7937D95B8B8
+_ClientVersion83
+SortingCacheVersion35%
+SortingCacheICUUCAVersion218103808,
+I#SortingCacheICUCollatorVersion-1721237504#
+9!SortingCacheICUVersion1140981760
+SortingCacheLanguageen
+wO[_bY_pl&
+
+_UniqueIdentifier
+_ClientVersion
+SortingCacheVersion
+SortingCacheICUUCAVersion
+SortingCacheICUCollatorVersion
+SortingCacheICUVersion
+5	SortingCacheLanguage
+local884FD6CB-7211-40CF-A4A7-91B9778EECF2
+wO[_bfS
+local
+wO[_b/
+884FD6CB-7211-40CF-A4A7-91B9778EECF2
+ABStore
+wO[_bC;Eu
+
+wO[_bQ
+wO[_bj
+wO[_bg*S
+wO[_be
+
+wO[_bq
+w$3
+
+wO[_b;qe
+
+wO[_bwuT
+
+wO[_bA
+wO[_b(
+jSz
+
+wO[_btFcJG0
+
+!
+/
+
+tableABAccountABAccount
+CREATE TABLE ABAccount (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, AccountIdentifier TEXT, Flags INTEGER, DefaultSourceID INTEGER, guid TEXT NOT NULL DEFAULT (ab_generate_guid()), UNIQUE(guid))1
+tableABGroupChangesABGroupChanges
+CREATE TABLE ABGroupChanges (record INTEGER, type INTEGER, sequence_number INTEGER, ExternalIdentifier TEXT, StoreID INTEGER, guid TEXT)-
+indexsqlite_autoindex_ABGroup_1ABGroup
+
+tableABGroupABGroup
+CREATE TABLE ABGroup (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT, ExternalIdentifier TEXT, StoreID INTEGER, ExternalModificationTag TEXT, ExternalRepresentation BLOB, ExternalUUID TEXT, guid TEXT NOT NULL DEFAULT (ab_generate_guid()), UNIQUE(guid))A
+
+indexsqlite_autoindex_ABPersonSearchKey_1ABPersonSearchKey
+gtableABPersonSearchKeyABPersonSearchKey
+CREATE TABLE ABPersonSearchKey (person_id INTEGER, SearchKey BLOB, NameOnlySearchKey BLOB, UNIQUE(person_id))7
+indexsqlite_autoindex_ABPersonLink_1ABPersonLink|
+
+;tableABPersonLinkABPersonLinkCREATE TABLE ABPersonLink (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, PreferredImagePersonID INTEGER DEFAULT -1, PreferredNamePersonID INTEGER DEFAULT -1, guid TEXT NOT NULL DEFAULT (ab_generate_guid()), UNIQUE(guid))
+_tableABPersonChangesABPersonChanges
+CREATE TABLE ABPersonChanges (record INTEGER, type INTEGER, sequence_number INTEGER, Image INTEGER, ExternalIdentifier TEXT, StoreID INTEGER, PersonLink INTEGER, guid TEXT, Changes INTEGER, LinkToPersonUUID TEXT, PersonLinkUUID TEXT)/
+indexsqlite_autoindex_ABPerson_1ABPerson	R
+wtableABPersonABPerson
+CREATE TABLE ABPerson (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, First TEXT, Last TEXT, Middle TEXT, FirstPhonetic TEXT, MiddlePhonetic TEXT, LastPhonetic TEXT, Organization TEXT, Department TEXT, Note TEXT, Kind INTEGER, Birthday TEXT, JobTitle TEXT, Nickname TEXT, Prefix TEXT, Suffix TEXT, FirstSort TEXT, LastSort TEXT, CreationDate INTEGER, ModificationDate INTEGER, CompositeNameFallback TEXT, ExternalIdentifier TEXT, ExternalModificationTag TEXT, ExternalUUID TEXT, StoreID INTEGER, DisplayName TEXT, ExternalRepresentation BLOB, FirstSortSection TEXT, LastSortSection TEXT, FirstSortLanguageIndex INTEGER DEFAULT 2147483647, LastSortLanguageIndex INTEGER DEFAULT 2147483647, PersonLink INTEGER DEFAULT -1, ImageURI TEXT, IsPreferredName INTEGER DEFAULT 1, guid TEXT NOT NULL DEFAULT (ab_generate_guid()), PhonemeData TEXT, AlternateBirthday TEXT, MapsData TEXT, FirstPronunciation TEXT, MiddlePronunciation TEXT, LastPronunciation TEXT, OrganizationPhonetic TEXT, OrganizationPronunciation TEXT, PreviousFamilyName TEXT, PreferredLikenessSource TEXT, PreferredPersonaIdentifier TEXT, PreferredChannel TEXT, DowntimeWhitelist TEXT, ImageType TEXT, ImageHash BLOB, MemojiMetadata BLOB, UNIQUE(guid))P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)-
+indexsqlite_autoindex_ABStore_2ABStore
+indexsqlite_autoindex_ABStore_1ABStore
+5tableABStoreABStore
+CREATE TABLE ABStore (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, Name TEXT, ExternalIdentifier TEXT, Type INTEGER, ConstraintsPath TEXT, ExternalModificationTag TEXT, ExternalSyncTag TEXT, StoreInternalIdentifier TEXT, AccountID INTEGER DEFAULT -1, Enabled INTEGER DEFAULT 1, SyncData BLOB, MeIdentifier INTEGER DEFAULT -1, Capabilities INTEGER DEFAULT 0, guid TEXT NOT NULL DEFAULT (ab_generate_guid()), LastSyncDate TEXT, UNIQUE(StoreInternalIdentifier), UNIQUE(guid))Q
+indexsqlite_autoindex__SqliteDatabaseProperties_1_SqliteDatabaseProperties
+!table_SqliteDatabaseProperties_SqliteDatabaseProperties
+CREATE TABLE _SqliteDatabaseProperties (key TEXT, value TEXT, UNIQUE(key))
+wO[_bp;\<&_
+
+wO[_bg
+
+
+
+9a
+a
+
+
+;tableABPersonFullTextSearch_segmentsABPersonFullTextSearch_segments+CREATE TABLE 'ABPersonFullTextSearch_segments'(blockid INTEGER PRIMARY KEY, block BLOB)
+/tableABPersonFullTextSearch_contentABPersonFullTextSearch_content*CREATE TABLE 'ABPersonFullTextSearch_content'(docid INTEGER PRIMARY KEY, 'c0First', 'c1Last', 'c2Middle', 'c3FirstPhonetic', 'c4MiddlePhonetic', 'c5LastPhonetic', 'c6Organization', 'c7OrganizationPhonetic', 'c8Department', 'c9Note', 'c10Birthday', 'c11JobTitle', 'c12Nickname', 'c13Prefix', 'c14Suffix', 'c15DisplayName', 'c16Phone', 'c17Email', 'c18Address', 'c19SocialProfile', 'c20URL', 'c21RelatedNames', 'c22IM', 'c23Date', 'c24SupplementalCompositeNameTerms')K'
+3tableABPersonFullTextSearchABPersonFullTextSearchCREATE VIRTUAL TABLE ABPersonFullTextSearch USING fts4(tokenize=ab_cf_tokenizer language="en" collator="en@collation=search", First, Last, Middle, FirstPhonetic, MiddlePhonetic, LastPhonetic, Organization, OrganizationPhonetic, Department, Note, Birthday, JobTitle, Nickname, Prefix, Suffix, DisplayName, Phone, Email, Address, SocialProfile, URL, RelatedNames, IM, Date, SupplementalCompositeNameTerms)Q&
+indexsqlite_autoindex_LastSortSectionCountTotal_1LastSortSectionCountTotal):%
+tableLastSortSectionCountTotalLastSortSectionCountTotal(CREATE TABLE LastSortSectionCountTotal(LanguageIndex, Section TEXT, Type INT, number, UNIQUE(LanguageIndex, Section, Type))S$
+indexsqlite_autoindex_FirstSortSectionCountTotal_1FirstSortSectionCountTotal'=#
+tableFirstSortSectionCountTotalFirstSortSectionCountTotal&CREATE TABLE FirstSortSectionCountTotal(LanguageIndex, Section TEXT, Type INT, number, UNIQUE(LanguageIndex, Section, Type))G"
+indexsqlite_autoindex_LastSortSectionCount_1LastSortSectionCount%-!
+}tableLastSortSectionCountLastSortSectionCount$CREATE TABLE LastSortSectionCount(LanguageIndex, Section TEXT, StoreID, number, UNIQUE(LanguageIndex, Section, StoreID))I 
+indexsqlite_autoindex_FirstSortSectionCount_1FirstSortSectionCount#0
+tableFirstSortSectionCountFirstSortSectionCount"CREATE TABLE FirstSortSectionCount(LanguageIndex, Section TEXT, StoreID, number, UNIQUE(LanguageIndex, Section, StoreID))a
+QtableABPersonMultiValueDeletesABPersonMultiValueDeletes!CREATE TABLE ABPersonMultiValueDeletes (record_id INTEGER, property_id INTEGER, identifier INTEGER, sequence_number INTEGER, record_uid TEXT, identifier_uid TEXT)w
+%tableABPhoneLastFourABPhoneLastFour CREATE TABLE ABPhoneLastFour (multivalue_id INTEGER PRIMARY KEY, value TEXT)G
+indexsqlite_autoindex_ABMultiValueEntryKey_1ABMultiValueEntryKey
+tableABMultiValueEntryKeyABMultiValueEntryKey
+CREATE TABLE ABMultiValueEntryKey (value TEXT, UNIQUE(value))A
+indexsqlite_autoindex_ABMultiValueEntry_1ABMultiValueEntry
+StableABMultiValueEntryABMultiValueEntry
+CREATE TABLE ABMultiValueEntry (parent_id INTEGER, key INTEGER, value TEXT, UNIQUE(parent_id, key))A
+indexsqlite_autoindex_ABMultiValueLabel_1ABMultiValueLabel
+tableABMultiValueLabelABMultiValueLabel
+CREATE TABLE ABMultiValueLabel (value TEXT, UNIQUE(value))7
+indexsqlite_autoindex_ABMultiValue_1ABMultiValue
+tableABMultiValueABMultiValue
+CREATE TABLE ABMultiValue (UID INTEGER PRIMARY KEY, record_id INTEGER, property INTEGER, identifier INTEGER, label INTEGER, value TEXT, guid TEXT NOT NULL DEFAULT (ab_generate_guid()), UNIQUE(guid));
+indexsqlite_autoindex_ABGroupMembers_1ABGroupMembers
+?tableABGroupMembersABGroupMembers
+CREATE TABLE ABGroupMembers (UID INTEGER PRIMARY KEY, group_id INTEGER, member_type INTEGER, member_id INTEGER, UNIQUE(group_id, member_type, member_id))1
+indexsqlite_autoindex_ABAccount_1ABAccount
+wO[_bif;]
+wO[_b!y
+wO[_bD5
+wO[_bCj
+wO[_bn
+wO[_b&f1h
+wO[_b#Gy
+
+wO[_bgO
+wO[_bBo[
+wO[_b^
+
+wO[_b++
+qH:
+
+wO[_b?*
+wO[_b}	
+wO[_b:
+wO[_b|
+wO[_bdo9%X
+
+wO[_b|?x'
+
+aao
+
+r
+o
+6
+atriggerUpdatePersonLinkUponPersonUnlinkABPersonCREATE TRIGGER UpdatePersonLinkUponPerson
+]tableABPersonFullTextSearch_segdirABPersonFullTextSearch_segdir,CREATE TABLE 'ABPersonFullTextSearch_segdir'(level INTEGER,idx INTEGER,start_block INTEGER,leaves_end_block INTEGER,end_block INTEGER,root BLOB,PRIMARY KEY(level, idx)) <
+atriggerUpdatePersonLinkUponPersonUnlinkABPersonCREATE TRIGGER UpdatePersonLinkUponPersonUnlink AFTER UPDATE OF PersonLink ON ABPerson WHEN OLD.PersonLink != -1 AND NEW.PersonLink = -1 BEGIN UPDATE ABPersonLink SET PreferredNamePersonID = (SELECT ROWID FROM ABPerson abp WHERE abp.PersonLink = OLD.PersonLink ORDER BY abp.ROWID LIMIT 1) WHERE (ROWID = OLD.PersonLink AND PreferredNamePersonID = OLD.ROWID); ENDx;
+1triggerUpdatePersonLinkABPersonCREATE TRIGGER UpdatePersonLink AFTER UPDATE OF PersonLink ON ABPerson BEGIN DELETE FROM ABPersonLink WHERE (ROWID = OLD.PersonLink AND (SELECT count() FROM ABPerson WHERE PersonLink = OLD.PersonLink) < 2); ENDj:
+triggerDeletePersonLinkABPersonCREATE TRIGGER DeletePersonLink AFTER DELETE ON ABPerson BEGIN DELETE FROM ABPersonLink WHERE (ROWID = OLD.PersonLink AND (SELECT count() FROM ABPerson WHERE PersonLink = OLD.PersonLink) < 2); END
+]indexABLastSortStoreIndexABPerson;CREATE INDEX ABLastSortStoreIndex on ABPerson(StoreID, LastSortLanguageIndex, LastSortSection, LastSort)
+eindexABFirstSortStoreIndexABPerson:CREATE INDEX ABFirstSortStoreIndex on ABPerson(StoreID, FirstSortLanguageIndex, FirstSortSection, FirstSort)~7
+AindexABLastSortIndexABPerson9CREATE INDEX ABLastSortIndex on ABPerson(LastSortLanguageIndex, LastSortSection, LastSort)
+IindexABFirstSortIndexABPerson8CREATE INDEX ABFirstSortIndex on ABPerson(FirstSortLanguageIndex, FirstSortSection, FirstSort)	5
+3triggerdelete_clientcursor_consumedClientCursorCREATE TRIGGER delete_clientcursor_consumed AFTER DELETE ON ClientCursor 
+    BEGIN 
+        DELETE FROM ClientCursorConsumed WHERE client_identifier = OLD.client_identifier AND store_id = OLD.store_id; 
+    END+4
+YindexClientCursorConsumedClientIdentifierClientCursorConsumed7CREATE INDEX ClientCursorConsumedClientIdentifier ON ClientCursorConsumed(client_identifier, store_id)q3
+tableClientCursorConsumedClientCursorConsumed6CREATE TABLE ClientCursorConsumed (store_id INTEGER, consumed_entity_class INTEGER, consumed_entity_id INTEGER, consumed_change_id INTEGER, sequence_number INTEGER, client_identifier TEXT)	2
+-indexClientSequenceClientIdentifierClientSequence5CREATE INDEX ClientSequenceClientIdentifier ON ClientSequence(client_identifier)
+1
+OtableClientSequenceClientSequence4CREATE TABLE ClientSequence (sequence_number INTEGER,client_identifier TEXT,save_timestamp REAL )0
+9indexClientCursorClientIdentifierClientCursor3CREATE INDEX ClientCursorClientIdentifier ON ClientCursor(client_identifier, store_id)7/
+indexsqlite_autoindex_ClientCursor_1ClientCursor2
+CtableClientCursorClientCursor1CREATE TABLE ClientCursor (ROWID INTEGER PRIMARY KEY AUTOINCREMENT, store_id INTEGER, latest_consumed_sequence_number INTEGER, latest_consumed_timestamp REAL, client_identifier TEXT, UNIQUE(client_identifier, store_id))
+)tableABPersonFullTextSearch_statABPersonFullTextSearch_stat/CREATE TABLE 'ABPersonFullTextSearch_stat'(id INTEGER PRIMARY KEY, value BLOB)
+3tableABPersonFullTextSearch_docsizeABPersonFullTextSearch_docsize.CREATE TABLE 'ABPersonFullTextSearch_docsize'(docid INTEGER PRIMARY KEY, size BLOB)Y+
+indexsqlite_autoindex_ABPersonFullTextSearch_segdir_1ABPersonFullTextSearch_segdir-
+wO[_b
+z\1j
+
+z4Y`
+
+wO[_b3	
+
+wO[_b~
+wO[_b	
+^
+wO[_bX 
+
+wO[_b9`
+wO[_bI
+wO[_bql e
+
+}indexABMultiValueGUIDIndexABMultiValueDCREATE INDEX ABMultiValueGUIDIndex ON ABMultiValue(guid)iL
+indexABMultiValueLabelIndexABMultiValueCCREATE INDEX ABMultiValueLabelIndex ON ABMultiValue(label)
+%indexABPersonExternalIdentifierIndexABPersonACREATE INDEX ABPersonExternalIdentifierIndex on ABPerson(ExternalIdentifier)c=
+gtriggerUpdatePersonUponLinkDeletionABPersonLinkCREATE TRIGGER UpdatePersonUponLinkDeletion AFTER DELETE ON ABPersonLink BEGIN     UPDATE ABPerson SET PersonLink = -1, IsPreferredName = 1 WHERE PersonLink = OLD.ROWID; ENDyG
+!triggerInitializePersonLinkFieldABPersonCREATE TRIGGER InitializePersonLinkField AFTER INSERT ON ABPerson 
+BEGIN 
+    UPDATE ABPerson 
+    SET IsPreferredName = ab_update_value_from_trigger((NEW.PersonLink = -1 OR ROWID = (SELECT PreferredNamePersonID FROM ABPersonLink abl WHERE abl.ROWID = NEW.PersonLink)), 'IsPreferredName', ROWID) 
+    WHERE ROWID = NEW.ROWID; 
+END&F
+triggerUpdatePersonLinkFieldABPersonCREATE TRIGGER UpdatePersonLinkField AFTER UPDATE OF PersonLink ON ABPerson 
+WHEN OLD.PersonLink != NEW.PersonLink 
+BEGIN 
+    UPDATE ABPerson 
+    SET IsPreferredName = ab_update_value_from_trigger((NEW.PersonLink = -1 OR ROWID = (SELECT PreferredNamePersonID FROM ABPersonLink abl WHERE abl.ROWID = NEW.PersonLink)), 'IsPreferredName', ROWID) 
+    WHERE ROWID = NEW.ROWID; 
+END!E
+uindexABPreferredLastSortIndexABPerson?CREATE INDEX ABPreferredLastSortIndex on ABPerson(IsPreferredName, LastSortLanguageIndex, LastSortSection, LastSort)&D
+}indexABPreferredFirstSortIndexABPerson>CREATE INDEX ABPreferredFirstSortIndex on ABPerson(IsPreferredName, FirstSortLanguageIndex, FirstSortSection, FirstSort)hC
+indexABPersonPersonLinkIndexABPerson=CREATE INDEX ABPersonPersonLinkIndex on ABPerson(PersonLink)`B
+atriggerNamePreferredPersonDeleteTriggerABPersonCREATE TRIGGER NamePreferredPersonDeleteTrigger AFTER DELETE ON ABPerson BEGIN UPDATE ABPersonLink SET PreferredNamePersonID = (SELECT ROWID FROM ABPerson abp WHERE abp.PersonLink = OLD.PersonLink ORDER BY abp.ROWID LIMIT 1) WHERE (ROWID = OLD.PersonLink AND PreferredNamePersonID = OLD.ROWID); END
+#triggerNamePreferredPersonInsertTriggerABPersonCREATE TRIGGER NamePreferredPersonInsertTrigger AFTER INSERT ON ABPerson BEGIN UPDATE ABPersonLink SET PreferredNamePersonID = NEW.ROWID WHERE (ROWID = NEW.PersonLink AND PreferredNamePersonID = -1); END
+@
+?triggerNamePreferredPersonEditTriggerABPersonCREATE TRIGGER NamePreferredPersonEditTrigger AFTER UPDATE OF Prefix, First, Middle, Last, Suffix, Organization, Kind ON ABPerson WHEN ((OLD.Prefix IS NOT NEW.Prefix) OR (OLD.First IS NOT NEW.First) OR (OLD.Middle IS NOT NEW.Middle) OR (OLD.Last IS NOT NEW.Last) OR (OLD.Suffix IS NOT NEW.Suffix) OR (OLD.Organization IS NOT NEW.Organization) OR (OLD.Kind IS NOT NEW.Kind)) BEGIN UPDATE ABPersonLink SET PreferredNamePersonID = OLD.ROWID WHERE (OLD.PersonLink = ROWID); END)?
+wtriggerUpdatePersonUponLinkUpdateABPersonLinkCREATE TRIGGER UpdatePersonUponLinkUpdate AFTER UPDATE ON ABPersonLink 
+BEGIN 
+    UPDATE ABPerson SET IsPreferredName = ab_update_value_from_trigger(ROWID = NEW.PreferredNamePersonID, 'IsPreferredName', ROWID) WHERE PersonLink = NEW.ROWID; 
+END
+triggerDeleteSearchKeyABPersonCREATE TRIGGER DeleteSearchKey AFTER DELETE ON ABPerson BEGIN DELETE FROM ABPersonSearchKey WHERE person_id = OLD.ROWID; END/>
+}triggerUpdatePersonUponLinkInsertionABPersonLinkCREATE TRIGGER UpdatePersonUponLinkInsertion AFTER INSERT ON ABPersonLink 
+BEGIN 
+    UPDATE ABPerson SET IsPreferredName = ab_update_value_from_trigger(ROWID = NEW.PreferredNamePersonID, 'IsPreferredName', ROWID) WHERE PersonLink = NEW.ROWID; 
+END
+indexABMultiValueRecordIDIndexABMultiValueBCREATE INDEX ABMultiValueRecordIDIndex on ABMultiValue(record_id)nI
+
+indexABPersonExternalUUIDIndexABPerson@CREATE INDEX ABPersonExternalUUIDIndex on ABPerson(ExternalUUID)
+wO[_bF\
+wO[_b
+,	o7
+
+1|[
+
+wO[_be
+wO[_bf
+wO[_bp
+wO[_b
+r[FL
+
+wO[_b_
+wO[_b=~1g
+wO[_b#Fb
+wO[_b.
+triggerLastSortSectionUpdateABPersonCREATE TRIGGER LastSortSectionUpdate AFTER UPDATE ON ABPerson BEGIN INSERT OR REPLACE INTO LastSortSectionCount VALUES(OLD.LastSortLanguageIndex, IFNULL(OLD.LastSortSection, ''), OLD.StoreID, (SELECT number from LastSortSectionCount WHERE LanguageIndex = OLD.LastSortLanguageIndex AND Section = IFNULL(OLD.LastSortSection, '') AND StoreID = OLD.StoreID) - 1); DELETE FROM LastSortSectionCount WHERE LanguageIndex = OLD.LastSortLanguageIndex AND Section = IFNULL(OLD.LastSortSection, '') AND StoreID = OLD.StoreID AND number = 0; INSERT OR REPLACE INTO LastSortSectionCount VALUES(NEW.LastSortLanguageIndex, IFNULL(NEW.LastSortSection, ''), NEW.StoreID, 1 + IFNULL((SELECT number from LastSortSectionCount WHERE LanguageIndex = NEW.LastSortLanguageIndex AND Section = IFNULL(NEW.LastSortSection, '') AND StoreID = NEW.StoreID), 0)); END!U
+ytriggerLastSortSectionInsertABPersonCREATE TRIGGER LastSortSectionInsert AFTER INSERT ON ABPerson BEGIN INSERT OR REPLACE INTO LastSortSectionCount VALUES(NEW.LastSortLanguageIndex, IFNULL(NEW.LastSortSection, ''), NEW.StoreID, 1 + IFNULL((SELECT number from LastSortSectionCount WHERE LanguageIndex = NEW.LastSortLanguageIndex AND Section = IFNULL(NEW.LastSortSection, '') AND StoreID = NEW.StoreID), 0)); ENDJT
+ItriggerFirstSortSectionDeleteABPersonCREATE TRIGGER FirstSortSectionDelete AFTER DELETE ON ABPerson BEGIN INSERT OR REPLACE INTO FirstSortSectionCount VALUES(OLD.FirstSortLanguageIndex, IFNULL(OLD.FirstSortSection, ''), OLD.StoreID, (SELECT number from FirstSortSectionCount WHERE LanguageIndex = OLD.FirstSortLanguageIndex AND Section = IFNULL(OLD.FirstSortSection, '') AND StoreID = OLD.StoreID) - 1); DELETE FROM FirstSortSectionCount WHERE LanguageIndex = OLD.FirstSortLanguageIndex AND Section = IFNULL(OLD.FirstSortSection, '') AND StoreID = OLD.StoreID AND number = 0; END
+3triggerFirstSortSectionUpdateABPersonCREATE TRIGGER FirstSortSectionUpdate AFTER UPDATE ON ABPerson BEGIN INSERT OR REPLACE INTO FirstSortSectionCount VALUES(OLD.FirstSortLanguageIndex, IFNULL(OLD.FirstSortSection, ''), OLD.StoreID, (SELECT number from FirstSortSectionCount WHERE LanguageIndex = OLD.FirstSortLanguageIndex AND Section = IFNULL(OLD.FirstSortSection, '') AND StoreID = OLD.StoreID) - 1); DELETE FROM FirstSortSectionCount WHERE LanguageIndex = OLD.FirstSortLanguageIndex AND Section = IFNULL(OLD.FirstSortSection, '') AND StoreID = OLD.StoreID AND number = 0; INSERT OR REPLACE INTO FirstSortSectionCount VALUES(NEW.FirstSortLanguageIndex, IFNULL(NEW.FirstSortSection, ''), NEW.StoreID, 1 + IFNULL((SELECT number from FirstSortSectionCount WHERE LanguageIndex = NEW.FirstSortLanguageIndex AND Section = IFNULL(NEW.FirstSortSection, '') AND StoreID = NEW.StoreID), 0)); END)R
+triggerFirstSortSectionInsertABPersonCREATE TRIGGER FirstSortSectionInsert AFTER INSERT ON ABPerson BEGIN INSERT OR REPLACE INTO FirstSortSectionCount VALUES(NEW.FirstSortLanguageIndex, IFNULL(NEW.FirstSortSection, ''), NEW.StoreID, 1 + IFNULL((SELECT number from FirstSortSectionCount WHERE LanguageIndex = NEW.FirstSortLanguageIndex AND Section = IFNULL(NEW.FirstSortSection, '') AND StoreID = NEW.StoreID), 0)); END7Q
+triggerdelete_phone_last_fourABMultiValueCREATE TRIGGER delete_phone_last_four AFTER DELETE ON ABMultiValue
+BEGIN
+DELETE FROM ABPhoneLastFour WHERE multivalue_id = OLD.UID;
+ENDkP
+indexABPhoneLastFourIndexABPhoneLastFourGCREATE INDEX ABPhoneLastFourIndex ON ABPhoneLastFour(value)wO
+
+indexABMultiValueEntryKeyIndexABMultiValueEntryFCREATE INDEX ABMultiValueEntryKeyIndex ON ABMultiValueEntry(key)
+CindexABMultiValuePropertyValueIndexABMultiValueECREATE INDEX ABMultiValuePropertyValueIndex ON ABMultiValue(property, value COLLATE NOCASE)
+wO[_bbW
+triggerFirstSortSectionTotalInsertABPersonCREATE TRIGGER FirstSortSectionTotalInsert AFTER INSERT ON ABPerson 
+WHEN NEW.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO FirstSortSectionCountTotal 
+    VALUES( 
+        NEW.FirstSortLanguageIndex, 
+        IFNULL(NEW.FirstSortSection, ''), 
+        0, 
+        1 + IFNULL((SELECT number from FirstSortSectionCountTotal WHERE LanguageIndex = NEW.FirstSortLanguageIndex AND Section = IFNULL(NEW.FirstSortSection, '') AND Type = 0), 0) 
+    ); 
+END2Y
+triggerLastSortSectionTotalDeleteABPersonCREATE TRIGGER LastSortSectionTotalDelete AFTER DELETE ON ABPerson 
+WHEN OLD.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO LastSortSectionCountTotal 
+    VALUES( 
+        OLD.LastSortLanguageIndex, 
+        IFNULL(OLD.LastSortSection, ''), 
+        0, 
+        (SELECT number FROM LastSortSectionCountTotal WHERE LanguageIndex = OLD.LastSortLanguageIndex AND Section = IFNULL(OLD.LastSortSection, '') AND Type = 0) - 1 
+    ); 
+    
+    DELETE FROM LastSortSectionCountTotal 
+    WHERE LanguageIndex = OLD.LastSortLanguageIndex AND 
+        Section = IFNULL(OLD.LastSortSection, '') AND 
+        Type = 0 AND 
+        number <= 0; 
+END=X
+%triggerFirstSortSectionTotalDeleteABPersonCREATE TRIGGER FirstSortSectionTotalDelete AFTER DELETE ON ABPerson 
+WHEN OLD.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO FirstSortSectionCountTotal 
+    VALUES( 
+        OLD.FirstSortLanguageIndex, 
+        IFNULL(OLD.FirstSortSection, ''), 
+        0, 
+        (SELECT number FROM FirstSortSectionCountTotal WHERE LanguageIndex = OLD.FirstSortLanguageIndex AND Section = IFNULL(OLD.FirstSortSection, '') AND Type = 0) - 1 
+    ); 
+    
+    DELETE FROM FirstSortSectionCountTotal 
+    WHERE LanguageIndex = OLD.FirstSortLanguageIndex AND 
+        Section = IFNULL(OLD.FirstSortSection, '') AND 
+        Type = 0 AND 
+        number <= 0; 
+END?W
+5triggerLastSortSectionDeleteABPersonCREATE TRIGGER LastSortSectionDelete AFTER DELETE ON ABPerson BEGIN INSERT OR REPLACE INTO LastSortSectionCount VALUES(OLD.LastSortLanguageIndex, IFNULL(OLD.LastSortSection, ''), OLD.StoreID, (SELECT number from LastSortSectionCount WHERE LanguageIndex = OLD.LastSortLanguageIndex AND Section = IFNULL(OLD.LastSortSection, '') AND StoreID = OLD.StoreID) - 1); DELETE FROM LastSortSectionCount WHERE LanguageIndex = OLD.LastSortLanguageIndex AND Section = IFNULL(OLD.LastSortSection, '') AND StoreID = OLD.StoreID AND number = 0; END
+JwO[_bfj-
+1	
+)triggerLastSortSectionTotalUpdateIfIsPreferredABPersonCREATE TRIGGER LastSortSectionTotalUpdateIfIsPreferred AFTER UPDATE ON ABPerson 
+WHEN NEW.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO LastSortSectionCountTotal 
+    VALUES( 
+        NEW.LastSortLanguageIndex, 
+        IFNULL(NEW.LastSortSection, ''), 
+        0, 
+        1 + IFNULL((SELECT number from LastSortSectionCountTotal WHERE LanguageIndex = NEW.LastSortLanguageIndex AND Section = IFNULL(NEW.LastSortSection, '') AND Type = 0), 0) 
+    ); 
+ENDM^
++triggerLastSortSectionTotalUpdateIfWasPreferredABPersonCREATE TRIGGER LastSortSectionTotalUpdateIfWasPreferred AFTER UPDATE ON ABPerson 
+WHEN OLD.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO LastSortSectionCountTotal 
+    VALUES( 
+        OLD.LastSortLanguageIndex, 
+        IFNULL(OLD.LastSortSection, ''), 
+        0, 
+        (SELECT number FROM LastSortSectionCountTotal WHERE LanguageIndex = OLD.LastSortLanguageIndex AND Section = IFNULL(OLD.LastSortSection, '') AND Type = 0) - 1 
+    ); 
+    
+    DELETE FROM LastSortSectionCountTotal 
+    WHERE LanguageIndex = OLD.LastSortLanguageIndex AND 
+        Section = IFNULL(OLD.LastSortSection, '') AND 
+        Type = 0 AND 
+        number = 0; 
+END
+7triggerFirstSortSectionTotalUpdateIfIsPreferredABPersonCREATE TRIGGER FirstSortSectionTotalUpdateIfIsPreferred AFTER UPDATE ON ABPerson 
+WHEN NEW.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO FirstSortSectionCountTotal 
+    VALUES( 
+        NEW.FirstSortLanguageIndex, 
+        IFNULL(NEW.FirstSortSection, ''), 
+        0, 
+        1 + IFNULL((SELECT number from FirstSortSectionCountTotal WHERE LanguageIndex = NEW.FirstSortLanguageIndex AND Section = IFNULL(NEW.FirstSortSection, '') AND Type = 0), 0) 
+    ); 
+ENDX\
+?triggerFirstSortSectionTotalUpdateIfWasPreferredABPersonCREATE TRIGGER FirstSortSectionTotalUpdateIfWasPreferred AFTER UPDATE ON ABPerson 
+WHEN OLD.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO FirstSortSectionCountTotal 
+    VALUES( 
+        OLD.FirstSortLanguageIndex, 
+        IFNULL(OLD.FirstSortSection, ''), 
+        0, 
+        (SELECT number FROM FirstSortSectionCountTotal WHERE LanguageIndex = OLD.FirstSortLanguageIndex AND Section = IFNULL(OLD.FirstSortSection, '') AND Type = 0) - 1 
+    ); 
+    
+    DELETE FROM FirstSortSectionCountTotal 
+    WHERE LanguageIndex = OLD.FirstSortLanguageIndex AND 
+        Section = IFNULL(OLD.FirstSortSection, '') AND 
+        Type = 0 AND 
+        number = 0; 
+ENDq[
+triggerLastSortSectionTotalInsertABPersonCREATE TRIGGER LastSortSectionTotalInsert AFTER INSERT ON ABPerson 
+WHEN NEW.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO LastSortSectionCountTotal 
+    VALUES( 
+        NEW.LastSortLanguageIndex, 
+        IFNULL(NEW.LastSortSection, ''), 
+        0, 
+        1 + IFNULL((SELECT number from LastSortSectionCountTotal WHERE LanguageIndex = NEW.LastSortLanguageIndex AND Section = IFNULL(NEW.LastSortSection, '') AND Type = 0), 0) 
+    ); 
+END
+wO[_bQZ
+PersonLinkerVersion98
+JwO[_bE
+PersonLinkerVersion
+wO[_b<
+__CPRecordSequenceNumber1
+wO[_bx3U
+__CPRecordSequenceNumber	
+ABDatabaseDoctorA
+JwO[_bA=N:
+
+-	ABDatabaseDoctor
+wO[_b>~G
+%	ClientCursor
+
+wO[_b.o.
+MA)com.apple.contacts.corespotlight
+	com.apple.contacts.corespotlight
+JwO[_b
+JwO[_b9wd
+
+MA$com.apple.contacts.corespotlight
+wO[_bNs
+
+ClientCursor
+wO[_byD
+
+MA+com.apple.contacts.corespotlight
+wO[_b,
+com.apple.contacts.corespotlight
+MA^[com.apple.contacts.corespotlight
+SQLite format 3
+wO[_b{5
+wO[_bX t3Hq
+
+wO[_b5702m
+wO[_b
+}-
+wO[_bo-
+|jy
+
+wO[_b.P(yX
+
+JwO[_b%3
+
+o
+6
+uKSQLite format 3
+wO[_bDX
+wO[_b=
+wO[_b 'X
+
+wO[_bD
+wO[_b\lo
+wO[_bd^
+wO[_bk
+qLD
+
+7
+1
+/tableABPersonFullTextSearch_contentABPersonFullTextSearch_content*CREATE TABLE 'ABPersonFullTextSearch_content'(docid INTEGER PRIMARY KEY, 'c0First', 'c1Last', 'c2Middle', 'c3FirstPhonetic', 'c4MiddlePhonetic', 'c5LastPhonetic', 'c6Organization', 'c7OrganizationPhonetic', 'c8Department', 'c9Note', 'c10Birthday', 'c11JobTitle', 'c12Nickname', 'c13Prefix', 'c14Suffix', 'c15DisplayName', 'c16Phone', 'c17Email', 'c18Address', 'c19SocialProfile', 'c20URL', 'c21RelatedNames', 'c22IM', 'c23Date', 'c24SupplementalCompositeNameTerms')Q`
+?tableABPersonFullTextSearchABPersonFullTextSearchCREATE VIRTUAL TABLE ABPersonFullTextSearch USING fts4(tokenize=ab_cf_tokenizer language="en-US" collator="en-US@collation=search", First, Last, Middle, FirstPhonetic, MiddlePhonetic, LastPhonetic, Organization, OrganizationPhonetic, Department, Note, Birthday, JobTitle, Nickname, Prefix, Suffix, DisplayName, Phone, Email, Address, SocialProfile, URL, RelatedNames, IM, Date, SupplementalCompositeNameTerms)_
+7triggerFirstSortSectionTotalUpdateIfIsPreferredABPersonCREATE TRIGGER FirstSortSectionTotalUpdateIfIsPreferred AFTER UPDATE ON ABPerson 
+WHEN NEW.IsPreferredName=1 
+BEGIN 
+    INSERT OR REPLACE INTO FirstSortSectionCountTotal 
+    VALUES( 
+        NEW.FirstSortLanguageIndex, 
+        IFNULL(NEW.FirstSortSection, ''), 
+        0, 
+        1 + IFNULL((SELECT number from FirstSortSectionCountTotal WHERE LanguageIndex = NEW.FirstSortLanguageIndex AND Section = IFNULL(NEW.FirstSortSection, '') AND Type = 0), 0) 
+    ); 
+END
+)tableABPersonFullTextSearch_statABPersonFullTextSearch_stat+CREATE TABLE 'ABPersonFullTextSearch_stat'(id INTEGER PRIMARY KEY, value BLOB)
+3tableABPersonFullTextSearch_docsizeABPersonFullTextSearch_docsize/CREATE TABLE 'ABPersonFullTextSearch_docsize'(docid INTEGER PRIMARY KEY, size BLOB)oc
+]tableABPersonFullTextSearch_segdirABPersonFullTextSearch_segdir-CREATE TABLE 'ABPersonFullTextSearch_segdir'(level INTEGER,idx INTEGER,start_block INTEGER,leaves_end_block INTEGER,end_block INTEGER,root BLOB,PRIMARY KEY(level, idx))Yd
+indexsqlite_autoindex_ABPersonFullTextSearch_segdir_1ABPersonFullTextSearch_segdir.
+;tableABPersonFullTextSearch_segmentsABPersonFullTextSearch_segments,CREATE TABLE 'ABPersonFullTextSearch_segments'(blockid INTEGER PRIMARY KEY, block BLOB)
+\9(0
+SortingCacheLanguageen-US
+SortingCacheLanguage
+
+wO[_bGud6
+
+I#SortingCacheICUCollatorVersion-1721237504
+JwO[_bER-
+
+SortingCacheICUVersion
+SortingCacheICUUCAVersion218103808
+I#SortingCacheICUCollatorVersion-1721237504#
+JwO[_baBw
+
+SortingCacheICUCollatorVersion
+SortingCacheVersion35
+SortingCacheICUUCAVersion218103808,
+SortingCacheICUUCAVersion
+"
+SortingCacheVersion35%
+
+JwO[_b^6lJ6
+
+wO[_bTsm*q
+
+__CPRecordSequenceNumber2
+wO[_bK
+__CPRecordSequenceNumber
+wO[_b`:]
+
+ABDatabaseDoctorAQO
+JwO[_b9)
+ABDatabaseDoctor
+wO[_bg%
+__CPRecordSequenceNumber3
+wO[_bZ8T
+ABDatabaseDoctorAQ
+JwO[_b
+v2
+
+wO[_b-pAM
+
+wO[_b6~&
+bM6
+
+MAQ#
+wO[_b]w
+JwO[_b,WL
+Np"com.apple.suggestions.suggestd/
+NU*
+
+com.apple.suggestions.suggestd
+wO[_b\,n,)
+
+wO[_b~bYZz
+
+JwO[_bI/G6
+wO[_bDj
+=AR=~=hcom.apple.contact.people/
+wO[_b8
+3Vm
+
+com.apple.contact.people
+wO[_bK\s)p
+
+wO[_bS_
+Wcom.apple.contact.people/
+JwO[_b
+9w
+
+wO[_bK
+YVJJ
+
+=Arcom.apple.contact.people/
+wO[_be.:
+
+wO[_bOZ.'l
+
+wO[_bjpUG9E
+
+=ABzcom.apple.contact.people/
+JwO[_bqDTC
+
+wO[_bjZ
+ClientCursor	
+
+wmJ
+
+com.apple.contact.people/
+wO[_b]NT
+
+com.apple.contact.people	&
+kh^#
+
+wO[_bS7=9u
+
+ClientCursor
+
+
+wO[_bH
+com.apple.contact.people
+&
+JwO[_b 
+wO[_bk]B?
+ClientCursor
+
+wO[_b<,	3@
+
+=A$G
+wO[_bSQk
+com.apple.contact.people&
+JwO[_bkL
+&?d
+
+ClientCursor
+
+wO[_blv@9
+
+wO[_b1J
+com.apple.contact.people&
+JwO[_bj~'
+wO[_b~T})
+
+ClientCursor
+
+wO[_bK6-B`
+
+=A,C4com.apple.contact.people/
+JwO[_bqN+3<
+
+wO[_b%n
+wO[_bHq1S
+
+=A6B_com.apple.contact.people/
+JwO[_bn
+wO[_b!
+wO[_b-x at[
+
+=ArL
+wO[_bi~9~Q
+
+JwO[_bXbG
+
+wO[_bvk'~l	
+
+wO[_b'N
+=A.kcom.apple.contact.people/
+wO[_bV
+*[I
+
+wO[_bY
+
+\I	
+
+=A.hcom.apple.contact.people/
+wO[_b0l
+
+wO[_b)9L
+
+com.apple.suggestions.suggestd.cntosgcontacts(
+wO[_bH6s3
+
+com.apple.suggestions.suggestd.cntosgcontacts
+JwO[_bL
+JwO[_bg6H
+wO[_b
+cm
+
+wO[_bD.
+=A zNcom.apple.contact.people/
+wO[_bF"c [H
+
+JwO[_b@3oU
+
+wO[_b@
+wO[_baS
+=Am}B com.apple.contact.people/
+wO[_bjQ~&Y
+
+JwO[_bg
+N4^
+
+wO[_b[}o?
+
+__CPRecordSequenceNumber4
+T*71
+	ABAccount
+iB8CB629A-243F-4009-A064-7515E4479112459DF367-5E66-4B5F-93F2-B531971B65E1:ABAccount
+wO[_bY-!E
+
+i	459DF367-5E66-4B5F-93F2-B531971B65E1:ABAccount
+com.apple.accounts.domA
+JwO[_bN"N$$
+
+com.apple.accounts.dom
+kE}P
+
+__CPRecordSequenceNumber5
+wO[_b)55
+
+wO[_bGF^
+
+5oc
+
+!SY#
+JwO[_bNZ
+wO[_b(r
+__CPRecordSequenceNumber6
+wO[_b(
+
+wO[_b>ie
+ABAccount
+d$n
+
+iB8CB629A-243F-4009-A064-7515E44791122BD5E381-9C3A-44D1-AB87-3415A114471A:ABAccountX
+wO[_bW
+2BD5E381-9C3A-44D1-AB87-3415A114471A:ABAccount
+wO[_bj5cZD
+wO[_bF[
+~+c{
+
+__CPRecordSequenceNumber7
+wO[_b("$
+
+wO[_bm(
+JwO[_bAJ
+__CPRecordSequenceNumber8
+wO[_bl/C
+
+[Dp
+
+wO[_b35
+
+__CPRecordSequenceNumber9
+wO[_bd.g
+	ABDatabaseDoctorA
+JwO[_bC
+ABDatabaseDoctor	
+wO[_b{;x
+
+wO[_bsh
+JwO[_b"
+wO[_bGR
+wO[_b=
+x:	u
+
+wO[_boo
+JwO[_b=
+wO[_bHMM
+
+Card/17768365815/carddavhome/card/
+bplist00
+^max-image-size_
+max-resource-size
+:EA83DDCC-6008-431A-A031-FD60B4677AF1;
+wO[_bV
+wO[_bu
+U	EA83DDCC-6008-431A-A031-FD60B4677AF1'
+wO[_b#
+	ABStore
+wO[_b"
+'m,com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112=
+wO[_bMO`#4
+
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112
+JwO[_b/D
+DefaultStore1
+JwO[_bx
+DefaultStore
+__CPRecordSequenceNumber10
+wO[_b}QOo
+
+NeedInitialSync_
+max-resource-size\BulkRequests
+VsimpleTcrud
+
+]max-resourcesVinsertXmax-size
+VupdateVdelete			
+ 2FSXY^cjov
+EA83DDCC-6008-431A-A031-FD60B4677AF1;
+=(Y
+
+
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112A
+JwO[_bt,;7
+
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112
+
+wO[_b~&~
+
+wO[_bLH[v~[
+
+'X*com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112=
+wO[_bu/
+__CPRecordSequenceNumber11
+wO[_bJ
+
+
+wO[_bmS\
+
+HwoQEgwAAAAAAAAAAAAAAAAYARgAIhYI0ZmBstLEnaeJARDx0svqkp2B1rMBKAA=HwoQEgwAAAAAAAAAAAAAAAAYARgAIhYI0ZmBstLEnaeJARDx0svqkp2B1rMBKAA=bplist00
+wO[_b.:
+
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112A
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112?
+JwO[_bb
+
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112=
+wO[_b85X7
+
+__CPRecordSequenceNumber12
+wO[_b+AI
+NeedInitialSync\BulkRequests_
+TcrudVsimple
+
+Xmax-size]max-resourcesVupdateVinsertVdelete
+			
+ 2?SXY^cju~
+wO[_b;C
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112A
+JwO[_b"
+I
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112?
+wO[_b2
+__CPRecordSequenceNumber13
+wO[_bk9pXq
+
+wO[_bBz]
+
+U-Card/17768365815/carddavhome/card/
+EA83DDCC-6008-431A-A031-FD60B4677AF1664489552.275920;
+wO[_b7EU
+
+
+(#H
+JwO[_b}vu(	
+
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112
+?
+wO[_bi
+wO[_bS8F\Yg
+
+JwO[_bQ|
+A!e
+
+Mcom.apple.contact.people/
+wO[_bie
+JwO[_b>$
+wO[_bD]o
+
+JwO[_bX
+p`	k
+
+wO[_b`
+F09
+
+)9com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112=
+wO[_bw
+ T1g
+
+JwO[_b)
+rCG
+
+wO[_bpV
+C`com.apple.contact.people/
+,Fr
+
+JwO[_b
+
+wO[_btj
+wO[_b1uX
+
+xYcom.apple.contact.people/
+wO[_b>]Q
+
+wO[_bw#
+wO[_bvl[$_
+
+zwcom.apple.contact.people/
+Dv:T
+
+JwO[_bW	
+wO[_b0 d3l
+
+ClientCursor 
+
+wO[_bs8
+com.apple.suggestions.suggestd.cntosgcontacts( 
+=As*com.apple.contact.people/
+fv4
+
+com.apple.contact.people &
+rH,o
+wO[_bm
+ClientCursor!
+
+wO[_bMoPa7ho
+
+com.apple.suggestions.suggestd.cntosgcontacts(!
+yScom.apple.contact.people/
+wO[_b"`@r
+
+com.apple.contact.people!&
+JwO[_b41
+a'6<i
+
+ClientCursor"
+
+wO[_bo
+
+<1com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112=
+wO[_bm-H
+
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112"3
+kpd*
+
+ClientCursor#
+
+wO[_bab
+
+com.apple.suggestions.suggestd.cntosgcontacts(#
+=AjtYcom.apple.contact.people/
+com.apple.contact.people#&
+JwO[_bZY#f
+
+wO[_bj!
+ClientCursor$
+
+wO[_b/=
+
+com.apple.suggestions.suggestd.cntosgcontacts($
+=AUh
+,com.apple.contact.people/
+wO[_b@-Z
+
+com.apple.contact.people$&
+JwO[_bh
+[?N
+
+M}Ar
+
+ClientCursor%
+
+vR@v
+
+AVj
+wO[_bW\
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E4479112%3
+wO[_bz
+ClientCursor&
+
+com.apple.suggestions.suggestd.cntosgcontacts(&
+tr`com.apple.contact.people/
+wO[_bt!
+com.apple.contact.people&&
+JwO[_b7+
+
+wO[_b*
+
+
+ClientCursor'
+
+wO[_b2a
+com.apple.suggestions.suggestd.cntosgcontacts('
++com.apple.contact.people/
+com.apple.contact.people'&
+JwO[_bnaY
+4Yg
+
+ClientCursor(
+
+wO[_bv;v!
+
+com.apple.suggestions.suggestd.cntosgcontacts((
+=Ag9
+qA-~
+
+com.apple.contact.people(&
+JwO[_b%
+^UQ
+
+wO[_b1"|
+
+ClientCursor)
+
+wO[_bi&
+com.apple.suggestions.suggestd.cntosgcontacts()
+com.apple.contact.people)&
+JwO[_b0.Q
+wO[_bav
+ClientCursor*
+
+wO[_b&ba
+
+com.apple.suggestions.suggestd.cntosgcontacts(*
+	com.apple.contact.people/
+wO[_bu0PBC
+com.apple.contact.people*&
+JwO[_bsN)
+
+wO[_bjjM
+
+ClientCursor+
+
+6i;s
+
+com.apple.suggestions.suggestd.cntosgcontacts(+
+wO[_b4)mY
+
+com.apple.contact.people+&
+JwO[_bFY$
+wO[_bb
+
+ClientCursor,
+
+P>q
+
+com.apple.suggestions.suggestd.cntosgcontacts(,
+P^-com.apple.contact.people/
+com.apple.contact.people,&
+JwO[_beda
+
+wO[_bEt
+
+ClientCursor-
+
+wO[_b [
+2u\
+
+com.apple.suggestions.suggestd.cntosgcontacts(-
+com.apple.contact.people-&
+wO[_b[q
+
+ClientCursor.
+
+com.apple.suggestions.suggestd.cntosgcontacts(.
+wO[_bZ
+com.apple.contact.people.&
+JwO[_biW#N|
+
+#=Wi
+
+>
+
+
+
+JwO[_b2E
+com.apple.contact.people.
+wO[_bl#D
+
+ClientCursor/
+
+=APV
+wO[_bkhBO
+
+JwO[_b(
+wO[_b*;Ph
+
+ClientCursor0
+
+wO[_b
+d
+Sicom.apple.contact.people
+wO[_b,g
+com.apple.contact.people0
+JwO[_bX"
+fQ=1<U
+
+ClientCursor1
+
+wO[_br
+
+=Ahcom.apple.contact.people
+wO[_b	
+com.apple.contact.people1
+JwO[_bn{
+wO[_bj*p
+
+ClientCursor2
+
+$
+Q
+
+Acom.apple.contact.people
+wO[_bT
+com.apple.contact.people2
+wO[_bSj
+ClientCursor3
+
+wO[_b
+
+wO[_bu(
+	=!
+
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E447911233
+JwO[_b>Je)ED
+
+wO[_bE#jG
+
+ClientCursor4
+
+=A$S]com.apple.contact.people
+wO[_b\a3
+com.apple.contact.people4
+JwO[_brj
+ClientCursor5
+
+wO[_bVU^g
+
+=A
+9lcom.apple.contact.people
+wO[_btRle
+
+com.apple.contact.people5
+JwO[_b6
+wO[_be(+
+
+ClientCursor6
+
+wO[_bDFp	9
+
+\com.apple.contact.people
+wO[_bppu
+com.apple.contact.people6
+JwO[_bb
+ock#m=
+
+ClientCursor7
+
+=A_*8Y!com.apple.contact.people
+com.apple.contact.people7
+v|9
+
+wO[_b1
+ClientCursor8
+
+com.apple.suggestions.suggestd.cntosgcontacts(7
+wO[_b>ds
+com.apple.dataaccessd-B8CB629A-243F-4009-A064-7515E44791123
+com.apple.suggestions.suggestd.cntosgcontacts8
+@6=
+
+g
+A`L
+wO[_bA}
+>
+
+
+
+
+
+a#i?~
+
+ClientCursor9
+
+wO[_b]#Jn
+
+=AgBcom.apple.contact.people=8
+com.apple.contact.people93
+JwO[_bwY
+
+ClientCursor:
+
+[AT
+
+=AhEkcom.apple.contact.people=8
+wO[_bs:6
+
+com.apple.contact.people:3
+JwO[_b'jh
+
+b" Kt
+
+ClientCursor;
+
+=Ai7(
+Xcom.apple.contact.people=8
+x9j
+
+com.apple.contact.people;3
+JwO[_b>-9,
+ClientCursor<
+
+Pe_z
+
+'Gcom.apple.contact.people=8
+wO[_bgL@R
+
+com.apple.contact.people<3
+wO[_b]hv
+
+ClientCursor=
+
+wO[_bD.a
+
+=AjSNMcom.apple.contact.people=8
+7}D
+
+com.apple.contact.people=3
+JwO[_b
+sx

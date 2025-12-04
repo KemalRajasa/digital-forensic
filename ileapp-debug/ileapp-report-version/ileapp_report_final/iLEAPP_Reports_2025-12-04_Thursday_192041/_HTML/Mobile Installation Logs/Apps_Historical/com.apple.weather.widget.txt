@@ -1,0 +1,3 @@
+2022-01-10 12:30:08 Data container moved com.apple.weather.widget /private/var/mobile/Containers/Data/PluginKitPlugin/F9B7D887-8D3E-48A4-8504-B1835308C75F
+2022-01-10 12:30:08 Data container moved com.apple.weather.widget /private/var/mobile/Containers/Data/PluginKitPlugin/F9B7D887-8D3E-48A4-8504-B1835308C75F
+2022-01-06 17:41:27 Made container live com.apple.weather.widget /private/var/mobile/Containers/Data/PluginKitPlugin/B634FE9A-327E-4CFD-9CFA-CCE7A6D44023

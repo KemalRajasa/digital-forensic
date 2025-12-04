@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>store-version</key><string>1.0</string>
+  <key>store-client-application</key><string>Third-Party</string>
+  <key>available-subproducts</key>
+  <array>
+    <dict>
+      <key>item-id</key><integer>1539906427</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/lifetime-bumble-premium/id930441707</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>199.99</real>
+          <key>price-display</key><string>$199.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>com.moxco.bumbleprm.t72.1825</string>
+      <key>description</key><string>Lifetime Bumble Premium</string>
+      <key>title</key><string>Lifetime Bumble Premium</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1528597749</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/bumble-premium/id930441707</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>32.99</real>
+          <key>price-display</key><string>$32.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>com.moxco.bumbleprm1.t68.renew</string>
+      <key>description</key><string>Bumble Premium</string>
+      <key>title</key><string>Bumble Premium</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20676469</string>
+      <key>recurringSubscriptionPeriod</key><string>P1M</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>numOfPeriods</key><integer>0</integer>
+        </dict>
+        <dict>
+          <key>id</key><string>bl_to_bp_1_discounted_clusters</string>
+          <key>type</key><string>AdhocOffer</string>
+          <key>price</key><real>16.49</real>
+          <key>price-display</key><string>$16.49</string>
+          <key>modeType</key><string>PayAsYouGo</string>
+          <key>recurringSubscriptionPeriod</key><string>P1M</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1528605008</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/bumble-premium/id930441707</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>66.99</real>
+          <key>price-display</key><string>$66.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>com.moxco.bumbleprm3.t102.renew</string>
+      <key>description</key><string>Bumble Premium</string>
+      <key>title</key><string>Bumble Premium</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20676469</string>
+      <key>recurringSubscriptionPeriod</key><string>P3M</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>numOfPeriods</key><integer>0</integer>
+        </dict>
+        <dict>
+          <key>id</key><string>bl_to_bp_3_discounted_clusters</string>
+          <key>type</key><string>AdhocOffer</string>
+          <key>price</key><real>32.99</real>
+          <key>price-display</key><string>$32.99</string>
+          <key>modeType</key><string>PayAsYouGo</string>
+          <key>recurringSubscriptionPeriod</key><string>P3M</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+    <dict>
+      <key>item-id</key><integer>1528591327</integer>
+      <key>url</key><string>https://apps.apple.com/us/app/bumble-premium/id930441707</string>
+      <key>title2</key><string> </string>
+      <key>user-rating-count-string</key><string> </string>
+      <key>store-offers</key>
+      <dict>
+        <key>STDQ</key>
+        <dict>
+          <key>price</key><real>17.99</real>
+          <key>price-display</key><string>$17.99</string>
+          <key>asset-flavors</key>
+          <dict>
+            <key>iosiap</key>
+            <dict>
+            </dict>
+          </dict>
+        </dict>
+      </dict>
+      <key>type</key><string>software-subproduct</string>
+      <key>offerName</key><string>com.moxco.bumbleprm7d.t35.renew</string>
+      <key>description</key><string>Bumble Premium</string>
+      <key>title</key><string>Bumble Premium</string>
+      <key>is-hosted</key><false/>
+      <key>isFamilyShareable</key><false/>
+      <key>subscriptionFamilyId</key><string>20676469</string>
+      <key>recurringSubscriptionPeriod</key><string>P7D</string>
+      <key>discounts</key>
+      <array>
+        <dict>
+          <key>type</key><string>IntroOffer</string>
+          <key>numOfPeriods</key><integer>0</integer>
+        </dict>
+        <dict>
+          <key>id</key><string>bl_to_bp_7d_discounted_clusters</string>
+          <key>type</key><string>AdhocOffer</string>
+          <key>price</key><real>8.99</real>
+          <key>price-display</key><string>$8.99</string>
+          <key>modeType</key><string>PayAsYouGo</string>
+          <key>recurringSubscriptionPeriod</key><string>P1W</string>
+          <key>numOfPeriods</key><integer>1</integer>
+        </dict>
+      </array>
+      <key>icu-locale</key><string>en_US@currency=USD</string>
+    </dict>
+  </array>
+</dict>
+</plist>

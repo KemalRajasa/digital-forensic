@@ -1,0 +1,179 @@
+<style>
+	@media (max-width:767px)  {
+		footer .col-xs-12.col-sm-push-9  > ul{
+			margin-left:0!important;
+		}
+	}
+</style>
+<ul class="oo-feedback visible-xs hidden-print">
+<li>
+<div id=oo_feedback>
+</div>
+</li>
+</ul>
+<footer>
+<div class="footer_links hidden-print" id=footer_links>
+<div class=page-container>
+<div class=row>
+<style>
+footer .socialmedia li a {
+		background-image: url('https://media.tracfone.com/wps/wcm/connect/f0589335-6862-45b6-bb5a-edd2e637c43e/TW_Social_Icons_v1.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-f0589335-6862-45b6-bb5a-edd2e637c43e-mu4pBSE');
+	}
+footer .socialmedia li a.facebook {
+    background-position: 0 -63px !important;
+}
+footer .socialmedia li a.twitter {
+    background-position: 0 -114px !important;
+}
+footer .socialmedia li a.blog {
+    background-position: 0 -14px !important;
+}
+
+</style>
+<div class="col-sm-3 col-xs-12 col-sm-push-9">
+<div class="keepin-touch hidden-xs" id=keepin-touch-form></div>
+<div class="keepin-touch visible-xs" id=keepin-touch-form-mobile></div>
+<div class=socialmedia>
+<h5>connect with us</h5>
+<ul>
+<li><a href="http://www.facebook.com/totalwireless" target=_blank data-eventctx=facebook data-eventcta=facebook id=lnk_facebook class=facebook aria-label=facebook></a></li>
+<li><a href="https://twitter.com/TotalWireless" target=_blank data-eventctx=twitter data-eventcta=twitter id=lnk_twitter class=twitter aria-label=twitter></a></li>
+<li><a href="https://blog.totalwireless.com/" target=_blank data-eventctx=blog data-eventcta=blog id=lnk_blog class=blog aria-label=blog></a></li>
+</ul>
+</div>
+</div>
+<script type="text/javascript">
+(function () {
+window.setTimeout(function() {
+var e = document.createElement('script'); e.type = 'text/javascript'; e.async = true;
+e.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.lightboxcdn.com/vendor/1ee2a552-259b-434b-bea1-3d36b8481c81/lightbox_inline.js?mb=' + (new Date().getTime());
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s);
+}, 500);
+})();
+</script>
+<div class="col-sm-9 col-sm-pull-3 row"><div class="col-sm-4 col-xs-12 footer-border" role=navigation>
+<h4 class=title>ABOUT TOTAL WIRELESS</h4><ul><li id=footernav-Why>
+<a href="/why" id=lnk_whyTW data-eventctx="Why Total Wireless" data-eventcta="Why Total Wireless">why total wireless?</a>
+</li><li id="footernav-Coverage Map">
+<a href="/coverage/check" id=lnk_coveragemap data-eventctx="Coverage Map" data-eventcta="Coverage Map">view coverage map</a>
+</li><li id="footernav-How It Works">
+<a href="/how-it-works" id=lnk_howitworks data-eventctx="How It Works" data-eventcta="How It Works">learn how total wireless works</a>
+</li></ul>
+</div><div class="col-sm-4 col-xs-12 footer-border" role=navigation>
+<h4 class=title>CURRENT CUSTOMERS</h4><ul><li id="footernav-Activate My Phone">
+<a href="/activation/selectdevice" id=lnk_ActivateMyPhone_footer data-eventctx="Activate My Phone" data-eventcta="Activate My Phone">activate my phone</a>
+</li><li id="footernav-Activate My Hotspot">
+<a href="/activation/collectesn" target=_blank id=lnk_ActivateMyHotspot_footer data-eventctx="Activate My Hotspot" data-eventcta="Activate My Hotspot">activate my hotspot</a>
+</li><li id="footernav-Refill My Plan">
+<a href="/collectminpinpromo?session=reset" id=lnk_refill_footer data-eventctx="Refill My Plan" data-eventcta="Refill My Plan">refill my plan</a>
+</li><li id="footernav-Track My Order">
+<a href="https://shop.totalwireless.com/shop/TFOrderStatusForm?storeId=20003&amp;urlRequestType=Base&amp;langId=-1&amp;catalogId=12051" target=_blank id=lnk_trackorder_footer data-eventctx="Track My Order" data-eventcta="Track My Order">track my order</a>
+</li><li id="footernav-Get Support">
+<a href="/techsupport" id=lnk_getsupport_footer data-eventctx="Get Support" data-eventcta="Get Support">get support</a>
+</li><li id="footernav-Refer a Friend">
+<a href="https://rewards.totalwireless.com/referafriend" id=lnk_getsupport_footer data-eventctx="Get Support" data-eventcta="Get Support">refer a friend</a>
+</li></ul>
+</div><div class="col-sm-4 col-xs-12 footer-border" role=navigation>
+<h4 class=title>SHOP</h4><ul><li id="footernav-Airtime and Service Plans">
+<a href="/serviceplan?session=reset" id=lnk_airtimeplans_footer data-eventctx="Airtime Service Plans" data-eventcta="Airtime Service Plans">service plans</a>
+</li><li id=footernav-Phones>
+<a href="https://shop.totalwireless.com/shop/en/totalwireless/phones" target=_blank id=lnk_phones_footer data-eventctx="Shop Phones" data-eventcta="Shop Phones">phones</a>
+</li><li id="footernav-Bring Your Own Phone">
+<a href="/keep-your-own-phone" id=lnk_bringyourphone_footer data-eventctx="Bring Your Own Phone" data-eventcta="Bring Your Own Phone">bring your own phone</a>
+</li><li id=footernav-ild>
+<a href="/shop/ild" id=lnk_InternationalLongDistance_extras data-eventctx="International Long Distance" data-eventcta="International Long Distance" aria-label="Go to internal long distance page">international calling</a>
+</li><li id="footernav-Phone Payment Plan">
+<a href="https://shop.totalwireless.com/shop/en/totalwireless/lease-deals" target=_self id=lnk_payment_plan_footer data-eventctx="Payment Plan" data-eventcta="Payment Plan">phone payment plan</a>
+</li><li id="footernav-total wireless stores">
+<a href="https://locations.totalwireless.com/" target=_blank id=lnk_total_wireless_stores data-eventctx="total wireless stores" data-eventcta="total wireless stores">total wireless stores</a>
+</li></ul>
+</div></div>
+</div>
+</div>
+</div>
+<div class=TF_ST_trademark>
+<div class=page-container>
+<hr class=visible-print>
+<div class=col-xs-12>
+<img id=img_footerLogo class=img-responsive data-src="https://media.tracfone.com/wps/wcm/connect/cd00c398-52dd-481d-a0be-2359c799efa3/footer-tw-ic.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-cd00c398-52dd-481d-a0be-2359c799efa3-mg.t8AL" alt="Total Wireless Footer Logo">
+</div>
+<div class="col-xs-12 hidden-print">
+<ul class=terms><li id="footernav-ABOUT US">
+<a href="/why" id=lnk_aboutus_footer_misc data-eventctx="ABOUT US" data-eventcta="ABOUT US">about us</a>
+</li><li id=footernav-RETAILERS>
+<a href="/findastore" id=lnk_findastore_footer_misc data-eventctx=RETAILERS data-eventcta=RETAILERS>find a store</a>
+</li><li id="footernav-CONTACT US">
+<a href="/contactus" id=lnk_contactus_footer_misc data-eventctx="CONTACT US" data-eventcta="CONTACT US">contact us</a>
+</li><li id="footernav-totalwireless blog">
+<a href="https://blog.totalwireless.com/" target=_blank id="lnk_TOTALWIRELESS BLOG_footer_misc" data-eventctx="TOTALWIRELESS BLOG" data-eventcta="TOTALWIRELESS BLOG">totalwireless blog</a>
+</li><li id="footernav-HEARING AID COMPATIBILITY">
+<a href="https://shop.totalwireless.com/shop/en/totalwireless/phones/hearing-aid-compatibility" id=lnk_hearingaid_footer_misc data-eventctx="HEARING AID COMPATIBILITY" data-eventcta="HEARING AID COMPATIBILITY">hearing aid compatibility</a>
+</li><li id=footernav-SITEMAP>
+<a href="/sitemap" id=lnk_sitemap_footer_misc data-eventctx=SITEMAP data-eventcta=SITEMAP>site map</a>
+</li><li id="footernav-TERMS AND CONDITIONS">
+<a href="/termsandconditions" id=lnk_termsnconditions_footer_misc data-eventctx="TERMS AND CONDITIONS" data-eventcta="TERMS AND CONDITIONS">terms and conditions</a>
+</li><li id="footernav-5G FAQs">
+<a href="https://support.totalwireless.com/expresshelp/5g" id=lnk_termsnconditions_footer_misc data-eventctx="TERMS AND CONDITIONS" data-eventcta="TERMS AND CONDITIONS">5G FAQs</a>
+</li><li id="footernav-RETURN POLICY">
+<a href="/termsandconditions#returnpolicy" id=lnk_termsnconditions_footer_misc data-eventctx=returnpolicy data-eventcta=returnpolicy target=_self>return policy</a>
+</li><li id="footernav-PRIVACY POLICY">
+<a href="https://www.tracfonewirelessinc.com/en/Privacy+Policy/" id=lnk_privacypolicy_footer_misc data-eventctx="PRIVACY POLICY" data-eventcta="PRIVACY POLICY">privacy policy</a>
+</li><li id="footernav-CODE OF CONDUCT">
+<a href="https://www.tfethics.com/" id=lnk_codeofconduct_footer_misc data-eventctx="CODE OF CONDUCT" data-eventcta="CODE OF CONDUCT" target=_blank>code of conduct</a>
+</li><li id="footernav-UNLOCKING POLICY">
+<a href="http://www.tfwunlockpolicy.com/?lang=en" target=_blank id=lnk_unlockpolicy_footer_misc data-eventctx="UNLOCKING POLICY" data-eventcta="UNLOCKING POLICY">unlocking policy</a>
+</li><li id="footernav-BECOME A DEALER">
+<a href="https://www.tfdap.com/signup" target=_blank id=lnk_becomeadealer_footer_misc data-eventctx="BECOME A DEALER" data-eventcta="BECOME A DEALER">become a dealer</a>
+</li><li id="footernav-AFFILIATE PROGRAM">
+<a href="https://signup.cj.com/member/signup/publisher/?cid=4499568#/branded?_k=mir7de" target=_blank id=lnk_affiliateprogram_footer_misc data-eventctx="AFFILIATE PROGRAM" data-eventcta="AFFILIATE PROGRAM">affiliate program</a>
+</li><li id=footernav-ACCESSIBILITY>
+<a href="/accessibility" id=lnk_accessibility_footer_misc data-eventctx=ACCESSIBILITY data-eventcta=ACCESSIBILITY>accessibility</a>
+</li><li id="footernav-MOBILE IDENTITY PROTECTION">
+<a href="https://www.tracfonewirelessinc.com/en/ProtectingYourMobileIdentity/">mobile identity protection</a>
+</li><li id="footernav-CALIFORNIA PRIVACY POLICY">
+<a href="javascript:window.location=&#39;/ccpa/home&#39;" id=lnk_accessibility_footer_misc data-eventctx=ACCESSIBILITY data-eventcta=ACCESSIBILITY>california privacy policy</a>
+</li><li id="footernav-Do Not Sell">
+<a href="javascript:window.location=&#39;/ccpa/home?reqType=dns&#39;" id=lnk_unlockpolicy_footer_misc data-eventctx="UNLOCKING POLICY" data-eventcta="UNLOCKING POLICY">do not sell my personal information</a>
+</li></ul>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12">
+<script>
+$(document).ready(checkDataLabel);
+
+function checkDataLabel () {
+  if($( "#552" ).find("span:eq(5)").is(':visible')){ 
+    $( "#552" ).find("span:eq(5)").text("First 25GB of Data at High Speeds, then 2G**");
+  } else {
+    setTimeout(checkDataLabel, 50);
+  }
+}
+</script>
+<style>
+#footer {height:200px !important; padding-bottom:15px;}
+footer .socialmedia li a img{width:1px;height:1px; text-indent:999999999px;}
+</style>
+<p class="pt-md-4 t">&copy; <span id=year>{{year}}</span> Tracfone Wireless, Inc.</p>
+<p class=t data-lang-en="$80 savings when compared to the monthly cost of the comparable postpaid shared data 4-line plan of the leading carrier. Excludes taxes, fees, autopay discounts, and limited time pricing. Source: Competitor Websites, April 2021." data-lang-es="Ahorro de $80 cuando se compara con el costo mensual del plan de 4 líneas con datos compartidos pospago comparable del proveedor de servicio líder. No incluye impuestos, cargos, descuentos por pago automático ni precios por tiempo limitado. Fuente: Sitios web de la competencia, abril de 2021.">$80 savings when compared to the monthly cost of the comparable postpaid shared data 4-line plan of the leading carrier. Excludes taxes, fees, autopay discounts, and limited time pricing. Source: Competitor Websites, April 2021.</p>
+<p class=t data-lang-en="Certain restrictions apply. Total Wireless reserves the right to terminate your service for unauthorized or abnormal usage. Plan, features, coverage and limitations may vary. Please refer always to the latest Terms and Conditions of Service at TotalWireless.com." data-lang-es="Aplican ciertas restricciones. Total Wireless se reserva el derecho de terminar tu servicio por un uso no autorizado o anormal. Los planes, características, cobertura y limitaciones pueden variar. Por favor consulta siempre la versión más actualizada de los Términos y Condiciones del Servicio en TotalWireless.com.">Certain restrictions apply. Total Wireless reserves the right to terminate your service for unauthorized or abnormal usage. Plan, features, coverage and limitations may vary.<br>**Please refer always to the latest Terms and Conditions of Service at TotalWireless.com.</p>
+<p class=t data-lang-en="⁰ Cloud storage is only available with active service on the $50 plan. If you cancel your plan or downgrade to a lower-priced plan, then the cloud service will only be available for 45 additional days, during which time your data will only be accessible for downloading. After the 45‑day grace period, all your content will be deleted.">⁰ Cloud storage is only available with active service on the $50 plan. If you cancel your plan or downgrade to a lower-priced plan, then the cloud service will only be available for 45 additional days, during which time your data will only be accessible for downloading. After the 45‑day grace period, all your content will be deleted.</p>
+<p class=t data-lang-en="Friend must switch to Total Wireless and join our Rewards program. Each referral will give you enough reward points for a free $50 plan. Additional points are required for higher priced plans. Points earned through referral program are not immediately accessible and will take 60 days before they can be used." data-lang-es="Tu amigo debe cambiarse a Total Wireless y unirse a nuestro programa Rewards. Cada referencia te dará suficientes puntos rewards para un plan de $50 gratis. Se requieren puntos adicionales para los planes de mayor precio. No se puede acceder inmediatamente a los puntos ganados a través del programa de referencia y tardará 60 días antes de que puedan ser usados.">Friend must switch to Total Wireless and join our Rewards program. Each referral will give you enough reward points for a free $50 plan. Additional points are required for higher priced plans. Points earned through referral program are not immediately accessible and will take 60 days before they can be used.</p><p class=t data-lang-en="Reward Points can only be applied towards an eligible Total Wireless plan when you accumulate the total amount of points needed. Reward Points have no cash value and cannot be transferred to another customer. Additional terms and conditions apply." data-lang-es="Los Puntos Reward sólo se aplican a un Plan de Total Wireless elegible cuando usted acumula la cantidad total de puntos necesarios. Los Puntos Reward no tienen valor en efectivo y no pueden ser transferidos a otro cliente. Términos y Condiciones adicionales pueden aplicar.">Reward Points can only be applied towards an eligible Total Wireless plan when you accumulate the total amount of points needed. Reward Points have no cash value and cannot be transferred to another customer. Additional terms and conditions apply.</p><p class=t data-lang-en="* The 30-Day cycle for Shared Data Family Plans begins on the day the first line/device is activated. Any line(s)/device(s) activated later in the first 30-Day cycle will receive only the number of days remaining in that cycle. A month equals 30 days." data-lang-es="* El ciclo de 30 días de los Planes Familiares de Datos Compartidos comienza el día que se active la primera línea/dispositivo. Si el/la(s) otra(s) línea(s)/dispositivo(s) se activa(n) posteriormente dentro de los 30 días del ciclo, ese/esa(s) línea(s)/dispositivo(s) solo recibirá(n) los días restantes de ese primer ciclo de 30 días. Un mes equivale a 30 días.">* The 30-Day cycle for Shared Data Family Plans begins on the day the first line/device is activated. Any line(s)/device(s) activated later in the first 30-Day cycle will receive only the number of days remaining in that cycle. A month equals 30 days.</p>
+<p class=t data-lang-en="≈ On plans $35 and up. $35 Plan uses existing capped data allotment for hotspot. Plans $50 and up allocated up to 10GB of non-sharable capped data per line for hotspot usage, which is counted against their existing high speed data allotment. Data Add-On cards are incompatible with hotspot data usage. Hotspot is only available on compatible 4G LTE devices.">≈ On plans $35 and up. $35 Plan uses existing capped data allotment for hotspot. Plans $50 and up allocated up to 10GB of non-sharable capped data per line for hotspot usage, which is counted against their existing high speed data allotment. Data Add-On cards are incompatible with hotspot data usage. Hotspot is only available on compatible 4G LTE devices.</p>
+<p class=t data-lang-en="† 5G Nationwide available in 2,700+ cities. Capable device and SIM required. Actual availability, coverage and speed may vary. Visit totalwireless.com/coverage/check for more detailed coverage information.">† 5G Nationwide available in 2,700+ cities. Capable device and SIM required. Actual availability, coverage and speed may vary. Visit <a href="https://www.totalwireless.com/coverage/check">totalwireless.com/coverage/check</a> for more detailed coverage information.</p>
+<p class=t data-lang-en="∆ By texting keywords to 611611 you are consenting to receive response messages." data-lang-es="∆ Al enviar palabras clave al 611611, estás de acuerdo en recibir mensajes de respuesta.">∆ By texting keywords to 611611 you are consenting to receive response messages.</p>
+<p class=t data-lang-en="◊ Your leased device is covered by the Handset Protection plan during the lease term." data-lang-es="◊ Su dispositivo arrendado está cubierto por el plan de Handset Protection durante el término del arriendo.">◊ Your leased device is covered by the Handset Protection plan during the lease term.</p>
+<p class=t data-lang-en="When downloading this app, standard data rates may apply. Information may be transmitted with a delay and may not reflect actual balances." data-lang-es="Al descargar esta aplicación, pueden aplicar tarifas estándar de datos. La información puede ser transmitida con un retraso y puede no reflejar saldos reales.">When downloading this app, standard data rates may apply. Information may be transmitted with a delay and may not reflect actual balances.</p>
+<p class=t data-lang-en="∞ Credit card and Account required for enrollment." data-lang-es="∞ Se requiere una tarjeta de crédito y una Cuenta para la inscripción.">∞ Credit card and Account required for enrollment.</p>
+<p class=t data-lang-en="§ The $10 Global Calling Card must be combined with another Total Wireless Service Plan to work. International long distance service is available to select destinations only, which are subject to change at any time. Calls must originate from the US or Puerto Rico. No international roaming allowed. Only for personal use. Calls are billed in one-minute increments. Airtime minutes will be deducted plus the cost of the International call. Rates are subject to change without prior notice. Card benefit expires after 180 days of last use or 30 days after your service is suspended, whichever occurs first. Available online only." data-lang-es="§ La Tarjeta Global de Llamadas de $10 ($10 Global Calling Card) debe combinarse con otro Plan de Servicio de Total Wireless para que funcione. El servicio internacional está disponible para destinos determinados y está sujeto a cambios en cualquier momento.  Las llamadas deben originarse solamente en Estados Unidos, Puerto Rico o México. El roaming internacional no está permitido. Esta tarjeta es para uso personal únicamente. Las llamadas se facturan en incrementos de un minuto. Se deducirán minutos más el costo de la llamada internacional. Las tarifas están sujetas a cambios sin previo aviso. El beneficio de la tarjeta expira 180 días después de su último uso o 30 días después de que su Servicio se suspenda, lo que ocurra primero. Disponible en línea solamente.">§ The $10 Global Calling Card must be combined with another Total Wireless Service Plan to work. International long distance service is available to select destinations only, which are subject to change at any time. Calls must originate from the US or Puerto Rico. No international roaming allowed. Only for personal use. Calls are billed in one-minute increments. Airtime minutes will be deducted plus the cost of the International call. Rates are subject to change without prior notice. Card benefit expires after 180 days of last use or 30 days after your service is suspended, whichever occurs first. Available online only.</p>
+</div>
+</div>
+<div class=clearfix></div>
+</div>
+<div class=cd-overlay style="cursor: pointer;"></div>
+</footer>
+<script>
+setTimeout(function(){
+console.log("=========================================2");
+jQuery('#btn_emerconnect').remove();
+jQuery('#btn_phones').remove();
+},500);
+</script>

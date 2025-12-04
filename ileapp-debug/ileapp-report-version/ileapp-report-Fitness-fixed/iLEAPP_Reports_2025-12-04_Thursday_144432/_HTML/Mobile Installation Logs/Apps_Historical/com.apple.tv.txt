@@ -1,0 +1,12 @@
+2022-01-10 12:30:05 Data container moved com.apple.tv /private/var/mobile/Containers/Data/Application/B39E093C-0EE2-480D-8BDA-139CF14AC4C0
+2022-01-10 12:30:05 Made container live com.apple.tv /private/var/containers/Bundle/Application/FC9D9B88-97A6-4E66-AA9B-4F0B6F97ACB3
+2022-01-10 12:30:05 Install successful com.apple.tv 
+2022-01-10 12:30:05 Data container moved com.apple.tv /private/var/mobile/Containers/Data/Application/B39E093C-0EE2-480D-8BDA-139CF14AC4C0
+2022-01-10 12:30:05 Made container live com.apple.tv /private/var/containers/Bundle/Application/FC9D9B88-97A6-4E66-AA9B-4F0B6F97ACB3
+2022-01-10 12:30:05 Install successful com.apple.tv 
+2022-01-06 17:41:33 Made container live com.apple.tv /private/var/containers/Bundle/Application/737DEF30-B886-47A0-B532-03A8B74D2495
+2022-01-06 17:41:33 Install successful com.apple.tv 
+2022-01-06 17:41:33 Made container live com.apple.tv /private/var/containers/Bundle/Application/737DEF30-B886-47A0-B532-03A8B74D2495
+2022-01-06 17:41:33 Install successful com.apple.tv 
+2022-01-06 17:41:32 Made container live com.apple.tv /private/var/mobile/Containers/Data/Application/F2D07057-1E66-4344-A8CE-E2F29787F8DC
+2022-01-06 17:41:32 Made container live com.apple.tv /private/var/mobile/Containers/Data/Application/F2D07057-1E66-4344-A8CE-E2F29787F8DC

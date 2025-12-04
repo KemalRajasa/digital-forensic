@@ -1,0 +1,194 @@
+8e
+N
+L;BKb
+CSQLite format 3
+.S`
+
+
+
+z
+ktablesuccess_countsuccess_count
+CREATE TABLE success_count (
+event_type STRING PRIMARY KEY,
+success_count INTEGER,
+wrap_failure_count INTEGER
+)9
+indexsqlite_autoindex_success_count_1success_count
+Atriggermaintain_ring_buffer_all_eventsall_eventsCREATE TRIGGER maintain_ring_buffer_all_events AFTER INSERT ON all_events
+BEGIN
+DELETE FROM all_events WHERE id != NEW.id AND id % 999 = NEW.id % 999;
+ENDP
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq){
+Atableall_eventsall_events
+CREATE TABLE all_events (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+-Created664496525.618941
+RdT
+
+	Created
+esP
+
+>`'
+
+WSQLite format 3
+Atriggermaintain_ring_buffer_all_eventsall_eventsCREATE TRIGGER maintain_ring_buffer_all_events AFTER INSERT ON all_events
+BEGIN
+DELETE FROM all_events WHERE id != NEW.id AND id % 999 = NEW.id % 999;
+END
+C&~K
+#&Fq
+
+ttB
+
+<+X
+
+!-LastVacuum664496525.623485
+LastVacuum
+y/$M
+'
+SchemaVersion9A6C0FEAC24BA66D7789AED519B0BD177C05AA470FE6E01C907A569EE22F7CBB
+lmNE]
+SchemaVersion
+<&3
+
+bplist00
+	
+
+
+timeSinceLastLock_
+deviceIsPowered[productType_
+timeSinceLastUnlockYeventType^screenIsLocked[modelString_
+lightningCableType_
+lightningPrimaryPortNumber^productVersion_
+lightningDigitalIDXplatformYeventTime_
+unlockedSinceBootUbuild
+		ZiPhone10,1_
+accessoryCableTypeChanged
+UMX8H2
+V15.0.2\100C00000000ViPhone#BwR
+	V19A404
+!	all_events
+t$m
+
+accessoryDatabaseCounts
+~g6,
+
+;	accessoryDatabaseCounts
+tS$N
+
+#?upload_date2022-01-21T18:22:05-05:00Q
+upload_date
+S]SQLite format 3
+SQLite format 3
+sC8
+
+5dv
+
+8J'h
+
+L.[Ha
+
+!-LastVacuum666550091.548847
+8A_U2bplist00
+	ZiPhone10,1_
+accessoryCableTypeChanged	UMX8H2
+V15.0.2\10C000000000ViPhone#Bw'1;
+V19A404
+all_events
+ng71
+!<^
+
+#?upload_date2022-02-14T12:48:11-05:00Q
+c%*rl
+
+4
+J
+ZiPhone10,1
+V15.0.2\100C00000000ViPhone#Bw'2kh	V19A404
+@A_-Zbplist00
+V15.0.2\100C00000000ViPhone#Bw.
+Bv(,
+GTf
+
+B5]
+
+2/bplist00
+	ZiPhone10,1
+V15.0.2\10C000000000ViPhone#Bw"@	V19A404
+x/l
+
+#A;
+
+@AarKbplist00
+V15.0.2\10C000000000ViPhone#Bw+I	V19A404
+7:d
+
+0 ?
+
+~C#p
+
+8Agbplist00
+V15.0.2\10C000000000ViPhone#Bw:^
+M5
+
+6tb.O
+
+#?upload_date2022-02-14T13:59:25-05:00Q
+dr[-
+
+=Ab
+
+V15.0.2\10C000000000ViPhone#Bw:h	V19A404
+._{*
+
+R,SQLite format 3
+fSQLite format 3
+fe
+	u
+all_events	
+
+8e
+N
+V15.0.2\10C000000000ViPhone#Bw
+z	V19A404
+accessoryDatabaseCounts	
+.SQLite format 3
+all_events
+
+8Ai6k@bplist00
+"	V19A404
+accessoryDatabaseCounts
+
+ [1
+
+Pm:"SQLite format 3
+>-"#
+
+all_events
+4
+N
+vbplist00
+V15.0.2\10C000000000ViPhone#Bw?F
+"?0m
+accessoryDatabaseCounts
+:_x
+
+b?2r
+
+all_events
+8AjV
+~bplist00
+V15.0.2\10C000000000ViPhone#Bw__
+accessoryDatabaseCounts
+L7\A
+8AjV|bplist00
+V15.0.2\10C000000000ViPhone#Bw_	V19A404

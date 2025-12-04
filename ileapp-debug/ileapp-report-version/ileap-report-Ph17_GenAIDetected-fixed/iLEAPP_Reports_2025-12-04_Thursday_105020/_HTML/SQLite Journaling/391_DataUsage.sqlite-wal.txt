@@ -1,0 +1,520 @@
+XMgq
+
+3
+
+gYz
+
+
+Z	
+#		.
+fcom.apple.datausage.bluetoothbluetoothd/com.apple.datausage.bluetoothVP
+ARDiQAjVG
+com.apple.datausage.icloudcloudd/com.apple.datausage.icloud[=
+Dakcom.apple.datausage.generalappstored/com.apple.datausage.generalfN
+ARC~(AjJ
+^com.apple.datausage.itunesmediaitunescloudd/com.apple.datausage.itunesmediah.
+zAR
+@!Aj]com.apple.datausage.applepushserviceapsd/com.apple.datausage.applepushserviceIC
+DrAjQ
+%com.apple.AppStoreappstored/com.apple.AppStoreY*
+ARTAPcom.apple.datausage.locationtimed/com.apple.datausage.location]-
+EAR
+v}AjeTcom.apple.datausage.locationlocationd/com.apple.datausage.locationW)
+AQ2[Ak
+d3Ycom.apple.datausage.dnsmDNSResponder/com.apple.datausage.dnsPG
+AR%MAk
+com.apple.datausage.mapsgeod/com.apple.datausage.mapstT	
+.ARE:
+RAjO\
+com.apple.datausage.securitycom.apple.Safari.SafeBrowsing.Se/com.apple.datausage.securityPS
+%ARE4k8A_/jcom.apple.PreferencesPreferences/com.apple.PreferencesbR
+ARE+{
+ARFZcom.apple.datausage.securitypasswordbreachd/com.apple.datausage.securityRQ
+ARE'`RAh
+com.apple.datausage.siriparsecd/com.apple.datausage.siriTO
+NARDg
+URcom.apple.mobilesafarimDNSResponder/com.apple.mobilesafari\M
+|ARCGA_apcom.apple.datausage.siriassistant_service/com.apple.datausage.siriPL
+,ARCAjYw%com.apple.icloud.fmfdicloud.fmfd/com.apple.icloud.fmfd+K
+7AR@oA_/UCategoriesServiceUJ
+kAR:9r.A
+/ccom.apple.datausage.siriassistantd/com.apple.datausage.siriTH
+>AR'
+Dcom.apple.datausage.generalkbd/com.apple.datausage.generalAF
+AR%LAj
+hPcom.apple.newsNewsToday2/com.apple.news>E
+AR%-
+AR%~_com.apple.newsNewsTag/com.apple.newsDD
+
+AR$u
+Aj^com.apple.newsmDNSResponder/com.apple.newsYB
+CAf-com.apple.datausage.appleidcoreidvd/com.apple.datausage.appleidLA
+com.apple.AppStoremDNSResponder/com.apple.AppStoreX@
+
+ZARjifcom.apple.datausage.voicemailvmd/com.apple.datausage.voicemailc?
+AjBi
+com.apple.datausage.itunesmediawatchlistd/com.apple.datausage.itunesmedia\>
+[A^I4com.apple.datausage.itunesmediaatc/com.apple.datausage.itunesmediag<
+<A!g^PPcom.apple.datausage.findmyiphonesearchpartyd/com.apple.datausage.findmyiphone[;
+AjIcom.apple.datausage.mediaamsengagementd/com.apple.datausage.mediaV:
+Ag/com.apple.datausage.appleidpassd/com.apple.datausage.appleidi9
+A^T.com.apple.datausage.itunesaccountitunesstored/com.apple.datausage.itunesaccountw8	
+wWAfgcom.apple.datausage.softwareupdatesoftwareupdateservicesd/com.apple.datausage.softwareupdated7
++9A_-kcom.apple.datausage.securitymobileactivationd/com.apple.datausage.security:6
+-ART4com.apple.DiagnosticsSessionAvaiY5
+dA_com.apple.datausage.securitytrustd/com.apple.datausage.securityu4
+Ajsncom.apple.datausage.softwareupdateCommCenterMobileHelper/com.apple.datausage.softwareupdate^3
+1YAjJxwcom.apple.datausage.generalnsurlsessiond/com.apple.datausage.generalj2
+DAjUucom.apple.datausage.networkingnetworkserviceproxy/com.apple.datausage.networking[1
+KA^8azcom.apple.datausage.generalbookassetd/com.apple.datausage.general_0
+5dAk
+9com.apple.datausage.telephonyCommCenter/com.apple.datausage.telephonyS/
+%AR
+
+com.apple.datausage.safariswcd/com.apple.datausage.safarib,
+dAR
+$com.apple.datausage.appleididentityservicesd/com.apple.datausage.appleidT+
+hAR
+AjF{
+com.apple.datausage.appleidakd/com.apple.datausage.appleid
+X?'a
+
+
+
+r
+/C
+y:
+
+
+9
+
+		~	5
+V2AjJw!com.apple.datausage.iadpromotedcontentd/com.apple.datausage.iadR
+AWkcom.apple.springboardmDNSResponder/com.apple.springboardS
+CAX!
+!com.apple.mobilesafariMobileSafari/com.apple.mobilesafariU
+bNAjzOcom.apple.datausage.siriparsec-fbf/com.apple.datausage.siriT
+[4A,
+com.apple.datausage.mapsmapspushd/com.apple.datausage.maps;~
+Vccom.apple.MapsMaps/com.apple.MapsV}
+z3tA
+9)com.apple.datausage.searchsearchd/com.apple.datausage.searchN|
+AC'A
+Qcom.apple.mobilecalmDNSResponder/com.apple.mobilecal`{
+com.apple.datausage.securitytransparencyd/com.apple.datausage.security]z
+,A7)Ai&[hcom.apple.datausage.docsandsyncbird/com.apple.datausage.docsandsyncby
+A$A$com.apple.SafariViewServiceSafariViewService/com.apple.SafariViewService[x
+A$1A^=1com.apple.datausage.iadEnforcementService/com.apple.datausage.iadMw
+:com.apple.Translatetranslationd/com.apple.Translate^v
+A$A$}
+com.apple.SafariViewServicemDNSResponder/com.apple.SafariViewServiceNu
+com.apple.TranslatemDNSResponder/com.apple.Translate't
+
+	A$[.A
+m63com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPlugingeod/com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPluginCs
+A$[3A$
+com.apple.weathertrustd/com.apple.weatherDr
+A$[
+3A_*M
+com.apple.weatherWeather/com.apple.weather0q
+
+A$Z5+A
+3_com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPluginmDNSResponder/com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPluginQp
+ABw5A/
+com.apple.datausage.sirivoiced/com.apple.datausage.sirigo
+:A%h|A^o?1Dcom.apple.datausage.diagnosticsOTACrashCopier/com.apple.datausage.diagnosticsMn
+TA%g
+{A^qZcom.apple.AppStoreamsengagementd/com.apple.AppStore\m
+A_*pEcom.apple.datausage.homekitmediasetupd/com.apple.datausage.homekitNl
+com.apple.shortcutsmDNSResponder/com.apple.shortcutsGk
+QAjWA@com.apple.shortcutscloudd/com.apple.shortcuts;j
+yyAj2gcom.apple.Mapsgeod/com.apple.MapsEi
+A^`%>com.apple.weatherweatherd/com.apple.weather5h
+com.apple.WebKit.NetworkingYg
+Fcom.apple.datausage.mediaamsaccountsd/com.apple.datausage.media@f
+z9Ak
+com.apple.Mapsmapspushd/com.apple.Mapsbe
+l<uAP
+com.apple.datausage.telephonycallservicesd/com.apple.datausage.telephonyDd
+Y\Ak
+(com.apple.MapsmDNSResponder/com.apple.Mapsfb
+com.apple.datausage.diagnosticsrtcreportingd/com.apple.datausage.diagnosticsYa
+MwAPE.com.apple.datausage.mediamediaserverd/com.apple.datausage.mediaR`
+bcom.apple.PreferencesmDNSResponder/com.apple.PreferencesJ_
+aARW
+com.apple.weatherWeatherWidget/com.apple.weatherJ^
+xARUi	AjIIIcom.apple.weathermDNSResponder/com.apple.weatherA]
+)ARUg<Ah
+vcom.apple.weathergeod/com.apple.weather<\
+ARS7HAfa]
+com.apple.tipstipsd/com.apple.tipsb[
+ARPp1jAf`7]com.apple.datausage.usereducationtipsd/com.apple.datausage.usereducation"Z
+ARJ}ARK
+,weatherdYY
+ARJ|A_acom.apple.datausage.generalndoagent/com.apple.datausage.generalSX
+YARJ{B$Aj
+&com.apple.datausage.iadadprivacyd/com.apple.datausage.iadLW
+ARIp-
+nqcom.apple.mobilecaldataaccessd/com.apple.mobilecaldV
+	AREfA
+&Bcom.apple.datausage.docsandsyncdataaccessd/com.apple.datausage.docsandsyncbU
+QAREB=AX:
+com.apple.mobilesafaricom.apple.WebKit.Networking/com.apple.mobilesafari
+X0i3
+
+h
++	1
+_
+$
+
+
+I
+
+		@
+
+
+K
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+c
+>
+A.q
+A-mb>\".
+\b6T
+YARJ|NQ}%
+AmUg
+A0
+
+
+8g =
+ZARJ},
+RARE+L,
+(8l(`
+&N
+c
+#.3r
+EAR%+.
+qA$Z5
+sA$[34
+uA$|
+tA$[
+yA$mXG
+
+	'AQ
+Fsu7
+5
+
+{
+
+E
+i
+
+
+R			:
+Ajfcom.alltrails.AllTrailsAllTrails/com.alltrails.AllTrails`6
+Aje&a
+com.apple.datausage.siriassistant.assistantd/com.apple.datausage.siriBQ
+Aobcom.moxco.bumbleBumble/com.moxco.bumbleGB
+AV^	AU"r-com.reddit.RedditRedditApp/com.reddit.ReddithW
+rAjV
+com.apple.icloud.searchpartydicloud.searchpartyd/com.apple.icloud.searchpartydSV
+com.apple.datausage.sirisuggestd/com.apple.datausage.siriKU
+Vxcom.apple.mobilephonecloudd/com.apple.mobilephoneYT
+8S~AjJ/
+com.apple.datausage.sirisiriknowledged/com.apple.datausage.siriAS
+com.moxco.bumbletrustd/com.moxco.bumbleDR
+Aocom.moxco.bumbleappstored/com.moxco.bumbleHP
+
+Rcom.moxco.bumblemDNSResponder/com.moxco.bumblekO
+l>Abr
+com.apple.datausage.diagnosticssystem.diagnostics/com.apple.datausage.diagnosticsPN
+A-mbbAf&E
+com.apple.duetexpertdduetexpertd/com.apple.duetexpertdIM
+AzTAt
+com.atebits.Tweetie2trustd/com.atebits.Tweetie2OL
+uA^=dicom.alltrails.AllTrailstrustd/com.alltrails.AllTrailsYK
+A*Aa
+com.reddit.RedditNotificationServiceExtension/com.reddit.RedditJJ
+9com.apple.coreduetdcoreduetd/com.apple.coreduetddI
+AmIHAjfcom.alltrails.AllTrailscom.apple.WebKit.Networking/com.alltrails.AllTrailsRH
+Am
+3AjM[Mcom.alltrails.AllTrailsappstored/com.alltrails.AllTrailsVF
+WAmAj\	IAcom.alltrails.AllTrailsmDNSResponder/com.alltrails.AllTrailsJE
+AmVvAjN[com.atebits.Tweetie2Twitter/com.atebits.Tweetie2VD
+AX
+oA
+com.google.Gmailcom.apple.WebKit.Networking/com.google.GmailFC
+AVqJ
+ATcNcom.reddit.Redditappstored/com.reddit.RedditJA
+com.reddit.RedditmDNSResponder/com.reddit.RedditL@
+A%CA!-Bcom.atebits.Tweetie2appstored/com.atebits.Tweetie2c?
+A%klApcom.atebits.Tweetie2TwitterNotificationServiceExtens/com.atebits.Tweetie2P>
+#A%?AjMcom.atebits.Tweetie2mDNSResponder/com.atebits.Tweetie2V=
+\buAf}q}com.apple.appleaccountdappleaccountd/com.apple.appleaccountdi<
+>A|h^
+com.apple.datausage.itunesmediastorebookkeeperd/com.apple.datausage.itunesmediaQ;
+com.toyopagroup.picabooSnapchat/com.toyopagroup.picaboog:
+P"com.toyopagroup.picabooSnapchatNotificationServiceExt/com.toyopagroup.picabooV9
+AkbA
+M
+lcom.toyopagroup.picaboomDNSResponder/com.toyopagroup.picaboo@8
+.A"3A
+Fcom.google.GmailGmail/com.google.GmailH7
+Adcom.google.GmailmDNSResponder/com.google.GmailK5
+com.apple.AppStoremediaserverd/com.apple.AppStore^4
+%&com.apple.MobileAddressBookmDNSResponder/com.apple.MobileAddressBooke3
+c.bA
+kp.com.apple.ios.StoreKitUIServiceitunesstored/com.apple.ios.StoreKitUIServicej2
+com.apple.ios.StoreKitUIServiceStoreKitUIService/com.apple.ios.StoreKitUIServicef1
+com.apple.ios.StoreKitUIServicemDNSResponder/com.apple.ios.StoreKitUIServiceN0
+BIAN
+com.apple.remindersmDNSResponder/com.apple.remindersh/
+com.apple.datausage.findmyiphonefindmydeviced/com.apple.datausage.findmyiphoneV.
+(>.A^E
+com.apple.datausage.backupbackupd/com.apple.datausage.backupN-
+(8oA
+)0ycom.apple.shortcutsnsurlsessiond/com.apple.shortcuts\,
+com.apple.MobileAddressBookdataaccessd/com.apple.MobileAddressBookT+
+&AjJx.#com.apple.mobilesafarinsurlsessiond/com.apple.mobilesafari
+oK
+
+
+_>
+vT
+
+
+
+
+
+n
+M
+,
+			
+V	C	$	
+0AP R
+TA^=oa
+A^=
+
+
+kA^8
+AgljeSR
+
+cAP{
+K-APCz
+A^8A
+A^8X
+A^8O4a
+gAP
+Ah$i9
+Agw	7
+
+(A^5~y
+CAP
+Ag[yJE\v
+LO9 E
+Afg~7M 	
+8Afg; 
+%AffD
+Af_S.$
+Af.
+\Af(&
+{Af%9vq
+[Af#.
+6
+V`ya2
+Abp1S
+
+A`:ig
+
+dA_
+A_%W
+A_+Z
+6VQN
+A_G%		
+BA_>^k
+7A_-kF
+rA_*Kvu
+MA_+
+OA^uk
+nA^hF
+iA^`o%x
+oA^_X
+A^[,S
+XA^Xxl
+A^HE
+mA^Ib^8w
+A^=q
+A^=d
+A^=;
+A^<$x
+xA^<YV
+A^<s
+A^;?:6/!	
+A^9S
+	2A^8
+KA^8>
+QA^8_L
+A^8m+
+>A^8
+A^8|h
+]A^8FR|:L
+A^8+
+1A^8akK?
+A^8JK
+_A^79
+YA^8]
+
+NA^7V
+A^7i
+LA^8]^l
+SA^7W{|
+^A^7${G
+&PA^87
+:A^7
+3A^7
+A^6aR*
+`A^6
+A^6g;!
+AR2L
+.APd
+AAP
+-GAP
+"=AP
+aAPDb>5	
+eAPAbQ0
+#
+,AP
+i)AP
+4APq3
+&APJI
+6= tU_
+XmA5
+
+com.apple.datausage.generalappstored/com.apple.datausage.generalfN
+FAR
+v}Ak
+zcom.apple.datausage.locationlocationd/com.apple.datausage.locationW)
+com.apple.datausage.dnsmDNSResponder/com.apple.datausage.dnsPG
+R?com.apple.datausage.itunesmediawatchlistd/com.apple.datausage.itunesmedia\>
+X[G
+
+Vcom.apple.datausage.mediaamsaccountsd/com.apple.datausage.media@f
+XUcq
+
+X>c82
+
+L-APCz
+
+gAP
+#=AP
+j)AP
+com.apple.datausage.bluetoothbluetoothd/com.apple.datausage.bluetoothVP
+9com.apple.datausage.generalappstored/com.apple.datausage.generalfN
+DrAk
+com.apple.AppStoreappstored/com.apple.AppStoreY*
+GAR
+v}Ak
+com.apple.datausage.locationlocationd/com.apple.datausage.locationW)
+5com.apple.datausage.dnsmDNSResponder/com.apple.datausage.dnsPG
+AR%MAk
+\,com.apple.datausage.mapsgeod/com.apple.datausage.mapstT	
+iAR
+ncom.apple.datausage.appleidakd/com.apple.datausage.appleid
+V2Ak
+[$com.apple.datausage.iadpromotedcontentd/com.apple.datausage.iadR
+XS\
+
+kbB9p
+
+cAP{
+M-APCz
+?^ l
+
+CAP
+.GAP
+5, k
+$=AP
+
+k)AP
+WJYv
+jAR
+<com.apple.datausage.appleidakd/com.apple.datausage.appleid
+0)pA#
+
+8* k
+X-&t4G
+
+{AR
+@!Ak$
+Fcom.apple.datausage.applepushserviceapsd/com.apple.datausage.applepushserviceIC
+HAR
+v}Ak$*com.apple.datausage.locationlocationd/com.apple.datausage.locationW)
+AQ2[Ak$2}com.apple.datausage.dnsmDNSResponder/com.apple.datausage.dnsPG
+5dAk$
+com.apple.datausage.telephonyCommCenter/com.apple.datausage.telephonyS/
+
+0AP R
+N-APCz
+l)AP
+IAR
+v}Ak'#Ucom.apple.datausage.locationlocationd/com.apple.datausage.locationW)
+Xi*
+
+(XKb
+
+O-APCz
+X/v
+
+Ak'6
+|AR
+@!Ak'5com.apple.datausage.applepushserviceapsd/com.apple.datausage.applepushserviceIC
+JAR
+v}Ak'6ecom.apple.datausage.locationlocationd/com.apple.datausage.locationW)
+AQ2[Ak'6lcom.apple.datausage.dnsmDNSResponder/com.apple.datausage.dnsPG
+JZ^cka
+
+P-APCz
+m)AP
+X_?
+
+Ak)D
+DrAk(pcom.apple.AppStoreappstored/com.apple.AppStoreY*
+Xf2S%
+
+%=AP
+
+Ak*ZMcom.apple.datausage.generalappstored/com.apple.datausage.generalfN
+9R*
+
+&=AP
+=
+X =8
+
+AQ2[Ak+6
+com.apple.datausage.dnsmDNSResponder/com.apple.datausage.dnsPG
+vP
+
+n)AP
+Ak.8com.apple.datausage.generalappstored/com.apple.datausage.generalfN
+}AR
+@!Ak.
+com.apple.datausage.applepushserviceapsd/com.apple.datausage.applepushserviceIC
+KAR
+v}Ak.com.apple.datausage.locationlocationd/com.apple.datausage.locationW)
+Q-APCz
+'=AP
+_

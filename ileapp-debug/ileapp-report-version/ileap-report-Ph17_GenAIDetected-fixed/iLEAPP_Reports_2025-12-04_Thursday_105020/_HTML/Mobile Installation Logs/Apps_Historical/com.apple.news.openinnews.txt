@@ -1,0 +1,3 @@
+2022-01-10 12:28:39 Data container moved com.apple.news.openinnews /private/var/mobile/Containers/Data/PluginKitPlugin/8D6E9F26-6179-4538-AAF4-F796EA6977F6
+2022-01-10 12:28:39 Data container moved com.apple.news.openinnews /private/var/mobile/Containers/Data/PluginKitPlugin/8D6E9F26-6179-4538-AAF4-F796EA6977F6
+2022-01-06 17:41:32 Made container live com.apple.news.openinnews /private/var/mobile/Containers/Data/PluginKitPlugin/F90B1FC6-4B27-42C3-B787-C793D7F019E0

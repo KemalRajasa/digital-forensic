@@ -1,0 +1,9 @@
+2022-01-10 12:30:37 Made container live com.apple.Music /private/var/containers/Bundle/Application/64DD3919-6C8A-411B-9B80-21A9C9FDF9DF
+2022-01-10 12:30:37 Install successful com.apple.Music 
+2022-01-10 12:30:37 Made container live com.apple.Music /private/var/containers/Bundle/Application/64DD3919-6C8A-411B-9B80-21A9C9FDF9DF
+2022-01-10 12:30:37 Install successful com.apple.Music 
+2022-01-10 12:30:36 Data container moved com.apple.Music /private/var/mobile/Containers/Data/Application/BC97E272-F86E-48F8-9485-F9782C979B4F
+2022-01-10 12:30:36 Data container moved com.apple.Music /private/var/mobile/Containers/Data/Application/BC97E272-F86E-48F8-9485-F9782C979B4F
+2022-01-06 17:41:30 Install successful com.apple.Music 
+2022-01-06 17:41:29 Made container live com.apple.Music /private/var/mobile/Containers/Data/Application/57409277-DC41-4FC3-95F7-8A96FE48B3A5
+2022-01-06 17:41:29 Made container live com.apple.Music /private/var/containers/Bundle/Application/2F4E8BB9-A58B-42F5-B668-6B137F901E44

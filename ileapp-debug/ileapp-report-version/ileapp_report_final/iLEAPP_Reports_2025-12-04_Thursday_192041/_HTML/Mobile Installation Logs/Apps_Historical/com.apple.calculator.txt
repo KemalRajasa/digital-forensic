@@ -1,0 +1,9 @@
+2022-01-10 12:28:33 Data container moved com.apple.calculator /private/var/mobile/Containers/Data/Application/4696E02A-6FF8-4FF8-8D56-257CC5CAE402
+2022-01-10 12:28:33 Made container live com.apple.calculator /private/var/containers/Bundle/Application/14B7EE7F-BFE5-4B90-A81D-3181033F2A8E
+2022-01-10 12:28:33 Install successful com.apple.calculator 
+2022-01-10 12:28:33 Data container moved com.apple.calculator /private/var/mobile/Containers/Data/Application/4696E02A-6FF8-4FF8-8D56-257CC5CAE402
+2022-01-10 12:28:33 Made container live com.apple.calculator /private/var/containers/Bundle/Application/14B7EE7F-BFE5-4B90-A81D-3181033F2A8E
+2022-01-10 12:28:33 Install successful com.apple.calculator 
+2022-01-06 17:41:27 Made container live com.apple.calculator /private/var/mobile/Containers/Data/Application/CCAD3427-E32B-46F7-82E9-D108BC270B1A
+2022-01-06 17:41:27 Made container live com.apple.calculator /private/var/containers/Bundle/Application/18747DCC-925D-49C9-AD34-14D923E6EEAB
+2022-01-06 17:41:27 Install successful com.apple.calculator 

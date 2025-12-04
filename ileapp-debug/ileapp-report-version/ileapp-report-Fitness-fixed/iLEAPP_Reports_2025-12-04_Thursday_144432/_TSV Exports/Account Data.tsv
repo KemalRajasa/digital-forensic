@@ -1,0 +1,16 @@
+﻿Timestamp	Account Desc.	Username	Description	Identifier	Bundle ID
+2022-01-06 22:41:36+00:00	iTunes Store	local		94C3A69A-D750-45A7-A0B3-C4864415EF9D	locationd
+2022-01-10 17:28:21+00:00	iTunes Store (Sandbox)	local		310218E4-803E-47C3-833C-BCDBDB4EAFCF	appstored
+2022-01-10 17:29:45+00:00	Holiday Calendar		US Holidays	0337B33F-E053-4F90-8D20-2BE39BF255A6	dataaccessd
+2022-01-21 20:21:12+00:00	IDMS	pbentley0107@gmail.com		E521DAF8-2035-42E3-B7EC-A191E421B346	com.apple.AuthKit
+2022-01-21 20:21:12+00:00	Apple ID	pbentley0107@gmail.com		CB06A5C4-5930-454F-BF3B-282E652BF603	com.apple.AuthKit
+2022-01-21 20:21:15+00:00	Messages	pbentley0107@gmail.com		A68A1BF8-FEC5-416B-9C6D-B1169312EC6B	com.apple.Preferences
+2022-01-21 20:21:15+00:00	CloudKit	pbentley0107@gmail.com		2B05F520-6340-49F8-AC89-94A2ECB7359A	com.apple.accounts.accountsd
+2022-01-21 20:21:15+00:00	iCloud	pbentley0107@gmail.com	iCloud	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464	com.apple.Preferences
+2022-01-21 20:21:32+00:00	CalDAV			4C9814FE-344E-4B7C-839F-F98B92F4F6AE	com.apple.accounts.accountsd
+2022-01-21 20:21:32+00:00	IMAPNotes			E065780E-1093-4654-A700-8D60249CA7D6	com.apple.accounts.accountsd
+2022-01-21 20:21:32+00:00	CardDAV			B8CB629A-243F-4009-A064-7515E4479112	com.apple.accounts.accountsd
+2022-01-21 20:21:32+00:00	Device Locator	pbentley0107@gmail.com	iCloud - Device Locator	AD540383-AEEA-4D61-AE38-1137FE040165	com.apple.accountsd
+2022-01-21 20:21:32+00:00	Find My Friends	pbentley0107@gmail.com	iCloud - Find My Friends	36ADA330-1FF1-4CA6-81E3-A3290B04DD0B	com.apple.accountsd
+2022-01-21 20:21:36+00:00	Game Center	pbentley0107@gmail.com	pbentley0107@gmail.com	3A2D028F-D8BF-4943-82A4-08B93E125546	fmflocatord
+	iTunes Store	pbentley0107@gmail.com		7B39E9AE-045F-41D4-97A0-7F7E783F37BF	com.apple.accountsd

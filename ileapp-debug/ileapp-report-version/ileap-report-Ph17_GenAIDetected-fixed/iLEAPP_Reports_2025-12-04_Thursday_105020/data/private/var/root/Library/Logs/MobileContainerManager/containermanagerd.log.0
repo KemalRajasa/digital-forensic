@@ -1,0 +1,654 @@
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d773000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d773000) _containermanagerd_init: containermanagerd performing first boot initialization
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d773000) -[MCMMigrationStatus _migrateFromManyMarkerFilesToOneWithLibraryPath:]: Migrating from many marker files down to one
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d773000) -[MCMMigrationStatus isBuildUpgrade]: Did not find last build info; we must be upgrading from pre-9.3.1 or this is an erase install.
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d773000) -[MCMClientConnection _regenerateAllSystemContainerPaths]: Rolling system container directory UUIDs on disk
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d773000) -[MCMContainerMigrator _checkIfDeviceMayNeedSystemContainerACLMigration:]: No system containers requiring ACL migration
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d773000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 19A404 for ACLMigration
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d773000) -[MCMMigrationStatus writeCurrentBuildInfoToDisk]: Saved last build version of 19A404
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d7ff000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Thu Jan  6 14:40:54 2022 [71] <notice> (0x16d7ff000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Thu Jan  6 14:40:55 2022 [71] <notice> (0x16d88b000) -[MCMContainerMigrator performDataMigratorMigrationForClientConnection:withError:]: Performing Data Migration on 19A404
+Thu Jan  6 14:40:55 2022 [71] <notice> (0x16d88b000) -[MCMContainerMigrator _performBundleContainerOwnershipMigrationWithError:]: Changing ownership of bundle container content.
+Thu Jan  6 14:40:55 2022 [71] <notice> (0x16d88b000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 19A404 for BundleMigration
+Thu Jan  6 14:40:55 2022 [71] <notice> (0x16d88b000) -[MCMCodeSigningMapping migrateAppGroupIdsFromDataContainersToFile]: Performing group ID migration
+Thu Jan  6 14:40:55 2022 [71] <notice> (0x16d88b000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 19A404 for GroupIdMigration
+Thu Jan  6 14:40:55 2022 [71] <notice> (0x16d88b000) -[MCMCodeSigningMapping migrateCachedCodeSigningInfoFromBundleContainersToMapping]: Performing code signing migration
+Thu Jan  6 14:40:55 2022 [71] <notice> (0x16d88b000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 19A404 for CodeSigningMigration
+Thu Jan  6 14:40:55 2022 [71] <err> (0x16d88b000) -[MCMGroupManager _cleanupUnreferencedGroupContainersForUserIdentity:containerClass:referenceCounts:commandQueue:]: Removing group container [group.com.apple.Maps] for <501/501/501/0/1000> at <MCMContainerPath: 0x135e1b150; [<MCMContainerClassPath: 0x13680b8c0; [/private/var/mobile/Containers]/[Shared]/[AppGroup]>]/[46FE7446-8E8E-4BF2-93F1-2F3C137D1C1D]/[(null)]>
+Thu Jan  6 14:41:02 2022 [71] <err> (0x16d773000) server_get_process_containers: Invalid data container class for com.apple.mobilesafari: 0
+Thu Jan  6 14:41:02 2022 [71] <notice> (0x16d773000) server_get_process_containers: SB Type: 0, falling back to class: 2
+Thu Jan  6 17:41:05 2022 [71] <err> (0x16d7ff000) server_get_process_containers: Invalid data container class for com.apple.Maps: 0
+Thu Jan  6 17:41:05 2022 [71] <notice> (0x16d7ff000) server_get_process_containers: SB Type: 0, falling back to class: 2
+Thu Jan  6 17:41:34 2022 [71] <notice> (0x16d88b000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]: Container data migration requested by com.apple.migrationpluginwrapper for default user: (501|mobile|/private/var/mobile)
+Thu Jan  6 17:41:34 2022 [71] <notice> (0x16d88b000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]_block_invoke: Performing Per User Subdirectory Migration for <MCMUserIdentity: 0x135e15030; posixUser = (501|mobile|/private/var/mobile), identifier = 501, personaType = personal, personaUniqueString = 3862409B-690E-4050-8366-17BEA2AA555B, kernelPersonaID = 1000> on 19A404
+Thu Jan  6 17:41:34 2022 [71] <notice> (0x16d88b000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]_block_invoke: Completed Per User Subdirectory Migration for <MCMUserIdentity: 0x135e15030; posixUser = (501|mobile|/private/var/mobile), identifier = 501, personaType = personal, personaUniqueString = 3862409B-690E-4050-8366-17BEA2AA555B, kernelPersonaID = 1000> on 19A404 : Success: Y
+Thu Jan  6 17:41:34 2022 [71] <notice> (0x16d88b000) -[MCMMigrationStatus setMigrationCompleteForType:]: Migration completed on 19A404 for SubdirectoryMigration
+Thu Jan  6 17:41:34 2022 [71] <notice> (0x16d88b000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]_block_invoke: Performing User Data Protection Migration for <MCMUserIdentity: 0x135e15030; posixUser = (501|mobile|/private/var/mobile), identifier = 501, personaType = personal, personaUniqueString = 3862409B-690E-4050-8366-17BEA2AA555B, kernelPersonaID = 1000> on 19A404
+Thu Jan  6 17:41:34 2022 [71] <notice> (0x16d88b000) -[MCMContainerMigrator performPerUserDataMigrationForClientConnection:withError:]_block_invoke: Completed User Data Protection Migration for <MCMUserIdentity: 0x135e15030; posixUser = (501|mobile|/private/var/mobile), identifier = 501, personaType = personal, personaUniqueString = 3862409B-690E-4050-8366-17BEA2AA555B, kernelPersonaID = 1000> on 19A404 : Success: Y
+Mon Jan 10 12:26:34 2022 [70] <notice> (0x16d507000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Mon Jan 10 12:26:35 2022 [70] <notice> (0x16d507000) _containermanagerd_init: containermanagerd performing first boot initialization
+Mon Jan 10 12:26:35 2022 [70] <notice> (0x16d507000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Mon Jan 10 12:26:26 2022 [70] <notice> (0x16d593000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Mon Jan 10 12:26:26 2022 [70] <notice> (0x16d737000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Mon Jan 10 12:28:29 2022 [70] <err> (0x16d507000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 2;
+    MCMMetadataIdentifier = "com.apple.Magnifier";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "0D673E67-EB12-432C-844E-6339451CD175";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44 : /private/var/mobile/Containers/Data/VPNPlugin/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44 : /private/var/mobile/Containers/Data/VPNPlugin/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Mon Jan 10 12:28:29 2022 [70] <err> (0x16d507000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 2;
+    MCMMetadataIdentifier = "com.apple.Magnifier";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "0D673E67-EB12-432C-844E-6339451CD175";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x10f0226b0 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44 : /private/var/mobile/Containers/Data/VPNPlugin/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44 : /private/var/mobile/Containers/Data/VPNPlugin/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 2;
+    MCMMetadataIdentifier = "com.apple.Magnifier";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "0D673E67-EB12-432C-844E-6339451CD175";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Mon Jan 10 12:28:40 2022 [70] <err> (0x16d507000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.news.tag: (21) CONTAINER_NOT_FOUND
+Mon Jan 10 12:28:40 2022 [70] <err> (0x16d593000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.news.widget: (21) CONTAINER_NOT_FOUND
+Wed Jan 12 17:18:14 2022 [70] <notice> (0x16dcb7000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Wed Jan 12 17:18:14 2022 [70] <notice> (0x16dcb7000) _containermanagerd_init: containermanagerd performing first boot initialization
+Wed Jan 12 17:18:14 2022 [70] <notice> (0x16dcb7000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Wed Jan 12 17:18:28 2022 [70] <err> (0x16e08b000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Wed Jan 12 17:18:28 2022 [70] <err> (0x16e08b000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x15f815040 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Wed Jan 12 17:18:28 2022 [70] <err> (0x16e08b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.news.widget: (21) CONTAINER_NOT_FOUND
+Wed Jan 12 17:18:34 2022 [70] <notice> (0x16ddcf000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Wed Jan 12 17:18:34 2022 [70] <notice> (0x16ddcf000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Wed Jan 12 17:20:06 2022 [70] <err> (0x16dcb7000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 2;
+    MCMMetadataIdentifier = "com.apple.Bridge";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "99F94DC9-A37B-4744-A04E-0DDD13298B03";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A : /private/var/mobile/Containers/Data/VPNPlugin/D6263E91-4F92-46F4-81E3-439F298B2C9A" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A : /private/var/mobile/Containers/Data/VPNPlugin/D6263E91-4F92-46F4-81E3-439F298B2C9A, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Wed Jan 12 17:20:06 2022 [70] <err> (0x16dcb7000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 2;
+    MCMMetadataIdentifier = "com.apple.Bridge";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "99F94DC9-A37B-4744-A04E-0DDD13298B03";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x15f811140 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A : /private/var/mobile/Containers/Data/VPNPlugin/D6263E91-4F92-46F4-81E3-439F298B2C9A" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A : /private/var/mobile/Containers/Data/VPNPlugin/D6263E91-4F92-46F4-81E3-439F298B2C9A, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 2;
+    MCMMetadataIdentifier = "com.apple.Bridge";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "99F94DC9-A37B-4744-A04E-0DDD13298B03";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Wed Jan 12 17:35:28 2022 [70] <err> (0x16dcb7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Jan 12 19:00:21 2022 [70] <err> (0x16dcb7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Thu Jan 13 11:03:42 2022 [70] <notice> (0x16b247000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Thu Jan 13 11:03:42 2022 [70] <notice> (0x16b247000) _containermanagerd_init: containermanagerd performing first boot initialization
+Thu Jan 13 11:03:42 2022 [70] <notice> (0x16b247000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Thu Jan 13 11:03:56 2022 [70] <err> (0x16b61b000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Thu Jan 13 11:03:56 2022 [70] <err> (0x16b61b000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x10520f780 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Thu Jan 13 11:03:56 2022 [70] <err> (0x16b61b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.news.widget: (21) CONTAINER_NOT_FOUND
+Thu Jan 13 11:03:59 2022 [70] <notice> (0x16b2d3000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Thu Jan 13 11:03:59 2022 [70] <notice> (0x16b2d3000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Fri Jan 14 19:08:39 2022 [70] <notice> (0x16f1e7000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Fri Jan 14 19:08:39 2022 [70] <notice> (0x16f1e7000) _containermanagerd_init: containermanagerd performing first boot initialization
+Fri Jan 14 19:08:39 2022 [70] <notice> (0x16f1e7000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Fri Jan 14 19:08:54 2022 [70] <err> (0x16f273000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Fri Jan 14 19:08:54 2022 [70] <err> (0x16f273000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x101327540 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Fri Jan 14 19:08:54 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.news.widget: (21) CONTAINER_NOT_FOUND
+Fri Jan 14 19:08:59 2022 [70] <notice> (0x16f2ff000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Fri Jan 14 19:08:59 2022 [70] <notice> (0x16f2ff000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Fri Jan 14 19:19:26 2022 [70] <err> (0x16f1e7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sat Jan 15 19:00:57 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sun Jan 16 19:00:39 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Jan 17 19:00:54 2022 [70] <err> (0x16f1e7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Tue Jan 18 19:01:32 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Jan 19 10:04:52 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Jan 19 10:05:50 2022 [70] <err> (0x16f1e7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Jan 19 10:10:44 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Jan 19 19:01:33 2022 [70] <err> (0x16f1e7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Jan 19 22:12:51 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Jan 19 22:12:56 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Thu Jan 20 19:07:02 2022 [70] <err> (0x16f1e7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Fri Jan 21 15:21:41 2022 [70] <err> (0x16f273000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.news.widget: (21) CONTAINER_NOT_FOUND
+Fri Jan 21 16:27:11 2022 [70] <err> (0x16f1e7000) -[MCMClientConnection createOrLookupContainerWithContainerIdentity:createIfNecessary:transient:useLocking:updateLinks:withError:]: 858: com.google.Gmail not entitled to retrieve container class 7 with identifier group.com.google.common.enterprise
+Fri Jan 21 17:21:34 2022 [1300] <notice> (0x16f83b000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Fri Jan 21 17:21:34 2022 [1300] <notice> (0x16f9df000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Fri Jan 21 17:28:20 2022 [1300] <err> (0x16f83b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Fri Jan 21 19:08:26 2022 [1300] <err> (0x16f8c7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sat Jan 22 19:13:56 2022 [1300] <err> (0x16f8c7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sun Jan 23 19:01:25 2022 [1300] <err> (0x16f83b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Jan 24 19:17:37 2022 [1300] <err> (0x16f8c7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Tue Jan 25 19:03:16 2022 [1300] <err> (0x16f83b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Thu Jan 27 16:07:17 2022 [70] <notice> (0x16ef5b000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Thu Jan 27 16:07:17 2022 [70] <notice> (0x16ef5b000) _containermanagerd_init: containermanagerd performing first boot initialization
+Thu Jan 27 16:07:17 2022 [70] <notice> (0x16ef5b000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Thu Jan 27 16:07:30 2022 [70] <notice> (0x16efe7000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Thu Jan 27 16:07:30 2022 [70] <notice> (0x16efe7000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Thu Jan 27 16:07:44 2022 [70] <err> (0x16f0ff000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Thu Jan 27 16:07:44 2022 [70] <err> (0x16f0ff000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x101706700 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Thu Jan 27 16:18:55 2022 [70] <err> (0x16efe7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Thu Jan 27 19:00:51 2022 [70] <err> (0x16ef5b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Fri Jan 28 19:00:23 2022 [70] <err> (0x16efe7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sat Jan 29 19:06:42 2022 [70] <err> (0x16ef5b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sat Jan 29 20:56:32 2022 [70] <err> (0x16ef5b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.news.widget: (21) CONTAINER_NOT_FOUND
+Sat Jan 29 21:18:19 2022 [70] <err> (0x16efe7000) -[MCMClientConnection createOrLookupContainerWithContainerIdentity:createIfNecessary:transient:useLocking:updateLinks:withError:]: 858: com.google.Gmail not entitled to retrieve container class 7 with identifier group.com.google.common.enterprise
+Sat Jan 29 21:18:20 2022 [70] <err> (0x16efe7000) -[MCMClientConnection createOrLookupContainerWithContainerIdentity:createIfNecessary:transient:useLocking:updateLinks:withError:]: 858: com.google.Gmail not entitled to retrieve container class 7 with identifier group.com.google.common.enterprise
+Sat Jan 29 21:18:20 2022 [70] <err> (0x16efe7000) -[MCMClientConnection createOrLookupContainerWithContainerIdentity:createIfNecessary:transient:useLocking:updateLinks:withError:]: 858: com.google.Gmail not entitled to retrieve container class 7 with identifier group.com.google.common.enterprise
+Sun Jan 30 19:00:07 2022 [70] <err> (0x16f073000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Jan 31 19:06:23 2022 [70] <err> (0x16ef5b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Tue Feb  1 19:00:09 2022 [70] <err> (0x16ef5b000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Feb  2 19:00:15 2022 [70] <err> (0x16efe7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Thu Feb  3 12:04:59 2022 [70] <notice> (0x16d4cb000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Thu Feb  3 12:04:59 2022 [70] <notice> (0x16d4cb000) _containermanagerd_init: containermanagerd performing first boot initialization
+Thu Feb  3 12:04:59 2022 [70] <notice> (0x16d4cb000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Thu Feb  3 12:05:18 2022 [70] <notice> (0x16d557000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Thu Feb  3 12:05:18 2022 [70] <notice> (0x16d557000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Thu Feb  3 12:06:57 2022 [70] <err> (0x16d89f000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Thu Feb  3 12:06:57 2022 [70] <err> (0x16d89f000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x103c052f0 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Thu Feb  3 19:04:39 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Fri Feb  4 19:03:26 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sat Feb  5 19:05:57 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sun Feb  6 16:14:18 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sun Feb  6 16:15:55 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sun Feb  6 16:17:03 2022 [70] <err> (0x16d557000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Sun Feb  6 19:15:06 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Feb  7 19:11:33 2022 [70] <err> (0x16d557000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Tue Feb  8 19:07:23 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Feb  9 01:25:04 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Feb  9 01:27:49 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Feb  9 01:27:55 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Wed Feb  9 19:08:50 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Thu Feb 10 19:09:34 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Fri Feb 11 19:11:08 2022 [70] <err> (0x16d4cb000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Feb 14 09:41:52 2022 [70] <notice> (0x16b4f7000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Mon Feb 14 09:41:52 2022 [70] <notice> (0x16b4f7000) _containermanagerd_init: containermanagerd performing first boot initialization
+Mon Feb 14 09:41:52 2022 [70] <notice> (0x16b4f7000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Mon Feb 14 09:42:05 2022 [70] <notice> (0x16b583000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Mon Feb 14 09:42:05 2022 [70] <notice> (0x16b583000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Mon Feb 14 09:42:20 2022 [70] <err> (0x16b4f7000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Mon Feb 14 09:42:20 2022 [70] <err> (0x16b4f7000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x12b30ae60 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215 : /private/var/mobile/Containers/Data/Application/608A49B0-6B56-4A61-ABB9-76E8DE0EB215, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.reddit.Reddit.NotificationServiceExtension";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.reddit.Reddit";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "C148C2B4-E17A-4366-879E-4796D156B6C0";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Mon Feb 14 09:53:21 2022 [70] <err> (0x16b4f7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Feb 14 11:54:00 2022 [70] <err> (0x16b583000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Feb 14 11:54:06 2022 [70] <err> (0x16b4f7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Feb 14 11:55:10 2022 [70] <err> (0x16b4f7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Feb 14 11:55:14 2022 [70] <err> (0x16b4f7000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Feb 14 12:46:09 2022 [70] <err> (0x16b583000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.nonContainerUserManagedAssets: (21) CONTAINER_NOT_FOUND
+Mon Feb 14 12:58:41 2022 [70] <notice> (0x16dd43000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Mon Feb 14 12:58:41 2022 [70] <notice> (0x16dd43000) _containermanagerd_init: containermanagerd performing first boot initialization
+Mon Feb 14 12:58:41 2022 [70] <notice> (0x16dd43000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Mon Feb 14 12:58:51 2022 [70] <notice> (0x16ddcf000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Mon Feb 14 12:58:51 2022 [70] <notice> (0x16ddcf000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Mon Feb 14 13:03:21 2022 [70] <notice> (0x16ee93000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Mon Feb 14 13:03:21 2022 [70] <notice> (0x16ee93000) _containermanagerd_init: containermanagerd performing first boot initialization
+Mon Feb 14 13:03:21 2022 [70] <notice> (0x16ee93000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Mon Feb 14 13:03:31 2022 [70] <notice> (0x16ef1f000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Mon Feb 14 13:03:31 2022 [70] <notice> (0x16ef1f000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Mon Feb 14 13:08:21 2022 [70] <notice> (0x16d51f000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Mon Feb 14 13:08:21 2022 [70] <notice> (0x16d51f000) _containermanagerd_init: containermanagerd performing first boot initialization
+Mon Feb 14 13:08:21 2022 [70] <notice> (0x16d51f000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Mon Feb 14 13:08:32 2022 [70] <notice> (0x16d637000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Mon Feb 14 13:08:32 2022 [70] <notice> (0x16d637000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Mon Feb 14 13:16:31 2022 [70] <notice> (0x16d21f000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Mon Feb 14 13:16:31 2022 [70] <notice> (0x16d21f000) _containermanagerd_init: containermanagerd performing first boot initialization
+Mon Feb 14 13:16:31 2022 [70] <notice> (0x16d21f000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Mon Feb 14 13:16:49 2022 [70] <err> (0x16d21f000) +[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:]: 199: Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+} (Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]})
+Mon Feb 14 13:16:49 2022 [70] <err> (0x16d21f000) -[MCMContainerCache _lock_metadataFromSandboxForContainerIdentity:]: Could not validate container from Sandbox-provided path [/private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03]; error = Error Domain=MCMErrorDomain Code=12 "Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}" UserInfo={NSUnderlyingError=0x13b824430 {Error Domain=MCMErrorDomain Code=29 "Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03" UserInfo={SourceFileLine=370, NSLocalizedDescription=Invalid metadata-URLs should match: /private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03 : /private/var/mobile/Containers/Data/Application/3A99FF3D-86E1-441F-9AA2-93175AF2DD03, FunctionName=+[MCMMetadata _readAndValidateMetadataInDictionary:containerURL:forUserIdentity:containerClass:checkClassPath:fsNode:transient:error:]}}, FunctionName=+[MCMMetadata readAndValidateMetadataAtFileUrl:forUserIdentity:containerClass:checkClassPath:transient:error:], SourceFileLine=199, NSLocalizedDescription=Failed to validate metadata at URL [file:///private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03/.com.apple.mobile_container_manager.metadata.plist]: {
+    MCMMetadataActiveDPClass = 0;
+    MCMMetadataContentClass = 4;
+    MCMMetadataIdentifier = "com.apple.news.widget";
+    MCMMetadataInfo =     {
+        "com.apple.MobileInstallation.ContentProtectionClass" = 0;
+        "com.apple.MobileInstallation.ParentBundleID" = "com.apple.news";
+    };
+    MCMMetadataSchemaVersion = 1;
+    MCMMetadataUUID = "1D49BC81-ECE2-48EA-9D01-603681E30417";
+    MCMMetadataUserIdentity =     {
+        personaUniqueString = "3862409B-690E-4050-8366-17BEA2AA555B";
+        posixGID = 501;
+        posixUID = 501;
+        type = 0;
+        version = 2;
+    };
+    MCMMetadataVersion = 6;
+}}
+Mon Feb 14 13:16:49 2022 [70] <err> (0x16d337000) -[MCMClientConnection userManagedAssetsPathWithContainerIdentity:isRelative:createIfNecessary:existed:withError:]: 2509: Failed to create app data container for user managed assets path for com.apple.news.widget: (21) CONTAINER_NOT_FOUND
+Mon Feb 14 13:16:54 2022 [70] <notice> (0x16d2ab000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Mon Feb 14 13:16:54 2022 [70] <notice> (0x16d2ab000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Mon Feb 14 13:18:30 2022 [70] <notice> (0x16b22f000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Mon Feb 14 13:18:30 2022 [70] <notice> (0x16b22f000) _containermanagerd_init: containermanagerd performing first boot initialization
+Mon Feb 14 13:18:30 2022 [70] <notice> (0x16b22f000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Mon Feb 14 13:18:40 2022 [70] <notice> (0x16b347000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Mon Feb 14 13:18:40 2022 [70] <notice> (0x16b347000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete
+Mon Feb 14 13:25:48 2022 [87] <notice> (0x16d403000) _containermanagerd_init: containermanagerd (MobileContainerManager-382.0.15~290) built at Sep 29 2021 08:52:03 started
+Mon Feb 14 13:25:48 2022 [87] <notice> (0x16d403000) _containermanagerd_init: containermanagerd performing first boot initialization
+Mon Feb 14 13:25:48 2022 [87] <notice> (0x16d403000) -[MCMMigrationStatus isBuildUpgrade]: Current build version (19A404 / (null)) equal to last version recorded (19A404 / (null)); skipping upgrade
+Mon Feb 14 13:25:57 2022 [87] <notice> (0x16d48f000) _containermanagerd_init_block_invoke: containermanagerd first boot cleanup complete
+Mon Feb 14 13:25:57 2022 [87] <notice> (0x16d48f000) _containermanagerd_init_block_invoke: containermanagerd cleanup complete

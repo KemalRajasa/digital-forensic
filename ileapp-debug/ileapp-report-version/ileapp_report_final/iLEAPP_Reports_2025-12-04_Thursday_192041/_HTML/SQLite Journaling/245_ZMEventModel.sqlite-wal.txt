@@ -1,0 +1,18 @@
+p43 c
+
+Uh5FE1287D-F806-4C76-BA0F-72FE869972A4bplist00
+	
+
+NSStoreModelVersionIdentifiers[NSStoreType_
+ zm_previouslyReceivedEventIDsKey_
+_NSAutoVacuumLevel_
+NSStoreModelVersionHashesDigest_
+NSPersistenceFrameworkVersion_
+NSStoreModelVersionHashes_
+ NSStoreModelVersionHashesVersion
+PVSQLiteQ2_
+XHDzdji95tOpkM3BzA3RB2K9CM8wnbc1jZNI+vUeGbH9EIUrkHactmn2zMZPVAZLWUt8H8OmJNn5Bsp9Rzc+1ag==
+StoredUpdateEventO
+?F
+ID
+PsR,

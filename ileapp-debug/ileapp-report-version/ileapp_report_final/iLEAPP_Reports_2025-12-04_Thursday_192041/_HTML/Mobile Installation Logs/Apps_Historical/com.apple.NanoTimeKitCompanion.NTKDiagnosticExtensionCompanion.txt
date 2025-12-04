@@ -1,0 +1,1 @@
+2022-01-06 17:41:05 Made container live com.apple.NanoTimeKitCompanion.NTKDiagnosticExtensionCompanion /private/var/mobile/Containers/Data/PluginKitPlugin/0B673FF5-D87C-4091-8633-45E45E45FEB6

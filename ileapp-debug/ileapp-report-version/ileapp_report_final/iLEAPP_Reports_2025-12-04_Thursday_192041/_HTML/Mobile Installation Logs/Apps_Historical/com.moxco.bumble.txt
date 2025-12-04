@@ -1,0 +1,12 @@
+2022-01-21 15:44:04 Data container moved com.moxco.bumble /private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34
+2022-01-21 15:44:04 Made container live com.moxco.bumble /private/var/containers/Bundle/Application/77F6EDF4-341B-403B-9FD1-76F1C0461D97
+2022-01-21 15:44:04 Install successful com.moxco.bumble 
+2022-01-21 15:44:04 Data container moved com.moxco.bumble /private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34
+2022-01-21 15:44:04 Made container live com.moxco.bumble /private/var/containers/Bundle/Application/77F6EDF4-341B-403B-9FD1-76F1C0461D97
+2022-01-21 15:44:04 Install successful com.moxco.bumble 
+2022-01-21 15:43:45 Made container live com.moxco.bumble /private/var/mobile/Containers/Data/Application/7485F9FF-D78C-4164-9085-A213DC456431
+2022-01-21 15:43:45 Made container live com.moxco.bumble /private/var/containers/Bundle/Application/9788B3A8-F488-4C2D-A885-B12049506189
+2022-01-21 15:43:45 Install successful com.moxco.bumble 
+2022-01-21 15:43:45 Made container live com.moxco.bumble /private/var/mobile/Containers/Data/Application/7485F9FF-D78C-4164-9085-A213DC456431
+2022-01-21 15:43:45 Made container live com.moxco.bumble /private/var/containers/Bundle/Application/9788B3A8-F488-4C2D-A885-B12049506189
+2022-01-21 15:43:45 Install successful com.moxco.bumble 

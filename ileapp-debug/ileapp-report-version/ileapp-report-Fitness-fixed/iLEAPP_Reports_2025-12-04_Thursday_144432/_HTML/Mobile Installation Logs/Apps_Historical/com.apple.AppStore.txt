@@ -1,0 +1,1 @@
+2022-01-06 14:41:07 Made container live com.apple.AppStore /private/var/mobile/Containers/Data/Application/5DE29AD8-C869-49FA-B8D5-6C375641A72A

@@ -1,0 +1,94 @@
+__idcontext_2^HIykD 
+bounceClientVisit3315C
+bounceClientVisit3315v+
+inVariation
+tealium_timingB
+tealium_va_bbb_main>
+tealium_va=
+tealium_va_update
+_uetvid_expA
+_uetvid
+_uetsid_exp@
+_uetsid
+_mibhv
+variationID
+bounceClientVisit3315N
+R/r&
+R#cSQLite format 3
+.S`
+
+QtableItemTableItemTable
+CREATE TABLE ItemTable (key TEXT UNIQUE ON CONFLICT REPLACE, value BLOB NOT NULL ON CONFLICT FAIL)1
+indexsqlite_autoindex_ItemTable_1ItemTable
+tealium_timingD
+_uetvid_expG
+_uetsid_expF
+_uetsidE
+
+_mibhvH
+R} /
+
+WYB7
+3ttealium_va_bbb_main{
+!ttealium_va{
+bounceClientVisit3315vN
+3T__idcontext_2^HIykDe
+#4inVariationZ
+#,variationIDI
+tealium_va_update1
+_uetvid6
+-OrR
+
+0_mibhva
+_uetvid_expW
+_uetsid_expS
+_uetsid0
+)|tealium_timing{
+RMLK&SQLite format 3
+bounceClientVisit3315[
+tealium_timingK
+tealium_va_bbb_mainM
+tealium_vaL
+R+2_2@V
+B
+WY7v
+X
+!xtealium_va{
+Fe/
+
+9TbounceClientVisit3315vN
+3xtealium_va_bbb_main{
+7@bounceClientVisit3315N
+r SQLite format 3
+R`A,
+
+__idcontext_2^HIykD\
+tealium_timing`
+7f,
+
+@I9
+
+bounceClientVisit3315h
+bounceClientVisit3315vf
+RNE>SP
+
+
+u
+s	Z
+7TbounceClientVisit3315N
+R&f&f
+
+bounceClientVisit3315p
+R2AP
+
+7XbounceClientVisit3315N
+RAGj
+
+tealium_timings
+)$tealium_timing{
+V#
+
+bounceClientVisit3315t
+tealium_timingu
+Rcr>
+

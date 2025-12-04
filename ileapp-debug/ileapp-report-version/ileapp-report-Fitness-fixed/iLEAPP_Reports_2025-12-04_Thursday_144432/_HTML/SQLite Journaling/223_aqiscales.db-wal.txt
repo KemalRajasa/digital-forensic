@@ -1,0 +1,19 @@
+(W=Nv<SQLite format 3
+.S`
+
+;tabletable_versionstable_versions
+CREATE TABLE table_versions (id TEXT NOT NULL, version TEXT NOT NULL, PRIMARY KEY (id));
+indexsqlite_autoindex_table_versions_1table_versions
+b3v
+
+ccSQLite format 3
+Ytablescalescale
+CREATE TABLE scale (id TEXT NOT NULL, modified DOUBLE NOT NULL, scale BLOB NOT NULL, PRIMARY KEY (id)))
+indexsqlite_autoindex_scale_1scale
+scale0.0.3
+AwBP
+
+	scale
+@EPA_NowCast.2115-en-USAw
+Ly{"displayName":"AQI (US)","aqi":{"range":[0,500],"categories":[{"range":[0,50],"recommendation":"Air quality is satisfactory and poses little or no health risk.","glyph":"aqi.low","categoryNumber":1,"categoryName":"Good","color":"#04De71"},{"range":[51,100],"recommendation":"Air quality is acceptable; however, pollution in this range may pose a moderate health concern for a very small number of individuals. People who are unusually sensitive to ozone or particle pollution may experience respiratory symptoms.","glyph":"aqi.medium","categoryNumber":2,"categoryName":"Moderate","color":"#FFE620"},{"range":[101,150],"recommendation":"Members of sensitive groups may experience health effects, but the general public is unlikely to be affected.","glyph":"aqi.high","categoryNumber":3,"categoryName":"Unhealthy for Sensitive Groups","color":"#FF9500"},{"range":[151,200],"recommendation":"Everyone may begin to experience health effects. Members of sensitive groups may experience more serious health effects.","glyph":"aqi.high","categoryNumber":4,"categoryName":"Unhealthy","color":"#FA114F"},{"range":[201,300],"recommendation":"A health alert is in effect. Everyone may experience more serious health effects.","glyph":"aqi.high","categoryNumber":5,"categoryName":"Very Unhealthy","color":"#AA00FF"},{"range":[301,500],"recommendation":"A health warning of emergency conditions is in effect. Everyone is even more likely to experience serious health effects.","glyph":"aqi.high","categoryNumber":6,"categoryName":"Hazardous","color":"#80172B"}],"numerical":true,"ascending":true,"gradient":{"stops":[{"color":"#04DE71","location":0},{"color":"#04DE71","location":25},{"color":"#FFE620","location":75},{"color":"#FF9500","location":125},{"color":"#FA114F","location":175},{"color":"#AA00FF","location":250},{"color":"#80172B","location":350},{"color":"#80172B","location":500}]}},"displayLabel":"Air Quality","language":"en-US","longDisplayName":"United States (AQI)","version":1,"name":"EPA_NowCast.2115"}
+9	EPA_NowCast.2115-en-US

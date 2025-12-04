@@ -1,0 +1,207 @@
+'j*10
+'jw$(
+
+
+Xhttps://weather-map.apple.com/v1/mapOverlay/en-US/metadata?2022-01-15 00:12:28
+	https://weather-map.apple.com/v1/mapOverlay/en-US/metadata?
+5	cfurl_cache_response
+'j7S
+bplist00
+WVersionUArray
+
+
+,-
+_CFURLStringType\_CFURLString
+;https://weather-map.apple.com/v1/mapOverlay/en-US/metadata?#A$v>7
+ !"#$%&'()*+\Content-Type_
+Content-EncodingVServer_
+X-XSS-Protection]Cache-ControlTDate\X-REQUEST-ID_
+Strict-Transport-Security^Content-LengthZConnectionX__hhaa___
+X-Content-Type-OptionsTEtag_
+X-Frame-OptionsTVary_
+application/json;charset=utf-8TgzipUApple]1; mode=block_
+$public, max-age=9166, s-maxage=86400_
+Sat, 15 Jan 2022 00:12:28 GMT_
+$c73c8182-8ac7-4df2-b91b-de27dd535710_
+#max-age=31536000; includeSubdomainsT2190Zkeep-alive_
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBBDb250ZW50LUVuY29kaW5nVlNlcnZlcl8QEFgtWFNTLVByb3RlY3Rpb25dQ2FjaGUtQ29udHJvbFREYXRlXFgtUkVRVUVTVC1JRF8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHleQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbl8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNURXRhZ18QD1gtRnJhbWUtT3B0aW9uc1RWYXJ5oRBfEB5hcHBsaWNhdGlvbi9qc29uO2NoYXJzZXQ9dXRmLTihElRnemlwoRRVQXBwbGWhFl0xOyBtb2RlPWJsb2NroRhfECRwdWJsaWMsIG1heC1hZ2U9OTE2Niwgcy1tYXhhZ2U9ODY0MDChGl8QHVNhdCwgMTUgSmFuIDIwMjIgMDA6MTI6MjggR01UoRxfECRjNzNjODE4Mi04YWM3LTRkZjItYjkxYi1kZTI3ZGQ1MzU3MTChHl8QI21heC1hZ2U9MzE1MzYwMDA7IGluY2x1ZGVTdWJkb21haW5zoSBUMjE5MKEiWmtlZXAtYWxpdmWhJFdub3NuaWZmoSZfECgiNzkxMTY3MDlhZjRlOTcyYzViNTQ3MWE1MmU4OWY2Y2ItLWd6aXAioShaU0FNRU9SSUdJTqEqXxAPQWNjZXB0LUVuY29kaW5nAAgAJQAyAEUATABfAG0AcgB/AJsAqgC1AM4A0wDlAOoA7AENAQ8BFAEWARwBHgEsAS4BVQFXAXcBeQGgAaIByAHKAc8B0QHcAd4B5gHoAhMCFQIgAiIAAAAAAAACAQAAAAAAAAArAAAAAAAAAAAAAAAAAAACNA==Wnosniff_
+("79116709af4e972c5b5471a52e89f6cb--gzip"ZSAMEORIGIN_
+Accept-Encoding
+application/json
+bbplist00
+;https://weather-map.apple.com/v1/mapOverlay/en-US/metadata?#@N
+__CFURLRequestNullTokenString__	
+SGET
+ !"X__hhaa__VAccept]Authorization_
+Accept-Language_
+Accept-Encoding^GeoCountryCode_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZBY2NlcHRdQXV0aG9yaXphdGlvbl8QD0FjY2VwdC1MYW5ndWFnZV8QD0FjY2VwdC1FbmNvZGluZ15HZW9Db3VudHJ5Q29kZaEHUyovKqEJXxBhSEhNQUM7c2lnbmF0dXJlPUNMTC94SHl6Q0hLQmxNZGFzcUh5VVk3VVJlNERIVjdBVHBub2dkZVB5T2M9O2tleT1hcGlLZXk7ZGF0ZT0yMDIyLTAxLTE1VDAwOjEyOjAwWqELXmVuLVVTLGVuO3E9MC45oQ1fEBFnemlwLCBkZWZsYXRlLCBicqEPUlVTCBMaKDpMW11hY8fJ2Nru8AAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAADzS*/*_
+aHHMAC;signature=CLL/xHyzCHKBlMdasqHyUY7URe4DHV7ATpnogdePyOc=;key=apiKey;date=2022-01-15T00:12:00Z^en-US,en;q=0.9_
+gzip, deflate, brRUS
+^bplist00
+Accept-Encoding_
+gzip, deflate, br
+^XOo
+
+	U4A17BC10-DF77-4F4F-B786-9442C46323CE
+'j+KpI
+3	2022-01-15 00:12:28
+'j8<u0
+
+'j9Sc
+SQLite format 3
+.S`
+
+f
+
+#u
+indexreceiver_data_indexcfurl_cache_receiver_dataCREATE INDEX receiver_data_index ON cfurl_cache_receiver_data(entry_ID)t	
+indexproto_props_indexcfurl_cache_blob_dataCREATE INDEX proto_props_index ON cfurl_cache_blob_data(entry_ID)r
+indextime_stamp_indexcfurl_cache_response
+CREATE INDEX time_stamp_index ON cfurl_cache_response(time_stamp)u
+indexrequest_key_indexcfurl_cache_response	CREATE INDEX request_key_index ON cfurl_cache_response(request_key)+
+etablecfurl_cache_receiver_datacfurl_cache_receiver_data
+CREATE TABLE cfurl_cache_receiver_data(entry_ID INTEGER PRIMARY KEY, isDataOnFS INTEGER, receiver_data BLOB)I
+1tablecfurl_cache_blob_datacfurl_cache_blob_data
+CREATE TABLE cfurl_cache_blob_data(entry_ID INTEGER PRIMARY KEY, response_object BLOB, request_object BLOB, 			  proto_props BLOB, user_info BLOB)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)"
+gtablecfurl_cache_responsecfurl_cache_response
+CREATE TABLE cfurl_cache_response(entry_ID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, 	 version INTEGER, hash_value INTEGER, storage_policy INTEGER, request_key TEXT UNIQUE, 	 time_stamp NOT NULL DEFAULT CURRENT_TIMESTAMP, partition TEXT)G
+indexsqlite_autoindex_cfurl_cache_response_2cfurl_cache_response
+indexsqlite_autoindex_cfurl_cache_response_1cfurl_cache_response
+jY
+(https://weather-map.apple.com/v1/mapOverlay/temperature?x=37&y=45&z=7&scale=1&colorFormat=agr2022-01-15 00:12:29_
+'j4`>
+https://weather-map.apple.com/v1/mapOverlay/temperature?x=37&y=45&z=7&scale=1&colorFormat=agr
+'j7gm0%
+
+cfurl_cache_response
+'j0
+	UF3B97143-D834-47D9-90D4-E0470AE00FF6(
+'jAyM
+'jF_
+2022-01-15 00:12:29
+H1RM9
+
+'jaw+8
+
+]https://weather-map.apple.com/v1/mapOverlay/temperature?x=37&y=45&z=7&scale=1&colorFormat=agr#A$vE
+X-XSS-ProtectionVServer_
+X-WeatherMap-Min-Value]Cache-ControlTDate\X-REQUEST-ID_
+X-Frame-Options_
+X-WeatherMap-Max-ValueYimage/png]1; mode=blockUAppleV-28.81_
+#public, max-age=2850, s-maxage=3566_
+Sat, 15 Jan 2022 00:12:29 GMT_
+$24f11ad8-bb71-4168-9891-957dd837abbf_
+#max-age=31536000; includeSubdomainsT6879Zkeep-alive_
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBBYLVhTUy1Qcm90ZWN0aW9uVlNlcnZlcl8QFlgtV2VhdGhlck1hcC1NaW4tVmFsdWVdQ2FjaGUtQ29udHJvbFREYXRlXFgtUkVRVUVTVC1JRF8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHleQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbl8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNURXRhZ18QD1gtRnJhbWUtT3B0aW9uc18QFlgtV2VhdGhlck1hcC1NYXgtVmFsdWWhEFlpbWFnZS9wbmehEl0xOyBtb2RlPWJsb2NroRRVQXBwbGWhFlYtMjguODGhGF8QI3B1YmxpYywgbWF4LWFnZT0yODUwLCBzLW1heGFnZT0zNTY2oRpfEB1TYXQsIDE1IEphbiAyMDIyIDAwOjEyOjI5IEdNVKEcXxAkMjRmMTFhZDgtYmI3MS00MTY4LTk4OTEtOTU3ZGQ4MzdhYmJmoR5fECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViZG9tYWluc6EgVDY4NzmhIlprZWVwLWFsaXZloSRXbm9zbmlmZqEmXxAiIjY0OWE0ZjRhN2JlYWU4MjYxNGZhYjU3ODFiMmE1NGVhIqEoWlNBTUVPUklHSU6hKlYtMTYuNDAACAAlADIARQBMAGUAcwB4AIUAoQCwALsA1ADZAOsBBAEGARABEgEgASIBKAEqATEBMwFZAVsBewF9AaQBpgHMAc4B0wHVAeAB4gHqAewCEQITAh4CIAAAAAAAAAIBAAAAAAAAACsAAAAAAAAAAAAAAAAAAAInWnosniff_
+""649a4f4a7beae82614fab5781b2a54ea"ZSAMEORIGINV-16.40_
+ __CFURLResponseNullTokenString__Yimage/png
+zbplist00
+]https://weather-map.apple.com/v1/mapOverlay/temperature?x=37&y=45&z=7&scale=1&colorFormat=agr#@N
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZBY2NlcHRdQXV0aG9yaXphdGlvbl8QD0FjY2VwdC1MYW5ndWFnZV8QD0FjY2VwdC1FbmNvZGluZ15HZW9Db3VudHJ5Q29kZaEHUyovKqEJXxBhSEhNQUM7c2lnbmF0dXJlPUY0RmdKQmhLc3ZNekx2cEZuaWlHSDd0TEVkTURzeVRNVXgyV0VsR0pVUzA9O2tleT1hcGlLZXk7ZGF0ZT0yMDIyLTAxLTE1VDAwOjEyOjAwWqELXmVuLVVTLGVuO3E9MC45oQ1fEBFnemlwLCBkZWZsYXRlLCBicqEPUlVTCBMaKDpMW11hY8fJ2Nru8AAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAADzS*/*_
+aHHMAC;signature=F4FgJBhKsvMzLvpFniiGH7tLEdMDsyTMUx2WElGJUS0=;key=apiKey;date=2022-01-15T00:12:00Z^en-US,en;q=0.9_
+dSQLite format 3
+,Mo
+
+https://weather-map.apple.com/v1/mapOverlay/temperature?x=37&y=46&z=7&scale=1&colorFormat=agr2022-01-15 00:12:29
+ 1f
+
+https://weather-map.apple.com/v1/mapOverlay/temperature?x=37&y=46&z=7&scale=1&colorFormat=agr
+'jk_
+'j1BNI
+'jXL
+	UF6A2728C-A042-44B7-A010-3546DF38A458(
+'jzUeM)W
+
+4]F
+
+'j'uE}
+'j)s
+T@-
+
+]https://weather-map.apple.com/v1/mapOverlay/temperature?x=37&y=46&z=7&scale=1&colorFormat=agr#A$v4
+X-WeatherMap-Max-ValueYimage/png]1; mode=blockUAppleV-21.43_
+#public, max-age=2871, s-maxage=3586_
+$d4b2b0ed-0606-4c52-bb2c-713df8be2d1f_
+#max-age=31536000; includeSubdomainsT8031Zkeep-alive_
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBBYLVhTUy1Qcm90ZWN0aW9uVlNlcnZlcl8QFlgtV2VhdGhlck1hcC1NaW4tVmFsdWVdQ2FjaGUtQ29udHJvbFREYXRlXFgtUkVRVUVTVC1JRF8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHleQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbl8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNURXRhZ18QD1gtRnJhbWUtT3B0aW9uc18QFlgtV2VhdGhlck1hcC1NYXgtVmFsdWWhEFlpbWFnZS9wbmehEl0xOyBtb2RlPWJsb2NroRRVQXBwbGWhFlYtMjEuNDOhGF8QI3B1YmxpYywgbWF4LWFnZT0yODcxLCBzLW1heGFnZT0zNTg2oRpfEB1TYXQsIDE1IEphbiAyMDIyIDAwOjEyOjI5IEdNVKEcXxAkZDRiMmIwZWQtMDYwNi00YzUyLWJiMmMtNzEzZGY4YmUyZDFmoR5fECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViZG9tYWluc6EgVDgwMzGhIlprZWVwLWFsaXZloSRXbm9zbmlmZqEmXxAiImIyNGVhMjMzNzkzNDViNTMwMjMyNmNhNjI0MTUwY2U2IqEoWlNBTUVPUklHSU6hKlUtMC45OAAIACUAMgBFAEwAZQBzAHgAhQChALAAuwDUANkA6wEEAQYBEAESASABIgEoASoBMQEzAVkBWwF7AX0BpAGmAcwBzgHTAdUB4AHiAeoB7AIRAhMCHgIgAAAAAAAAAgEAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAiY=Wnosniff_
+""b24ea23379345b5302326ca624150ce6"ZSAMEORIGINU-0.98_
+ybplist00
+]https://weather-map.apple.com/v1/mapOverlay/temperature?x=37&y=46&z=7&scale=1&colorFormat=agr#@N
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZBY2NlcHRdQXV0aG9yaXphdGlvbl8QD0FjY2VwdC1MYW5ndWFnZV8QD0FjY2VwdC1FbmNvZGluZ15HZW9Db3VudHJ5Q29kZaEHUyovKqEJXxBhSEhNQUM7c2lnbmF0dXJlPTl5cVpOaXRkZVNlS1U4UUU5dXlXVjk4Rk5YWHpoVVVOSnI1TTNxUGNrbTA9O2tleT1hcGlLZXk7ZGF0ZT0yMDIyLTAxLTE1VDAwOjEyOjAwWqELXmVuLVVTLGVuO3E9MC45oQ1fEBFnemlwLCBkZWZsYXRlLCBicqEPUlVTCBMaKDpMW11hY8fJ2Nru8AAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAADzS*/*_
+aHHMAC;signature=9yqZNitdeSeKU8QE9uyWV98FNXXzhUUNJr5M3qPckm0=;key=apiKey;date=2022-01-15T00:12:00Z^en-US,en;q=0.9_
+'jKwy`"SQLite format 3
+fu$
+
+https://weather-map.apple.com/v1/mapOverlay/temperature?x=38&y=45&z=7&scale=1&colorFormat=agr2022-01-15 00:12:29
+O{f
+
+'jaY
+https://weather-map.apple.com/v1/mapOverlay/temperature?x=38&y=45&z=7&scale=1&colorFormat=agr
+Y2D
+
+'j	~m7
+	U21D3B4C1-01DE-4C22-B8D4-D04D136BBBD2(
+'j6e
+'j=S
+
+'jy
+
+'jK;
+
+]https://weather-map.apple.com/v1/mapOverlay/temperature?x=38&y=45&z=7&scale=1&colorFormat=agr#A$v%
+X-WeatherMap-Max-ValueYimage/png]1; mode=blockUAppleV-29.03_
+#public, max-age=2850, s-maxage=3565_
+$59cd2f20-1394-4927-9ba0-ab3698ad39f2_
+#max-age=31536000; includeSubdomainsT8991Zkeep-alive_
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBBYLVhTUy1Qcm90ZWN0aW9uVlNlcnZlcl8QFlgtV2VhdGhlck1hcC1NaW4tVmFsdWVdQ2FjaGUtQ29udHJvbFREYXRlXFgtUkVRVUVTVC1JRF8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHleQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbl8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNURXRhZ18QD1gtRnJhbWUtT3B0aW9uc18QFlgtV2VhdGhlck1hcC1NYXgtVmFsdWWhEFlpbWFnZS9wbmehEl0xOyBtb2RlPWJsb2NroRRVQXBwbGWhFlYtMjkuMDOhGF8QI3B1YmxpYywgbWF4LWFnZT0yODUwLCBzLW1heGFnZT0zNTY1oRpfEB1TYXQsIDE1IEphbiAyMDIyIDAwOjEyOjI5IEdNVKEcXxAkNTljZDJmMjAtMTM5NC00OTI3LTliYTAtYWIzNjk4YWQzOWYyoR5fECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViZG9tYWluc6EgVDg5OTGhIlprZWVwLWFsaXZloSRXbm9zbmlmZqEmXxAiImNlMmU5MDJjZjU1OGY4ODIwMGVmNjE3NjA3OTVhNjY5IqEoWlNBTUVPUklHSU6hKlUtOC45MgAIACUAMgBFAEwAZQBzAHgAhQChALAAuwDUANkA6wEEAQYBEAESASABIgEoASoBMQEzAVkBWwF7AX0BpAGmAcwBzgHTAdUB4AHiAeoB7AIRAhMCHgIgAAAAAAAAAgEAAAAAAAAAKwAAAAAAAAAAAAAAAAAAAiY=Wnosniff_
+""ce2e902cf558f88200ef61760795a669"ZSAMEORIGINU-8.92_
+]https://weather-map.apple.com/v1/mapOverlay/temperature?x=38&y=45&z=7&scale=1&colorFormat=agr#@N
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZBY2NlcHRdQXV0aG9yaXphdGlvbl8QD0FjY2VwdC1MYW5ndWFnZV8QD0FjY2VwdC1FbmNvZGluZ15HZW9Db3VudHJ5Q29kZaEHUyovKqEJXxBhSEhNQUM7c2lnbmF0dXJlPXBkeUFJNzJCRTNPUXhrS0s1NmhUNHVlc1dTUmpDYzBRVTh6RnFCNXh2NTA9O2tleT1hcGlLZXk7ZGF0ZT0yMDIyLTAxLTE1VDAwOjEyOjAwWqELXmVuLVVTLGVuO3E9MC45oQ1fEBFnemlwLCBkZWZsYXRlLCBicqEPUlVTCBMaKDpMW11hY8fJ2Nru8AAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAADzS*/*_
+aHHMAC;signature=pdyAI72BE3OQxkKK56hT4uesWSRjCc0QU8zFqB5xv50=;key=apiKey;date=2022-01-15T00:12:00Z^en-US,en;q=0.9_
+'jH=t3SQLite format 3
+'jqP
+'j^h@?
+i5https://weather-map.apple.com/v1/mapOverlay/temperature?x=38&y=46&z=7&scale=1&colorFormat=agr2022-01-15 00:12:29
+|o9
+
+https://weather-map.apple.com/v1/mapOverlay/temperature?x=38&y=46&z=7&scale=1&colorFormat=agr
+'jXMg
+	U6A702100-59E0-4A3F-A77F-AED7E4742D63(
+'j>Z
+
+'j3X
+'j(kA
+]https://weather-map.apple.com/v1/mapOverlay/temperature?x=38&y=46&z=7&scale=1&colorFormat=agr#A$vH
+X-WeatherMap-Max-ValueYimage/png]1; mode=blockUAppleV-20.93_
+#public, max-age=2835, s-maxage=3586_
+$86d148ea-64a7-4031-b62c-61f98c9ce940_
+#max-age=31536000; includeSubdomainsT9223Zkeep-alive_
+
+
+YnBsaXN0MDDeAQIDBAUGBwgJCgsMDQ4PERMVFxkbHR8hIyUnKVxDb250ZW50LVR5cGVfEBBYLVhTUy1Qcm90ZWN0aW9uVlNlcnZlcl8QFlgtV2VhdGhlck1hcC1NaW4tVmFsdWVdQ2FjaGUtQ29udHJvbFREYXRlXFgtUkVRVUVTVC1JRF8QGVN0cmljdC1UcmFuc3BvcnQtU2VjdXJpdHleQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbl8QFlgtQ29udGVudC1UeXBlLU9wdGlvbnNURXRhZ18QD1gtRnJhbWUtT3B0aW9uc18QFlgtV2VhdGhlck1hcC1NYXgtVmFsdWWhEFlpbWFnZS9wbmehEl0xOyBtb2RlPWJsb2NroRRVQXBwbGWhFlYtMjAuOTOhGF8QI3B1YmxpYywgbWF4LWFnZT0yODM1LCBzLW1heGFnZT0zNTg2oRpfEB1TYXQsIDE1IEphbiAyMDIyIDAwOjEyOjI5IEdNVKEcXxAkODZkMTQ4ZWEtNjRhNy00MDMxLWI2MmMtNjFmOThjOWNlOTQwoR5fECNtYXgtYWdlPTMxNTM2MDAwOyBpbmNsdWRlU3ViZG9tYWluc6EgVDkyMjOhIlprZWVwLWFsaXZloSRXbm9zbmlmZqEmXxAiImJhNGU4ZmE5Yzk1ZDYwOWIxOTUwMjg5MWI4MGQ2ZjZhIqEoWlNBTUVPUklHSU6hKlQ2LjI1AAgAJQAyAEUATABlAHMAeACFAKEAsAC7ANQA2QDrAQQBBgEQARIBIAEiASgBKgExATMBWQFbAXsBfQGkAaYBzAHOAdMB1QHgAeIB6gHsAhECEwIeAiAAAAAAAAACAQAAAAAAAAArAAAAAAAAAAAAAAAAAAACJQ==Wnosniff_
+""ba4e8fa9c95d609b19502891b80d6f6a"ZSAMEORIGINT6.25_
+xbplist00
+]https://weather-map.apple.com/v1/mapOverlay/temperature?x=38&y=46&z=7&scale=1&colorFormat=agr#@N
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZBY2NlcHRdQXV0aG9yaXphdGlvbl8QD0FjY2VwdC1MYW5ndWFnZV8QD0FjY2VwdC1FbmNvZGluZ15HZW9Db3VudHJ5Q29kZaEHUyovKqEJXxBhSEhNQUM7c2lnbmF0dXJlPU82NnVzUnJrS0VEZDM0V05nU2Z4YUtPYnpwVEdMOWNNR1dLNEhlaTZ5VlE9O2tleT1hcGlLZXk7ZGF0ZT0yMDIyLTAxLTE1VDAwOjEyOjAwWqELXmVuLVVTLGVuO3E9MC45oQ1fEBFnemlwLCBkZWZsYXRlLCBicqEPUlVTCBMaKDpMW11hY8fJ2Nru8AAAAAAAAAEBAAAAAAAAABAAAAAAAAAAAAAAAAAAAADzS*/*_
+aHHMAC;signature=O66usRrkKEDd34WNgSfxaKObzpTGL9cMGWK4Hei6yVQ=;key=apiKey;date=2022-01-15T00:12:00Z^en-US,en;q=0.9_

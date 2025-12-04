@@ -1,0 +1,33 @@
+'8<SQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+=<|!
+%PK 
+	CCC
+net.doubleclick.g.googleadsnet.doubleclick.g.googleadsgoogleads.g.doubleclick.net
+/LG0
+
+		net.doubleclick.g.googleadsnet.doubleclick.g.googleads
+ea}b
+net.doubleclick.g.googleadsnet.doubleclick.g.googleads
+!)Rwg
+
+	755
+net.doubleclick.g.adxcom.googleapis.fontsfonts.googleapis.com
+net.doubleclick.g.adxcom.googleapis.fonts
+	7++
+net.doubleclick.g.adxcom.gstatic.wwwwww.gstatic.com
+net.doubleclick.g.adxcom.gstatic.www
+Y~bS
+	7??
+net.doubleclick.g.adxcom.googlesyndication.tpctpc.googlesyndication.com
+net.doubleclick.g.adxcom.googlesyndication.tpc
+:
+
+
+0
+j^[s
+

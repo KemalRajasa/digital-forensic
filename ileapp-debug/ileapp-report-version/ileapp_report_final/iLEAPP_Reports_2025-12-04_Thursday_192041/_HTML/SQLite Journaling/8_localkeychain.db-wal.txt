@@ -1,0 +1,305 @@
+2p$	?TW6
+2p$	?T{9
+^SQLite format 3
+.S`
+
+2p$	?TOc
+SQLite format 3
+
+
+$P6
+			
+#tablesuccess_countsuccess_count
+CREATE TABLE success_count (
+event_type STRING PRIMARY KEY,
+success_count INTEGER,
+hard_failure_count INTEGER,
+soft_failure_count INTEGER
+)9
+
+indexsqlite_autoindex_success_count_1success_count3
+triggermaintain_ring_buffer_samples_v2samplesCREATE TRIGGER maintain_ring_buffer_samples_v2 AFTER INSERT ON samples
+BEGIN
+DELETE FROM samples WHERE id <= NEW.id - 1000;
+END
+Ytablesamplessamples	CREATE TABLE samples (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,
+name STRING,
+value REAL
+))	
+triggermaintain_ring_buffer_notes_v2notesCREATE TRIGGER maintain_ring_buffer_notes_v2 AFTER INSERT ON notes
+BEGIN
+DELETE FROM notes WHERE id <= NEW.id - 1000;
+ENDl
+7tablenotesnotes
+CREATE TABLE notes (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_soft_failures_v2soft_failuresCREATE TRIGGER maintain_ring_buffer_soft_failures_v2 AFTER INSERT ON soft_failures
+BEGIN
+DELETE FROM soft_failures WHERE id <= NEW.id - 1000;
+END
+Gtablesoft_failuressoft_failures
+CREATE TABLE soft_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_hard_failures_v2hard_failuresCREATE TRIGGER maintain_ring_buffer_hard_failures_v2 AFTER INSERT ON hard_failures
+BEGIN
+DELETE FROM hard_failures WHERE id <= NEW.id - 1000;
+ENDP
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Gtablehard_failureshard_failures
+CREATE TABLE hard_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+2p$	?T
+2p$	?T/rU
+-Created663201654.942058
+avs
+
+	Created
+2p$	?Tghm
+2p$	?T':
+2p$	?T~*
+
+2p$	?T_"5Z
+
+2p$	?Te3y0
+2p$	?T%SE	
+$
+
+2p$	?Tc,
+2p$	?T]&|
+'
+SchemaVersionE3BB7685C22335A3E3FC481B0D59A4F1B2F34031517BC31154745553BEA9C175
+2p$	?T`
+SchemaVersion
+2p$	?T<Qf
+
+XAu`bplist00
+	
+
+
+YeventTimeUbuildYnewschemaWproductYeventTypeZeventClassWmodelidYoldschema^upgradeoutcome#Bw
+poV19A404
+	YiPhone OS_
+LKAEventUpgrade
+ZiPhone10,1
+%+5=GRZds|
+2p$	?T*Y
+'	hard_failures
+2p$	?T
++	LKAEventUpgrade
+2p$	?TFQ
+	samples
+2p$	?TJ
+/LKAMetricBackupDuration
+2p$	?Tv~fG
+
+/MbackupLastSuccess2022-01-21T17:23:15.807GMT-05:00Q
+D]N
+
+backupLastSuccess
+v>>
+
+LKAEventBackup
+2p$	?Tyz
+
+#Mupload_date2022-01-21T17:28:00.130GMT-05:004
+2p$	?Tw;Z
+upload_date
+2p$	?T6tOvG
+
+2p$	?T(
+2p$	?TTp
+2p$	?TMJ@_
+
+samples
+2p$	?TI
+A}|LKAMetricBackupDuration
+2p$	?TZS
+/MbackupLastSuccess2022-01-29T21:12:03.545GMT-05:00Q
+2p$	?T/
+2p$	?TYv]`+
+
+)	LKAEventBackup
+LKAMetricBackupDuration
+/MbackupLastSuccess2022-01-29T21:27:58.854GMT-05:00Q
+2p$	?T}/{;
+
+4o9
+
+2p$	?TNY
+A~r}
+/MbackupLastSuccess2022-02-01T19:04:29.954GMT-05:00Q
+2p$	?T:o
+2p$	?TJ"d
+
+2p$	?T@&
+2p$	?Tge
+2p$	?TM
+A~BjLKAMetricBackupDuration
+2p$	?T~#E
+/MbackupLastSuccess2022-02-02T13:53:09.038GMT-05:00Q
+2p$	?TP[T=
+
+2p$	?TF*(
+
+)LKAMetricBackupDuration
+#Mupload_date2022-01-21T17:28:00.130GMT-05:004	
+/MbackupLastSuccess2022-02-03T20:16:16.159GMT-05:00Q
+2p$	?T(Cw
+backupLastSuccess	
+2p$	?Tt
+2p$	?Tmf
+2p$	?T}
+(r8
+
+E4LKAMetricBackupDuration
+2p$	?T<
+#Mupload_date2022-01-21T17:28:00.130GMT-05:004
+
+/MbackupLastSuccess2022-02-03T23:15:37.086GMT-05:00Q
+backupLastSuccess
+
+2p$	?Tj3F
+
+2p$	?T53Jg
+2p$	?Tsrw^
+
+`(tLKAMetricBackupDuration
+2p$	?Tx@
+#Mupload_date2022-01-21T17:28:00.130GMT-05:004
+/MbackupLastSuccess2022-02-05T23:58:40.634GMT-05:00Q
+2p$	?Te
+backupLastSuccess
+2p$	?Tq
+kUc
+
+2p$	?T` >
+samples	
+2p$	?TR
+>&[^
+
+DLKAMetricBackupDuration
+#Mupload_date2022-01-21T17:28:00.130GMT-05:004
+/MbackupLastSuccess2022-02-06T16:23:29.071GMT-05:00Q
+2p$	?TFN<X
+
+backupLastSuccess
++$\KkZV
+
+2p$	?Tr
+samples
+
+2p$	?TY/t
+aALKAMetricBackupDuration
+2p$	?T9	
+/MbackupLastSuccess2022-02-06T17:19:50.020GMT-05:00Q
+2p$	?T6
+LKAEventBackup	
+2p$	?TV 
+samples
+2p$	?T{+Q
+$tLKAMetricBackupDuration
+2p$	?TQSk`w;
+
+/MbackupLastSuccess2022-02-10T23:09:20.252GMT-05:00Q
+2p$	?T\
+a^;
+
+LKAEventBackup
+
+2p$	?T:
+samples
+2p$	?T/v_
+
+2p$	?T7&
+/MbackupLastSuccess2022-02-14T11:38:45.500GMT-05:00Q
+T7n
+
+LKAEventBackup
+2p$	?T3
+\i;
+
+
+u4LKAMetricBackupDuration
+2p$	?T>$
+
+/MbackupLastSuccess2022-02-14T11:49:45.831GMT-05:00Q
+=xQ
+
+LKAEventBackup
+2p$	?TNZ
+2p$	?TE
+2p$	?T1"Hh}
+2p$	?Tm
+/MbackupLastSuccess2022-02-14T12:07:18.719GMT-05:00Q
+2p$	?T[5
+
+2p$	?T$
+^9n
+
+2p$	?T^.
+I06
+
+=LKAMetricBackupDuration
+*bg
+
+/MbackupLastSuccess2022-02-14T12:55:59.066GMT-05:00Q
+2p$	?T,X
+
+2p$	?Tm\+g
+
+2p$	?TX
+2p$	?T}3
+
+ 
+
+
+
+?LKAMetricBackupDuration
+2p$	?TlLa
+
+/MbackupLastSuccess2022-02-14T12:57:38.291GMT-05:00Q
+2p$	?T$0R
+
+2p$	?Ty
+2p$	?T+=Fa
+2p$	?T`G
+ 
+
+
+
+
+LKAMetricBackupDuration
+/MbackupLastSuccess2022-02-14T12:58:06.214GMT-05:00Q
+2p$	?T0)-
+
+2p$	?T#z5
+
+2p$	?TqQow
+2p$	?TYJ
+ 
+
+
+
+
+X
+u6VLKAMetricBackupDuration
+/MbackupLastSuccess2022-02-14T13:05:08.853GMT-05:00Q
+2p$	?T.3o
+2p$	?T*OU
+
+2p$	?Ti

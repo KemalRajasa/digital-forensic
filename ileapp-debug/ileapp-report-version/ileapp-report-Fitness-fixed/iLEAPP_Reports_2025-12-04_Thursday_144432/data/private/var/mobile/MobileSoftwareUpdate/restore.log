@@ -1,0 +1,353 @@
+04b78580 : initializing new event recorder with options: (null)
+04b78580 : start
+04b78580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+04b78580 : Permanent update volume present..supportDir will be placed there
+04b78580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+04b78580 : NVRAM variable ota-uuid has unexpected value '(null)'
+04b78580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+04b78580 : NVRAM variable ota-os-version has unexpected value '(null)'
+04b78580 : NVRAM variable ota-context has unexpected value '(null)'
+04b78580 : <UMEventRecorder: 0x104c05c60>: initializing event recorder with systemMountPoint: (null)
+04b78580 : <UMEventRecorder: 0x104c05c60>: initializing event recorder with dataMountPoint: (null)
+04b78580 : <UMEventRecorder: 0x104c05c60>: initializing event recorder with updateMountPoint: (null)
+04b78580 : <UMEventRecorder: 0x104c05c60>: initializing event recorder with nvramPath: (null)
+04b78580 : <UMEventRecorder: 0x104c05c60>: initializing event recorder with targetOSVersion: (null)
+04b78580 : <UMEventRecorder: 0x104c05c60>: initializing event recorder with context: (null)
+04b78580 : <UMEventRecorder: 0x104c05c60>: initializing event recorder with baseServerURL: (null)
+04b78580 : <UMEventRecorder: 0x104c05c60>: initializing event recorder with uuid: (null)
+04b78580 : InstallInProgressAfterApply is false
+
+04b78580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6b6fb000 : submitEventsInBackground running
+6b6fb000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6b6fb000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+030d0580 : initializing new event recorder with options: (null)
+030d0580 : start
+030d0580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+030d0580 : Permanent update volume present..supportDir will be placed there
+030d0580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+030d0580 : NVRAM variable ota-uuid has unexpected value '(null)'
+030d0580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+030d0580 : NVRAM variable ota-os-version has unexpected value '(null)'
+030d0580 : NVRAM variable ota-context has unexpected value '(null)'
+030d0580 : <UMEventRecorder: 0x15d004480>: initializing event recorder with systemMountPoint: (null)
+030d0580 : <UMEventRecorder: 0x15d004480>: initializing event recorder with dataMountPoint: (null)
+030d0580 : <UMEventRecorder: 0x15d004480>: initializing event recorder with updateMountPoint: (null)
+030d0580 : <UMEventRecorder: 0x15d004480>: initializing event recorder with nvramPath: (null)
+030d0580 : <UMEventRecorder: 0x15d004480>: initializing event recorder with targetOSVersion: (null)
+030d0580 : <UMEventRecorder: 0x15d004480>: initializing event recorder with context: (null)
+030d0580 : <UMEventRecorder: 0x15d004480>: initializing event recorder with baseServerURL: (null)
+030d0580 : <UMEventRecorder: 0x15d004480>: initializing event recorder with uuid: (null)
+030d0580 : InstallInProgressAfterApply is false
+
+030d0580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6d16f000 : submitEventsInBackground running
+6d16f000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6d16f000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+6d16f000 : Returning non-snapshot preparation size
+6d16f000 : nonsnapshot preparation size : 154157056 (147 MB)
+6d16f000 : Returning non-snapshot apply size
+6d16f000 : Sealing requires 239 MiB overhead
+6d16f000 : Minimum system partition is 7253000192 (6917 MB)
+6d16f000 : System partition padding is 671088640 (640 MB)
+6d16f000 : System partition firmware is 126877696 (121 MB)
+6d16f000 : APFS system volume is using 7118557184 (6788 MB)
+6d16f000 : nand already over-provisioned
+6d16f000 : software update bundle is multi-pass enabled
+6d16f000 : free space required is 718274560 (685 MB)
+6d16f000 : [-[UMEventRecorder _recordEvent:information:callback:]] (purge) - (null)
+
+6d16f000 : event reporting is not enabled, discarding event
+6d1fb000 : submitEventsInBackground running
+6d1fb000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6d1fb000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-uuid not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-result not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-failure-reason not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-breadcrumbs not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-submission-url not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-os-version not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-original-os-version not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-install-tonight not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-context not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-brain-version not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM OTA-pre-conversion not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM OTA-post-conversion not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-conv-panic-indicator not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM OTA-fsck-metrics not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM OTA-sealvolume-metrics not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-forced-reset-uptime not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-initial-forced-reset-uptime not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ramrod-nvram-sequence not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-snapshot-update not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM pre-recovery-ota-failure-uuid not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM recoveryos-initiated-update not found..Nothing to do
+
+6d1fb000 : msu_delete_nvram_variable_if_exists: NVRAM ota-updateType not found..Nothing to do
+
+6d1fb000 : Permanent update volume present..supportDir will be placed there
+6d1fb000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+010c4580 : initializing new event recorder with options: (null)
+010c4580 : start
+010c4580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+010c4580 : Permanent update volume present..supportDir will be placed there
+010c4580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+010c4580 : NVRAM variable ota-uuid has unexpected value '(null)'
+010c4580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+010c4580 : NVRAM variable ota-os-version has unexpected value '(null)'
+010c4580 : NVRAM variable ota-context has unexpected value '(null)'
+010c4580 : <UMEventRecorder: 0x1012045f0>: initializing event recorder with systemMountPoint: (null)
+010c4580 : <UMEventRecorder: 0x1012045f0>: initializing event recorder with dataMountPoint: (null)
+010c4580 : <UMEventRecorder: 0x1012045f0>: initializing event recorder with updateMountPoint: (null)
+010c4580 : <UMEventRecorder: 0x1012045f0>: initializing event recorder with nvramPath: (null)
+010c4580 : <UMEventRecorder: 0x1012045f0>: initializing event recorder with targetOSVersion: (null)
+010c4580 : <UMEventRecorder: 0x1012045f0>: initializing event recorder with context: (null)
+010c4580 : <UMEventRecorder: 0x1012045f0>: initializing event recorder with baseServerURL: (null)
+010c4580 : <UMEventRecorder: 0x1012045f0>: initializing event recorder with uuid: (null)
+010c4580 : InstallInProgressAfterApply is false
+
+010c4580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6f187000 : submitEventsInBackground running
+6f187000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6f187000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+6f29f000 : Returning non-snapshot preparation size
+6f29f000 : nonsnapshot preparation size : 154157056 (147 MB)
+6f29f000 : Returning non-snapshot apply size
+6f29f000 : Sealing requires 239 MiB overhead
+6f29f000 : Minimum system partition is 7253000192 (6917 MB)
+6f29f000 : System partition padding is 671088640 (640 MB)
+6f29f000 : System partition firmware is 126877696 (121 MB)
+6f29f000 : APFS system volume is using 7118557184 (6788 MB)
+6f29f000 : nand already over-provisioned
+6f29f000 : software update bundle is multi-pass enabled
+6f29f000 : free space required is 718274560 (685 MB)
+6f29f000 : [-[UMEventRecorder _recordEvent:information:callback:]] (purge) - (null)
+
+6f29f000 : event reporting is not enabled, discarding event
+6f187000 : submitEventsInBackground running
+6f187000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6f187000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-uuid not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-result not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-failure-reason not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-breadcrumbs not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-submission-url not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-os-version not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-original-os-version not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-install-tonight not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-context not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-brain-version not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM OTA-pre-conversion not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM OTA-post-conversion not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-conv-panic-indicator not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM OTA-fsck-metrics not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM OTA-sealvolume-metrics not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-forced-reset-uptime not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-initial-forced-reset-uptime not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ramrod-nvram-sequence not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-snapshot-update not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM pre-recovery-ota-failure-uuid not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM recoveryos-initiated-update not found..Nothing to do
+
+6f187000 : msu_delete_nvram_variable_if_exists: NVRAM ota-updateType not found..Nothing to do
+
+6f187000 : Permanent update volume present..supportDir will be placed there
+6f187000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+05010580 : initializing new event recorder with options: (null)
+05010580 : start
+05010580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+05010580 : Permanent update volume present..supportDir will be placed there
+05010580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+05010580 : NVRAM variable ota-uuid has unexpected value '(null)'
+05010580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+05010580 : NVRAM variable ota-os-version has unexpected value '(null)'
+05010580 : NVRAM variable ota-context has unexpected value '(null)'
+05010580 : <UMEventRecorder: 0x105109810>: initializing event recorder with systemMountPoint: (null)
+05010580 : <UMEventRecorder: 0x105109810>: initializing event recorder with dataMountPoint: (null)
+05010580 : <UMEventRecorder: 0x105109810>: initializing event recorder with updateMountPoint: (null)
+05010580 : <UMEventRecorder: 0x105109810>: initializing event recorder with nvramPath: (null)
+05010580 : <UMEventRecorder: 0x105109810>: initializing event recorder with targetOSVersion: (null)
+05010580 : <UMEventRecorder: 0x105109810>: initializing event recorder with context: (null)
+05010580 : <UMEventRecorder: 0x105109810>: initializing event recorder with baseServerURL: (null)
+05010580 : <UMEventRecorder: 0x105109810>: initializing event recorder with uuid: (null)
+05010580 : InstallInProgressAfterApply is false
+
+05010580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6b313000 : submitEventsInBackground running
+6b313000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6b313000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+00f84580 : initializing new event recorder with options: (null)
+00f84580 : start
+00f84580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+00f84580 : Permanent update volume present..supportDir will be placed there
+00f84580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+00f84580 : NVRAM variable ota-uuid has unexpected value '(null)'
+00f84580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+00f84580 : NVRAM variable ota-os-version has unexpected value '(null)'
+00f84580 : NVRAM variable ota-context has unexpected value '(null)'
+00f84580 : <UMEventRecorder: 0x101404710>: initializing event recorder with systemMountPoint: (null)
+00f84580 : <UMEventRecorder: 0x101404710>: initializing event recorder with dataMountPoint: (null)
+00f84580 : <UMEventRecorder: 0x101404710>: initializing event recorder with updateMountPoint: (null)
+00f84580 : <UMEventRecorder: 0x101404710>: initializing event recorder with nvramPath: (null)
+00f84580 : <UMEventRecorder: 0x101404710>: initializing event recorder with targetOSVersion: (null)
+00f84580 : <UMEventRecorder: 0x101404710>: initializing event recorder with context: (null)
+00f84580 : <UMEventRecorder: 0x101404710>: initializing event recorder with baseServerURL: (null)
+00f84580 : <UMEventRecorder: 0x101404710>: initializing event recorder with uuid: (null)
+00f84580 : InstallInProgressAfterApply is false
+
+00f84580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6efbf000 : submitEventsInBackground running
+6efbf000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6efbf000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+0263c580 : initializing new event recorder with options: (null)
+0263c580 : start
+0263c580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+0263c580 : Permanent update volume present..supportDir will be placed there
+0263c580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+0263c580 : NVRAM variable ota-uuid has unexpected value '(null)'
+0263c580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+0263c580 : NVRAM variable ota-os-version has unexpected value '(null)'
+0263c580 : NVRAM variable ota-context has unexpected value '(null)'
+0263c580 : <UMEventRecorder: 0x1030088b0>: initializing event recorder with systemMountPoint: (null)
+0263c580 : <UMEventRecorder: 0x1030088b0>: initializing event recorder with dataMountPoint: (null)
+0263c580 : <UMEventRecorder: 0x1030088b0>: initializing event recorder with updateMountPoint: (null)
+0263c580 : <UMEventRecorder: 0x1030088b0>: initializing event recorder with nvramPath: (null)
+0263c580 : <UMEventRecorder: 0x1030088b0>: initializing event recorder with targetOSVersion: (null)
+0263c580 : <UMEventRecorder: 0x1030088b0>: initializing event recorder with context: (null)
+0263c580 : <UMEventRecorder: 0x1030088b0>: initializing event recorder with baseServerURL: (null)
+0263c580 : <UMEventRecorder: 0x1030088b0>: initializing event recorder with uuid: (null)
+0263c580 : InstallInProgressAfterApply is false
+
+0263c580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6dadb000 : submitEventsInBackground running
+6dadb000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6dadb000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+043f4580 : initializing new event recorder with options: (null)
+043f4580 : start
+043f4580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+043f4580 : Permanent update volume present..supportDir will be placed there
+043f4580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+043f4580 : NVRAM variable ota-uuid has unexpected value '(null)'
+043f4580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+043f4580 : NVRAM variable ota-os-version has unexpected value '(null)'
+043f4580 : NVRAM variable ota-context has unexpected value '(null)'
+043f4580 : <UMEventRecorder: 0x1050040c0>: initializing event recorder with systemMountPoint: (null)
+043f4580 : <UMEventRecorder: 0x1050040c0>: initializing event recorder with dataMountPoint: (null)
+043f4580 : <UMEventRecorder: 0x1050040c0>: initializing event recorder with updateMountPoint: (null)
+043f4580 : <UMEventRecorder: 0x1050040c0>: initializing event recorder with nvramPath: (null)
+043f4580 : <UMEventRecorder: 0x1050040c0>: initializing event recorder with targetOSVersion: (null)
+043f4580 : <UMEventRecorder: 0x1050040c0>: initializing event recorder with context: (null)
+043f4580 : <UMEventRecorder: 0x1050040c0>: initializing event recorder with baseServerURL: (null)
+043f4580 : <UMEventRecorder: 0x1050040c0>: initializing event recorder with uuid: (null)
+043f4580 : InstallInProgressAfterApply is false
+
+043f4580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6bc07000 : submitEventsInBackground running
+6bc07000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6bc07000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+00724580 : initializing new event recorder with options: (null)
+00724580 : start
+00724580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+00724580 : Permanent update volume present..supportDir will be placed there
+00724580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+00724580 : NVRAM variable ota-uuid has unexpected value '(null)'
+00724580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+00724580 : NVRAM variable ota-os-version has unexpected value '(null)'
+00724580 : NVRAM variable ota-context has unexpected value '(null)'
+00724580 : <UMEventRecorder: 0x1013046d0>: initializing event recorder with systemMountPoint: (null)
+00724580 : <UMEventRecorder: 0x1013046d0>: initializing event recorder with dataMountPoint: (null)
+00724580 : <UMEventRecorder: 0x1013046d0>: initializing event recorder with updateMountPoint: (null)
+00724580 : <UMEventRecorder: 0x1013046d0>: initializing event recorder with nvramPath: (null)
+00724580 : <UMEventRecorder: 0x1013046d0>: initializing event recorder with targetOSVersion: (null)
+00724580 : <UMEventRecorder: 0x1013046d0>: initializing event recorder with context: (null)
+00724580 : <UMEventRecorder: 0x1013046d0>: initializing event recorder with baseServerURL: (null)
+00724580 : <UMEventRecorder: 0x1013046d0>: initializing event recorder with uuid: (null)
+00724580 : InstallInProgressAfterApply is false
+
+00724580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6fabf000 : submitEventsInBackground running
+6fabf000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6fabf000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+
+03130580 : initializing new event recorder with options: (null)
+03130580 : start
+03130580 : Using NVRAM dictionary from IODeviceTree since there is no key for ota-uuid in there
+
+03130580 : Permanent update volume present..supportDir will be placed there
+03130580 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+03130580 : NVRAM variable ota-uuid has unexpected value '(null)'
+03130580 : NVRAM variable ota-submission-url has unexpected value '(null)'
+03130580 : NVRAM variable ota-os-version has unexpected value '(null)'
+03130580 : NVRAM variable ota-context has unexpected value '(null)'
+03130580 : <UMEventRecorder: 0x1032058b0>: initializing event recorder with systemMountPoint: (null)
+03130580 : <UMEventRecorder: 0x1032058b0>: initializing event recorder with dataMountPoint: (null)
+03130580 : <UMEventRecorder: 0x1032058b0>: initializing event recorder with updateMountPoint: (null)
+03130580 : <UMEventRecorder: 0x1032058b0>: initializing event recorder with nvramPath: (null)
+03130580 : <UMEventRecorder: 0x1032058b0>: initializing event recorder with targetOSVersion: (null)
+03130580 : <UMEventRecorder: 0x1032058b0>: initializing event recorder with context: (null)
+03130580 : <UMEventRecorder: 0x1032058b0>: initializing event recorder with baseServerURL: (null)
+03130580 : <UMEventRecorder: 0x1032058b0>: initializing event recorder with uuid: (null)
+03130580 : InstallInProgressAfterApply is false
+
+03130580 : ignoring call to recordPostUpdateEvent when no install is in progress or we haven't performed the apply operation
+6d12f000 : submitEventsInBackground running
+6d12f000 : -[UMEventRecorder _supportDirectoryWithMountPoint:]: mountPoint is nil...Using /var/MobileSoftwareUpdate as the mountPoint
+6d12f000 : -[UMEventRecorder submitEventsInBackground:withOptions:]_block_invoke: Previously submitted events will NOT BE resubmitted
+

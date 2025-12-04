@@ -1,0 +1,9 @@
+2022-01-10 12:30:33 Install successful com.apple.iBooks 
+2022-01-10 12:30:33 Install successful com.apple.iBooks 
+2022-01-10 12:30:32 Data container moved com.apple.iBooks /private/var/mobile/Containers/Data/Application/94BC6CE7-FFB0-489F-A6EF-FF3DC7C1566A
+2022-01-10 12:30:32 Made container live com.apple.iBooks /private/var/containers/Bundle/Application/62116CF5-85ED-47A7-95A6-97D8E50D039C
+2022-01-10 12:30:32 Data container moved com.apple.iBooks /private/var/mobile/Containers/Data/Application/94BC6CE7-FFB0-489F-A6EF-FF3DC7C1566A
+2022-01-10 12:30:32 Made container live com.apple.iBooks /private/var/containers/Bundle/Application/62116CF5-85ED-47A7-95A6-97D8E50D039C
+2022-01-06 17:41:29 Made container live com.apple.iBooks /private/var/mobile/Containers/Data/Application/0CE4A90A-E7D1-496F-BBB2-5685760B5A69
+2022-01-06 17:41:29 Made container live com.apple.iBooks /private/var/containers/Bundle/Application/A3320985-6F4D-4A65-B701-649916F14098
+2022-01-06 17:41:29 Install successful com.apple.iBooks 

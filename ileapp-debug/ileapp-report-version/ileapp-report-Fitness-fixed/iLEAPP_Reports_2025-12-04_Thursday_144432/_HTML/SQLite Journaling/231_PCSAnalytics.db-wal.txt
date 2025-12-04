@@ -1,0 +1,286 @@
+Dnui
+C302d+SQLite format 3
+.S`
+
+SQLite format 3
+
+
+$P6
+			
+#tablesuccess_countsuccess_count
+CREATE TABLE success_count (
+event_type STRING PRIMARY KEY,
+success_count INTEGER,
+hard_failure_count INTEGER,
+soft_failure_count INTEGER
+)9
+
+indexsqlite_autoindex_success_count_1success_count3
+triggermaintain_ring_buffer_samples_v2samplesCREATE TRIGGER maintain_ring_buffer_samples_v2 AFTER INSERT ON samples
+BEGIN
+DELETE FROM samples WHERE id <= NEW.id - 1000;
+END
+Ytablesamplessamples	CREATE TABLE samples (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,
+name STRING,
+value REAL
+))	
+triggermaintain_ring_buffer_notes_v2notesCREATE TRIGGER maintain_ring_buffer_notes_v2 AFTER INSERT ON notes
+BEGIN
+DELETE FROM notes WHERE id <= NEW.id - 1000;
+ENDl
+7tablenotesnotes
+CREATE TABLE notes (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_soft_failures_v2soft_failuresCREATE TRIGGER maintain_ring_buffer_soft_failures_v2 AFTER INSERT ON soft_failures
+BEGIN
+DELETE FROM soft_failures WHERE id <= NEW.id - 1000;
+END
+Gtablesoft_failuressoft_failures
+CREATE TABLE soft_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_hard_failures_v2hard_failuresCREATE TRIGGER maintain_ring_buffer_hard_failures_v2 AFTER INSERT ON hard_failures
+BEGIN
+DELETE FROM hard_failures WHERE id <= NEW.id - 1000;
+ENDP
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Gtablehard_failureshard_failures
+CREATE TABLE hard_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+-Created663201695.143340
+W.
+
+	Created
+CO:
+
+/1]H
+
+?|(4
+
+Ci?/
+
+*qm
+
+CD)h5
+
+'
+SchemaVersionE3BB7685C22335A3E3FC481B0D59A4F1B2F34031517BC31154745553BEA9C175
+QR
+
+SchemaVersion
+C"3
+
+@Az0
+<Xbplist00
+	
+
+
+recoverableErrorYeventTypeWproduct]lockassertionYeventTime[errorDomain^retryLeftCountTsyncYerrorCodeWmodelidZeventClassTrollUbuild
+PCSEventKeyCreationYiPhone OS	#Bwx1_
+CKKSResultOperationError
+ZiPhone10,1
+V19A404
+'	hard_failures
+PCSEventKeyCreation
+3	PCSEventKeyCreation
+C$P}f
+
+
+gT
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:30.550GMT-05:00Q
+C/9IE
+
+last_success_PCSEventKeyCreation
+C
+L
+
+C+i9
+
+Cmz'
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:30.833GMT-05:00Q
+C2)2{
+]W5`n
+
+D@(
+
+2b<
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:31.069GMT-05:00Q
+C"-W
+
+C\-F
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:31.340GMT-05:00Q
+C`zR$
+
+me1"
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:31.553GMT-05:00Q
+|
+3
+
+YdF
+
+C+9mv
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:31.786GMT-05:00Q
+V5O
+
+C3*
+
+C{tj
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:32.054GMT-05:00Q
+last_success_PCSEventKeyCreation	
+Cr[Soo
+
+C,(Ny
+PCSEventKeyCreation	
+y=P
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:32.321GMT-05:00Q
+C}'
+
+last_success_PCSEventKeyCreation
+
+C5&E
+
+PCSEventKeyCreation
+
+C
+9$
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:32.571GMT-05:00Q
+last_success_PCSEventKeyCreation
+C?i{<
+PCSEventKeyCreation
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:45.283GMT-05:00Q
+C$?j
+last_success_PCSEventKeyCreation
+PCSEventKeyCreation
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:45.493GMT-05:00Q
+C%u?w
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:45.779GMT-05:00Q
+IIW
+
+C{>
+
+C7Q0/D
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:46.721GMT-05:00Q
+C+BW
+EWH
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:47.442GMT-05:00Q
+CMp_
+C6H0a
+C99
+
+Cp?
+,
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:25:47.723GMT-05:00Q
+C'!?
+
+CvJ+y\
+
+
+C@P
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:26:15.097GMT-05:00Q
+CzDxB%
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:26:15.322GMT-05:00Q
+V?n>
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:26:15.601GMT-05:00Q
+CuSA=e
+
+C4c]E
+
+CCbv
+MMlast_success_PCSEventKeyCreation2022-01-21T16:26:15.838GMT-05:00Q
+CeQd$
+
+Cn_
+C-U5
+
+MMlast_success_PCSEventKeyCreation2022-01-21T16:37:01.227GMT-05:00Q
+C av
+C2IH;yW6
+
+MMlast_success_PCSEventKeyCreation2022-01-21T17:04:43.272GMT-05:00Q
+MMlast_success_PCSEventKeyCreation2022-01-21T17:11:30.218GMT-05:00Q
+Cl<%\S.
+
+MMlast_success_PCSEventKeyCreation2022-01-21T17:27:47.851GMT-05:00Q
+	samples
+CDh
+
+AshouldRoll
+samples
+@roll
+C>KY
+
+
+C^./
+CmlH
+MMlast_success_PCSEventKeyCreation2022-01-21T17:28:17.763GMT-05:00Q
+DYc
+
+C\50:
+
+MMlast_success_PCSEventKeyCreation2022-01-21T17:28:47.773GMT-05:00Q
+CRj)yIq
+
+MMlast_success_PCSEventKeyCreation2022-01-21T23:00:14.071GMT-05:00Q
+^4Hj
+
+[
+=
+
+MMlast_success_PCSEventKeyCreation2022-01-22T07:27:40.956GMT-05:00Q
+CG$TJ
+
+C~xF
+MMlast_success_PCSEventKeyCreation2022-01-23T03:12:42.948GMT-05:00Q
+CC/\pD=
+
+CsI`0F
+
+MMlast_success_PCSEventKeyCreation2022-01-29T20:57:03.695GMT-05:00Q
+C#CI
+
+HshouldRoll
+C p'mK
+
+C[Xy3m
+
+Cx4zP
+
+H@roll
+Ctpk
+
+'	soft_failures
+bplist00
+YeventTimeUbuildWproduct_
+recoverableErrorYeventType[errorDomainZeventClassWmodelidYerrorCode#Bw
+V19A404YiPhone OS	_
+PCSEventMobileRestore]CKErrorDomain
+%+3FP\goy
+	PCSEventMobileRestore
+PCSEventMobileRestore

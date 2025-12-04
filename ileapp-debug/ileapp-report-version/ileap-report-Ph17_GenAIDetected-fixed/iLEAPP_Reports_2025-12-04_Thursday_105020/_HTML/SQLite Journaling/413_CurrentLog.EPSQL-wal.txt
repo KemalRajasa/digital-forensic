@@ -1,0 +1,969 @@
+z+n
+
+BatteryDataCollection_BDC_Weekly_1095_1
+BatteryDataCollection_BDC_SBC_365_1
+BatteryDataCollection_BDC_Daily_1095_1!
+PPTStorageOperator_TimeOffset_30_1b
+BatteryDataCollection_BDC_OBC_365_1
+ 
+PLCoreStorage_schemaVersions
+':Nf
+
+q008d00a600b300c600a1008c00a10091009400a1009100ad010a026d045f0000>P
+AzNR008d00a600b300c600a1008c009a008b008e009a008b00a500fe0252042e0000=Z
+
+
+
+
+
+~
+^
+<
+
+|\<
+tT4
+
+
+
+
+
+t
+T
+4
+
+					t	T	4	
+ayq'P
+Z
+R
+N
+OTP
+:KVcR
+5mV.X
+1T
+y'YZY	cV
+"}$]
+sR^R
+:!_!
+m\g
+9G^c^
+A~>L	#
+
+A~SV	9		#
+A~7NH	8		K
+A~ f
+8o
+	U
+A~<hH7	
+76	
+A~AAF
+6z
+A~>O
+A~;L
+A~7!
+A~n2
+ * 	
+A~nm6"6*#!	
+A~#i
+l#l)"	7
+A~ZK
+A~O9\%(
+A~F&'%
+A~M/
+A~sV(&Q'
+A~|t
+A~~+$*
+A~z$=,#+
+A~ue-#d,
+A~rQa.a"-	A
+A~nR/"H.
+A~`L71!
+A~Xf
+2 0	
+A~NY'p3
+Q2	#
+A~?kk
+A~66
+A~&18
+h=),o:o
+A~K=
+)Kn>
+A}:iU?
+ki<C
+SL' CQ
+
+qu%({
+
+Yk
+
+
+:V+
+
+BatteryDataCollection_BDC_Daily_1095_1"
+aA \
+
+ 
+
+
+l
+0|@
+P
+
+
+
+`
+$			p	4
+*22030000000000000000000000000000
+*20030000000000000000000000000000
+A~+&
+*1f030000000000000000000000000000
+*1e030000000000000000000000000000
+A~Y>)
+*1d030000000000000000000000000000
+A~?kjr
+*1c030000000000000000000000000000
+A}r3
+*1a030000000000000000000000000000
+A}!
+|
+A|$l4
+*16030000000000000000000000000000
+A{T+
+*14030000000000000000000000000000
+A{ha
+*13030000000000000000000000000000
+A{Q]%
+
+*12030000000000000000000000000000
+A{'q!S
+*11030000000000000000000000000000
+AzNhw
+*10030000000000000000000000000000
+Az~h^
+*0f030000000000000000000000000000
+AzU/\
+I0e030000000000000000000000000000
+I0d030000000000000000000000000000
+I0c030000000000000000000000000000
+Ayd}
+AyW:v
+I0b030000000000000000000000000000
+I0a030000000000000000000000000000
+I09030000000000000000000000000000
+- /}
+
+$33I
+(g?G
+
+.E&
+
+MF
+
+<g7T
+
+qbp
+
+W07
+
+u&*0i
+
+BatteryDataCollection_BDC_Daily_1095_1#
+W(D4-w.
+
+<#tA
+3lY
+
+FY5f
+
+ 
+
+
+
+
+X
+0
+
+h@
+xP(
+
+
+
+
+`
+8
+
+				p	H	 
+W#dF
+Pd@8
+	@(LD
+A~LU@7m
+A~`uO@7m
+	@&&<t
+A~#\6@7m
+A~z @7m
+A~0@7m
+A~ba@7m
+A~09W
+A}MYa@7
+A}hG@7
+A}~@@7
+A}~}%
+C@6-l
+@6-l
+A|5f
+"@6-l
+A|$
+$|@6-l
+A|$
+
+5@6+N
+v@3Ue
+X@6"
+@@%D
+A{@5|
+A{xi@5|
+A{xj}
+A{!@
+A{r>B@5g
+A{r7N
+A{kE(@5
+A{Yo@5jz
+A{Yw}]E
+d	@5
+A{3Zj(@5
+A{3Z]Xam-
+ @5U
+Sv@5
+A{`
+@5`V
+A{[F-{8
+Azf@5
+Azfb@
+qB@5dd
+Az4S@5dd
+Az4T@
+Azw 
+@506
+D@5+IB
+Az`r
+xl@4
+
+Az	H4
+Az	Vr#@4V
+	?T( 
+AyY!
+Aya )
+Ay.W@4X
+Ay.Sr
+Ay}@4<g
+Ay'8@4<g
+Ay'eXcT
+Ax(;X@4
+Axf@@406
+AxO1
+AxM$b@3c*
+Ax,?/
+c@38
+M~
+z-
+Ax@3
+AxNrW
+Ax7Jr@3m
+Ax(Ij@2
+Ax%|K@2
+Awd@2
+(?@2
+&H(Ak
+	A8G^
+PPTStorageOperator_TimeOffset_30_1c
+W`@8
+{W:W
+^8
+m
+~rK
+
+F<`
+
+\k8k
+del\
+
+=Zd
+
+84	s
+PPTStorageOperator_TimeOffset_30_1d
+p'\in
+
+PPTStorageOperator_TimeOffset_30_1e
+IT8
+
+U@8h
+M=$Wp5p
+BatteryDataCollection_BDC_Daily_1095_1$
+*23030000000000000000000000000000
+Z2	`
+PPTStorageOperator_TimeOffset_30_1f
+93K
+
+PPTStorageOperator_TimeOffset_30_1g
+,@8aJ
+
+0+3b.
+
+M2 1	i
+T9a0!.	i
+`ONC,
+
+,%/"Q-	A
+f,,I
+
+
+
+6&~."-	`
+PPTStorageOperator_TimeOffset_30_1h
+A:Y
+
+@8aJ
+1h[
+_SQLite format 3
+.S`
+
+'O
+`	<
+StableBatteryDataCollection_BDC_Weekly_1095_1BatteryDataCollection_BDC_Weekly_1095_1CREATE TABLE 'BatteryDataCollection_BDC_Weekly_1095_1' ('ID' INTEGER PRIMARY KEY AUTOINCREMENT, 'timestamp' REAL, 'RaTableRaw0' TEXT, 'TotalOperatingTime' INTEGER)l
+?tableBatteryDataCollection_BDC_OBC_365_1BatteryDataCollection_BDC_OBC_365_1
+CREATE TABLE 'BatteryDataCollection_BDC_OBC_365_1' ('ID' INTEGER PRIMARY KEY AUTOINCREMENT, 'timestamp' REAL, 'AppleRawExternalConnected' INTEGER, 'ChargingOverride' INTEGER, 'ExternalConnected' INTEGER, 'FamilyCode' INTEGER, 'NotChargingReason' INTEGER, 'VacVoltageLimit' INTEGER)!
+!tableBatteryDataCollection_BDC_Once_3650_1BatteryDataCollection_BDC_Once_3650_1	CREATE TABLE 'BatteryDataCollection_BDC_Once_3650_1' ('ID' INTEGER PRIMARY KEY AUTOINCREMENT, 'timestamp' REAL, 'AlgoChemID' INTEGER, 'ChemID' INTEGER, 'DesignCapacity' INTEGER, 'EEEE' TEXT, 'YWW' TEXT)l
+CtablePPTStorageOperator_TimeOffset_30_1PPTStorageOperator_TimeOffset_30_1
+CREATE TABLE 'PPTStorageOperator_TimeOffset_30_1' ('ID' INTEGER PRIMARY KEY AUTOINCREMENT, 'timestamp' REAL, 'baseband' REAL, 'kernel' REAL, 'system' REAL)z
+[tableBatteryDataCollection_BDC_SBC_365_1BatteryDataCollection_BDC_SBC_365_1
+CREATE TABLE 'BatteryDataCollection_BDC_SBC_365_1' ('ID' INTEGER PRIMARY KEY AUTOINCREMENT, 'timestamp' REAL, 'Amperage' INTEGER, 'CurrentCapacity' INTEGER, 'InstantAmperage' INTEGER, 'IsCharging' INTEGER, 'PresentDOD0' INTEGER, 'StateOfCharge' INTEGER, 'Temperature' INTEGER, 'Voltage' INTEGER)X
+tableBatteryDataCollection_BDC_Daily_1095_1BatteryDataCollection_BDC_Daily_1095_1
+CREATE TABLE 'BatteryDataCollection_BDC_Daily_1095_1' ('ID' INTEGER PRIMARY KEY AUTOINCREMENT, 'timestamp' REAL, 'ChargingVoltage' INTEGER, 'CycleCount' INTEGER, 'NominalChargeCapacity' INTEGER, 'Qmax0' INTEGER, 'TimeAtHighSoc' TEXT, 'WeightedRa' INTEGER)@
+cindexIndex_PLCoreStorage_schemaVersions_tableNamePLCoreStorage_schemaVersions
+CREATE INDEX "Index_PLCoreStorage_schemaVersions_tableName" ON "PLCoreStorage_schemaVersions" ("tableName")P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)A
+tablePLCoreStorage_schemaVersionsPLCoreStorage_schemaVersions
+CREATE TABLE 'PLCoreStorage_schemaVersions' ('ID' INTEGER PRIMARY KEY AUTOINCREMENT, 'tableName' TEXT, 'schemaVersion' TEXT)
+.-#N,	U
+9eT
+
+BatteryDataCollection_BDC_OBC_365_1
+jz1
+
+
+H 6
+Az '
+Az9GD]
+Az&U:
+Az'
+t
+Azwx*
+Az
+i~
+Az	P
+AwyQv
+'[~
+
+BatteryDataCollection_BDC_Daily_1095_1%
+GYs;
+T
+
+fB(
+
+Y 1!I-
+6gK25
+IaR
+
+k><Ud
+
+yb."p-
+T!y
+
+d*#")
+-
+M)%(	.
+D(&j(	
+7^''
+o#Z
+
+BatteryDataCollection_BDC_Daily_1095_1&
+*24030000000000000000000000000000
+9&'%	
+p%(($	
+'
+
+
+
+HV|$($	
+Rt-
+
+N^] #)F#
+VB`$,
+S1")"	.
+3af<
+
+Xr!*
+JvS_
+
+
+
+
+
+
+q8=
+
+BatteryDataCollection_BDC_Daily_1095_1'
+^)(
+
+
+
+
+
+
+v
+4tb
+
+
+
+
+
+
+v
+V
+
+
+
+
+
+v
+V
+6
+>	!Zt
+
+
+
+
+
+
+v
+V
+6
+
+?qf
+
+LHW
+
+
+FrYA;
+Wr{
+
+YOdp
+
+,vC}
+
+
+CR2'
+
+BatteryDataCollection_BDC_Daily_1095_1(
+q_Y
+
+*25030000000000000000000000000000
+_HOo
+
+cf$
+
+t
+n#z,
+
+tT
+s.x`3
+
+tT4
+GtZ
+
+tT4
+2KGl@Rt/
+
+	7
+
+X8m^b	
+
+=Kq
+
+
+&`%c
+
+BatteryDataCollection_BDC_Daily_1095_1)
+o,@L
+
+Uo
+'
+
+t
+#,Dgs
+
+tT
+^9C
+
+tT4
+R;[9
+{
+
+AbR6
+	A
+.
+nH
+
+PPTStorageOperator_TimeOffset_30_1i
+bONGN
+
+.m`1
+<u-
+
+
+PPTStorageOperator_TimeOffset_30_1j
+Qx.G!
+
+_Zk_
+
+KLfN2
+
+:&7	}
+!V=
+
+PPTStorageOperator_TimeOffset_30_1k
+x\#j
+
+4=r
+
+fd&
+
+(7_	
+cFAv
+
+g[z
+
+Ea/
+
+
+
+
+
+
+l
+j|FU
+
+
+
+
+
+
+l
+J
+>+pr
+
+
+
+
+
+
+l
+J
+(
+myZ
+
+
+
+
+
+
+l
+J
+(
+
+&4'g
+84ED
+#`,
+7.HQ
+
+4lF
+
+D:f.S
+
+				~
+#eK[
+
+				~	^
+v>[
+
+BatteryDataCollection_BDC_Daily_1095_1*
+*26030000000000000000000000000000
+				~	^	>
+t,^;
+.9	U
+>cD
+
+				~	^	>	
+(7
+M
+
+&
+
+
+
+h*;<C
+:l!
+
+j|h5
+wes6
+
+BatteryDataCollection_BDC_Daily_1095_1+
+PPTStorageOperator_TimeOffset_30_1l
+?@8\
+Ccqg
+
+B2 j1
+ns8]hI
+
+Wbc
+
+8>)0!/
+|vrx
+_65
+
+PPTStorageOperator_TimeOffset_30_1m
+'Uv@8\
+(=IT
+
+!%/~
+."-	.
+!c}5
+[0YA}
+
+/<-#i,	7
+,#+	A
+&r]-
+
+BatteryDataCollection_BDC_Daily_1095_1,
+``@N
+
+*28030000000000000000000000000000
+4'%A]
+X+$*	A
+5:G
+
+
+K	)
+
+<eR*%1)	#
+}up
+
+B0Y)%(	
+G.w(&O'	
+% .
+
+a7z'&&	
+(&'d%	#
+PPTStorageOperator_TimeOffset_30_1n
+	?.o
+FI'7
+
+PPTStorageOperator_TimeOffset_30_1o
+P2=|
+
+zr@2M`D
+PPTStorageOperator_TimeOffset_30_1p
+ 
+
+
+
+Q0r@2M`D
+J	IZ
+q
+o
+
+PPTStorageOperator_TimeOffset_30_1q
+ZZj\c
+
+ 
+
+
+
+
+QL@97
+4/u
+
+b%'%
+73:>%
+
+U/+$(#
+'b
+
+
+FA7[N
+
+0")"
+\T$!*@!
+!t@E
+
+BatteryDataCollection_BDC_Daily_1095_1-
+PPTStorageOperator_TimeOffset_30_1r
+ 
+
+
+
+
+X
+_bV@
+?l l* 
+LW Od
+
+PPTStorageOperator_TimeOffset_30_1s
+>:2^
+
+ 
+
+
+
+
+X
+0
+`V0j@9?7
+@J
+NqG
+
+PPTStorageOperator_TimeOffset_30_1t
+cBYT@
+}y1}
+
+h%7
+
+c(/S1>
+
+PPTStorageOperator_TimeOffset_30_1u
+Da
+
+gk3@8
+ x?
+
+'
+s^S
+
++Ui
+
+KOR
+
+#hYQEL
+
+ 7,
+
+p<f	
+
+<U?eeH
+
+4/NTus
+
+yY',
+)e(MCPb
+
+BatteryDataCollection_BDC_Daily_1095_1.
+*29030000000000000000000000000000
+yLwf
+
+A4"
+
+PPTStorageOperator_TimeOffset_30_1v
+lM2
+
+PPTStorageOperator_TimeOffset_30_1w
+>!h@9^
+.t~auD
+d0r+
+
+n
+68
+
+-ajM
+
+4iJ~
+fa)6
+*%7V
+
+BatteryDataCollection_BDC_Daily_1095_1/
+qho
+
+|fR
+73
+
+4E9
+
+j009200ac00ba00cd00a7009100a70096009a00a7009600b30114028404890000?RP
+flvD
+
+[	8Y	
+W)c
+
+:R,5
+
+0s
+
+=jct
+
+PPTStorageOperator_TimeOffset_30_1x
+5Pj
+
+h
+[Dc
+
+PPTStorageOperator_TimeOffset_30_1y
+h@
+1/
+
+PPTStorageOperator_TimeOffset_30_1z
+_An5
+@9L~
+'P8
+
+$iaro(
+
+5JLO(
+
+CDi
+
+BatteryDataCollection_BDC_Daily_1095_10
+AP"6
+*2a030000000000000000000000000000
+PPTStorageOperator_TimeOffset_30_1{
+7{@9L~
+PPTStorageOperator_TimeOffset_30_1|
+V=xPH
+E%@9L~
+	@ b8
+MF7w
+
+Iwxb
+;fg"
+
+Ef@
+
+POwEb
+
+&v_
+
+PPTStorageOperator_TimeOffset_30_1}
+/@9L~
+;Os
+
+vHM,
+;hLr
+
+I!l
+
+$RHC
+
+aU
+
+
+ifjSdS
+PPTStorageOperator_TimeOffset_30_1~
+x
+0,
+
+
+
+
+
+
+
+wjwt	d
+
+
+
+
+
+
+
+
+C#En
+
+5}q
+
+d>d"
+PPTStorageOperator_TimeOffset_30_1
+xP
+a@9L~
+Q	ep
+~r?=
+
+
+
+
+
+
+
+y
+}T-8k
+
+YM(
+
+xP'
+8}@9L~
+xP'
+
+
+
+
+
+
+
+
+y
+`
+jE 
+
+xP'
+
+
+A!+@9L~
+
+
+
+
+
+
+
+y
+`
+G
+
+
+
+
+
+
+
+y
+`
+G
+0
+Nn[
+
+
+
+
+
+
+
+
+y
+`
+G
+0
+
+amkU7
+
+xP'
+
+
+
+;@9L~

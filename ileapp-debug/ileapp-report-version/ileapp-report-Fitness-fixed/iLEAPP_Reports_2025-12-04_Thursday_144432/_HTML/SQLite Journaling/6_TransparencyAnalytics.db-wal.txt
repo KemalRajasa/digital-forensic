@@ -1,0 +1,2871 @@
+IS#X6m
+soft_failures
+hard_failures
+notesB
+samples
+e07
+
+7
+
+
+y
+
+C
+B
+@
+g[
+)
+
+
+ktIDSNetworkPublicKeysEvent	
+ktFTVerifyConsistencyProofEvent
+KeyTransparencyTrustedDeviceEnrollment
+ktRunDutyCycle!
+ktFTVerifySTHEvent
+ktMPVerifyPATInclusionProofEvent
+ktMPVerifySTHEvent
+ktTLTVerifyInclusionProofEvent*">
+ktIDSDutyCycleCompleteEvent
+kt(null)NetworkFetchEvent5%
+ktMPVerifyConsistencyProofEvent
+ktIDSVerifyConsistencyProofEvent
+ktTLTVerifySTHEventT!B
+ktFTDutyCycleCompleteEvent
+ktFTNetworkPublicKeysEvent	
+ktDutyCycleEvent!$ 
+ktFTVerifyNetworkKeyStoreEvent	!?
+ktMPNetworkPublicKeysEvent	
+ktFTVerifyDiskKeyStoreEvent
+ktFTVerifyPATInclusionProofEvent
+ktIDSVerifySTHEvent
+ktMPVerifyDiskKeyStoreEvent
+ktTLTDutyCycleCompleteEvent	
+ktDiskPublicKeyStoreWriteEvent
+ktDiskPublicKeyStoreEvent
+ktIDSVerifyDiskKeyStoreEvent
+ktIDSVerifyPATInclusionProofEvent
+ktIDSVerifyNetworkKeyStoreEvent	
+ktMPDutyCycleCompleteEvent
+ktMPVerifyNetworkKeyStoreEvent	!
+
+ktDiskConfigStoreWriteEvent
+ktNetworkBagEvent
+ktConfigBagVerifyEvent
+ktDiskConfigStoreEvent
+ktTLTVerifyConsistencyProofEvent
+$(mS+
+9
+#0
+w
+
+<
+R
+
+
+r
+f
+S0
+OV
+ktTLTDutyCycleCompleteEvent
+ktRunDutyCycle
+ktTLTVerifySTHEvent
+kt(null)NetworkFetchEvent
+ktDutyCycleEvent
+ktFTNetworkPublicKeysEvent
+ktMPVerifyNetworkKeyStoreEvent
+ktTLTVerifyInclusionProofEvent
+ktMPNetworkPublicKeysEvent
+ktIDSNetworkPublicKeysEvent
+ktFTVerifyNetworkKeyStoreEvent
+ktIDSVerifyNetworkKeyStoreEvent
+ktDiskConfigStoreWriteEvent
+
+"Po
+
+bgzw
+
+nbplist00
+	
+
+
+YeventTime]ktEnvironmentUbuildWproductYeventTypeZerrorChain[errorDomainZeventClass_
+transparencyVersionWmodelidYerrorCode#BwA!
+V19A404YiPhone OS_
+ktFTDutyCycleCompleteEvent_
+5NSURLErrorDomain--1001:kCFErrorDomainCFNetwork--1001:_
+TransparencyErrorNetwork
+ZiPhone10,1
+m,bplist00
+transparencyVersionWmodelidYerrorCode#BwA
+ktMPDutyCycleCompleteEvent_
+N)S
+
+notesC
+\)*C
+
+
+
+
+)
+ktRunDutyCycle"
+=
+9
+RIfF
+
+bplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#BwD
+ZiPhone10,1YiPhone OS
+^ktRunDutyCycleV19A404
+'/:DJS^hjy
+FMbplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw2
+ktDutyCycleEventV19A404
+'/:DJS^hj}
+Ebplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw2KlZiPhone10,1YiPhone OS
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw
+8NZiPhone10,1YiPhone OS
+notesD
+-@
+
+
+
+
+
+)
+ktDutyCycleEvent"$ 
+ITHI
+9
+t=/n
+
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#BwF 
+R?l
+
+Az+)6\ktKTTreeHeadGCCount
+)	Az+'ktTLTTotalSTHs!+
+Az+'ktTLTOutstandingSTHs!*
+Az+'VktTotalStorageSize
+'	Az+%ktMPTotalSTHs (
+Az+%}VktMPOutstandingSTHs
+Az+%cktMPTotalSMTs &
+Az+%IVktMPOutstandingSMTs
+Az+%(ktMPTotalRequests$$
+Az+%
+~ktMPOutstandingRequests #
+Az+$ktKTTreeHeadGCCount "
+Az+$ktKTTreeHeadGCCount
+Az+#IktKTRequestGCCount
+Az+#dktKTRequestGCCount 
+Az+"\ktKTTreeHeadGCCount 
+Az+"xktKTTreeHeadGCCount
+)	Az+!ktTLTTotalSTHs!
+Az+ ktTLTOutstandingSTHs!
+Az+ 
+ktTotalStorageSize
+)	Az+
+ktIDSTotalSTHs!
+ktIDSOutstandingSTHs
+CktIDSTotalSMTs!
+ktIDSOutstandingSMTs
+=ktIDSTotalRequests%
+*ktIDSOutstandingRequests 
+
+ktKTTreeHeadGCCount 
+VktKTTreeHeadGCCount
+ktKTRequestGCCount
+uktKTRequestGCCount 
+ktKTTreeHeadGCCount 
+FktKTTreeHeadGCCount
+ktTLTTotalSTHs!
+
+ktTLTOutstandingSTHs!
+Az+ZktTotalStorageSize
+'	Az
+ktFTTotalSTHs 
+
+o'ktFTOutstandingSTHs
+o'ktFTTotalSMTs 
+ktFTOutstandingSMTs
+ktFTTotalRequests$
+o'|ktFTOutstandingRequests 
+o'mktKTTreeHeadGCCount 
+ktKTTreeHeadGCCount
+ktKTRequestGCCount q
+)	Az
+o#ktTLTTotalSTHs!o
+o#TktTLTOutstandingSTHs!n
+o&ktKTRequestGCCount 
+o&ktKTTreeHeadGCCount 
+o&ktKTTreeHeadGCCount
+o&) ktTLTTotalSTHs!~
+o&!ktTLTOutstandingSTHs!}
+nktTotalStorageSize
+o%ektMPTotalSTHs {
+o%^hktMPOutstandingSTHs
+o%UktMPTotalSMTs y
+o%LktMPOutstandingSMTs
+o%@xktMPTotalRequests$w
+o%;ktMPOutstandingRequests v
+o%/ktKTTreeHeadGCCount u
+o$^ktKTRequestGCCount
+ktKTRequestGCCount r
+o$~ktKTTreeHeadGCCount
+@_k
+
+
+ktIDSNetworkPublicKeysTime-Failed@N{
+ktFTNetworkPublicKeysTime-Failed@NF^
+-$ktMPNetworkPublicKeysTime-Failed@NH
+ktIDSNetworkPublicKeysTime-Failed@NJ
+hard_failures 	
+)
+
+=Y=iSa
+9
+e.
+"6bplist00
+transparencyVersionWmodelidYerrorCode#Bw*
+ktIDSNetworkPublicKeysEvent_
+mbplist00
+transparencyVersionWmodelidYerrorCode#BwA
+ktFTNetworkPublicKeysEvent_
+mkbplist00
+ktMPNetworkPublicKeysEvent_
+>0mm
+	6
+o#TktTLTOutstandingSTHs
+@ktMPNetworkPublicKeysTime-Failed@Nz
+h$
+	
+o#ktTLTTotalSTHs
+IktFTNetworkPublicKeysTime-Failed@Nx:
+@0;
+
+)
+
+ktTLTVerifyInclusionProofEvent*"F
+
+
+9
+Tbplist00
+transparencyVersionWmodelidYerrorCode#Bw*)
+ktIDSDutyCycleCompleteEvent_
+hard_failures!	
+)
+
+
+ktFTVerifyNetworkKeyStoreEvent	!G
+e.	
+ibplist00
+?
+d*
+
+soft_failures 
+w;g
+
+)
+
+
+hard_failures"	
+W9
+
+)
+
+
+transparencyVersionWmodelidYerrorCode#Bw+
+*!d
+
+soft_failures!
+\54k1
+
+ktTLTVerifySTHEventT!J
+;\MpK
+9
+transparencyVersionWmodelidYerrorCode#Bw+'
+notesE
+t!*
+ktRunDutyCycle#
+dY
+9
+Rbplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw
+'ZiPhone10,1YiPhone OS
+notesF
+ktDutyCycleEvent#$ 
+DzC
+
+C
+
+{1i
+
+=ktIDSNetworkPublicKeysTime-Failed@N{"
+SL8(V
+
+hard_failures#	
+g	j
+
+J0o
+9
+}fJwe
+
+2S*bplist00
+transparencyVersionWmodelidYerrorCode#Bw
+6$
+5"g6
+ti
+
+pktMPNetworkPublicKeysTime-Failed@Nz
+l
+fd"}
+
+{ktFTNetworkPublicKeysTime-Failed@Nxo/
+soft_failures"
+(+
+
+ktTLTVerifyInclusionProofEvent*"N
+27
+9
+2bplist00
+transparencyVersionWmodelidYerrorCode#Bw
+6Z9
+4>[m
+
+hard_failures$	
+ktFTVerifyNetworkKeyStoreEvent	!O
+rK$
+9
+2+bplist00
+transparencyVersionWmodelidYerrorCode#Bw
+6r
+mN(
+
+soft_failures#
+=b
+
+V
+9
+6FB
+transparencyVersionWmodelidYerrorCode#Bw
+6
+hard_failures%	
+Y
+9
+transparencyVersionWmodelidYerrorCode#Bw
+6A
+soft_failures$
+aEn\:
+
+ktTLTVerifySTHEventT!R
+]H!RB
+9
+Rwb
+
+2Bbplist00
+transparencyVersionWmodelidYerrorCode#Bw
+6a
+ @eAc
+
+notesG
+bCv
+
+ktRunDutyCycle$
+d
+f
+9
+C+_D
+
+C
+
+
+`Fbplist00
+j~V&
+
+notesH
+UY
+
+ktDutyCycleEvent$$ 
+l1
+9
+`bplist00
+ ktIDSNetworkPublicKeysTime-Failed@/
+hard_failures&	
+K-^5
+9
+-lp/j
+
+6bplist00
+transparencyVersionWmodelidYerrorCode#Bw
+Of$x
+!
+
+qktMPNetworkPublicKeysTime-Failed@/q
+'x2Qs
+
+o%/ktKTTreeHeadGCCount
+
+
+
+\
+%lktFTNetworkPublicKeysTime-Failed@/U
+aU,p3#
+
+soft_failures%
+E3*~
+ktTLTVerifyInclusionProofEvent*"V
+/bplist00
+%T]SQLite format 3
+.S`
+
+
+
+$P6
+			
+#tablesuccess_countsuccess_count
+CREATE TABLE success_count (
+event_type STRING PRIMARY KEY,
+success_count INTEGER,
+hard_failure_count INTEGER,
+soft_failure_count INTEGER
+)9
+
+indexsqlite_autoindex_success_count_1success_count3
+triggermaintain_ring_buffer_samples_v2samplesCREATE TRIGGER maintain_ring_buffer_samples_v2 AFTER INSERT ON samples
+BEGIN
+DELETE FROM samples WHERE id <= NEW.id - 1000;
+END
+Ytablesamplessamples	CREATE TABLE samples (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,
+name STRING,
+value REAL
+))	
+triggermaintain_ring_buffer_notes_v2notesCREATE TRIGGER maintain_ring_buffer_notes_v2 AFTER INSERT ON notes
+BEGIN
+DELETE FROM notes WHERE id <= NEW.id - 1000;
+ENDl
+7tablenotesnotes
+CREATE TABLE notes (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_soft_failures_v2soft_failuresCREATE TRIGGER maintain_ring_buffer_soft_failures_v2 AFTER INSERT ON soft_failures
+BEGIN
+DELETE FROM soft_failures WHERE id <= NEW.id - 1000;
+END
+Gtablesoft_failuressoft_failures
+CREATE TABLE soft_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_hard_failures_v2hard_failuresCREATE TRIGGER maintain_ring_buffer_hard_failures_v2 AFTER INSERT ON hard_failures
+BEGIN
+DELETE FROM hard_failures WHERE id <= NEW.id - 1000;
+ENDP
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Gtablehard_failureshard_failures
+CREATE TABLE hard_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+Q>DZh+
+w	]k
+
+hard_failures'	
+0@)$
+
+ktFTVerifyNetworkKeyStoreEvent	!W
+~L}
+9
+#Po
+
+Nm>O
+
+Dbplist00
+YyyWSQLite format 3
+EsnC
+o&")T
+
+soft_failures&
+$Po
+
+^1bplist00
+hard_failures(	
+4T}
+
+ubplist00
+U`
+6
+soft_failures'
+r7
+
+ktTLTVerifySTHEventT!Z
+c$"
+9
+v0lX.
+
+m"
+
+notesI
+ktRunDutyCycle%
+I
+9
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw&4)ZiPhone10,1YiPhone OS
+notesJ
+ktDutyCycleEvent%$ 
+Jbplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw&vZiPhone10,1YiPhone OS
+o%;ktMPOutstandingRequests
+
+
+
+\
+#
+/j%ZktIDSNetworkPublicKeysTime-Failed@L
+hard_failures)	
+\
+$
+
+ktIDSNetworkPublicKeysEvent		%b
+?;'Ow
+9
+a)iF=
+/jenzbplist00
+transparencyVersionWmodelidYerrorCode#Bw(M
+q
+ wEM
+
+o%@xktMPTotalRequests
+<CFQ
+
+
+
+
+\
+#
+/j%nktMPNetworkPublicKeysTime-Failed@L/
+mG[
+
+YrOPw
+
+
+
+
+\
+#
+/j%BktFTNetworkPublicKeysTime-Failed@L
+soft_failures(
+NN\B
+
+ktTLTVerifyInclusionProofEvent*"^
+]
+9
+#Asy
+/je
+bplist00
+transparencyVersionWmodelidYerrorCode#Bw(M<
+hard_failures*	
++2M
+
+ktFTVerifyNetworkKeyStoreEvent	!_
+ktMPNetworkPublicKeysEvent		!W
+$Tt9
+9
+/je-bplist00
+transparencyVersionWmodelidYerrorCode#Bw(MQ
+soft_failures)
+36Bx$
+
+T
+9
+/jeXbplist00
+transparencyVersionWmodelidYerrorCode#Bw(MfB
+TWrI
+
+hard_failures+	
+ktFTNetworkPublicKeysEvent		
+Hai:r
+9
+!6D
+
+transparencyVersionWmodelidYerrorCode#Bw(My
+??Z`
+soft_failures*
+ktTLTVerifySTHEventT!b
+w<c-
+9
+/jebplist00
+transparencyVersionWmodelidYerrorCode#Bw(M
+notesK
+|+/
+
+ktRunDutyCycle&
+0
+9
+N{bplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw@^sZiPhone10,1YiPhone OS
+notesL
+rX:$
+ktDutyCycleEvent&$ 
+q!
+9
+Qobplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw@^
+o%UktMPTotalSMTs
+
+
+
+\
+#z
+H!m7ktIDSNetworkPublicKeysTime-Failed@A/
+v[O
+
+hard_failures,	
+ktIDSNetworkPublicKeysEvent	
+%b
+:&
+9
+Habplist00
+BhI[
+fN}G@
+
+
+
+\
+#zB
+H!ktMPNetworkPublicKeysTime-Failed@A
+S`
+
+AAv5n
+
+o%ektMPTotalSTHs
+
+
+
+\
+#zB
+
+H!ktFTNetworkPublicKeysTime-Failed@@C
+soft_failures+
+!	_F
+
+ktTLTVerifyInclusionProofEvent*"f
+o$uB&
+9
+HaVbplist00
+hard_failures-	
+%{8Z:
+
+ktFTVerifyNetworkKeyStoreEvent	!g
+ktMPNetworkPublicKeysEvent	
+!W
+,Z
+9
+"r$i
+
+soft_failures,
+A#\P9+^
+
+
+Dt
+
+hard_failures.	
+5;7
+
+ktFTNetworkPublicKeysEvent	
+
+(8!A
+9
+Ha|bplist00
+soft_failures-
+ktTLTVerifySTHEventT!j
+
+O>
+9
+notesM
+ktRunDutyCycle'
+d
+9
+= *
+
+c5+bplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw[:!ZiPhone10,1YiPhone OS
+notesN
+-b
+
+ktDutyCycleEvent'$ 
+UJ
+9
+zKX
+
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bw[:
+
+
+
+\
+#zB
+
+c2L'ktIDSNetworkPublicKeysTime-Failed@Nvv
+y5 
+
+hard_failures/	
+ktIDSNetworkPublicKeysEvent	%b
+cr^bplist00
+transparencyVersionWmodelidYerrorCode#Bw[Ia
+]8@n
+
+o&!ktTLTOutstandingSTHs
+
+
+
+\
+#zB
+
+c2zhktMPNetworkPublicKeysTime-Failed@NuX
+5(Q
+
+w[Bk
+
+o&) ktTLTTotalSTHs
+
+
+
+\
+#zB
+a
+c2IktFTNetworkPublicKeysTime-Failed@Ntkz
+soft_failures.
+ktTLTVerifyInclusionProofEvent*"n
+
+:
+9
+dfe8*
+transparencyVersionWmodelidYerrorCode#Bw[I`
+SQLite format 3
+5>MqF
+3a$4
+
+hard_failures0	
+ktFTVerifyNetworkKeyStoreEvent	!o
+ktMPNetworkPublicKeysEvent	!W
+(NW
+9
+%Po
+
+transparencyVersionWmodelidYerrorCode#Bw[I
+
+!zSQLite format 3
+soft_failures/
+j
+mT
+&Po
+
+crbplist00
+transparencyVersionWmodelidYerrorCode#Bw[I
+#
+hard_failures1	
+ktFTNetworkPublicKeysEvent	
+7
+9
++P@
+
+crAbplist00
+transparencyVersionWmodelidYerrorCode#Bw[I#
+
+^.8
+
+soft_failures0
+ktTLTVerifySTHEventT!r
+ AF
+9
+xZz51^
+
+transparencyVersionWmodelidYerrorCode#Bw[I8
+notesO
+8dh7
+ktRunDutyCycle(
+k5Cc
+9
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#Bwv~JZiPhone10,1YiPhone OS
+notesP
+9T
+
+ktDutyCycleEvent($ 
+wPwe
+9
+ebi|
+
+4bplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#BwvZiPhone10,1YiPhone OS
+hard_failures2	
+CD
+
+ktIDSNetworkPublicKeysEvent	%b
+/c!P<
+9
+2Mzw
+
+K/cbplist00
+transparencyVersionWmodelidYerrorCode#BwxClGH
+\d,
+
+d#6
+
+[a
+ 
+
+
+
+
+\
+#zB
+a(
+J@ktIDSNetworkPublicKeysTime-Failed@
+
+
+
+\
+#zB
+a(
+
+J&ktMPNetworkPublicKeysTime-Failed@i
+j?G+v5u
+[}_7wQ
+
+ktKTRequestGCCount
+
+o&ktKTRequestGCCount
+
+
+
+\
+#zB
+a(
+
+
+JktFTNetworkPublicKeysTime-Failed@[9`
+;
+yM)y
+
+soft_failures1
+ktTLTVerifyInclusionProofEvent*"v
+S
+^2H
+9
+]"$+o
+transparencyVersionWmodelidYerrorCode#BwxCokH
+hard_failures3	
+ktFTVerifyNetworkKeyStoreEvent	!w
+ktMPNetworkPublicKeysEvent	!W
+A{|B
+
+K2bplist00
+transparencyVersionWmodelidYerrorCode#BwxCo
+soft_failures2
+q$)H>;K
+
+!K^
+
+K2<bplist00
+transparencyVersionWmodelidYerrorCode#BwxCoK
+hard_failures4	
+d
+pZ
+
+ktFTNetworkPublicKeysEvent	
+V
+2;&uB
+
+soft_failures3
+-S
+
+ktTLTVerifySTHEventT!z
+	725
+9
+transparencyVersionWmodelidYerrorCode#BwxCox
+{
+ktTLTVerifySTHEventU!z
+JvU]
+9
+{
+
+{+:
+9
+w
+9
+GsPw
+ktTLTVerifySTHEventV!z
+[+0#	
+9
+Aj	4
+
+ktTLTVerifyInclusionProofEvent+"v
+9m
+
+7
+
+
+
+C
+F?
+
+S0+
+u`
+
+ktTLTVerifySTHEventW!z
+n,zTf_
+
+B
+@
+g[
+y{
+ p
+
+m\
+
+B
+@
+g
+y{[
+au
+
+K|F<M
+
+y[{
+ktTLTVerifySTHEventX!z
+ 03
+
+
+y[{
+ktTLTVerifyInclusionProofEvent,"v
+,n?H
+
+7
+
+
+C
+y[{
+
+k>+y8
+y[
+{
+ktTLTVerifySTHEventY!z
+We%9
+
+rzKa0m
+
+B
+
+g
+y[
+{@
+Y(m
+
+sL
+
+B
+
+y[
+{@
+g
+3M|B
+
+EqI
+
+y[
+@
+g{
+ktTLTVerifySTHEventZ!z
+S>
+
+bx4
+
+y[
+@
+g{
+ktTLTVerifyInclusionProofEvent-"v
+V~
+
+cIR7
+
+y[
+@
+g{
+C
+ktMPNetworkPublicKeysEvent	!
+]}k>
+
+notesQ
+aMb]
+y[
+@
+g{
+C)
+ktRunDutyCycle)
+Cbplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#BwR2bZiPhone10,1YiPhone OS
+notesR
+ksIRT[
+
+y[
+@
+g{
+C)
+ktDutyCycleEvent)$ 
+2'6;bplist00
+	
+YeventTimeWmodelidWproductZeventClassYeventTypeUbuild#BwRJZiPhone10,1YiPhone OS
+k<~D
+
+(I7~
+
+
+
+
+\
+#zB
+a(
+
+
+
+2aktIDSNetworkPublicKeysSize$25i
+V0i
+
+
+
+
+\
+#zB
+a(
+
+
+
+R
+ktIDSNetworkPublicKeysTime-Success?z
+y[
+@
+g{
+C)
+
+ktIDSNetworkPublicKeysEvent
+%b
+w@
+
+$;
+
+y[
+@
+g
+C)
+{
+ktTLTVerifySTHEvent[!z
+(D3
+
+o'mktKTTreeHeadGCCount
+
+
+
+\
+#zB
+a(
+
+
+
+R
+#
+2h[ktTLTInclusionProofTimeA&j+p
+y[
+@
+g
+C)
+{
+
+S={]
+y[
+@
+g
+C)
+
+
+ktTLTVerifySTHEvent\!z
+<0m
+
+o'|ktFTOutstandingRequests
+?3y?
+
+
+
+
+\
+#zB
+a(
+
+
+
+R
+#	
+2iZktTLTInclusionProofTimeA&j.h
+ktFTTotalRequests
+-QAN
+
+
+
+
+\
+#zB
+a(
+
+
+
+R
+#		
+2iktTLTInclusionProofTimeA$I
+aqv
+
+y[
+@
+g
+C)
+
+
+ktTLTVerifyInclusionProofEvent."v
+nh{
+
+pr
+
+ktIDSVerifyNetworkKeyStoreEvent
+
+B}^
+
+2uh 
+\O
+
+b	O
+
+
+
+
+\
+#zB
+a(
+
+
+
+R
+#			
+2kIktTotalStorageSize
+",n
+
+
+
+
+x
+U
+-
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+				v	S	,	
+o'ktFTTotalSMTs
+AzNFktFTTotalRequests$`
+AzN8ktFTOutstandingRequests _
+RktKTTreeHeadGCCount ^
+AzNkfktKTTreeHeadGCCount
+AzN:ktKTRequestGCCount [
+ktKTTreeHeadGCCount Z
+AzN[ktKTTreeHeadGCCount
+)	AzN
+KktTLTTotalSTHs!X
+AzN0ktTLTOutstandingSTHs!W
+AzNwktTotalStorageSize
+'	AzN!.ktMPTotalSTHs U
+ ktMPOutstandingSTHs
+ktMPTotalSMTs S
+AzN@ktMPOutstandingSMTs
+AzN~ktMPTotalRequests$Q
+NktMPOutstandingRequests P
+ktKTTreeHeadGCCount O
+AzNFktKTTreeHeadGCCount
+ktKTRequestGCCount L
+zktKTTreeHeadGCCount K
+AzN<ktKTTreeHeadGCCount
+{ktTLTTotalSTHs!I
+xktTLTOutstandingSTHs!H
+AzNjktTotalStorageSize
+)	AzN0ktIDSTotalSTHs!F
+ktIDSTotalSMTs!D
+AzNktIDSOutstandingSMTs
+AzN ktIDSTotalRequests%B
+#ktIDSOutstandingRequests A
+@ktKTTreeHeadGCCount @
+AzNS~ktKTTreeHeadGCCount
+AzN'VktKTRequestGCCount =
+AzNktKTTreeHeadGCCount <
+AzNb
+)	AzNktTLTTotalSTHs!:
+AzN	ktTLTOutstandingSTHs!9
+AzN[ktTotalStorageSize
+'	Az+,A[ktFTTotalSTHs 7
+Az+,0
+ktFTOutstandingSTHs
+Az+,
+ktFTTotalSMTs 5
+Az++ktFTOutstandingSMTs
+Az++ktFTTotalRequests$3
+Az++ktFTOutstandingRequests 2
+Az++ktKTTreeHeadGCCount 1
+Az++Y`ktKTTreeHeadGCCount
+Az+*ktKTRequestGCCount
+Az+* ktKTRequestGCCount .
+Az+)
+.pqcEl;
+
++
+
+}
+`
+=
+ tR0
+|^:
+
+
+
+
+
+p
+N
+,
+					{	^	;	
+AxO
+
+ktMPOutstand
+AztjhJktFTOutstandingRequests 
+Aztjh{ktKTTreeHeadGCCount 
+Aztjh-(ktKTTreeHeadGCCount
+AztjgoktKTRequestGCCount
+Aztjf
+ktKTRequestGCCount 
+AztjfViktKTTreeHeadGCCount 
+Aztjf	(ktKTTreeHeadGCCount
+)	AztjdFktTLTTotalSTHs!
+Aztjd
+ktTLTOutstandingSTHs!
+'	Aztjc86ktMPTotalSTHs 
+Aztjc1ktMPOutstandingSTHs
+Aztjc)ktMPTotalSMTs 
+Aztjc!ktMPOutstandingSMTs
+Aztjc
+ktMPTotalRequests$~
+ktMPOutstandingRequests }
+ktKTTreeHeadGCCount |
+Aztjb*ktKTTreeHeadGCCount
+AztjbrktKTRequestGCCount
+Aztjb!ktKTRequestGCCount y
+AztjaktKTTreeHeadGCCount x
+AztjaB>ktKTTreeHeadGCCount
+)	Aztj`ktTLTTotalSTHs!v
+Aztj`ktTLTOutstandingSTHs!u
+Aztj`|ktTotalStorageSize
+)	Aztj_|,ktIDSTotalSTHs!s
+Aztj_wktIDSOutstandingSTHs
+Aztj_pktIDSTotalSMTs!q
+Aztj_iktIDSOutstandingSMTs
+Aztj_`ktIDSTotalRequests%o
+Aztj_[
+ktIDSOutstandingRequests n
+Aztj_NzktKTTreeHeadGCCount m
+Aztj_4@ktKTTreeHeadGCCount
+Aztj^LktKTRequestGCCount
+Aztj^
+ktKTRequestGCCount j
+Aztj^yktKTTreeHeadGCCount i
+Aztj^pvktKTTreeHeadGCCount
+)	Aztj]QktTLTTotalSTHs!g
+Aztj]>ktTLTOutstandingSTHs!f
+Aztj]
+XktTotalStorageSize
+'	AzNGktFTTotalSTHs d
+AzN5<ktFTOutstandingSTHs
+
+ktTLTOutstandingSTHs!1
+'	Az	
+
+1ktMPTotalSTHs /
+ktMPOutstandingSTHs
+ktMPTotalSMTs -
+ktMPOutstandingSMTs
+]ktMPTotalRequests$+
+ktMPOutstandingRequests *
+vktKTTreeHeadGCCount )
+'ktKTTreeHeadGCCount
+jktKTRequestGCCount &
+bVktKTTreeHeadGCCount %
+ktTLTTotalSTHs!#
+ktTLTOutstandingSTHs!"
+tktTotalStorageSize
+ktIDSTotalSTHs! 
+ktIDSTotalSMTs!
+_ktIDSTotalRequests%
+ktIDSOutstandingRequests 
+.DktKTTreeHeadGCCount 
+8&ktKTRequestGCCount
+GktKTRequestGCCount 
+.wktKTTreeHeadGCCount 
+WktKTTreeHeadGCCount
+ktTLTTotalSTHs!
+Y~ktTLTOutstandingSTHs!
+E4ktTotalStorageSize
+'	Aztji
+=ktFTTotalSTHs 
+AztjhktFTOutstandingSTHs
+Aztjh
+ktFTTotalSMTs 
+Aztjh2ktFTOutstandingSMTs
+AztjhktFTTotalRequests
+ktFTTotalSMTs
+rktFTTotalRequests$:
+sktFTOutstandingRequests 9
+	ktKTTreeHeadGCCount 8
+ktKTTreeHeadGCCount
+ZSktKTRequestGCCount 5
+LktKTTreeHeadGCCount 4
+yktKTTreeHeadGCCount
+)	Az	
+&ktTLTTotalSTHs
+O$
+cv
+	
+		|	_	;	
+MktKTTreeHeadGCCount }
+~ktKTTreeHeadGCCount
+~	ktKTRequestGCCount
+$ktKTRequestGCCount z
+|ktKTTreeHeadGCCount y
+zsktTLTTotalSTHs!w
+zktTLTOutstandingSTHs!v
+z&ktTotalStorageSize
+xktIDSTotalSTHs!t
+xpHktIDSOutstandingSTHs
+xWGktIDSTotalSMTs!r
+x<ktIDSOutstandingSMTs
+x"JktIDSTotalRequests%p
+DktIDSOutstandingRequests o
+ktKTTreeHeadGCCount n
+w<ktKTTreeHeadGCCount
+ktKTRequestGCCount k
+ktKTTreeHeadGCCount j
+v<ktKTTreeHeadGCCount
+u<ktTLTTotalSTHs!h
+u6ktTLTOutstandingSTHs!g
+t<ktTotalStorageSize
+'	Az(ktFTTotalSTHs e
+Az6ktFTOutstandingSTHs
+AzktFTTotalSMTs c
+Azp;ktFTOutstandingSMTs
+Azi
+ktFTTotalRequests$a
+Az	ktFTOutstandingRequests `
+ktKTTreeHeadGCCount _
+AzktKTTreeHeadGCCount
+Azr:ktKTRequestGCCount
+Azz7ktKTRequestGCCount \
+AzyYktKTTreeHeadGCCount [
+AzySktKTTreeHeadGCCount
+)	Azw
+ktTLTTotalSTHs!Y
+AzwktTLTOutstandingSTHs!X
+AzwktTotalStorageSize
+'	AzuktMPTotalSTHs V
+Azu8ktMPOutstandingSTHs
+AzuktMPTotalSMTs T
+AzuktMPOutstandingSMTs
+AzuTktMPTotalRequests$R
+Azu+ktMPOutstandingRequests Q
+Azu0ktKTTreeHeadGCCount P
+AzuktKTTreeHeadGCCount
+Azu{
+AzuLMktKTRequestGCCount M
+]ktKTTreeHeadGCCount L
+Azt.ktKTTreeHeadGCCount
+)	AztUrktTLTTotalSTHs!J
+AztJktTLTOutstandingSTHs!I
+Azt?ktTotalStorageSize
+ktKTTreeHeadGCCount G
+AzsDktKTTreeHeadGCCount
+AzssCktKTRequestGCCount
+Azr ktKTRequestGCCount D
+Azrm<ktKTTreeHeadGCCount C
+Azr0ktKTTreeHeadGCCount
+)	AzoktTLTTotalSTHs!A
+AzodktTLTOutstandingSTHs!@
+AzoktTotalStorageSize
+ApktFTTotalSTHs >
+4ktFTOutstandingSTHs
+ktFTTotalSMTs
+_%ZpF
+
+
+
+
+\
+#zB
+a(
+
+
+
+R
+#				}
+2kdktTLTOutstandingSTHs!o
+.yCY<
+
+
+
+
+\
+#zB
+a(
+
+
+
+R
+#				}	_
+2k}ktTLTTotalSTHs!p
+$Q`%
+f/
+cB
+
+ktFTTotalSTHs
+1r)
+
+
+
+
+\
+#zB
+a(
+
+
+
+R
+#				}	_	=
+:WJ
+
+
+
+
+\
+#zB
+a(
+
+
+
+R
+#				}	_	=	
+Fp9$
+
+Z}M
+
+ktTLTOutstandingSTHs
+2pTktKTTreeHeadGCCount
+ktTLTTotalSTHs
+ktKTTreeHeadGCCount t
+;&lo
+
+2q3bktIDSOutstandingRequests u
+2qFktIDSTotalRequests%v
+uktKTRequestGCCount
+,'7
+2qdktIDSOutstandingSMTs
+2q|ktIDSTotalSMTs!x
+b?e^XN
+
+2qktIDSOutstandingSTHs
+
+ktKTTreeHeadGCCount
+2q
+ktIDSTotalSTHs!z
+ktTLTVerifyInclusionProofEvent."
+;90)i
+
+0s|
+
+*ktIDSOutstandingRequests
+t
+}B
+2wktIDSNetworkPublicKeysSize$2
+>
+F7j
+
+=ktIDSTotalRequests
+u4
+D
+
+ktIDSNetworkPublicKeysTime-Success?i
+AH
+
+y[
+@
+g
+C)
+
+ktIDSNetworkPublicKeysEvent%b
+
+{
+ktTLTVerifySTHEvent]!z
+^e3	
+
+ktTLTInclusionProofTimeA&jB(
+6,
+
+y[
+@
+g
+C)
+
+{
+
+wUQ
+
+Fr6
+
+y[
+@
+g
+C)
+j&jl{
+
+ktTLTVerifySTHEvent^!z
+"!i
+
+](yb
+
+CktIDSTotalSMTs
+2zBktTLTInclusionProofTimeA&jM
+i3r4[ae
+
+2FktTLTInclusionProofTimeA$#
+ktTLTVerifyInclusionProofEvent/"
+\;N~w
+
+ktIDSVerifyNetworkKeyStoreEvent
+{g#
+
+y[
+@
+g
+C)
+
+
+S	ruB
+
+qP>&
+soft_failures4
+4hKQ)
+
+ktTLTDutyCycleCompleteEvent
+$
+G(/
+
+YeventTime]ktEnvironmentUbuildWproductYeventTypeZeventClass[errorDomain_
+transparencyVersionWmodelidYerrorCode#BwS
+TransparencyErrorInternal
+'5;CMXdz
+ktIDSTotalSTHs
+2Skt(null)NetworkFetchSize
+hard_failures5	
+Q^
+
+d'vM~
+
+#V
+w
+2]bplist00
+transparencyVersionWmodelidYerrorCode#BwS
+ ktIDSVerifyConsistencyProofEvent_
+4TransparencyErrorServer-6:TransparencyErrorServer-6:_
+TransparencyErrorVerify
+ka
+
+
+R
+kt(null)NetworkFetchEvent6%
+QD;
+
+2(kt(null)NetworkFetchTime-Success?
+MH`
+
+z#5V
+Az+ ktTLTOutstandingSTHs
+2ktMPNetworkPublicKeysSize l5
+)	Az+!ktTLTTotalSTHs
+@X~h
+
+ktMPNetworkPublicKeysTime-Success@
+
+R
+
+ktFTVerifyNetworkKeyStoreEvent	!#
+ktMPNetworkPublicKeysEvent
+!
+mrH
+
+ktTLTVerifySTHEvent_&!
+a-v7
+
+tg>
+
+2ktTLTInclusionProofTimeA&j
+*E!
+
+y[
+@
+g
+C)
+
+
+<J
+
+;D
+
+y
+@
+g
+C)
+
+
+6[
+/	\
+
+[6
+ktTLTVerifySTHEvent`&!
+hEZc\
+
+Az+"\ktKTTreeHeadGCCount
+ktTLTInclusionProofTimeA&j
+Az+#dktKTRequestGCCount
+;F=
+
+2LktTLTInclusionProofTimeA&jZ
+[6
+ktTLTVerifyInclusionProofEvent0"
+ ^z%
+
+ktMPVerifyNetworkKeyStoreEvent
+!
+
+R9A'
+
+c
+
+ktTLTDutyCycleCompleteEvent
+$*
+6>`
+
+2LVktTotalStorageSize
+l,
+_oK
+
+\Y8
+
+2}ZktTLTTotalSTHs!	
+~ktMPOutstandingRequests
+]	-
+
+2zktKTRequestGCCount
+~P>
+
+Az+%(ktMPTotalRequests
+G6q
+
+nC7I5
+
+`_<rlX
+
+2tktKTTreeHeadGCCount
+nMI
+
+Az+%cktMPTotalSMTs
+ktKTTreeHeadGCCount 
+
+q\UQ
+
+>8	
+
+0l+E.
+
+2(ktMPOutstandingRequests 
+c10
+0# I]v
+
+'	Az+%ktMPTotalSTHs
+29?ktMPTotalRequests$
+2TktMPOutstandingSMTs
+Az+'ktTLTOutstandingSTHs
+NM5a
+
+2qktMPTotalSMTs 
+_h
+
+y{K
+
+)	Az+'ktTLTTotalSTHs
+2ktMPOutstandingSTHs
+NJ89
+
+2tktMPTotalSTHs 
+!,
+
+
+
++H:4
+
+2ktFTNetworkPublicKeysSize 
+
+P>
+
+Az+* ktKTRequestGCCount
+K
+W
+
+2:ktFTNetworkPublicKeysTime-Success@
+?OM
+
+ktFTNetworkPublicKeysEvent
+
+z5(R
+[
+ktTLTVerifySTHEventa&!
+
+L)9
+
+ktTLTInclusionProofTimeA&j(h
+S"BkY
+
+y
+
+g
+C)
+
+
+6@
+Fv#
+
+Roxm
+
+y
+
+C)
+
+
+6@
+g
+V`G
+
+@
+g6
+ktTLTVerifySTHEventb&!
+r9J
+
+va)q3
+ktTLTInclusionProofTimeA&j3w
+E	
+
+Az++ktKTTreeHeadGCCount
+2kvktTLTInclusionProofTimeA$
+EGK1
+
+@
+g6
+ktTLTVerifyInclusionProofEvent1"
+@
+g6
+ktDutyCycleEvent)$2
+ktFTVerifyNetworkKeyStoreEvent
+!#
+;B~
+'Z
+
+ktTLTDutyCycleCompleteEvent
+$3
+gLNWy+
+
+Az++ktFTOutstandingRequests
+2lktTotalStorageSize
+,
+$vI
+
+Az++ktFTTotalRequests
+Q
++;
+
+2ktTLTOutstandingSTHs!
+O0Q^
+
+2JktTLTTotalSTHs!
+rJ8
+
+2ktKTRequestGCCount
+,r/ 	
+1<H]sB
+
+PktKTRequestGCCount
+707?
+
+'	Az+,A[ktFTTotalSTHs
+2bktKTTreeHeadGCCount
+y/I2
+}U}
+
+2N&]
+
+2ktKTTreeHeadGCCount 
+4wsN]
+
+AzN	ktTLTOutstandingSTHs
+\i7
+
+2-,ktFTOutstandingRequests  
+
+HQ
+
+)	AzNktTLTTotalSTHs
+2>tktFTTotalRequests$!
+tupp
+
+2Y>ktFTOutstandingSMTs
+J=e
+
+AzNktKTTreeHeadGCCount
+o.+~y
+
+2tktFTTotalSMTs #
+<SQLite format 3
+R;S
+
+y*!-:
+
+
+
+x
+U
+-
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+AztjhktFTTotalRequests$
+
+Aztj_wktIDSOutstandingSTHs b
+AzN'VktKTRequestGCCount
+AzN5<ktFTOutstandingSTHs
+P
+|
+^:
+
+
+
+
+|
+Z
+7
+
+hF$
+AzuktMPOutstandingSMTs!2
+ktIDSTotalSMTs
+ktFTTotalSMTs <
+7&brz
+
+2ktFTOutstandingSTHs
+H/6
+
+
+
+
+x
+U
+-
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+2oktFTTotalSTHs %
+E}+
+
+
+E?oM
+
+
+
+x
+U
+-
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+-M
+!
+
+2nktMPNetworkPublicKeysSize l
+P"hS
+
+$u
+
+x
+
+U
+-
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+@ktKTTreeHeadGCCount
+XG9/.
+
+2ktMPNetworkPublicKeysTime-Success?
+X9RE
+
+R[
+ktFTVerifyNetworkKeyStoreEvent
+!5
+ktMPNetworkPublicKeysEvent!
+@
+g
+ktTLTVerifySTHEventc&!
+oF25
+
+@kE5X
+
+U
+
+-
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+#ktIDSOutstandingRequests
+2 XktTLTInclusionProofTimeA&jW`
+K<cwv
+
+
+R[
+Z+tNV
+
+9QJ+a
+
+ktTLTVerifySTHEventd&!
+Quv
+
+a7-^bSQLite format 3
+0oL
+
+-
+
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+AzN ktIDSTotalRequests
+2|ktTLTInclusionProofTimeA&j:\
+M#JH
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+@
+g
+ktTLTVerifyInclusionProofEvent2"
+bGZ
+
+V\
+
+ktMPVerifyNetworkKeyStoreEvent!
+
+@
+g
+
+ktTLTDutyCycleCompleteEvent
+$<
+ktDiskPublicKeyStoreWriteEvent 
+j	~
+
+soft_failures5
+ktTLTDutyCycleCompleteEvent$<
+v	$
+
+transparencyVersionWmodelidYerrorCode#BwSO
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+ktFTNetworkPublicKeysSize ,+
+C#$
+
+i5
+
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+DkWtq
+
+ktFTNetworkPublicKeysTime-Success?I
+4X^
+
+@
+g
+
+ktFTNetworkPublicKeysEvent
+3.
+
+
+?S
+,
+
+6
+ktTLTVerifySTHEvente&!
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+)	AzN0ktIDSTotalSTHs
+2cktTLTInclusionProofTimeA&j
+@$*@j~
+
+
+g
+
+
+6@
+B 6K*
+
+6@
+g
+~%
+
+>nC!@
+
+
+@
+g6
+ktTLTVerifySTHEventf&!
+*F
+
+c?!tQ*	
+
+
+
+
+e
+A
+#
+
+23ktTLTInclusionProofTimeA&j,
+l
+c
+?!tQ*	
+
+
+
+
+e
+A
+#
+
+xktTLTOutstandingSTHs
+bq<;
+
+2q\ktTLTInclusionProofTimeA$
++g
+
+
+@
+g6
+ktTLTVerifyInclusionProofEvent3"
+
+@
+g6
+ktDutyCycleEvent)$D
+ktFTVerifyNetworkKeyStoreEvent!5
+vRS
+
+ktTLTDutyCycleCompleteEvent$E
+ktDiskPublicKeyStoreWriteEvent!
+soft_failures6
+ktTLTDutyCycleCompleteEvent$E
+xN%
+
+!tQ*	
+
+
+
+
+e
+A
+#
+
+{ktTLTTotalSTHs
+r%
+
+
+2"ktIDSNetworkPublicKeysSize$2,0
+B%('
+
+
+zp=_8
+!
+tQ*	
+
+
+
+
+e
+A
+#
+
+2ktIDSNetworkPublicKeysTime-Success?h
+ 7eO
+
+y
+
+C)
+
+ktIDSNetworkPublicKeysEvent%b
+^L	Y"Eu
+
+ktTLTVerifySTHEventg&!
+}+G`'
+
+@o]	Rx!
+
+pe<Ff
+
+tQ*	
+
+
+
+
+e
+A
+#
+
+zktKTTreeHeadGCCount
+|KM
+
+2ktTLTInclusionProofTimeA&j>
+AV
+
+y
+
+C)
+
+6{
+/-
+
+]vC?B
+
+^HD
+
+ktTLTVerifySTHEventh&!
+[O=
+
+tQ*	
+
+
+
+
+e
+A
+#
+
+2SktTLTInclusionProofTimeA&jI
+\]i_/H
+
+YIqc
+tQ*	
+
+
+
+
+e
+A
+#
+
+2)ktTLTInclusionProofTimeA${`
+ktTLTVerifyInclusionProofEvent4"
+e<
+
+y
+
+C)R
+ktIDSVerifyNetworkKeyStoreEvent
+61
+
+jGC
+
+@
+g
+{
+ktTLTDutyCycleCompleteEvent$N
+ktDiskPublicKeyStoreWriteEvent"
+soft_failures7
+TeT9
+ktTLTDutyCycleCompleteEvent
+$N
+|g`
+
+.*fT
+
+
+#bplist00
+F.u&
+tQ*	
+
+
+
+
+e
+A
+#
+
+;h>a
+
+2<ktMPNetworkPublicKeysSize l,5
+_`{
+t
+Q*	
+
+
+
+
+e
+A
+#
+
+
+
+
+
+Z
+2D5ktMPNetworkPublicKeysTime-Success?:
+)
+
+
+[
+ktFTVerifyNetworkKeyStoreEvent!P
+ktMPNetworkPublicKeysEvent!
+J5.
+
+ktTLTVerifySTHEventi&!
+Fvi$
+*	
+
+
+
+
+e
+A
+#
+
+NktMPOutstandingRequests
+[V{
+
+
+
+
+
+Z
++
+ktTLTInclusionProofTimeA&jzH
+X!Y1
+
+bm^@
+
+ktTLTVerifySTHEventj&!
+	
+
+
+
+
+e
+A
+#
+
+AzN~ktMPTotalRequests
+
+
+
+
+Z
++
+2hktTLTInclusionProofTimeA&j
+|'
+	
+
+
+
+
+
+e
+A
+#
+
+vFFDt}
+
+
+
+
+
+Z
++
+ktTLTInclusionProofTimeA&j.
+ ;
+]HA
+
+ktTLTVerifyInclusionProofEvent5"
+Wqz
+
+@
+g
+{
+ktMPVerifyNetworkKeyStoreEvent!
+
+o+
+
+,8u
+
+ktTLTDutyCycleCompleteEvent
+$W
+ktDiskPublicKeyStoreWriteEvent#
+soft_failures8
+d12q
+
+3K$
+
+
+
+
+
+e
+A
+#
+
+ktMPTotalSMTs
+
+
+
+
+Z
++
+kt(null)NetworkFetchSize
+Th[
+
+hard_failures6	
+kt(null)NetworkFetchEvent6%Y
+-m
+
+j7S!
+
+ktMPVerifyConsistencyProofEvent_
+NTransparencyErrorServer-6:TransparencyErrorServer-6:TransparencyErrorServer-6:_
+?K
+
+y
+
+C)R
+
+
+
+kt(null)NetworkFetchEvent7%Y
+/.
+
+g3EE;
+
+NcA;=
+
+
+
+
+e
+A
+#
+
+
+
+
+
+Z
++l
+kt(null)NetworkFetchTime-Success?
+
+
+e
+A
+#
+
+'	AzN!.ktMPTotalSTHs
+X/s
+
+
+
+
+
+Z
++l@
+ktIDSNetworkPublicKeysSize$25<
+
+e
+A
+#
+
+Brm\
+
+
+
+
+
+Z
++l@
+2 ktIDSNetworkPublicKeysTime-Success?U@
+]4sD6
+
+@
+g{
+
+
+
+
+7=k: 
+
+
+
+
+6
+ktTLTVerifySTHEventk&!
+[tc
+
+WR7]
+e
+
+A
+#
+
+AzN0ktTLTOutstandingSTHs
+2ktTLTInclusionProofTimeA&j<
+Je7b
+
+@
+g
+
+
+
+6{
+U0f&D;
+
+_g
+
+V'
+
+
+
+
+{
+ktTLTVerifySTHEventl&!
+5"XS)
+A
+KktTLTTotalSTHs
+2nktTLTInclusionProofTimeA&j
+aI]m
+
+y
+CktTLTInclusionProofTimeA$/
+u!sx]K
+
+ktTLTVerifyInclusionProofEvent6"
+@
+g
+
+{_:QC
+
+tX{
+
+ktDiskPublicKeyStoreWriteEvent$
+:y#
+
+soft_failures9
+
+
+{
+transparencyVersionWmodelidYerrorCode#BwSK
+yN
+2"ktFTNetworkPublicKeysSize ,A
+M@[V
+)WQ
+	
+			v	S	,	
+AzN:ktKTRequestGCCount
+yN
+2	 ktFTNetworkPublicKeysTime-Success?
+@
+g
+
+ktFTNetworkPublicKeysEvent
+qy
+
+j{
+
+ktTLTVerifySTHEventm&!
+_x
+
+$;pn
+
+Fu
+	
+		v	S	,	
+zjI.o
+
+2ktTLTInclusionProofTimeA&jB/l
+bBIR2|
+
+
+g
+
+6B|
+
+
+6@
+
+
+@
+6
+ktTLTVerifySTHEventn&!
+v6ka
+
+	v	S	,	
+2UktTLTInclusionProofTimeA&jM
+thh
+
+	S	,	
+RktKTTreeHeadGCCount
+
+3f
+
+2ktTLTInclusionProofTimeA$
+\,8
+
+
+@
+6
+ktTLTVerifyInclusionProofEvent7"
+k^!
+
+
+@
+6
+ktDutyCycleEvent)$j
+ktFTVerifyNetworkKeyStoreEvent!P
+&n
+
+ktDiskPublicKeyStoreWriteEvent%
+W]uSQLite format 3
+`GD%:3
+1I_l[
+
+soft_failures:
+6MV
+
+@
+6
+qk
+
+'Po
+
+KS;S
+
+3!jbplist00
+transparencyVersionWmodelidYerrorCode#BwSn
+Hm/G
+	S
+	,	
+AzN8ktFTOutstandingRequests
+
+
+
+
+]
+2ktFTNetworkPublicKeysSize ,F
+zN~
+
+
+AzNFktFTTotalRequests
+
+
+
+
+]
+$
+ktFTNetworkPublicKeysTime-Success?~[
+@
+6
+KxK
+
+@
+
+ktTLTVerifySTHEvento&!
+SQ&|]
+	
+
+
+
+
+]
+$	
+2OktTLTInclusionProofTimeA&j
+l;
+
+;8
+
+ktTLTVerifySTHEventp&!
+=A
+
+@!E
+
+B,v
+
+
+
+
+
+]
+$		
+[^
+
+Qr4
+
+
+
+
+
+]
+$			
+ktTLTInclusionProofTimeA$
+ktTLTVerifyInclusionProofEvent8"
+i5S!
+
+Zy
+
+ktDutyCycleEvent)$s
+ktFTVerifyNetworkKeyStoreEvent
+!P
+y_s;
+
+ktDiskPublicKeyStoreWriteEvent&
+soft_failures;
+~'DRx
+
+'	AzNGktFTTotalSTHs
+
+
+
+
+]
+$				n
+20jkt(null)NetworkFetchSize
+hard_failures7	
+X)b
+
+ktIDSNetworkPublicKeysEvent
+%v
+P
+RT
+
+transparencyVersionWmodelidYerrorCode#BwS9
+ktFTVerifyConsistencyProofEvent_
+
+{
+kt(null)NetworkFetchEvent8%Y
+:2AjF
+
+
+
+
+
+]
+$				n	6
+20kt(null)NetworkFetchTime-Success?
+F<c{
+
+Aztj]>ktTLTOutstandingSTHs
+i!	
+
+
+
+
+
+]
+$				n	6	
+ktMPNetworkPublicKeysSize l5M
+!<n=
+!.lE
+)	Aztj]QktTLTTotalSTHs
+ktMPNetworkPublicKeysTime-Success?s@
+ktFTVerifyNetworkKeyStoreEvent
+!x
+kY8
+
+@
+
+ktTLTVerifySTHEventq&!
+srGN
+
+s{*4
+
+Mi
++
+
+wv#
+
+BktTLTInclusionProofTimeA&jK
+]QG
+
+2Q`~
+
+E4
+
+,Y<i7
+
+ktTLTVerifySTHEventr&!
+\)KG
+3_
+
+91K1
+
+Aztj^yktKTTreeHeadGCCount
+]jf\A
+
+0B6F-
+
+Vd=
+@
+
+ktTLTVerifyInclusionProofEvent9"
+kU/0
+
+
+{
+
++
+
+@
+
+
+
+ktDiskPublicKeyStoreWriteEvent'
+9jr
+
+soft_failures<
+:`
+
+9#.{
+
+3IRbplist00
+transparencyVersionWmodelidYerrorCode#BwT
+soft_failures=
+Xlk{
+
+mcD
+w
+#V	
+J}
+S_i
+
+
+C
+
+Mbplist00
+YKTVersionYeventTypeYCKSuccess[AKErrorCode^CKTimeInterval_
+AKUnderlyingErrorDomainZeventClass_
+CKUnderlyingErrorCode]CKErrorDomainWmodelid[CKErrorCode]AKErrorDomainUbuildYeventTime_
+AKUnderlyingErrorCode_
+transparencyVersion_
+CKUnderlyingErrorDomainWproduct]ktEnvironment^AKTimeIntervalYAKSuccess
+&KeyTransparencyTrustedDeviceEnrollment	
+PZiPhone10,1V19A404#Bw
+YiPhone OS

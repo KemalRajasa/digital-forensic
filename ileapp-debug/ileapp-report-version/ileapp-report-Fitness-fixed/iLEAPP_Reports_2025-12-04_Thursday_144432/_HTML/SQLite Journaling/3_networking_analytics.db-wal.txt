@@ -1,0 +1,397 @@
+
+4hYp
+rQ~SQLite format 3
+.S`
+
+a.SQLite format 3
+
+
+$P6
+			
+#tablesuccess_countsuccess_count
+CREATE TABLE success_count (
+event_type STRING PRIMARY KEY,
+success_count INTEGER,
+hard_failure_count INTEGER,
+soft_failure_count INTEGER
+)9
+
+indexsqlite_autoindex_success_count_1success_count3
+triggermaintain_ring_buffer_samples_v2samplesCREATE TRIGGER maintain_ring_buffer_samples_v2 AFTER INSERT ON samples
+BEGIN
+DELETE FROM samples WHERE id <= NEW.id - 1000;
+END
+Ytablesamplessamples	CREATE TABLE samples (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,
+name STRING,
+value REAL
+))	
+triggermaintain_ring_buffer_notes_v2notesCREATE TRIGGER maintain_ring_buffer_notes_v2 AFTER INSERT ON notes
+BEGIN
+DELETE FROM notes WHERE id <= NEW.id - 1000;
+ENDl
+7tablenotesnotes
+CREATE TABLE notes (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_soft_failures_v2soft_failuresCREATE TRIGGER maintain_ring_buffer_soft_failures_v2 AFTER INSERT ON soft_failures
+BEGIN
+DELETE FROM soft_failures WHERE id <= NEW.id - 1000;
+END
+Gtablesoft_failuressoft_failures
+CREATE TABLE soft_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)Q
+/triggermaintain_ring_buffer_hard_failures_v2hard_failuresCREATE TRIGGER maintain_ring_buffer_hard_failures_v2 AFTER INSERT ON hard_failures
+BEGIN
+DELETE FROM hard_failures WHERE id <= NEW.id - 1000;
+ENDP
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Gtablehard_failureshard_failures
+CREATE TABLE hard_failures (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+
+"/J}t;
+-Created663528428.121895
+	Created
+
+e3>
+
+'
+SchemaVersionE3BB7685C22335A3E3FC481B0D59A4F1B2F34031517BC31154745553BEA9C175
+SchemaVersion
+
+1JQ,7
+
+	samples
+
+oH ^
+
+uptime
+#Mupload_date2022-01-21T17:27:59.144GMT-05:00Q
+upload_date
+
+p.dm
+
+ISQLite format 3
+
+{ C%\{
+ybplist00
+!e_deviceReport_batteryTemperature_
+e_l2Report_cellular_band_info_
+ a_deviceReport_deviceOrientation_
+%e_deviceReport_batteryCurrentCapacity_
+e_underlyingErrorDomain_
+!a_l2Report_cellular_secondary_mcc_
+a_l2Report_cellular_band
+
+hC\
+'	hard_failures
+
+
+width_
+connectionReportsCountWmodelid_
+e_l2Report_cellular_band_
+e_deviceReport_deviceScreenOn_
+a_l2Report_cellular_known_good_
+a_activityLabelYa_isRetry_
+,e_deviceReport_privacyProxyTraffic_safariAll_
+&a_deviceReport_batteryAccumulator_name_
+a_deviceReport_deviceScreenOnWproduct_
+"e_deviceReport_batteryFullyCharged_
+e_l2Report_cellular_pid_
+$a_l2Report_cellular_radio_technology_
+4e_deviceReport_privacyProxyTraffic_safariUnencrypted_
+e_activity_isRetry_
+clientMetricCount_
+1a_deviceReport_privacyProxyTraffic_anyUnencrypted_
+!a_deviceReport_batteryAtWarnLevel_
+e_l2Report_wifi_known_good_
+a_deviceReport_rnfEnabled_
+a_l2Report_cellular_lqmYeventTime_
+#a_l2Report_cellular_dual_sim_status_
+!e_l2Report_cellular_secondary_mcc_
+a_l2Report_cellular_mnc_
+e_durationMsecs_
+e_l2Report_cellular_mode^a_activityUUIDYeventType_
+cellularFragmentsCount_
+a_l2Report_cellular_tac_
+3a_deviceReport_privacyProxyTraffic_anyKnownTrackers_
++a_deviceReport_batteryAccumulator_durations_
+e_activity_activityLabel_
+e_deviceReport_thermalPressure_
+,a_deviceReport_privacyProxyTraffic_safariDNS_
+4e_deviceReport_privacyProxyTraffic_newsURLResolution_
+#e_deviceReport_privacyProxyUserTier[taskMetrics_
+wifiFragmentsCount_
+e_l2Report_cellular_bandwidth_
+!e_deviceReport_batteryAtWarnLevel_
+%a_deviceReport_batteryCurrentCapacity_
+e_deviceReport_batteryVoltage_
+a_deviceReport_batteryVoltage_
+%e_deviceReport_batteryAtCriticalLevelZeventClass_
+e_l2Report_wifi_rssi_
+a_l2Report_wifi_known_good_
+(e_deviceReport_privacyProxyServiceStatus_
+4a_deviceReport_privacyProxyTraffic_safariUnencrypted_
+1a_deviceReport_privacyProxyTraffic_anyAppTrackers_
+a_deviceReport_thermalPressure_
+a_l2Report_cellular_band_
+a_activityDomain_
+1e_deviceReport_privacyProxyTraffic_anyUnencrypted_
+e_completionReason_
+/a_deviceReport_privacyProxyTraffic_mailTrackers_
+e_activity_activityDomain_
+e_l2Report_wifi_lqm_
+a_l2Report_wifi_lqm_
+e_fragmentsQuenched_
+e_deviceReport_devicePluggedIn_
+(e_deviceReport_quicExperimentallyEnabled_
+e_underlyingErrorCode_
+ e_l2Report_wifi_radio_technology_
+&e_deviceReport_batteryAbsoluteCapacity_
+a_l2Report_cellular_mcc_
+4a_deviceReport_privacyProxyTraffic_newsURLResolution_
+$e_l2Report_cellular_radio_technology_
+a_l2Report_cellular_mode_
+e_l2Report_queue_stats_
+"a_deviceReport_batteryFullyCharged_
+!a_l2Report_cellular_outranks_wifi_
+,a_deviceReport_privacyProxyTraffic_safariAll_
+e_l2Report_cellular_uarfcn_
+)a_deviceReport_privacyProxyTraffic_anyDNS_
+#a_deviceReport_batteryTimeRemaining_
+$a_deviceReport_batteryDesignCapacity_
+)e_deviceReport_privacyProxyTraffic_anyDNS_
+ e_deviceReport_deviceOrientation_
+%a_deviceReport_batteryAtCriticalLevel_
+e_l2Report_cellular_lqmZa_bundleID_
+1a_deviceReport_privacyProxyTraffic_safariTrackers_
+ e_deviceReport_batteryPercentage_
+e_l2Report_cellular_mnc_
+ e_deviceReport_batteryIsCharging_
+ a_l2Report_wifi_radio_technology_
+e_l2Report_cellular_bars_
+e_l2Report_cellular_known_good_
+e_l2Report_cellular_tac_
+1e_deviceReport_privacyProxyTraffic_anyAppTrackers_
+a_l2Report_cellular_pid_
+!e_l2Report_cellular_outranks_wifi_
+e_l2Report_cellular_cell_type_
+(a_deviceReport_privacyProxyServiceStatus_
+%e_deviceReport_deviceScreenBrightness_
+3e_deviceReport_privacyProxyTraffic_anyKnownTrackers_
+#a_deviceReport_privacyProxyUserTier_
+a_l2Report_cellular_cell_type_
+taskMetricsCount_
+#e_l2Report_cellular_dual_sim_status_
+-e_deviceReport_privacyProxyTraffic_safariHTTP_
+-a_deviceReport_privacyProxyTraffic_safariHTTP_
+e_activity_bundleID_
+&a_deviceReport_batteryAbsoluteCapacityUbuild_
+a_l2Report_cellular_band_info_
+a_l2Report_cellular_uarfcn_
+ a_deviceReport_batteryPercentage_
+ a_deviceReport_batteryIsCharging_
+(a_deviceReport_quicExperimentallyEnabled_
+,e_deviceReport_privacyProxyTraffic_safariDNS_
+a_deviceReport_motionState]wifiFragments_
+/e_deviceReport_privacyProxyTraffic_mailTrackers_
+e_activity_activityUUID_
+!a_l2Report_cellular_secondary_mnc_
+a_l2Report_queue_stats_
++e_deviceReport_batteryAccumulator_durations_
+&e_deviceReport_batteryAccumulator_name_
+#e_deviceReport_batteryTimeRemaining_
+a_l2R
+'z
+eport_wifi_rssi_
+!a_deviceReport_batteryTemperature_
+e_deviceReport_motionState_
+1e_deviceReport_privacyProxyTraffic_safariTrackers_
+e_deviceReport_rnfEnabled_
+.e_deviceReport_batteryExternalPowerIsConnected_
+a_deviceReport_devicePluggedIn_
+e_l2Report_cellular_mcc_
+%a_deviceReport_batteryMaximumCapacity_
+%e_deviceReport_batteryMaximumCapacity_
+!e_l2Report_cellular_secondary_mnc_
+%a_deviceReport_deviceScreenBrightness_
+.a_deviceReport_batteryExternalPowerIsConnected_
+$e_deviceReport_batteryDesignCapacity_
+a_l2Report_cellular_bars
+NW_DEVICE_ORIENTATION_PORTRAIT
+2ZiPhone10,1^(unknown: 255)		
+batteryAccumulator	YiPhone OS
+#NW_L2_RADIO_TECHNOLOGY_TYPE_CELLLTE
+d#Bw
+,NW_L2_CELLULAR_DUAL_SIM_STATUS_NOT_SUPPORTED
+NW_L2_CELLULAR_MODE_OFF_
+$049BD883-9A04-4375-879D-BA961B2A572F_
+&com.apple.network.activity.supermetric
+TnameVstates]screenNotDark
+UstateXdurationSoff
+lowPowerModeEnabled
+XgpsInUse
+wifiLinkQuality
+radioTechnology
+WUnknown
+SLTE
+cellRrcConnected
+ZsignalBars
+cellLinkQuality
+S100
+]cellBandwidth
+
+R25
+\cellBandInfo
+nrFrequencyBand
+smartDataModeEnabled
+'^cellDataStatus
+"NW_DEVICE_THERMAL_PRESSURE_NOMINAL
+NW_PRIVACY_PROXY_TIER_FREE
+XtaskType_
+didCompleteWithError^schedulingTier_
+transactionMetrics\activityUUID_
+numberOfRetries\isBackground_
+underlyingErrorDomainUerror_
+underlyingError_
+numberOfRedirectsYDATA_TASK
+WDEFAULT
+reusedConnection^totalBytesRead\requestStart[http3Status_
+networkLoadType_
+networkProtocolNameZrequestEnd_
+apsRelayAttempted^connectionUUID\isRedirected_
+apsRelaySucceeded]responseStart_
+totalBytesWritten[responseEnd
+\(unknown: 0)_
+2NSURLSessionTaskMetricsResourceFetchTypeLocalCache_
+UNKNOWN_PROTOCOL_NAME
+$00000000-0000-0000-0000-000000000000
+$049BD883-9A04-4375-879D-BA961B2A572F
+(NW_PRIVACY_PROXY_SERVICE_STATUS_DISABLED
+"NW_DEVICE_THERMAL_PRESSURE_NOMINAL^(unknown: 255)
+%NW_ACTIVITY_COMPLETION_REASON_SUCCESS	
+#NW_L2_RADIO_TECHNOLOGY_TYPE_UNKNOWN
+#NW_L2_RADIO_TECHNOLOGY_TYPE_CELLLTE_
+NW_L2_CELLULAR_MODE_OFF
+avg_queue_delay^interface_typeTslot_
+max_queue_delay_
+min_queue_delay^interface_name
+NW_INTERFACE_TYPE_CELLULARXNW_FQ_BE
+GWpdp_ip0
+avg_queue_delay^interface_type_
+min_queue_delay^interface_name_
+NW_INTERFACE_TYPE_CELLULARXNW_FQ_VI
+NW_INTERFACE_TYPE_CELLULARXNW_FQ_VO
+NW_INTERFACE_TYPE_CELLULARXNW_FQ_AV
+com.reddit.Reddit	
+kCTCellMonitorCellTypeServing_
+NW_PRIVACY_PROXY_TIER_FREE_
+com.reddit.RedditV19A404
+!NW_DEVICE_MOTION_STATE_STATIONARY
+
+CSG
+Uq_CCA_
+q_TVPMActiveDurationMS_
+cs_controllerResets_
+q_TimeSinceLastRecovery]is_pr_obssCCA_
+q_SymptomsFails[q_RxRetries_
+currentTxPowerBackoff_dB1_
+is_pr_interferenceCCA_
+q_PhyTxActivityDurMS_
+q_InputThroughputVis_dps_
+cs_im_activechains1_
+q_ExpectedThroughput\q_RxOvflErrs_
+is_consecutivedps^is_pr_ccaValue_
+is_pr_rssiValue_
+q_MaxQueueFullDurMS^q_TxDelayBytes_
+cs_im_tvpmindex0\q_TxCompPkts_
+cs_im_tvpmindex1[q_RxDupErrs\q_TxSubBytes_
+currentTxDutyCycle0_
+q_OutputThroughputUq_SNR_
+is_pr_qbssSTACount[cs_im_temp0_
+cs_backoffStuck_
+q_LTECoexDurationMS_
+q_PhyRxActivityDurMS^is_pr_snrValue_
+q_TxAMPDUDensity\currentCTLM0]q_RxGoodPlcpsZcs_im_ppm0\q_RxPLCPErrs[q_RxPhyRate[q_TxRetries_
+q_AvgTxLatencyMS]is_pr_ibssCCA[cs_im_temp1_
+q_RC1CoexDurationMS_
+q_BaselineThroughputZcs_im_ppm1^q_OffChanDurMS_
+q_RxAmpduTxBaMismatchZcs_channel_
+currentTxDutyCycle1]q_TxCompBytesZq_TxFrames_
+q_InfraDutyCycle_
+q_TxExpectedAMPDUDensityYq_TxFails^q_RxThroughput[q_RxFCSErrs]q_RxDecryErrs_
+cs_channelBandwidth\currentCTLM1]is_pr_qbssCCA^cs_im_voltage0^q_RxReplayErrs^cs_im_voltage1_
+q_RC2CoexDurationMS_
+q_MeasurementDurMS[q_RxCRSErrs_
+q_AccessPointOUI]q_IsFGTraffic_
+q_TestThroughput]is_pr_nfValue[q_TxSubPktsZq_RxFrames_
+currentTxPowerBackoff_dB0_
+q_DelayedThroughputVq_RSSI_
+q_LastScanReasonZq_Is2GBand_
+cs_im_activechains0_
+is_pr_ofdmDesense[q_TxPhyRate
+5]screenNotDark
+PZsignalBars
+_]cellBandwidth
+e\cellBandInfo
+u^cellDataStatus
+batteryAccumulator_
+!NW_DEVICE_MOTION_STATE_STATIONARY		
+	<	s				
+*
+?
+q
+
+
+
+
+
+3V
+
++Pt
+
+
+9
+e
+
+
+
+
+ / A P S p y | 
+                  !
+!:!?!@!]!}!!!!!!!!!!#>#D#]#s######$
+$5$L$Y$m$|$$$$$$$$%
+%*%0%E%Q%c%y%%%%%%%%%&
+&*&@&W&b&q&&&&&&&&'
+'
+'$':'G'U'd's''''''''(
+(.(D(K(^(i(
+((((((((()
+)#)5)D)a)j))))))))*
+*(*7*I*[*j********+
++#+>+G+U+Z+c+l+u++++++++++++++,
+,,,1,:,C,L,W,`,i,r,{,,,,,,,,,,,,,-
+-&-1-:-C-L-U-^-g-y-|----------.
+com.apple.network.activity.supermetric
+Y	com.apple.network.activity.supermetric
+samples
+'	hard_failures
+
+O!6z
+
+HFuptime
+Hcom.apple.network.activity.supermetric

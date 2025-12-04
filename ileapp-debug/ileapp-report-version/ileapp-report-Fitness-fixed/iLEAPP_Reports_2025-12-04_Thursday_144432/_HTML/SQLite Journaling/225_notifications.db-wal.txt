@@ -1,0 +1,40 @@
+	4
+Un
+-5SQLite format 3
+.S`
+
+;tabletable_versionstable_versions
+CREATE TABLE table_versions (id TEXT NOT NULL, version TEXT NOT NULL, PRIMARY KEY (id));
+indexsqlite_autoindex_table_versions_1table_versions
+uRC$
+
+
+?SQLite format 3
+Itablesubscriptionsubscription
+CREATE TABLE subscription (id TEXT NOT NULL, created DOUBLE NOT NULL, modified DOUBLE NOT NULL, location BLOB NOT NULL, state TEXT NOT NULL, PRIMARY KEY (id))7
+indexsqlite_autoindex_subscription_1subscription
+=xA!
+
+subscription0.0.4
+%	subscription
+t)GSQLite format 3
+tablefetch_schedulefetch_schedule
+CREATE TABLE fetch_schedule (id TEXT NOT NULL, created DOUBLE NOT NULL, modified DOUBLE NOT NULL, date DOUBLE NOT NULL, subscription TEXT NOT NULL, valid BOOLEAN NOT NULL, PRIMARY KEY (id));
+indexsqlite_autoindex_fetch_schedule_1fetch_schedule
+Tt8l
+fetch_schedule0.0.2
+rypb
+fetch_schedule
+"(SQLite format 3
+tabledelivery_scheduledelivery_schedule
+CREATE TABLE delivery_schedule (id TEXT NOT NULL, created DOUBLE NOT NULL, modified DOUBLE NOT NULL, date DOUBLE NOT NULL, subscription TEXT NOT NULL, notification BLOB NOT NULL, notificationContent BLOB NOT NULL, state TEXT NOT NULL, PRIMARY KEY (id))A
+indexsqlite_autoindex_delivery_schedule_1delivery_schedule	f
+,P7
+
+		4
+Un
+TcK}
+
+delivery_schedule0.0.2
+`pg
+delivery_schedule

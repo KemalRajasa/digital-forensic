@@ -1,0 +1,2239 @@
+kSlx;6K
+kS5!
+fSQLite format 3
+.S`
+
+atableschema_versionschema_version
+CREATE TABLE schema_version (schema_name TEXT, schema_version INTEGER DEFAULT 0, PRIMARY KEY(schema_name));
+indexsqlite_autoindex_schema_version_1schema_version
++:SQLite format 3
+app_usage:
+	app_usage
+kS~)I
+
+kS6N
+tt-h
+
+kSc&U.o
+
+kSC
+
+kSbA
+kSs`bq
+kSX)`
+
+tableapp_events_personalizationapp_events_personalization	CREATE TABLE app_events_personalization (pid INTEGER, account_id INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, cohort TEXT, count INTEGER, cumulative_user_count INTEGER, device_vendor_id TEXT, device_vendor_id_repaired INTEGER, event_type INTEGER, event_subtype INTEGER, evid INTEGER, has_been_posted INTEGER DEFAULT 0, is_beta INTEGER, is_clip INTEGER, is_temporary INTEGER DEFAULT 0, item_id INTEGER, item_name TEXT, launch_time DATETIME, launch_end_time DATETIME, week_start_time DATETIME, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), usage_time INTEGER, PRIMARY KEY (pid))6
+tableapp_events_ocelot_payoutapp_events_ocelot_payout
+CREATE TABLE app_events_ocelot_payout (pid INTEGER, account_id INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, cohort TEXT, count INTEGER, cumulative_user_count INTEGER, device_vendor_id TEXT, device_vendor_id_repaired INTEGER, event_type INTEGER, event_subtype INTEGER, evid INTEGER, has_been_posted INTEGER DEFAULT 0, is_beta INTEGER, is_clip INTEGER, is_temporary INTEGER DEFAULT 0, item_id INTEGER, item_name TEXT, launch_time DATETIME, launch_end_time DATETIME, week_start_time DATETIME, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), usage_time INTEGER, PRIMARY KEY (pid))!
+qtableapp_events_ocelotapp_events_ocelot
+CREATE TABLE app_events_ocelot (pid INTEGER, account_id INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, cohort TEXT, count INTEGER, cumulative_user_count INTEGER, device_vendor_id TEXT, device_vendor_id_repaired INTEGER, event_type INTEGER, event_subtype INTEGER, evid INTEGER, has_been_posted INTEGER DEFAULT 0, is_beta INTEGER, is_clip INTEGER, is_temporary INTEGER DEFAULT 0, item_id INTEGER, item_name TEXT, launch_time DATETIME, launch_end_time DATETIME, week_start_time DATETIME, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), usage_time INTEGER, PRIMARY KEY (pid))m
+}tablecurrent_app_installscurrent_app_installs
+CREATE TABLE current_app_installs (pid INTEGER, bundle_id TEXT, clip_affiliate_token TEXT, clip_campaign TEXT, clip_campaign_token TEXT, clip_provider_token TEXT, clip_ref_source TEXT, clip_ref_type TEXT, clip_third_party_with_no_app_referrer INTEGER, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (pid))z
+tableapp_events_crossfireapp_events_crossfire
+CREATE TABLE app_events_crossfire (pid INTEGER, account_id INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, clip_affiliate_token TEXT, clip_app_type TEXT, clip_campaign TEXT, clip_campaign_token TEXT, clip_provider_token TEXT, clip_ref_source TEXT, clip_ref_type TEXT, clip_third_party_with_no_app_referrer INTEGER, cohort TEXT, count INTEGER, cumulative_user_count INTEGER, device_vendor_id TEXT, device_vendor_id_repaired INTEGER, event_type INTEGER, event_subtype INTEGER, evid INTEGER, has_been_posted INTEGER DEFAULT 0, is_beta INTEGER, is_clip INTEGER, is_temporary INTEGER DEFAULT 0, item_id INTEGER, item_name TEXT, launch_time DATETIME, launch_end_time DATETIME, week_start_time DATETIME, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), usage_time INTEGER, PRIMARY KEY (pid))
+Qtableaccount_eventsaccount_events
+CREATE TABLE account_events (pid INTEGER, active_start_time DATETIME, active_end_time DATETIME, account_id INTEGER, apple_id TEXT, alt_dsid TEXT, event_type INTEGER, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (pid))
+kSreR|`
+
+tablecurrent_apps_ocelot_payoutcurrent_apps_ocelot_payout
+CREATE TABLE current_apps_ocelot_payout (pid INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, cohort TEXT, device_vendor_id TEXT, evid INTEGER, is_arcade INTEGER, is_beta INTEGER, is_clip INTEGER, is_prior INTEGER, item_id INTEGER, item_name TEXT, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), vendor_name TEXT, PRIMARY KEY (pid))-
+tablecurrent_apps_ocelotcurrent_apps_ocelot
+CREATE TABLE current_apps_ocelot (pid INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, cohort TEXT, device_vendor_id TEXT, evid INTEGER, is_arcade INTEGER, is_beta INTEGER, is_clip INTEGER, is_prior INTEGER, item_id INTEGER, item_name TEXT, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), vendor_name TEXT, PRIMARY KEY (pid))6
+
+tablecurrent_apps_crossfirecurrent_apps_crossfire
+CREATE TABLE current_apps_crossfire (pid INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, cohort TEXT, device_vendor_id TEXT, evid INTEGER, is_arcade INTEGER, is_beta INTEGER, is_clip INTEGER, is_prior INTEGER, item_id INTEGER, item_name TEXT, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), vendor_name TEXT, PRIMARY KEY (pid))D
+Ktablecurrent_appscurrent_apps
+CREATE TABLE current_apps (pid INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, cohort TEXT, device_vendor_id TEXT, deletion_date DATETIME, event_type INTEGER, evid INTEGER, is_arcade INTEGER, is_beta INTEGER, is_clip INTEGER, is_prior INTEGER, item_id INTEGER, item_name TEXT, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), vendor_name TEXT, PRIMARY KEY (pid))
+etableapp_metrics_eventsapp_metrics_events
+CREATE TABLE app_metrics_events (pid INTEGER, bundle_id TEXT, event_type INTEGER, event_subtype INTEGER, metrics_type INTEGER, has_been_posted INTEGER DEFAULT 0, payload JSON, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (pid))
+gtablelaunch_eventslaunch_eventsCREATE TABLE launch_events (pid INTEGER, bundle_id TEXT, containing_bundle_id, event_source INTEGER, is_extension INTEGER, launch_end_time DATETIME, launch_start_time DATETIME, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (pid))n	
+gtablelaunch_event_sync_metadatalaunch_event_sync_metadata
+CREATE TABLE launch_event_sync_metadata (pid INTEGER, last_duet_sync DATETIME, spotlight_migrated_date DATETIME, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (pid))
+tableapp_usage_session_reporter_keysapp_usage_session_reporter_keys
+CREATE TABLE app_usage_session_reporter_keys (pid INTEGER, bundle_id TEXT, session_reporter_key TEXT, last_refresh DATETIME, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (pid))
+_tableapp_cluster_mappingsapp_cluster_mappings
+CREATE TABLE app_cluster_mappings (pid INTEGER, bundle_id TEXT, cluster_id INTEGER, cluster_version INTEGER, launches_weight INTEGER, item_id INTEGER, timestamp DATETIME DEFAULT (timestamp()), usage_weight INTEGER, PRIMARY KEY (pid))H
+tablecurrent_apps_personalizationcurrent_apps_personalization
+CREATE TABLE current_apps_personalization (pid INTEGER, app_platform INTEGER, bundle_id TEXT, bundle_version TEXT, cohort TEXT, device_vendor_id TEXT, evid INTEGER, is_arcade INTEGER, is_beta INTEGER, is_clip INTEGER, is_prior INTEGER, item_id INTEGER, item_name TEXT, short_version TEXT, storefront INTEGER, timestamp DATETIME DEFAULT (timestamp()), vendor_name TEXT, PRIMARY KEY (pid))
+kSF+
+Kay
+
+kSl8hd
+
+k5+z1
+
+axm
+
+kSN@P(
+
+kS%)1SQLite format 3
+ZSQLite format 3
+kS"geH
+install_attribution:
+kS5H&<B>>
+
+install_attribution
+.E*
+	
+
+1		
+gtablelaunch_eventslaunch_eventsCREATE TABLE launch_events (pid INTEGER, bundle_id TEXT, containing_bundle_id, event_source INTEGER, is_extension INTEGER, launch_end_time DATETIME, launch_start_time DATETIME, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (pid))
+kSRB
+kS$(E4L
+
+kS;J1!
+
+kSB]Y
+
+
+9
+Otableinstall_attribution_pingback_fetch_infoinstall_attribution_pingback_fetch_info
+CREATE TABLE install_attribution_pingback_fetch_info (app_adam_id INTEGER, fetch_pingback_url TEXT, retry_count INTEGER, UNIQUE(app_adam_id) ON CONFLICT REPLACE)n
+indexsqlite_autoindex_install_attribution_pingback_fetch_info_1install_attribution_pingback_fetch_info
+wtableinstall_attribution_impressioninstall_attribution_impression
+CREATE TABLE install_attribution_impression (app_adam_id INTEGER, ad_network_id TEXT, campaign_id INTEGER, impression_id TEXT, source_app_adam_id INTEGER, timestamp INTEGER, attribution_signature TEXT, version TEXT, local_timestamp INTEGER, fidelity_type INTEGER, source_app_bundle_id INTEGER, process_name TEXT, UNIQUE(app_adam_id, source_app_adam_id) ON CONFLICT REPLACE)[
+indexsqlite_autoindex_install_attribution_impression_1install_attribution_impression
+indexsqlite_autoindex_install_attribution_pingbacks_1install_attribution_pingbacks
+5tableinstall_attribution_pingbacksinstall_attribution_pingbacks
+CREATE TABLE install_attribution_pingbacks (app_adam_id INTEGER, ad_network_id TEXT, campaign_id INTEGER, transaction_id TEXT, attribution_signature TEXT, source_app_adam_id INTEGER, conversion_value INTEGER, conversion_value_timestamp INTEGER, should_send_conversion_value INTEGER, pingback_url TEXT, redownload INTEGER, registered INTEGER, retry_count INTEGER, retry_timestamp INTEGER, version TEXT, local_timestamp INTEGER, fidelity_type INTEGER, is_winning_pingback INTEGER DEFAULT 1, is_developer_pingback INTEGER DEFAULT 0, UNIQUE(transaction_id, is_developer_pingback) ON CONFLICT REPLACE)S
+indexsqlite_autoindex_install_attribution_params_1install_attribution_params
+tableinstall_attribution_paramsinstall_attribution_params
+CREATE TABLE install_attribution_params (app_adam_id INTEGER, ad_network_id TEXT, campaign_id INTEGER, impression_id TEXT, timestamp INTEGER, attribution_signature TEXT, source_app_adam_id INTEGER, version TEXT, local_timestamp INTEGER, fidelity_type INTEGER, UNIQUE(app_adam_id, ad_network_id) ON CONFLICT REPLACE)
+kSd\>
+kSIr
+kS	4p9
+kSM!8
+
+kS1jhJA
+
+o[SQLite format 3
+8SQLite format 3
+%SQLite format 3
+aSQLite format 3
+kS;L,>\
+kS|="
+
+kSH
+Gh
+
+kS:Rb
+kSon
+*SQLite format 3
+kS"wn?=
+SQLite format 3
+kS/Q
+storekit_purchase_intents6
+kSUf
+storekit_purchase_intents
+kSi~ql
+
+tableiap_purchase_intentsiap_purchase_intents
+CREATE TABLE iap_purchase_intents (bundle_id TEXT, product_id TEXT, app_name TEXT, product_name TEXT, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (product_id, bundle_id) ON CONFLICT REPLACE)G
+indexsqlite_autoindex_iap_purchase_intents_1iap_purchase_intents |
+kSvO$
+SBPowerDownViewController'''H
+kS]AuNX
+
+kS\m
+kSB#
+kSL)[Y)
+
+kS9.dXFSQLite format 3
+Cfh-SQLite format 3
+kS7hfv
+kSxh
+com.apple.MobileSMS'''*
+com.apple.Preferences'''+
+com.apple.mobilesafari'''*
+com.apple.purplebuddy'''.
+kSs	
+kS(T
+_oAR
+ SQLite format 3
+.T;SQLite format 3
+kSUv
+kS1C
+
+kS@R
+ISQLite format 3
+kSVrux
+com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPlugin'H'H'I&
+com.apple.weather'H'H'I(
+com.apple.Preferences'@'5'+
+SBPowerDownViewController'E'D'H
+kS]Nn
+
+kS"$
+com.apple.weather'I'I'I(
+kS;@f
+
+Az\]"AR
+kS&,
+kS{-1W
+
+_
+
+C
+com.apple.corelocation.CoreLocationTemporaryPreciseAuthPromptPlugin'
+com.apple.AppStore'
+com.apple.WebKit.GPU'
+com.apple.Maps'
+'
+'[
+com.apple.camera'''[
+com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPlugin'
+'
+'I&
+com.apple.mobilesafari'
+)zAR
+kSHU?do
+
+kS7
+{
+VR<
+
+kSU6
+
+kSBv}hG
+kS>,H
+
+com.apple.mobiletimer'
+com.apple.Maps'''[
+A!QAR
+kSnN
+
+kS9"Rl
+
+kS^'
+_
+
+C
+com.apple.mobilenotes']|']H'
+com.apple.mobiletimer'Y'Y'
+com.apple.AppStore'\'\
+com.apple.WebKit.GPU'\
+com.apple.Maps'['Y'[
+com.apple.mobilesafari'\
+kSeJ
+
+AjN.AR
+AZ:
+
+kSR5
+kSuW
+
+G_i/
+
+kSXS
+A =AR
+kS/g
+
+kSHwDN
+
+kS%6>9Y~
+kS3tOMk
+
+kS*5
+kSK
+
+kSA[
+
+kScm
+kSNS
+A6t	AR
+`JL
+
+Au?SAR
+dA
+
+Av\ztAR
+kSL;UQ\
+
+kSv 
+
+A}aAR
+kS	U]l+
+kS	T<#
+
+A/-q
+kSeq
+Q=NBh
+
+kS3EF#
+ck,
+
+kS
+n
+qMS
+
+P*6
+
+com.apple.InCallService'.'.'
+com.apple.Maps'a'^'[
+7h}
+
+kS)$
+kS~+71
+
+AfhAR
+kSu MjA
+
+kS;RI
+kS\_{EYn8
+
+kSG=Q
+kS:5Q
+
+kSS7XU<
+
+kSDGCv
+
+kS='
+
+kS4N
+kS
+Y
+kSbo
+kS#D>9
+kSAu|
+
+pbentley0107@gmail.com000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1'MT
+q SQLite format 3
+XSQLite format 3
+kSCq
+purchase_history7z
+kSHHmy
+
+purchase_history
+kSv6
+gtablelaunch_event_sync_metadatalaunch_event_sync_metadata
+CREATE TABLE launch_event_sync_metadata (pid INTEGER, last_duet_sync DATETIME, spotlight_migrated_date DATETIME, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (pid))<
+kSgT)d
+	
+
+		
+)tablepurchase_history_db_propertiespurchase_history_db_properties#CREATE TABLE purchase_history_db_properties (key TEXT PRIMARY KEY, value TEXT)I
+indexsqlite_autoindex_purchase_history_apps_1purchase_history_apps"}
+indexsqlite_autoindex_purchase_history_db_properties_1purchase_history_db_properties$X
+Otablepurchase_history_appspurchase_history_apps!CREATE TABLE purchase_history_apps (pid INTEGER PRIMARY KEY, bundle_id TEXT, content_rating_flags INTEGER, date_purchased DATETIME, developer_name TEXT, family_shared INTEGER, first_party INTEGER, is_ios_binary_macos_available INTEGER, is_ios_binary_macos_compatible INTEGER, has_messages_extension INTEGER, hidden INTEGER, hidden_from_springboard INTEGER, icon_url_template TEXT, is_32_bit_only INTEGER, is_preorder INTEGER, is_verified_for_macos INTEGER, long_title TEXT, mac_app_required_capabilities JSON, media_kind INTEGER, oval_icon_url_template TEXT, preflight_package_url URL, product_url URL, purchaser_dsid INTEGER, redownload_params TEXT, required_capabilities JSON, requires_rosetta INTEGER, runs_on_apple_silicon INTEGER, runs_on_intel INTEGER, store_item_id INTEGER, supports_ipad INTEGER, supports_iphone INTEGER, supports_mac INTEGER, purchase_token INTEGER, locker_item_id INTEGER, genre_id INTEGER, genre_name TEXT, watch_app_delivered_in_ios_app INTEGER, watch_app_runs_independently INTEGER, watch_app_watch_only INTEGER, supports_layered_image INTEGER, has_p3 INTEGER, title TEXT, circular_icon_url TEXT, UNIQUE(purchaser_dsid, store_item_id) ON CONFLICT REPLACE)
+kS=%
++o`
+
+sI>
+
+<SQLite format 3
+y1#jSQLite format 3
+kSl|[W1
+
+iap_info2
+kSlt$
+iap_info
+kS+s8u
+
+kS	*H:V
+	
+
+
+9		
+kS9jW
+F
+		z
+Otablepurchase_history_appspurchase_history_apps!CREATE TABLE purchase_history_apps (pid INTEGER PRIMARY KEY, bundle_id TEXT, content_rating_flags INTEGER, date_purchased DATETIME, developer_name TEXT, family_shared INTEGER, first_party INTEGER, is_ios_binary_macos_available INTEGER, is_ios_binary_macos_compatible INTEGER, has_messages_extension INTEGER, hidden INTEGER, hidden_from_springboard INTEGER, icon_url_template TEXT, is_32_bit_only INTEGER, is_preorder INTEGER, is_verified_for_macos INTEGER, long_title TEXT, mac_app_required_capabilities JSON, media_kind INTEGER, oval_icon_url_template TEXT, preflight_package_url URL, product_url URL, purchaser_dsid INTEGER, redownload_params TEXT, required_capabilities JSON, requires_rosetta INTEGER, runs_on_apple_silicon INTEGER, runs_on_intel INTEGER, store_item_id INTEGER, supports_ipad INTEGER, supports_iphone INTEGER, supports_mac INTEGER, purchase_token INTEGER, locker_item_id INTEGER, genre_id INTEGER, genre_name TEXT, watch_app_delivered_in_ios_app INTEGER, watch_app_runs_independently INTEGER, watch_app_watch_only INTEGER, supports_layered_image INTEGER, has_p3 INTEGER, title TEXT, circular_icon_url TEXT, UNIQUE(purchaser_dsid, store_item_id) ON CONFLICT REPLACE)G
+indexsqlite_autoindex_iap_purchase_intents_1iap_purchase_intents }
+CREATE TABLE iap_purchase_intents (bundle_id TEXT, product_id TEXT, app_name TEXT, product_name TEXT, timestamp DATETIME DEFAULT (timestamp()), PRIMARY KEY (product_id, bundle_id) ON CONFLICT REPLACE)n
+CREATE TABLE install_attribution_pingback_fetch_info (app_adam_id INTEGER, fetch_pingback_url TEXT, retry_count INTEGER, UNIQUE(app_adam_id) ON CONFLICT REPLACE)[
+CREATE TABLE install_attribution_impression (app_adam_id INTEGER, ad_network_id TEXT, campaign_id INTEGER, impression_id TEXT, source_app_adam_id INTEGER, timestamp INTEGER, attribution_signature TEXT, version TEXT, local_timestamp INTEGER, fidelity_type INTEGER, source_app_bundle_id INTEGER, process_name TEXT, UNIQUE(app_adam_id, source_app_adam_id) ON CONFLICT REPLACE)Y
+CREATE TABLE install_attribution_pingbacks (app_adam_id INTEGER, ad_network_id TEXT, campaign_id INTEGER, transaction_id TEXT, attribution_signature TEXT, source_app_adam_id INTEGER, conversion_value INTEGER, conversion_value_timestamp INTEGER, should_send_conversion_value INTEGER, pingback_url TEXT, redownload INTEGER, registered INTEGER, retry_count INTEGER, retry_timestamp INTEGER, version TEXT, local_timestamp INTEGER, fidelity_type INTEGER, is_winning_pingback INTEGER DEFAULT 1, is_developer_pingback INTEGER DEFAULT 0, UNIQUE(transaction_id, is_developer_pingback) ON CONFLICT REPLACE)
+kS1U
+kSJj
+kSpy5
+tableiap_info_db_propertiesiap_info_db_properties'CREATE TABLE iap_info_db_properties (key TEXT PRIMARY KEY, value TEXT)K$
+indexsqlite_autoindex_iap_info_db_properties_1iap_info_db_properties(
+indexsqlite_autoindex_iap_info_iaps_1iap_info_iaps&b!
+tableiap_info_iapsiap_info_iaps%CREATE TABLE iap_info_iaps (adam_id INTEGER, app_adam_id INTEGER, purchase_date DATETIME, last_modified_date DATETIME, expiration_date DATETIME, type INTEGER, dsid INTEGER, pid INTEGER PRIMARY KEY, intro_offer_status INTEGER, sub_family_id TEXT, auto_renew_status INTEGER, UNIQUE(dsid, adam_id) ON CONFLICT REPLACE)[ 
+indexsqlite_autoindex_purchase_history_db_properties_1purchase_history_db_properties$
+indexsqlite_autoindex_purchase_history_apps_1purchase_history_apps"
+kSi$~rH
+
+a-LastUpdatedTimestampPropertyKey177683658151642796501.69577(
+ServerRevisionPropertyKey177683658152
+LastUpdatedTimestampPropertyKey17768365815
+U	ServerRevisionPropertyKey17768365815
+kSl-+b&
+
+kS_:7BqG
+
+a-LastUpdatedTimestampPropertyKey177683658151642796789.14337(
+kST}
+V"F
+
+U!ServerRevisionPropertyKey177683658151642797039=
+a-LastUpdatedTimestampPropertyKey177683658151642796789.14337
+kS9O
+ServerRevisionPropertyKey17768365815
+kS;Wj5
+
+com.google.Gmaild'OoGoogle LLChttps://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/59/1f/b3/591fb3a2-2e7c-154e-7f67-cd97d8bf154a/source/{w}x{h}bb.{f}Gmail - Email by Google
+https://apps.apple.com/us/app/gmail-email-by-google/id422689480
+productType=C&price=0&salableAdamId=422689480&pricingParameters=STDRDL&pg=default&appExtVrsId=846445969&ownerDsid=17768365815["arm64"]
+wProductivityGmail
+kS-^9/
+1^H^
+U!ServerRevisionPropertyKey177683658151642797039
+a-LastUpdatedTimestampPropertyKey177683658151642797040.70303
+kS#+
+kS^).
+slRSQLite format 3
+com.google.Gmail6.0.211226.139575210|date=1642797000000&sf=143441&pgtp=Search&pgid=7f2c595e-a296-4670-9c6b-10f878f8c1b1&prpg=Search_7f2c595e-a296-4670-9c6b-10f878f8c1b1&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=17B1F94AD-2DE6-459B-83CA-BB9983F4BEFA2s
+1Gmail6.0.211226
+0Q'O
+kSvs
+5fN
+
+-1)	
+kSOiIC
+
+-1)U
+0Q'OGoogle LLC
+kSYRD" 
+
+com.google.Gmail
+{"storefront":143441,"externalVersionId":846445969,"bundleId":"com.google.Gmail","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"6.0.211226","os":"ios","bundleVersion":"6.0.211226.1395752","platform":"iPhone","topic":"on_device_personalization","eventTime":1642797124630,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":422689480}'O
+
+
+CW
+com.apple.PassbookUIService'N'N'OD	
+com.apple.AuthKitUI.AKFollowUpServerUIExtension'NC'N
+com.apple.AppStore'N'Nt'[
+com.apple.Maps'K'K'[
+com.apple.camera'Gs'Gs'[
+com.apple.Preferences'M]'L>'+
+com.apple.mobilesafari'L+'L
+kS
+s6}
+PTAR
+kS
+k0U|Yv
+
+U!ServerRevisionPropertyKey177683658151642797201=
+kSw4`
+
+,u%
+
+com.hammerandchisel.discord
+Discord, Inc.https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0e/43/1e/0e431ebe-cc6e-627f-950a-93b89eccca68/source/{w}x{h}bb.{f}Discord - Talk, Chat & Hangout
+https://apps.apple.com/us/app/discord-talk-chat-hangout/id985746746
+productType=C&price=0&salableAdamId=985746746&pricingParameters=STDRDL&pg=default&appExtVrsId=846473402&ownerDsid=17768365815["armv7","arm64"]:M:a
+uSocial NetworkingDiscordNU/
+:M:B
+kS9C.X
+
+a-LastUpdatedTimestampPropertyKey177683658151642797202.63761
+~B#
+
+
+kSJC
+
+com.hammerandchisel.discord2965910|date=1642797000000&sf=143441&pgtp=Search&pgid=8daa2e3a-4013-433f-acac-a18032093896&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=1A6D2BF78-82E1-4978-A855-9C616C4BD0E32t(:M:Discord109.0
+0Q'PNW
+kSY(]e! 
+
+0Q'PNO
+kSp3'
+0Q'PNDiscord, Inc.R
+0Q'PNDiscord, Inc.P
+kSTB,K
+
+g;J
+
+{"storefront":143441,"externalVersionId":846473402,"bundleId":"com.hammerandchisel.discord","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"109.0","os":"ios","bundleVersion":"29659","platform":"iPhone","topic":"on_device_personalization","eventTime":1642797262614,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":985746746}'PN2
+kS.<8
+U!ServerRevisionPropertyKey177683658151642797305=
+kS'x]
+
+kS9:j
+%
+N
+com.toyopagroup.picaboo
+,'PySnap, Inc.https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/42/a3/e9/42a3e92f-c103-ed3e-a572-5c496300ed32/source/{w}x{h}bb.{f}Snapchat
+https://apps.apple.com/us/app/snapchat/id447188370
+productType=C&price=0&salableAdamId=447188370&pricingParameters=STDRDL&pg=default&appExtVrsId=846604218&ownerDsid=17768365815["still-camera","arm64"]
+xPhoto & VideoSnapchatw
+kS^|_
+
+CD7hQA
+a-LastUpdatedTimestampPropertyKey177683658151642797307.22936
+kSY#4
+
+kSo;h,
+
+com.toyopagroup.picaboo11.62.0.3610|date=1642797000000&sf=143441&pgtp=Search&pgid=8cd66a14-b936-499e-95b7-5ea9ba6a2aba&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=12712E3FC-6BE8-49F4-9427-F8A17E8476292v'
+Snapchat11.62.0
+0Q'Q
+kSBg
+
+;!m	
+.
+j
+;!mU
+Snap, Inc.0E
+kScL-
+
+
+f(
+Snap, Inc.2
+kS7TT
+
+
+j.
+Snap, Inc.0
+{"storefront":143441,"externalVersionId":846604218,"bundleId":"com.toyopagroup.picaboo","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"11.62.0","os":"ios","bundleVersion":"11.62.0.36","platform":"iPhone","topic":"on_device_personalization","eventTime":1642797470649,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":447188370}'Q
+kST3
+com.apple.PassbookUIService'P
+'OD	
+com.apple.AppStore'P8'P
+=B
+
+U!ServerRevisionPropertyKey177683658151642797824=
+kSM^Tsp
+
+ServerRevisionPropertyKey17768365815	.
+kS1~W.9
+
+com.moxco.bumble
+X'RBumble Holding Limitedhttps://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/8a/61/df/8a61df71-031b-44ef-89e1-5980d6961577/source/{w}x{h}bb.{f}Bumble - Dating. Friends. Bizz
+https://apps.apple.com/us/app/bumble-dating-friends-bizz/id930441707
+productType=C&price=0&salableAdamId=930441707&pricingParameters=STDRDL&pg=default&appExtVrsId=846596130&ownerDsid=17768365815["location-services","arm64"]7uia
+|LifestyleBumbleL
+kSZ-
+
+7ui!L"~
+kS(&[
+
+U!ServerRevisionPropertyKey177683658151642797824=
+
+a-LastUpdatedTimestampPropertyKey177683658151642797825.76279
+LastUpdatedTimestampPropertyKey17768365815
+
+kS)9ly
+
+
+
+_
+com.moxco.bumble5.247.0.164195756910|date=1642797000000&sf=143441&pgtp=Search&pgid=5f6bf3be-6a6c-4e1f-a646-a6220bf7fc51&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=140900C2F-CE17-4764-B08D-9AA4B1B9445D2v
+"7uiBumble5.247.0
+0Q'R8
+-1k	
+0Q'R0
+kSV+
+
+f(
+
+-1kU
+0Q'RBumble Holding Limited3
+
+.
+j
+0Q'RBumble Holding Limited1
+kST=6
+
+j.
+
+kSMYv"IE
+
+{"storefront":143441,"externalVersionId":846596130,"bundleId":"com.moxco.bumble","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"5.247.0","os":"ios","bundleVersion":"5.247.0.1641957569","platform":"iPhone","topic":"on_device_personalization","eventTime":1642797845341,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":930441707}'R5
+
+kS*m
+
+
+
+CW
+com.apple.WebSheet'QT'QI'R0
+com.apple.PassbookUIService'R'Rx'OD	
+com.apple.AppStore'Rx'R]'[
+com.apple.Preferences'QI'Q+'+
+com.apple.mobilesafari'R['R"'*
+(Dqa
+
+O_AR
+@\bdD
+
+U!ServerRevisionPropertyKey177683658151642797898=
+
+ServerRevisionPropertyKey17768365815.
+kSJa|E
+
+com.atebits.Tweetie2
+X'RTwitter, Inc.https://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/13/59/f5/1359f583-b1e9-48c7-97d1-44dc2f795eae/source/{w}x{h}bb.{f}Twitter
+https://apps.apple.com/us/app/twitter/id333903271
+productType=C&price=0&salableAdamId=333903271&pricingParameters=STDRDL&pg=default&appExtVrsId=846627913&ownerDsid=17768365815["arm64"]
+yNewsTwittery
+4mL
+
+kSe
+
+U!ServerRevisionPropertyKey177683658151642797898=
+a-LastUpdatedTimestampPropertyKey177683658151642797899.52208
+kS]B@>
+
+LastUpdatedTimestampPropertyKey17768365815
+kSZR{R6
+
+com.atebits.Tweetie28.9710|date=1642797000000&sf=143441&pgtp=Search&pgid=ba778836-ccd9-47d3-ac97-f8074deba66e&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=1B604FBD9-22EE-43FC-AC6B-D0E2793F5B392vI
+Twitter8.97
+0Q'R
+
+f	(
+
+0Q'RTwitter, Inc.=
+kSj_
+
+j.	
+
+0Q'RTwitter, Inc.;
+kSxI[Q,v
+
+
+.	
+j
+kS6P
+@5[
+
+{"storefront":143441,"externalVersionId":846627913,"bundleId":"com.atebits.Tweetie2","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"8.97","os":"ios","bundleVersion":"8.97","platform":"iPhone","topic":"on_device_personalization","eventTime":1642797916943,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":333903271}'R
+U!ServerRevisionPropertyKey177683658151642797941=
+kS7w
+:
+
+ServerRevisionPropertyKey17768365815
+.
+com.reddit.Reddit
+X'Rreddithttps://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/7b/ef/16/7bef1607-bd90-e34b-2fc8-ec342ad42058/source/{w}x{h}bb.{f}Reddit
+https://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/57/18/8e/57188e76-544c-4c2e-18eb-f9a9e0727c31/source/{w}x{h}bb.{f}https://apps.apple.com/us/app/reddit/id1064216828
+productType=C&price=0&salableAdamId=1064216828&pricingParameters=STDRDL&pg=default&appExtVrsId=846712974&ownerDsid=17768365815["arm64"]?na
+yNewsReddit1
+?nAL
+Bw0
+
+U!ServerRevisionPropertyKey177683658151642797941=
+a-LastUpdatedTimestampPropertyKey177683658151642797942.69327
+kSWmp
+kS.i
+l
+
+_
+com.reddit.Reddit30854710|date=1642797000000&sf=143441&pgtp=Search&pgid=14b92f46-c52c-4bc7-ac3a-decb84d3e792&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=1F2B4B0FE-DDE3-47AC-AF0A-0879218DDA172w
+?nReddit2022.02.0
+0Q'S$+($
+kS#hO
+0Q'S$#U
+kS,\B
+.	
+j
+0Q'S$reddit'!
+kSW\P
+
+|(
+
+0Q'S$reddit)
+kSwf
+.	
+
+0Q'S$reddit'
+{"storefront":143441,"externalVersionId":846712974,"bundleId":"com.reddit.Reddit","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"2022.02.0","os":"ios","bundleVersion":"308547","platform":"iPhone","topic":"on_device_personalization","eventTime":1642797988343,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":1064216828}'S$&
+
+kS=38n}
+
+U!ServerRevisionPropertyKey177683658151642798017=
+kS>]
+
+kSF]G_
+
+org.whispersystems.signal
+,'SASignal Messenger, LLChttps://is4-ssl.mzstatic.com/image/thumb/Purple116/v4/73/8d/98/738d9892-4fdc-4e7e-8c1b-ec8bffe2b814/source/{w}x{h}bb.{f}Signal - Private Messenger
+https://apps.apple.com/us/app/signal-private-messenger/id874139669
+productType=C&price=0&salableAdamId=874139669&pricingParameters=STDRDL&pg=default&appExtVrsId=846741416&ownerDsid=17768365815["arm64"]4
+uSocial NetworkingSignal
+HM.
+
+6K*FE
+kSu}6M1
+
+a-LastUpdatedTimestampPropertyKey177683658151642798018.26632
+org.whispersystems.signal010|date=1642797000000&sf=143441&pgtp=Search&pgid=00ab1b83-19e4-43ef-8f3a-3bdc5adb6888&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=1EC2E798D-9607-49EC-A727-BD0736D37A532x?4
+Signal5.26.10
+0Q'SX&
+3
+_
+0Q'SX.
+K.	
+
+0Q'SXSignal Messenger, LLC#
+kSHp
+0Q'SXSignal Messenger, LLC%
+kScI
+{"storefront":143441,"externalVersionId":846741416,"bundleId":"org.whispersystems.signal","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"5.26.10","os":"ios","bundleVersion":"0","platform":"iPhone","topic":"on_device_personalization","eventTime":1642798040659,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":874139669}'SX(
+kSt2
+U!ServerRevisionPropertyKey177683658151642799607=
+kSS.iC
+
+com.wearezeta.zclient.iosd'YwWire Swiss GmbHhttps://is4-ssl.mzstatic.com/image/thumb/Purple126/v4/40/f7/6d/40f76d83-0894-6cb5-12a8-37a376f3aca9/source/{w}x{h}bb.{f}Wire 
+ Secure Messenger
+https://apps.apple.com/us/app/wire-secure-messenger/id930944768
+productType=C&price=0&salableAdamId=930944768&pricingParameters=STDRDL&pg=default&appExtVrsId=845737574&ownerDsid=17768365815["arm64"]7}
+pBusinessWireo
+kS8|'pD
+
+kSCy
+a-LastUpdatedTimestampPropertyKey177683658151642799608.95778
+kS_\
+
+kSV"G
+com.wearezeta.zclient.ios472510|date=1642798800000&sf=143441&pgtp=Search&pgid=cda69880-5352-4faa-8b69-64da5b0e826c&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=11200DE58-13D0-4CCD-97C9-1917B1BDF7472hf7}
+Wire3.94
+0Q'Y}.
+kSWe3S
+<
+4
+0Q'Y}&
+kS
+LNjN
+
+0Q'Y}Wire Swiss GmbH4
+0Q'Y}Wire Swiss GmbH2
+kSz(w1
+kS!jM@
+
+com.wearezeta.zclient.ios
+{"storefront":143441,"externalVersionId":845737574,"bundleId":"com.wearezeta.zclient.ios","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"3.94","os":"ios","bundleVersion":"4725","platform":"iPhone","topic":"on_device_personalization","eventTime":1642799613114,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":930944768}'Y}
+com.apple.PassbookUIService'R'R'OD	
+com.apple.AppStore'R'R'[
+;L	
+
+kST&SS9-
+
+U!ServerRevisionPropertyKey177683658151642799659=
+mMPz
+
+kSuS
+
+kSxW 
+a-LastUpdatedTimestampPropertyKey177683658151642799660.54614
+kSG`4-
+^nVw
+
+}com.tencent.xin
+X'YWeChathttps://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/a9/b6/79/a9b67988-0f7e-54c5-caac-21ef6af41086/source/{w}x{h}bb.{f}WeChat
+https://apps.apple.com/us/app/wechat/id414478124
+productType=C&price=0&salableAdamId=414478124&pricingParameters=STDRDL&pg=default&appExtVrsId=846508339&ownerDsid=17768365815["arm64"]
+o,a"+
+2"t]
+uSocial Networking
+https://is3-ssl.mzstatic.com/image/thumb/Purple126/v4/c7/81/8b/c7818b63-e59e-a83b-7f7d-ccaddb8b5f89/source/{w}x{h}bb.{f}1
+uSocial NetworkingDiscord
+pBusinessWireNU/
+yNewsReddito
+kS1@
+com.tencent.xin8.0.17.3410|date=1642798800000&sf=143441&pgtp=Search&pgid=71db6610-7386-4016-abc5-1fb905b80a4b&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=1C28C7A76-4E96-4D5A-892D-EB87B2ED5B012t3
+o,WeChat8.0.17
+0Q'Y
+0Q'YWeChat,
+0Q'YWeChat*
+kS&l(^
+
+kS(_
+
+com.tencent.xin
+{"storefront":143441,"externalVersionId":846508339,"bundleId":"com.tencent.xin","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"8.0.17","os":"ios","bundleVersion":"8.0.17.34","platform":"iPhone","topic":"on_device_personalization","eventTime":1642799687550,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":414478124}'Y
+U!ServerRevisionPropertyKey177683658151642799727=
+kSns
+
+kSXTN4
+a-LastUpdatedTimestampPropertyKey177683658151642799728.63572
+kS:
+}com.alltrails.AllTrails
+'YAllTrails, Inc.https://is5-ssl.mzstatic.com/image/thumb/Purple116/v4/53/b2/5c/53b25cb0-a094-3a80-cfdf-1c97e274baab/source/{w}x{h}bb.{f}AllTrails: Hike, Bike & Run
+https://apps.apple.com/us/app/alltrails-hike-bike-run/id405075943
+productType=C&price=0&salableAdamId=405075943&pricingParameters=STDRDL&pg=default&appExtVrsId=846712129&ownerDsid=17768365815["arm64"]
+$a"o
+}Health & FitnessAllTrailshttps://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/f0/a2/82/f0a28279-59d4-143f-0811-cb4ad3eb78b3/source/{w}x{h}bb.{f}Y
+kS$*V
+com.alltrails.AllTrails652410|date=1642798800000&sf=143441&pgtp=Search&pgid=1e5421bb-f2f9-43c1-a66b-4972a2336f4a&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=1DDB0353F-4077-49A5-AD01-45683E0176BD2wA
+$AllTrails14.3.1
+0Q'Y+
+0Q'Y#
+kSE
+0Q'YAllTrails, Inc. 
+0Q'YAllTrails, Inc."
+kSu,
+kSlQ
+
+com.alltrails.AllTrails
+{"storefront":143441,"externalVersionId":846712129,"bundleId":"com.alltrails.AllTrails","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"14.3.1","os":"ios","bundleVersion":"6524","platform":"iPhone","topic":"on_device_personalization","eventTime":1642799738437,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":405075943}'Y#
+
+R!B
+
+U!ServerRevisionPropertyKey177683658151642799823=
+C7C
+
+kS}asu
+ID.n
+kS`S\
+U!ServerRevisionPropertyKey177683658151642799823
+a+LastUpdatedTimestampPropertyKey177683658151642799824.4905
+kSlrh=U
+
+nxR
+
+ru.appscraft.CollectorGame
+X'ZOappscrafthttps://is1-ssl.mzstatic.com/image/thumb/Purple118/v4/01/f2/39/01f239b2-d894-e75e-fffb-d86b09b12205/source/{w}x{h}bb.{f}Stamps Collector
+https://apps.apple.com/us/app/stamps-collector/id705203926
+productType=C&price=0&salableAdamId=705203926&pricingParameters=STDRDL&pg=default&appExtVrsId=841440807&ownerDsid=17768365815*
+~GamesCollectorb
+kS#b0}Z
+
+ru.appscraft.CollectorGame2018.07.18125010|date=1642798800000&sf=143441&pgtp=Search&pgid=7e69b035-ae9e-4af0-bca0-a9499fbeeb9b&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=10C25F440-0185-4822-9CDB-8DEDA35C83F22'^'*
+Collector16.9
+0Q'ZW1
+kSOXD
+A)k	
+0Q'ZW)
+kSv]]
+
+A)kU
+0Q'ZWappscraft1
+kSn_x
+
+0Q'ZWappscraft/
+{"storefront":143441,"externalVersionId":841440807,"bundleId":"ru.appscraft.CollectorGame","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"16.9","os":"ios","bundleVersion":"2018.07.181250","platform":"iPhone","topic":"on_device_personalization","eventTime":1642799831528,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":705203926}'ZW.
+
+kSm5xV
+
+U!ServerRevisionPropertyKey177683658151642799871
+a-LastUpdatedTimestampPropertyKey177683658151642799872.483791
+com.gma.water.sort.puzzle
+IEC GLOBAL PTY LTDhttps://is2-ssl.mzstatic.com/image/thumb/Purple126/v4/8e/88/af/8e88af84-9ae1-356a-f987-be64d876ab8a/source/{w}x{h}bb.{f}Water Sort Puzzle
+https://apps.apple.com/us/app/water-sort-puzzle/id1514542157
+productType=C&price=0&salableAdamId=1514542157&pricingParameters=STDRDL&pg=default&appExtVrsId=846437656&ownerDsid=17768365815["gamekit","arm64"]ZF
+2$r\
+~GamesWater Sort Puzzle@
+com.gma.water.sort.puzzle8310|date=1642798800000&sf=143441&pgtp=Genre&pgid=179183&prpg=Search_7e69b035-ae9e-4af0-bca0-a9499fbeeb9b&ctxt=Search&imptyp=lockup&kind=iosSoftware&lngid=15F614F4B-2D23-4193-8DCC-2E08827D94F42s
+MWater Sort Puzzle3.0.23
+0Q'Z<
+n<c
+
+0Q'Z4
+kS'4
+0Q'ZIEC GLOBAL PTY LTD6
+fZV
+
+0Q'ZIEC GLOBAL PTY LTD4;
+0Q'ZIEC GLOBAL PTY LTD4
+kSRZ/
+
+{"storefront":143441,"externalVersionId":846437656,"bundleId":"com.gma.water.sort.puzzle","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"3.0.23","os":"ios","bundleVersion":"83","platform":"iPhone","topic":"on_device_personalization","eventTime":1642799877301,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":1514542157}'Z<
+a-LastUpdatedTimestampPropertyKey177683658151642799872.48379
+U!ServerRevisionPropertyKey177683658151642800093
+kS492
+
+yOi
+nF
+kS[}
+
+a-LastUpdatedTimestampPropertyKey177683658151642800095.134661
+kSuM
+
+kS7qt0
+
+}com.chess.iphoned'[]Chess.comhttps://is3-ssl.mzstatic.com/image/thumb/Purple116/v4/2f/5c/a4/2f5ca4a4-267e-f326-23fa-6748e9751f2e/source/{w}x{h}bb.{f}Chess - Play & Learn
+https://apps.apple.com/us/app/chess-play-learn/id329218549
+productType=C&price=0&salableAdamId=329218549&pricingParameters=STDRDL&pg=default&appExtVrsId=846379058&ownerDsid=17768365815["arm64"]
+2&n(
+~GamesChesshttps://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/be/e8/20/bee8204b-44a0-41e7-6092-3b984a28fd35/source/{w}x{h}bb.{f}(
+kS@W6
+
+com.chess.iphone310|date=1642798800000&sf=143441&pgtp=Search&pgid=69bc4b0d-5c92-4fc8-b043-e11d1ba859bf&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=163022AD4-0C55-4017-A1C8-62097C84292B2r2
+yChess3.9.29
+0Q'[d
+~,`(SQLite format 3
+kS`(gz
+u]X
+
+0Q'[d,
+0Q'Y}	
+0Q'S$
+
+E
+0Q'PN.
+0Q'SX
+kSn"
+/SQLite format 3
+kSJ)
+0Q'YAllTrails, Inc.
+0Q'SXSignal Messenger, LLC
+36P
+
+
+oG
+	
+Snap, Inc.
+0Q'[dChess.com%
+0Q'RTwitter, Inc."
+0Q'YWeChat
+kS(USQLite format 3
+kS3936
+0Q'ZIEC GLOBAL PTY LTD
+0Q'YWeChat	
+0Q'S$reddit
+0Q'PNDiscord, Inc.
+%1#:
+
+
+I#	
+0Q'OGoogle LLC*
+0Q'Y}Wire Swiss GmbH
+0Q'[dChess.com;
+0Q'RBumble Holding Limited4
+0Q'ZWappscraft'
+0Q'RTwitter, Inc.
+Z	.SQLite format 3
+kS)C+
+vr-
+
+0Q'YAllTrails, Inc.
+j
+0Q'[dChess.com2
+
+f+	
+0Q'Y}Wire Swiss GmbHP
+0Q'OGoogle LLC0E
+0Q'PNDiscord, Inc.4;
+0Q'ZWappscraft 
+0Q'YWeChat%
+kS>A
+com.chess.iphone
+{"storefront":143441,"externalVersionId":846379058,"bundleId":"com.chess.iphone","dsid":17768365815,"eventType":"installs","installType":"buy","shortAppVersion":"3.9.29","os":"ios","bundleVersion":"3","platform":"iPhone","topic":"on_device_personalization","eventTime":1642800100979,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":329218549}'[d1
+kSQS
+com.apple.PassbookUIService'Y'Y'OD	
+com.apple.AppStore'Y'Y'[
+kS{Bj 
+kS!|RH
+gpSQLite format 3
+kS*Q%
+storekit_messages6
+
+storekit_messages
+kSb{[?
+
+
+HY
+!tablestorekit_revocationsstorekit_revocations6CREATE TABLE storekit_revocations (dsid INTEGER, bundle_id TEXT, product_id TEXT, UNIQUE(dsid, bundle_id, product_id) ON CONFLICT REPLACE)G(
+indexsqlite_autoindex_storekit_revocations_1storekit_revocations7)%
+tablestorekit_messagesstorekit_messages4CREATE TABLE storekit_messages (dsid INTEGER, bundle_id TEXT, status INTEGER, UNIQUE(dsid, bundle_id) ON CONFLICT REPLACE)A&
+indexsqlite_autoindex_storekit_messages_1storekit_messages5
+R`U=
+
+Enn
+
+{"storefront":143441,"externalVersionId":846596130,"bundleId":"com.moxco.bumble","dsid":17768365815,"eventType":"launches","shortAppVersion":"5.247.0","foregroundEvents":[{"1642802611000":72}],"os":"ios","bundleVersion":"5.247.0.1641957569","platform":"iPhone","topic":"on_device_personalization","osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":930441707}'g
+B
+{"storefront":143441,"externalVersionId":845737574,"bundleId":"com.wearezeta.zclient.ios","dsid":17768365815,"eventType":"launches","shortAppVersion":"3.94","foregroundEvents":[{"1642802690000":93},{"1642802783000":47}],"os":"ios","bundleVersion":"4725","platform":"iPhone","topic":"on_device_personalization","osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":930944768}'g
+-
+{"storefront":143441,"externalVersionId":846741416,"bundleId":"org.whispersystems.signal","dsid":17768365815,"eventType":"launches","shortAppVersion":"5.26.10","foregroundEvents":[{"1642802545000":61}],"os":"ios","bundleVersion":"0","platform":"iPhone","topic":"on_device_personalization","osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":874139669}'g
+J
+{"storefront":143441,"externalVersionId":846508339,"bundleId":"com.tencent.xin","dsid":17768365815,"eventType":"launches","shortAppVersion":"8.0.17","foregroundEvents":[{"1642802837000":6},{"1642802843000":71},{"1642802914000":160}],"os":"ios","bundleVersion":"8.0.17.34","platform":"iPhone","topic":"on_device_personalization","osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":414478124}'g
+
+kS.)
+&SQLite format 3
+kS^@@
+
+F
+	
+com.tencent.xin8.0.17.3410|date=1642798800000&sf=143441&pgtp=Search&pgid=71db6610-7386-4016-abc5-1fb905b80a4b&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=1C28C7A76-4E96-4D5A-892D-EB87B2ED5B01
+o,WeChat'g
+8.0.17
+0Q'g
+6
+o,WeChat'f
+0Q'g
+
+0Q'Y#V$
+0Q'Y}C
+com.toyopagroup.picaboo11.62.0.3610|date=1642797000000&sf=143441&pgtp=Search&pgid=8cd66a14-b936-499e-95b7-5ea9ba6a2aba&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=12712E3FC-6BE8-49F4-9427-F8A17E847629
+Snapchat'^
+'^11.62.0
+com.hammerandchisel.discord2965910|date=1642797000000&sf=143441&pgtp=Search&pgid=8daa2e3a-4013-433f-acac-a18032093896&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=1A6D2BF78-82E1-4978-A855-9C616C4BD0E3
+2t(:M:Discord']'^
+109.0
+0Q'R.
+0Q'S$<
+0Q'ZW$
+0Q'Z9
+com.reddit.Reddit30854710|date=1642797000000&sf=143441&pgtp=Search&pgid=14b92f46-c52c-4bc7-ac3a-decb84d3e792&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=1F2B4B0FE-DDE3-47AC-AF0A-0879218DDA17
+?nReddit'c'd2022.02.0
+`\F
+
+com.atebits.Tweetie28.9710|date=1642797000000&sf=143441&pgtp=Search&pgid=ba778836-ccd9-47d3-ac97-f8074deba66e&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=1B604FBD9-22EE-43FC-AC6B-D0E2793F5B39
+Twitter'`h'c8.97
+com.wearezeta.zclient.ios472510|date=1642798800000&sf=143441&pgtp=Search&pgid=cda69880-5352-4faa-8b69-64da5b0e826c&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=11200DE58-13D0-4CCD-97C9-1917B1BDF747
+2hf7}
+Wire'e'f
+3.94
+org.whispersystems.signal010|date=1642797000000&sf=143441&pgtp=Search&pgid=00ab1b83-19e4-43ef-8f3a-3bdc5adb6888&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=1EC2E798D-9607-49EC-A727-BD0736D37A53
+2x?4
+Signal'd'e/5.26.10
+0Q'g
+>?
+2t(:M:Discord'\']109.0
+com.moxco.bumble5.247.0.164195756910|date=1642797000000&sf=143441&pgtp=Search&pgid=5f6bf3be-6a6c-4e1f-a646-a6220bf7fc51&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=140900C2F-CE17-4764-B08D-9AA4B1B9445D
+"7uiBumble'e3'e{5.247.0
+0Q'g
+HaM$
+com.google.Gmail6.0.211226.139575210|date=1642797000000&sf=143441&pgtp=Search&pgid=7f2c595e-a296-4670-9c6b-10f878f8c1b1&prpg=Search_7f2c595e-a296-4670-9c6b-10f878f8c1b1&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=17B1F94AD-2DE6-459B-83CA-BB9983F4BEFA
+1Gmail'\V'\6.0.211226
+0Q'g
+a
+"7uiBumble'^'^5.247.0
+0Q'g
+`
+1Gmail'\'\6.0.211226
+0Q'g
+.
+kSTutj
+
+~2
+	
+"7uiBumble'_
+'`T5.247.0
+0Q'PN
+kSGU<}fSQLite format 3
+kSl3/
+kSGk
+Signal'e.'e/5.26.10
+Wire'f
+Wire'e'e3.94
+0Q'g
+0
+0Q'R#
+0Q'Y}9
+Snapchat'^'^11.62.0
+kS2m
+
+z8
+	
+Twitter'b'b8.97
+0Q'g
+	
+0Q'g
+]1
+Twitter'`h'b8.97
+"7uiBumble'e{'e{5.247.0
+0Q'[d4
+0Q'ZW9
+2t(:M:Discord']f']109.0
+2t(:M:Discord']']109.0
+0Q'g
+;
+0Q'S$.
+Twitter'b'c8.97
+2t(:M:Discord']e']f109.0
+0Q'g
+8
+0Q'g
+H
+0Q'g
+,
+Twitter'c'c8.97
+'fb8.0.17
+0Q'g
+G5
+2t(:M:Discord'^
+0Q'g
+/O
+0Q'Z
+
+T 	
+o,WeChat'fb'g
+0Q'SX6
+2t(:M:Discord'\']e109.0
+0Q'g
+m)
+0Q'Y/
+?nReddit'd'd2022.02.0
+Signal'd'e.5.26.10
+0Q'g
+=,
+0Q'g
+kS&-Sf)
+
+{"storefront":143441,"externalVersionId":846508339,"bundleId":"com.tencent.xin","dsid":17768365815,"eventType":"uninstalls","shortAppVersion":"8.0.17","os":"ios","bundleVersion":"8.0.17.34","platform":"iPhone","topic":"on_device_personalization","eventTime":1642803087022,"osBuildNumber":"15.0.2","usageClientId":"07E38E76-7ABA-46B9-BB66-481EC3C84BEF","itemId":414478124}'g
+kS^W
+f+	
+0Q'ZWappscraft
+kSd,HD
+
+O
+C		W
+com.alltrails.AllTrails'g
+com.wearezeta.zclient.ios'e'e'g
+org.whispersystems.signal'e.'d'g
+com.reddit.Reddit'd'c'g
+com.atebits.Tweetie2'b'`h'g
+com.apple.CoreAuthUI'_'_
+com.apple.AuthKitUIService'_
+'^'g
+com.moxco.bumble'^'^'g
+com.toyopagroup.picaboo'^'^
+com.hammerandchisel.discord']e'\'g
+com.google.Gmail'\'\V'g
+com.apple.WebKit.GPU'\'\s'[
+com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPlugin'_
+com.apple.Preferences'\I'['+
+kSYAO
+pu!
+
+
+d*
+	
+ru.appscraft.CollectorGame2018.07.18125010|date=1642798800000&sf=143441&pgtp=Search&pgid=7e69b035-ae9e-4af0-bca0-a9499fbeeb9b&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=10C25F440-0185-4822-9CDB-8DEDA35C83F2
+2'^'*
+Collector'gt'g16.9
+0Q'VP
+com.chess.iphone310|date=1642798800000&sf=143441&pgtp=Search&pgid=69bc4b0d-5c92-4fc8-b043-e11d1ba859bf&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=163022AD4-0C55-4017-A1C8-62097C84292B
+yChess'h
+'hk3.9.29
+0Q'Vd.
+0Q'g
+$
+0Q'Y}-
+0Q'g
+9
+0Q'g
+Y
+0Q'g
+a-
+kS	=D_w
+
+0Q'g
+-
+0Q'g
+]
+3.9.29
+0Q'V3
+com.alltrails.AllTrails652410|date=1642798800000&sf=143441&pgtp=Search&pgid=1e5421bb-f2f9-43c1-a66b-4972a2336f4a&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=1DDB0353F-4077-49A5-AD01-45683E0176BD
+$AllTrails'g
+'g[14.3.1
+0Q'VG0
+kSkFv
+
+
+J
+	
+0Q'g
+3
+14.3.1
+0Q'V
+Collector'g'g16.9
+0Q'V5
+0Q'S$O
+0Q'g
+5
+0Q'g
+1
+kSx3B$
+_a)
+
+com.gma.water.sort.puzzle8310|date=1642798800000&sf=143441&pgtp=Genre&pgid=179183&prpg=Search_7e69b035-ae9e-4af0-bca0-a9499fbeeb9b&ctxt=Search&imptyp=lockup&kind=iosSoftware&lngid=15F614F4B-2D23-4193-8DCC-2E08827D94F4
+MWater Sort Puzzle'i
+'i 3.0.23
+0Q'V	0
+0Q'PN$
+yChess'i
+0Q'V&
+yChess'hk'h3.9.29
+0Q'Z-
+0Q'g
+G$
+0Q'g
+/
+MWater Sort Puzzle'i 'i 3.0.23
+#-
+
+
+T 	
+yChess'h'i
+0Q'V $
+yChess'hk'hk3.9.29
+0Q'V%
+yChess'g'h
+0Q'V@,
+SSQLite format 3
+kSa&#
+kSV\(vdF
+0Q'VChess.com1
+0Q'VSnap, Inc.P
+0Q'VGoogle LLC4
+0Q'Vappscraft*
+0Q'VWire Swiss GmbH0
+0Q'VDiscord, Inc.2
+0Q'VSignal Messenger, LLC/
+0Q'VAllTrails, Inc.'
+0Q'VTwitter, Inc.;
+0Q'VBumble Holding Limited%
+0Q'VIEC GLOBAL PTY LTD#
+0Q'Vreddit
+hYVp%
+
+com.gma.water.sort.puzzle'i 'i
+com.chess.iphone'h
+'g'.K
+com.apple.GameCenterUI.GameCenterAuthenticateExtension'g'g{'./
+ru.appscraft.CollectorGame'g'gt'.,
+com.apple.WebKit.GPU'g:'g7'[
+com.apple.camera'it'i_'[
+com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPlugin'gE'gA'I&
+kSn9(
+kS)U]
+kSf<P	E
+
+kS!(
+
+kS<e(R(
+
+0Q'rEChess.com1
+0Q'rESnap, Inc.P
+0Q'rEGoogle LLC4
+0Q'rEappscraft*
+0Q'rEWire Swiss GmbH0
+0Q'rEDiscord, Inc.23
+0Q'rESignal Messenger, LLC/
+0Q'rEAllTrails, Inc.'
+0Q'rETwitter, Inc.;
+0Q'rEBumble Holding Limited%
+0Q'rEIEC GLOBAL PTY LTD#
+0Q'rEreddit
+kSo|WB
+AV-0AR
+kSF>
+G	\
+0Q'#Chess.com1
+0Q'#Snap, Inc.P
+0Q'#Google LLC4
+0Q'#appscraft*
+0Q'#Wire Swiss GmbH0O
+0Q'#Discord, Inc.2
+0Q'#Signal Messenger, LLC/
+0Q'#AllTrails, Inc.'
+0Q'#Twitter, Inc.;
+0Q'#Bumble Holding Limited%
+0Q'#IEC GLOBAL PTY LTD#
+0Q'#reddit
+kS9Iv
+5KlK
+
+
+{L
+	
+0Q'Et	,
+0Q'EtP>
+0Q'ZW4
+0Q'Z6
+o[5
+
+0Q'Et7
+0Q'[d1
+0Q'Y;$
+0Q'EtI,
+kSzpG
+~
+~2
+	
+0Q'g
+H.
+yChess'g'i
+0Q'Et
+0Q'g
+aW
+}dAR
+kS	Zm=O
+
+kS#.`
+Chess.com1
+Snap, Inc.P
+Google LLC4
+appscraft*0
+Wire Swiss GmbH0
+Discord, Inc.2
+Signal Messenger, LLC/
+AllTrails, Inc.'
+Twitter, Inc.;
+Bumble Holding Limited%
+IEC GLOBAL PTY LTD#
+reddit
+kSE/H
+
+A
+``LAR
+kS	<a
+0Q'l
+appscraft*i
+Wire Swiss GmbH0$
+kS"J
+7HSQLite format 3
+HuJM
+
+kSSS
+kS^,)
+
+C*	
+0Q'oChess.com1
+0Q'oSnap, Inc.P
+0Q'oGoogle LLC4
+0Q'oappscraft*
+0Q'oWire Swiss GmbH0b
+0Q'oDiscord, Inc.2
+0Q'oSignal Messenger, LLC/
+0Q'oAllTrails, Inc.'
+0Q'oTwitter, Inc.;
+0Q'oBumble Holding Limited%
+0Q'oIEC GLOBAL PTY LTD#
+0Q'oreddit
+kS._i
+kSdC
+AgmAR
+'Chess.com1
+'Snap, Inc.P
+'Google LLC4
+
+'appscraft*
+'Wire Swiss GmbH0
+'Discord, Inc.2
+'Signal Messenger, LLC/
+'AllTrails, Inc.'
+'Twitter, Inc.;
+'Bumble Holding Limited%
+'IEC GLOBAL PTY LTD#
+'reddit
+kSjM|
+AXAR
+kSGPP7J
+
+kS:\
+0Q'Chess.com1
+0Q'Snap, Inc.P
+0Q'Google LLC4
+0Q'appscraft*
+0Q'Wire Swiss GmbH0
+0Q'Discord, Inc.2
+0Q'Signal Messenger, LLC/
+0Q'AllTrails, Inc.'
+0Q'Twitter, Inc.;
+0Q'Bumble Holding Limited%
+0Q'IEC GLOBAL PTY LTD#
+0Q'reddit
+q*C
+SQLite format 3
+kS#v
+<<<}K
+
+SQLite format 3
+kS=0Y
+12SQLite format 3
+kSDJ/y
+
+
+kS~@
+
+kSuQ.
+
+m*\
+0Q'(
+Chess.com1V
+appscraft*
+kSGBw=l
+
+IAN424m5254lk.skadnetworkW82FA3006-274B-4E40-4AC4-F4E2ED0F460E
+~l\MIGHAkIBZE4YZyhSVG7BnLEbt03CcpG9oy9KxzbojuCEKYTPsV/iWOiu1qKDS6Q3klJdqVSSWAJZDDN1waX6wf6TccBslAECQXdz8tApOeM5Uh43pbbuE6r19Rrku51FnjGPGAL1G8vGcdGo99WAoSlzeYVf3XnqMxYfy/Nr6RUHMKj1KZeP75uo3.0
+~pVcom.toyopagroup.picabooSnapchat
+NcZ
+
+kSbo
+
+IAN424m5254lk.skadnetworkW82fa3006-274b-4e40-4ac4-f4e2ed0f460e
+~l\MIGHAkIBZE4YZyhSVG7BnLEbt03CcpG9oy9KxzbojuCEKYTPsV/iWOiu1qKDS6Q3klJdqVSSWAJZDDN1waX6wf6TccBslAECQXdz8tApOeM5Uh43pbbuE6r19Rrku51FnjGPGAL1G8vGcdGo99WAoSlzeYVf3XnqMxYfy/Nr6RUHMKj1KZeP75uo
+kSX]
+
+IAN424m5254lk.skadnetwork`A
+kSJNn$
+
+kSq}WE
+
+com.toyopagroup.picabooSnapchat
+kSQ+}
+
+IAN424m5254lk.skadnetworkA{F
+kS{
+~'?com.toyopagroup.picabooSnapchat
+NgTD
+kS
+v
+com.moxco.bumble')
+com.toyopagroup.picaboo')')'g
+kSYb=6{
+
+kS_a_=3
+1Gmail','-X6.0.211226
+0Q'.
+"7uiBumble'*',5.247.0
+Snapchat')'*11.62.0
+"7uiBumble''')5.247.0
+kSr*t
+-x"
+
+kS}>
+A>#q2tdux39lx8.skadnetwork!c351ac96-cdb1-46f6-bcf7-9e145ba23f56?n
+MDUCGQD1KGoExEiTxbxiUAmOsF0ch2rVhxnIqaICGEFiD2NzvsjPH3piO7WjoxV6IUbLkdqfQw==3.0
+-com.reddit.RedditRedditApp7
+kSdl6"
+
+A>#q?nG
+kSg[,
+
+A>#q2tdux39lx8.skadnetwork!c351ac96-cdb1-46f6-bcf7-9e145ba23f56
+MDUCGQD1KGoExEiTxbxiUAmOsF0ch2rVhxnIqaICGEFiD2NzvsjPH3piO7WjoxV6IUbLkdqfQw==?n3.0
+A>#q2tdux39lx8.skadnetwork#N'
+JJ}w
+
+kSr53y8
+
+2tdux39lx8.skadnetworkCfc7752c3-34da-4922-a3e5-b2bff72f03e1?n
+~GDMDYCGQDdm+VYTSK57xkctOd3hVZiwvV1ZmPTO5QCGQCrr13v3lqozgXaOXX7XsBeodSUkvKQBbw=3.0
+wcom.reddit.RedditRedditApp7
+kSS~b
+
+?n0@'>
+2tdux39lx8.skadnetworkCfc7752c3-34da-4922-a3e5-b2bff72f03e1
+~GDMDYCGQDdm+VYTSK57xkctOd3hVZiwvV1ZmPTO5QCGQCrr13v3lqozgXaOXX7XsBeodSUkvKQBbw=?n3.0
+2tdux39lx8.skadnetworkwM
+kSuS:
+
+kSl9z
+
+*Y2tdux39lx8.skadnetwork^322db320-d5dc-4003-88b1-457a425c9e09?n
+MDYCGQCStYxHJzU2MMqEPfKDnC6DH4gD/nsB8PACGQCm6AVpwfM35qW11RVQ0hCtwEgOTJT467A=3.0
+~pcom.reddit.RedditRedditApp7
+kSBf9Li
+*Y?nMeoB
+"7uiBumble',',5.247.0
+0Q'_9
+"7uiBumble'+',5.247.0
+0Q'_
+"7uiBumble'+'+5.247.0
+0Q'_Z8
+"7uiBumble'+^'+q5.247.0
+?nReddit'/s'/2022.02.0
+0Q'_+8
+"7uiBumble'+
+'+	5.247.0
+?nReddit'0'1:2022.02.0
+0Q'_g1
+?nReddit'/'02022.02.0
+Snapchat')')11.62.0
+0Q'_
+"7uiBumble')
+')5.247.0
+kSAh#
+
+?nReddit'1:'1;2022.02.0
+0Q'_/
+?nReddit'0'02022.02.0
+0Q'_0
+?nReddit'/
+'/-2022.02.0
+?nReddit'-X'/
+2022.02.0
+"7uiBumble')')5.247.0
+0Q'_8
+"7uiBumble'*'+
+5.247.0
+0Q'_L7
+0Q'_;
+"7uiBumble'+	'+^5.247.0
+0Q'_UY
+0Q'_r
+kS5$\>{
+'SQLite format 3
+_d*
+
+kSR\+&
+
+kSU'
+0Q'_Chess.com1
+0Q'_Snap, Inc.P
+0Q'_Google LLC4
+0Q'_appscraft*
+0Q'_Wire Swiss GmbH0
+0Q'_Discord, Inc.2
+0Q'_Signal Messenger, LLC/
+0Q'_AllTrails, Inc.'
+0Q'_Twitter, Inc.;
+0Q'_Bumble Holding Limited%
+0Q'_IEC GLOBAL PTY LTD#
+0Q'_reddit
+'1;2022.02.0
+0Q'4
+kSPyg
+
+kSgLD
+0Q'4Chess.com1
+0Q'4Snap, Inc.P
+0Q'4Google LLC4
+0Q'4appscraft*
+0Q'4Wire Swiss GmbH0
+0Q'4Discord, Inc.2
+0Q'4Signal Messenger, LLC/
+0Q'4AllTrails, Inc.'
+0Q'4Twitter, Inc.;
+0Q'4Bumble Holding Limited%g
+0Q'4IEC GLOBAL PTY LTD#
+0Q'4reddit
+com.reddit.Reddit'/
+'-X'g
+com.moxco.bumble'+'+'g
+com.google.Gmail'-X','g
+kS!u
+
+kSt<#5
+
+kS*-,]
+
+kS'
+
+\*
+0Q'iChess.com1
+0Q'iSnap, Inc.P
+0Q'iGoogle LLC4
+0Q'iappscraft*
+0Q'iWire Swiss GmbH0
+0Q'iDiscord, Inc.2
+0Q'iSignal Messenger, LLC/
+0Q'iAllTrails, Inc.'
+0Q'iTwitter, Inc.;
+0Q'iBumble Holding Limited%
+0Q'iIEC GLOBAL PTY LTD#
+0Q'ireddit
+AvdAR
+kStn0w
+kSj4<r
+C	\
+kSs]Ch5
+
+kS3N
+kSpy
+x*
+\
+0Q'3Chess.com1
+0Q'3Snap, Inc.P
+0Q'3Google LLC4
+0Q'3appscraft*
+0Q'3Wire Swiss GmbH0
+0Q'3Discord, Inc.2
+0Q'3Signal Messenger, LLC/
+0Q'3AllTrails, Inc.'l
+0Q'3Twitter, Inc.;
+0Q'3Bumble Holding Limited%
+0Q'3IEC GLOBAL PTY LTD#
+0Q'3reddit
+A<>AR
+kSoH4
+
+kSf
+
+kSb2
+0Q'Chess.com1
+0Q'Snap, Inc.PF
+0Q'Google LLC4
+0Q'appscraft*
+0Q'Wire Swiss GmbH0
+0Q'Discord, Inc.2
+0Q'Signal Messenger, LLC/
+0Q'AllTrails, Inc.'
+0Q'Twitter, Inc.;
+0Q'Bumble Holding Limited%
+0Q'IEC GLOBAL PTY LTD#
+0Q'reddit
+kSst/
+
+A&AR
+kSieUbr
+
+0Q']Chess.com1
+0Q']Snap, Inc.P
+0Q']Google LLC4
+0Q']appscraft*
+0Q']Wire Swiss GmbH0A
+0Q']Discord, Inc.2
+0Q']Signal Messenger, LLC/
+0Q']AllTrails, Inc.'
+0Q']Twitter, Inc.;
+0Q']Bumble Holding Limited%
+0Q']IEC GLOBAL PTY LTD#
+0Q']reddit
+ATb
+kScT
+
+kSP?
+kSTgcW0j
+
+m	\
+
+0Q'Snap, Inc.P
+0Q'AllTrails, Inc.'T
+kSs L
+
+5<AR
+kS(C
+
+kS-|_
+
+
+*\
+0Q'mChess.com1
+0Q'mSnap, Inc.P
+0Q'mGoogle LLC4
+0Q'mappscraft*
+0Q'mWire Swiss GmbH0
+0Q'mDiscord, Inc.2
+0Q'mSignal Messenger, LLC/
+0Q'mAllTrails, Inc.'
+0Q'mTwitter, Inc.;
+0Q'mBumble Holding Limited%
+0Q'mIEC GLOBAL PTY LTD#
+0Q'mreddit
+com.reddit.Reddit'
+com.moxco.bumble'
+com.apple.Preferences'
+MH!Xf
+
+kSd/5]
+
+kSL0,
+
+0Q'OChess.com1
+0Q'OSnap, Inc.P
+0Q'OGoogle LLC4+
+0Q'Oappscraft*
+0Q'OWire Swiss GmbH0
+0Q'ODiscord, Inc.2r
+0Q'OSignal Messenger, LLC/
+0Q'OAllTrails, Inc.'
+0Q'OTwitter, Inc.;
+0Q'OBumble Holding Limited%
+0Q'OIEC GLOBAL PTY LTD#T
+0Q'Oreddit
+kS-	<
+A,AR
+kSuzj:a
+AcMIAR
++.
+
+kS]^8
+
+kSJ&Q
+
+kSFL
+onC
+
+0Q'5Chess.com1
+0Q'5Snap, Inc.P
+0Q'5Google LLC4P
+0Q'5appscraft*
+0Q'5Wire Swiss GmbH0
+0Q'5Discord, Inc.2
+0Q'5Signal Messenger, LLC/
+0Q'5AllTrails, Inc.'
+0Q'5Twitter, Inc.;
+0Q'5Bumble Holding Limited%
+0Q'5IEC GLOBAL PTY LTD#"
+0Q'5reddit
+/`Y
+
+com.chess.iphone'
+
+'	'.K
+ru.appscraft.CollectorGame'	~'	?'.,
+com.atebits.Tweetie2'
+kSep
+kS<svw
+
+0Q'JChess.com1
+0Q'JSnap, Inc.P
+0Q'JGoogle LLC4
+0Q'Jappscraft*
+0Q'JWire Swiss GmbH0
+0Q'JDiscord, Inc.2
+0Q'JSignal Messenger, LLC/
+0Q'JAllTrails, Inc.'
+0Q'JTwitter, Inc.;
+0Q'JBumble Holding Limited%&
+0Q'JIEC GLOBAL PTY LTD#
+0Q'Jreddit
+APAR
+kS?U
+RSQLite format 3
+kS%8RZx
+1SQLite format 3
+kSSQLite format 3
+[!!
+
+a-LastUpdatedTimestampPropertyKey177683658151643907948.81488(
+kSiw
+PSQLite format 3
+kSd>qb<
+com.reddit.Reddit'''g
+kSa\e8
+
+ATp5aAR
+"7uiBumble')'S5.247.0
+0Q'*8
+?nReddit''&2022.02.0
+0Q'u
+kSE
+
+kS'u%s
+
+G*\
+0Q'Wire Swiss GmbH0&
+0Q'AllTrails, Inc.'{
+kShd[@
+
+a+LastUpdatedTimestampPropertyKey177683658151643935765.2879(
+kSf:p}s
+kSlU
+a-LastUpdatedTimestampPropertyKey177683658151643935793.186321
+kS[%)0
+
+kSktKl
+
+kS3OPl<
+
+kSQY
+kS	]
+kS);ghY
+com.chess.iphone'z'
+com.reddit.Reddit'$'
+com.moxco.bumble'R')'g
+com.hammerandchisel.discord''
+com.apple.AppStore'''[
+com.apple.Preferences''''+
+com.apple.mobilesafari'Y'
+AvNDAR
+kS{6{D
+
+kSPv
+
+0Q'zChess.com1
+0Q'zSnap, Inc.P
+0Q'zGoogle LLC4
+0Q'zappscraft*
+0Q'zWire Swiss GmbH0!
+0Q'zDiscord, Inc.2
+0Q'zSignal Messenger, LLC/
+0Q'zAllTrails, Inc.'
+0Q'zTwitter, Inc.;
+0Q'zBumble Holding Limited%
+0Q'zIEC GLOBAL PTY LTD#
+0Q'zreddit
+kS/`r
+A-gwAR
+kS2\lg
+kSFn,/
+
+0Q'CwChess.com1
+0Q'CwSnap, Inc.P
+0Q'CwGoogle LLC4
+0Q'Cwappscraft*
+0Q'CwWire Swiss GmbH0
+0Q'CwDiscord, Inc.2
+0Q'CwSignal Messenger, LLC/
+0Q'CwAllTrails, Inc.'
+0Q'CwTwitter, Inc.;
+0Q'CwBumble Holding Limited%
+0Q'CwIEC GLOBAL PTY LTD#
+0Q'Cwreddit
+A(N:~AR
+kS0
+
+
+0Q'Snap, Inc.P%
+BzB
+
+kSG8
+0Q'YChess.com1z
+0Q'YSnap, Inc.P
+0Q'YGoogle LLC4
+0Q'Yappscraft*
+0Q'YWire Swiss GmbH0
+0Q'YDiscord, Inc.2
+0Q'YSignal Messenger, LLC/
+0Q'YAllTrails, Inc.'
+0Q'YTwitter, Inc.;
+0Q'YBumble Holding Limited%
+0Q'YIEC GLOBAL PTY LTD#
+0Q'Yreddit
+kS>q
+
+n66cz3y3bx.skadnetwork
+7294DC9B-5F49-44AF-B2F8-4B58E3D088A3
+~WHMDUCGQDy0WjF9pJH5leAnkmEclEQWG5O0kvKlm8CGHP7GkoDrIv41vRCZQ6hDuwADQno50v0gQ==2.2
+~Wncom.atebits.Tweetie2Twitter7
+aLqy
+
+(F`7
+kS5F-'
+kS!K"
+
+u^?
+
+
+O
+C		W
+com.apple.FocusSettingsUI.UserNotificationExtension'5'/'
+com.alltrails.AllTrails'''g
+com.atebits.Tweetie2'''g
+com.apple.mobilenotes''u'
+com.apple.WebKit.GPU''8'[
+com.apple.MobileSMS'.'.'*
+com.apple.mobilesafari'7'6'*
+kShq
+kSyU 
+
+kS'H!|e
+
+C
+*
+0Q'AllTrails, Inc.'p
+0Q'Bumble Holding Limited%i
+kSp;-v
+kSP1KSq|0
+
+0Q'DChess.com1
+0Q'DSnap, Inc.P
+0Q'DGoogle LLC4
+0Q'Dappscraft*
+0Q'DWire Swiss GmbH0
+0Q'DDiscord, Inc.2
+0Q'DSignal Messenger, LLC/
+0Q'DAllTrails, Inc.'
+0Q'DTwitter, Inc.;
+0Q'DBumble Holding Limited%
+0Q'DIEC GLOBAL PTY LTD#
+0Q'Dreddit
+kSmf8@
+
+kSwM:
+
+G\*
+eChess.com1
+eSnap, Inc.Pm
+eGoogle LLC4
+eappscraft*
+eWire Swiss GmbH0
+eDiscord, Inc.2
+eSignal Messenger, LLC/
+eAllTrails, Inc.'
+eTwitter, Inc.;
+eBumble Holding Limited%
+eIEC GLOBAL PTY LTD#
+ereddit
+kSl8
+0Q'<Chess.com1
+0Q'<Snap, Inc.P
+0Q'<Google LLC4
+0Q'<appscraft*
+0Q'<Wire Swiss GmbH0H
+0Q'<Discord, Inc.2
+0Q'<Signal Messenger, LLC/
+0Q'<AllTrails, Inc.'
+0Q'<Twitter, Inc.;
+0Q'<Bumble Holding Limited%
+0Q'<IEC GLOBAL PTY LTD#
+0Q'<reddit
+kSk1P
+x
+
+kS,h
+%x^
+
+kSRUH
+0Q'qChess.com1
+0Q'qSnap, Inc.P=
+0Q'qGoogle LLC4
+0Q'qappscraft*
+0Q'qWire Swiss GmbH0
+0Q'qDiscord, Inc.2
+0Q'qSignal Messenger, LLC/
+0Q'qAllTrails, Inc.'d
+0Q'qTwitter, Inc.;
+0Q'qBumble Holding Limited%
+0Q'qIEC GLOBAL PTY LTD#
+0Q'qreddit
+kS}7
+
+com.alltrails.AllTrails's'sD'g
+com.apple.mobilenotes'sB's@'
+A:x&AR
+kSWRVme
+
+kS24
+0Q'[Chess.com1
+0Q'[Snap, Inc.P
+0Q'[Google LLC4
+0Q'[appscraft*
+0Q'[Wire Swiss GmbH0
+0Q'[Discord, Inc.2
+0Q'[Signal Messenger, LLC/
+0Q'[AllTrails, Inc.'
+0Q'[Twitter, Inc.;
+0Q'[Bumble Holding Limited%
+0Q'[IEC GLOBAL PTY LTD#
+0Q'[reddit
+com.alltrails.AllTrails'B'	'g
+kSl'C
+AphAR
+kS)J|,:
+
+.;AR
+n{D
+
+m
+*
+0Q'Google LLC4p
+kSgMtl
+
+kSq6[l
+
+kSAw
+kSt:PQ0
+
+0Q'5Google LLC4
+0Q'5IEC GLOBAL PTY LTD#
+kS=t z
+
+Y`AR
+kSoOm
+
+Wnp+
+
+Snap, Inc.P#
+Google LLC4j
+Discord, Inc.29
+AllTrails, Inc.'S
+kS2$' K
+_
+AR
+kS)~Ll
+
+AAR
+kS,6v#J
+kSb`R
+kS|7
+G	*
+>TM
+
+kSw]m
+kS`3
+
+u
+u
+u
+j4<o
+
+$AllTrails'sD'
+kSf^G
+kS\0
+
+Bumble Holding Limited%L
+kS"rAv
+
+x\*
+0Q'(Chess.com1
+0Q'(Snap, Inc.P
+0Q'(Google LLC4
+0Q'(appscraft*
+0Q'(Wire Swiss GmbH0
+0Q'(Discord, Inc.2
+0Q'(Signal Messenger, LLC/J
+0Q'(AllTrails, Inc.'
+0Q'(Twitter, Inc.;
+0Q'(Bumble Holding Limited%
+0Q'(IEC GLOBAL PTY LTD#
+0Q'(reddit
+kS=ij
+
+kS_UO#
+
+C\
+
+0Q'0Chess.com1
+0Q'0Snap, Inc.P
+0Q'0Google LLC4
+0Q'0appscraft*a
+0Q'0Wire Swiss GmbH0
+0Q'0Discord, Inc.2
+0Q'0Signal Messenger, LLC/
+0Q'0AllTrails, Inc.'
+0Q'0Twitter, Inc.;
+0Q'0Bumble Holding Limited%
+0Q'0IEC GLOBAL PTY LTD#
+0Q'0reddit
+kS8{LY
+kS
+'>>
+uwr
+
+kStX
+*\
+0Q'UChess.com1
+0Q'USnap, Inc.P
+0Q'UGoogle LLC4
+0Q'Uappscraft*
+0Q'UWire Swiss GmbH0
+0Q'UDiscord, Inc.2
+0Q'USignal Messenger, LLC/
+0Q'UAllTrails, Inc.'
+0Q'UTwitter, Inc.;
+0Q'UBumble Holding Limited%h
+0Q'UIEC GLOBAL PTY LTD#
+0Q'Ureddit
+kSni_ 
+
+Aj@AR
+kSkMDh
+
+kSc:
+G\	
+0Q'TChess.com1
+0Q'TSnap, Inc.P
+0Q'TGoogle LLC4
+0Q'Tappscraft*
+0Q'TWire Swiss GmbH0
+0Q'TDiscord, Inc.2
+0Q'TSignal Messenger, LLC/
+0Q'TAllTrails, Inc.'
+0Q'TTwitter, Inc.;
+0Q'TBumble Holding Limited%
+0Q'TIEC GLOBAL PTY LTD#C
+0Q'Treddit
+kS$h
+x	\
+
+0Q'TDiscord, Inc.2
+
+0Q'TIEC GLOBAL PTY LTD#
+kSV:
+
+
+kS1j
+kS
++
+kSkT
+
+y
+*
+0Q'5aChess.com1
+0Q'5aSnap, Inc.P
+0Q'5aGoogle LLC4
+0Q'5aappscraft*
+0Q'5aWire Swiss GmbH0
+0Q'5aDiscord, Inc.2\
+0Q'5aSignal Messenger, LLC/
+0Q'5aAllTrails, Inc.'
+0Q'5aTwitter, Inc.;
+0Q'5aBumble Holding Limited%
+0Q'5aIEC GLOBAL PTY LTD#
+0Q'5areddit
+gB&
+
+|NAR
+kSk
+0Q'tChess.com1
+0Q'tSnap, Inc.P
+0Q'tGoogle LLC4
+0Q'tappscraft*
+0Q'tWire Swiss GmbH0
+0Q'tDiscord, Inc.2
+0Q'tSignal Messenger, LLC/
+0Q'tAllTrails, Inc.'
+0Q'tTwitter, Inc.;
+0Q'tBumble Holding Limited%
+0Q'tIEC GLOBAL PTY LTD#
+0Q'treddit
+oa1
+
+kS
+E*F9
+
+*
+\	
+kSP/
+<WH
+
+kS(`Hmp
+
+.
+
+com.apple.mobilephone'
+'&AH
+com.alltrails.AllTrails'
+com.hammerandchisel.discord'
+kSO 
+O`!
+
+kSQU*
+
+kS99-ci
+
+kSt2l
+
+0Q'-ZChess.com1
+0Q'-ZSnap, Inc.P
+0Q'-ZGoogle LLC4
+0Q'-Zappscraft*
+0Q'-ZWire Swiss GmbH0
+0Q'-ZDiscord, Inc.2
+0Q'-ZSignal Messenger, LLC/
+0Q'-ZAllTrails, Inc.'(
+0Q'-ZTwitter, Inc.;
+0Q'-ZBumble Holding Limited%
+0Q'-ZIEC GLOBAL PTY LTD#
+0Q'-Zreddit
+kS^ 
+kS.f
+kSM_:
+kSaF{A
+*	\
+0Q'7
+oD
+
+kSCT/k
+m\*
+kS5X
+Ar>AAR
+@cSQLite format 3
+XSCASSQLite format 3
+kSl+SQLite format 3
+kS#.Y{SQLite format 3
+~MdM
+
+a-LastUpdatedTimestampPropertyKey177683658151644849728.77896(
+kS5<g
+kS_0h
+a+LastUpdatedTimestampPropertyKey177683658151644849728.80761
+kS	^N}
+
+AR0AR
+kSBC
+kSQQ
+kSH@g
+
+com.apple.Preferences''d'+
+A^\?V
+kSze#$
+
+kSJo
+0Q''Chess.com1P
+0Q''Snap, Inc.P
+0Q''Google LLC4
+0Q''appscraft*v
+0Q''Wire Swiss GmbH0
+0Q''Discord, Inc.2
+0Q''Signal Messenger, LLC/c
+0Q''AllTrails, Inc.'
+0Q''Twitter, Inc.;
+0Q''Bumble Holding Limited%
+0Q''IEC GLOBAL PTY LTD#
+0Q''reddit
+kSNh
+kS5D
+UqSQLite format 3
+kS #X"SQLite format 3
+kST!RSQLite format 3
+hbSQLite format 3
+\HfSQLite format 3
+kS=`bSQLite format 3
+kS:!szSQLite format 3
+kS!&SQLite format 3
+kSUP
+6SQLite format 3
+kS"p>SQLite format 3
+kS
+fSQLite format 3
+A~"SQLite format 3
+kS?
+SQLite format 3
+kS=U
+z,&SQLite format 3
+kSOD
+BSQLite format 3
+kSn:
+kS%b
+ZfSQLite format 3
+kSY?`SQLite format 3
+kSl3-
+kSo}SSQLite format 3
+t
+	
+com.chess.iphone310|date=1642798800000&sf=143441&pgtp=Search&pgid=69bc4b0d-5c92-4fc8-b043-e11d1ba859bf&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=12r2
+0Q'RChess.com
+
+com.toyopagroup.picaboo11.62.0.3610|date=1642797000000&sf=143441&pgtp=Search&pgid=8cd66a14-b936-499e-95b7-5ea9ba6a2aba&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=12v'
+0Q'RSnap, Inc.,
+com.google.Gmail6.0.211226.139575210|date=1642797000000&sf=143441&pgtp=Search&pgid=7f2c595e-a296-4670-9c6b-10f878f8c1b1&prpg=Search_7f2c595e-a296-4670-9c6b-10f878f8c1b1&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=12s
+0Q'RGoogle LLC
+ru.appscraft.CollectorGame2018.07.18125010|date=1642798800000&sf=143441&pgtp=Search&pgid=7e69b035-ae9e-4af0-bca0-a9499fbeeb9b&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=12'^'*
+0Q'Rappscraft
+com.wearezeta.zclient.ios472510|date=1642798800000&sf=143441&pgtp=Search&pgid=cda69880-5352-4faa-8b69-64da5b0e826c&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=12hf7}
+0Q'RWire Swiss GmbH
+com.hammerandchisel.discord2965910|date=1642797000000&sf=143441&pgtp=Search&pgid=8daa2e3a-4013-433f-acac-a18032093896&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=12t(:M:Discord109.0
+0Q'RDiscord, Inc.
+org.whispersystems.signal010|date=1642797000000&sf=143441&pgtp=Search&pgid=00ab1b83-19e4-43ef-8f3a-3bdc5adb6888&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=12x?4
+0Q'RSignal Messenger, LLC
+com.alltrails.AllTrails652410|date=1642798800000&sf=143441&pgtp=Search&pgid=1e5421bb-f2f9-43c1-a66b-4972a2336f4a&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=12wA
+0Q'RAllTrails, Inc.
+com.atebits.Tweetie28.9710|date=1642797000000&sf=143441&pgtp=Search&pgid=ba778836-ccd9-47d3-ac97-f8074deba66e&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=12vI
+com.moxco.bumble5.247.0.164195756910|date=1642797000000&sf=143441&pgtp=Search&pgid=5f6bf3be-6a6c-4e1f-a646-a6220bf7fc51&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=PI3&lngid=12v
+0Q'RBumble Holding Limited
+com.gma.water.sort.puzzle8310|date=1642798800000&sf=143441&pgtp=Genre&pgid=179183&prpg=Search_7e69b035-ae9e-4af0-bca0-a9499fbeeb9b&ctxt=Search&imptyp=lockup&kind=iosSoftware&lngid=12s
+0Q'RIEC GLOBAL PTY LTD
+com.reddit.Reddit30854710|date=1642797000000&sf=143441&pgtp=Search&pgid=14b92f46-c52c-4bc7-ac3a-decb84d3e792&prpg=Genre_179183&ctxt=Search&issrch=1&imptyp=lockup&kind=iosSoftware&itpltyp=TEXT&lngid=12w
+0Q'Rreddit
+kS+kF
+
+kS|4L8
+
+
+	
+0Q'RChess.com
+I
+kSOe
+
+kS:j3
+
+kSQuW&;W
+
+0Q'VChess.com
+
+0Q'VSnap, Inc.,
+0Q'VGoogle LLC
+0Q'Vappscraft
+0Q'VWire Swiss GmbH
+0Q'VDiscord, Inc.
+0Q'VSignal Messenger, LLC
+0Q'VAllTrails, Inc.
+0Q'VTwitter, Inc.
+0Q'VBumble Holding Limited
+0Q'VIEC GLOBAL PTY LTD
+kSM+9SQLite format 3
+kS	E
+
+Ak3u AR

@@ -1,0 +1,4 @@
+2022-01-10 12:28:34 Data container moved com.apple.mobilemail.MailSpotlightIndexExtension /private/var/mobile/Containers/Data/PluginKitPlugin/DD9CB882-690A-4002-BA34-E858239F9C44
+2022-01-10 12:28:34 Data container moved com.apple.mobilemail.MailSpotlightIndexExtension /private/var/mobile/Containers/Data/PluginKitPlugin/DD9CB882-690A-4002-BA34-E858239F9C44
+2022-01-06 17:41:33 Made container live com.apple.mobilemail.MailSpotlightIndexExtension /private/var/mobile/Containers/Data/PluginKitPlugin/9068791F-0A6D-41C4-838C-2D9317751933
+2022-01-06 17:41:33 Made container live com.apple.mobilemail.MailSpotlightIndexExtension /private/var/mobile/Containers/Data/PluginKitPlugin/9068791F-0A6D-41C4-838C-2D9317751933

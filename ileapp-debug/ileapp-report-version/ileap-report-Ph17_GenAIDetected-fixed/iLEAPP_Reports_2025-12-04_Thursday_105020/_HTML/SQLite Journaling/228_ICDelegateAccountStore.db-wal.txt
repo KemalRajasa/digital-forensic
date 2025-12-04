@@ -1,0 +1,75 @@
+Tq)%
+TlnbSQLite format 3
+.S`
+
+
+^
+
+
+[tablesqlite_stat1sqlite_stat1
+CREATE TABLE sqlite_stat1(tbl,idx,stat)
+atabledelegation_uuiddelegation_uuid
+CREATE TABLE delegation_uuid(user_identity TEXT,uuid TEXT,insertion_date REAL,UNIQUE(user_identity, uuid))=
+indexsqlite_autoindex_delegation_uuid_1delegation_uuid	
+itabletokentoken
+CREATE TABLE token(account_identity TEXT UNIQUE,type INTEGER NOT NULL,expiration_date REAL,data BLOB NOT NULL))
+indexsqlite_autoindex_token_1token
+ytablemetadatametadata
+CREATE TABLE metadata(key TEXT PRIMARY KEY,value TEXT)/
+indexsqlite_autoindex_metadata_1metadata
+tableaccountaccount
+CREATE TABLE account(identity TEXT PRIMARY KEY,storefront TEXT)-
+indexsqlite_autoindex_account_1account
+T2Z
+
+--expiration_prune663528581.789234
+T|fp=
+
+-	expiration_prune
+TX,Q.Vh
+
+T_SJ]
+
+--expiration_prune663718702.723135
+
+F$
+
+expiration_prune
+--expiration_prune663782633.605246
+xSg
+
+--expiration_prune663898130.299659
+T~{u
+--expiration_prune665200582.869868
+T:#
+
+--expiration_prune665627057.734955
+*lDo
+
+--expiration_prune666549346.828989
+Tkd(f
+
+Tf6i%
+--expiration_prune666554345.675511
+T{&
+
+-+expiration_prune666554641.29451
+Tc-_
+expiration_prune	
+--expiration_prune666554952.040115
+Tzv|
+expiration_prune
+
+TO@-
+
+--expiration_prune666555408.091616
+expiration_prune
+--expiration_prune666555533.632233
+T>K
+
+expiration_prune
+T(3
+
+--expiration_prune666556214.175434
+ti;
+

@@ -1,0 +1,1334 @@
+NZK5x{
+<"7SQLite format 3
+.S`
+
+
+cA
+
+#	#	
+WindexEdgeValue_stringValueEdgeValue
+CREATE INDEX EdgeValue_stringValue on EdgeValue (attributeId, stringValue) where stringValue not null
+KindexEdgeValue_realValueEdgeValue
+CREATE INDEX EdgeValue_realValue on EdgeValue (attributeId, realValue) where realValue not null
+EindexEdgeValue_intValueEdgeValue
+CREATE INDEX EdgeValue_intValue on EdgeValue (attributeId, intValue) where intValue not nullJ
+ctableEdgeValueEdgeValue
+CREATE TABLE EdgeValue (elementId integer, attributeId integer, intValue integer, realValue real, stringValue text, dataType integer, primary key (elementId, attributeId))1
+
+indexsqlite_autoindex_EdgeValue_1EdgeValue
+WindexNodeValue_stringValueNodeValueCREATE INDEX NodeValue_stringValue on NodeValue (attributeId, stringValue) where stringValue not null
+KindexNodeValue_realValueNodeValueCREATE INDEX NodeValue_realValue on NodeValue (attributeId, realValue) where realValue not null
+EindexNodeValue_intValueNodeValue
+CREATE INDEX NodeValue_intValue on NodeValue (attributeId, intValue) where intValue not nullJ
+ctableNodeValueNodeValue
+CREATE TABLE NodeValue (elementId integer, attributeId integer, intValue integer, realValue real, stringValue text, dataType integer, primary key (elementId, attributeId))1
+indexsqlite_autoindex_NodeValue_1NodeValue	
+otableAttributeAttribute
+CREATE TABLE Attribute (identifier integer primary key autoincrement, name text, dataType integer, flags integer)*
+7tableEdgeEdge
+CREATE TABLE Edge (identifier integer primary key autoincrement, weight float, labels blob, sourceNodeId integer, targetNodeId integer, attrIds blob)
+tableNodeNode
+CREATE TABLE Node (identifier integer primary key autoincrement, weight float, labels blob, edgesIn blob, edgesOut blob, attrIds blob)}
+9tableGraphMetadataGraphMetadata
+CREATE TABLE GraphMetadata (metadataKey integer primary key autoincrement, value text)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+]tableLabelLabel
+CREATE TABLE Label (identifier integer primary key autoincrement, name text, nodeIds blob, edgeIds blob)
+NZKtq\Gr
+
+NZK<pz
+
+GraphMetadata
+NZK?0
+
+NZKrn
+f50
+
+NZK!.
+NZK`l
+NZKgiQ
+
+NZKVwW an
+
+NZKz=D
+NZKi
+NZKMrOo9
+
+NZKZ1w
+NZK."6c+
+NZK_&Gbj
+
+NZK~`'Rl0
+
+user
+domain_100
+	Attribute
+	Node	
+Label
+Izp6
+
+NZK<S
+value
+"@a4
+
+NZKyA
+NZK7
+	user
+NZKA%
+sr
+
+
+emailAddress
+NZKA]EQ
+
+Node
+NZK c/
+
+NZKb1
+
+naomakile3zro@outlook.com
+J)BBx
+
+NZK%
+!<<domain_100
+<user:6857290582596778822
+NZK|Q|
+Attribute
+	Edge	
+p 'v
+
+h
+NZK	fo
+
+weight
+relationship
+NZKM_
+
+user:6857290582596778822
+NZK]&%r@
+
+m,2w
+
+NZK:
+NZKu>
+phoneNumber
+NZK6k*
+
+
+h
+NZKygm
++19732941683
+NZK$	
+NZKEg;_
+
+NZKJ=Q^o*
+
+Edge
+NZK?
+z	I
+
+h
+NZK#
+NZKNl#
+NZKD
+<relationship
+NZKu
+NZK
+1
+-H*
+
+h
+	<<<<
+NZKzgCVz5n
+
+NZKd
+NZK
+D
+
+<user:6857290584827880597
+NZK
+.30
+
+NZK]
+\
+
+h
+
+D
+NZKvV+cP.
+
+user:6857290584827880597
+NZK\[z
+
+NZKf3>8
+
+NZKc
+rawName
+NZKI
+NZK?]u#
+
+h
+NZKG9ke
+78644
+NZK?PI
+NZK;
+<user:6857290582358887053
+NZKP%B
+
+Label	
+:cJ
+
+NZK5
+user:6857290582358887053
+NZKek]
+NZKx.`6
+
+user:6857290582358887053	
+NZK:^"
+
+NZK6x-`
+
+"ST
+
+h
+NZKw!w
+
+NZK.
+T
+NZKwsgz
+
+NZKk
+NZK}a
+
+user:6857290582358887053
+NZK8`
+
+NZK@!~AoO
+
+h
+NZKp
+bNf
+
+NZK>
+MZ$
+
+iw{/
+
+NZK1ft
+
+relationship
+
+.BQ
+
+<user:6857290582306403124
+NZKOh8TE
+
+Label
+
+e>
+
+h
+NZK5{6#
+
+user:6857290582306403124
+NZK8FW
+R#!^
+
+NZKG
+=[b
+
+<user:6857290586290635377
+NZK!-
+Edge		
+Label
+NZKWs]1
+NZKZGF~v
+
+user:6857290586290635377
+NZK0(E'_R
+
+NZK+^
+
+NZKzBoP
+
+NZKwTV_
+
+Edge
+	
+NZKA
+Ah`
+
+h
+NZKVY`
+NZKMuaF
+
+NZK4
+NZK9
+NZK0KL'
+NZK	
+Edge	
+NZK0
+NZK.spGe
+	hKi
+
+V"K
+
+NZKUjO
+NZK
+
+NZK-MH
+
+23081
+NZK&I
+(m!
+
+<user:6857290582306347561
+NZK[
+Edge	
+Label
+ETC9
+
+h
+y@
+
+
+NZK>lb3$(*
+user:6857290582306347561
+pu'
+
+(aW|_
+
+NZK#!
+W~SQLite format 3
+NZKCe
+<user:6857290582953966340
+5
+
+h
+NZKL
+NZKv
+
+
+
+
+
+
+user:6857290582953966340
+NZKX-
+
+V#_
+
+NZKWrC
+
+NZKPt
+NZK)
+NZK"
+NZK2y}
+
+h
+NZK;w3ps
+
+
+
+
+
+
+
+
+z
+F`)
+
+NZKCv
+
+NZKg]h
+
+C+ 
+
+NZKz
+I
+
+h
+
+
+
+
+
+
+
+z
+b
+R
+NZKg
+;n]L
+
+NZKH+(
+
+NZKxed
+
+<user:6857290585150632884
+NZKj{KPb
+
+NZK+r,h
+
+h
+:u&
+
+
+
+
+
+
+
+
+z
+b
+R
+.
+"
+user:6857290585150632884
+NZK?FU
+
+NZK;tO9 
+
+NZK(Dy
+NZKv/|R5
+
+NZK=
+
+NZK(~w
+
+h
+NZKK[THF
+
+
+
+
+
+
+
+
+z
+b
+R
+.
+"
+NZKA:
+
+NZKnY
+
+user:6857290585150632884!
+NZKk f
+
+NZKoo
+
+NZK<fB
+
+NZK2\hX,
+
+h
+
+
+
+
+
+
+
+z
+b
+R
+.
+"
+NZKIM!F
+NZKl=F-
+
+relationship#
+%UF
+
+43k
+
+NZKO 
+6
+NZK	'
+
+52181
+NZK_B{
+
+NZKW
+:@
+
+<user:6857290582306376661
+NZK!0
+NZKm
+NZKZA
+
+
+
+
+
+
+
+
+z
+b
+R
+.
+"
+user:6857290582306376661
+NZK8Xld*n
+
+gGxbT
+
+hu3
+
+user:6857290582306376661%
+NZK3RQ^
+<user:6857290583835567354
+NZKBm
+	]
+
+h
+NZKa6
+
+
+
+
+
+
+
+z
+b
+R
+.
+"vj
+user:6857290583835567354
+NZKt
+user:6857290583835567354'
+5p/
+
+NZK"%n
+NZKZ
+
+
+NZK 
+	kt
+
+h
+
+
+
+
+
+
+
+z
+b
+R
+.
+"vjF:
+NZKmaujB
+
+user:6857290583835567354)
+NZK)cO
+
+NZK(v#
+NZKpBb
+
+
+
+
+
+
+
+
+z
+b
+R
+.
+"vjF:"
+NZK{
+"%#VQ
+
+NZK}]\
+}o
+
+relationship+
+NZKtmi
+NZK$$Io
+
+NZK^q
+611611
+<user:6857290585800143296
+NZKx8W
+NZKcGr
+,
+
+h
+NZK`4KO"
+
+user:6857290585800143296
+NZK,7
+user:6857290585800143296-
+\	M
+
+NZK+_
+NZKL1}yL
+
+= A)}
+
+h
+
+NZKl
+-~P
+
+NZKQ
+M
+NZK;m#O
+
+"
+
+a
+user:6857290585800143296/
+NZKY#
+SQLite format 3
+NZKh#y9
+
+NZK8J
+Z;)
+
+
+relationship1
+N
+K
+
+NZK1)^'
+
+<user:6857290582306936091
+NZK|	N_GP
+
+NZK]%
+pt	n
+
+fZ
+user:6857290582306936091
+NZKk$d`8
+
+NZKDNc
+NZK(3Y
+user:68572905823069360913
+NZKa
+<user:6857290584778810561
+NZKZ`4V
+
+NZKO
+fZ6*
+user:6857290584778810561
+NZK4u6K
+
+NZKC
+NZK:A
+s
+
+
+
+user:68572905847788105615
+NZKGUvK<
+
+NZK_^
+NZK/#50{
+
+NZK\	cTw)
+
+NZKc=Z
+
+fZ6*
+NZK:y>sZ
+
+NZKZU
+user:68572905847788105617
+NZK]y8
+
+NZKX)#
+
+NZK_#h.
+
+NZKedxzS|
+
+NZKI	>
+NZK%"
+
+'@@:
+NZK+X
+
+
+
+N
+relationship9
+<'@@
+NZKJ9
+5~
+
+<user:6857290582341790587
+NZK&hy= 
+
+NZKZ_7d
+NZKN-EL
+
+user:6857290582341790587
+NZKV
+
+Fu
+
+NZKCSVt
+!
+/
+user:6857290582341790587;
+NZK'X[
+
+NZKAn Ne%
+
+NZKxOB
+
+NZK%xx\
+
+
+
+
+
+
+
+~
+r
+NZKNTkqD?
+
+Q/,N/
+
+!
+/
+user:6857290582341790587=
+NZK\1
+NZKgm3$
+NZK|y[
+Edge 	
+3{:
+
+NZKjm
+
+
+
+
+
+
+~
+r
+Z
+J
+NZKy1{
+NZK(
+
+
+N
+relationship?
+NZK`
+vSQLite format 3
+NZK=
+NZK$W;
+Edge!	
+NZKcS
+
+NZK:,
+
+
+
+
+
+
+
+~
+r
+Z
+J
+&
+
+user:6857290585136488421
+NZKl
+
+NZK`
+
+NZKcLu
+user:6857290585136488421A
+NZK
+
+
+<user:6857290585136488421
+NZK}M
+VcK
+
+Edge"	
+L.F?
+
+
+
+
+
+
+NZK~}|:Z/
+
+NZKK
+nO
+user:6857290585136488421C
+NZKr	b
+
+"a]
+
+NZKsh3w$
+
+THW
+
+Edge#	
+NZKi
+				
+
+
+
+
+
+
+
+NZK@R
+NZK)g`
+
+
+N<
+relationshipE
+NZKqrv	
+NZK^D3
+NZKKd;
+NZK~vT%w
+
+
+NZKnU&
++18622176888
+NZK}Wl
+NZKX1
+NZKu 
+Dn]
+
+Edge$	
+NZKZ}\*
+
+						
+user:6857290585058394250
+NZKio4
+
+
+
+
+
+
+
+
+
+
+NZK&T'
+NZKN"?6V
+
+user:6857290585058394250G
+NZKU.nbc
+
+7z^/
+
+<user:6857290585058394250
+NZKmU
+eoN
+
+NZKlh~w.:SQLite format 3
+NZKaYh2}
+Edge%	
+NZKb
+NZKV[1
+							n	b
+user:6857290586202724791
+NZKMex
+
+
+
+
+
+
+
+
+
+
+
+NZK6P,
+"
+
+a
+user:6857290586202724791I
+BrJl
+NZK
+3v
+<user:6857290586202724791
+NZKPd
+
+NZK,U %
+
+Edge&	
+							n	b	>	2
+
+
+
+
+
+
+
+
+
+
+
+
+
+"
+
+a
+user:6857290586202724791K
+NZKp#@4p4Q
+
+NZK)Ej
+
+NZKM
+NZKU#V
+
+NZK}	5
+
+Edge'	
+							n	b	>	2	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N<
+relationshipM
+NZK~m
+NZK.l<:
+NZK4?I
+NZK*^
+Node	
+NZK
+U
+	78156
+YyI
+
+78156	
+NZKE
+NZK/y8\o"
+
+Edge(	
+NZKfx
+user:6857290582306402636
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NZKT
+NZKA|h
+user:6857290582306402636O
+	%Nu
+NZKHB'
+
+<user:6857290582306402636
+NZK8fx
+.ok
+
+NZK*k&
+e`S
+
+Edge)	
+NZK|S
+user:6857290586470094031
+V{$9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+s
+NZK8qVw
+
+NZKMA
+user:6857290586470094031Q
+NZKH
+~
+;
+<user:6857290586470094031
+NZK-m
+NZK	"L
+
+NZKe.
+Edge*	
+NZK[0	?c
+
+NZKQ
+Cw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+s
+k
+c
+NZK9h
+
+user:6857290586470094031S
+NZK\`
+NZK0
+
+NZK~Y5
+g
+
+Edge+	
+NZK5Okhx%i
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+s
+k
+c
+[
+S
+NZKbG|:
+
+NZK5ZU
+
+
+N<\
+relationshipU
+NZK1
+ ;
+
+s._
+
+NZKz2
+
+NZKo:y
+
+Edge,	
+NZK*n
+user:6857290584779663630
+NZK.{>2jp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+s
+k
+c
+[
+S
+K
+C
+NZK(W
+NZKv(
+
+user:6857290584779663630W
+NZK`?
+~
+;z
+<user:6857290584779663630
+NZK(y
+Edge-	
+NZKP
+NZKF
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+s
+k
+c
+[
+S
+K
+C
+;
+3
+NZK>wl
+
+NZK}d{
+
+=
+user:6857290584779663630Y
+NZKouX
+
+vwv7
+NZKm%
+Edge.	
+NZK})9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+s
+k
+c
+[
+S
+K
+C
+;
+3
++
+#
+NZKt*;8Q
+
+
+
+N<\
+relationship[
+NZKNrB[
+}zS
+
+NZK6ux
+
+Node
+
+
++1 (973) 446-8551
++1 (973) 446-8551
+
+
+NZKMk
+
+$	
+NZKu-
+Node
+NZKN
++19734468551
+NZK.Gb(
+
+NZKi-W
+
++19734468551
+NZKqWo
+
+NZKJ
+.1j
+
+NZK:?e_//
+
+Edge/	
+NZKM/
+
+user:7083493101513099155
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+s
+k
+c
+[
+S
+K
+C
+;
+3
++
+#
+
+NZK
+UHU
+
+o
+
+user:7083493101513099155]
+1&J
+
+~
+;z
+
+<user:7083493101513099155
+K9n
+
+Ay
+	
+NZKx}r"
+
+NZKTJZ}
+
+Edge0	
+NZKP-Jr
+
+NZKp'b5
+
+NZKf
+o
+
+
+user:7083493101513099155_
+NZK6d_
+
+a]
+
+NZK?qGg
+NZKXEb
+
+zSQLite format 3
+NZK;oy^r
+NZKZ
+Edge1	
+NZKom!
+NZKH}@6
+
+phoneNumbera
+?T$
+
+#<<phoneNumber
+NZKfx
+
+NZK0E]
+
+NZK>a<H
+
+Edge2	
+mLH{
+
+
+NZKw
+NZKHx
+
+phoneNumberc
+3~U
+
+/n@
+	G

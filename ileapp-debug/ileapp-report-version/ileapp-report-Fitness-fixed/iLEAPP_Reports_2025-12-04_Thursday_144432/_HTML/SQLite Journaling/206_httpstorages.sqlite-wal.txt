@@ -1,0 +1,29 @@
+}<[0#
+}<[$S
+ki_SQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+}<[F%q.
+}<[H
+}<[Eg{7
+
+}<[
+xVSSQLite format 3
+}<[<i/-w?SQLite format 3
+}<[b.{Y@SQLite format 3
+}<[L;U
+SQLite format 3
+SR1cSQLite format 3
+}<[E=
+}<[E
+KSQLite format 3
+}<[d
+$SQLite format 3
+}<[*93?<sSQLite format 3
+}<[q3SQLite format 3
+}<[PcLSQLite format 3
+}<[T4WS'SQLite format 3
+}<[cn SQLite format 3

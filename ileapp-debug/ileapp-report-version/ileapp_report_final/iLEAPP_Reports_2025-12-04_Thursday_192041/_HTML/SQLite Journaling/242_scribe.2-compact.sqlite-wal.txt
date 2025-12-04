@@ -1,0 +1,76 @@
+:%k7
+:V'SQLite format 3
+.S`
+
+S#
+[	C
+
+tableVersionVersion
+CREATE TABLE Version (            version TEXT NOT NULL        )J	
+=triggerDeletedGroupDeletesImpressionsGroupsCREATE TRIGGER DeletedGroupDeletesImpressions AFTER DELETE ON Groups         BEGIN            DELETE FROM Impressions WHERE groupId = OLD.id;        ENDY
+ytableImpressionsImpressions
+CREATE TABLE Impressions (            groupId INTEGER NOT NULL,            timestamp REAL NOT NULL,            sequenceNumber INTEGER NOT NULL,            content BLOB,            eventName TEXT NOT NULL,            query TEXT,            PRIMARY KEY (groupId, timestamp, sequenceNumber)        ) WITHOUT ROWID
+StriggerDeletedEventDeletesRetryCountsEventsCREATE TRIGGER DeletedEventDeletesRetryCounts AFTER DELETE ON Events         BEGIN            DELETE FROM RetryCounts WHERE groupId = OLD.groupId AND timestamp = OLD.timestamp AND sequenceNumber = OLD.sequenceNumber;        ENDE
+3triggerDeletedGroupDeletesRetryCountsGroupsCREATE TRIGGER DeletedGroupDeletesRetryCounts AFTER DELETE ON Groups         BEGIN            DELETE FROM Events WHERE groupId = OLD.id;        END-
+!tableRetryCountsRetryCounts
+CREATE TABLE RetryCounts (            groupId INTEGER NOT NULL,            timestamp REAL NOT NULL,            sequenceNumber INTEGER NOT NULL,            retryCount INTEGER NOT NULL,            PRIMARY KEY (groupId, timestamp, sequenceNumber)        ) WITHOUT ROWID;
+)triggerDeletedGroupDeletesEventsGroupsCREATE TRIGGER DeletedGroupDeletesEvents AFTER DELETE ON Groups         BEGIN            DELETE FROM Events WHERE groupId = OLD.id;        END
+
+tableEventsEvents
+CREATE TABLE Events (            groupId INTEGER NOT NULL,            timestamp REAL NOT NULL,            sequenceNumber INTEGER NOT NULL,            sequenceNumberForSerializer INTEGER NOT NULL,            content BLOB NOT NULL,            contentIsGzipped BOOLEAN NOT NULL,            metadata BLOB,            PRIMARY KEY (groupId, timestamp, sequenceNumber)        ) WITHOUT ROWIDL
+kindexGroups_nameGroups
+CREATE UNIQUE INDEX Groups_name ON Groups(name)
+_tableGroupsGroups
+CREATE TABLE Groups (            id INTEGER PRIMARY KEY,            name TEXT NOT NULL,            serializerSequenceTimestamp INTEGER NOT NULL,            sequenceNumberForSerializerAtLatestFlush INTEGER NOT NULL DEFAULT -1        )
+}"Z#?
+:~|:
+
+Pf}p
+
+:BEdn
+:xY
+
+2020.1
+:PN
+N9k
+
+- guest -a
+:+#<
+
+	- guest -
+:)qEY
+
+ClientNetworkRequestEvent_P2a(
+ClientNetworkOperationEvent_P2a
+ClientSpanMessage_P2a
+BehavioralEvent_P2a
+ClientNetworkRequestEvent_P2
+ClientNetworkOperationEvent_P2
+ClientSpanMessage_P2
+BehavioralEvent_P2
+1484643042246152193a)
+Patrick01627276-664494319210515a&
+1484643042246152193
+Patrick01627276-664494319210515
+c4@
+
+ClientNetworkRequestEvent_Patrick01627276-664494319210515_P2aI
+ClientNetworkOperationEvent_Patrick01627276-664494319210515_P2a>
+
+ClientSpanMessage_Patrick01627276-664494319210515_P2a<	
+BehavioralEvent_Patrick01627276-664494319210515_P2a
+:kLk9
+B
+
+ClientNetworkRequestEvent_Patrick01627276-664494319210515_P2C
+ClientNetworkOperationEvent_Patrick01627276-664494319210515_P28
+ClientSpanMessage_Patrick01627276-664494319210515_P2
+6
+BehavioralEvent_Patrick01627276-664494319210515_P2	
+promoted_event-Patrick01627276-664494319210515aQ`G
+:5L%4
+promoted_event-Patrick01627276-664494319210515
+A
+:j~1QnSQLite format 3
+[tablesqlite_stat1sqlite_stat1	CREATE TABLE sqlite_stat1(tbl,idx,stat)[
+

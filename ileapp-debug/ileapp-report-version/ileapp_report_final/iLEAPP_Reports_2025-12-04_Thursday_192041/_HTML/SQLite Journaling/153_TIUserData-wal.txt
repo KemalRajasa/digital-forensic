@@ -1,0 +1,39 @@
+SQLite format 3
+.S`
+
+$
+
+]O
+
+
+Eindextransient_last_update_date_indexusermodeltransientrecords
+CREATE INDEX transient_last_update_date_index ON usermodeltransientrecords(last_update_date)
+-indextransient_input_mode_indexusermodeltransientrecords	CREATE INDEX transient_input_mode_index ON usermodeltransientrecords(input_mode){
+indextransient_key_indexusermodeltransientrecords
+CREATE INDEX transient_key_index ON usermodeltransientrecords(key)
++tableusermodeltransientrecordsusermodeltransientrecords
+CREATE TABLE usermodeltransientrecords (    ROWID INTEGER PRIMARY KEY AUTOINCREMENT,   key    TEXT  NOT NULL,   input_mode      TEXT NOT NULL,   value           INTEGER DEFAULT 0,   secondary_value INTEGER DEFAULT 0,   real_value       REAL DEFAULT 0,   properties            BLOB,   last_update_date       REAL DEFAULT 0,   journaled)s
+	indexdurable_key_indexusermodeldurablerecords
+CREATE INDEX durable_key_index ON usermodeldurablerecords(key)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)'
+etableusermodeldurablerecordsusermodeldurablerecords
+CREATE TABLE usermodeldurablerecords (    ROWID INTEGER PRIMARY KEY AUTOINCREMENT,   key    TEXT  NOT NULL,   value           INTEGER DEFAULT 0,   creation_date       REAL DEFAULT 0,   last_update_date       REAL DEFAULT 0,   journaled)s
+1tablepropertiesproperties
+CREATE TABLE properties (  ROWID INTEGER PRIMARY KEY,  key,  value,  UNIQUE (key))3
+indexsqlite_autoindex_properties_1properties
+Ts}
+
+transient_last_migration_dateA
+transient_version
+durable_last_migration_dateA
+H;H^
+durable_version
+properties_last_migration_dateA
+properties_version
+transient_last_migration_date
+durable_last_migration_date
+properties_last_migration_date
+1	properties_version
+|}L?
+

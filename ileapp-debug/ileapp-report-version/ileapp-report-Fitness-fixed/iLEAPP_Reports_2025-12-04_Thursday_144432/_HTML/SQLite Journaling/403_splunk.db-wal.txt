@@ -1,0 +1,373 @@
+k*8@z"1+$
+k*8~]<b
+SQLite format 3
+.S`
+
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq){
+Atableall_eventsall_events
+CREATE TABLE all_events (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp REAL,data BLOB
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+k*82S
+
+-Created663718831.275475
+k*81
+
+	Created
+k*8@
+k*8fD
+k*8Brn_vSQLite format 3
+k*8D
+k*82WX0
+
+k*8!
+
+EI1
+
+!-LastVacuum663718831.280367
+k*8q;
+LastVacuum
+'
+SchemaVersionE524AEABD6006CCF317D8822426FBB8216B6003E7441046B55B0B9CE564D7EEE
+SchemaVersion
+k*8FhQ
+
+bplist00
+	
+
+
+\eventVersion_
+standardModeTimeout_
+gracePeriodTimeout_
+restrictedModeDurationYeventType^restrictedMode]policyEnabled_
+standardModeExpired_
+bioLockoutWithoutFastPathCount_
+eventPeriodDuration_
+restrictedModePublishedDuration_
+bioLockoutWithFastPathCount_
+policyStatusFlagsUtopicYeventTime_
+blockAIDResetBootArg_
+aidResetBlockedCount_
+unexpectedShutdownCount
+Vpolicy
+xp_usb_restricted#Bw
+k*8q
+!	all_events
+k*8a-$
+#?upload_date2022-01-15T17:20:31-05:00Q
+k*8:
+3E=
+
+upload_date
+k*8$7TSQLite format 3
+k*8d	
+A%9Cbplist00
+all_events
+OxK
+
+
+j	
+3bplist00
+k*8rzv
+k*8qF
+
+k*8l
+
+#?upload_date2022-01-18T19:25:40-05:00Q
+k*8k	!7*
+
+k*8c`
+
+k*8P2}
+
+k*8ct^
+xp_usb_restricted#BwW
+k*8C0
+k*89
+A"wYebplist00
+xp_usb_restricted#BwG
+k*8[c;
+k*8i#|(p
+A`t9ibplist00
+xp_usb_restricted#BwX
+k*8c
+k*8M
+k*87nD
+
+#?upload_date2022-01-21T19:45:53-05:00Q
+k*86
+!#2
+
+k*8oN3
+) 6
+
+w/5-	<
+
+At Y
+xp_usb_restricted#BwO'
+k*8Xo`)c^
+
+xp_usb_restricted#Bw4.
+k*8gw^
+k*8
+Jw@>SQLite format 3
+k*8O",p*
+k*8&mOZ
+k*80,M
+k*8iC
+k*8~_q
+
+!-LastVacuum664505847.569235
+k*8s &
+LastVacuum	
+
+Abplist00
+xp_usb_restricted#Bw2
+k*8z\
+all_events	
+k*8~
+k*8O&p(h
+
+#?upload_date2022-01-24T19:57:28-05:00Q
+k*8y=[
+
+upload_date
+
+k*8Z
+upload_date
+k*8gS7
+
+
+Aq55bplist00
+xp_usb_restricted#BwG;8
+all_events
+
+k*8ttp
+
+b	
+rbplist00
+xp_usb_restricted#Bwp{
+k*8+uy
+all_events
+k*8~ine
+
+AZbplist00
+xp_usb_restricted#Bwx
+k*8!96%2R
+
+all_events
+k*8XR0
+
+k*8\3O
+#?upload_date2022-01-27T20:15:33-05:00Q
+k*8oU/a
+
+upload_date
+k*8'4
+ "X
+
+k*8ui
+
+xp_usb_restricted#Bw@`,
+k*8XL
+k*8kqBg
+VSQLite format 3
+k*8	
+#bplist00
+k*8&=8
+k*8T
+S
+
+AIqAbplist00
+xp_usb_restricted#Bw(XnF
+k*8Aw
+k*82\
+#?upload_date2022-01-31T16:13:53-05:00Q
+k*8;5p~ZO
+
+k*8L	[,
+k*8A
+k*8,g
+
+AU#bplist00
+xp_usb_restricted#Bwz/
+k*8C v
+k*840 
+
+
+f	
+xp_usb_restricted#BwZ8e/
+b$jS
+
+k*8s
+ict
+
+AEbplist00
+xp_usb_restricted#Bw z
+
+{2-
+
+k*8!!Vp;
+A'bplist00
+xp_usb_restricted#Bws
+k*8K$ms_
+
+JaA
+
+?bplist00
+k*8_;KUG
+
+k*85IB1
+
+ySQLite format 3
+k*8!B6
+UpSQLite format 3
+k*8&C
+k*8FQLV
+
+
+#?upload_date2022-01-31T16:13:53-05:00
+!-LastVacuum664505847.569235Q
+k*8mn=&lZ
+
+k*8'<
+k*8 
+dWX
+
+!-LastVacuum665617954.644370Q
+k*8Sh<S
+
+u6JL
+
+k*8[`FJ
+k*8AK'W
+#?upload_date2022-02-06T16:52:36-05:00
+k*8]
+k*8*\{
+
+
+A<bplist00
+xp_usb_restricted#Bwl'|
+k*8
+
+cbplist00
+xp_usb_restricted#BwY
+k*8#_M{
+
+k*8d/S-
+
+AB71bplist00
+k*8y
+|PJ
+
+k*8;	U
+#?upload_date2022-02-09T17:34:27-05:00
+k*8H$S
+
+k*8m
+k*8Ww7/
+k*81
+xp_usb_restricted#Bwf
+k*8vpD
+HZy
+
+k*8p
+Obplist00
+! m
+
+k*8\B{c
+
+gfbplist00
+xp_usb_restricted#Bw
+
+k*8;
+A<!lbplist00
+xp_usb_restricted#Bw`
+k*8{
+Mbplist00
+xp_usb_restricted#BwN,
+k*8HYo
+
+k*8"?
+#?upload_date2022-02-14T19:11:08-05:00
+8$>
+
+k*8v@>z4
+
+k*8eUSQLite format 3
+k*8dFSQLite format 3
+k*8Y9DT-
+k*838
+k*8F
+!-LastVacuum666542896.373465Q
+k*8EC1
+AQ1sbplist00
+xp_usb_restricted#BwJ3
+k*8%
+k*84i
+
+totalRestrictedModeDurationMinYeventTimeUtopic\eventVersionYeventType
+o#Bw'0
+xp_usb_restricted
+^timerRestarted
+4>DQ[^g{}
+dDN
+
+k*8wO}Z
+
+
+(
+xAabplist00
+#Bw.a_
+4>DQ[]fz|
+all_events 
+k*8;F:h
+
+
+(b
+xAg~<bplist00
+.#Bw<_
+k*8b
+all_events!
+k*8H
+
+(b
+
+xAg	
+k*8	I?
+all_events"
+k*8L
+
+(b
+	
+xAg~,bplist00
+#Bw#_
+all_events#
+rq\
+
+
+(b
+		
+xAgObplist00
+#Bw'
+all_events$
+k*8|@
+LSQLite format 3
+xAh:Cbplist00
+all_events%
+k*8uA
+gSQLite format 3
+k*8GFVb)+
+
+xAi6bplist00
+k*8lj5
+
+all_events&

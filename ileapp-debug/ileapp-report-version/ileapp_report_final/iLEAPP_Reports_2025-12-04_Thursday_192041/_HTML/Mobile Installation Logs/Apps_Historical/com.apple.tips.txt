@@ -1,0 +1,9 @@
+2022-01-10 12:29:34 Install successful com.apple.tips 
+2022-01-10 12:29:34 Install successful com.apple.tips 
+2022-01-10 12:29:33 Data container moved com.apple.tips /private/var/mobile/Containers/Data/Application/6F2613F3-C432-4CE8-BE19-993D1E520DDA
+2022-01-10 12:29:33 Made container live com.apple.tips /private/var/containers/Bundle/Application/608AF1BA-CEC2-42EF-8C4A-149FCFD5DCB7
+2022-01-10 12:29:33 Data container moved com.apple.tips /private/var/mobile/Containers/Data/Application/6F2613F3-C432-4CE8-BE19-993D1E520DDA
+2022-01-10 12:29:33 Made container live com.apple.tips /private/var/containers/Bundle/Application/608AF1BA-CEC2-42EF-8C4A-149FCFD5DCB7
+2022-01-06 17:41:28 Made container live com.apple.tips /private/var/mobile/Containers/Data/Application/2B6C372E-A8EF-4DBE-AFF1-987E25B0348C
+2022-01-06 17:41:28 Made container live com.apple.tips /private/var/containers/Bundle/Application/1D28E50C-E7BF-4710-9CE6-D36CD2DC773F
+2022-01-06 17:41:28 Install successful com.apple.tips 

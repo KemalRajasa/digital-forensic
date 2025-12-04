@@ -1,0 +1,23 @@
+^eAC
+
+snapshot
+PermissionsStoragecom.domain.notification-permissions-statusbplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$nullWgranted
+$)27ILQSV\
+1a	PermissionsStoragecom.domain.notification-permissions-status
+GXG@
+
+tXBcLSQLite format 3
+.S`
+
+!tabledatabase2database2
+CREATE TABLE "database2" ("rowid" INTEGER PRIMARY KEY,  "collection" CHAR NOT NULL,  "key" CHAR NOT NULL,  "data" BLOB,  "metadata" BLOB )
+tableyap2yap2
+CREATE TABLE "yap2" ("extension" CHAR NOT NULL,   "key" CHAR NOT NULL,   "data" BLOB,   PRIMARY KEY ("extension", "key") )'
+indexsqlite_autoindex_yap2_1yap2
+B3g
+

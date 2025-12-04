@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.private.alloy.nearby</key>
+	<dict>
+		<key>mailto:pbentley0107@gmail.com</key>
+		<dict>
+			<key>IDStatus</key>
+			<integer>1</integer>
+			<key>LookupDate</key>
+			<real>666555977.00127006</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="en-US" prefix="og: http://ogp.me/ns#">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8" />
+			
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="pingback" href="./../xmlrpc.php" />
+
+		<!--[if lt IE 9]>
+	<script src="./wp-content/themes/Divi/js/html5.js" type="text/javascript"></script>
+	<![endif]-->
+<meta name="robots" content="index, follow">
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCXV6L7');</script>
+<!-- End Google Tag Manager -->
+ 
+
+	
+	<script type="text/javascript">
+		document.documentElement.className = 'js';
+	</script>
+
+	<script>var et_site_url='.';var et_post_id='259';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+</script><title>The first 5 things you should do when you get hacked - AVNET</title>
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+//]]>
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- This site is optimized with the Yoast SEO plugin v6.2 - https://yoa.st/1yg?utm_content=6.2 -->
+<link rel="canonical" href="./" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="The first 5 things you should do when you get hacked - AVNET" />
+<meta property="og:description" content="If you believe you have been hacked or a company that is hosting your account has been hacked the most important thing you should do is change your passwords.Your account and account details are what most hackers want." />
+<meta property="og:url" content="./the-first-5-things-you-should-do-when-you-get-hacked/" />
+<meta property="og:site_name" content="AVNET" />
+<meta property="article:tag" content="demo" />
+<meta property="article:section" content="Articles" />
+<meta property="article:published_time" content="2017-01-29T20:08:30+03:00" />
+<meta property="article:modified_time" content="2020-07-14T17:13:05+03:00" />
+<meta property="og:updated_time" content="2020-07-14T17:13:05+03:00" />
+<meta property="og:image" content="./wp-content/uploads/2017/01/CyberSecurityResearch.jpg" />
+<meta property="og:image:width" content="1500" />
+<meta property="og:image:height" content="1175" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="If you believe you have been hacked or a company that is hosting your account has been hacked the most important thing you should do is change your passwords.Your account and account details are what most hackers want." />
+<meta name="twitter:title" content="The first 5 things you should do when you get hacked - AVNET" />
+<meta name="twitter:image" content="./wp-content/uploads/2017/01/CyberSecurityResearch.jpg" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":".\/","name":"www.avnet-cyber.com","alternateName":"www.avnet.co.il","potentialAction":{"@type":"SearchAction","target":".\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":".\/the-first-5-things-you-should-do-when-you-get-hacked\/","sameAs":[],"@id":"#organization","name":"Avnet Cyber Group","logo":".\/wp-content\/uploads\/2017\/02\/logo-avnet-s2.png"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="AVNET &raquo; Feed" href="./../feed/" />
+<link rel="alternate" type="application/rss+xml" title="AVNET &raquo; Comments Feed" href="./../comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="AVNET &raquo; The first 5 things you should do when you get hacked Comments Feed" href="./feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":".\/wp-includes\/js\/wp-emoji-release.min.js?ver=8fe8b378b66b360930cf6d474f45c43d"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<meta content="Divi Av v.1.0.1484855199" name="generator"/><style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='dp-ppp-css-css'  href='./../wp-content/plugins/dp-portfolio-posts-pro/css/style.css?ver=1.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css'  href='./../wp-content/uploads/useanyfont/uaf.css?ver=1518505960' type='text/css' media='all' />
+<link rel='stylesheet' id='wpah-front-styles-css'  href='./../wp-content/plugins/wp-accessibility-helper/assets/css/wp-accessibility-helper.min.css?ver=8fe8b378b66b360930cf6d474f45c43d' type='text/css' media='all' />
+<link rel='stylesheet' id='custom-hamburger-menus-css'  href='./../wp-content/plugins/divi-100-hamburger-menu/assets/css/style.css?ver=20160602' type='text/css' media='all' />
+<style id='custom-hamburger-menus-inline-css' type='text/css'>
+body.et_divi_100_custom_hamburger_menu .et_divi_100_custom_hamburger_menu__icon div {
+					background: #ffffff;
+				}
+body.et_divi_100_custom_hamburger_menu .et_divi_100_custom_hamburger_menu__icon.et_divi_100_custom_hamburger_menu__icon--toggled div {
+					background: #ffffff;
+				}
+</style>
+<link rel='stylesheet' id='chld_thm_cfg_parent-css'  href='./../wp-content/themes/Divi/style.dev.css?ver=8fe8b378b66b360930cf6d474f45c43d' type='text/css' media='all' />
+<link rel='stylesheet' id='divi-style-css'  href='./../wp-content/themes/Divi-child/style.css?ver=1.0.1484855199' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='./../wp-content/themes/Divi/includes/builder/styles/magnific_popup.css?ver=3.0.89' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='./../wp-includes/css/dashicons.min.css?ver=8fe8b378b66b360930cf6d474f45c43d' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_dcl_custom_css-css'  href='./../wp-content/plugins/divi_extended_column_layouts/style.css?ver=8fe8b378b66b360930cf6d474f45c43d' type='text/css' media='all' />
+<link rel='stylesheet' id='sb_mod_acf_css-css'  href='./../wp-content/plugins/divi_module_acf/style.css?ver=8fe8b378b66b360930cf6d474f45c43d' type='text/css' media='all' />
+<script type='text/javascript' src='./../wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='./../wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='./../wp-content/plugins/dp-portfolio-posts-pro/js/ajax-get-post.js?ver=1.0.1'></script>
+<script type='text/javascript' src='./../wp-content/plugins/typed//js/typed.js?ver=8fe8b378b66b360930cf6d474f45c43d'></script>
+<script type='text/javascript' src='./../wp-content/plugins/typed//js/frontend.js?ver=8fe8b378b66b360930cf6d474f45c43d'></script>
+<script type='text/javascript' src='./../wp-content/plugins/duracelltomi-google-tag-manager/js/gtm4wp-form-move-tracker.js?ver=1.10.1'></script>
+<link rel='https://api.w.org/' href='./../wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./../wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='./../?p=259' />
+<link rel="alternate" type="application/json+oembed" href="./../wp-json/oembed/1.0/embed/?url=http%3A%2F%2F%2Fthe-first-5-things-you-should-do-when-you-get-hacked%2F" />
+<link rel="alternate" type="text/xml+oembed" href="./../wp-json/oembed/1.0/embed/?url=http%3A%2F%2F%2Fthe-first-5-things-you-should-do-when-you-get-hacked%2F&#038;format=xml" />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">//<![CDATA[
+	var dataLayer_content = {"pagePostType":"post","pagePostType2":"single-post","pageCategory":["articles"],"pageAttributes":["demo"],"pagePostAuthor":"avnet.adm"};
+	dataLayer.push( dataLayer_content );//]]>
+</script>
+<script data-cfasync="false">//<![CDATA[
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCXV6L7');//]]>
+</script>
+<!-- End Google Tag Manager -->
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" /><link rel="shortcut icon" href="./../wp-content/uploads/2017/02/A.png" /><script type="text/javascript">
+jQuery( document ).ready(function() {
+jQuery("#second-menu .et_pb_row").prepend('<a href="../"><img src="../wp-content/uploads/2017/02/logo-avnet-s2.png" class="full_menu_logo"></a>');
+});
+</script><link rel="icon" href="./../wp-content/uploads/2017/02/cropped-A-32x32.png" sizes="32x32" />
+<link rel="icon" href="./../wp-content/uploads/2017/02/cropped-A-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="./../wp-content/uploads/2017/02/cropped-A-180x180.png" />
+<meta name="msapplication-TileImage" content="./wp-content/uploads/2017/02/cropped-A-270x270.png" />
+<link rel="stylesheet" id="et-core-unified-cached-inline-styles" href="./../wp-content/cache/et/259/et-core-unified-15952393806909.min.css" onerror="et_core_page_resource_fallback(this, true)" onload="et_core_page_resource_fallback(this)" /></head>
+<body class="post-template-default single single-post postid-259 single-format-standard unknown wp-accessibility-helper accessibility-contrast_mode_on wah_fstype_zoom accessibility-remove-styles-setup accessibility-underline-setup accessibility-location-left et_divi_100_custom_hamburger_menu et_divi_100_custom_hamburger_menu--style-1 et_divi_100_custom_hamburger_menu--type-1 et_color_scheme_orange et_pb_button_helper_class et_transparent_nav et_fullwidth_nav et_non_fixed_nav et_show_nav et_cover_background et_pb_gutter et_pb_gutters3 et_primary_nav_dropdown_animation_expand et_secondary_nav_dropdown_animation_fade et_pb_footer_columns4 et_header_style_fullscreen et_header_style_left et_pb_no_top_bar_fullscreen et_left_sidebar et_divi_theme">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCXV6L7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) --><br style="display:none;">
+	<div id="page-container">
+
+	
+			<div class="et_slide_in_menu_container">
+							<span class="mobile_menu_bar et_toggle_fullscreen_menu"></span>
+			
+								<div class="et_slide_menu_top">
+
+											<div class="et_pb_top_menu_inner">
+																			<form role="search" method="get"  class="et-search-form" action="./../">
+					<input type="search"  class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					<button type="submit" id="searchsubmit_header"></button>
+					</form>
+			
+			
+	
+
+															</div> <!-- .et_pb_top_menu_inner -->
+				
+				</div> <!-- .et_slide_menu_top -->
+			
+			<div class="et_pb_fullscreen_nav_container">
+				
+				<ul id="mobile_menu_slide" class="et_mobile_menu">
+
+				<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-747"><a href="./../about-us/"><span class="my-title">About Us</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-836"><a href="./../about-us/"><span class="my-title">About Us</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="./../management/"><span class="my-title">Management</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-810"><a href="./../careers/"><span class="my-title">Careers</span></a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-807"><a href="./../partners/"><span class="my-title">Become a partner</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-809"><a href="./../news-room/"><span class="my-title">News Room</span></a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-775"><a href="./../resources/"><span class="my-title">Resources</span></a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-837"><a href="./../resources/"><span class="my-title">All Resources</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-813"><a href="./../resources/#res-filter|category_articles|1"><span class="my-title">Articles</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-815"><a href="./../resources/#res-filter|category_use-cases|1"><span class="my-title">Use Cases</span></a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-814"><a href="./../resources/#res-filter|category_brochures|1"><span class="my-title">Brochures</span></a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-748"><a href="./../contact-us/"><span class="my-title">Contact Us</span></a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3229"><a target="_blank" href="https://www.rockwellautomation.com/en_IL/overview.page"><img src="../wp-content/uploads/2020/07/thumbnail_2019_RA_Logo_Bug-LeftText_rgb.png" target="_blank" style="     margin-bottom: -15px; width: 128px;"></a></li>
+
+				</ul>
+			</div>
+		</div>
+	
+		<div id="second-menu" class="et_pb_section et_pb_fullwidth_section  et_pb_section_1 et_section_regular et_section_transparent">
+				
+				
+				
+					<div class="et_pb_fullwidth_menu et_pb_module et_pb_bg_layout_dark et_pb_text_align_left et_dropdown_animation_expand et_pb_fullwidth_menu_fullwidth ds-my-menu-1 et_pb_fullwidth_menu_0" style="background-color: rgba(255,255,255,0);">
+				
+				
+				<div class="et_pb_row clearfix">
+					<nav class="fullwidth-menu-nav"><ul id="menu-secondary-1" class="fullwidth-menu nav downwards"><li class="et_pb_menu_page_id-45 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-747"><a href="./../about-us/"><span class="my-title">About Us</span></a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-45 menu-item menu-item-type-post_type menu-item-object-page menu-item-836"><a href="./../about-us/"><span class="my-title">About Us</span></a></li>
+	<li class="et_pb_menu_page_id-798 menu-item menu-item-type-post_type menu-item-object-page menu-item-808"><a href="./../management/"><span class="my-title">Management</span></a></li>
+	<li class="et_pb_menu_page_id-453 menu-item menu-item-type-post_type menu-item-object-page menu-item-810"><a href="./../careers/"><span class="my-title">Careers</span></a></li>
+	<li class="et_pb_menu_page_id-800 menu-item menu-item-type-post_type menu-item-object-page menu-item-807"><a href="./../partners/"><span class="my-title">Become a partner</span></a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-532 menu-item menu-item-type-post_type menu-item-object-page menu-item-809"><a href="./../news-room/"><span class="my-title">News Room</span></a></li>
+<li class="et_pb_menu_page_id-638 menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-775"><a href="./../resources/"><span class="my-title">Resources</span></a>
+<ul class="sub-menu">
+	<li class="et_pb_menu_page_id-638 menu-item menu-item-type-post_type menu-item-object-page menu-item-837"><a href="./../resources/"><span class="my-title">All Resources</span></a></li>
+	<li class="et_pb_menu_page_id-813 menu-item menu-item-type-custom menu-item-object-custom menu-item-813"><a href="./../resources/#res-filter|category_articles|1"><span class="my-title">Articles</span></a></li>
+	<li class="et_pb_menu_page_id-815 menu-item menu-item-type-custom menu-item-object-custom menu-item-815"><a href="./../resources/#res-filter|category_use-cases|1"><span class="my-title">Use Cases</span></a></li>
+	<li class="et_pb_menu_page_id-814 menu-item menu-item-type-custom menu-item-object-custom menu-item-814"><a href="./../resources/#res-filter|category_brochures|1"><span class="my-title">Brochures</span></a></li>
+</ul>
+</li>
+<li class="et_pb_menu_page_id-355 menu-item menu-item-type-post_type menu-item-object-page menu-item-748"><a href="./../contact-us/"><span class="my-title">Contact Us</span></a></li>
+<li class="et_pb_menu_page_id-3229 menu-item menu-item-type-custom menu-item-object-custom menu-item-3229"><a target="_blank" href="https://www.rockwellautomation.com/en_IL/overview.page"><img src="./../wp-content/uploads/2020/07/thumbnail_2019_RA_Logo_Bug-LeftText_rgb.png" target="_blank" style="     margin-bottom: -15px; width: 128px;"></a></li>
+</ul></nav>
+					<div class="et_mobile_nav_menu">
+						<a href="#" class="mobile_nav closed">
+							<span class="mobile_menu_bar"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+				
+			</div> <!-- .et_pb_section --><header id="main-header" data-height-onload="66">
+			<div class="container clearfix et_menu_container">
+							<div class="logo_container">
+					<span class="logo_helper"></span>
+					<a href="./../">
+						<img src="./../wp-content/uploads/2017/02/logo-avnet-s2.png" alt="AVNET" id="logo" data-height-percentage="54" />
+					</a>
+				</div>
+				<div id="et-top-navigation" data-height="66" data-fixed-height="40">
+					
+					
+											<span class="mobile_menu_bar et_pb_header_toggle et_toggle_fullscreen_menu"></span>
+					
+					
+									</div> <!-- #et-top-navigation -->
+			</div> <!-- .container -->
+			<div class="et_search_outer">
+				<div class="container et_search_form_container">
+					<form role="search" method="get" class="et-search-form" action="./../">
+					<input type="search" class="et-search-field" placeholder="Search &hellip;" value="" name="s" title="Search for:" />					</form>
+					<span class="et_close_search_field"></span>
+				</div>
+			</div>
+		</header><div class="et_pb_section  et_pb_section_3 et_pb_with_background et_section_regular">
+				
+				
+				
+					<div class="et_pb_row et_pb_row_0 et_pb_gutters1 et_pb_row_fullwidth">
+				<div class="et_pb_column et_pb_column_4_4  et_pb_column_0 et-last-child">
+				
+				
+				<div class="et_pb_module et_pb_post_title  full-post-title et_pb_post_title_0 et_pb_bg_layout_dark et_pb_featured_bg et_pb_text_align_center">
+				
+				
+				
+				<div class="et_pb_title_container">
+					<h1 class="entry-title">The first 5 things you should do when you get hacked</h1>
+				</div>
+				
+			</div>
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+			</div> <!-- .et_pb_section --> <!-- #main-header -->
+
+		<div id="et-main-area">
+
+<div id="main-content">
+		<div class="container">
+		<div id="content-area" class="clearfix">
+			<div id="left-area">
+											<article id="post-259" class="et_pb_post post-259 post type-post status-publish format-standard has-post-thumbnail hentry category-articles tag-demo">
+											<div class="et_post_meta_wrapper">
+							<h1 class="entry-title">The first 5 things you should do when you get hacked</h1>
+
+						
+												</div> <!-- .et_post_meta_wrapper -->
+				
+					<div class="entry-content">
+					<p class="intro">If you believe you have been hacked or a company that is hosting your account has been hacked the most important thing you should do is change your <a href="http://www.computerhope.com/jargon/p/password.htm">passwords</a>.</p>
+<h2>Reset your passwords</h2>
+<p class="tab">Your account and account details are what most hackers want. If you cannot log into your account, try resetting your password. If resetting your password does not work, or the <a href="http://www.computerhope.com/jargon/e/email.htm">e-mail</a> associated with the account no longer works look for an account recovery option. If all options fail to reset the account, you must contact the company to have them intervene.</p>
+<p class="tab">When changing your password keep the considerations below in mind:</p>
+<ul>
+<li>A password should never be easy to guess. Passwords like 1234, password, etc. are easy to guess.</li>
+<li>Don&#8217;t use passwords that you&#8217;ve used in the past.</li>
+<li>Passwords should have letters, numbers, spaces, and other characters.</li>
+</ul>
+<p class="dtab"><span class="warn">Note:</span> If you are using the same password for other accounts (which is not advised) you need to change your other account passwords to a different password. Once a hacker determines your username and password that information is stored and often shared and can be used to compromise other accounts.</p>
+<p class="dtab"><span class="tips">Tip:</span> If you have a difficult time remembering all your passwords use a <a href="http://www.computerhope.com/jargon/p/pwmanage.htm">password manager</a> to store them safely.</p>
+<h2>Check your machine</h2>
+<p class="tab">If the company your accounts are hosted by did not notice or mention a security breach, it&#8217;s possible you or your machine have been the source of the attack. Make sure to scan your computer for any <a href="http://www.computerhope.com/jargon/s/spyware.htm">spyware</a> and <a href="http://www.computerhope.com/jargon/m/malware.htm">malware</a> that may be stealing your account details or logging your <a href="http://www.computerhope.com/jargon/k/keystroke.htm">keystrokes</a>.</p>
+<p class="dtab"><span class="tips">Tip:</span> If malware is found on your computer you may want to reset your account passwords again, as infections may have logged your new password.</p>
+<h2>Verify account details</h2>
+<p class="tab">After all of your passwords have been changed if your accounts have any shipping information make sure the shipping information is still your address.</p>
+<p class="tab">If the account authorizes any third-party programs or <a href="http://www.computerhope.com/jargon/a/applicat.htm">apps</a> (e.g. Facebook and Twitter) make sure no <a href="http://www.computerhope.com/jargon/t/thirpart.htm">third-party</a> apps have rights to your accounts that you haven&#8217;t given permission. Best advice is to delete any app you are unfamiliar with or do not remember installing.</p>
+<h2>Let your other contacts know about the hack</h2>
+<p class="tab">If your e-mail account or any account with contacts is hacked, let your contacts know about the hack. Hackers often gain access to other accounts by using affiliated accounts since people are not as suspicious of e-mails coming from someone they know.</p>
+<h2>Verify past posts</h2>
+<p class="tab">If your <a href="http://www.computerhope.com/jargon/s/socinetw.htm">social network</a> (e.g. Google+, Twitter, or Facebook) has been hacked make sure there are no posts or messages that have been made on your behalf. Social network accounts are hacked to help spread spam, malware, and advertisements on your behalf.</p>
+<h2>New accounts setup</h2>
+<p class="tab">If a hacker gains access to your e-mail, they often use your e-mail address as a way to setup new accounts. Check your inbox, sent items, and trash for any new account notifications using your e-mail address. If new accounts have been created, you can try logging into those accounts by using the reset password feature and then delete the account.</p>
+<p>This is not a real post</p>
+					</div> <!-- .entry-content -->
+					<div class="et_post_meta_wrapper">
+					
+					
+										</div> <!-- .et_post_meta_wrapper -->
+				</article> <!-- .et_pb_post -->
+
+						</div> <!-- #left-area -->
+
+					</div> <!-- #content-area -->
+	</div> <!-- .container -->
+	</div> <!-- #main-content -->
+
+
+			<div id="special-fotter" class="et_pb_section et_pb_section_video et_pb_preload  et_pb_section_5 et_pb_with_background et_section_regular">
+				
+				<span class="et_pb_section_video_bg">
+					
+			<video loop="loop" width="850" height="480">
+				<source type="video/mp4" src="./../wp-content/uploads/2017/02/Falling-Numbers-01-low-res-5-sec.mp4" />
+				
+			</video>
+				</span>
+				
+					<div class="et_pb_row et_pb_row_1 et_pb_gutters1 et_pb_row_fullwidth">
+				<div class="et_pb_column et_pb_column_1_4  et_pb_column_1">
+				
+				
+				<div class="et_pb_widget_area et_pb_widget_area_left clearfix et_pb_module et_pb_bg_layout_dark  et_pb_sidebar_0">
+				
+				
+				<div id="nav_menu-7" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Avnet</h4><div class="menu-about-container"><ul id="menu-about-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-958"><a href="./../">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="./../about-us/">About Us</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961"><a href="./../management/">Management</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="./../careers/">Careers</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963"><a href="./../partners/">Partners</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962"><a href="./../news-room/">News Room</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="./../resources/">Resources</a></li>
+</ul></div></div> <!-- end .fwidget -->
+			</div> <!-- .et_pb_widget_area -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_4  et_pb_column_2">
+				
+				
+				<div class="et_pb_widget_area et_pb_widget_area_left clearfix et_pb_module et_pb_bg_layout_dark  et_pb_sidebar_1">
+				
+				
+				<div id="nav_menu-3" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Divisions</h4><div class="menu-main-container"><ul id="menu-main-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-705"><a href="./../premium-services/">Premium Services</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-578"><a href="./../it-security/">IT Security</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-806"><a href="./../cyber-academy/">Cyber Academy</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579"><a href="./../cyber-solutions/">Cyber Solutions</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-577"><a href="./../ics-scada/">ICS &#038; SCADA</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-576"><a href="./../compliance-standards/">Compliance &#038; Standards</a></li>
+</ul></div></div> <!-- end .fwidget -->
+			</div> <!-- .et_pb_widget_area -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_4  et_pb_column_3">
+				
+				
+				<div class="et_pb_widget_area et_pb_widget_area_left clearfix et_pb_module et_pb_bg_layout_dark  et_pb_sidebar_2">
+				
+				
+				<div id="nav_menu-6" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Premium Services</h4><div class="menu-premium-services-container"><ul id="menu-premium-services-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-942"><a href="#">Cyber Posture &#038; Strategy Design</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-943"><a href="#">Cyber Attack Simulation</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-944"><a href="#">Incident Response</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-945"><a href="#">Research services</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-948"><a href="#">PCI DSS Certification</a></li>
+</ul></div></div> <!-- end .fwidget -->
+			</div> <!-- .et_pb_widget_area -->
+			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_4  et_pb_column_4 et-last-child">
+				
+				
+				<div class="et_pb_widget_area et_pb_widget_area_left clearfix et_pb_module et_pb_bg_layout_dark  et_pb_sidebar_3">
+				
+				
+				<div id="text-2" class="fwidget et_pb_widget widget_text"><h4 class="title">Contact Info</h4>			<div class="textwidget"><p>
+Address:<br>
+46 Ha'Macabim Rd.<br>
+Rishon Le-Tzion<br>
+P.O. 16027, zip 75060<br>
+Israel<br>
+Email: info@avnet.co.il<br>
+<span itemprop="telephone"><a href="tel:+97239560074">+972-3-9560074</a></span><br>
+<span itemprop="facebook"><a href="https://www.facebook.com/AVNETCyberAndInformation/">Facebook Avnet</a></span>
+<br>
+<a href="https://www.linkedin.com/company/avnetcybergroup/"  data-icon="">Linkedin avnet</a>
+
+<a href="./../contact-us/">
+<br>
+Contact  us</a>
+</p></div>
+		</div> <!-- end .fwidget -->
+			</div> <!-- .et_pb_widget_area -->
+			</div> <!-- .et_pb_column -->
+				
+				
+			</div> <!-- .et_pb_row -->
+				
+			</div> <!-- .et_pb_section --><footer id="main-footer">
+				
+<div class="container">
+	<div id="footer-widgets" class="clearfix">
+	<div class="footer-widget"><div id="nav_menu-7" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Avnet</h4><div class="menu-about-container"><ul id="menu-about" class="menu"><li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-958"><a href="./../">Home</a></li>
+<li id="menu-item-959" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-959"><a href="./../about-us/">About Us</a></li>
+<li id="menu-item-961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961"><a href="./../management/">Management</a></li>
+<li id="menu-item-960" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-960"><a href="./../careers/">Careers</a></li>
+<li id="menu-item-963" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-963"><a href="./../partners/">Partners</a></li>
+<li id="menu-item-962" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-962"><a href="./../news-room/">News Room</a></li>
+<li id="menu-item-964" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-964"><a href="./../resources/">Resources</a></li>
+</ul></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"><div id="nav_menu-3" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Divisions</h4><div class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-705"><a href="./../premium-services/">Premium Services</a></li>
+<li id="menu-item-578" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-578"><a href="./../it-security/">IT Security</a></li>
+<li id="menu-item-806" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-806"><a href="./../cyber-academy/">Cyber Academy</a></li>
+<li id="menu-item-579" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-579"><a href="./../cyber-solutions/">Cyber Solutions</a></li>
+<li id="menu-item-577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-577"><a href="./../ics-scada/">ICS &#038; SCADA</a></li>
+<li id="menu-item-576" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-576"><a href="./../compliance-standards/">Compliance &#038; Standards</a></li>
+</ul></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget"><div id="nav_menu-6" class="fwidget et_pb_widget widget_nav_menu"><h4 class="title">Premium Services</h4><div class="menu-premium-services-container"><ul id="menu-premium-services" class="menu"><li id="menu-item-942" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-942"><a href="#">Cyber Posture &#038; Strategy Design</a></li>
+<li id="menu-item-943" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-943"><a href="#">Cyber Attack Simulation</a></li>
+<li id="menu-item-944" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-944"><a href="#">Incident Response</a></li>
+<li id="menu-item-945" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-945"><a href="#">Research services</a></li>
+<li id="menu-item-948" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-948"><a href="#">PCI DSS Certification</a></li>
+</ul></div></div> <!-- end .fwidget --></div> <!-- end .footer-widget --><div class="footer-widget last"><div id="text-2" class="fwidget et_pb_widget widget_text"><h4 class="title">Contact Info</h4>			<div class="textwidget"><p>
+Address:<br>
+46 Ha'Macabim Rd.<br>
+Rishon Le-Tzion<br>
+P.O. 16027, zip 75060<br>
+Israel<br>
+Email: info@avnet.co.il<br>
+<span itemprop="telephone"><a href="tel:+97239560074">+972-3-9560074</a></span><br>
+<span itemprop="facebook"><a href="https://www.facebook.com/AVNETCyberAndInformation/">Facebook Avnet</a></span>
+<br>
+<a href="https://www.linkedin.com/company/avnetcybergroup/"  data-icon="">Linkedin avnet</a>
+
+<a href="./../contact-us/">
+<br>
+Contact  us</a>
+</p></div>
+		</div> <!-- end .fwidget --></div> <!-- end .footer-widget -->	</div> <!-- #footer-widgets -->
+</div>	<!-- .container -->
+
+		
+				<div id="footer-bottom">
+					<div class="container clearfix">
+				<ul class="et-social-icons">
+
+
+</ul><span class="sb_divi_fe"><div style="color: gray; display: flex;">
+<div>Copyright 2020 <a href="./../">Avnet</a> Ltd.</div>
+<div style="position: absolute; right: 0px; margin-left: 300px;">Created by: <a href="http://www.thinkdesign.co.il/">thinkdesign</a></div>
+</div></span>					</div>	<!-- .container -->
+				</div>
+			</footer> <!-- #main-footer -->
+		</div> <!-- #et-main-area -->
+
+
+	</div> <!-- #page-container -->
+
+	<div id="wp_access_helper_container" class="accessability_container dark_theme">
+    <!-- WP Accessibility Helper (WAH) - https://wordpress.org/plugins/wp-accessibility-helper/ -->
+	<!-- Official plugin website - https://accessibility-helper.co.il -->
+                    <button type="button" class="wahout aicon_link"
+                accesskey="z"
+                aria-label="Accessibility Helper sidebar"
+                title="Accessibility Helper sidebar">
+                <img src="./../wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+                    alt="Accessibility" class="aicon_image" />
+            </button>
+            <div id="access_container" aria-hidden="false">
+                <button tabindex="-1" type="button" class="close_container wahout"
+                    accesskey="x"
+                    aria-label="Close"
+                    title="Close">
+                    Close                </button>
+                <div class="access_container_inner">
+                    <div class="a_module wah_font_resize">
+            <div class="a_module_title">Font Resize</div>
+            <div class="a_module_exe font_resizer">
+                <button tabindex="-1" type="button" class="wah-action-button smaller wahout" title="smaller font size"
+                    aria-label="smaller font size">A-</button>
+                <button tabindex="-1" type="button" class="wah-action-button larger wahout" title="larger font size"
+                    aria-label="larger font size">A+</button>
+            </div>
+        </div><div class="a_module wah_keyboard_navigation">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-keyboard-navigation"
+                aria-label="Keyboard navigation" title="Keyboard navigation">Keyboard navigation</button>
+            </div>
+        </div><div class="a_module wah_readable_fonts">
+            <div class="a_module_exe readable_fonts">
+                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-readable-fonts" aria-label="Readable Font" title="Readable Font">Readable Font</button>
+            </div>
+        </div><div class="a_module wah_contrast_trigger">
+                <div class="a_module_title">Contrast</div>
+                <div class="a_module_exe">
+                    <button tabindex="-1" type="button" id="contrast_trigger" class="contrast_trigger wah-action-button wahout wah-call-contrast-trigger" title="Contrast">Choose color</button>
+                    <div class="color_selector" aria-hidden="true">
+                        <button type="button" class="convar black wahout" data-bgcolor="#000" data-color="#FFF"
+                        title="black">black</button>
+                        <button type="button" class="convar white wahout" data-bgcolor="#FFF" data-color="#000"
+                        title="white">white</button>
+                        <button type="button" class="convar green wahout" data-bgcolor="#00FF21" data-color="#000"
+                        title="green">green</button>
+                        <button type="button" class="convar blue wahout" data-bgcolor="#0FF" data-color="#000"
+                        title="blue">blue</button>
+                        <button type="button" class="convar red wahout" data-bgcolor="#F00" data-color="#000"
+                        title="red">red</button>
+                        <button type="button" class="convar orange wahout" data-bgcolor="#FF6A00" data-color="#000" title="orange">orange</button>
+                        <button type="button" class="convar yellow wahout" data-bgcolor="#FFD800" data-color="#000"
+                        title="yellow">yellow</button>
+                        <button type="button" class="convar navi wahout" data-bgcolor="#B200FF" data-color="#000"
+                        title="navi">navi</button>
+                    </div>
+                </div>
+            </div><div class="a_module wah_underline_links">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-underline-links" aria-label="Underline links" title="Underline links">Underline links</button>
+            </div>
+        </div><div class="a_module wah_clear_cookies">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-clear-cookies"
+                aria-label="Clear cookies" title="Clear cookies">Clear cookies</button>
+            </div>
+        </div><div class="a_module wah_greyscale">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" id="greyscale" class="greyscale wah-action-button wahout wah-call-greyscale"
+                aria-label="Images Greyscale" title="Images Greyscale">Images Greyscale</button>
+            </div>
+        </div><div class="a_module wah_invert">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-invert"
+                aria-label="Invert Colors" title="Invert Colors">Invert Colors</button>
+            </div>
+        </div><div class="a_module wah_remove_animations">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" accesskey="a" class="wah-action-button wahout wah-call-remove-animations"
+                aria-label="Remove Animations" title="Remove Animations">Remove Animations</button>
+            </div>
+        </div><div class="a_module wah_remove_styles">
+            <div class="a_module_exe">
+                <button tabindex="-1" type="button" class="wah-action-button wahout wah-call-remove-styles"
+                aria-label="Remove styles" title="Remove styles">Remove styles</button>
+            </div>
+        </div>                        <button type="button" title="Close sidebar" class="wah-skip close-wah-sidebar">
+        Close    </button>
+                </div>
+            </div>
+            
+<script type="text/javascript">
+                                        </script>
+    <style media="screen">#access_container {font-family:Arial, Helvetica, sans-serif;}</style>
+        <style media="screen" type="text/css">
+        body #wp_access_helper_container button.aicon_link {
+                                                bottom:32px !important;        }
+    </style>
+            <!-- WP Accessibility Helper. Created by Alex Volkov. -->
+</div>
+    <nav class="wah-skiplinks-menu">
+    <!-- WP Accessibility Helper - Skiplinks Menu -->
+    <div class="wah-skipper"><ul>
+<li ><a href="./../">Home</a></li><li class="page_item page-item-45"><a href="./../about-us/">About Us</a></li>
+<li class="page_item page-item-489"><a href="./../articles/">Articles</a></li>
+<li class="page_item page-item-453"><a href="./../careers/">Careers</a></li>
+<li class="page_item page-item-535"><a href="./../compliance-standards/">Compliance &#038; Standards</a></li>
+<li class="page_item page-item-355"><a href="./../contact-us/">Contact Us</a></li>
+<li class="page_item page-item-755"><a href="./../cyber-academy/">Cyber Academy</a></li>
+<li class="page_item page-item-2727"><a href="./../cyber-attack-simulation/">Cyber Attack Simulation</a></li>
+<li class="page_item page-item-2765"><a href="./../cyber-on-a-call/">Cyber On a Call</a></li>
+<li class="page_item page-item-441"><a href="./../cyber-posture-strategy-design/">Cyber Posture &#038; Strategy Design</a></li>
+<li class="page_item page-item-541"><a href="./../cyber-solutions/">Cyber Solutions</a></li>
+<li class="page_item page-item-994"><a href="./../frame-test/">frame-test</a></li>
+<li class="page_item page-item-534"><a href="./../ics-scada/">ICS &#038; SCADA</a></li>
+<li class="page_item page-item-2694"><a href="./../incident-response-team/">Incident Response Team</a></li>
+<li class="page_item page-item-533"><a href="./../it-security/">IT Security</a></li>
+<li class="page_item page-item-531"><a href="./../leadership/">Leadership</a></li>
+<li class="page_item page-item-798"><a href="./../management/">Management</a></li>
+<li class="page_item page-item-532"><a href="./../news-room/">News Room</a></li>
+<li class="page_item page-item-800"><a href="./../partners/">Partners</a></li>
+<li class="page_item page-item-537"><a href="./../premium-services/">Premium Services</a></li>
+<li class="page_item page-item-2780"><a href="./../real-time-monitoring/">Real-time monitoring</a></li>
+<li class="page_item page-item-2754"><a href="./../research-services/">Research Services</a></li>
+<li class="page_item page-item-638"><a href="./../resources/">Resources</a></li>
+</ul></div>
+    <!-- WP Accessibility Helper - Skiplinks Menu -->
+</nav>
+	<script type="text/javascript">
+		var et_animation_data = [];
+	</script>
+	<link rel='stylesheet' id='so-css-Divi-css'  href='./../wp-content/uploads/so-css/so-css-Divi.css?ver=1595232606' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='./../wp-includes/js/mediaelement/mediaelementplayer-legacy.min.css?ver=4.2.6-78496d1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='./../wp-includes/js/mediaelement/wp-mediaelement.min.css?ver=8fe8b378b66b360930cf6d474f45c43d' type='text/css' media='all' />
+<link rel='stylesheet' id='et-builder-googlefonts-css'  href='http://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic&#038;subset=latin,latin-ext' type='text/css' media='all' />
+<script type='text/javascript' src='./../wp-content/themes/Divi/includes/builder/scripts/frontend-builder-global-functions.js?ver=3.0.89'></script>
+<script type='text/javascript' src='./../wp-content/plugins/wp-accessibility-helper/assets/js/wp-accessibility-helper.min.js?ver=1.0.0'></script>
+<script type='text/javascript' src='./../wp-content/plugins/divi-100-hamburger-menu/assets/js/scripts.js?ver=20160602'></script>
+<script type='text/javascript' src='./../wp-includes/js/comment-reply.min.js?ver=8fe8b378b66b360930cf6d474f45c43d'></script>
+<script type='text/javascript' src='./../wp-content/themes/Divi/includes/builder/scripts/jquery.mobile.custom.min.js?ver=3.0.89'></script>
+<script type='text/javascript' src='./../wp-includes/js/jquery/ui/effect.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='./../wp-content/themes/Divi/js/custom.js?ver=3.0.89'></script>
+<script type='text/javascript' src='./../wp-content/themes/Divi/includes/builder/scripts/jquery.fitvids.js?ver=3.0.89'></script>
+<script type='text/javascript' src='./../wp-content/themes/Divi/includes/builder/scripts/waypoints.min.js?ver=3.0.89'></script>
+<script type='text/javascript' src='./../wp-content/themes/Divi/includes/builder/scripts/jquery.magnific-popup.js?ver=3.0.89'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var et_pb_custom = {"ajaxurl":".\/wp-admin\/admin-ajax.php","images_uri":".\/wp-content\/themes\/Divi\/images","builder_images_uri":".\/wp-content\/themes\/Divi\/includes\/builder\/images","et_frontend_nonce":"7b63494f42","subscription_failed":"Please, check the fields below to make sure you entered the correct information.","et_ab_log_nonce":"b74f4c1568","fill_message":"Please, fill in the following fields:","contact_error_message":"Please, fix the following errors:","invalid":"Invalid email","captcha":"Captcha","prev":"Prev","previous":"Previous","next":"Next","wrong_captcha":"You entered the wrong number in captcha.","is_builder_plugin_used":"","ignore_waypoints":"no","is_divi_theme_used":"1","widget_search_selector":".widget_search","is_ab_testing_active":"","page_id":"259","unique_test_id":"","ab_bounce_rate":"5","is_cache_plugin_active":"no","is_shortcode_tracking":""};
+var et_pb_box_shadow_elements = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='./../wp-content/themes/Divi/includes/builder/scripts/frontend-builder-scripts.js?ver=3.0.89'></script>
+<script type='text/javascript' src='./../wp-includes/js/wp-embed.min.js?ver=8fe8b378b66b360930cf6d474f45c43d'></script>
+<script type='text/javascript'>
+var mejsL10n = {"language":"en","strings":{"mejs.install-flash":"You are using a browser that does not have Flash player enabled or installed. Please turn on your Flash player plugin or download the latest version from https:\/\/get.adobe.com\/flashplayer\/","mejs.fullscreen-off":"Turn off Fullscreen","mejs.fullscreen-on":"Go Fullscreen","mejs.download-video":"Download Video","mejs.fullscreen":"Fullscreen","mejs.time-jump-forward":["Jump forward 1 second","Jump forward %1 seconds"],"mejs.loop":"Toggle Loop","mejs.play":"Play","mejs.pause":"Pause","mejs.close":"Close","mejs.time-slider":"Time Slider","mejs.time-help-text":"Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.","mejs.time-skip-back":["Skip back 1 second","Skip back %1 seconds"],"mejs.captions-subtitles":"Captions\/Subtitles","mejs.captions-chapters":"Chapters","mejs.none":"None","mejs.mute-toggle":"Mute Toggle","mejs.volume-help-text":"Use Up\/Down Arrow keys to increase or decrease volume.","mejs.unmute":"Unmute","mejs.mute":"Mute","mejs.volume-slider":"Volume Slider","mejs.video-player":"Video Player","mejs.audio-player":"Audio Player","mejs.ad-skip":"Skip ad","mejs.ad-skip-info":["Skip in 1 second","Skip in %1 seconds"],"mejs.source-chooser":"Source Chooser","mejs.stop":"Stop","mejs.speed-rate":"Speed Rate","mejs.live-broadcast":"Live Broadcast","mejs.afrikaans":"Afrikaans","mejs.albanian":"Albanian","mejs.arabic":"Arabic","mejs.belarusian":"Belarusian","mejs.bulgarian":"Bulgarian","mejs.catalan":"Catalan","mejs.chinese":"Chinese","mejs.chinese-simplified":"Chinese (Simplified)","mejs.chinese-traditional":"Chinese (Traditional)","mejs.croatian":"Croatian","mejs.czech":"Czech","mejs.danish":"Danish","mejs.dutch":"Dutch","mejs.english":"English","mejs.estonian":"Estonian","mejs.filipino":"Filipino","mejs.finnish":"Finnish","mejs.french":"French","mejs.galician":"Galician","mejs.german":"German","mejs.greek":"Greek","mejs.haitian-creole":"Haitian Creole","mejs.hebrew":"Hebrew","mejs.hindi":"Hindi","mejs.hungarian":"Hungarian","mejs.icelandic":"Icelandic","mejs.indonesian":"Indonesian","mejs.irish":"Irish","mejs.italian":"Italian","mejs.japanese":"Japanese","mejs.korean":"Korean","mejs.latvian":"Latvian","mejs.lithuanian":"Lithuanian","mejs.macedonian":"Macedonian","mejs.malay":"Malay","mejs.maltese":"Maltese","mejs.norwegian":"Norwegian","mejs.persian":"Persian","mejs.polish":"Polish","mejs.portuguese":"Portuguese","mejs.romanian":"Romanian","mejs.russian":"Russian","mejs.serbian":"Serbian","mejs.slovak":"Slovak","mejs.slovenian":"Slovenian","mejs.spanish":"Spanish","mejs.swahili":"Swahili","mejs.swedish":"Swedish","mejs.tagalog":"Tagalog","mejs.thai":"Thai","mejs.turkish":"Turkish","mejs.ukrainian":"Ukrainian","mejs.vietnamese":"Vietnamese","mejs.welsh":"Welsh","mejs.yiddish":"Yiddish"}};
+</script>
+<script type='text/javascript' src='./../wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=4.2.6-78496d1'></script>
+<script type='text/javascript' src='./../wp-includes/js/mediaelement/mediaelement-migrate.min.js?ver=8fe8b378b66b360930cf6d474f45c43d'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/","classPrefix":"mejs-","stretching":"responsive"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='./../wp-includes/js/mediaelement/wp-mediaelement.min.js?ver=8fe8b378b66b360930cf6d474f45c43d'></script>
+<style id="et-builder-module-design-cached-inline-styles">.et_pb_fullwidth_menu_0.et_pb_fullwidth_menu ul li a{font-weight:700;font-size:17px;color:#3e78b2!important}.et_pb_post_title_0,.et_pb_post_title_0.et_pb_featured_bg{background-image:url(./../wp-content/uploads/2017/01/CyberSecurityResearch.jpg);background-color:rgba(62,120,178,0.53);background-image:url(./../wp-content/uploads/2017/01/CyberSecurityResearch.jpg);background-color:rgba(62,120,178,0.53)}.et_pb_column_3{padding-left:5px}.et_pb_column_2{padding-left:5px}.et_pb_column_1{padding-right:20px;padding-left:10%}.et_pb_row_1.et_pb_row{padding-top:69px;padding-right:0px;padding-bottom:54px;padding-left:0px}.et_pb_row_1{background-color:rgba(30,30,30,0.91)}.et_pb_section_5.et_pb_section{background-color:#262626!important}.et_pb_section_5{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;list-style-type:square!important}.et_pb_section_4{padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;list-style-type:square!important}.et_pb_section .et_pb_post_title_0.et_pb_post_title{padding-top:8%!important;padding-right:8%!important;padding-bottom:8%!important;padding-left:8%!important;padding-top:8%!important;padding-right:8%!important;padding-bottom:8%!important;padding-left:8%!important}.et_pb_post_title_0 .et_pb_title_container .et_pb_title_meta_container,.et_pb_post_title_0 .et_pb_title_container .et_pb_title_meta_container a{font-size:27px;line-height:2.7em;font-size:27px;line-height:2.7em}.et_pb_fullwidth_menu_0.et_pb_fullwidth_menu{background-color:rgba(255,255,255,0)}.et_pb_post_title_0 .et_pb_title_container h1.entry-title,.et_pb_post_title_0 .et_pb_title_container h2.entry-title,.et_pb_post_title_0 .et_pb_title_container h3.entry-title,.et_pb_post_title_0 .et_pb_title_container h4.entry-title,.et_pb_post_title_0 .et_pb_title_container h5.entry-title,.et_pb_post_title_0 .et_pb_title_container h6.entry-title{font-size:42px;font-size:42px}.et_pb_row_0.et_pb_row{margin-bottom:0px!important;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px}.et_pb_section_3{padding-top:0px;padding-bottom:0px}div.et_pb_section.et_pb_section_3{background-image:url(./../wp-content/uploads/2017/02/Webp.net-resizeimage.png)!important}.et_pb_section_2{padding-top:0px;padding-bottom:0px}div.et_pb_section.et_pb_section_2{background-image:url(./../wp-content/uploads/2017/02/Webp.net-resizeimage.png)!important}.et_pb_fullwidth_menu_0.et_pb_fullwidth_menu .et_mobile_menu,.et_pb_fullwidth_menu_0.et_pb_fullwidth_menu .et_mobile_menu ul{background-color:rgba(0,0,0,0)!important}.et_pb_fullwidth_menu_0.et_pb_fullwidth_menu .nav li ul{background-color:#ffffff!important}.et_pb_fullwidth_menu_0.et_pb_fullwidth_menu .fullwidth-menu-nav li ul.sub-menu a{padding-left:0}.et_pb_fullwidth_menu_0.et_pb_fullwidth_menu .fullwidth-menu-nav li a{font-weight:700;letter-spacing:0.3px}.et_pb_column_4{padding-left:5px}</style></body>
+</html>

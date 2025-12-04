@@ -1,0 +1,299 @@
+Lc!?>
+aDSQLite format 3
+40EC5500-27CF-4635-B682-A7DEB6F1859B!
+ATke3TCa9N3TlcOh3rfJYteWTKcv
+AfKh3vxO4wbHEQARJBcYYJxzQXLb
+)
+912AB330-D45C-4191-A158-610A7116E569
+6253304C-B0B7-408D-B01E-886A946B0523
+7BCCC703-A235-49E7-BE71-F8D0569B0825
+AZFDRk3czfRrD4orjrzZUxQ7qKcG
+Afw6XRpaz0rssDODXrnKt+BvbML/
+AX+3k7HgYFoRvckKira7ODHj5GLy
+LcK`
+CPLAssetChangeATke3TCa9N3TlcOh3rfJYteWTKcv
+CPLMasterChange
+CPLMasterChange
+0
+CPLAssetChangeAfw6XRpaz0rssDODXrnKt+BvbML/
+CPLAssetChangeAX+3k7HgYFoRvckKira7ODHj5GLy
+CPLAssetChangeAZFDRk3czfRrD4orjrzZUxQ7qKcG
+CPLMasterChange
+Lc=y
+CPLAssetChange
+CPLMasterChange
+
+CPLAssetChange
+Vz,
+
+CPLAssetChange'{4
+CPLMasterChange'{4
+CPLMasterChange'q
+
+CPLAssetChange'{-
+CPLMasterChange'{-
+CPLAssetChange'{)
+CPLAssetChange'uh
+CPLMasterChange'uh
+CPLMasterChange'{*
+Lc[hxq
+'{4	
+'{4
+'q
+	
+Lc#7Cw
+
+Lc"z
+
+LcH,k?"!
+
+K
+
++	E
+`CPLMasterChangeAfKh3vxO4wbHEQARJBcYYJxzQXLb'qC57DA7D7-E157-4E87-B38A-4F668DBAFBA6
+bplist00
+QcQpVMaster
+	
+
+
+$%&'()*+,TfJPSSresSiByTfNamTmmdtTidatTcreaTittySmodTororTmemd
+SIdyRrt
+"#TfUTITavaiSdimRszSfgp[public.heic	
+ !QwQh#@
+AfKh3vxO4wbHEQARJBcYYJxzQXLb
+]IMG_0013.HEIC_
+CGImageProperties#A=/yB#A=[public.heic#A=
+	@bplist00
+	
+
+ a
+V{TIFF}V{Exif}\{MakerApple}[PixelHeightUDepth\PrimaryImage[ProfileNameXDPIWidthYDPIHeightZColorModel[OrientationZPixelWidth
+\HostComputer^ResolutionUnitXSoftwareZTileLengthXDateTime[XResolutionYTileWidth[YResolutionUModelTMakeXiPhone 8
+V15.0.2
+2022:02:06 16:55:04#@R
+UApple
+!"#$%&'()*+,-./0123456789:;<=>?@
+CDEFGLMNOTUVWXWUZ[]^W
+_A`\_
+DateTimeOriginalXLensMake_
+SubsecTimeOriginal_
+BrightnessValue]SensingMethod_
+ExposureBiasValueWFNumber[FocalLength_
+ShutterSpeedValue[SubjectArea]ApertureValueYSceneTypeZColorSpace_
+LensSpecification_
+PixelYDimension\WhiteBalance_
+DateTimeDigitized_
+OffsetTimeOriginal_
+ISOSpeedRatings_
+OffsetTimeDigitized\ExposureModeYLensModel[ExifVersion_
+PixelXDimension_
+FocalLenIn35mmFilmZOffsetTime_
+ExposureProgram\ExposureTime_
+SubsecTimeDigitizedUFlash\MeteringMode_
+2022:02:06 16:55:04S313#@
+
+U8q(#
+X&u#?#@
+HIJK
+#?"h
+PQRS"@
+\)"@
+\)"?ff"?ff
+2022:02:06 16:55:04V-05:00Y
+!iPhone 8 back camera 3.99mm f/1.8
+ bcdefghijklmnopqrstuvwxyz{|}~
+UUMYUMU
+UUMMUR46R32R25R55R47R33R26R12Q1R65R20Q2R13R43Q3R59R14Q4R37R74Q5R45Q6R38R60R23R16Q7R39R31R54Q8_
+$D6D171DA-0AF6-4544-9D46-56BBFAC60BD0
+Uq825s"@
+$9FF31719-2D89-497F-A959-A3C3DEEE2027
+UflagsUvalueYtimescaleUepoch
+O\"|e"=|
+	ZDisplay P3"B
+SRGB
+Lcb
+
+ATke3TCa9N3TlcOh3rfJYteWTKcv)
+560892CA-0687-429D-8E62-7A30751EB040
+LcopU3
+CPLAssetChangeAfKh3vxO4wbHEQARJBcYYJxzQXLb
+Lc5=
+
+CPLAssetChange'p
+SHuO
+
+'{4	
+Bl
+&4
+
+LcG*Y?
+
+
+)	U
+CPLAssetChange560892CA-0687-429D-8E62-7A30751EB040AfKh3vxO4wbHEQARJBcYYJxzQXLb'pFD98E364-8685-4824-B092-5CE7C6DBEAB3
+QcQpUAsset
+TfDatTtznaSresRkwSoriTasdtTtzofRppSaddSmod@XGMT-0500
+#A=/yB#A=*F
+,16:=AFKNRVW`abdmvw
+hOySQLite format 3
+LcEcj
+CA6C576F-A92B-4759-90CB-6DBB82BC8E2E
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+"#U$null
+
+WprivateVsharedV$class
+ChangeTokenData
+~-sE
+Z$classnameX$classes_
+CKServerChangeToken
+CKServerChangeTokenXNSObject
+~-ti
+CPLCloudKitScopeListSyncAnchor&
+CPLCloudKitScopeListSyncAnchor
+%U$null
+
+V$classZRecordNameVZoneID
+!_7a77faab94981dad21656c67b69c2883
+anonymousCKUserIDYownerNameXZoneName
+\_defaultZone_
+__defaultOwner__
+ !"Z$classnameX$classes^CKRecordZoneID#$^CKRecordZoneIDXNSObject
+ &'ZCKRecordID($ZCKRecordID
+C387350B1-BB92-495E-B272-277B160A9E1D387350B1-BB92-495E-B272-277B160A9E1DA
+ $U$null
+
+dropForMasterChangeV$class_
+dropForAssetChange
+WNS.keysZNS.objects
+NSMutableDictionary
+\NSDictionaryXNSObject
+CPLDerivativesFilter'
+CPLDerivativesFilter
+LcN	
+TVU
+XYZ[\
+]>A96`Xidentity\resourceType_
+itemScopedIdentifier_
+sourceResourceType_
+canGenerateDerivative
+
+defghijklWfileUTI[fingerPrint_
+imageDimensionsYavailableXfileSize
+AfKh3vxO4wbHEQARJBcYYJxzQXLb[public.heic\{4032, 3024}KLqr_
+!CPLResourceIdentityImplementationstO_
+!CPLResourceIdentityImplementation_
+CPLResourceIdentityvwx
+y>z{QiQ#Qs
+AfKh3vxO4wbHEQARJBcYYJxzQXLb[PrimarySyncKL
+CPLScopedIdentifierO_
+CPLScopedIdentifierKL[CPLResourceO[CPLResourceKLWNSArrayOG
+I#A=
+I#A=/yB
+CPLMasterChangeO_
+CPLMasterChange]CPLItemChange_
+CPLRecordChange
++999999698996D9C999966699^originalChoiceZchangeType\facesVersion_
+recordModificationDateYplayCountVpeople_
+$videoComplementImageDisplayTimescale_
+videoComplementDurationValueVhiddenXdurationYaddedDateZburstFlags\assetHDRType[orientation_
+ videoComplementImageDisplayValueYassetDate\timeZoneName\assetSubtype_
+ videoComplementDurationTimescale^timeZoneOffsetYviewCountZshareCountXfavorite_
+serverRecordIsCorruptedZinExpunged_
+scopedIdentifier_
+customRenderedValueXkeywords_
+videoComplementVisibilityState_
+masterIdentifierYfacesData"
+#vwx
+$560892CA-0687-429D-8E62-7A30751EB040_
+XGMT-0500
+I#A=*F
+@KL^CPLAssetChangeO^CPLAssetChange]CPLItemChange_
+CPLRecordChangeKL^NSMutableArray
+OKL^CPLChangeBatchO^CPLChangeBatch
+WNS.keys()*+,vx
+$FD98E364-8685-4824-B092-5CE7C6DBEAB3_
+$C57DA7D7-E157-4E87-B38A-4F668DBAFBA6KL_
+NSMutableDictionaryO\NSDictionary_
+$387350B1-BB92-495E-B272-277B160A9E1DKL_
+CPLExtractedBatchO_
+CPLExtractedBatch
+ "$1:G^s
+
+
+#
+G
+K
+o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+bplist00
+Lcc\,H4
+$)27ILQSX^cj|~
+.bplist00
+U$null
+
+V$class_
+&'pq_
+NSMutableDictionaryp(*&'st_
+CPLFeatureVersionHistoryu*_
+CPLFeatureVersionHistoryF
+&'xy^CPLLibraryInfoz*^CPLLibraryInfo
+	
+=o
+
+Wbplist00
+"()*1U$null
+
+!ZchangeTypeV$classYactivated_
+containerHasBeenWiped_
+serverRecordIsCorrupted\pullTaskItemWinTrashYscopeTypeZinExpungedXdisabled_
+scopedIdentifier
+%&'QiQs
+[PrimarySyncY__SCOPE__+,-.Z$classnameX$classes_
+CPLScopedIdentifier/0_
+CPLScopedIdentifierXNSObject+,23^CPLScopeChange450^CPLScopeChange_
+AVkbplist00
+-567>?CU$null
+
+QzQoV$class
+ !!!!%
+!()*!!XPCSKeyID\ZoneishKeyID_
+ClientChangeToken^ShareReference[DeviceCount_
+AssetQuotaUsage_
+PCSModificationDate_
+MetadataQuotaUsage_
+PreviousProtectionEtagVZoneID\Capabilities_
+InvitedKeysToRemove_
+CurrentServerChangeToken
+!234_
+[PrimarySync_
+__defaultOwner__89:;Z$classnameX$classes^CKRecordZoneID<=^CKRecordZoneIDXNSObject
+89@A\CKRecordZoneB=\CKRecordZone89DE_
+CPLCloudKitScopeF=_
+CPLCloudKitScope
+{!o`SQLite format 3
+LcFz*
+Lcz8
+
+LcIP
+SQLite format 3
+7\(SQLite format 3
+Lc!4
+OSQLite format 3
+WvSQLite format 3

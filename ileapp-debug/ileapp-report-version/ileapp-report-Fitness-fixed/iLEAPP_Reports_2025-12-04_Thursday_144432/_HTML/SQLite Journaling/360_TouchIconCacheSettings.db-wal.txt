@@ -1,0 +1,34 @@
+SQLite format 3
+.S`
+
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+=tablecache_settingscache_settings
+CREATE TABLE cache_settings (id INTEGER PRIMARY KEY AUTOINCREMENT,host TEXT NOT NULL UNIQUE,last_request_date REAL NOT NULL,last_request_was_in_user_loaded_page BOOLEAN NOT NULL DEFAULT 0,request_count INTEGER NOT NULL DEFAULT 0,icon_is_in_cache BOOLEAN NOT NULL DEFAULT 0,download_status_flags INTEGER NOT NULL DEFAULT 0,extracted_color BLOB NULL,transparency_analysis_result INTEGER NOT NULL DEFAULT 0,uuid TEXT NULL,last_response_status_code INTEGER NOT NULL DEFAULT 0);
+indexsqlite_autoindex_cache_settings_1cache_settings
+Wa4
+
+W\	 
+www.apple.comARDq
+=tT
+
+'	www.apple.com
+)	cache_settings
+www.bing.comARDs!
+WW~]a2&I
+
+www.bing.com
+WzGZ
+cache_settings
+www.google.comA
+|!}
+
+www.google.com
+W?hTs
+
+yahoo.comA
+W>yzwM
+
+yahoo.com
+WXPH4
+

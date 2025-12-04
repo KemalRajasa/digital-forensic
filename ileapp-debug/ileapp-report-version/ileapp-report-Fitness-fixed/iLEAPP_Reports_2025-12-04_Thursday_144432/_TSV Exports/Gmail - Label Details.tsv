@@ -1,0 +1,31 @@
+﻿Label	Unread Count	Total Count	Unseen Count
+^all	72	81	
+^assistive_purchase	1	1	
+^assistive_travel	0	0	
+^b	0	0	
+^cr	0	0	
+^f	0	0	
+^i	72	80	
+^iim	1	4	
+^io_f_iiim	72	80	
+^io_f_iim	1	4	
+^io_f_ti	0	1	
+^io_im	1	4	
+^k	0	0	
+^p_cc	0	0	
+^r	0	0	
+^s	0	0	
+^scheduled	0	0	
+^smartlabel_finance	0	0	
+^smartlabel_group	0	0	
+^smartlabel_notification	27	35	
+^smartlabel_promo	23	24	
+^smartlabel_pure_notif	26	34	
+^smartlabel_social	22	22	
+^smartlabel_travel	0	0	
+^sq_ig_i_personal	27	35	1
+^sq_ig_i_promo	23	23	23
+^sq_ig_i_social	22	22	22
+^t	0	1	
+^t_z	0	0	
+fake_outbox_label_for_label_counts		0	

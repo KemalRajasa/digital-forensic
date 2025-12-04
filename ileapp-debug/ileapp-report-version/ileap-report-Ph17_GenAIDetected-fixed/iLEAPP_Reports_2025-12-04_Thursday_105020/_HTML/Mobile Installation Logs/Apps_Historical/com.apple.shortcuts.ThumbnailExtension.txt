@@ -1,0 +1,4 @@
+2022-01-10 12:28:30 Data container moved com.apple.shortcuts.ThumbnailExtension /private/var/mobile/Containers/Data/PluginKitPlugin/3CF7F86F-BCA6-410C-BE62-944B77733EC5
+2022-01-10 12:28:30 Data container moved com.apple.shortcuts.ThumbnailExtension /private/var/mobile/Containers/Data/PluginKitPlugin/3CF7F86F-BCA6-410C-BE62-944B77733EC5
+2022-01-06 17:41:33 Made container live com.apple.shortcuts.ThumbnailExtension /private/var/mobile/Containers/Data/PluginKitPlugin/562D2761-BF72-47EB-A7B2-6422236BEC29
+2022-01-06 17:41:33 Made container live com.apple.shortcuts.ThumbnailExtension /private/var/mobile/Containers/Data/PluginKitPlugin/562D2761-BF72-47EB-A7B2-6422236BEC29

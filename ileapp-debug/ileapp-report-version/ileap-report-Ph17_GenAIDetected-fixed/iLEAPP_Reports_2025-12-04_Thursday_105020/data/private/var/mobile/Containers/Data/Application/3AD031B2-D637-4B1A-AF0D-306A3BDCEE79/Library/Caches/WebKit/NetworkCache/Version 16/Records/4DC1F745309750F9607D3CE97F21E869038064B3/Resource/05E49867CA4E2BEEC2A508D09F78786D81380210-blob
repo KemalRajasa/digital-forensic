@@ -1,0 +1,2906 @@
+window.config = window.config || {};
+config.app = {
+    brand: "TOTAL_WIRELESS",
+    client_id: "TWWebMyAcct_RO",
+    client_id_ns : "TWWebMyAcct_RO_NS",
+    client_id_limited : "",
+    client_secret: "abc123**",
+    source_system: "WEB",
+    servicePartyId:"TOTALWIRELESSWEB",
+    endpoint: "https://webapi.totalwireless.com",
+    wcmBaseUrl: "https://media.tracfone.com/wps/wcm/connect/tw-",
+    wcmContentUrl : "https://media.tracfone.com/wps/contenthandler",
+    ro_grant: "password",
+    ro_scope: "getSecurityQuestions",
+    refresh_grant : "refresh_token",
+    rons_scope : "getAccountProfile",
+    cc_grant: "client_credentials",
+    cc_scope: "createNewAccount",
+    cc_client_id: "TWWebMyAcct_CCU",
+    cc_client_secret: "abc123**",
+    session_timer_interval: "30000",
+    SP_timer_hours : "24",
+    default_pymtsrc_type: "CREDITCARD",
+    device_tutorial: "http://totalwireless.devicebits.com/tutorials/?",
+    bank_pymtsrc_type: "ACH",
+    error_code: "error_code",
+    error_message: "error_message",
+    default_error: "Server Error.",
+    description: "description",
+    AUTH_FAILURE: "5000",
+    language: "ENG",
+    fb_appId: "1915324105176743",
+    fb_sdkversion: "v3.2",
+    requiredErrorMessage: "MYAC_99801",
+    email_body_location: "email.html",
+    enable_qas_address_parsing: "true",
+    validateaddrclientid: "ADDRESS_SEARCH",
+    googleSearchUrl: "https://www.google.com/cse?q=$&cx=017797820003735897471%3Aaatfqmyxm4y&cof=FORID%3A11&ad=n9&num=10&rurl=http%3A%2F%2Fwww.tracfone.com%2Fsearch_result.jsp%3Fq%3Dprivacy%26cx%3D017797820003735897471%253Aaatfqmyxm4y%26cof%3DFORID%253A11&siteurl=http%3A%2F%2Fwww.tracfone.com%2Fsearch_result.jsp%3Fq%3Dprivacy%26cx%3D017797820003735897471%253Aaatfqmyxm4y%26cof%3DFORID%253A11",
+    coverageMapUrl: "https://tracfone.cellmaps.com/?m0=55TFR&z=$&b=TRACFONE",
+    ziptotechUrl: "http://www.tracfone-orders.com/bpdirect/tracfone/Start.do?action=view&",
+    hppRegisteredUrl:"https://www.myserviceplan.com/",
+    domain :"https://www.totalwireless.com",
+    BI_RETRY_COUNT :"9",
+    isLegacyRedirect : "true",
+    zipCodeGoogleSearchUrl: "https://maps.googleapis.com/maps/api/geocode/json?language=en&key=AIzaSyBrUjDeG0em_xyDMXBQ4Mw5a2ig54PTpYo&address=",
+    opinionLabsCookie : "TWOpinionlab",
+    email_base_path: "https://www.totalwireless.com",
+    email_from : "promotions@tracfonemail.com",
+    my_account_url: "/myaccount",
+    LEASE_STATUS_SMARTPAY: "https://home.smartpaylease.com/accesses/login",
+    errorConfig : {
+        "20300":"ERROR_1985646",
+        "999":"ERROR_1985646",
+        "30011":"ERROR_1985646",
+        "5000":"ERROR_1985646",
+        "1":"ERROR_1985646"
+    },
+    redirects : {
+        'login' : '/myaccount/login/collectusername',
+        'userloggedin' :'/myaccount/dashboard',
+        'userloggedout' :'/myaccount/login/collectusername',
+        'inactive.devicestatus.adddevice.myaccount': '/activation/selectdevice',
+        'logout.sessiontimeout': '/',
+        'getusername.stayloggedin.sessiontimeout': '/myaccount/login/collectusername',
+        'getpassword.stayloggedin.sessiontimeout': '/myaccount/login/collectpassword',
+        'pinserviceplan.activation' : '/activation/airtimeserviceplan',
+        'serviceplan.activation' :'/activation/serviceplan',
+        'createaccount.activation' : '/activation/createaclogin/activation!airtimeserviceplan',
+        'portupgradeinstructions.activation' : '/activation/portupgradeinstructions/PIN_FLOW',
+        'activation.instructions' : '/activation/instructions1',
+        'activation.pininstructions' : '/activation/pininstructions/PIN_FLOW',
+        'checkout.activation' :'/activation/checkout',
+        'pincheckout.activation' : '/activation/pincheckout',
+        'externalport.activation' : '/activation/collectserviceprovider',
+        'internalport.activation' : '/activation/internalport',
+        'portupgrade.activation' : '/activation/upgrade'
+    },
+    features : {
+         'multiline'		: false,
+         'ach'				: false,
+         'tmobilecarrier'	: true,
+         'attcarrier'		: true,
+         'clarocarrier'		: false,
+         'verizoncarrier'	: true,
+         'gsm'				: true,
+         'othercarrier'		: true,
+         'sprintcarrier'	: true,
+         'groupbased'		: true,
+         'promo'			: true,
+         'facebook'			: true,
+         'loyaltyrewards'	: true,
+         'phoneprotection'	: true,
+         'activateesn'		: true,
+         'wificalling'     	: true,
+         'devicepinlogin'	: false,
+         'multicarrier'    	: true,
+         'isGsmBrandOnly'	: false,
+         'retentionMatrix'	: true,
+         'amazonlogin'    	: false,
+         'isbaseplanenrolled' : true,
+         'refillforfriend'	: true,
+         'multibyopdevices'	: false,
+         'triplePunchSimKit' : true,
+         'isimglazyload'    : true,
+         'isHomeNew'        : false,
+         'payPalSmartPay'   : true,
+         'braintreeDeviceDataStrict': true,
+         'isNewPaymentAPI': true,
+         'isVenmoSupported': true
+
+    },
+    shopsim: {
+        carrier: {
+            url: {
+                tmo: "false"
+            }
+        }
+    },
+    multiline_maxcount	: 1,
+    activation_staging	: true,
+    banrequired	: false,
+    subbrand	: "TOTAL_WIRELESS",
+    deviceplans	: true,
+    wcmProjectId : '',
+    wcmProjectIds : {
+		'/header' : '',
+		'/footer' : '',
+		'/home' : '',
+		'/header-ng6' : '',
+		'/footer-ng6' : ''
+	  },
+    wcmAdditionalParams : '',
+    modules : ['project.wcm.tf','google.analytics.tf','touchcommerce.tf','webaccessibility.tf','stagingmode.tf','ubi'],
+    log : {
+        debug : true
+    },
+    serviceplans : {
+        baseurl : "https://media.tracfone.com/wps/contenthandler/dav/content/libraries/wcm.library.sm-design/components/images/serviceplan/",
+
+    	"Hotspot Plans":{
+    		is_hotspot:true
+    	},
+    	"Monthly Individual Plan":{
+    		is_monthly:true,
+            monthly_individual:'individual'
+    	},
+        "":{
+    		is_monthly:true,
+            monthly_individual:'individual'
+    	},
+    	"Monthly Shared Data Plan":{
+    		is_monthly:true,
+            monthly_shared: 'shared'
+    	},
+        "":{
+    		is_monthly:true,
+            monthly_shared: 'shared'
+    	},
+        "Data Add-On":{
+            is_data_addon:true
+        },
+        "Extended Service Plans":{
+    		is_monthly:true,
+            monthly_extended:'extended'
+    	},
+        "":{
+    		is_monthly:true,
+            monthly_extended:'extended'
+    	},
+        "Individual Emergency Connect Plan":{
+    		is_monthly:true,
+            monthly_signal_device:'individual'
+    	},
+        enhanced_collectPhoneNumber: true
+    },
+    stagingMode : false,
+    carrier: {
+        attdeviceunlockurl: "https://www.att.com/deviceunlock/",
+        carriershopsimurl: "https://shop.totalwireless.com/shop/en/totalwireless/simcards"
+    },
+    unlockphone: {
+        shopsimurl: "https://shop.totalwireless.com/shop/en/totalwireless/byop/tw-byop-tri-punch-sim-pack-cdma",
+        shopsimurl_es: "https://shop.totalwireless.com/shop/es/totalwireless/byop/tw-byop-tri-punch-sim-pack-cdma"
+    },
+    coveragecheck: {
+        shopphonesurl: "https://shop.totalwireless.com/shop/en/totalwireless/phones?_ga=2.2499696.1742412379.1509116844-1889816273.1509116844",
+        shopphonesurl_es: "https://shop.totalwireless.com/shop/es/totalwireless/phones?_ga=2.2499696.1742412379.1509116844-1889816273.1509116844",
+        shop_sim: "https://shop.totalwireless.com/shop/en/totalwireless/byop",
+        shop_phone: "https://shop.totalwireless.com/shop/en/totalwireless/phones",
+        service_plan: "https://www.totalwireless.com/serviceplan?session=reset",
+        activation_flow: "https://www.totalwireless.com/activation/selectdevice",
+        default_mapurl: "https://tracfone.cellmaps.com/?s0=5G&m0=17&c0=a60008,ff000d&b=TOTAL_WIRELESS&enable5g=TRUE"
+    },
+    checkrateurl : "https://www.totalwireless.com/direct/controller.block?__blockname=direct.rates.landing",
+    sitesearch : "https://api.swiftype.com/api/v1/public/engines/search",
+    swiftTypeEngineKey : "pQDXu6TL_5yCitLRVm66",
+    safelinkurl: "https://www.totalwireless.com/direct/Safelink?input_min=",
+    excl_img_extns : ['gif','png','jpeg'],
+    byop_tmo_url: "http://shop.totalwireless.com/shop/en/totalwireless/simcards/net10-t-mobile-byop-sim-tri-punch",
+    byop_att_url: "http://shop.totalwireless.com/shop/en/totalwireless/simcards/net10-att-byop-sim-tri-punch",
+    byop_vzw_url: "http://shop.totalwireless.com/shop/en/totalwireless/simcards/net10-verizon-byop-sim-tri-punch",
+    byot_shop_url: "https://shop.totalwireless.com/shop/en/totalwireless/simcards",
+    brand_primary_color: "#00b09a",
+    google_analytics_tag: "UA-80932279-1",
+    ildavailability : {
+    			locationId : "10045"
+    },
+    tc : {
+        contactus :{
+            englishPageId : "36218226",
+            spanishPageId : "36218334"
+        },
+        faqs : {
+            englishPageId : "38028195",
+            spanishPageId : "38028196"
+        }
+    	},
+    merchant_purchase_name:"TOTAL *WIRELESS",
+    merchant_enroll_name:"TOTAL *WIRELESS SVCS",
+    email_subject: "Total Wireless - Confirmation Page",
+    tlsSupportedBrowsers:"Chrome=30|Firefox=27|Internet Explorer=11|Microsoft Edge=11|Safari=9|Safari_mobile=9|Opera=17|Android=5|Windows Phone=11",
+    tlsBannerReminderHrs:"",
+    ubi: {
+        1001: ['module11','module1', 'module12', 'module13'],
+        1002: ['module11','module1', 'module12', 'module13'],
+        1003: ['module11','module3', 'module12', 'module13'],
+        1004: ['module11','module4', 'module12', 'module13'],
+        1005: ['module5', 'module12', 'module13'],
+        1006: ['module11','module6', 'module12', 'module13'],
+        1007: ['module11','module7', 'module12', 'module13'],
+        1008: ['module11','module8', 'module12', 'module13'],
+        1009: ['module11','module9', 'module12', 'module13'],
+        1010: ['module11','module8.1', 'module12', 'module13'],
+        1011: ['module11','module10', 'module12', 'module13'],
+        1012: ['module11','module1', 'module12'],
+        1013: ['module11','module12'],
+        1014: ['module11','module7', 'module12'],
+        1018: ['module11','module12'],
+    },
+    dashboard_bi: {
+        1001: ['module1'],
+        1002: ['module1'],
+        1003: ['module3'],
+        1004: ['module4'],
+        1005: ['module5'],
+        1006: ['module6'],
+        1007: ['module7'],
+        1008: ['module8'],
+        1009: ['module9'],
+        1010: ['module8.1'],
+        1011: ['module10']
+    },
+    showBalanceInline: true,
+	adobeLaunchUrl:"//assets.adobedtm.com/launch-ENc778b459ddfa4a81b993e7faa40a8042.min.js",
+    perf : {
+        useWCMCombinedHome: true,
+        enableDebugInfo: true
+    },
+    login_authentication: {
+       'method' : "minemailsimesn",
+       'url': '/myaccount/login/collectusername'
+   },
+   wcm_base_url: "https://media.tracfone.com",
+   codeBase : {
+		'confirmation'     : false
+   },
+   rewards: {
+          augeoEndPoint: "https://rewards.totalwireless.com/home/dashboard/",
+          augeoLearnMoreUrl: "https://rewards.totalwireless.com/home/about",
+          augeoEarnNowUrl: "https://rewards.totalwireless.com/earn/ways-to-earn",
+          augeoRedeemNowUrl: "https://rewards.totalwireless.com/home/redeem",
+          augeoLive: true,
+          augeoMyRewardsUrl: "https://rewards.totalwireless.com/profile/account",
+          lrpRedeem: true,
+          augeoGuestUrl: "https://rewards.totalwireless.com",
+   },
+   coupons: {
+       phonePromoCode: "https://shop.totalwireless.com/shop/en/totalwireless/phones",
+       phonePromoCodeES: "https://shop.totalwireless.com/shop/es/totalwireless/phones",
+   },
+   recaptcha :{
+       sitekey: "6Lf60aoUAAAAADAcXSEkR6X13QS1sFPL_5quWLzW",
+        secretkey: "6Lf60aoUAAAAAKjW44RALitZKJ5twPAOgfrzW2yI"
+    },
+    terms_condition_url :{
+       mobile_protect_plus: "https://www.phoneclaim.com/mobileprotect/program-terms/",
+       mobile_protect: "https://www.phoneclaim.com/mobileprotect/pdf/mobileprotectupfront1324_en-us.pdf",
+       apple_care: "https://www.apple.com/legal/sales-support/applecare/applecareplus/us/",
+   },
+    org_id : "k8vif92e",
+    merchant_id : "tftotalwireless",
+    merchant_billing_id : "tfbillingtotal",
+    ild_category: "ild-add-on",
+    buy_sim_card_link: "https://totalwireless.com/keep-your-own-phone",
+    shop: {
+        signaldevice_en_url: "https://shop.totalwireless.com/shop/en/totalwireless/datadevices/tw-moxee-emergency-connect-k2000vl",
+        signaldevice_es_url: "https://shop.totalwireless.com/shop/es/totalwireless/datadevices/tw-moxee-emergency-connect-k2000vl"        
+    },
+    braintree_url: "https://js.braintreegateway.com/web/3.79.1/js/client.min.js",
+    braintree_device_collector_url: "https://js.braintreegateway.com/web/3.79.1/js/data-collector.min.js",
+    braintree_pay_pal_url: "https://js.braintreegateway.com/web/3.79.1/js/paypal-checkout.min.js",
+    braintree_venmo_url: "https://js.braintreegateway.com/web/3.79.1/js/venmo.min.js",
+    pay_pal_url: "https://www.paypal.com/sdk/js?client-id=&vault=true&disable-funding=card&intent=tokenize",
+    bannerErrorCodes: ["25014", "25013", "10201","25315","25316", "25317", "26001","26202","26204", "26005", "26208", "26209", "26219", "26020", "26021", "26314","26424"],
+    tokenExpiredErrorCodes : ["25011", "26222"],
+    popUpErrorCodes : ["10909","26229", "26200", "26124","26227", "26228", "25011"],
+    abp_url: "https://webapi.totalwireless.com/iels-Ser-did-the-wise-Wount-the-Come-Face-cars-i",
+    enable_with_credentials: true,
+    two_factor_flow: {
+        upgrade: true,
+        myAccount: true
+    },
+    two_factor_auth: "true"
+};
+window.config = window.config || {};
+var getYears = (i)=>{
+    if (i <= 1){
+    return [new Date().getFullYear().toString()];
+    }
+    var maxYear = getYears(--i);
+    var nextYear = parseInt([...maxYear].pop()) + 1;
+    maxYear.push(nextYear.toString());
+    return maxYear;
+};
+config.data = {
+    dates : [
+        { label: '1', id: '1' },
+        { label: '2', id: '2' },
+        { label: '3', id: '3' },
+        { label: '4', id: '4' },
+        { label: '5', id: '5' },
+        { label: '6', id: '6' },
+        { label: '7', id: '7' },
+        { label: '8', id: '8' },
+        { label: '9', id: '9' },
+        { label: '10', id: '10' },
+        { label: '11', id: '11' },
+        { label: '12', id: '12' },
+        { label: '13', id: '8' },
+        { label: '14', id: '9' },
+        { label: '15', id: '10' },
+        { label: '16', id: '11' },
+        { label: '17', id: '12' },
+        { label: '18', id: '8' },
+        { label: '19', id: '9' },
+        { label: '20', id: '10' },
+        { label: '21', id: '11' },
+        { label: '22', id: '12' },
+        { label: '23', id: '8' },
+        { label: '24', id: '9' },
+        { label: '25', id: '10' },
+        { label: '26', id: '11' },
+        { label: '27', id: '12' },
+        { label: '28', id: '8' },
+        { label: '29', id: '9' },
+        { label: '30', id: '10' },
+        { label: '31', id: '11' }
+    ],
+    //___ Calendar Support ___
+    months : [
+        { label: 'MYACC_5143', id: '01' },
+        { label: 'MYACC_5144', id: '02' },
+        { label: 'MYACC_5145', id: '03' },
+        { label: 'MYACC_5146', id: '04' },
+        { label: 'MYACC_5147', id: '05' },
+        { label: 'MYACC_5148', id: '06' },
+        { label: 'MYACC_5149', id: '07' },
+        { label: 'MYACC_5150', id: '08' },
+        { label: 'MYACC_5151', id: '09' },
+        { label: 'MYACC_5152', id: '10' },
+        { label: 'MYACC_5153', id: '11' },
+        { label: 'MYACC_5154', id: '12' }
+    ],
+
+    ccExpMonths : ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"],
+
+    ccExpYears : getYears(10),
+
+    stateListCanada : ["AB", "BC", "MB", "NB", "NL", "NS", "NT", "ON", "PE", "QC", "SK", "YT"],
+
+    stateList : ["AK", "AL", "AR", "AZ", "CA", "CO", "CT", "DC", "DE", "FL", "GA", "HI", "IA", "ID", "IL", "IN", "KS", "KY", "LA", "MA", "MD", "ME", "MI", "MN", "MO", "MS", "MT", "NC", "ND", "NE", "NH", "NJ", "NM", "NV", "NY", "OH", "OK", "OR", "PA", "PR", "RI", "SC", "SD", "TN", "TX", "UNK", "UT", "VA", "VI", "VT", "WA", "WI", "WV", "WY"],
+
+    countryList : ["USA", "Argentina", "Aruba", "Australia", "Austria", "Bahamas", "Barbados", "Belgium", "Bermuda(UK)", "Brazil", "Canada", "Chile", "China(includesMacau[MO])", "Colombia", "CostaRica", "Croatia", "Cyprus", "CzechRepublic", "Denmark", "DominicanRepublic", "Ecuador", "Egypt", "Finland", "France", "Germany", "Greece", "Guam", "Guatemala", "HongKong", "Hungary", "Iceland", "India", "Ireland", "Israel", "Italy", "Jamaica", "Japan", "Kazakhstan", "Luxembourg", "Malaysia", "Mexico", "Netherlands", "NewZealand", "Norway", "Peru", "Poland", "Portugal", "Puerto Rico", "Romania", "Russia", "Singapore", "South Korea", "SouthAfrica", "Spain", "Sweden", "Switzerland", "Taiwan", "Thailand", "TrinidadandTobago", "Turkey", "US", "US Virgin Islands", "UnitedKingdom(includesIreland[IE])", "Venezuela"],
+
+    streetTypels : ["None", "AVE", "AVE CIR", "AVE CT", "AVE DR", "AVE PL", "AVE RD", "BLVD", "BES", "CT", "CIR", "CIR CT", "CIR DR", "CIR LN", "CIRPL", "CIR PL", "CIR TER", "CONC", "CSWY", "CT BLVD", "CT CIR", "CT RD", "DR", "DR CIR", "HWY", "HC", "IS", "IS RD", "LN", "LN CIR", "LN DR", "LN RD", "MILE", "PASS", "PATH", "PKWY", "PL", "PL CIR", "PL CT", "PL RD", "PL WAY", "PLZ", "PRADO", "PSGE", "PT", "PT DR", "RR", "RD", "RD DR", "RD PL", "ST", "ST CIR", "ST CSWY", "ST CT", "ST DR", "ST PL", "ST RD", "SQ", "TER", "TER CIR", "TER DR", "TER RD", "TER WAY", "TRL", "WAY"],
+    streetDirls : ["None", "N", "S", "E", "W", "NE", "NW", "SE", "SW"],
+    bankAccountList : [  { label: 'BAT_24727', id: 'CHECKING' },{ label: 'BAT_24728', id: 'SAVINGS' }],
+
+    addOns:[1,2,3],
+
+    plansQuantity: [1,2,3,4,5,6,7,8,9,10,11,12],
+}
+/*--Change Log
+12/21/2017|55236|Nabeel|added edit_nickname_group API URL.
+*/
+
+window.config = window.config || {};
+config.service = {
+    "coupons":"/pep/catalog-mgmt/v1/coupons",
+    "apn": "/pep/apnSettings/device/{deviceid}",
+    "byopmakemodel": "/pep/getManufacturerModel/getManufacturerModel",
+    "employee_discount": "/pep/billing-mgmt/v1/billing-account/discounts",
+    "brandvalidation": "/pep/version",
+    "my_account": {
+        "auth": {
+            "ro": "/oauth/ro",
+            "cc": "/oauth/cc",
+            "fb_linking": "/pep/checkLinkingStatus/",
+            "augeo_token": "/pep/token"
+        },
+        "create_account": {
+            "account_recovery": "/pep/accountRecovery/v2/accountStatus/{min}",
+            "createacct_url": "/pep/createNewAccount/{email}",
+            "createfbacct_url": "/pep/createNewAccount/{email}"
+        },
+        "dashboard": {
+            "add_device": "/pep/addDeviceToAccount/account/{accountId}",
+            "remove_device": "/pep/deleteDeviceAccount/account/{accountId}/esn/{esn}",
+            "sendVerificationCode": "/pep/resource-mgmt/v1/resource/verification-code",
+            "validateVerificationCode": "/pep/resource-mgmt/v1/resource/verification-code/validate",
+            "validateCode": "/api/resource-mgmt/resource/verification-code/validate",
+            "remove_device_from_group": "/pep/customer-mgmt/v1/customeraccount/{accountId}/group/esn/{esn}",
+            "validate_device": {
+                "valdevice": "/pep/validateUserDevice/v2/min/{min}",
+                "valdeviceport": "/pep/validateUserDevice/v2/min/{min}",
+                "validatedevicesim": "/pep/validateUserDevice/v2/sim/{min}",
+                "valdeviceesn": "/pep/validateUserDevice/v2/esn/{min}"
+            },
+            "device_history": {
+                "get_tickets_esn": "/pep/getTickets/esn/{esn}",
+                "get_trans_history": "/pep/getTransactionHistory/v2/esn/{esn}"
+            },
+            "edit_nickname": "/pep/updateNickName/esn/{esn}",
+            "edit_nickname_group": "/pep/updateNickName/groupId/{groupId}",
+            "upgrade_points": "/pep/getRewards/esn/{esn}",
+            "access_token": "/pep/vouchers/accessToken",
+            "edit_securitypin": "/pep/updateLoginInformation/min/{min}/profile",
+            "my_devices": {
+                "accountdevices": "/pep/getAccountDetails/v2/{account_id}",
+                "min": "/pep/getAccountDetails/v2/min/{min}",
+                "get_bal_inquiry": "/pep/getBalanceInquiry/esn/{esn}",
+                "get_data_usage": "/pep/getDataUsage/v2/min/{min}",
+                "req_benefit_balance": "/pep/requestBenefitsBalance/v2/esn/{esn}/transactionId/{transactionId}",
+                "accountrenewal": "/pep/billing-mgmt/v1/billing-account/balance"
+            },
+            "managereserve": {
+                "esn": "/pep/managePINCardReserve/esn/{esn}",
+                "min": "/pep/managePINCardReserve/min/{min}"
+            },
+            "movereserveCard": {
+                "esn": "/pep/moveReservedPIN/esn/{esn}/pinCardReserve/{pinCard}",
+                "min": "/pep/moveReservedPIN/min/{min}/pinCardReserve/{pinCard}"
+            },
+            "redeemreserveCard": {
+                "esn": "/pep/redeemPINCardReserve/v2/esn/{esn}",
+                "min": "/pep/redeemPINCardReserve/v2/min/{min}"
+            },
+            "remove_group": "/pep/customer-mgmt/v1/customeraccount/group/{groupId}"
+        },
+        "fblinking": {
+            "link_account": "/pep/linkAccount/{accountid}"
+        },
+        "fb_tf_email_sync": {
+            "update_cust_login": "/pep/updateLoginInformation/{accountid}/profile/"
+        },
+        "forgot_password": {
+            "url": "/pep/forgotPassword/{email}",
+            "url_min": "/pep/forgotPassword/{min}",
+            "validatetoken": "/pep/forgotPassword/validateUserToken",
+            "resetpassword": "/pep/updateLoginInformation/reset"
+        },
+        "forgot_username": {
+            "accountStatus": "/pep/accountRecovery/v2/accountStatus/{min}",
+            "verifysecuritypin": "/pep/accountRecovery/validate/{min}",
+            "verifyzipcode": "/pep/accountRecovery/validate/{min}",
+            "verifysecurityanswer": "/pep/accountRecovery/validate/{min}",
+            "verifysecuritypinorquestion": "/pep/accountRecovery/validate/{min}",
+            "confirmverificationcode": "/pep/accountRecovery/checkpoints/{min}"
+
+        },
+        "pymt_history": {
+            "device": "/pep/billing-mgmt/v1/payments",
+            "account": "/pep/billing-mgmt/v1/payments",
+            "order": "/api/order-mgmt/order/payment"
+        },
+        "pymt_details": {
+            "url": "/pep/getPaymentDetails/transactionId/{transactionId}"
+        },
+        "pymt_method": {
+            "add_pymt_src": "/pep/addPaymentSource/{account_id}",
+            "delete_pymt_src": "/pep/deletePaymentSource/{accountId}/paymentSource/{paymentSourceId}",
+            "get_enrolled_plan": "/pep/getEnrolledPlan/esn/{esn}",
+            "get_pymt_src": "/pep/getPaymentSource/{account_id}",
+            "update_pymt_src": "/pep/updatePaymentSource/{paymentSourceId}",
+            "get_pymt_method": "/api/payment-method-mgmt/payment-method",
+            "del_pymt_method": "/api/payment-method-mgmt/payment-method/{id}"
+        },
+        "pymt_mgmt": {
+            "client_token": "/api/payment-mgmt/payment/braintree/client-token"
+        },
+        "profile": {
+            "acc_profile": "/pep/getAccountProfile/{account_id}",
+            "secquestions": "/pep/getSecurityQuestions/",
+            "update_login": "/pep/updateLoginInformation/{accountId}/profile/",
+            "update_acc": "/pep/updateAccount/{accountId}/profile/",
+            "update_commpreferences": "/pep/customer-mgmt/v1/customer-account/commpreferences"
+        },
+        "wfm": {
+            "accountrecovery": {
+                "customerAccountStatus": "/pep/customer-mgmt/v1/customer-account/status",
+                "email": "/pep/accountRecovery/v2/accountStatus/email/{email}",
+                "accountid": "/pep/accountRecovery/v2/accountStatus/accountId/{accountId}",
+                "device": "/pep/accountRecovery/v2/accountStatus/{device}",
+                "emailOption": "/pep/accountRecovery/v2/accountStatus/email/{email}",
+                "sendverificationcode": "/pep/accountRecovery/v2/accountStatus",
+                "verifysecuritypin": "/pep/accountRecovery/validate/email/{min}",
+                "verifyzipcode": "/pep/accountRecovery/validate/email/{min}",
+                "verifysecurityanswer": "/pep/accountRecovery/validate/email/{min}",
+                "verifysecuritypinorquestion": "/pep/accountRecovery/validate/email/{min}",
+                "verifypaymentsource": "/pep/accountRecovery/validate/email/{min}",
+                "verificationcode": {
+                    "min": "/pep/accountRecovery/validate/{min}",
+                    "email": "/pep/accountRecovery/validate/email/{min}",
+                }
+            },
+            "dashboard": {
+                "remove_device_with_esn": "/pep/customer-mgmt/v1/customeraccount/{accountId}/esn/{esn}",
+                "remove_device_with_min": "/pep/customer-mgmt/v1/customeraccount/{accountId}/min/{min}",
+                "dummyacount_device_with_esn": "/pep/customer-mgmt/v2/customeraccount/{accountId}/esn/{esn}"
+            }
+        }
+    },
+    "rpe": {
+        "clear_ota": "/pep/clearOTA/min/{min}",
+        "send_email": "/pep/communication-mgmt/v1/message",
+        "add_device_to_account": "/pep/addDeviceToAccount/account/{account_id}",
+        "checkout": {
+            "validate_promo": "/pep/validatePromotion/v2/",
+            "checkout_update_item_qty": "/pep/getPaymentSource/{account_id}",
+            "checkout_process_txn": "/pep/getPaymentSource/{account_id}"
+        },
+        "enrollments": {
+            "deenroll_reasons": "/pep/disenrollmentReason/",
+            "cancel_enroll": "/pep/deEnrollFromPlan/",
+            "deenroll_device": "/pep/deEnrollFromPlan/min/{min}/program/{programId}",
+            "enroll_cal_tax": "/pep/calculateEnrollTax/",
+            "enroll_change_plan": "/pep/enrollIntoPlan/v2/min/{min}/autoRefill/servicePlan/{programId}",
+            "enroll_purchase": "/pep/enrollIntoPlan/v2/min/{min}/autoRefill/servicePlan/{programId}",
+            "hpp_enroll_plan": "/pep/getHPEnrolledProgram/esn/{esn}",
+            "hpp_programs": "/pep/getHandsetProtectionPrograms/min/{min}",
+            "vas_enrollment_plan":"/pep/service-mgmt/v1/subscriptions/vas",
+            "enroll_change_vas":"/pep/enrollIntoPlan/v2/min/{min}/autoRefill/servicePlan/{planId}"
+        },
+        "app_purchase": {
+            "confirm_purchase": "/pep/confirmPurchase/v2/partNumber/{partNumber}/paymentSource/{paymentSourceId}",
+            "guest_purchase": "/pep/order-mgmt/v1/productorder/esn/{esn}",
+            "guest_multi_purchase": "/pep/order-mgmt/v1/productorder/esn/{esn}",
+            "multi_app_purchase": "/pep/confirmPurchase/v2/paymentSource/{paymentSourceId}"
+        },
+        "purchase_cal_tax": "/pep/calculatePurchaseTax/",
+        "redemption": {
+            "pin": "/pep/redeemPIN/v2/pin/{pinCard}",
+            "validate_promo": "/pep/validatePromotion/v2/"
+        },
+        "service_plans": {
+            "brand": "/pep/servicePlanSelector/v2/",
+            "byesn": "/pep/servicePlanSelector/v2/esn/{esn}"
+        },
+        "retention_matrix": {
+            "esn": "/pep/retentionMatrix/esn/{esn}",
+            "min": "/pep/retentionMatrix/min/{min}"
+        }
+    },
+    "activation": {
+        "byop": {
+            "check_coverage": {
+                "zip": "/pep/order-mgmt/v1/serviceorder/service-availibility/zipcode/{zipcode}/deviceType/{device_type}",
+                "carrier": "/pep/order-mgmt/v1/serviceorder/service-availibility/zipcode/{zipcode}/deviceType/{device_type}/carrier/{carrier}",
+                "service_providers": "/pep/config-mgmt/v1/config/category/{category}"
+            },
+            "check_eligible": {
+                "url": "/pep/service-qualification-mgmt/v1/service-qualification/productSerialNumber/{productSerialNumber}/zipcode/{zipcode}/carrier/{carrier}",
+                "service_qualification_mgmt_lrp": "/pep/service-qualification-mgmt/v1/service-qualification"
+            },
+            "register_byop": {
+                "url": "/pep/inventory-mgmt/v1/resource-inventory/resource"
+            },
+            "service_qualification_url": "/pep/service-qualification-mgmt/v1/service-qualification"
+        },
+        "address_verification": "/pep/address-mgmt/v1/address/validate",
+        "product_order": "/pep/order-mgmt/v2/productorder",
+        "service_order": "/pep/order-mgmt/v2/serviceorder"
+    },
+    "ports": {
+        "carriers_url": "/pep/config-mgmt/v1/config/category/{category}",
+        "carriers_details": "/pep/config-mgmt/v1/config/category/{category}/name/carrier/value/{carrierName}/type/{carrierType}"
+    },
+    "unsubscribe": "/pep/customer-mgmt/v1/customer-account/commpreferences",
+    "coveragemap": {
+        "by_zipcode": {
+            "zipcode": "/pep/catalog-mgmt/v1/productoffering"
+        },
+        "by_dtl": "/pep/service-qualification-mgmt/v1/service-qualification"
+
+    },
+    "ziptotech": {
+        "validatezip": {
+            "url": "/pep/address-mgmt/v1/address/validate"
+
+        },
+        "phoneurl": "/pep/catalog-mgmt/v1/productoffering"
+
+    },
+    "estimateorder": "/pep/order-mgmt/v1/productorder/estimate",
+    "renewalinquiry": "/pep/billing-mgmt/v1/billing-account/balance",
+    "billing_invoices": "/pep/billing-mgmt/v1/billing-account/customer-bill/invoices",
+    "resource_management": "/pep/resource-mgmt/v1/resource",
+    "instructions": {
+        "url": "/pep/getScript/scripts/{script_id}"
+    },
+    "wificalling": {
+        "eligibility_check": "/pep/service-qualification-mgmt/v1/service-qualification"
+    },
+    "address_mgmt": {
+        "manage_address": "/pep/address-mgmt/v1/address"
+    },
+    "balanceenquiry": {
+        "enquiryflow": "/pep/balanceInquiryFlow/v1/esn/{esn}"
+    },
+    "ild": {
+        "availability": "/pep/service-qualification-mgmt/v1/ild-availability"
+    },
+    "service_order_lrp": {
+        "lrp_enrollment": "/pep/order-mgmt/v2/serviceorder"
+    },
+    "ubi": {
+        "getbalanceinquiry": "/pep/service-mgmt/v1/service/balance"
+    },
+    "lrp_acccount_recovery": {
+        "email": "/pep/accountRecovery/v2/accountStatus/email/{email}",
+        "device": "/pep/accountRecovery/v2/accountStatus/{device}"
+    },
+    "coupons-order-mgmt": "/pep/order-mgmt/v2/productorder",
+    "ildinternationalrates": "/pep/catalog-mgmt/v1/plans",
+    "billing" : {
+        "validateBillingZipcode" : "/pep/billing-mgmt/zipcode/validate"
+    },
+    "customer_mgmt" : {
+        "partnermembers" : "/api/customer-mgmt/v1/customer/{accountId}/partner-members",
+        "adddevicetoaccount" : "/api/customer-mgmt/v1/customer/{accountId}/device"
+    },
+    "productoffering": "/pep/catalog-mgmt/v1/productoffering",
+    "hpp_applecare_eligibility" : "/api/service-qualification-mgmt/service-qualification/hpp-applecare-eligibility"
+}
+/*--Change Log
+12/18/2017|55236|Nabeel|updated properties for serviceplan,and activation/serviceplan routes.
+*/
+
+window.config = window.config || {};
+config.view = {
+	'*' : {
+		'accept-esnsim' : true,
+		'accept-sim' : false,
+		'seo' : {
+			'en' : {
+				'title' : 'Get Total Confidence No-Contract Wireless Plans | Total Wireless',
+				'description' : 'Get Total Confidence when you move to the best deal in wireless,  on America\'s largest, most dependable 4G LTE network with Total Wireless.',
+				'url' : 'https://www.totalwireless.com'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Con Total Wireless, cámbiate con total confianza a la mejor oferta en servicio inalámbrico, con cobertura en la red 4G LTE más grande y confiable del país.',
+				'url' : 'https://www.totalwireless.com?lang=es'
+			}
+		}
+	},
+	'/activation/simnumber': {
+		'att': false,
+		'tmo': false,
+		'vzw': true,
+        'seo': {
+            'en': {
+                'title': 'enter your SIM card information | Total Wireless'
+            },
+            'es': {
+                'title': 'ingresa la información de tu tarjeta SIM | Total Wireless'
+            }
+        }
+	},
+	'/activation/selectdevice' : {
+		'smartphone' : true,
+		'byop' : true,
+		'hotspot': true,
+		'home-phone': false,
+		'product-divider' : true,
+		'product-divider-1' : true,
+		'product-divider-2' : false,
+		'seo' : {
+			'en' : {
+				'title' : 'activate service for a phone or device | Total Wireless',
+				'description' : 'Select between our phone calling cards, bring your own device and add service easily online today.',
+				'url' : 'https://www.totalwireless.com/activation/selectdevice'
+			},
+			'es' : {
+				'title' : 'activa el servicio para un teléfono o dispositivo | Total Wireless',
+				'description' : 'Selecciona entre nuestras tarjetas de servicio o el programa "Trae tu Propio Dispositivo" y agrega un plan. Hazlo hoy fácilmente en línea.',
+				'url' : 'https://www.totalwireless.com/activation/selectdevice'
+			}
+		},
+		'other-device' : false,
+		'emergency-connect' : true
+
+	},
+	'/activation/collectsim' : {
+		'collect-securitypin' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectsim'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectsim'
+			}
+		}
+	},
+	'/activation/collectesn' : {
+		'collect-securitypin' : false,
+		'seo' : {
+			'en' : {
+				'title' : 'begin activating your phone or device here | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectesn'
+			},
+			'es' : {
+				'title' : 'comienza a activar tu teléfono o dispositivo aquí | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectesn'
+			}
+		}
+	},
+	'/activation/checkout' : {
+		'show-bank' : {
+			'features' : [ 'ach' ]
+		},
+		'limited-plans' : false,
+		'devicebreakdownpopup' : true,
+		'promo-available' : false,
+		'payment-tab-order' : {
+			'cc' : 1,
+			'ach' : 2
+		},
+		'update-quantity': true,
+		'seo' : {
+			'en' : {
+				'title' : 'checkout | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/checkout'
+			},
+			'es' : {
+				'title' : 'proceder con el pago | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/checkout'
+			}
+		},
+		cancel_add_pymt_btn : false,
+		'accept-minemail': true,
+		'accept-simesnminemail': false
+	},
+	'/activationcc/confirmation_activation' : {
+		'confirmation-icons-layout' : true,
+		'confirmation-transaction-summary' : true,
+		'order-summary' : false,
+		'manage-stash' : true,
+		'manage-data-usage': false,
+		'data-usage': false,
+		'international-calling': false,
+		'mobile-app': false,
+		'product-divider': true,
+		'product-divider-1': false,
+		'product-divider-2': false,
+		'lrp-component': false,
+		'seo' : {
+			'en' : {
+				'title' : 'order confirmation | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activationcc/confirmation_activation'
+			},
+			'es' : {
+				'title' : 'confirmación del pedido | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activationcc/confirmation_activation'
+			}
+		}
+	},
+	'/checkout' : {
+		'show-bank' : {
+			'features' : [ 'ach' ]
+		},
+		'remember-me' : true,
+		'limited-plans' : false,
+		'devicebreakdownpopup' : true,
+		'promo-available' : false,
+		'automatic-payments' : true,
+		'checkout-addons' : true,
+		'update-quantity': true,
+		'lrp-component': true,
+		'payment-tab-order' : {
+			'cc' : 1,
+			'ach' : 2
+		},
+		'seo' : {
+			'en' : {
+				'title' : 'checkout | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/checkout'
+			},
+			'es' : {
+				'title' : 'proceder con el pago | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/checkout'
+			}
+		},
+		cancel_add_pymt_btn : false
+	},
+	'/activation/byopcollectsim' : {
+		'new-sim' : true,
+		'buy-sim' : true,
+		'product-divider' : true,
+		'terms-conditions' : true,
+		'purchase-redirect' : false,
+		'collect-securitypin' : false,
+		'remove-esn' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/byopcollectsim'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/byopcollectsim'
+			}
+		},
+		'sim-card-help-text': false
+	},
+	'/activation/byop/collectesn':{
+        'terms-conditions' : true,
+        'seo' : {
+			'en' : {
+				'title' : 'Bring Your Own Phone & Add a Phone Plan | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/byop/collectesn'
+			},
+			'es' : {
+				'title' : 'Trae Tu Propio Teléfono Y Agrega Un Plan De Servicio | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/byop/collectesn'
+			}
+		},
+	},
+	'/activation/keepcollectphone' : {
+		'keep-phone-number' : true,
+		'new-phone-number' : true,
+		'product-divider' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'keep your own phone number | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/keepcollectphone'
+			},
+			'es' : {
+				'title' : 'quédate con tu propio número de teléfono | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/keepcollectphone'
+			}
+		}
+	},
+	'/activation/airtimeserviceplan' : {
+		'pin-activate' : true,
+		'purchase-activate' : true,
+		'add-line':true,
+		'product-divider' : true,
+		'data-user' : true,
+		'monthly-banner' : true,
+		'hide-accordion' : true,
+		'data-user' : true,
+		'serviceplan-nav' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'find the perfect phone plan for you | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/airtimeserviceplan'
+			},
+			'es' : {
+				'title' : 'encuentra el plan de servicio a tu medida | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/airtimeserviceplan'
+			}
+		},
+		'other-device' : false,
+		'emergency-connect' : true
+	},
+	'/myaccount/paymentmethod' : {
+		'show-bank' : {
+			'features' : [ 'ach' ]
+		},
+		'seo' : {
+			'en' : {
+				'title' : 'Payment Method | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/paymentmethod'
+			},
+			'es' : {
+				'title' : 'Payment Method | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/paymentmethod'
+			}
+		}
+	},
+	'/activation/coveragecheck' : {
+		'tmo' : {
+			'features' : [ 'tmobilecarrier' ]
+		},
+		'att' : {
+			'features' : [ 'attcarrier' ]
+		},
+		'claro' : {
+			'features' : [ 'clarocarrier' ]
+		},
+		'vzw' : {
+			'features' : [ 'verizoncarrier' ]
+		},
+		'gsm' : {
+			'features' : [ 'gsm' ]
+		},
+		'othercarrier' : {
+			'features' : [ 'othercarrier' ]
+		},
+		'sprint' : {
+			'features' : [ 'sprintcarrier' ]
+		},
+		'unlock-phone' : true,
+		'buy-sim' : true,
+		'show-tmo-popup' : true,
+		'unlock-phone-popup' : false,
+		'product-divider-top-left' : true,
+		'product-divider-top-right' : true,
+		'product-divider-bottom-left' : true,
+		'product-divider-bottom-right' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/coveragecheck'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/coveragecheck'
+			}
+		}
+	},
+	'/activation/compatiblesim' : {
+		'collect-securitypin' : false,
+		'service-plan' : true,
+		'product-divider' : true,
+		'zip-code' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'purchase a SIM card or enter SIM number | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim'
+			},
+			'es' : {
+				'title' : 'compra o ingresa el número de la tarjeta SIM  | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim'
+			}
+		},
+		'byop-sim-tmo-dual-content': false,
+		'byop-sim-tmo-dual' : false
+	},
+	'/activation/compatiblesim?carrier=TMO' : {
+		'standard-sim' : true,
+		'micro-sim' : true,
+		'nano-sim' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'purchase a SIM card or enter SIM number | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim?carrier=TMO'
+			},
+			'es' : {
+				'title' : 'compra o ingresa el número de la tarjeta SIM  | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim?carrier=TMO'
+			}
+		}
+	},
+	'/activation/compatiblesim?carrier=UNLOCK' : {
+		'unlock-phone-popup' : false,
+		'seo' : {
+			'en' : {
+				'title' : 'purchase a SIM card or enter SIM number | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim?carrier=UNLOCK'
+			},
+			'es' : {
+				'title' : 'compra o ingresa el número de la tarjeta SIM | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim?carrier=UNLOCK'
+			}
+		}
+	},
+	'/serviceplan' : {
+        'smartphone': true,
+        'basicphone': true,
+        'homephone': true,
+        'hotspot': true,
+        'previous-plan': true,
+        'data-user': true,
+        'no-device-service-plan': false,
+        'vudu-banner': false,
+        'view-details': false,
+        'serviceplan-monthly':true,
+        'serviceplan-addon': true,
+        'serviceplan-banner': false,
+        'carryover-plans': true,
+        'nocarryover-plans': true,
+        'autorefill-plans': true,
+        'hide-accordion': true,
+        'serviceplan-button': true,
+        'nocontract-serviceplans-header': false,
+        'serviceplan-nav': false,
+        'service-plans': true,
+        'serviceplan-addons': true,
+        'show-addons': false,
+        'device-info-min-esn-sim': true,
+        'device-info-min': false,
+        'accept-simesnminemail': true,
+        'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'Service Plan | Get The Right Plan for You | Total Wireless',
+				'description' : 'Find the best plan , and get it for a price you wouldn\'t expect with Total Wireless. Shop our plans today.',
+				'url' : 'https://www.totalwireless.com/serviceplan'
+			},
+			'es' : {
+				'title' : 'Plane de Servicio | Obtén el Plan Perfecto Para Ti | Total Wireless',
+				'description' : 'Encuentra el mejor plan para tu estilo de vida y consíguelo al precio más bajo con Total Wireless. ¡Compra nuestros planes hoy!',
+				'url' : 'https://www.totalwireless.com/serviceplan'
+			}
+		},
+		'other-device' : false,
+		'emergency-connect' : true,
+		'serviceplan-mld-dataonly' : false
+	},
+	'/serviceplan/addons':{
+		'smartphone' : false,
+		'basicphone' : false,
+		'homephone' : false,
+		'hotspot' : false,
+		'previous-plan' : false,
+		'data-user' : false,
+		'no-device-service-plan':false,
+		'serviceplan-banner': false,
+		'carryover-plans': false,
+		'nocarryover-plans': false,
+		'autorefill-plans': true,
+		'serviceplan-button': true,
+		'hide-accordion' : true,
+		'nocontract-serviceplans-header' : false,
+		'serviceplan-nav' : false,
+		'service-plans' : false,
+		'serviceplan-addons' : true,
+		'device-info-min-esn-sim': true,
+		'device-info-min': false,
+		'accept-simesnminemail': false,
+		'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/serviceplan/addons'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/serviceplan/addons'
+			}
+		},
+		'other-device' : false,
+		'emergency-connect' : true
+	},
+	'/activation/compatiblesim/CLARO' : {
+		'collect-securitypin' : false,
+		'seo' : {
+			'en' : {
+				'title' : 'purchase a SIM card or enter SIM number | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim/CLARO'
+			},
+			'es' : {
+				'title' : 'compra o ingresa el número de la tarjeta SIM | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim/CLARO'
+			}
+		}
+	},
+	'/myaccount/dashboard' : {
+		'account-renewal' : false,
+		'show-expand-collapse' : true,
+		'nickname' : true,
+		'remove-device' : true,
+		'security-pin' : false,
+		'addons' : true,
+		'transaction-history' : true,
+		'protect-phone' : true,
+		'manage-reserve' : true,
+		'device-details': false,
+		'device-tutorial': false,
+		'ild-balance' : true,
+		'manage-enrollments' : true,
+		'buy-service-plan' : true,
+		'add-service-plan' : true,
+		'upgrade-points' : true,
+		'upgrade-device' : true,
+		'manage-global-card' : true,
+		'add-device' : true,
+		'inactive-device' : false,
+		'inactive-device-family-plans' : true,
+		'sort-all': true,
+		'view-details':false,
+		'seo' : {
+			'en' : {
+				'title' : 'Account Summary | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/dashboard'
+			},
+			'es' : {
+				'title' : 'Resumen de la Cuenta | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/dashboard'
+			}
+		}
+	},
+	'/myaccount/login/collectpassword' : {
+		'remember-me' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'My Account Log In | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/login/collectpassword'
+			},
+			'es' : {
+				'title' : 'Mi Cuenta Iniciar Sesion | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/login/collectpassword'
+			}
+		}
+	},
+
+	'/activation/internalport' : {
+		'internalportheading' : true,
+		'upgradeheading' : false,
+		'password' : false,
+		'product-divider' : false,
+		'last-four' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'current service provider information | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/internalport'
+			},
+			'es' : {
+				'title' : 'información sobre el proveedor de servicio actual | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/internalport'
+			}
+		}
+	},
+	'/activation/upgrade' : {
+		'upgradeheading' : true,
+		'internalportheading' : false,
+		'password' : true,
+		'product-divider' : true,
+		'last-four' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'Verify your account information & identity | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/upgrade'
+			},
+			'es' : {
+				'title' : 'Verifica la información sobre tu cuenta e identidad | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/upgrade'
+			}
+		}
+	},
+	'/wificalling/info' : {
+		'wifi-info' : {
+			'features' : [ 'wificalling' ]
+		},
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/wificalling/info'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/wificalling/info'
+			}
+		}
+	},
+	'/wificalling/e911' : {
+		'wifi-e911' : {
+			'features' : [ 'wificalling' ]
+		},
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/wificalling/e911'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/wificalling/e911'
+			}
+		}
+	},
+	'/wificalling/confirmation' : {
+		'wifi-confirmation' : {
+			'features' : [ 'wificalling' ]
+		},
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/wificalling/confirmation'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/wificalling/confirmation'
+			}
+		}
+	},
+	'/manageenroll' : {
+		'show-bank' : {
+			'features' : [ 'ach' ]
+		},
+		'payment-tab-order' : {
+			'cc' : 1,
+			'ach' : 2
+		},
+		'seo' : {
+			'en' : {
+				'title' : 'Manage Enrollments | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/manageenroll'
+			},
+			'es' : {
+				'title' : 'Administrar Inscripciones | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/manageenroll'
+			}
+		}
+	},
+	'/myaccount/paymenthistory' : {
+		'phone-breakdown' : false,
+		'duration-filter' : false,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/paymenthistory'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/paymenthistory'
+			}
+		}
+	},
+	'/myaccount/manageenroll' : {
+		'de-enrollment': false,
+		'claims': false,
+		'payment-source': true,
+		'easyexchangelayout_horizontal': true,
+		'easyexchangelayout_vertical': false,
+		'show-bank' : {
+			'features' : [ 'ach' ]
+		},
+		'payment-tab-order' : {
+			'cc' : 1,
+			'ach' : 2
+		},
+		'seo' : {
+			'en' : {
+				'title' : 'Manage Enrollments | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/manageenroll'
+			},
+			'es' : {
+				'title' : 'administrar inscripciones | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/manageenroll'
+			}
+		},
+		'cancel_add_pymt_btn' : true
+	},
+	'/collectminpinpromo' : {
+		'refill-min-esn-sim': true,
+		'refill-min': false,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/collectminpinpromo'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/collectminpinpromo'
+			}
+		}
+	},
+	'/faqs' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/faqs'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/faqs'
+			}
+		}
+	},
+	'/trackticket' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/trackticket'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/trackticket'
+			}
+		}
+	},
+	'/apn' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/apn'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/apn'
+			}
+		}
+	},
+    '/updatebrowser': {
+        'seo': {
+            'en': {
+                'title': 'Unsupported Browser | Total Wireless',
+                'description': 'Unsupported Browser. Please update your browser to enjoy a better and more secure shopping experience.',
+                'url': 'https://www.totalwireless.com/updatebrowser'
+            },
+            'es': {
+                'title': 'Navegador Desactualizado  |  Total Wireless',
+                'description': 'Navegador Desactualizado. Por favor, actualiza tu navegador para disfrutar de una experiencia de compras m�s segura.',
+                'url': 'https://www.totalwireless.com/updatebrowser'
+            }
+        }
+    },
+	'/autorefill' : {
+		'refill-min': false,
+		'refill-min-esn-sim': true,
+		'seo' : {
+			'en' : {
+				'title' : 'Sign-Up To Automatically Renew Your Account | Total Wireless',
+				'description' : 'Get the benefits of signing up for auto-refill of your account, and never forget to get your 30 day plan with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/autorefill'
+			},
+			'es' : {
+				'title' : 'Inscríbete Para Renovar Tu Cuenta Automáticamente | Total Wireless',
+				'description' : '¡Obtén los beneficios de inscribir tu cuenta en auto-recarga, y nunca más olvides agregar servicio con Total Wireless!',
+				'url' : 'https://www.totalwireless.com/autorefill'
+			}
+		}
+	},
+	'/myaccount/login/collectusername' : {
+		'accept-simesnminemail': true,
+		'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : 'Enter your phone number or email address and get registered with Total Wireless. Easily manage your account online here!',
+				'url' : 'https://www.totalwireless.com/myaccount/login/collectusername'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Ingresa tu número de teléfono o tu dirección de correo electrónico e inscríbete en Total Wireless. ¡Administra tu cuenta en línea fácilmente aquí!',
+				'url' : 'https://www.totalwireless.com/myaccount/login/collectusername'
+			}
+		}
+	},
+	'/myaccount/accountrecovery/collectverificationcode' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/collectverificationcode'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/collectverificationcode'
+			}
+		}
+	},
+	'/myaccount/accountrecovery/selectactivedevice' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/selectactivedevice'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/selectactivedevice'
+			}
+		}
+	},
+	'/myaccount/accountrecovery/collectsecurity' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/collectsecurity'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/collectsecurity'
+			}
+		}
+	},
+	'/activationpin/withpin' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activationpin/withpin'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activationpin/withpin'
+			}
+		}
+	},
+	'/activation/instructions1' : {
+		'seo' : {
+			'en' : {
+				'title' : 'instructions for activating your device | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/instructions1'
+			},
+			'es' : {
+				'title' : 'instrucciones para activar tu dispositivo | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/instructions1'
+			}
+		}
+	},
+	'/activation/pininstructions' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/pininstructions'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/pininstructions'
+			}
+		}
+	},
+	'/activation/collectserviceprovider' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Current Service Provider Information | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectserviceprovider'
+			},
+			'es' : {
+				'title' : 'Información Sobre El Proveedor De Servicio Actual | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectserviceprovider'
+			}
+		}
+	},
+	'/verifyaddress' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/verifyaddress'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/verifyaddress'
+			}
+		}
+	},
+	'/activation/portupgradeinstructions' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/portupgradeinstructions'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/portupgradeinstructions'
+			}
+		}
+	},
+	'/collectlastfour/:action' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/collectlastfour/:action'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/collectlastfour/:action'
+			}
+		}
+	},
+	'/activation/confirmationupgrade' : {
+		'seo' : {
+			'en' : {
+				'title' : 'order confirmation | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/confirmationupgrade'
+			},
+			'es' : {
+				'title' : 'confirmación del pedido | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/confirmationupgrade'
+			}
+		}
+	},
+	'/activation/collectlastfourvalidacct/:redirect' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectlastfourvalidacct/:redirect'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectlastfourvalidacct/:redirect'
+			}
+		}
+	},
+	'/activation/compatiblesim/devicestatus/:carrier' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim/devicestatus/:carrier'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/compatiblesim/devicestatus/:carrier'
+			}
+		}
+	},
+	'/activation/purchasesummary' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/purchasesummary'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/purchasesummary'
+			}
+		}
+	},
+	'/activation/byopcollectesn/:carrier_name' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/byopcollectesn/:carrier_name'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/byopcollectesn/:carrier_name'
+			}
+		}
+	},
+	'/activation/byopcollectesn/CDMA' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/byopcollectesn/CDMA'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/byopcollectesn/CDMA'
+			}
+		}
+	},
+	'/activation/keepcollectphone/:action' : {
+		'seo' : {
+			'en' : {
+				'title' : 'keep your own phone number | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/keepcollectphone/:action'
+			},
+			'es' : {
+				'title' : 'quédate con tu propio número de teléfono | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/keepcollectphone/:action'
+			}
+		}
+	},
+	'/activation/collectminexchange' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectminexchange'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectminexchange'
+			}
+		}
+	},
+	'/activation/collectesn' : {
+		'seo' : {
+			'en' : {
+				'title' : 'begin activating your phone or device here | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectesn'
+			},
+			'es' : {
+				'title' : 'comienza a activar tu teléfono o dispositivo aquí | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectesn'
+			}
+		}
+	},
+	'/activation/collectesn/:action' : {
+		'seo' : {
+			'en' : {
+				'title' : 'begin activating your phone or device here | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectesn/:action'
+			},
+			'es' : {
+				'title' : 'comienza a activar tu teléfono o dispositivo aquí | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectesn/:action'
+			}
+		}
+	},
+	'/activation/collectsim' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectsim'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectsim'
+			}
+		}
+	},
+	'/activation/collectsim/:action' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectsim/:action'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/collectsim/:action'
+			}
+		}
+	},
+	'/activation/serviceplan' : {
+		'device-info-min-esn-sim': true,
+		'device-info-min': false,
+		'smartphone' : true,
+		'basicphone' : true,
+		'homephone' : true,
+		'hotspot' : true,
+		'data-user' : true,
+		'serviceplan-button' : true,
+		'previous-plan' : false,
+		'no-device-service-plan':false,
+		'carryover-plans': true,
+		'nocarryover-plans': true,
+		'autorefill-plans': true,
+		'serviceplan-banner': false,
+		'vudu-banner': false,
+		'nocontract-serviceplans-header' : false,
+		'serviceplan-nav' : false,
+		'service-plans' : true,
+		'serviceplan-addons' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'find the perfect phone plan for you | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/serviceplan'
+			},
+			'es' : {
+				'title' : 'encuentra el plan de servicio a tu medida | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/serviceplan'
+			}
+		},
+		'other-device' : false,
+		'emergency-connect' : true
+	},
+	'/activation/serviceplan/:action' : {
+		'seo' : {
+			'en' : {
+				'title' : 'find the perfect phone plan for you | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/serviceplan/:action'
+			},
+			'es' : {
+				'title' : 'encuentra el plan de servicio a tu medida | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/serviceplan/:action'
+			}
+		},
+		'other-device' : false,
+		'emergency-connect' : true
+	},
+	'/activation/createaclogin/activation!airtimeserviceplan' : {
+		'remember-me' : true,
+		'accept-simesnminemail': true,
+		'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'log in to your account or create an account | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/createaclogin/:redirect'
+			},
+			'es' : {
+				'title' : 'iniciar sesión o crear una cuenta | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/createaclogin/:redirect'
+			}
+		},
+		'other-device' : false,
+		'emergency-connect' : true
+	},
+	'/createaclogin/checkout' : {
+		'remember-me' : true,
+		'accept-simesnminemail': true,
+		'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'log in to your account or create an account | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com//createaclogin/checkout'
+			},
+			'es' : {
+				'title' : 'iniciar sesión o crear una cuenta | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com//createaclogin/checkout'
+			}
+		},
+		'other-device' : false,
+		'emergency-connect' : true
+	},
+	'/activation/createaclogin/activation!pincheckout' : {
+		'remember-me' : true,
+		'accept-simesnminemail': true,
+		'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'log in to your account or create an account | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/createaclogin/:redirect'
+			},
+			'es' : {
+				'title' : 'iniciar sesión o crear una cuenta | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/createaclogin/:redirect'
+			}
+		}
+	},
+	'/activation/createaclogin/activation!selectdevice' : {
+		'remember-me' : true,
+		'accept-simesnminemail': true,
+		'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'log in to your account or create an account | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/createaclogin/:redirect'
+			},
+			'es' : {
+				'title' : 'iniciar sesión o crear una cuenta | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/createaclogin/:redirect'
+			}
+		}
+	},
+	'/activation/createaclogin/activation!selectgroup' : {
+		'remember-me' : true,
+		'accept-simesnminemail': true,
+		'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'log in to your account or create an account | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/createaclogin/:redirect'
+			},
+			'es' : {
+				'title' : 'iniciar sesión o crear una cuenta | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/createaclogin/:redirect'
+			}
+		}
+	},
+	'/activation/redemptionconfirmation' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/redemptionconfirmation'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/redemptionconfirmation'
+			}
+		}
+	},
+	'/activation/checkout/:action' : {
+		'seo' : {
+			'en' : {
+				'title' : 'checkout | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/checkout/:action'
+			},
+			'es' : {
+				'title' : 'proceder con el pago | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/checkout/:action'
+			}
+		}
+	},
+	'/inqChat.html' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/inqChat.html'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/inqChat.html'
+			}
+		}
+	},
+	'/searchresults' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/searchresults'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/searchresults'
+			}
+		}
+	},
+	'/unsubscribe' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/unsubscribe'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/unsubscribe'
+			}
+		}
+	},
+	'/direct/UnSubscribe' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/direct/UnSubscribe'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/direct/UnSubscribe'
+			}
+		}
+	},
+	'/unsubscribe/result' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/unsubscribe/result'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/unsubscribe/result'
+			}
+		}
+	},
+	'/balanceinquiry' : {
+		'min-login': false,
+		'min-esn-sim-login': true,
+		'min-email-login': false,
+		'min-esn-sim-email-login':true,
+		'remember-me' : true,
+		'collect-simserialnumber' : true,
+		'collect-simserialnumber-use-phone': true,
+		'seo' : {
+			'en' : {
+				'title' : 'Check The Balance of Your Account | Total Wireless',
+				'description' : 'Enter your phone number or your account information and see how much data you have left in your account with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/balanceinquiry'
+			},
+			'es' : {
+				'title' : 'Revisa el Saldo de tu Cuenta | Total Wireless',
+				'description' : '¡Ingresa tu número de teléfono o la información de la cuenta y encuentra los minutos actuales del teléfono en tu cuenta con Total Wireless!',
+				'url' : 'https://www.totalwireless.com/balanceinquiry'
+			}
+		},
+		'other-device' : true
+	},
+	'/balanceinquiry/selectdevice' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/balanceinquiry/selectdevice'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/balanceinquiry/selectdevice'
+			}
+		}
+	},
+	'/balanceinquiry/devicedetails' : {
+		'remaining-balance': true,
+		'data-progress': false,
+		'service-plan-info': true,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/balanceinquiry/devicedetails'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/balanceinquiry/devicedetails'
+			}
+		}
+	},
+	'/employeediscount' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/employeediscount'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/employeediscount'
+			}
+		}
+	},
+	'/employeediscount/error' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/employeediscount/error'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/employeediscount/error'
+			}
+		}
+	},
+	'/trackticket/searchresults' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/trackticket/searchresults'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/trackticket/searchresults'
+			}
+		}
+	},
+	'/trackticket/updateaddress' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/trackticket/updateaddress'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/trackticket/updateaddress'
+			}
+		}
+	},
+	'/error404' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/error404'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/error404'
+			}
+		}
+	},
+	'/myaccount/forgotusername' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/forgotusername'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/forgotusername'
+			}
+		}
+	},
+	'/myaccount/login/collectpassword/:options' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/login/collectpassword/:options'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/login/collectpassword/:options'
+			}
+		}
+	},
+	'/myaccount/forgotpassword' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/forgotpassword'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/forgotpassword'
+			}
+		}
+	},
+	'/myaccount/accountrecovery/resetpassword' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/resetpassword'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/resetpassword'
+			}
+		}
+	},
+	'/myaccount/login/loginwithmin' : {
+		'accept-simesnmin': true,
+		'accept-min': false,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/login/loginwithmin'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/login/loginwithmin'
+			}
+		}
+	},
+	'/myaccount/redeemlogin' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/redeemlogin'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/redeemlogin'
+			}
+		}
+	},
+	'/myaccount/accountrecovery/verificationcode/:showZipCodeOption' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/verificationcode/:showZipCodeOption'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/verificationcode/:showZipCodeOption'
+			}
+		}
+	},
+	'/myaccount/accountrecovery/updateaccount' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/updateaccount'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/accountrecovery/updateaccount'
+			}
+		}
+	},
+	'/createaclogin' : {
+		'accept-simesnminemail': true,
+		'accept-minemail': false,
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/createaclogin'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/createaclogin'
+			}
+		}
+	},
+	'/myaccount/linkfbtfacct' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/linkfbtfacct'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/linkfbtfacct'
+			}
+		}
+	},
+	'/myaccount/syncfbemail' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/syncfbemail'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/syncfbemail'
+			}
+		}
+	},
+	'/myaccount/myprofile' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Manage Profile | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/myprofile'
+			},
+			'es' : {
+				'title' : 'Manage Profile| Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/myprofile'
+			}
+		}
+	},
+	'/myaccount/devicehistory' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/devicehistory'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/devicehistory'
+			}
+		}
+	},
+	'/myaccount/myaccess' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/myaccess'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/myaccess'
+			}
+		}
+	},
+	'/myaccount/createaccount' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/createaccount'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/myaccount/createaccount'
+			}
+		}
+	},
+	'/myaccount/managereserve' : {
+		'seo' : {'en' : {
+			'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+			'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+			'url' : 'https://www.totalwireless.com/myaccount/managereserve'
+		},
+		'es' : {
+			'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+			'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+			'url' : 'https://www.totalwireless.com/myaccount/managereserve'
+		}}
+	},
+	'/refillforfriend' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/refillforfriend'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/refillforfriend'
+			}
+		}
+	},
+	'/checkout/:action' : {
+		'seo' : {
+			'en' : {
+				'title' : 'checkout | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/checkout/:action'
+			},
+			'es' : {
+				'title' : 'proceder con el pago | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/checkout/:action'
+			}
+		}
+	},
+	'/confirmation' : {
+		'seo' : {
+			'en' : {
+				'title' : 'order confirmation | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/confirmation'
+			},
+			'es' : {
+				'title' : 'confirmación del pedido | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/confirmation'
+			}
+		}
+	},
+	'/addons' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/addons'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/addons'
+			}
+		}
+	},
+	'/redemptionconfirmationSuccess' : {
+		'data-usage': false,
+		'manage-data-usage': false,
+		'international-calling': false,
+		'mobile-app': false,
+		'product-divider': true,
+		'product-divider-1': false,
+		'product-divider-2': false,
+		'lrp-component': false,
+		'seo' : {
+			'en' : {
+				'title' : 'Order Confirmation  | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/redemptionconfirmationSuccess'
+			},
+			'es' : {
+				'title' : 'Confirmación Del Pedido | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/redemptionconfirmationSuccess'
+			}
+		}
+	},
+	'/accountRenewalMain' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/accountRenewalMain'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/accountRenewalMain'
+			}
+		}
+	},
+	'/accountRenewalMain/:option' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/accountRenewalMain/:option'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/accountRenewalMain/:option'
+			}
+		}
+	},
+	'/addnowwarnings' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/addnowwarnings'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/addnowwarnings'
+			}
+		}
+	},
+	'/enrollorwarnings' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/enrollorwarnings'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/enrollorwarnings'
+			}
+		}
+	},
+	'/collectminpinpromo/:flow' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Stress Less & Save More With 30 Day Plans | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/collectminpinpromo/:flow'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/collectminpinpromo/:flow'
+			}
+		}
+	},
+	'/activation/selectdevicetype' : {
+		'have-phone' : true,
+		'have-tablet' : true,
+		'product-divider' : true,
+		'seo' : {
+			'en' : {
+				'title' : 'Select A Product & Active Online Now | Total Wireless',
+				'description' : 'Select between our phone calling cards, bring your own device and add service easily online today.',
+				'url' : 'https://www.totalwireless.com/activation/selectdevicetype'
+			},
+			'es' : {
+				'title' : 'Menos Estrés Y Más Ahorros Con Planes De 30 Días | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/activation/selectdevicetype'
+			}
+		}
+	},
+	'/protectyourphone/checkout': {
+		'mobile-protection-premium': true,
+		'coverage-begins': true,
+		'coverage-ends': true,
+		'payment': true,
+		'product-divider': true,
+		'product-divider-1': true,
+		'product-divider-2': true,
+		'enrolled-payment': true,
+		'seo' : {
+			'en' : {
+				'title' : 'checkout | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/protectyourphone/checkout'
+			},
+			'es' : {
+				'title' : 'proceder con el pago | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/protectyourphone/checkout'
+			}
+		}
+	},
+	'/protectyourphone/confirmation': {
+		'mobile-protection-premium': true,
+		'coverage-begins': true,
+		'coverage-ends': true,
+		'payment': true,
+		'product-divider': true,
+		'product-divider-1': true,
+		'product-divider-2': true,
+		'enrolled-payment': true,
+		'phone-number': true,
+		'next-charge-date': true,
+		'enrolled': true,
+		'total-amount': true,
+		'confirmation-divider': true,
+		'confirmation-divider-1': true,
+		'confirmation-divider-2': true,
+		'seo' : {
+			'en' : {
+				'title' : 'order confirmation | Total Wireless',
+				'description' : ' Become a Total boss when you sign up for our phone service, on the largest, most dependable 4G LTE network in America with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/protectyourphone/confirmation'
+			},
+			'es' : {
+				'title' : 'confirmación del pedido | Total Wireless',
+				'description' : 'Conviértete en un Jefe Total cuando te inscribas en nuestro servicio telefónico en la red 4G LTE más grande y más confiable del país con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/protectyourphone/confirmation'
+			}
+		}
+	},
+	'/shop/ild': {
+		'device-info-min-esn-sim': true,
+		'device-info-min': false,
+		'show-tabcontent-mobile': false,
+		'seo' : {
+			'en' : {
+				'title' : 'View Our International Calling Options | Total Wireless',
+				'description' : 'View our global calling card options at Total Wireless. We offer international calling from the US at a low, fixed cost.',
+				'url' : 'https://www.totalwireless.com/shop/ild'
+			},
+			'es' : {
+				'title' : 'Revisa Nuestras Opciones para Llamadas Internacionales | Total Wireless',
+				'description' : 'Revisa en Total Wireless nuestra Tarjeta Global de Llamadas. Ofrecemos llamadas internacionales desde EE. UU. con tarifas fijas y económicas.',
+				'url' : 'https://www.totalwireless.com/shop/ild'
+			}
+		}
+	},
+	'/activation/airtimepin' : {
+		'pin-activate' : true,
+		'purchase-activate' : false,
+		'product-divider' : false,
+		'data-user' : false,
+		'seo' : {
+			'en' : {
+				'title' : 'Unlimited Mobile, No Contract Cell Phone Plans | Simple Mobile',
+				'description' : 'SIMPLE Mobile was founded on the idea that there is a better way to do wireless. Unlimited plans starting at $25. Choose from hundreds of phones or bring your own.',
+				'url' : 'https://www.simplemobile.com/activation/airtimepin'
+			},
+			'es' : {
+				'title' : 'Unlimited Mobile, Planes de Teléfonos Celulares Sin Contrato | Simple Mobile',
+				'description' : 'SIMPLE Mobile se fundó en la idea de que existe una mejor manera de usar los teléfonos celulares. Planes ilimitados comenzando en $25. Elige entre cientos de teléfonos o trae tu propio teléfono.',
+				'url' : 'https://www.simplemobile.com/activation/airtimepin'
+			}
+		}
+	},
+	'/byop' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Bring Your Own Phone | BYOD | Total Wireless',
+				'description' : 'Bring your own phone from an old carrier, verify it works with our program, and easily activate and add a plan to your phone with Total Wireless.',
+				'url' : 'https://www.totalwireless.com/byop'
+			},
+			'es' : {
+				'title' : 'Trae Tu Propio Teléfono | BYOD | Total Wireless',
+				'description' : 'Trae tu propio teléfono de un proveedor de servicio viejo, verifica que funcione con nuestro programa, y activa y agrega fácilmente un plan a tu teléfono  con Total Wireless.',
+				'url' : 'https://www.totalwireless.com/byop'
+			}
+		}
+	},
+	'/serviceplan?session=reset' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Find Service Plans | Get The Right Plan for You | Total Wireless',
+				'description' : 'Find the best plan , and get it for a price you wouldn\'t expect with Total Wireless. Shop our plans today.',
+				'url' : 'https://www.totalwireless.com/serviceplan?session=reset'
+			},
+			'es' : {
+				'title' : 'Encuentra Planes de Servicio | Obtén el Plan Perfecto Para Ti | Total Wireless',
+				'description' : 'Encuentra el mejor plan para tu estilo de vida y consíguelo al precio más bajo con Total Wireless. ¡Compra nuestros planes hoy!',
+				'url' : 'https://www.totalwireless.com/serviceplan?session=reset'
+			}
+		}
+	},
+	'/shop' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Shop Phones, Service Plans, Data Plans & More | Total Wireless',
+				'description' : 'Total Wireless has the best phones, on the best network, all for a price you wouldn\'t expect.',
+				'url' : 'https://www.totalwireless.com/shop'
+			},
+			'es' : {
+				'title' : 'Compra Teléfonos, Planes de Servicio, Planes de Datos y Más | Total Wireless',
+				'description' : 'Total Wireless tiene los mejores teléfonos, en las mejores redes, todo, a un precio que no podrás creer.',
+				'url' : 'https://www.totalwireless.com/shop'
+			}
+		}
+	},
+	'/why' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Why Total Wireless |  Keep In Contact Constantly',
+				'description' : 'You’re busy and it’s hard to stay in touch, so you’ll love how easy it is to move to better wireless. You got this - and we got you.',
+				'url' : 'https://www.totalwireless.com/why'
+			},
+			'es' : {
+				'title' : 'Encuentra Las Razones Por Las Que Deberías Unirte A Nuestra Red | Total Wireless',
+				'description' : 'Descubre por qué Total Wireless deja a la competencia fuera de juego, y las ventajas que le brindamos a nuestros clientes con las que otros no pueden competir.   ',
+				'url' : 'https://www.totalwireless.com/why'
+			}
+		}
+	},
+	'/sitemap' : {
+		'seo' : {
+			'en' : {
+				'title' : 'All Pages On Our Site In One Convenient Place | Total Wireless',
+				'description' : 'Find all pages on our site in one location, and browse our offerings today at Total Wireless.',
+				'url' : 'https://www.totalwireless.com/sitemap'
+			},
+			'es' : {
+				'title' : 'Todas La Páginas En Nuestro Sitio En Un Solo Lugar Conveniente | Total Wireless',
+				'description' : '¡Encuentra todas las páginas de nuestro sitio en un solo lugar y navega por nuestras ofertas hoy en Total Wireless!',
+				'url' : 'https://www.totalwireless.com/sitemap'
+			}
+		}
+	},
+	'/techsupport' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Get Technical Support on Phones, SIM Cards & More | Total Wireless',
+				'description' : 'Get all your questions answered regarding Total Wireless products, services, and more on our support page.',
+				'url' : 'https://www.totalwireless.com/techsupport'
+			},
+			'es' : {
+				'title' : 'Obtén Asistencia Técnica en Teléfonos, Tarjetas SIM y Más | Total Wireless',
+				'description' : 'Obtén todas las respuestas a tus preguntas sobre los productos, servicios y más de Total Wireless en nuestra página de asistencia.',
+				'url' : 'https://www.totalwireless.com/techsupport'
+			}
+		}
+	},
+	'/howitworks' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Getting Started With Total Wireless, How It Works | Total Wireless',
+				'description' : 'In a few easy steps, you can make the move to something better with Total Wireless. View how it works here.',
+				'url' : 'https://www.totalwireless.com/howitworks'
+			},
+			'es' : {
+				'title' : 'Comienza Con Total Wireless, Cómo Funciona | Total Wireless',
+				'description' : 'Con Total Wireless puedes cambiarte a algo mejor con algunos pasos sencillos. Mira cómo funciona aquí.',
+				'url' : 'https://www.totalwireless.com/howitworks'
+			}
+		}
+	},
+	'/ildrates' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Check International Calling Rates And Plans by Country | Total Wireless',
+				'description' : 'Select the international calling plan that works for you based on minutes, price or convenience with Total Wireless. We offer plans worldwide.',
+				'url' : 'https://www.totalwireless.com/ildrates'
+			},
+			'es' : {
+				'title' : 'Revisa Las Tarifas De Llamadas Internacionales Y Planes | Total Wireless',
+				'description' : 'En Total Wireless selecciona el plan de llamadas internacionales que más te convenga, dependiendo de los minutos o el precio.',
+				'url' : 'https://www.totalwireless.com/ildrates'
+			}
+		}
+	},
+	'/ilddestinations' : {
+		'seo' : {
+			'en' : {
+				'title' : 'International Destinations & Countries With Service | Total Wireless',
+				'description' : 'Find the country you plan to travel to amongst our long list of countries with availability, and add a plan with Total Wireless!',
+				'url' : 'https://www.totalwireless.com/ilddestinations'
+			},
+			'es' : {
+				'title' : 'Destinos Internacionales Y Países Con Servicio | Total Wireless',
+				'description' : '¡Encuentra el país al que planeas viajar en nuestra larga lista de países disponibles y agrega un plan con Total Wireless!',
+				'url' : 'https://www.totalwireless.com/ilddestinations'
+			}
+		}
+	},
+	'/contactus' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Contact Us for Support | Total Wireless',
+				'description' : 'Contact Total Wireless for support on phones, devices, plans, or general inquiries. You can reach us by phone, mail, or email.',
+				'url' : 'https://www.totalwireless.com/contactus'
+			},
+			'es' : {
+				'title' : 'Contáctanos Para Asistencia| Total Wireless',
+				'description' : 'Contacta a Total Wireless para obtener asistencia sobre teléfonos, dispositivos, planes o consultas en general.  Puedes contactarnos por teléfono, correo postal o correo electrónico.',
+				'url' : 'https://www.totalwireless.com/contactus'
+			}
+		}
+	},
+	'/coverage/check' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Nationwide Coverage On America\'s Largest, Most Dependable Network | Total Wireless',
+				'description' : 'Our coverage map shows places with coverage across the United States, on America\'s largest and most dependable 4G LTE networks.',
+				'url' : 'https://www.totalwireless.com/coverage/check'
+			},
+			'es' : {
+				'title' : 'Cobertura Nacional en la Red más Grande y Confiable del País |Total Wireless',
+				'description' : 'Nuestro mapa te muestra los lugares con cobertura a lo largo de Estados Unidos, en las redes 4G LTE más grandes y más confiables del país.',
+				'url' : 'https://www.totalwireless.com/coverage/check'
+			}
+		}
+	},
+	'/findastore' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Find A Phone Provider or Retailer Near You | Total Wireless',
+				'description' : 'Don\'t wait for shipping, find a store near you that sells the latest phones, or visit one the Total Wireless Store.',
+				'url' : 'https://www.totalwireless.com/findastore'
+			},
+			'es' : {
+				'title' : 'Encuentra un Proveedor de Servicio Telefónico o una Tienda Cerca de ti | Total Wireless',
+				'description' : '¿No tienes ganas de esperar el envío? ¡Encuentra una tienda cerca de ti que venda nuestros increíbles teléfonos o visita una de nuestras tiendas Total Wireless!',
+				'url' : 'https://www.totalwireless.com/findastore'
+			}
+		}
+	},
+	'/termsandconditions' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Terms and Conditions | Total Wireless',
+				'description' : 'Read through all our terms & conditions to find out about activating a device, terminating a device, service plans and much more.',
+				'url' : 'https://www.totalwireless.com/termsandconditions'
+			},
+			'es' : {
+				'title' : 'Términos y Condiciones | Total Wireless',
+				'description' : 'Lee todos nuestros términos y condiciones del servicio para obtener información sobre cómo activar un dispositivo, cancelar un dispositivo, planes de servicio y mucho más.',
+				'url' : 'https://www.totalwireless.com/termsandconditions'
+			}
+		}
+	},
+	'/vendorcode' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Vendor Code of Conduct  | Total Wireless',
+				'description' : 'At Total Wireless, you can read our business ethics & values, employment practices, legal & compliance requirements, and more.',
+				'url' : 'https://www.totalwireless.com/vendorcode'
+			},
+			'es' : {
+				'title' : 'Código De Conducta Del Proveedor | Total Wireless',
+				'description' : 'En Total Wireless puedes leer sobre nuestros valores de ética profesional, prácticas de empleo, requerimientos de cumplimiento legal y más.',
+				'url' : 'https://www.totalwireless.com/vendorcode'
+			}
+		}
+	},
+	'/privacypolicy' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Privacy Policy, Use Of Personal Information  | Total Wireless',
+				'description' : 'Read through our privacy policy at Total Wireless and gain an understanding of the collection of personal information, what information is collected, and more.',
+				'url' : 'https://www.totalwireless.com/privacypolicy'
+			},
+			'es' : {
+				'title' : 'Política de Privacidad, Uso De Información Personal  | Total Wireless',
+				'description' : 'Lee nuestra política de privacidad en Total Wireless e infórmate sobre la recopilación de información personal, que información se recopila y más.',
+				'url' : 'https://www.totalwireless.com/privacypolicy'
+			}
+		}
+	},
+	'/hearingaid' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Hearing Aid Compatibility | Total Wireless',
+				'description' : 'Browse our large selection of phones with hearing-aid compatibility at Total Wireless.',
+				'url' : 'https://www.totalwireless.com/hearingaid'
+			},
+			'es' : {
+				'title' : 'Compatibilidad De Ayuda Auditiva  | Total Wireless',
+				'description' : 'Explora nuestra gran selección de teléfonos compatibles con ayuda auditiva en Total Wireless.',
+				'url' : 'https://www.totalwireless.com/hearingaid'
+			}
+		}
+	},
+	'/survey' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Take Our Survey & Provide Feedback On Our Service | Total Wireless',
+				'description' : 'Allow Total Wireless to better itself by providing us details of your experience, service, phone, or anything else you think we should know. Take our survey today.',
+				'url' : 'https://www.totalwireless.com/survey'
+			},
+			'es' : {
+				'title' : 'Haz Nuestra Encuesta & Danos Tu Opinión Sobre Nuestro Servicio | Total Wireless',
+				'description' : 'Permite que Total Wireless siga mejorando ofreciéndonos detalles de tu experiencia, servicio, teléfono o cualquier otra cosa que creas que debamos saber. ¡Haz nuestra encuesta hoy!',
+				'url' : 'https://www.totalwireless.com/survey'
+			}
+		}
+	},
+	'/rewards' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Join Our Rewards Program to Get the Latest Deals  | Total Wireless',
+				'description' : 'Our rewards program is a FREE program that allows you to gain points, which can be earned in several different ways, including playing games, answering polls, etc.',
+				'url' : 'https://www.totalwireless.com/rewards'
+			},
+			'es' : {
+				'title' : 'Únete a Nuestro Programa "Rewards" para que Obtengas las Ofertas del Momento | Total Wireless',
+				'description' : 'Nuestro programa "Rewards" es GRATUITO y te permite ganar puntos de diferentes maneras, como con juegos, respondiendo encuestas, etc.',
+				'url' : 'https://www.totalwireless.com/rewards'
+			}
+		}
+	},
+	'/activation/phonecurrentlyactive' : {
+		'seo' : {
+			'en' : {
+				'title' : 'is your phone or device currently active  | Total Wireless',
+				'description' : 'Get Total Confidence when you move to the best deal in wireless,  on America\'s largest, most dependable 4G LTE network with Total Wireless.',
+				'url' : 'https://www.totalwireless.com'
+			},
+			'es' : {
+				'title' : 'está tu teléfono o dispositivo activado en este momento | Total Wireless',
+				'description' : 'Con Total Wireless, cámbiate con total confianza a la mejor oferta en servicio inalámbrico, con cobertura en la red 4G LTE más grande y confiable del país.',
+				'url' : 'https://www.totalwireless.com?lang=es'
+			}
+		}
+	},
+	'/activation/portupgradeinstructions/PIN_FLOW' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Instructions For Activating Your Device  | Total Wireless',
+				'description' : 'Get Total Confidence when you move to the best deal in wireless,  on America\'s largest, most dependable 4G LTE network with Total Wireless.',
+				'url' : 'https://www.totalwireless.com'
+			},
+			'es' : {
+				'title' : 'Instrucciones Para Activar Tu Dispositivo | Total Wireless',
+				'description' : 'Con Total Wireless, cámbiate con total confianza a la mejor oferta en servicio inalámbrico, con cobertura en la red 4G LTE más grande y confiable del país.',
+				'url' : 'https://www.totalwireless.com?lang=es'
+			}
+		}
+	},
+	'/activation/pininstructions/PIN_FLOW' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Instructions For Activating Your Device  | Total Wireless',
+				'description' : 'Get Total Confidence when you move to the best deal in wireless,  on America\'s largest, most dependable 4G LTE network with Total Wireless.',
+				'url' : 'https://www.totalwireless.com'
+			},
+			'es' : {
+				'title' : 'Instrucciones Para Activar Tu Dispositivo | Total Wireless',
+				'description' : 'Con Total Wireless, cámbiate con total confianza a la mejor oferta en servicio inalámbrico, con cobertura en la red 4G LTE más grande y confiable del país.',
+				'url' : 'https://www.totalwireless.com?lang=es'
+			}
+		}
+	},
+	'/activation/pincheckout' : {
+		'seo' : {
+			'en' : {
+				'title' : 'View All Of Devices  | Total Wireless',
+				'description' : 'Get Total Confidence when you move to the best deal in wireless,  on America\'s largest, most dependable 4G LTE network with Total Wireless.',
+				'url' : 'https://www.totalwireless.com'
+			},
+			'es' : {
+				'title' : 'Ver Todos Tus Dispositivos | Total Wireless',
+				'description' : 'Con Total Wireless, cámbiate con total confianza a la mejor oferta en servicio inalámbrico, con cobertura en la red 4G LTE más grande y confiable del país.',
+				'url' : 'https://www.totalwireless.com?lang=es'
+			}
+		}
+	},
+	'/hpp/landing' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Protect Your Phone  | Total Wireless',
+				'description' : 'protect your phone , accidents happen. See if you are eligible',
+				'url' : 'https://www.totalwireless.com/hpp/landing'
+			},
+			'es' : {
+				'title' : 'protege tu teléfono | Total Wireless',
+				'description' : 'protege tu teléfono , los accidentes occurren. Saber si eres elegible',
+				'url' : 'https://www.totalwireless.com/hpp/landing?lang=es'
+			}
+		}
+	},
+	'/hpp/plans' : {
+		'seo' : {
+			'en' : {
+				'title' : 'Add more value to your purchase  | Total Wireless',
+				'description' : 'See Protection Plans.',
+				'url' : 'https://www.totalwireless.com/hpp/plans'
+			},
+			'es' : {
+				'title' : 'Agrega más valor a tu compra | Total Wireless',
+				'description' : 'Ver ?Planes de Protección?.',
+				'url' : 'https://www.totalwireless.com/hpp/plans?lang=es'
+			}
+		}
+	}
+};

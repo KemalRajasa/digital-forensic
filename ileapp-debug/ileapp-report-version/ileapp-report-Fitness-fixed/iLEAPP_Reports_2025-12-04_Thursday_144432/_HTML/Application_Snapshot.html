@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>iLEAPP - Application Snapshot report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="_elements/all.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="_elements/Roboto.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chats.css">
+        
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+
+        <!-- Icons -->
+        <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
+        <script src="_elements/feather.min.js"></script>
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">iLEAPP 2.3.0</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Saved Reports
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">
+                <span data-feather="home"></span> Report Home
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Accounts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Account_Configuration.html">
+                <span data-feather="user"></span> Account Configuration
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Account_Data.html">
+                <span data-feather="user"></span> Account Data
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            App Permissions
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Permissions.html">
+                <span data-feather="key"></span> Application Permissions
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            App Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_App_Usage.html">
+                <span data-feather="activity"></span> knowledgeC - App Usage
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Apple Wallet
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="PK_Pass_-_Apple Cash.html">
+                <span data-feather="credit-card"></span> PK Pass - Apple Cash
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Biome
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Backlight.html">
+                <span data-feather="eye"></span> Biome - Backlight
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Device_Syncs.html">
+                <span data-feather="eye"></span> Biome - Device Syncs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Notifications.html">
+                <span data-feather="eye"></span> Biome - Notifications
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Now_Playing.html">
+                <span data-feather="eye"></span> Biome - Now Playing
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Text_Input_Session.html">
+                <span data-feather="eye"></span> Biome - Text Input Session
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_User_Activity_Metadata.html">
+                <span data-feather="eye"></span> Biome - User Activity Metadata
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_Intents_-_663528486816806.html">
+                <span data-feather="eye"></span> Biome Intents - 663528486816806
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Bluetooth
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bluetooth_Other_LE.html">
+                <span data-feather="bluetooth"></span> Bluetooth Other LE
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Browser
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WebKit_Cache_Records.html">
+                <span data-feather="alert-triangle"></span> WebKit Cache Records
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Bumble
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bumble_-_Account_Details.html">
+                <span data-feather="user"></span> Bumble - Account Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bumble_-_Messages.html">
+                <span data-feather="message-circle"></span> Bumble - Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Business
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Wire_Secure_Messenger_Account.html">
+                <span data-feather="user"></span> Wire Secure Messenger Account
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cache Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="fsCachedData.html">
+                <span data-feather="box"></span> fsCachedData
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Calendar
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_Birthdays.html">
+                <span data-feather="gift"></span> Calendar Birthdays
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_Events.html">
+                <span data-feather="calendar"></span> Calendar Events
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_List.html">
+                <span data-feather="calendar"></span> Calendar List
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Call History
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_History_-_Group_Call.html">
+                <span data-feather="phone-call"></span> Call History - Group Call
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_History.html">
+                <span data-feather="phone-call"></span> Call History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="interactionC_Call_History_-_Group_Call.html">
+                <span data-feather="phone-call"></span> interactionC Call History - Group Call
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cellular
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Cellular_Wireless.html">
+                <span data-feather="alert-triangle"></span> Cellular Wireless
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Clock
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Alarms.html">
+                <span data-feather="clock"></span> Alarms
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Timers.html">
+                <span data-feather="clock"></span> Timers
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WorldClock.html">
+                <span data-feather="clock"></span> WorldClock
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cloudkit
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Note_Sharing.html">
+                <span data-feather="share-2"></span> Note Sharing
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Connected Devices
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Devices.html">
+                <span data-feather="smartphone"></span> Connected Devices
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Control Center
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Control_Center_Configuration.html">
+                <span data-feather="alert-triangle"></span> Control Center Configuration
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Core Accessories
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AccessoryD.html">
+                <span data-feather="zap"></span> AccessoryD
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="User_Event_Agent.html">
+                <span data-feather="activity"></span> User Event Agent
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Device Information
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Device_Information_-_Connected_Device_and_OS_History.html">
+                <span data-feather="smartphone"></span> Connected Device Information - Connected Device and OS History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Device_Information_-_Consolidated_Connected_Device_History.html">
+                <span data-feather="smartphone"></span> Connected Device Information - Consolidated Connected Device History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Device_Data.html">
+                <span data-feather="info"></span> Device Data
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Device Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Snapshot_lastUsedDate.html">
+                <span data-feather="smartphone"></span> Application Snapshot lastUsedDate
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link  active" href="Application_Snapshot.html">
+                <span data-feather="smartphone"></span> Application Snapshot
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Lock_Status.html">
+                <span data-feather="smartphone"></span> knowledgeC - Device Lock Status
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Screen_Status.html">
+                <span data-feather="smartphone"></span> knowledgeC - Device Screen Status
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Discord
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Discord_-_Chats.html">
+                <span data-feather="message-circle"></span> Discord - Chats
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Discord_Account.html">
+                <span data-feather="user"></span> Discord Account
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Files App
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_Files_stored_in_iCloud_Drive.html">
+                <span data-feather="cloud"></span> Files App - Files stored in iCloud Drive
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_Operating_System_Updates.html">
+                <span data-feather="refresh-cw"></span> Files App - Operating System Updates
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_iCloud_Application_List.html">
+                <span data-feather="package"></span> Files App - iCloud Application List
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Gmail
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Gmail_-_Label_Details.html">
+                <span data-feather="mail"></span> Gmail - Label Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Gmail_-_Offline_Search.html">
+                <span data-feather="search"></span> Gmail - Offline Search
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Health
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Health_-_Provenances.html">
+                <span data-feather="smartphone"></span> Health - Provenances
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Health_-_Steps.html">
+                <span data-feather="activity"></span> Health - Steps
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Health & Fitness
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AllTrails_-_Trail_Details.html">
+                <span data-feather="map"></span> AllTrails - Trail Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AllTrails_-_User_Info.html">
+                <span data-feather="user"></span> AllTrails - User Info
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            IOS Build
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Information.html">
+                <span data-feather="git-commit"></span> iOS Information
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Identifiers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Backup_Settings.html">
+                <span data-feather="save"></span> Backup Settings
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Find_My_iPhone_Settings.html">
+                <span data-feather="settings"></span> Find My iPhone Settings
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="IMEI_-_IMSI.html">
+                <span data-feather="settings"></span> IMEI - IMSI
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Location_Services.html">
+                <span data-feather="navigation"></span> Location Services
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Obliterated_Time.html">
+                <span data-feather="settings"></span> Obliterated Time
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Preferences_PList.html">
+                <span data-feather="settings"></span> Preferences PList
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Subscriber_Info.html">
+                <span data-feather="settings"></span> Subscriber Info
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Timezone_Information.html">
+                <span data-feather="settings"></span> Timezone Information
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WIFI_Identifiers.html">
+                <span data-feather="settings"></span> WIFI Identifiers
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Message_Retention.html">
+                <span data-feather="message-circle"></span> iOS Message Retention
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Identity Lookup Service
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Identity_Lookup_Service.html">
+                <span data-feather="user-check"></span> Identity Lookup Service
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Installed Apps
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="App_Snapshots.html">
+                <span data-feather="package"></span> App Snapshots
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_State.html">
+                <span data-feather="package"></span> Application State
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_User_Defaults.html">
+                <span data-feather="package"></span> Application User Defaults
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Itunes_Metadata.html">
+                <span data-feather="package"></span> Apps - Itunes Metadata
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bundle_ID_by_AppGroup_&_PluginKit_IDs.html">
+                <span data-feather="package"></span> Bundle ID by AppGroup & PluginKit IDs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Installed_Apps_(storeUser).html">
+                <span data-feather="package"></span> Installed Apps (storeUser)
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Purchased_Apps_History_(storeUser).html">
+                <span data-feather="shopping-cart"></span> Purchased Apps History (storeUser)
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            InteractionC
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Contacts.html">
+                <span data-feather="user"></span> Contacts
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            KnowledgeC
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Battery_Percentage.html">
+                <span data-feather="battery"></span> knowledgeC - Battery Percentage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Plugin_Status.html">
+                <span data-feather="battery-charging"></span> knowledgeC - Device Plugin Status
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Media_Playing.html">
+                <span data-feather="play-circle"></span> knowledgeC - Media Playing
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Location
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Applications.html">
+                <span data-feather="alert-triangle"></span> Applications
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Map_Tile_Cache.html">
+                <span data-feather="alert-triangle"></span> Map Tile Cache
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="PD_Place_Cache.html">
+                <span data-feather="alert-triangle"></span> PD Place Cache
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Location Services Configurations
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_clients.plist.html">
+                <span data-feather="settings"></span> LSC - clients.plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_com.apple.locationd.plist.html">
+                <span data-feather="settings"></span> LSC - com.apple.locationd.plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_com.apple.routined.plist.html">
+                <span data-feather="settings"></span> LSC - com.apple.routined.plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Locations
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_ATXDatastore.html">
+                <span data-feather="map-pin"></span> iOS ATXDatastore
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Activation Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Activation_Logs.html">
+                <span data-feather="clipboard"></span> Mobile Activation Logs
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Backup
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Backup.html">
+                <span data-feather="alert-triangle"></span> Mobile Backup
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Backup Plist
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Backup_plist.html">
+                <span data-feather="settings"></span> Mobile Backup plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Container Manager
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Container_Manager.html">
+                <span data-feather="save"></span> Mobile Container Manager
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Installation Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Historical_Combined.html">
+                <span data-feather="clipboard"></span> Apps - Historical Combined
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Historical.html">
+                <span data-feather="clipboard"></span> Apps - Historical
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Installed.html">
+                <span data-feather="clipboard"></span> Apps - Installed
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Uninstalled.html">
+                <span data-feather="clipboard"></span> Apps - Uninstalled
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="State_-_Reboots.html">
+                <span data-feather="clipboard"></span> State - Reboots
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Network Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Data_Usage.html">
+                <span data-feather="send"></span> Data Usage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Network_Usage_(netusage)_-_App_Data.html">
+                <span data-feather="send"></span> Network Usage (netusage) - App Data
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Network_Usage_(netusage)_-_Connections.html">
+                <span data-feather="bar-chart"></span> Network Usage (netusage) - Connections
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Notes
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Notes.html">
+                <span data-feather="file-text"></span> Notes
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Notifications
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Notifications_Duet_-_663528487136197.html">
+                <span data-feather="bell"></span> Notifications Duet - 663528487136197
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Notifications.html">
+                <span data-feather="bell"></span> iOS Notifications
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            OS Updates
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Migrations.html">
+                <span data-feather="chevrons-up"></span> Migrations
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos-Z-Settings
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph80-Com-Apple-MobileSlideshow-Plist.html">
+                <span data-feather="settings"></span> Ph80-Com-Apple-MobileSlideshow-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph81-Com-Apple-Camera-Plist.html">
+                <span data-feather="settings"></span> Ph81-Com-Apple-Camera-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph82-Com-Apple-MediaAnalysisD-Plist.html">
+                <span data-feather="book"></span> Ph82-Com-Apple-MediaAnalysisD-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph83-Com-Apple-PurpleBuddy-Plist.html">
+                <span data-feather="settings"></span> Ph83-Com-Apple-PurpleBuddy-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph85-accountsd-cloud-Service-Enable-Log-Plist.html">
+                <span data-feather="settings"></span> Ph85-accountsd-cloud-Service-Enable-Log-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph86-assetsd-cloud-Service-Enable-Log-Plist.html">
+                <span data-feather="settings"></span> Ph86-assetsd-cloud-Service-Enable-Log-Plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-A-Asset_Basic_Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph1.1-Asset_Basic_Data-PhDaPsql.html">
+                <span data-feather="image"></span> Ph1.1-Asset Basic Data-PhDaPsql
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph2.1-Asset_Basic_Data_&_GenAlbum_Data-PhDaPsql.html">
+                <span data-feather="image"></span> Ph2.1-Asset Basic Data & GenAlbum Data-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-C-Other_Artifacts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph10.1-Assets_have_embedded_files-PhDaPsql.html">
+                <span data-feather="file-plus"></span> Ph10.1-Assets have embedded files-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-D-Generic_Album_Records-NAD
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph20.1-Album_Records_NAD-PhDaPsql.html">
+                <span data-feather="book"></span> Ph20.1-Album Records NAD-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-H-Possible_User_Adjusted_Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph73.1-Possible_Adjust_Date-PhDaPsql.html">
+                <span data-feather="edit"></span> Ph73.1-Possible Adjust Date-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-I-Asset_IntResou-Optimization
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph50.1-Asset_IntResou-PhDaPsql.html">
+                <span data-feather="database"></span> Ph50.1-Asset IntResou-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-R-Reference_for_Asset_Analysis
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph95.1-iOS15_Ref_for_Asset_Analysis-PhDaPsql.html">
+                <span data-feather="database"></span> Ph95.1-iOS15 Ref for Asset Analysis-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-S-Syndication_PL_Artifacts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph20.2-Album_Records_NAD-SyndPL.html">
+                <span data-feather="book"></span> Ph20.2-Album Records NAD-SyndPL
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph25.2-SWY_Conversation_Records_NAD-SyndPL.html">
+                <span data-feather="message-square"></span> Ph25.2-SWY Conversation Records NAD-SyndPL
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph50.2-Asset_IntResou-SyndPL.html">
+                <span data-feather="database"></span> Ph50.2-Asset IntResou-SyndPL
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SIM Info
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SIM_-_UUID.html">
+                <span data-feather="info"></span> SIM - UUID
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SIM_-_Unique_Label_Store.html">
+                <span data-feather="info"></span> SIM - Unique Label Store
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SMS & iMessage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS_&_iMessage_-_Messages_(Threaded).html">
+                <span data-feather="message-square"></span> SMS & iMessage - Messages (Threaded)
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS.html">
+                <span data-feather="message-square"></span> SMS
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SQLite Journaling
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Strings_-_SQLite_Journal_&_WAL.html">
+                <span data-feather="book-open"></span> Strings - SQLite Journal & WAL
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Safari Browser
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bookmarks.html">
+                <span data-feather="compass"></span> Bookmarks
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Favicons.html">
+                <span data-feather="compass"></span> Favicons
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Recent_WebSearches.html">
+                <span data-feather="compass"></span> Recent WebSearches
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Safari_Browser_-_History.html">
+                <span data-feather="compass"></span> Safari Browser - History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Safari_Browser_-_iCloud_Tabs.html">
+                <span data-feather="compass"></span> Safari Browser - iCloud Tabs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Search_Terms.html">
+                <span data-feather="compass"></span> Search Terms
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Siri Remembers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Siri_Remembers_-_Calls.html">
+                <span data-feather="alert-triangle"></span> Siri Remembers - Calls
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Siri_Remembers_-_Messages.html">
+                <span data-feather="alert-triangle"></span> Siri Remembers - Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Spotlight Searches
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="ParseCD_Cache.html">
+                <span data-feather="alert-triangle"></span> ParseCD Cache
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Sysdiagnose
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Sysdiagnose_-_Shutdown_Log_Processes.html">
+                <span data-feather="loader"></span> Sysdiagnose - Shutdown Log Processes
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Sysdiagnose_-_Shutdown_Log_Reboots.html">
+                <span data-feather="refresh-cw"></span> Sysdiagnose - Shutdown Log Reboots
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Trusted Peers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Trusted_Peers.html">
+                <span data-feather="alert-triangle"></span> Trusted Peers
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            User Activity
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Application_Usage.html">
+                <span data-feather="alert-triangle"></span> Keyboard Application Usage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Dynamic_Lexicon.html">
+                <span data-feather="alert-triangle"></span> Keyboard Dynamic Lexicon
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Usage_Stats.html">
+                <span data-feather="alert-triangle"></span> Keyboard Usage Stats
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            WiFi Connections
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_BSS_List.html">
+                <span data-feather="wifi"></span> WiFi BSS List
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_Known_Networks_Info.html">
+                <span data-feather="wifi"></span> WiFi Known Networks Info
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_Known_Networks_Times.html">
+                <span data-feather="wifi"></span> WiFi Known Networks Times
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            iOS Screens
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_per_screen.html">
+                <span data-feather="maximize"></span> Apps per screen
+            </a>
+        </li>
+        
+    <script>
+        feather.replace();
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <img src="_elements/iLEAPP_banner.png" alt="iLEAPP banner">
+                    <h3 class="display-5">Application Snapshot report</h1>
+                    <h6 class="animated fadeIn mb-3">Extract XBApplicationSnapshotManifest records from applicationState.db. NOTE: these timestamps do not always indicate application usage but experiments on an iPhone 8 with iOS 16.7.7 suggest that these timestamps do indicate user-interaction with the device, such as switching between apps.</h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 290</h6><p class="lead">Application Snapshot located at: /home/rjskali/forensic/ileapp_report6/iLEAPP_Reports_2025-12-04_Thursday_144432/data/private/var/mobile/Library/FrontBoard/applicationState.db</p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">Creation Date</th><th class="th-sm">Bundle ID</th><th class="th-sm">Snapshot Group</th><th class="th-sm">Snapshot Index</th><th class="th-sm">Expiration Date</th><th class="th-sm">Last Used Date</th><th class="th-sm">Launch Interface Identifier</th><th class="th-sm">Relative Path</th><th class="th-sm">Group ID</th><th class="th-sm">Image Scale</th><th class="th-sm">Fullscreen</th><th class="th-sm">Name</th><th class="th-sm">Interface Orientation</th><th class="th-sm">File Location</th><th class="th-sm">Background Style</th><th class="th-sm">Identifier</th><th class="th-sm">Reference Size</th><th class="th-sm">Content Type</th><th class="th-sm">Image Opaque</th><th class="th-sm">Required OS Version</th></tr></thead><tbody><tr><td>2022-01-06 22:41:37.235770</td><td>com.apple.BarcodeScanner</td><td>com.apple.BarcodeScanner - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>DB763A12-7AFD-432E-971F-C9E32DF56A8B@2x.ktx</td><td>com.apple.BarcodeScanner - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DB763A12-7AFD-432E-971F-C9E32DF56A8B</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.258750</td><td>com.apple.BarcodeScanner</td><td>com.apple.BarcodeScanner - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>F2C36F48-CF43-4123-BFFB-03918DAD5330@2x.ktx</td><td>com.apple.BarcodeScanner - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F2C36F48-CF43-4123-BFFB-03918DAD5330</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.212207</td><td>com.apple.BarcodeScanner</td><td>com.apple.BarcodeScanner - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>503D1D87-E343-4B12-A2A8-24BE0139D95C@2x.ktx</td><td>com.apple.BarcodeScanner - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>503D1D87-E343-4B12-A2A8-24BE0139D95C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.177984</td><td>com.apple.BarcodeScanner</td><td>com.apple.BarcodeScanner - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>93DBE067-D97C-4E7A-AE75-0A80F5300AA3@2x.ktx</td><td>com.apple.BarcodeScanner - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>93DBE067-D97C-4E7A-AE75-0A80F5300AA3</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.316700</td><td>com.apple.WebSheet</td><td>com.apple.WebSheet - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>AD287E0C-37C0-41A4-855B-028A019ED2CF@2x.ktx</td><td>com.apple.WebSheet - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>AD287E0C-37C0-41A4-855B-028A019ED2CF</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.359900</td><td>com.apple.WebSheet</td><td>com.apple.WebSheet - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>01ACAA50-BF89-4A21-A1BC-A4479C921B20@2x.ktx</td><td>com.apple.WebSheet - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>01ACAA50-BF89-4A21-A1BC-A4479C921B20</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.294395</td><td>com.apple.WebSheet</td><td>com.apple.WebSheet - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>59BF3DC4-1D8F-4308-BE4B-204AF7B34BE6@2x.ktx</td><td>com.apple.WebSheet - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>59BF3DC4-1D8F-4308-BE4B-204AF7B34BE6</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.339286</td><td>com.apple.WebSheet</td><td>com.apple.WebSheet - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>3181701D-243F-4A5A-9802-91B65568D0B8@2x.ktx</td><td>com.apple.WebSheet - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>3181701D-243F-4A5A-9802-91B65568D0B8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.404690</td><td>com.apple.purplebuddy</td><td>com.apple.purplebuddy - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-10 17:26:53.092238</td><td>__from_UILaunchStoryboardName__</td><td>5E9E6FA5-753D-4D2E-817E-91FB561A7348@2x.ktx</td><td>com.apple.purplebuddy - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>5E9E6FA5-753D-4D2E-817E-91FB561A7348</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.427060</td><td>com.apple.purplebuddy</td><td>com.apple.purplebuddy - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>5555735B-4FC9-4783-BB77-A166C4B5C2EC@2x.ktx</td><td>com.apple.purplebuddy - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>5555735B-4FC9-4783-BB77-A166C4B5C2EC</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.665200</td><td>com.apple.findmy</td><td>com.apple.findmy - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>B1BB11E2-6EF6-420B-A49A-472ACEED589B@2x.ktx</td><td>com.apple.findmy - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>B1BB11E2-6EF6-420B-A49A-472ACEED589B</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.750046</td><td>com.apple.findmy</td><td>com.apple.findmy - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>1C35A57C-0F20-43B3-A671-6EF12A4F54AC@2x.ktx</td><td>com.apple.findmy - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>1C35A57C-0F20-43B3-A671-6EF12A4F54AC</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.881337</td><td>com.apple.Preferences</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-02-14 16:56:58.239151</td><td>__from_UILaunchStoryboardName__</td><td>9D73F2E4-DC47-4036-B230-CEED5CAF0F2E@2x.ktx</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9D73F2E4-DC47-4036-B230-CEED5CAF0F2E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-02-04 01:15:02.701043</td><td>com.apple.Preferences</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4EEF01B9-4A4B-4374-B1B9-31B1643C4DA3@2x.ktx</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4EEF01B9-4A4B-4374-B1B9-31B1643C4DA3</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.912437</td><td>com.apple.Preferences</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>1248DB95-40EE-49AB-8C07-CC0CE809E782@2x.ktx</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>1248DB95-40EE-49AB-8C07-CC0CE809E782</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.845480</td><td>com.apple.Preferences</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>7D860802-7E7E-447E-95B6-E7A9D48A15C8@2x.ktx</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>7D860802-7E7E-447E-95B6-E7A9D48A15C8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.936962</td><td>com.apple.Preferences</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>4</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>B1CDA2BA-723D-4B4F-B267-81BC2E9F3A6A@2x.ktx</td><td>com.apple.Preferences - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>B1CDA2BA-723D-4B4F-B267-81BC2E9F3A6A</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.048281</td><td>com.apple.mobileslideshow</td><td>com.apple.mobileslideshow - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C25F0B88-2895-46C3-BDC6-51BE8CE355B0@2x.ktx</td><td>com.apple.mobileslideshow - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C25F0B88-2895-46C3-BDC6-51BE8CE355B0</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:37.990408</td><td>com.apple.mobileslideshow</td><td>com.apple.mobileslideshow - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>D0E6D4E0-5247-4CDC-9C47-FE0782A58E5C@2x.ktx</td><td>com.apple.mobileslideshow - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>D0E6D4E0-5247-4CDC-9C47-FE0782A58E5C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.073435</td><td>com.apple.mobileslideshow</td><td>com.apple.mobileslideshow - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>EAF77EC4-86E5-485F-AFB9-79B9F8973A0C@2x.ktx</td><td>com.apple.mobileslideshow - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EAF77EC4-86E5-485F-AFB9-79B9F8973A0C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.015953</td><td>com.apple.mobileslideshow</td><td>com.apple.mobileslideshow - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>E3B0396C-B5EE-4320-9A2A-810BD1217CF7@2x.ktx</td><td>com.apple.mobileslideshow - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E3B0396C-B5EE-4320-9A2A-810BD1217CF7</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.135670</td><td>com.apple.ScreenSharingViewService</td><td>com.apple.ScreenSharingViewService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2921D84A-3E3A-47E3-9D22-A6587B6DC123@2x.ktx</td><td>com.apple.ScreenSharingViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2921D84A-3E3A-47E3-9D22-A6587B6DC123</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.208315</td><td>com.apple.ScreenSharingViewService</td><td>com.apple.ScreenSharingViewService - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4914C2D3-D16A-49FD-B6AB-F08C095CC13D@2x.ktx</td><td>com.apple.ScreenSharingViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4914C2D3-D16A-49FD-B6AB-F08C095CC13D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.184062</td><td>com.apple.ScreenSharingViewService</td><td>com.apple.ScreenSharingViewService - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>D862DC7A-6484-43F5-BC58-A8974720E2D3@2x.ktx</td><td>com.apple.ScreenSharingViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>D862DC7A-6484-43F5-BC58-A8974720E2D3</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.161335</td><td>com.apple.ScreenSharingViewService</td><td>com.apple.ScreenSharingViewService - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>7EA6A20D-1784-4860-A77B-CF2A4250D266@2x.ktx</td><td>com.apple.ScreenSharingViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>7EA6A20D-1784-4860-A77B-CF2A4250D266</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.238068</td><td>com.apple.Photos.PhotosUIService</td><td>com.apple.Photos.PhotosUIService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>86F90E6A-6B63-443C-B80E-D4131CDFA770@2x.ktx</td><td>com.apple.Photos.PhotosUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>86F90E6A-6B63-443C-B80E-D4131CDFA770</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.304476</td><td>com.apple.Photos.PhotosUIService</td><td>com.apple.Photos.PhotosUIService - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>49036F83-762B-4BFC-8B25-198F2461FC6F@2x.ktx</td><td>com.apple.Photos.PhotosUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>49036F83-762B-4BFC-8B25-198F2461FC6F</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.282942</td><td>com.apple.Photos.PhotosUIService</td><td>com.apple.Photos.PhotosUIService - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>8B333D5C-DE57-4A8A-8C36-3BD97FD576A6@2x.ktx</td><td>com.apple.Photos.PhotosUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8B333D5C-DE57-4A8A-8C36-3BD97FD576A6</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.260070</td><td>com.apple.Photos.PhotosUIService</td><td>com.apple.Photos.PhotosUIService - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>DDC7487C-2DFA-49C8-B66C-1ADDD42FFAE5@2x.ktx</td><td>com.apple.Photos.PhotosUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DDC7487C-2DFA-49C8-B66C-1ADDD42FFAE5</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.378041</td><td>com.apple.Home.HomeControlService</td><td>com.apple.Home.HomeControlService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0F3985A7-83F5-4490-8E02-355ECDC0608B@2x.ktx</td><td>com.apple.Home.HomeControlService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0F3985A7-83F5-4490-8E02-355ECDC0608B</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.357509</td><td>com.apple.Home.HomeControlService</td><td>com.apple.Home.HomeControlService - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C7429E81-0C3A-4C8C-A974-E2B4B07A1206@2x.ktx</td><td>com.apple.Home.HomeControlService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C7429E81-0C3A-4C8C-A974-E2B4B07A1206</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.401095</td><td>com.apple.Home.HomeControlService</td><td>com.apple.Home.HomeControlService - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>539BDB96-FE3D-4406-AE7E-1E694D9E8903@2x.ktx</td><td>com.apple.Home.HomeControlService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>539BDB96-FE3D-4406-AE7E-1E694D9E8903</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.334916</td><td>com.apple.Home.HomeControlService</td><td>com.apple.Home.HomeControlService - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>FB56B66A-61A3-45FF-B8BD-45CD05526CF1@2x.ktx</td><td>com.apple.Home.HomeControlService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>FB56B66A-61A3-45FF-B8BD-45CD05526CF1</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.473100</td><td>com.apple.webapp</td><td>com.apple.webapp - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>34817A44-95CB-435A-8E60-72D31B51C984@2x.ktx</td><td>com.apple.webapp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>34817A44-95CB-435A-8E60-72D31B51C984</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.429238</td><td>com.apple.webapp</td><td>com.apple.webapp - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>F1486D6D-537E-4623-AA85-5E85A50FC228@2x.ktx</td><td>com.apple.webapp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F1486D6D-537E-4623-AA85-5E85A50FC228</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.496226</td><td>com.apple.webapp</td><td>com.apple.webapp - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C68D5DAE-65C8-432A-ABF7-DCDA8ACFDD4E@2x.ktx</td><td>com.apple.webapp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C68D5DAE-65C8-432A-ABF7-DCDA8ACFDD4E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.451784</td><td>com.apple.webapp</td><td>com.apple.webapp - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>BF937567-0DF3-49F4-B58A-55E55FB6810B@2x.ktx</td><td>com.apple.webapp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>BF937567-0DF3-49F4-B58A-55E55FB6810B</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.566852</td><td>com.apple.musicrecognition</td><td>com.apple.musicrecognition - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>3E4BBCD1-865D-46AD-96A7-B9FDF58D1911@2x.ktx</td><td>com.apple.musicrecognition - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>3E4BBCD1-865D-46AD-96A7-B9FDF58D1911</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.546193</td><td>com.apple.musicrecognition</td><td>com.apple.musicrecognition - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>E10900F9-6918-4357-8F50-84BA0C272E41@2x.ktx</td><td>com.apple.musicrecognition - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E10900F9-6918-4357-8F50-84BA0C272E41</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.587501</td><td>com.apple.musicrecognition</td><td>com.apple.musicrecognition - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>52B94DB1-FE5E-4C61-9D94-A746B7A01E93@2x.ktx</td><td>com.apple.musicrecognition - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>52B94DB1-FE5E-4C61-9D94-A746B7A01E93</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.523933</td><td>com.apple.musicrecognition</td><td>com.apple.musicrecognition - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>3F1AADFE-6ED6-459F-842D-0B83A8646355@2x.ktx</td><td>com.apple.musicrecognition - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>3F1AADFE-6ED6-459F-842D-0B83A8646355</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.678960</td><td>com.apple.MBHelperApp</td><td>com.apple.MBHelperApp - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4610A6C8-EEBD-4843-8A5B-A33AC6270B76@2x.ktx</td><td>com.apple.MBHelperApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4610A6C8-EEBD-4843-8A5B-A33AC6270B76</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.614405</td><td>com.apple.MBHelperApp</td><td>com.apple.MBHelperApp - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>687B99F1-5420-42A3-8209-7B2D492248EE@2x.ktx</td><td>com.apple.MBHelperApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>687B99F1-5420-42A3-8209-7B2D492248EE</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.636368</td><td>com.apple.MBHelperApp</td><td>com.apple.MBHelperApp - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>D1153A0F-D00B-4B86-A53E-4F1216CC2EC8@2x.ktx</td><td>com.apple.MBHelperApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>D1153A0F-D00B-4B86-A53E-4F1216CC2EC8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.656793</td><td>com.apple.MBHelperApp</td><td>com.apple.MBHelperApp - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>DA87A559-4D5B-4927-B668-B0A9CB265284@2x.ktx</td><td>com.apple.MBHelperApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DA87A559-4D5B-4927-B668-B0A9CB265284</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.711440</td><td>com.apple.ClipViewService</td><td>com.apple.ClipViewService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0350C6BB-78B3-4B3E-A5AD-181FACFA758F@2x.ktx</td><td>com.apple.ClipViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0350C6BB-78B3-4B3E-A5AD-181FACFA758F</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.733018</td><td>com.apple.ClipViewService</td><td>com.apple.ClipViewService - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2BF52A74-3AA7-45F2-A546-EFE78216C3BA@2x.ktx</td><td>com.apple.ClipViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2BF52A74-3AA7-45F2-A546-EFE78216C3BA</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.753092</td><td>com.apple.ClipViewService</td><td>com.apple.ClipViewService - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>AFADF48B-80AE-4EB2-9A9F-3518620C0445@2x.ktx</td><td>com.apple.ClipViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>AFADF48B-80AE-4EB2-9A9F-3518620C0445</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.775278</td><td>com.apple.ClipViewService</td><td>com.apple.ClipViewService - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>95343F7B-653E-4DA5-A422-94B94444AD92@2x.ktx</td><td>com.apple.ClipViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>95343F7B-653E-4DA5-A422-94B94444AD92</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.825907</td><td>com.apple.FTMInternal</td><td>com.apple.FTMInternal - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>EC70F0A0-DF42-477B-80C7-8355F139F0DD@2x.ktx</td><td>com.apple.FTMInternal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EC70F0A0-DF42-477B-80C7-8355F139F0DD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.803086</td><td>com.apple.FTMInternal</td><td>com.apple.FTMInternal - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0458B789-63D4-409A-9224-AFC4F35BE4A7@2x.ktx</td><td>com.apple.FTMInternal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0458B789-63D4-409A-9224-AFC4F35BE4A7</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.923720</td><td>com.apple.ScreenTimeUnlock</td><td>com.apple.ScreenTimeUnlock - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0CC2FBD0-2D40-4F15-BF5B-DF4AF55B48C0@2x.ktx</td><td>com.apple.ScreenTimeUnlock - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0CC2FBD0-2D40-4F15-BF5B-DF4AF55B48C0</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.856704</td><td>com.apple.ScreenTimeUnlock</td><td>com.apple.ScreenTimeUnlock - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>89547335-7467-49CC-A667-3220E17A6D90@2x.ktx</td><td>com.apple.ScreenTimeUnlock - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>89547335-7467-49CC-A667-3220E17A6D90</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.900710</td><td>com.apple.ScreenTimeUnlock</td><td>com.apple.ScreenTimeUnlock - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>F053F356-040A-40F8-B7A0-A5A23897BC7F@2x.ktx</td><td>com.apple.ScreenTimeUnlock - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F053F356-040A-40F8-B7A0-A5A23897BC7F</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:38.877916</td><td>com.apple.ScreenTimeUnlock</td><td>com.apple.ScreenTimeUnlock - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4BAFF381-EC3B-44F3-8712-3E535EF3FDD3@2x.ktx</td><td>com.apple.ScreenTimeUnlock - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4BAFF381-EC3B-44F3-8712-3E535EF3FDD3</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-02-11 04:19:23.911924</td><td>com.apple.mobilesafari</td><td>sceneID:com.apple.mobilesafari-E17BBAF8-4102-4828-BC33-442B1EAF89D1</td><td>0</td><td></td><td></td><td></td><td>2CFCB368-5E55-46B0-8F59-34057DFC156F@2x.ktx</td><td>sceneID:com.apple.mobilesafari-E17BBAF8-4102-4828-BC33-442B1EAF89D1</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2CFCB368-5E55-46B0-8F59-34057DFC156F</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 04:19:23.877465</td><td>com.apple.mobilesafari</td><td>sceneID:com.apple.mobilesafari-E17BBAF8-4102-4828-BC33-442B1EAF89D1</td><td>1</td><td></td><td></td><td></td><td>FF341BB1-119C-4B38-93A4-922E42725354@2x.ktx</td><td>sceneID:com.apple.mobilesafari-E17BBAF8-4102-4828-BC33-442B1EAF89D1</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>FF341BB1-119C-4B38-93A4-922E42725354</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 04:19:23.946730</td><td>com.apple.mobilesafari</td><td>sceneID:com.apple.mobilesafari-E17BBAF8-4102-4828-BC33-442B1EAF89D1</td><td>2</td><td></td><td></td><td></td><td>EC8A5445-6190-4EFB-89CF-B117B0062656@2x.ktx</td><td>sceneID:com.apple.mobilesafari-E17BBAF8-4102-4828-BC33-442B1EAF89D1</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EC8A5445-6190-4EFB-89CF-B117B0062656</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 04:19:23.979816</td><td>com.apple.mobilesafari</td><td>sceneID:com.apple.mobilesafari-E17BBAF8-4102-4828-BC33-442B1EAF89D1</td><td>3</td><td></td><td></td><td></td><td>E64569D3-B9D8-4271-B2AC-7A9C67DA2010@2x.ktx</td><td>sceneID:com.apple.mobilesafari-E17BBAF8-4102-4828-BC33-442B1EAF89D1</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E64569D3-B9D8-4271-B2AC-7A9C67DA2010</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.040287</td><td>com.apple.mobilesafari</td><td>com.apple.mobilesafari - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-02-11 04:09:16.809352</td><td>__from_UILaunchStoryboardName__</td><td>8D311035-4AD8-4B33-AFA1-6641396C8F1E@2x.ktx</td><td>com.apple.mobilesafari - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8D311035-4AD8-4B33-AFA1-6641396C8F1E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.061155</td><td>com.apple.mobilesafari</td><td>com.apple.mobilesafari - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>FD00804E-FFBB-4F1D-B0C5-8717086FD6FC@2x.ktx</td><td>com.apple.mobilesafari - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>FD00804E-FFBB-4F1D-B0C5-8717086FD6FC</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.015116</td><td>com.apple.mobilesafari</td><td>com.apple.mobilesafari - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>1DEE8730-745D-4B3F-A001-4E0388BFE8B7@2x.ktx</td><td>com.apple.mobilesafari - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>1DEE8730-745D-4B3F-A001-4E0388BFE8B7</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.083252</td><td>com.apple.mobilesafari</td><td>com.apple.mobilesafari - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>F502920C-D16D-4B40-9B0B-9C2B0CEDF14D@2x.ktx</td><td>com.apple.mobilesafari - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F502920C-D16D-4B40-9B0B-9C2B0CEDF14D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.131066</td><td>com.apple.AppSettings</td><td>com.apple.AppSettings - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2F5BD094-0FA8-49F0-A12A-68884AC17E22@2x.ktx</td><td>com.apple.AppSettings - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2F5BD094-0FA8-49F0-A12A-68884AC17E22</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.150552</td><td>com.apple.AppSettings</td><td>com.apple.AppSettings - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>91DEBC03-F26D-4754-B12F-3947679BCDFF@2x.ktx</td><td>com.apple.AppSettings - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>91DEBC03-F26D-4754-B12F-3947679BCDFF</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.174306</td><td>com.apple.AppSettings</td><td>com.apple.AppSettings - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>213CE1CC-33D7-4669-B6F5-948E1315B6A4@2x.ktx</td><td>com.apple.AppSettings - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>213CE1CC-33D7-4669-B6F5-948E1315B6A4</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.108993</td><td>com.apple.AppSettings</td><td>com.apple.AppSettings - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>262D84B7-AD73-4165-A26B-F6AAD9FC200E@2x.ktx</td><td>com.apple.AppSettings - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>262D84B7-AD73-4165-A26B-F6AAD9FC200E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.226283</td><td>com.apple.BusinessChatViewService</td><td>com.apple.BusinessChatViewService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4C509401-DC66-4E3D-95AB-E4F792E25747@2x.ktx</td><td>com.apple.BusinessChatViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4C509401-DC66-4E3D-95AB-E4F792E25747</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.269267</td><td>com.apple.BusinessChatViewService</td><td>com.apple.BusinessChatViewService - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>AC78F0E6-1F9B-47EA-B910-0C7A46F812D6@2x.ktx</td><td>com.apple.BusinessChatViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>AC78F0E6-1F9B-47EA-B910-0C7A46F812D6</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.204631</td><td>com.apple.BusinessChatViewService</td><td>com.apple.BusinessChatViewService - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>689E774A-6C22-462B-9C75-B3646BF938FA@2x.ktx</td><td>com.apple.BusinessChatViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>689E774A-6C22-462B-9C75-B3646BF938FA</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.247980</td><td>com.apple.BusinessChatViewService</td><td>com.apple.BusinessChatViewService - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>531EAAB2-11C0-4CF3-8CC5-BFC99FDD99A1@2x.ktx</td><td>com.apple.BusinessChatViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>531EAAB2-11C0-4CF3-8CC5-BFC99FDD99A1</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.363322</td><td>com.apple.shortcuts.runtime</td><td>com.apple.shortcuts.runtime - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0C842EB2-D94B-4862-8128-E86F38DFC6C3@2x.ktx</td><td>com.apple.shortcuts.runtime - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0C842EB2-D94B-4862-8128-E86F38DFC6C3</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.341645</td><td>com.apple.shortcuts.runtime</td><td>com.apple.shortcuts.runtime - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2A841E2B-7375-4DF3-8729-C7A1A27C3851@2x.ktx</td><td>com.apple.shortcuts.runtime - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2A841E2B-7375-4DF3-8729-C7A1A27C3851</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.320998</td><td>com.apple.shortcuts.runtime</td><td>com.apple.shortcuts.runtime - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>39A3EDEE-EAAE-478E-A3C6-83367C569DF0@2x.ktx</td><td>com.apple.shortcuts.runtime - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>39A3EDEE-EAAE-478E-A3C6-83367C569DF0</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.298955</td><td>com.apple.shortcuts.runtime</td><td>com.apple.shortcuts.runtime - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>924194EF-7FEC-4FDA-87A3-F2A1CBA70110@2x.ktx</td><td>com.apple.shortcuts.runtime - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>924194EF-7FEC-4FDA-87A3-F2A1CBA70110</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.429888</td><td>com.apple.PeopleViewService</td><td>com.apple.PeopleViewService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>80C55DE6-3AAC-42AB-B761-5BC3B1DBE04B@2x.ktx</td><td>com.apple.PeopleViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>80C55DE6-3AAC-42AB-B761-5BC3B1DBE04B</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.410131</td><td>com.apple.PeopleViewService</td><td>com.apple.PeopleViewService - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>7879EBF1-DA2F-45A5-93BF-2B624045CDB2@2x.ktx</td><td>com.apple.PeopleViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>7879EBF1-DA2F-45A5-93BF-2B624045CDB2</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.388173</td><td>com.apple.PeopleViewService</td><td>com.apple.PeopleViewService - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>AD71EA98-90AC-48E9-A8D1-2631D175F75F@2x.ktx</td><td>com.apple.PeopleViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>AD71EA98-90AC-48E9-A8D1-2631D175F75F</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.451218</td><td>com.apple.PeopleViewService</td><td>com.apple.PeopleViewService - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2F3EBEB6-67D8-4D45-9235-40E475F54A04@2x.ktx</td><td>com.apple.PeopleViewService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2F3EBEB6-67D8-4D45-9235-40E475F54A04</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.480867</td><td>com.apple.Diagnostics</td><td>com.apple.Diagnostics - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>6C405BB3-DD00-41E0-B71F-F4D6E07F34D9@2x.ktx</td><td>com.apple.Diagnostics - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>6C405BB3-DD00-41E0-B71F-F4D6E07F34D9</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.502828</td><td>com.apple.Diagnostics</td><td>com.apple.Diagnostics - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>BCB728E8-A62E-40FB-9975-59C69609CC38@2x.ktx</td><td>com.apple.Diagnostics - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>BCB728E8-A62E-40FB-9975-59C69609CC38</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.596749</td><td>com.apple.CarPlaySettings</td><td>com.apple.CarPlaySettings - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>9A912EB7-8BE3-4748-8CD9-3579E0CDDBF8@2x.ktx</td><td>com.apple.CarPlaySettings - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9A912EB7-8BE3-4748-8CD9-3579E0CDDBF8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.552373</td><td>com.apple.CarPlaySettings</td><td>com.apple.CarPlaySettings - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>FC43D0FD-B25A-43BF-ADCB-4443CA0046F0@2x.ktx</td><td>com.apple.CarPlaySettings - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>FC43D0FD-B25A-43BF-ADCB-4443CA0046F0</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.531551</td><td>com.apple.CarPlaySettings</td><td>com.apple.CarPlaySettings - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>ECD13FCC-ACE3-4E83-9FE7-938F1F96F680@2x.ktx</td><td>com.apple.CarPlaySettings - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>ECD13FCC-ACE3-4E83-9FE7-938F1F96F680</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.574818</td><td>com.apple.CarPlaySettings</td><td>com.apple.CarPlaySettings - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A5DB690A-A0F1-4FC8-AF0A-07EC39CA96FD@2x.ktx</td><td>com.apple.CarPlaySettings - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A5DB690A-A0F1-4FC8-AF0A-07EC39CA96FD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.648619</td><td>com.apple.HealthENLauncher</td><td>com.apple.HealthENLauncher - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>7B918080-2BD4-4D1A-9F89-670A42B08BF0@2x.ktx</td><td>com.apple.HealthENLauncher - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>7B918080-2BD4-4D1A-9F89-670A42B08BF0</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.691043</td><td>com.apple.HealthENLauncher</td><td>com.apple.HealthENLauncher - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2647ECA7-29CD-4AB4-9F82-26FAD80A804A@2x.ktx</td><td>com.apple.HealthENLauncher - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2647ECA7-29CD-4AB4-9F82-26FAD80A804A</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.626749</td><td>com.apple.HealthENLauncher</td><td>com.apple.HealthENLauncher - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>BF9E1529-9B55-4C93-A7CA-A2E8A3B51C01@2x.ktx</td><td>com.apple.HealthENLauncher - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>BF9E1529-9B55-4C93-A7CA-A2E8A3B51C01</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.667960</td><td>com.apple.HealthENLauncher</td><td>com.apple.HealthENLauncher - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>1AE85B49-B447-4DD2-9647-A7EB835321A5@2x.ktx</td><td>com.apple.HealthENLauncher - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>1AE85B49-B447-4DD2-9647-A7EB835321A5</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.724535</td><td>com.apple.HealthENBuddy</td><td>com.apple.HealthENBuddy - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>285F0E18-1C61-43DA-947E-95993570AAB6@2x.ktx</td><td>com.apple.HealthENBuddy - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>285F0E18-1C61-43DA-947E-95993570AAB6</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.745173</td><td>com.apple.HealthENBuddy</td><td>com.apple.HealthENBuddy - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>8F77AAD4-DA40-4DBC-96BC-30AB9FF822EA@2x.ktx</td><td>com.apple.HealthENBuddy - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8F77AAD4-DA40-4DBC-96BC-30AB9FF822EA</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.809085</td><td>com.apple.AppStore</td><td>com.apple.AppStore - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-02-04 00:49:17.849038</td><td>__from_UILaunchStoryboardName__</td><td>9B649051-8761-4BE1-9454-FC4C37E8BC0F@2x.ktx</td><td>com.apple.AppStore - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9B649051-8761-4BE1-9454-FC4C37E8BC0F</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.785363</td><td>com.apple.AppStore</td><td>com.apple.AppStore - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C5849ABB-0EA3-42AB-82F6-68744F50B34E@2x.ktx</td><td>com.apple.AppStore - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C5849ABB-0EA3-42AB-82F6-68744F50B34E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:47.885055</td><td>com.apple.mobiletimer</td><td>com.apple.mobiletimer - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-02-14 18:16:50.259845</td><td>__from_UILaunchStoryboardName__</td><td>B8BDBDA0-447A-443C-A1BE-65FC4CE9DAE3@2x.ktx</td><td>com.apple.mobiletimer - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>B8BDBDA0-447A-443C-A1BE-65FC4CE9DAE3</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.959528</td><td>com.apple.Health</td><td>com.apple.Health - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>FA6CFAA9-43E9-4A38-825E-00FA610C87D1@2x.ktx</td><td>com.apple.Health - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>FA6CFAA9-43E9-4A38-825E-00FA610C87D1</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.999050</td><td>com.apple.Health</td><td>com.apple.Health - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A7115425-1961-4462-8155-4AB4EAF64436@2x.ktx</td><td>com.apple.Health - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A7115425-1961-4462-8155-4AB4EAF64436</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.017152</td><td>com.apple.Health</td><td>com.apple.Health - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>9E5696A1-420E-4DAE-A607-BD1C1A475019@2x.ktx</td><td>com.apple.Health - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9E5696A1-420E-4DAE-A607-BD1C1A475019</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:39.978909</td><td>com.apple.Health</td><td>com.apple.Health - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>12E47E34-C685-410A-9B96-4B8C90EEE124@2x.ktx</td><td>com.apple.Health - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>12E47E34-C685-410A-9B96-4B8C90EEE124</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.044305</td><td>com.apple.GameCenterRemoteAlert</td><td>com.apple.GameCenterRemoteAlert - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A46D4F47-006A-46E7-B7B2-EE790258F719@2x.ktx</td><td>com.apple.GameCenterRemoteAlert - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A46D4F47-006A-46E7-B7B2-EE790258F719</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.065805</td><td>com.apple.GameCenterRemoteAlert</td><td>com.apple.GameCenterRemoteAlert - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>81FEE499-5F5E-4BDC-BCDB-95503501D97A@2x.ktx</td><td>com.apple.GameCenterRemoteAlert - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>81FEE499-5F5E-4BDC-BCDB-95503501D97A</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.085120</td><td>com.apple.GameCenterRemoteAlert</td><td>com.apple.GameCenterRemoteAlert - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>E0692783-2F78-418F-B563-27D093062892@2x.ktx</td><td>com.apple.GameCenterRemoteAlert - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E0692783-2F78-418F-B563-27D093062892</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.107247</td><td>com.apple.GameCenterRemoteAlert</td><td>com.apple.GameCenterRemoteAlert - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>B5B74D2E-8C03-45A9-BFEE-C27D7F5BCBFC@2x.ktx</td><td>com.apple.GameCenterRemoteAlert - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>B5B74D2E-8C03-45A9-BFEE-C27D7F5BCBFC</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:56:10.140012</td><td>com.apple.mobilephone</td><td>sceneID:com.apple.mobilephone-default</td><td>0</td><td></td><td></td><td></td><td>CB976C18-9566-4F53-A708-8818DF95A8AF@2x.ktx</td><td>sceneID:com.apple.mobilephone-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>CB976C18-9566-4F53-A708-8818DF95A8AF</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:56:10.121446</td><td>com.apple.mobilephone</td><td>sceneID:com.apple.mobilephone-default</td><td>1</td><td></td><td></td><td></td><td>8385757E-ACA6-47BF-8679-D5C3F24642D4@2x.ktx</td><td>sceneID:com.apple.mobilephone-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8385757E-ACA6-47BF-8679-D5C3F24642D4</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:56:10.058207</td><td>com.apple.mobilephone</td><td>sceneID:com.apple.mobilephone-default</td><td>2</td><td></td><td></td><td></td><td>F75AF816-007C-4A3A-BF2D-DEC24AF38576@2x.ktx</td><td>sceneID:com.apple.mobilephone-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F75AF816-007C-4A3A-BF2D-DEC24AF38576</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:56:10.084064</td><td>com.apple.mobilephone</td><td>sceneID:com.apple.mobilephone-default</td><td>3</td><td></td><td></td><td></td><td>9B6627BA-063C-409C-B190-0E8C7D8327C1@2x.ktx</td><td>sceneID:com.apple.mobilephone-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9B6627BA-063C-409C-B190-0E8C7D8327C1</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.182083</td><td>com.apple.mobilephone</td><td>com.apple.mobilephone - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-02-11 03:55:32.201258</td><td>__from_UILaunchStoryboardName__</td><td>6A0E3956-2867-4A30-BD55-5249B9045A22@2x.ktx</td><td>com.apple.mobilephone - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>6A0E3956-2867-4A30-BD55-5249B9045A22</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.160564</td><td>com.apple.mobilephone</td><td>com.apple.mobilephone - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2C587F0A-BAEF-48C3-B881-333DD5E88857@2x.ktx</td><td>com.apple.mobilephone - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2C587F0A-BAEF-48C3-B881-333DD5E88857</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.232896</td><td>com.apple.gamecenter.widgets</td><td>com.apple.gamecenter.widgets - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>342D9FA6-F89A-47F3-BFAB-6BD02BDFE4BE@2x.ktx</td><td>com.apple.gamecenter.widgets - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>342D9FA6-F89A-47F3-BFAB-6BD02BDFE4BE</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.210550</td><td>com.apple.gamecenter.widgets</td><td>com.apple.gamecenter.widgets - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>18821484-BC2D-49E5-9089-BBD03F2FF010@2x.ktx</td><td>com.apple.gamecenter.widgets - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>18821484-BC2D-49E5-9089-BBD03F2FF010</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.253707</td><td>com.apple.gamecenter.widgets</td><td>com.apple.gamecenter.widgets - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>42FC5157-8513-413F-8C2A-0D8E04DA59AB@2x.ktx</td><td>com.apple.gamecenter.widgets - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>42FC5157-8513-413F-8C2A-0D8E04DA59AB</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.274662</td><td>com.apple.gamecenter.widgets</td><td>com.apple.gamecenter.widgets - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>DA5C15A2-96F7-43C7-A8E1-49CD37309E79@2x.ktx</td><td>com.apple.gamecenter.widgets - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DA5C15A2-96F7-43C7-A8E1-49CD37309E79</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.300976</td><td>com.apple.camera</td><td>com.apple.camera - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>AD69BE0F-11A8-457E-B116-9BBE692A8AD4@2x.ktx</td><td>com.apple.camera - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>AD69BE0F-11A8-457E-B116-9BBE692A8AD4</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.320392</td><td>com.apple.camera</td><td>com.apple.camera - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>89BBB811-244A-41CD-B59B-5E70EE611E6D@2x.ktx</td><td>com.apple.camera - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>89BBB811-244A-41CD-B59B-5E70EE611E6D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-02-11 05:01:42.989006</td><td>com.apple.camera</td><td>sceneID:com.apple.camera-default</td><td>0</td><td></td><td></td><td></td><td>26C7791E-EDFB-4D62-8529-902265BB036A@2x.ktx</td><td>sceneID:com.apple.camera-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>26C7791E-EDFB-4D62-8529-902265BB036A</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 05:01:42.959922</td><td>com.apple.camera</td><td>sceneID:com.apple.camera-default</td><td>1</td><td></td><td></td><td></td><td>CF12D510-E67C-4305-90AE-2D716C1B420A@2x.ktx</td><td>sceneID:com.apple.camera-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>CF12D510-E67C-4305-90AE-2D716C1B420A</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 05:01:42.892363</td><td>com.apple.camera</td><td>sceneID:com.apple.camera-default</td><td>2</td><td></td><td></td><td></td><td>12172360-F59D-43CE-A0EA-6FAC5278E1A5@2x.ktx</td><td>sceneID:com.apple.camera-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>12172360-F59D-43CE-A0EA-6FAC5278E1A5</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 05:01:43.030562</td><td>com.apple.camera</td><td>sceneID:com.apple.camera-default</td><td>3</td><td></td><td></td><td></td><td>B3206C08-9EDE-47CE-AB72-D34A11DE0828@2x.ktx</td><td>sceneID:com.apple.camera-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>B3206C08-9EDE-47CE-AB72-D34A11DE0828</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.450017</td><td>com.apple.social.SLYahooAuth</td><td>com.apple.social.SLYahooAuth - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>CE28F52A-07A2-4D51-8904-648E41056466@2x.ktx</td><td>com.apple.social.SLYahooAuth - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>CE28F52A-07A2-4D51-8904-648E41056466</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.423495</td><td>com.apple.social.SLYahooAuth</td><td>com.apple.social.SLYahooAuth - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>6645C4D5-970B-420B-9181-A3FC3A45DFC8@2x.ktx</td><td>com.apple.social.SLYahooAuth - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>6645C4D5-970B-420B-9181-A3FC3A45DFC8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.400890</td><td>com.apple.social.SLYahooAuth</td><td>com.apple.social.SLYahooAuth - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>861C00CC-E38F-4ACA-8B5C-79815BA2D5F0@2x.ktx</td><td>com.apple.social.SLYahooAuth - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>861C00CC-E38F-4ACA-8B5C-79815BA2D5F0</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.378488</td><td>com.apple.social.SLYahooAuth</td><td>com.apple.social.SLYahooAuth - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>756DB824-99B4-4A4E-858D-9C258BB5B237@2x.ktx</td><td>com.apple.social.SLYahooAuth - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>756DB824-99B4-4A4E-858D-9C258BB5B237</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.559700</td><td>com.apple.appleseed.FeedbackAssistant</td><td>com.apple.appleseed.FeedbackAssistant - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>7D08D75D-32AB-4D5E-ACBD-5CED27623808@2x.ktx</td><td>com.apple.appleseed.FeedbackAssistant - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>7D08D75D-32AB-4D5E-ACBD-5CED27623808</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.514374</td><td>com.apple.appleseed.FeedbackAssistant</td><td>com.apple.appleseed.FeedbackAssistant - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>5A4D203E-179D-4808-8B89-263AB750C85B@2x.ktx</td><td>com.apple.appleseed.FeedbackAssistant - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>5A4D203E-179D-4808-8B89-263AB750C85B</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.533671</td><td>com.apple.appleseed.FeedbackAssistant</td><td>com.apple.appleseed.FeedbackAssistant - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>6898A592-A224-4957-8DB1-DB71776F2ED8@2x.ktx</td><td>com.apple.appleseed.FeedbackAssistant - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>6898A592-A224-4957-8DB1-DB71776F2ED8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.581475</td><td>com.apple.appleseed.FeedbackAssistant</td><td>com.apple.appleseed.FeedbackAssistant - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>D5E02136-A009-4052-84E0-DB600985DA79@2x.ktx</td><td>com.apple.appleseed.FeedbackAssistant - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>D5E02136-A009-4052-84E0-DB600985DA79</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.656552</td><td>com.apple.icq</td><td>com.apple.icq - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A3132236-A1A0-47D1-A15B-80317BAF37C2@2x.ktx</td><td>com.apple.icq - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A3132236-A1A0-47D1-A15B-80317BAF37C2</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.615109</td><td>com.apple.icq</td><td>com.apple.icq - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A271EB80-C435-49BA-8202-7A6830678C94@2x.ktx</td><td>com.apple.icq - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A271EB80-C435-49BA-8202-7A6830678C94</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.636536</td><td>com.apple.icq</td><td>com.apple.icq - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>33DBFF44-00F8-4094-AB1A-BA9601574DEE@2x.ktx</td><td>com.apple.icq - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>33DBFF44-00F8-4094-AB1A-BA9601574DEE</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.677660</td><td>com.apple.icq</td><td>com.apple.icq - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4E65C2E7-7DC3-4F39-880F-5105BF9ACA15@2x.ktx</td><td>com.apple.icq - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4E65C2E7-7DC3-4F39-880F-5105BF9ACA15</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.752275</td><td>com.apple.siri.parsec.HashtagImagesApp</td><td>com.apple.siri.parsec.HashtagImagesApp - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4637A432-6B2A-420B-BFFD-6E39175751AA@2x.ktx</td><td>com.apple.siri.parsec.HashtagImagesApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4637A432-6B2A-420B-BFFD-6E39175751AA</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.707998</td><td>com.apple.siri.parsec.HashtagImagesApp</td><td>com.apple.siri.parsec.HashtagImagesApp - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>8A1D123D-E989-4BA4-8CA9-E42A66ABD66E@2x.ktx</td><td>com.apple.siri.parsec.HashtagImagesApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8A1D123D-E989-4BA4-8CA9-E42A66ABD66E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.773855</td><td>com.apple.siri.parsec.HashtagImagesApp</td><td>com.apple.siri.parsec.HashtagImagesApp - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C4FAFDB3-5BA9-40E7-A070-CDAB75FEC5A5@2x.ktx</td><td>com.apple.siri.parsec.HashtagImagesApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C4FAFDB3-5BA9-40E7-A070-CDAB75FEC5A5</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.729891</td><td>com.apple.siri.parsec.HashtagImagesApp</td><td>com.apple.siri.parsec.HashtagImagesApp - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2E016190-2CEF-406E-8917-24E3B9840A7A@2x.ktx</td><td>com.apple.siri.parsec.HashtagImagesApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2E016190-2CEF-406E-8917-24E3B9840A7A</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.911381</td><td>com.apple.dt.XcodePreviews</td><td>com.apple.dt.XcodePreviews - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>55A921C0-E452-46C8-A64C-63C3CC4BA2F4@2x.ktx</td><td>com.apple.dt.XcodePreviews - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>55A921C0-E452-46C8-A64C-63C3CC4BA2F4</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.984689</td><td>com.apple.dt.XcodePreviews</td><td>com.apple.dt.XcodePreviews - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>EE59E7D2-A1DB-4BBF-AB59-19D4A250F6AE@2x.ktx</td><td>com.apple.dt.XcodePreviews - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EE59E7D2-A1DB-4BBF-AB59-19D4A250F6AE</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:40.952078</td><td>com.apple.dt.XcodePreviews</td><td>com.apple.dt.XcodePreviews - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>6969766F-0226-4A6F-B8C1-5B994D354CCD@2x.ktx</td><td>com.apple.dt.XcodePreviews - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>6969766F-0226-4A6F-B8C1-5B994D354CCD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.014631</td><td>com.apple.dt.XcodePreviews</td><td>com.apple.dt.XcodePreviews - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>90FA346F-6939-4EFE-A276-69F0405734A4@2x.ktx</td><td>com.apple.dt.XcodePreviews - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>90FA346F-6939-4EFE-A276-69F0405734A4</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-02-06 04:51:03.112346</td><td>com.apple.MobileSMS</td><td>sceneID:com.apple.MobileSMS-85921AEE-151A-490A-9AFB-3BC234262982</td><td>0</td><td></td><td></td><td></td><td>D7A636C8-1FEB-472F-8960-5AA38BB03AB5@2x.ktx</td><td>sceneID:com.apple.MobileSMS-85921AEE-151A-490A-9AFB-3BC234262982</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>D7A636C8-1FEB-472F-8960-5AA38BB03AB5</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-06 04:51:03.150246</td><td>com.apple.MobileSMS</td><td>sceneID:com.apple.MobileSMS-85921AEE-151A-490A-9AFB-3BC234262982</td><td>1</td><td></td><td></td><td></td><td>97357860-8167-418D-A6EE-EE282997F575@2x.ktx</td><td>sceneID:com.apple.MobileSMS-85921AEE-151A-490A-9AFB-3BC234262982</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>97357860-8167-418D-A6EE-EE282997F575</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-06 04:51:03.447133</td><td>com.apple.MobileSMS</td><td>sceneID:com.apple.MobileSMS-85921AEE-151A-490A-9AFB-3BC234262982</td><td>2</td><td></td><td></td><td></td><td>332DE75A-EDCC-4A53-9F34-928DE2D31FF3@2x.ktx</td><td>sceneID:com.apple.MobileSMS-85921AEE-151A-490A-9AFB-3BC234262982</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>332DE75A-EDCC-4A53-9F34-928DE2D31FF3</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-06 04:51:03.483680</td><td>com.apple.MobileSMS</td><td>sceneID:com.apple.MobileSMS-85921AEE-151A-490A-9AFB-3BC234262982</td><td>3</td><td></td><td></td><td></td><td>02F3E8DE-0FA4-4358-8301-98794CBCB6EE@2x.ktx</td><td>sceneID:com.apple.MobileSMS-85921AEE-151A-490A-9AFB-3BC234262982</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>02F3E8DE-0FA4-4358-8301-98794CBCB6EE</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.133716</td><td>com.apple.MobileSMS</td><td>com.apple.MobileSMS - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C7DF5A1E-D857-42CA-85FE-1040E4E37D0D@2x.ktx</td><td>com.apple.MobileSMS - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C7DF5A1E-D857-42CA-85FE-1040E4E37D0D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.084552</td><td>com.apple.MobileSMS</td><td>com.apple.MobileSMS - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>887543BE-5805-4CF4-A7D0-D2AC7BB8DA22@2x.ktx</td><td>com.apple.MobileSMS - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>887543BE-5805-4CF4-A7D0-D2AC7BB8DA22</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.161095</td><td>com.apple.MobileSMS</td><td>com.apple.MobileSMS - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>E574D67E-FCE0-429A-8C37-93B08F02B24D@2x.ktx</td><td>com.apple.MobileSMS - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E574D67E-FCE0-429A-8C37-93B08F02B24D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.108485</td><td>com.apple.MobileSMS</td><td>com.apple.MobileSMS - {DEFAULT GROUP}</td><td>3</td><td></td><td>2022-02-06 04:50:54.267166</td><td>__from_UILaunchStoryboardName__</td><td>C563D524-E090-4F35-98E7-39E3E4E1A109@2x.ktx</td><td>com.apple.MobileSMS - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C563D524-E090-4F35-98E7-39E3E4E1A109</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:25:51.029593</td><td>com.apple.Passbook</td><td>sceneID:com.apple.Passbook-default</td><td>0</td><td></td><td></td><td></td><td>4D76B5CF-15BF-4008-8F4E-96FD56B22D88@2x.ktx</td><td>sceneID:com.apple.Passbook-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4D76B5CF-15BF-4008-8F4E-96FD56B22D88</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:25:50.990063</td><td>com.apple.Passbook</td><td>sceneID:com.apple.Passbook-default</td><td>1</td><td></td><td></td><td></td><td>096AC6BF-5CF2-4D7D-9CF9-BDD78CB10022@2x.ktx</td><td>sceneID:com.apple.Passbook-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>096AC6BF-5CF2-4D7D-9CF9-BDD78CB10022</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.192250</td><td>com.apple.Passbook</td><td>com.apple.Passbook - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A66B0DED-CEF3-41BF-B200-37D6B176E22C@2x.ktx</td><td>com.apple.Passbook - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A66B0DED-CEF3-41BF-B200-37D6B176E22C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.210621</td><td>com.apple.Passbook</td><td>com.apple.Passbook - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>FD979E74-0F68-4771-9B4E-8ED17FA7E35C@2x.ktx</td><td>com.apple.Passbook - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>FD979E74-0F68-4771-9B4E-8ED17FA7E35C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.281395</td><td>com.apple.smsFilter</td><td>com.apple.smsFilter - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2EB8A9B9-DA4C-46B1-BF15-821A6675ADE8@2x.ktx</td><td>com.apple.smsFilter - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2EB8A9B9-DA4C-46B1-BF15-821A6675ADE8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.261239</td><td>com.apple.smsFilter</td><td>com.apple.smsFilter - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A9090B68-7E82-4636-BE14-DB5FDBE296EA@2x.ktx</td><td>com.apple.smsFilter - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A9090B68-7E82-4636-BE14-DB5FDBE296EA</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.303068</td><td>com.apple.smsFilter</td><td>com.apple.smsFilter - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>54280614-AD93-4242-8BA4-39DA04931259@2x.ktx</td><td>com.apple.smsFilter - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>54280614-AD93-4242-8BA4-39DA04931259</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.238414</td><td>com.apple.smsFilter</td><td>com.apple.smsFilter - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C5F62433-C59E-4A5E-82EC-6FC9EF2A95F8@2x.ktx</td><td>com.apple.smsFilter - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C5F62433-C59E-4A5E-82EC-6FC9EF2A95F8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.375757</td><td>com.apple.Home.HomeUIService</td><td>com.apple.Home.HomeUIService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>DE2C5212-FE06-4320-9E66-964C9DBA1D94@2x.ktx</td><td>com.apple.Home.HomeUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DE2C5212-FE06-4320-9E66-964C9DBA1D94</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.397154</td><td>com.apple.Home.HomeUIService</td><td>com.apple.Home.HomeUIService - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2727B613-21B3-4FB3-90ED-B40E0A3CD0E5@2x.ktx</td><td>com.apple.Home.HomeUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2727B613-21B3-4FB3-90ED-B40E0A3CD0E5</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.352818</td><td>com.apple.Home.HomeUIService</td><td>com.apple.Home.HomeUIService - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>01221765-EF83-4B20-A6D8-65F14CD5FA8C@2x.ktx</td><td>com.apple.Home.HomeUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>01221765-EF83-4B20-A6D8-65F14CD5FA8C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.331489</td><td>com.apple.Home.HomeUIService</td><td>com.apple.Home.HomeUIService - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>33001AB5-7EF3-4ADE-99F5-62C185ECA4A8@2x.ktx</td><td>com.apple.Home.HomeUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>33001AB5-7EF3-4ADE-99F5-62C185ECA4A8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.449874</td><td>com.apple.Animoji.StickersApp</td><td>com.apple.Animoji.StickersApp - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>11B13F2C-8843-4841-A4F8-D4F715E2F554@2x.ktx</td><td>com.apple.Animoji.StickersApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>11B13F2C-8843-4841-A4F8-D4F715E2F554</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.472744</td><td>com.apple.Animoji.StickersApp</td><td>com.apple.Animoji.StickersApp - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>F2CF939C-DCE9-446A-B9AF-48AA2547F6FF@2x.ktx</td><td>com.apple.Animoji.StickersApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F2CF939C-DCE9-446A-B9AF-48AA2547F6FF</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.427780</td><td>com.apple.Animoji.StickersApp</td><td>com.apple.Animoji.StickersApp - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>9FF3EC0F-AC7C-4A20-97FE-1C0E4F5A09DF@2x.ktx</td><td>com.apple.Animoji.StickersApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9FF3EC0F-AC7C-4A20-97FE-1C0E4F5A09DF</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:41.496346</td><td>com.apple.Animoji.StickersApp</td><td>com.apple.Animoji.StickersApp - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C05403CA-9116-4E61-8F0A-B8CEDE1F3A22@2x.ktx</td><td>com.apple.Animoji.StickersApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C05403CA-9116-4E61-8F0A-B8CEDE1F3A22</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:44.271173</td><td>com.apple.fieldtest</td><td>com.apple.fieldtest - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td></td><td>Default@2x.png</td><td>com.apple.fieldtest - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>D844D46D-2740-4DF8-A589-1CD82DAF3CF7</td><td>{320, 460}</td><td>2</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:44.276749</td><td>com.apple.DemoApp</td><td>com.apple.DemoApp - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td></td><td>LaunchImage-800-667h@2x.png</td><td>com.apple.DemoApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>FCA4D445-AA90-44CC-A8D2-28B8CCFA1D12</td><td>{375, 667}</td><td>2</td><td>True</td><td>8.0</td></tr><tr><td>2022-01-06 22:41:44.277041</td><td>com.apple.DemoApp</td><td>com.apple.DemoApp - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td></td><td>LaunchImage-700-568h@2x.png</td><td>com.apple.DemoApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>C3BFA002-1131-422F-B4A7-13FF38B43AD2</td><td>{320, 568}</td><td>2</td><td>True</td><td>7.0</td></tr><tr><td>2022-01-06 22:41:44.276907</td><td>com.apple.DemoApp</td><td>com.apple.DemoApp - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td></td><td>LaunchImage-700@2x.png</td><td>com.apple.DemoApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>A5D1AC5D-E685-4D60-A04C-7CF07B2B3C7A</td><td>{320, 480}</td><td>2</td><td>True</td><td>7.0</td></tr><tr><td>2022-01-06 22:41:44.284465</td><td>com.apple.AccountAuthenticationDialog</td><td>com.apple.AccountAuthenticationDialog - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td></td><td>Default-568h@2x.png</td><td>com.apple.AccountAuthenticationDialog - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>47E54E9E-676C-40C7-A1A3-64D36179CE32</td><td>{320, 568}</td><td>2</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:44.285506</td><td>com.apple.TrustMe</td><td>com.apple.TrustMe - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td></td><td>Default-568h@2x.png</td><td>com.apple.TrustMe - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>97E90864-435D-427E-96C9-5A232B0F9A2F</td><td>{320, 568}</td><td>2</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:44.295757</td><td>com.apple.InCallService</td><td>com.apple.InCallService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td></td><td>LaunchImage-700-568h@2x.png</td><td>com.apple.InCallService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleTransparent</td><td>E415176E-FE80-4F57-8FD6-385113061B42</td><td>{320, 568}</td><td>2</td><td>False</td><td>7.0</td></tr><tr><td>2022-01-06 22:41:44.313210</td><td>com.apple.ios.StoreKitUIService</td><td>com.apple.ios.StoreKitUIService - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td></td><td>Default-568h@2x~iphone.png</td><td>com.apple.ios.StoreKitUIService - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>C5D9E9D9-1F2D-48A2-BA58-858D53AAC4B7</td><td>{320, 568}</td><td>2</td><td>True</td><td></td></tr><tr><td>2022-01-06 22:41:44.325531</td><td>com.apple.PrintKit.Print-Center</td><td>com.apple.PrintKit.Print-Center - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td></td><td>LaunchImages-700@2x.png</td><td>com.apple.PrintKit.Print-Center - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>F84A8D44-EDE6-48E8-A2F4-EE9002998A23</td><td>{320, 480}</td><td>2</td><td>True</td><td>7.0</td></tr><tr><td>2022-01-06 22:41:44.325712</td><td>com.apple.PrintKit.Print-Center</td><td>com.apple.PrintKit.Print-Center - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td></td><td>LaunchImages-700-568h@2x.png</td><td>com.apple.PrintKit.Print-Center - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>11D73FE0-00E1-48DD-A825-0F65B21417AA</td><td>{320, 568}</td><td>2</td><td>True</td><td>7.0</td></tr><tr><td>2022-01-10 17:28:30.048652</td><td>com.apple.Magnifier</td><td>com.apple.Magnifier - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>5B9EC4CD-9929-485C-B399-7C1935D24786@2x.ktx</td><td>com.apple.Magnifier - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>5B9EC4CD-9929-485C-B399-7C1935D24786</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:30.010716</td><td>com.apple.Magnifier</td><td>com.apple.Magnifier - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2CCD3254-22DD-45B5-B709-28BE5CF8587C@2x.ktx</td><td>com.apple.Magnifier - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2CCD3254-22DD-45B5-B709-28BE5CF8587C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:30.774379</td><td>com.apple.shortcuts</td><td>com.apple.shortcuts - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0BB10CDC-BF4C-46EA-8DD2-5EB097F7FC1D@2x.ktx</td><td>com.apple.shortcuts - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0BB10CDC-BF4C-46EA-8DD2-5EB097F7FC1D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:30.802839</td><td>com.apple.shortcuts</td><td>com.apple.shortcuts - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>53430C48-D874-4521-A031-E83C6089BE04@2x.ktx</td><td>com.apple.shortcuts - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>53430C48-D874-4521-A031-E83C6089BE04</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:31.490053</td><td>com.apple.MobileAddressBook</td><td>com.apple.MobileAddressBook - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>25F25ADA-8B05-41AA-AF74-23FF9A230B60@2x.ktx</td><td>com.apple.MobileAddressBook - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>25F25ADA-8B05-41AA-AF74-23FF9A230B60</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:31.520105</td><td>com.apple.MobileAddressBook</td><td>com.apple.MobileAddressBook - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>C2D9EA8E-E708-4DBE-9098-0F77796723EE@2x.ktx</td><td>com.apple.MobileAddressBook - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>C2D9EA8E-E708-4DBE-9098-0F77796723EE</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:31.452940</td><td>com.apple.MobileAddressBook</td><td>com.apple.MobileAddressBook - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>19457BF9-E460-4F26-B0D5-12B29B4D393E@2x.ktx</td><td>com.apple.MobileAddressBook - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>19457BF9-E460-4F26-B0D5-12B29B4D393E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:31.549573</td><td>com.apple.MobileAddressBook</td><td>com.apple.MobileAddressBook - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>70EAD61D-383F-4546-BDBC-9B980BE6914E@2x.ktx</td><td>com.apple.MobileAddressBook - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>70EAD61D-383F-4546-BDBC-9B980BE6914E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:33.281259</td><td>com.apple.calculator</td><td>com.apple.calculator - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td></td><td>LaunchImage-700-568h@2x.png</td><td>com.apple.calculator - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>26E35BAF-862C-42BA-BAF2-635B152DB62D</td><td>{320, 568}</td><td>2</td><td>True</td><td>7.0</td></tr><tr><td>2022-01-10 17:28:33.279083</td><td>com.apple.calculator</td><td>com.apple.calculator - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td></td><td>LaunchImage-1200-Landscape-1792h@2x.png</td><td>com.apple.calculator - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>3</td><td>UIBackgroundStyleDefault</td><td>5C938482-270D-4D71-A966-39849D34DBD3</td><td>{414, 896}</td><td>2</td><td>True</td><td>12.0</td></tr><tr><td>2022-01-10 17:28:33.280796</td><td>com.apple.calculator</td><td>com.apple.calculator - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td></td><td>LaunchImage-800-667h@2x.png</td><td>com.apple.calculator - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>715503E7-3B58-42EC-90B3-8D7373D50237</td><td>{375, 667}</td><td>2</td><td>True</td><td>8.0</td></tr><tr><td>2022-01-10 17:28:33.278614</td><td>com.apple.calculator</td><td>com.apple.calculator - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td></td><td>LaunchImage-1200-Portrait-1792h@2x.png</td><td>com.apple.calculator - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>3</td><td>UIBackgroundStyleDefault</td><td>0C2DCAE6-2EC6-45FD-A466-5EB2E602D75A</td><td>{414, 896}</td><td>2</td><td>True</td><td>12.0</td></tr><tr><td>2022-01-10 17:28:34.760058</td><td>com.apple.mobilemail</td><td>com.apple.mobilemail - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>defaultStoryboard</td><td>93B96708-FC17-467C-AE6D-C46C0774B424@2x.ktx</td><td>com.apple.mobilemail - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>93B96708-FC17-467C-AE6D-C46C0774B424</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:34.682311</td><td>com.apple.mobilemail</td><td>com.apple.mobilemail - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>defaultStoryboard</td><td>93003E35-8E85-4813-9420-08B942329410@2x.ktx</td><td>com.apple.mobilemail - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>93003E35-8E85-4813-9420-08B942329410</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:34.731353</td><td>com.apple.mobilemail</td><td>com.apple.mobilemail - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>defaultStoryboard</td><td>23B76E95-E504-4555-A82F-5E02F460B986@2x.ktx</td><td>com.apple.mobilemail - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>23B76E95-E504-4555-A82F-5E02F460B986</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:34.648843</td><td>com.apple.mobilemail</td><td>com.apple.mobilemail - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>defaultStoryboard</td><td>EA7D39A2-9585-4B9F-9413-233139ED7AED@2x.ktx</td><td>com.apple.mobilemail - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EA7D39A2-9585-4B9F-9413-233139ED7AED</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:40.442223</td><td>com.apple.news</td><td>com.apple.news - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>16DE8BB2-B4AC-42CD-95E9-520E9E457EC3@2x.ktx</td><td>com.apple.news - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>16DE8BB2-B4AC-42CD-95E9-520E9E457EC3</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:40.468515</td><td>com.apple.news</td><td>com.apple.news - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4C320382-BCE0-4C8B-B1AE-E3BF15008884@2x.ktx</td><td>com.apple.news - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4C320382-BCE0-4C8B-B1AE-E3BF15008884</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:43.096709</td><td>com.apple.facetime</td><td>com.apple.facetime - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>3DF7CF83-F2FA-40DC-8A35-3E9EAF31508D@2x.ktx</td><td>com.apple.facetime - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>3DF7CF83-F2FA-40DC-8A35-3E9EAF31508D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:43.132489</td><td>com.apple.facetime</td><td>com.apple.facetime - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>E992762D-6161-4007-A29A-552CC43A17A4@2x.ktx</td><td>com.apple.facetime - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E992762D-6161-4007-A29A-552CC43A17A4</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:45.996229</td><td>com.apple.mobilenotes</td><td>com.apple.mobilenotes - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>defaultStoryboard</td><td>DE93A29E-F600-4755-9802-1712FF911A25@2x.ktx</td><td>com.apple.mobilenotes - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DE93A29E-F600-4755-9802-1712FF911A25</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:45.974137</td><td>com.apple.mobilenotes</td><td>com.apple.mobilenotes - {DEFAULT GROUP}</td><td>1</td><td></td><td>2022-02-06 21:04:34.986256</td><td>defaultStoryboard</td><td>6C8C2DD7-C250-4068-A602-EC7D667321D6@2x.ktx</td><td>com.apple.mobilenotes - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>6C8C2DD7-C250-4068-A602-EC7D667321D6</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:45.951887</td><td>com.apple.mobilenotes</td><td>com.apple.mobilenotes - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>defaultStoryboard</td><td>E22FDE22-67F4-471B-A0B2-376AA4F94DE8@2x.ktx</td><td>com.apple.mobilenotes - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E22FDE22-67F4-471B-A0B2-376AA4F94DE8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:28:46.018201</td><td>com.apple.mobilenotes</td><td>com.apple.mobilenotes - {DEFAULT GROUP}</td><td>3</td><td></td><td>2022-02-06 20:53:51.805039</td><td>defaultStoryboard</td><td>4AAE37BC-C916-4BFC-A2F1-A668F30D1F39@2x.ktx</td><td>com.apple.mobilenotes - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4AAE37BC-C916-4BFC-A2F1-A668F30D1F39</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-02-06 21:21:06.954691</td><td>com.apple.mobilenotes</td><td>sceneID:com.apple.mobilenotes-7824528E-7BD1-4004-9396-0518856F8FE4</td><td>0</td><td></td><td></td><td></td><td>E210A2A4-2028-41E6-B565-2AEA3DA7777B@2x.ktx</td><td>sceneID:com.apple.mobilenotes-7824528E-7BD1-4004-9396-0518856F8FE4</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E210A2A4-2028-41E6-B565-2AEA3DA7777B</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-06 21:21:07.063341</td><td>com.apple.mobilenotes</td><td>sceneID:com.apple.mobilenotes-7824528E-7BD1-4004-9396-0518856F8FE4</td><td>1</td><td></td><td></td><td></td><td>652DB8B5-AAC7-40F7-B573-1122B4700276@2x.ktx</td><td>sceneID:com.apple.mobilenotes-7824528E-7BD1-4004-9396-0518856F8FE4</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>652DB8B5-AAC7-40F7-B573-1122B4700276</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-06 21:21:07.086605</td><td>com.apple.mobilenotes</td><td>sceneID:com.apple.mobilenotes-7824528E-7BD1-4004-9396-0518856F8FE4</td><td>2</td><td></td><td></td><td></td><td>5FD04B1A-A45B-4BCF-A367-CCC9B7A715E6@2x.ktx</td><td>sceneID:com.apple.mobilenotes-7824528E-7BD1-4004-9396-0518856F8FE4</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>5FD04B1A-A45B-4BCF-A367-CCC9B7A715E6</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-06 21:21:06.983181</td><td>com.apple.mobilenotes</td><td>sceneID:com.apple.mobilenotes-7824528E-7BD1-4004-9396-0518856F8FE4</td><td>3</td><td></td><td></td><td></td><td>A3365ADD-EBBA-40D9-9ECA-22E3AEED2666@2x.ktx</td><td>sceneID:com.apple.mobilenotes-7824528E-7BD1-4004-9396-0518856F8FE4</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A3365ADD-EBBA-40D9-9ECA-22E3AEED2666</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:07.441950</td><td>com.apple.reminders</td><td>com.apple.reminders - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>7DC7D0CE-942B-496F-A056-037C0FFB6093@2x.ktx</td><td>com.apple.reminders - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>7DC7D0CE-942B-496F-A056-037C0FFB6093</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:07.470860</td><td>com.apple.reminders</td><td>com.apple.reminders - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2097882F-6E65-48F2-AE16-C5FCBD77EA8B@2x.ktx</td><td>com.apple.reminders - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2097882F-6E65-48F2-AE16-C5FCBD77EA8B</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:21.123819</td><td>com.apple.Home</td><td>com.apple.Home - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>422F7F3D-47C1-4265-9AFE-D6F3E03E24AD@2x.ktx</td><td>com.apple.Home - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>422F7F3D-47C1-4265-9AFE-D6F3E03E24AD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:21.152040</td><td>com.apple.Home</td><td>com.apple.Home - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>E138C020-C242-47A9-ADDA-49F8A7C53B36@2x.ktx</td><td>com.apple.Home - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E138C020-C242-47A9-ADDA-49F8A7C53B36</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:34.174226</td><td>com.apple.tips</td><td>com.apple.tips - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>E43B3763-1FD4-465C-A8EC-9FE104FC82ED@2x.ktx</td><td>com.apple.tips - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E43B3763-1FD4-465C-A8EC-9FE104FC82ED</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:34.139843</td><td>com.apple.tips</td><td>com.apple.tips - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>873C7B50-BD7B-42EA-858C-E8D562483448@2x.ktx</td><td>com.apple.tips - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>873C7B50-BD7B-42EA-858C-E8D562483448</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:35.800490</td><td>com.apple.Maps</td><td>com.apple.Maps - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-21 19:56:46.084846</td><td>__from_UILaunchStoryboardName__</td><td>F14BB69F-45F9-4904-AD75-771C21FE8F69@2x.ktx</td><td>com.apple.Maps - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F14BB69F-45F9-4904-AD75-771C21FE8F69</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:35.779979</td><td>com.apple.Maps</td><td>com.apple.Maps - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>D6EBB242-AE62-4BCA-B6A5-4A2D4296B586@2x.ktx</td><td>com.apple.Maps - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>D6EBB242-AE62-4BCA-B6A5-4A2D4296B586</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:35.735451</td><td>com.apple.Maps</td><td>com.apple.Maps - {DEFAULT GROUP}</td><td>2</td><td></td><td>2022-01-15 14:11:21.360337</td><td>__from_UILaunchStoryboardName__</td><td>FE96763F-672F-4BFD-AB7F-61D6B94F7C30@2x.ktx</td><td>com.apple.Maps - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>FE96763F-672F-4BFD-AB7F-61D6B94F7C30</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:35.755694</td><td>com.apple.Maps</td><td>com.apple.Maps - {DEFAULT GROUP}</td><td>3</td><td></td><td>2022-01-15 14:11:21.398974</td><td>__from_UILaunchStoryboardName__</td><td>51FA628F-B140-446D-83C3-AFA8A6E5C8FD@2x.ktx</td><td>com.apple.Maps - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>51FA628F-B140-446D-83C3-AFA8A6E5C8FD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:15:06.494404</td><td>com.apple.Maps</td><td>sceneID:com.apple.Maps-F34135F8-ECEF-4D50-8448-F1F80D0D3E18</td><td>0</td><td></td><td></td><td></td><td>2228998D-0F2E-4961-B650-1DCDF5F4E621@2x.ktx</td><td>sceneID:com.apple.Maps-F34135F8-ECEF-4D50-8448-F1F80D0D3E18</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2228998D-0F2E-4961-B650-1DCDF5F4E621</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:15:06.534201</td><td>com.apple.Maps</td><td>sceneID:com.apple.Maps-F34135F8-ECEF-4D50-8448-F1F80D0D3E18</td><td>1</td><td></td><td></td><td></td><td>DF4C6389-E3EF-4ECD-AE88-A5377757966A@2x.ktx</td><td>sceneID:com.apple.Maps-F34135F8-ECEF-4D50-8448-F1F80D0D3E18</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DF4C6389-E3EF-4ECD-AE88-A5377757966A</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:15:06.464169</td><td>com.apple.Maps</td><td>sceneID:com.apple.Maps-F34135F8-ECEF-4D50-8448-F1F80D0D3E18</td><td>2</td><td></td><td></td><td></td><td>ACC30877-E810-4BF0-B007-E4C508F186A2@2x.ktx</td><td>sceneID:com.apple.Maps-F34135F8-ECEF-4D50-8448-F1F80D0D3E18</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>ACC30877-E810-4BF0-B007-E4C508F186A2</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:15:06.563525</td><td>com.apple.Maps</td><td>sceneID:com.apple.Maps-F34135F8-ECEF-4D50-8448-F1F80D0D3E18</td><td>3</td><td></td><td></td><td></td><td>CA43B3E0-5D83-43CA-B606-7ED3C1658665@2x.ktx</td><td>sceneID:com.apple.Maps-F34135F8-ECEF-4D50-8448-F1F80D0D3E18</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>CA43B3E0-5D83-43CA-B606-7ED3C1658665</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:39.517303</td><td>com.apple.MobileStore</td><td>com.apple.MobileStore - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4D89443F-4AB2-4815-B908-4420C83A4AA5@2x.ktx</td><td>com.apple.MobileStore - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4D89443F-4AB2-4815-B908-4420C83A4AA5</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:39.491651</td><td>com.apple.MobileStore</td><td>com.apple.MobileStore - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>68FF73BF-9427-4E99-943B-C69BFE9CBBEE@2x.ktx</td><td>com.apple.MobileStore - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>68FF73BF-9427-4E99-943B-C69BFE9CBBEE</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:39.547746</td><td>com.apple.MobileStore</td><td>com.apple.MobileStore - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4B74AB11-8A27-4141-B86D-7ECA6D0038FD@2x.ktx</td><td>com.apple.MobileStore - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4B74AB11-8A27-4141-B86D-7ECA6D0038FD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:39.574527</td><td>com.apple.MobileStore</td><td>com.apple.MobileStore - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4519C008-671F-4012-A657-3FED2D149D5C@2x.ktx</td><td>com.apple.MobileStore - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4519C008-671F-4012-A657-3FED2D149D5C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:52.232742</td><td>com.apple.mobilecal</td><td>com.apple.mobilecal - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>384DB72F-2D73-4B27-B2D7-E723893C7C7E@2x.ktx</td><td>com.apple.mobilecal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>384DB72F-2D73-4B27-B2D7-E723893C7C7E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:52.159355</td><td>com.apple.mobilecal</td><td>com.apple.mobilecal - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>AD326E14-868E-44E6-83D4-8E676539A82A@2x.ktx</td><td>com.apple.mobilecal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>AD326E14-868E-44E6-83D4-8E676539A82A</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:52.266671</td><td>com.apple.mobilecal</td><td>com.apple.mobilecal - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>3484BD74-3A04-4BEF-AA2D-075817102A26@2x.ktx</td><td>com.apple.mobilecal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>3484BD74-3A04-4BEF-AA2D-075817102A26</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:52.198100</td><td>com.apple.mobilecal</td><td>com.apple.mobilecal - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A7332EFE-EF46-435A-AF76-79BC73CEB277@2x.ktx</td><td>com.apple.mobilecal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A7332EFE-EF46-435A-AF76-79BC73CEB277</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:53.646798</td><td>com.apple.mobilecal</td><td>sceneID:com.apple.mobilecal-2C0787D0-4545-44ED-B9FC-79677C76AC32</td><td>0</td><td></td><td></td><td></td><td>EC5F977C-BEC4-4FBE-BC0B-9117B7A93955@2x.ktx</td><td>sceneID:com.apple.mobilecal-2C0787D0-4545-44ED-B9FC-79677C76AC32</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EC5F977C-BEC4-4FBE-BC0B-9117B7A93955</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:53.676762</td><td>com.apple.mobilecal</td><td>sceneID:com.apple.mobilecal-2C0787D0-4545-44ED-B9FC-79677C76AC32</td><td>1</td><td></td><td></td><td></td><td>F46EA4DF-ACC1-468B-B21E-BE9E0DD7270C@2x.ktx</td><td>sceneID:com.apple.mobilecal-2C0787D0-4545-44ED-B9FC-79677C76AC32</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F46EA4DF-ACC1-468B-B21E-BE9E0DD7270C</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:32:04.069222</td><td>com.apple.mobilecal</td><td>sceneID:com.apple.mobilecal-4E83D860-588E-45AF-AF6B-122A718FD53A</td><td>0</td><td></td><td></td><td></td><td>DAE96D26-C7FD-4A7D-A6B7-B3E99D675CCE@2x.ktx</td><td>sceneID:com.apple.mobilecal-4E83D860-588E-45AF-AF6B-122A718FD53A</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DAE96D26-C7FD-4A7D-A6B7-B3E99D675CCE</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:32:04.038082</td><td>com.apple.mobilecal</td><td>sceneID:com.apple.mobilecal-4E83D860-588E-45AF-AF6B-122A718FD53A</td><td>1</td><td></td><td></td><td></td><td>8AE8B251-37FA-46D5-BA68-88B8ED7D2670@2x.ktx</td><td>sceneID:com.apple.mobilecal-4E83D860-588E-45AF-AF6B-122A718FD53A</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8AE8B251-37FA-46D5-BA68-88B8ED7D2670</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:29:52.974411</td><td>com.apple.VoiceMemos</td><td>com.apple.VoiceMemos - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>148609DB-BB74-48B5-880A-F7DF9BFB9C9F@2x.ktx</td><td>com.apple.VoiceMemos - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>148609DB-BB74-48B5-880A-F7DF9BFB9C9F</td><td>{375, 667}</td><td>1</td><td>False</td><td></td></tr><tr><td>2022-01-10 17:29:52.995642</td><td>com.apple.VoiceMemos</td><td>com.apple.VoiceMemos - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>E0811F22-F653-4452-B4D1-47A4BBA1E901@2x.ktx</td><td>com.apple.VoiceMemos - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E0811F22-F653-4452-B4D1-47A4BBA1E901</td><td>{375, 667}</td><td>1</td><td>False</td><td></td></tr><tr><td>2022-01-10 17:30:00.304771</td><td>com.apple.DocumentsApp</td><td>com.apple.DocumentsApp - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>DD0F7C0B-0A2A-4365-A6EE-EA0840468F77@2x.ktx</td><td>com.apple.DocumentsApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DD0F7C0B-0A2A-4365-A6EE-EA0840468F77</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:00.331044</td><td>com.apple.DocumentsApp</td><td>com.apple.DocumentsApp - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>5CEF606A-1530-48F8-B4C3-BD42FF00E28A@2x.ktx</td><td>com.apple.DocumentsApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>5CEF606A-1530-48F8-B4C3-BD42FF00E28A</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:00.274126</td><td>com.apple.DocumentsApp</td><td>com.apple.DocumentsApp - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>3B46B06B-E509-4D1E-B34E-B61ADC362992@2x.ktx</td><td>com.apple.DocumentsApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>3B46B06B-E509-4D1E-B34E-B61ADC362992</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:00.353946</td><td>com.apple.DocumentsApp</td><td>com.apple.DocumentsApp - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>AA060CB9-3E80-4FB8-8AFD-F085C298F0FF@2x.ktx</td><td>com.apple.DocumentsApp - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>AA060CB9-3E80-4FB8-8AFD-F085C298F0FF</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:09.898780</td><td>com.apple.weather</td><td>com.apple.weather - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-15 00:16:07.477817</td><td>__from_UILaunchStoryboardName__</td><td>216302C6-AAF5-48E9-A798-5C4D58FBF02A@2x.ktx</td><td>com.apple.weather - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>216302C6-AAF5-48E9-A798-5C4D58FBF02A</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:09.933738</td><td>com.apple.weather</td><td>com.apple.weather - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2981629B-B35F-4A12-AC07-CE67D708B159@2x.ktx</td><td>com.apple.weather - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2981629B-B35F-4A12-AC07-CE67D708B159</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:10.843873</td><td>com.apple.Translate</td><td>com.apple.Translate - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-21 22:20:05.998062</td><td>__from_UILaunchStoryboardName__</td><td>A023ECFE-38B0-4118-A7FA-9146FA562B72@2x.ktx</td><td>com.apple.Translate - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A023ECFE-38B0-4118-A7FA-9146FA562B72</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:10.869283</td><td>com.apple.Translate</td><td>com.apple.Translate - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A4DE70C8-28BF-4BD3-9B13-1E8FECACF4AE@2x.ktx</td><td>com.apple.Translate - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A4DE70C8-28BF-4BD3-9B13-1E8FECACF4AE</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:10.817147</td><td>com.apple.Translate</td><td>com.apple.Translate - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>1C65A080-6387-49C8-B1BE-DCA13A7C5CBE@2x.ktx</td><td>com.apple.Translate - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>1C65A080-6387-49C8-B1BE-DCA13A7C5CBE</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:10.889896</td><td>com.apple.Translate</td><td>com.apple.Translate - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>F8B9F795-CFB6-4C6E-8DF9-3F76614469DD@2x.ktx</td><td>com.apple.Translate - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F8B9F795-CFB6-4C6E-8DF9-3F76614469DD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:33.308464</td><td>com.apple.iBooks</td><td>com.apple.iBooks - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>9F0CDF6F-AF13-4180-A760-48F8EB0A753C@2x.ktx</td><td>com.apple.iBooks - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9F0CDF6F-AF13-4180-A760-48F8EB0A753C</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:33.327775</td><td>com.apple.iBooks</td><td>com.apple.iBooks - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>A978E9C3-E123-41FF-9336-D65ECD463599@2x.ktx</td><td>com.apple.iBooks - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A978E9C3-E123-41FF-9336-D65ECD463599</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:33.353812</td><td>com.apple.iBooks</td><td>com.apple.iBooks - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>80D99388-9CB0-44AD-B4F4-F9B60C802CF1@2x.ktx</td><td>com.apple.iBooks - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>80D99388-9CB0-44AD-B4F4-F9B60C802CF1</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:33.375301</td><td>com.apple.iBooks</td><td>com.apple.iBooks - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>6DF35AA4-A19B-4883-BF53-41B6241185BC@2x.ktx</td><td>com.apple.iBooks - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>6DF35AA4-A19B-4883-BF53-41B6241185BC</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:37.675059</td><td>com.apple.Music</td><td>com.apple.Music - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>8ACA68F2-49FD-4410-A1DB-E945DFFC6893@2x.ktx</td><td>com.apple.Music - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8ACA68F2-49FD-4410-A1DB-E945DFFC6893</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:37.719766</td><td>com.apple.Music</td><td>com.apple.Music - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>EE56D67F-ABBA-4237-889C-5E0EB9FB2E29@2x.ktx</td><td>com.apple.Music - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EE56D67F-ABBA-4237-889C-5E0EB9FB2E29</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:43.510528</td><td>com.apple.compass</td><td>com.apple.compass - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>56C0EE34-D510-405A-AF90-9F83D1EA2A3D@2x.ktx</td><td>com.apple.compass - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>56C0EE34-D510-405A-AF90-9F83D1EA2A3D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:43.545304</td><td>com.apple.compass</td><td>com.apple.compass - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0584820F-437A-4483-A21C-DCA4C10C4496@2x.ktx</td><td>com.apple.compass - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0584820F-437A-4483-A21C-DCA4C10C4496</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:49.094620</td><td>com.apple.podcasts</td><td>com.apple.podcasts - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>DE0A06B5-7DA2-4E55-8DEB-576E2C913979@2x.ktx</td><td>com.apple.podcasts - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DE0A06B5-7DA2-4E55-8DEB-576E2C913979</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-10 17:30:49.142466</td><td>com.apple.podcasts</td><td>com.apple.podcasts - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>38AA56B9-AC90-48FC-8049-7C575DA5C332@2x.ktx</td><td>com.apple.podcasts - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>38AA56B9-AC90-48FC-8049-7C575DA5C332</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:32:02.815348</td><td>com.google.Gmail</td><td>com.google.Gmail - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-30 02:18:14.765972</td><td>__from_UILaunchStoryboardName__</td><td>D9934193-F26F-4476-A712-D8D0DF6BF024@2x.ktx</td><td>com.google.Gmail - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>D9934193-F26F-4476-A712-D8D0DF6BF024</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:32:02.886139</td><td>com.google.Gmail</td><td>com.google.Gmail - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>7616389C-34DE-449D-BA88-AC725CB47753@2x.ktx</td><td>com.google.Gmail - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>7616389C-34DE-449D-BA88-AC725CB47753</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:58:39.546353</td><td>com.hammerandchisel.discord</td><td>sceneID:com.hammerandchisel.discord-default</td><td>0</td><td></td><td></td><td></td><td>3A065EBE-4A8E-4948-956F-09E07BDF708F@2x.ktx</td><td>sceneID:com.hammerandchisel.discord-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>3A065EBE-4A8E-4948-956F-09E07BDF708F</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:58:39.473952</td><td>com.hammerandchisel.discord</td><td>sceneID:com.hammerandchisel.discord-default</td><td>1</td><td></td><td></td><td></td><td>EFE24337-8DC9-4488-8758-7B3D82787F0D@2x.ktx</td><td>sceneID:com.hammerandchisel.discord-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EFE24337-8DC9-4488-8758-7B3D82787F0D</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:58:39.568390</td><td>com.hammerandchisel.discord</td><td>sceneID:com.hammerandchisel.discord-default</td><td>2</td><td></td><td></td><td></td><td>10DC94DB-C1D2-4C98-9504-D3BABA1F94C8@2x.ktx</td><td>sceneID:com.hammerandchisel.discord-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>10DC94DB-C1D2-4C98-9504-D3BABA1F94C8</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:58:39.501150</td><td>com.hammerandchisel.discord</td><td>sceneID:com.hammerandchisel.discord-default</td><td>3</td><td></td><td></td><td></td><td>DE22FDC7-9F84-40AC-9111-FA47870505EA@2x.ktx</td><td>sceneID:com.hammerandchisel.discord-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>DE22FDC7-9F84-40AC-9111-FA47870505EA</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-04 04:11:29.808858</td><td>com.hammerandchisel.discord</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>49FC1F4E-D41D-4635-A411-654BDDFC6FAD@2x.ktx</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>49FC1F4E-D41D-4635-A411-654BDDFC6FAD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:34:19.807586</td><td>com.hammerandchisel.discord</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>1</td><td></td><td>2022-01-21 21:28:24.239723</td><td>__from_UILaunchStoryboardName__</td><td>B5AA6111-28B4-4072-A67F-CFBA2EF0C549@2x.ktx</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>B5AA6111-28B4-4072-A67F-CFBA2EF0C549</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:34:19.872722</td><td>com.hammerandchisel.discord</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>17EBE045-CFEF-4ED1-AD9C-055B5A567ACD@2x.ktx</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>17EBE045-CFEF-4ED1-AD9C-055B5A567ACD</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:34:19.848935</td><td>com.hammerandchisel.discord</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>6E8EA85C-C56C-47AE-B2D7-D4C016E4EB95@2x.ktx</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>6E8EA85C-C56C-47AE-B2D7-D4C016E4EB95</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:34:19.770879</td><td>com.hammerandchisel.discord</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>4</td><td></td><td>2022-02-11 03:56:13.426280</td><td>__from_UILaunchStoryboardName__</td><td>93E29569-8593-4EC8-BC7F-39324E9355D5@2x.ktx</td><td>com.hammerandchisel.discord - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>93E29569-8593-4EC8-BC7F-39324E9355D5</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:37:49.814090</td><td>com.toyopagroup.picaboo</td><td>com.toyopagroup.picaboo - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-30 02:04:52.853652</td><td>__from_UILaunchStoryboardName__</td><td>AF91DB24-DD73-4848-AD7F-8B3CE2C688F7@2x.ktx</td><td>com.toyopagroup.picaboo - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>AF91DB24-DD73-4848-AD7F-8B3CE2C688F7</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:37:49.859252</td><td>com.toyopagroup.picaboo</td><td>com.toyopagroup.picaboo - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>D6D83FB0-A3E8-4D04-B12B-25DB8329D035@2x.ktx</td><td>com.toyopagroup.picaboo - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>D6D83FB0-A3E8-4D04-B12B-25DB8329D035</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:44:04.635788</td><td>com.moxco.bumble</td><td>com.moxco.bumble - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-02-04 04:09:02.601154</td><td>__from_UILaunchStoryboardName__</td><td>50B8C306-6828-482F-AABB-D9DDA1DA3A12@2x.ktx</td><td>com.moxco.bumble - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>50B8C306-6828-482F-AABB-D9DDA1DA3A12</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:45:16.465743</td><td>com.atebits.Tweetie2</td><td>com.atebits.Tweetie2 - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-02-06 04:41:03.225856</td><td>__from_UILaunchStoryboardName__</td><td>EA338C85-A188-483C-9ABF-441D2E266859@2x.ktx</td><td>com.atebits.Tweetie2 - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EA338C85-A188-483C-9ABF-441D2E266859</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:45:16.513062</td><td>com.atebits.Tweetie2</td><td>com.atebits.Tweetie2 - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>F4F5A4F4-AA96-4FEE-9494-3144851E6967@2x.ktx</td><td>com.atebits.Tweetie2 - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F4F5A4F4-AA96-4FEE-9494-3144851E6967</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:45:16.532475</td><td>com.atebits.Tweetie2</td><td>com.atebits.Tweetie2 - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>80014D04-B4EC-4D28-90E0-E007B76E1755@2x.ktx</td><td>com.atebits.Tweetie2 - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>80014D04-B4EC-4D28-90E0-E007B76E1755</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:45:16.491922</td><td>com.atebits.Tweetie2</td><td>com.atebits.Tweetie2 - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>F2FD5F78-9E9A-4495-B1AC-EFCD18F87C17@2x.ktx</td><td>com.atebits.Tweetie2 - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>F2FD5F78-9E9A-4495-B1AC-EFCD18F87C17</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:46:27.877226</td><td>com.reddit.Reddit</td><td>com.reddit.Reddit - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0F17CFD7-FBB1-4FB5-AE8E-F142967B0E22@2x.ktx</td><td>com.reddit.Reddit - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0F17CFD7-FBB1-4FB5-AE8E-F142967B0E22</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:46:27.817727</td><td>com.reddit.Reddit</td><td>com.reddit.Reddit - {DEFAULT GROUP}</td><td>1</td><td></td><td>2022-02-04 00:26:14.640653</td><td>__from_UILaunchStoryboardName__</td><td>3F4FD045-5568-4D45-A268-EB37E63F84E8@2x.ktx</td><td>com.reddit.Reddit - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>3F4FD045-5568-4D45-A268-EB37E63F84E8</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:46:27.858088</td><td>com.reddit.Reddit</td><td>com.reddit.Reddit - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>001D3686-A7CE-4DA9-9A31-06B81A0A28DF@2x.ktx</td><td>com.reddit.Reddit - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>001D3686-A7CE-4DA9-9A31-06B81A0A28DF</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:46:27.895529</td><td>com.reddit.Reddit</td><td>com.reddit.Reddit - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>1C0851A0-8F87-423E-919C-DECAA22E945F@2x.ktx</td><td>com.reddit.Reddit - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>1C0851A0-8F87-423E-919C-DECAA22E945F</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:47:19.657828</td><td>org.whispersystems.signal</td><td>org.whispersystems.signal - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>4D66D1DD-8A45-4934-B2E7-A79515E3C540@2x.ktx</td><td>org.whispersystems.signal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>4D66D1DD-8A45-4934-B2E7-A79515E3C540</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:47:19.677984</td><td>org.whispersystems.signal</td><td>org.whispersystems.signal - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>0783DD12-FA9A-45C3-8FAB-DC70F44E140F@2x.ktx</td><td>org.whispersystems.signal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0783DD12-FA9A-45C3-8FAB-DC70F44E140F</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:47:19.603180</td><td>org.whispersystems.signal</td><td>org.whispersystems.signal - {DEFAULT GROUP}</td><td>2</td><td></td><td>2022-01-21 22:02:25.248055</td><td>__from_UILaunchStoryboardName__</td><td>E2DC15B7-45E3-422A-B954-500DED87B55B@2x.ktx</td><td>org.whispersystems.signal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>E2DC15B7-45E3-422A-B954-500DED87B55B</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 20:47:19.635204</td><td>org.whispersystems.signal</td><td>org.whispersystems.signal - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>9354B5DC-119E-42E8-83C8-7F5A90B6D3DC@2x.ktx</td><td>org.whispersystems.signal - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9354B5DC-119E-42E8-83C8-7F5A90B6D3DC</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:13:31.703708</td><td>com.wearezeta.zclient.ios</td><td>com.wearezeta.zclient.ios - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-21 22:04:50.559110</td><td>__from_UILaunchStoryboardName__</td><td>B1AB97AB-E5D7-408A-B551-1CA7BC0E17E2@2x.ktx</td><td>com.wearezeta.zclient.ios - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>B1AB97AB-E5D7-408A-B551-1CA7BC0E17E2</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:13:31.740697</td><td>com.wearezeta.zclient.ios</td><td>com.wearezeta.zclient.ios - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2924DCE5-43E8-42BE-BB59-10207B771D48@2x.ktx</td><td>com.wearezeta.zclient.ios - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2924DCE5-43E8-42BE-BB59-10207B771D48</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:13:31.785708</td><td>com.wearezeta.zclient.ios</td><td>com.wearezeta.zclient.ios - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>2100F9B4-4D81-42FA-B3A0-AF798B3C7579@2x.ktx</td><td>com.wearezeta.zclient.ios - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>2100F9B4-4D81-42FA-B3A0-AF798B3C7579</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:13:31.762797</td><td>com.wearezeta.zclient.ios</td><td>com.wearezeta.zclient.ios - {DEFAULT GROUP}</td><td>3</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>EF74A33F-CBF0-4A07-A179-34DF94894265@2x.ktx</td><td>com.wearezeta.zclient.ios - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>EF74A33F-CBF0-4A07-A179-34DF94894265</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:55:27.786098</td><td>com.alltrails.AllTrails</td><td>sceneID:com.alltrails.AllTrails-default</td><td>0</td><td></td><td></td><td></td><td>0ADA708C-8C44-4E32-AB7F-26A9D91EB100@2x.ktx</td><td>sceneID:com.alltrails.AllTrails-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0ADA708C-8C44-4E32-AB7F-26A9D91EB100</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:55:27.711366</td><td>com.alltrails.AllTrails</td><td>sceneID:com.alltrails.AllTrails-default</td><td>1</td><td></td><td></td><td></td><td>5BEE8F11-C5CD-491C-9D5C-37364895132E@2x.ktx</td><td>sceneID:com.alltrails.AllTrails-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>5BEE8F11-C5CD-491C-9D5C-37364895132E</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:55:27.741277</td><td>com.alltrails.AllTrails</td><td>sceneID:com.alltrails.AllTrails-default</td><td>2</td><td></td><td></td><td></td><td>0933AF61-8548-48B3-8C0B-20EBF0039D2F@2x.ktx</td><td>sceneID:com.alltrails.AllTrails-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>0933AF61-8548-48B3-8C0B-20EBF0039D2F</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-02-11 03:55:27.814953</td><td>com.alltrails.AllTrails</td><td>sceneID:com.alltrails.AllTrails-default</td><td>3</td><td></td><td></td><td></td><td>A4B61F45-FAD5-4A8A-B90C-4CC7E3AE37CC@2x.ktx</td><td>sceneID:com.alltrails.AllTrails-default</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>A4B61F45-FAD5-4A8A-B90C-4CC7E3AE37CC</td><td>{375, 667}</td><td>0</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:15:35.167054</td><td>com.alltrails.AllTrails</td><td>com.alltrails.AllTrails - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-21 22:11:30.472265</td><td>__from_UILaunchStoryboardName__</td><td>9DB04ECF-CB9E-40CF-BA2A-909F8FD9F8CC@2x.ktx</td><td>com.alltrails.AllTrails - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>9DB04ECF-CB9E-40CF-BA2A-909F8FD9F8CC</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:15:35.138798</td><td>com.alltrails.AllTrails</td><td>com.alltrails.AllTrails - {DEFAULT GROUP}</td><td>1</td><td></td><td>2022-02-06 22:19:47.805683</td><td>__from_UILaunchStoryboardName__</td><td>FE1F21B9-F313-4037-A01F-05116530298D@2x.ktx</td><td>com.alltrails.AllTrails - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>FE1F21B9-F313-4037-A01F-05116530298D</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:17:10.922992</td><td>ru.appscraft.CollectorGame</td><td>ru.appscraft.CollectorGame - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-02-02 18:49:01.701479</td><td>__from_UILaunchStoryboardName__</td><td>32804522-50E0-4B72-9E06-78D326F57D46@2x.ktx</td><td>ru.appscraft.CollectorGame - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>32804522-50E0-4B72-9E06-78D326F57D46</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:17:55.726216</td><td>com.gma.water.sort.puzzle</td><td>com.gma.water.sort.puzzle - {DEFAULT GROUP}</td><td>0</td><td></td><td>2022-01-21 22:20:07.647026</td><td>__from_UILaunchStoryboardName__</td><td>919F7629-881B-44CB-A5AD-90A1B9B177B0@2x.ktx</td><td>com.gma.water.sort.puzzle - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>919F7629-881B-44CB-A5AD-90A1B9B177B0</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:17:55.773309</td><td>com.gma.water.sort.puzzle</td><td>com.gma.water.sort.puzzle - {DEFAULT GROUP}</td><td>1</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>8960DC1D-57AC-471F-9AAF-A198BC5D2A1E@2x.ktx</td><td>com.gma.water.sort.puzzle - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8960DC1D-57AC-471F-9AAF-A198BC5D2A1E</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 22:19:31.884447</td><td>com.chess.iphone</td><td>com.chess.iphone - {DEFAULT GROUP}</td><td>0</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>8D2B3451-EF98-4D40-AB7F-F887C6A2CED1@2x.ktx</td><td>com.chess.iphone - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8D2B3451-EF98-4D40-AB7F-F887C6A2CED1</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:21:39.823238</td><td>com.chess.iphone</td><td>com.chess.iphone - {DEFAULT GROUP}</td><td>1</td><td></td><td>2022-02-04 00:55:55.897730</td><td>__from_UILaunchStoryboardName__</td><td>372EC4E2-EA83-4785-B4D7-C263C097A70F@2x.ktx</td><td>com.chess.iphone - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>1</td><td>1</td><td>UIBackgroundStyleDefault</td><td>372EC4E2-EA83-4785-B4D7-C263C097A70F</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr><tr><td>2022-01-21 21:21:39.867804</td><td>com.chess.iphone</td><td>com.chess.iphone - {DEFAULT GROUP}</td><td>2</td><td></td><td></td><td>__from_UILaunchStoryboardName__</td><td>8F154453-B5C0-4191-9481-7692F635018A@2x.ktx</td><td>com.chess.iphone - {DEFAULT GROUP}</td><td>2.0</td><td>True</td><td></td><td>4</td><td>1</td><td>UIBackgroundStyleDefault</td><td>8F154453-B5C0-4191-9481-7692F635018A</td><td>{375, 667}</td><td>1</td><td>True</td><td></td></tr></tbody><tfoot><tr><th>Creation Date</th><th>Bundle ID</th><th>Snapshot Group</th><th>Snapshot Index</th><th>Expiration Date</th><th>Last Used Date</th><th>Launch Interface Identifier</th><th>Relative Path</th><th>Group ID</th><th>Image Scale</th><th>Fullscreen</th><th>Name</th><th>Interface Orientation</th><th>File Location</th><th>Background Style</th><th>Identifier</th><th>Reference Size</th><th>Content Type</th><th>Image Opaque</th><th>Required OS Version</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

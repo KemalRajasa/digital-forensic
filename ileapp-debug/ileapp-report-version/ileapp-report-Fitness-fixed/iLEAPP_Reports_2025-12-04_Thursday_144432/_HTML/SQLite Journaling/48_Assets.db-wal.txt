@@ -1,0 +1,111 @@
+SQLite format 3
+.S`
+
+
+
+Wb
+indexAssetVolumeVolumeUUIDIndexAssetVolumeCREATE INDEX AssetVolumeVolumeUUIDIndex on AssetVolume (volumeUUID)
+ItableAssetVolumeAssetVolume
+CREATE TABLE AssetVolume (
+    volumeIndex     integer primary key,
+    volumeUUID      blob
+)i
+indexAssetHandleFileIDIndexAssetHandle	CREATE INDEX AssetHandleFileIDIndex on AssetHandle (fileID)i
+indexAssetHandleStatusIndexAssetHandle
+CREATE INDEX AssetHandleStatusIndex on AssetHandle (status){
+indexAssetHandleLastUsedTimeIndexAssetHandle
+CREATE INDEX AssetHandleLastUsedTimeIndex on AssetHandle (lastUsedTime)v
+indexAssetHandleSignatureIndexAssetHandle
+CREATE INDEX AssetHandleSignatureIndex on AssetHandle (fileSignature)b
+{indexAssetHandleUUIDIndexAssetHandle
+CREATE INDEX AssetHandleUUIDIndex on AssetHandle (UUID)
+{tableAssetHandleAssetHandle
+CREATE TABLE AssetHandle (
+    itemID        integer primary key,
+    UUID          blob not null,
+    lastUsedTime  integer not null,
+    volumeIndex      integer,
+    fileID        integer,
+    generationID  integer,
+    path          text,
+    fileSignature blob,
+    status        integer,
+    modTime       integer,
+    fileSize      integer,
+    chunkCount    integer
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+'
+SchemaVersionAACF7DCBCFA6FAFB5A6223DBCD228F519DB805083706B27B8EB0A8ACFC81A749
+-Created664489551.782734
+SchemaVersion
+	Created
+zBA7
+
+OAxO
+
+'']!' =
+
+fc%amf
+Vj".
+d?w52%
+
+
+
+7[s
+indexAssetVolumeVolumeUUIDIndexAssetVolumeCREATE INDEX AssetVolumeVolumeUUIDIndex on AssetVolume (volumeUUID)i	
+indexAssetHandleFileIDIndexAssetHandleCREATE INDEX AssetHandleFileIDIndex on AssetHandle (fileID)i
+indexAssetHandleStatusIndexAssetHandle
+CREATE INDEX AssetHandleStatusIndex on AssetHandle (status){
+indexAssetHandleLastUsedTimeIndexAssetHandle	CREATE INDEX AssetHandleLastUsedTimeIndex on AssetHandle (lastUsedTime)v
+ItableAssetVolumeAssetVolume
+CREATE TABLE AssetVolume (
+    volumeIndex     integer primary key,
+    volumeUUID      blob
+)
+512n8
+<L{
+
+W$TeU
+
+&)!N
+!-LastVacuum664489551.791747Q
+LastVacuum
+,apfsuuid
+@volum
+61U
+
+,	apfsuuid
+~K]lX
+s^O?
+AA)9v_-u0a
+AA)9v_-u0
+;QqK
+
+1I$U
+
+OIyNga
+}@Ljrk0
+FNY4Ta
+=*yIJ"
+!^%M
+U3]gb
+
+FNY4T
+OIyNg
+Let
+
+{.Q=T/
+
+eE
+
+`m
+A
+
+8]:
+

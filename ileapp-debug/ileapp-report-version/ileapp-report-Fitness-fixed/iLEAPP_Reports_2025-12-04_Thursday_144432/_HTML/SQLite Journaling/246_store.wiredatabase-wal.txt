@@ -1,0 +1,259 @@
+UserClient	
+User	
+Team
+	Session	
+Role
+
+Reaction
+ParticipantRole
+MessageConfirmation
+TextMessage
+SystemMessage
+KnockMessage
+ImageMessage
+ClientMessage
+AssetClientMessage
+Message
+
+Member
+	
+Label
+GenericMessageData
+FeatureFlag
+Feature
+Conversation
+Connection
+ButtonState
+AddressBookEntry
+Action
+	User	
+d\aG
+
+d\5hQYc
+
+d& $A
+(P|'2
+
+d*to
+
+K\E
+ 
+
+d`Ha
+
+U&F1575FEE-5438-46D2-82FB-F1555F7170AEbplist00
+	
+
+
+SessionObjectID_
+NSStoreModelVersionIdentifiers[NSStoreType_
+_NSAutoVacuumLevel_
+NSStoreModelVersionHashesDigest_
+NSStoreModelVersionHashes_
+NSPersistenceFrameworkVersion_
+ NSStoreModelVersionHashesVersion_
+<x-coredata://F1575FEE-5438-46D2-82FB-F1555F7170AE/Session/p1V2.97.0VSQLiteQ2_
+XzFcduXjA0tBPjpAQkq7MwQc42UlYS7/wC7re30R/ABla8eEDou6O2vro0p7OGZ7rhIXzqVoh6MllgywInA7wkg==
+ !"#$%&'()*+,-./0123456789:;<=>?@A\KnockMessageWSession[FeatureFlagVActionXReaction_
+GenericMessageDataVMember]ClientMessageWMessage_
+MessageConfirmationZConnection\Conversation]SystemMessageZUserClientWFeature_
+ParticipantRoleTUserULabel_
+AddressBookEntryTRole_
+AssetClientMessage\ImageMessageTTeam[TextMessage[ButtonStateO
+mi4%V&0?qWWS+O
+|@ S
+ssc;"5O
+7HPyw
+ ;\t	/)7X'%PF
+ h)LO
+6IY 
+zCli
+sX}>
+6H]O
+ ern
+e23ZAb-
+ iu-
+D@.vr,
+:xML
+ 4w'b;#@
+w:BU
+Z/5*6O
+,982+?
+
+ HY
+
+ sNFx
+SYP!~RG?
+q#S	]6HV;3
+"uCO
+ 146vfi
+0IeriO[gWDqLO
+"j=X
+P2ZJ
+A*E/@
+[ik
+:rJ*,
+ W/0 q=U,j3%W2
+XXG/)q
+ Pu>-	-JF]^
+g5Cd
+u
+VukO
+ygyPI
+Rkh	JfhsO
+ 7<t
+~ 4;
+:?M
+
+	Label
+,	+b6D
+d$C
+
+	Feature
+d-jV<Z9
+
+appLockenabled{"enforceAppLock":false,"inactivityTimeoutSecs":60}
+d*hzu
+
+FeatureFlag
+conferenceCallingenabledM
+dDI
+
+dPH
+
+fileSharingenabled$
+VE
+
+selfDeletingMessagesenabled{"enforcedTimeoutSeconds":0}
+F1575FEE-5438-46D2-82FB-F1555F7170AEbplist00
+	
+>@ABCDE_
+(zm_lastDataModelVersionKeyThatWasPatched_
+<x-coredata://F1575FEE-5438-46D2-82FB-F1555F7170AE/Session/p1
+ !"#$%&'()*+,-./0123456789:;<=\KnockMessageWSession[FeatureFlagVActionXReaction_
+H>?V2.97.0VSQLiteQ2_
+XzFcduXjA0tBPjpAQkq7MwQc42UlYS7/wC7re30R/ABla8eEDou6O2vro0p7OGZ7rhIXzqVoh6MllgywInA7wkg==W278.0.1
+dsr.8
+
+U\F1575FEE-5438-46D2-82FB-F1555F7170AEbplist00
+	
+
+
+ZMRegisteredOnThisDevice_
+SessionObjectID
+W278.0.1
+V2.97.0VSQLite	Q2_
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEF\KnockMessageWSession[FeatureFlagVActionXReaction_
+dle!
+
+	UserClient	
+dwK@	
+wire.compbentley0107@gmail.comwirePatrick Bentleypbentley0107@gmail.compatrick bentley\pZ	HEel
+phoneiPhone 8iPhone 8permanent
+9	pbentley0107@gmail.com
++	patrick bentley
+dRNjw
+
+,	\pZ	HEel
+dP3[
+
+1phoneiPhone 8iPhone 86374eba4bce244adpermanentu/4
+x@M-r)
+H#=!:I~;)<f
+dl#
+
+U6F1575FEE-5438-46D2-82FB-F1555F7170AEbplist00
+HI[NSStoreType_
+PersistedClientId_
+NSStoreModelVersionIdentifiers_
+SessionObjectIDVSQLite	_
+6374eba4bce244adW278.0.1
+V2.97.0Q2_
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFG\KnockMessageWSession[FeatureFlagVActionXReaction_
+1phoneiPhone 8iPhone 86374eba4bce244adpermanentbplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$null
+
+ZNS.objectsV$class
+needsToUpdateCapabilitiesYpushToken
+Z$classnameX$classesUNSSet
+XNSObject
+$)27ILQSY_dovy{}
+H#=!:I~;)<f{"appIdentifier":"com.wire","transportType":"APNS_VOIP","isRegistered":false,"isMarkedForDeletion":false,"isMarkedForDownload":false,"deviceToken":"JKH\/UgSRHN6ClyY4eRVvUHs7Fpk5baQ8SDug7oJf1vI="}
+YpushToken
+$)27ILQSX^cnuwy{
+dNvP
+	Role
+
+	ParticipantRole
+	Conversation
+
+e\pZ	HEel
+d$&U
+				
+wire_admin
+dP6
+PW$
+
+ZWs 
+
+d@f
+
+d:`a}
+
+6}%<1
+
+d8
+o;
+dcS
+
+d8$_
+daOj
+dNA@E
+
+>dh[
+
+,\pZ	HEel
+d7JK
+
+U8F1575FEE-5438-46D2-82FB-F1555F7170AEbplist00
+IJK_
+LastUpdateEventID_
+NSPersistenceFrameworkVersion[NSStoreType_
+SessionObjectID	_
+6374eba4bce244ad_
+$68547BD1-7B06-11EC-8003-22000A6A8086
+V2.97.0W278.0.1Q2
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGH\KnockMessageWSession[FeatureFlagVActionXReaction_
+lVSQLite_
+UzF1575FEE-5438-46D2-82FB-F1555F7170AEbplist00
+KLM[NSStoreType_
+lastSavedVersion_
+6374eba4bce244adW402.0.0_
+V2.97.0W278.0.1_
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJ\KnockMessageWSession[FeatureFlagVActionXReaction_
+lQ2_
+selfDeletingMessagesenabled{"enforcedTimeoutSeconds":0}%
+conferenceCallingenabled
+fileSharingenabledN
+e-L
+
+d;T]%
+H#=!:I~;)<f{"appIdentifier":"com.wire","transportType":"APNS_VOIP","isRegistered":true,"isMarkedForDeletion":false,"isMarkedForDownload":false,"deviceToken":"JKH\/UgSRHN6ClyY4eRVvUHs7Fpk5baQ8SDug7oJf1vI="}
+dY	g
+conferenceCallingdisabled
+LDRA
+d,I$U
+
+d+v(
+3-1-7375e92d-f2d0-4014-8ad2-d77cd77f3059wire.compbentley0107@gmail.comwirePatrick Bentleypbentley0107@gmail.compatrick bentley3-1-66e34f70-8bdd-4e8f-b687-ac4cc15c1e51bplist00
+previewProfileAssetIdentifier_
+completeProfileAssetIdentifier
+\pZ	HEel
+d=3gl
+
+3-1-7375e92d-f2d0-4014-8ad2-d77cd77f3059wire.compbentley0107@gmail.comwirePatrick Bentleypbentley0107@gmail.compatrick bentley3-1-66e34f70-8bdd-4e8f-b687-ac4cc15c1e51\pZ	HEel
+3-1-7375e92d-f2d0-4014-8ad2-d77cd77f3059wire.compbentley0107@gmail.compatrickbentleywirePatrick Bentleypbentley0107@gmail.compatrick bentley3-1-66e34f70-8bdd-4e8f-b687-ac4cc15c1e51\pZ	HEel

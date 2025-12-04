@@ -1,0 +1,728 @@
+7)fty*P
+7)f1
+pmo
+
+%HomeDataInfo	
+<NULL>
+%q3
+
+zone_share
+
+zone_group
+	zone
+7)f}8'
+%	HomeDataInfo	
+7)f:
+BXxz
+
+!	zone_group
+7)fW
+Qt
+I'
+
+DONOTUPLOAD__HomeKit_Default_Owner__HomeDataInfo
+<NULL><NULL>
+7)flG
+?#		__HomeKit_Default_Owner__DONOTUPLOAD
+7)fYpRv'
+
+-HomeDataBlobZone
+zone
+7)f~
+HomeDataBlobZone
+7)f_?
+zone_share
++QJ
+DONOTUPLOAD__HomeKit_Default_Owner__HomeDataBlobSubscription8
+7)f%Cl
+
+__HomeKit_Default_Owner__DONOTUPLOAD
+7)fnEY
+
+UCCF7D3D1-0C20-4207-97D0-9E565EB5E323
+7)f@7AD=G
+
+CCF7D3D1-0C20-4207-97D0-9E565EB5E323
+7)f,\?;ky
+
+7)f'dsk
+
+C67B4CFE-EAC3-463D-B4CE-E61F5C6CE005__HomeKit_Default_Owner__E5E36C6B-A621-4F46-A593-E7EE5E6BC437E
+7)fBH1*:K2
+
+__HomeKit_Default_Owner__C67B4CFE-EAC3-463D-B4CE-E61F5C6CE005
+7)fKy\\
+U1411CE6C-B4DE-4622-A49D-F66FE296D6B5'
+7)fr
+1411CE6C-B4DE-4622-A49D-F66FE296D6B5
+7)fmh?T
+
+7)f1-v
+14730983-0D6D-4F74-8076-4F5953FD83EB__HomeKit_Default_Owner__089DAA62-C6FD-4BB1-9EDE-17126F6076F7j
+7)f^mLc
+
+__HomeKit_Default_Owner__14730983-0D6D-4F74-8076-4F5953FD83EB
+7)f);
+
+	xact
+7)fN)(
+
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252Ebplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !"#$%&'U$null
+
+WNS.keysZNS.objectsV$class
+	
+R_PR_VZidentifierR_uR_t_
+$1CAEDC10-E3E5-41A4-BB17-A9EEBA14A938S8.0O
+*bplist00
+#$*U$null
+
+V$class[HM.internal
+ZHM.mergeID]HM.identifierYHM.string
+\NS.uuidbytesO
+6U$ T
+ !Z$classnameX$classesVNSUUID "XNSObject[17768365815
+_HMDAppleAccountIdentifier'()"_
+_HMDAppleAccountIdentifier_
+_HMDAccountIdentifierYHMFObject
+HMDAccountIdentifier-)"_
+HMDAccountIdentifier
+$8B9ADEBB-1036-55E3-96F4-E69A24205491_
+HMDAccountModel()*+Z$classnameX$classes_
+NSMutableDictionary*,-\NSDictionaryXNSObject
+7)fHh&
+
+Tbplist00
+$%U$null
+
+]HM.mustReplayV$classXHM.label^HM.destinationWHM.date[HM.mustPushYHM.source
+WNS.time#A
+ !"Z$classnameX$classesVNSDate!#XNSObject[Add Account
+ &'_
+!HMDBackingStoreTransactionOptions()#_
+!HMDBackingStoreTransactionOptionsYHMFObject
+7)f
+_7jn
+
+		__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E
+7)fB
+			__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E
+7)f2&Y7i
+
+#?h=
+DONOTUPLOAD__HomeKit_Default_Owner__bplist00
+U$null
+
+V$class_
+ChangeTokenData
+Z$classnameX$classes_
+CKServerChangeToken
+CKServerChangeTokenXNSObject
+$)27ILQSX^cj|~
+HomeDataBlobSubscriptionj
+C67B4CFE-EAC3-463D-B4CE-E61F5C6CE005__HomeKit_Default_Owner__E5E36C6B-A621-4F46-A593-E7EE5E6BC437
+7)fW"
+14730983-0D6D-4F74-8076-4F5953FD83EB__HomeKit_Default_Owner__089DAA62-C6FD-4BB1-9EDE-17126F6076F7bplist00
+"#$+U$null
+
+subscriptionTypeXserverID_
+notificationInfoVZoneIDZrecordType
+$089DAA62-C6FD-4BB1-9EDE-17126F6076F7
+anonymousCKUserIDYownerNameXZoneName
+$1411CE6C-B4DE-4622-A49D-F66FE296D6B5_
+__defaultOwner__%&'(Z$classnameX$classes^CKRecordZoneID)*^CKRecordZoneIDXNSObject%&,-_
+CKRecordZoneSubscription./*_
+CKRecordZoneSubscription^CKSubscription
+HomeDataBlobSubscription
+7)fufz/
+#?h=&
+HomeDataBlobSubscriptionbplist00
+HomeDataBlobZone_
+7)f/
+xact
+7)f[z
+ !"#$%&'()*+U$null
+
+	
+
+
+R_tR_PR_VR_uUlocalVidsURI_
+HMDAccountHandleModel_
+$8B9ADEBB-1036-55E3-96F4-E69A24205491S8.0_
+$92FED10F-C673-58D0-B10B-0C5430F46FCB
+bplist00
+[prefixedURIV$class
+mailto:pbentley0107@gmail.com
+Z$classnameX$classesVIDSURI
+XNSObject
+$)27ILQSX^covxz
+,-./Z$classnameX$classes_
+NSMutableDictionary.01\NSDictionaryXNSObject
+$281E88F4-ED55-5B22-A583-C7C509BD82B6
+tel:+19732941683
+7)f"Mh+Y
+
+Zbplist00
+ !"Z$classnameX$classesVNSDate!#XNSObject^Update Handles
+7)fMUV0m
+
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E
+7)fmr@Oe>^SQLite format 3
+.S`
+
+
+
+		e	
+itablearchivearchive
+CREATE TABLE archive (identifier string primary key, controller_username string not null, value blob not null)-
+indexsqlite_autoindex_archive_1archive
+windexxact_pushed2xact
+CREATE INDEX xact_pushed2 ON xact (root, xact_id, id)S
+}indexxact_pushedxact
+CREATE INDEX xact_pushed ON xact (root, pushed, xact_id)
+Cindexrecord_group_id_share_id_name_ukeyrecord
+CREATE UNIQUE INDEX record_group_id_share_id_name_ukey ON record (group_id, share_id, name)z
+#indexshare_root_group_id_ukeyzone_share
+CREATE UNIQUE INDEX share_root_group_id_ukey ON zone_share (root, group_id)
+
+9indexgroup_owner_root_zone_id_ukeyzone_groupCREATE UNIQUE INDEX group_owner_root_zone_id_ukey ON zone_group (owner, root, zone_id)I
+
+iindexstore_namestoreCREATE UNIQUE INDEX store_name ON store (name)E	
+eindexzone_namezone
+CREATE UNIQUE INDEX zone_name ON zone (name)e
+tablexact_blockxact_block	CREATE TABLE xact_block (id INTEGER PRIMARY KEY, data BLOB NOT NULL)x
+Stablexactxact
+CREATE TABLE xact (id INTEGER PRIMARY KEY AUTOINCREMENT, xact_id INTEGER NOT NULL, pushed INTEGER, root TEXT NOT NULL, type INT NOT NULL, encoding INTEGER NOT NULL, data BLOB NOT NULL, disk_committed INTEGER NOT NULL DEFAULT 1)s
+Atablerecordrecord
+CREATE TABLE record (group_id INTEGER NOT NULL CONSTRAINT record_group_id_fkey REFERENCES zone_group (id) ON DELETE RESTRICT, share_id INTEGER NOT NULL CONSTRAINT record_share_id_fkey REFERENCES zone_share (id) ON DELETE RESTRICT, store_id INTEGER NOT NULL CONSTRAINT record_store_id_fkey REFERENCES store (id) ON DELETE RESTRICT, name TEXT NOT NULL, type TEXT, uuid TEXT, parent_uuid TEXT, encoding INTEGER NOT NULL, record BLOB NOT NULL, data BLOB NOT NULL, schema STRING)
+Itablezone_sharezone_share
+CREATE TABLE zone_share (id INTEGER PRIMARY KEY AUTOINCREMENT, group_id INTEGER NOT NULL CONSTRAINT group_zone_id_fkey REFERENCES zone_group (id) ON DELETE RESTRICT, root TEXT NOT NULL, target TEXT, share BLOB, users BLOB)
+	tablezone_groupzone_group
+CREATE TABLE zone_group (id INTEGER PRIMARY KEY AUTOINCREMENT, zone_id INTEGER NOT NULL CONSTRAINT group_zone_id_fkey REFERENCES zone (id) ON DELETE RESTRICT, root TEXT NOT NULL, owner TEXT NOT NULL, token BLOB, subscription TEXT, subscription_data BLOB)f
++tablestorestore
+CREATE TABLE store (id INTEGER PRIMARY KEY AUTOINCREMENT, name STRING NOT NULL)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)c
+)tablezonezone
+CREATE TABLE zone (id INTEGER PRIMARY KEY AUTOINCREMENT, name STRING NOT NULL)
+7)fT
+7)f"bM
+7)f}
+
+'
+2
+hbplist00
+ !"Z$classnameX$classesVNSDate!#XNSObject_
+Object registration
+7)f9
+7)fg
+7)f/| 6#	-
+
+7)fj5Au
+
+'()*+,-./0123456789:?@AGU$null
+
+&WNS.keysZNS.objectsV$class
+ !"#$%
+
+R_tR_PR_uR_V[productInfoZidentifierWversionZrpIdentityTnameWhandles^HMDDeviceModel_
+$89A1F68C-F016-5DAB-AA58-96269C21F733S8.0O
+>bplist00
+"#,U$null
+
+HMF.softwareVersion_
+HMF.patchVersion\HMF.platform_
+HMF.majorVersion_
+HMF.minorVersionYHMF.class[HMF.variant
+!XHM.minorXHM.buildXHM.majorYHM.update
+V19A404$%&'Z$classnameX$classes_
+HMFSoftwareVersion()*+_
+HMFSoftwareVersionZHMFVersionYHMFObjectXNSObject$%-.^HMFProductInfo/*+^HMFProductInfo
+\NS.uuidbytesV$classO
+a56KU?rK
+Z$classnameX$classesVNSUUID
+$)27ILQSW]bov
+0bplist00
+XHM.minorXHM.majorYHM.updateV$class
+HMDHomeKitVersion
+HMDHomeKitVersionZHMFVersionYHMFObjectXNSObject
+$)27ILQSW]fox
+"U$null
+
+^HM.rpDeviceIRKV$class
+XHAP.dataVHMF.ksVHMF.kt
+SIRKO
+Z$classnameX$classesVHMFKey
+ !YHMFObjectXNSObject
+#$]HMDRPIdentity% !]HMDRPIdentity
+XiPhone 8
+;><=
+!$*U$null
+
+[HM.deviceID]HM.identifier
+1[U
+:ZD
+ XNSObject
+_HMDLocalDeviceHandle'() _
+_HMDLocalDeviceHandle_
+_HMDDeviceHandleYHMFObject
+HMDDeviceHandle-) _
+HMDDeviceHandle
+#$*./27<U$null
+
+V$class[HM.internal
+ZHM.account]HM.identifierXHM.token
+ !Z$classnameX$classesVNSUUID "XNSObjectO
+)S>srPu
+%&
+'()WHMD.URIYHMD.local
+
++
+,-[prefixedURI
+01VIDSURI0"
+HMDAccountHandle56"_
+HMDAccountHandleYHMFObject
+_HMDGlobalDeviceHandle:;6"_
+_HMDGlobalDeviceHandle_
+_HMDDeviceHandle
+HMDDeviceHandle?6"_
+CBCDEZ$classnameX$classesWNSArrayDFXNSObjectBCHI_
+NSMutableDictionaryHJF\NSDictionary
+	
+7)f$Z
+5klmnopqrstuvwxyz{|}~
+=jWNS.keysZNS.objectsV$class
+ !"#$%&'()*+,-./0123456789:;<
+ !"#$%&'()*+,-
+,>>>>B>>E>GH>H>>>>HHH>H>>>H>>H>>>^H>>H>>>>>>>..../..0.12.2....222.2...2..2...32..2.......4_
+supportsCameraRecording\supportsCHIP_
+supportsThreadBorderRouter_
+"supportsIDSActivityMonitorPresenceR_V_
+supportsFaceClassification_
+supportsSiriEndpointSetupR_t_
+supportsMusicAlarmR_u_
+supportsAnnounce_
+supportsLockNotificationContext_
+supportsStandaloneMode_
+supportsHomeHub_
++supportsCameraSignificantEventNotifications_
+supportsRouterManagement_
+0supportsCameraRecordingReachabilityNotifications_
+supportsMediaActions_
+supportsKeyTransferClient_
+supportsWakeOnLAN_
+supportsThirdPartyMusic_
+supportsKeychainSync_
+!supportsCompanionInitiatedRestart_
+supportsTargetControl_
+residentCapable_
+supportsFirmwareUpdate_
+supportsDeviceSetup_
+supportsPreferredMediaUser_
+supportsHomeInvitation_
+supportsCameraPackageDetection_
+supportsAssistantAccessControl_
+supportsAccessCodesR_P_
+supportsCloudDataSync_
+!supportsCoordinationDoorbellChime_
+supportsWholeHouseAudio_
+supportsShortcutActions_
+remoteGatewayCapable_
+supportsWalletKey_
+supportsMultiUser_
+supportsNaturalLighting_
+supportsKeyTransferServer_
+supportsCameraActivityZones_
+supportsResidentFirmwareUpdate
+S8.0_
+HMDDeviceCapabilitiesModel_
+$ACC8D581-4283-5CFB-981E-D8C51CB39390	_
+$89A1F68C-F016-5DAB-AA58-96269C21F733
+NSMutableDictionary\NSDictionaryXNSObject
+7)f2XW=vSQLite format 3
+7)f\}
+7)fcnrEO
+
+7)f
+hV
+
+7)f+
+7)ftomAb
+
+7)f&
+7)fYrd
+
+7)f
+
+SQLite format 3
+7)f{Dg
+xact
+
+7)f6`
+7)fN3n
+
+\bplist00
+%&U$null
+
+ !"#Z$classnameX$classesVNSDate"$XNSObject[Add Account !'(_
+!HMDBackingStoreTransactionOptions)*$_
+7)f-{
+y%?
+
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E	
+
+K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E			K
+7)f$_u
+
+7)faU
+%&'()*+,-./0123456;<=CU$null
+
+$WNS.keysZNS.objectsV$class
+ !"#
+
+R_tR_PR_uR_V[productInfoZidentifierWversionTnameWhandles^HMDDeviceModel_
+7:89
+C>?@AZ$classnameX$classesWNSArray@BXNSObject>?DE_
+NSMutableDictionaryDFB\NSDictionary
+
+
+
+
+
++/
+7)f&!>=
+
+7)fef
+tkSQLite format 3
+7)f	7
+xact
+7)fK5
+7)f(
+9QP
+
+`bplist00
+ !"#Z$classnameX$classesVNSDate"$XNSObject]Update Device !'(_
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252EK
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252EK
+7)f"P
+7)f}85
+
+7)fljLsSQLite format 3
+7)fDp
+7)f*IV
+
+
+
+
+
+
+
+
+
+7)fD-l
+7)fGMHI.M%
+#,T
+
+7)fpb
+
+un
+
+7)fS
+WNS.time#AT
+7)f0O)@
+
+
+
+
+
+
+7)f	Xaz
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E
+
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E
+
+
+
+7)fJoHDSQLite format 3
+7)f8
+7)f'W
+7)f`
+
+h
+
+7)f
+
+7)f:d
+Mu[0
+
+7)fO
+-
+7)fa
+7)fl=
+7)f HSQLite format 3
+7)f!ta
+7)fD!].$
+7)fFxF
+
+K0ESQLite format 3
+7)fnSt
+
+7)f5
+7)fz.zF
+7)fmzH
+
+7)f$
+/uh
+
+7)fQ>]KR
+
+WNS.time#A^4]
+7)fn[ISQLite format 3
+7)fX
+LR{7
+
+7)fH$
+7)fK$y[x
+7)fHe
+
+)?iy@C
+
+7)f
+WNS.time#A^4t
+e#SQLite format 3
+7)f8)::
+
+7)fFx;
+7)fxgP
+
+7)fo
+&
+5
+WNS.time#Ag?
+7)fDP
+
+7)fvz
+7)f>>7	
+7)fm=
+
+7)f83K
+
+7)f`E,
+
+7)f|r
+7)f8zS
+7)fmyN
+7)f)hK-
+7)f4
+~sX
+
+WNS.time#Ag
+7)fVOhJSQLite format 3
+7)fz
+7)f!
+7)fYv
+7)fM
+7)f#d@
+
+7)f1C'
+
+WNS.time#Ag{
+7)fc
+7)fF
+SQLite format 3
+7)f=
+4b\T
+
+7)fY
+
+7)fP<
+7)f9t;
+7)f)
+7)f"f
+7)f95OM
+
+xact 
+7)f,d,
+7)fE
+
+c:
+
+WNS.time#Ah5
+
+7)f0	<z1SQLite format 3
+7)fwSFX
+
+xact"
+7)fip\[
+F#F
+
+
+7)fi
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E!""K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E!!!K
+7)f`e
+
+7)f
+	
+WNS.time#AhHr
+MDg\
+
+7)fw	
+
+7)fQW
+m{S
+
+7)f#d
+7)fBv
+=YP
+
+xact%
+un#
+7)f\
+7)f@
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E#%%K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E#$$K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E###
+WNS.time#Ai$tR
+7)f&#
+MmSQLite format 3
+xact'
+7)f+s!
+7)fxjz
+
+7)f(
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E&''K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E&&&K
+f?djj
+
+7)f=<
+7)feKyNM
+
+7)fH
+WNS.time#Ai$
+7)ft_z
+7)fL)
+7)fqc
+
+7)fSz<M
+7)f<;
+7)f(i'l
+bh.
+
+7)f2
+xact*
+7)f.
+G5x
+
+un(
+7)f~
+7)f/TXm
+
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E(**K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E())K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E(((
+7)fj
+WNS.time#Aj
+'
+=jv<cSQLite format 3
+7)fL"
+
+xact,
+_dj`
+
+7)f@T
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E+,,K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E+++K
+7)f^e
+7)fGj_0bx
+
+&
+7
+WNS.time#Aj
+
+7)f~WQ{PXJSQLite format 3
+7)f7TnL
+
+7)fHPh
+
+ufA
+
+2k':
+7)fFy&
+xact/
+7)fTqm1
+
+un-
+e/4m
+
+OQlF
+
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E-//K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E-..K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E---
+WNS.time#AjG<
+*SQLite format 3
+7)fL
+xact1
+7)f"+C
+7)f" 
+
+7)fM 
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E011K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E000K
+D|
+UM
+
+7)f[b\+D
+7)f a
+7)fBePt-
+
+7)fi7*&^
+WNS.time#AjG[7v
+W=SQLite format 3
+7)fl
+Y
+-
+
+7)frx"H
+
+7)f;
+](R
+
+7)f.gV
+7)f!}+d
+7)f-
+
+xact4
+7)f%$s
+
+un2
+7)fjP"
+
+7)f+{B5
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E244K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E233K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E222
+7)fLl3Iv
+WNS.time#Ak
+7)fOJL5SQLite format 3
+7)f#
+xact6
+7)f$<J
+
+K\
+
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E566K
+__defaultOwner__/_defaultZone/030440CB-974B-44F3-8786-7191F302252E555K
+7)fb
+7)f}
+7)fL"QMU
+
+7)fbr](#
+
+WNS.time#AkC2

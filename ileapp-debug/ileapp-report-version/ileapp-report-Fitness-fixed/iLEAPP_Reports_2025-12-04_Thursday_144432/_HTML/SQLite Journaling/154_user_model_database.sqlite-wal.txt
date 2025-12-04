@@ -1,0 +1,2439 @@
+R:Knm]R
+
+
+usermodeltransientrecords
+usermodeldurablerecords
+R:K~M
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+a
+V
+K
+@
+5
+*
+
+
+	zodYNC8-"
+}rg\QF;0%
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+en_US
+R:Kg
+
+n
+R
+6
+
+
+
+
+
+
+
+
+
+
+
+
+|
+`
+D
+(
+rdVH:,
+vhZL>0"
+
+
+
+
+
+
+
+
+
+
+z
+l
+^
+P
+B
+4
+&
+
+
+
+										~	p	b	T	F	8	*	
+A~&k*Z
+A~re
+A~rd
+A}~Z
+R:K*
+
+
+
+~
+\
+:
+
+
+lH$
+pL
+
+
+
+
+
+
+s
+V
+9
+
+				
+:		~	i	T	?	*	
+tium.wordsTyped
+tium.pathIneligibleWordsTapped
+tium.durationTappedWords
+tium.wordsAutocorrected
+tium.pathEligibleWordsTapped
+tium.wordCount
+tium.revisedTotalCount
+tium.revisedToOOVCount
+tium.revisedToNonStaticCount
+R:K5/
+tium.wordsTypeden_US
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+!"#$%+1U$null
+
+ V$class_
+secondaryLanguage_
+secondaryRegion[inputRegionZlayoutName_
+testingParameters]inputLanguage_
+userInterfaceIdiom\inputVariant\keyboardType
+RenRUSTNoneVQWERTY&'
+()*WNS.keysZNS.objects
+,-./Z$classnameX$classes\NSDictionary.0XNSObject,-23_
+TIKBAnalyticsMetricsContext450_
+TIKBAnalyticsMetricsContext_
+TIAnalyticsMetricsContext
++'^
+tium.pathIneligibleWordsTappeden_US
++(]
+R:KSN
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+R:Kvf
+
+R:K[$|iL
+
+R:K!`Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+I
+R:K{y
+R:KX!D<R
+
+R:Ko4*FL
+
+`3R7'
+
+R:Kb o
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+I
+>
+R:Kf!
+ml;
+
+{N!
+
+
+
+m
+@
+!
+R
+0
+
+
+
+
+t
+tium.candidateSourceStaticDictionaryRaw
+tium.candidateSourceStaticDictionaryOrdered
+tium.candidateSourceDynamicDictionaryRaw
+tium.PredictiveInput.enabledOnCurrentKeyboard.wordCount
+tium.candidateSourceDynamicDictionaryOrdered
+tium.autocorrection.hitTest.acceptedCount
+tium.autocorrection.enabledOnCurrentKeyboard.wordCount
+tium.autocorrection.revisedCount
+tium.autocorrection.performedCount
+R:K=
+tium.candidateSourceDynamicDictionaryRawen_US
+R:KG'21SQLite format 3
+.S`
+
+$
+
+]O
+
+
+Eindextransient_last_update_date_indexusermodeltransientrecords
+CREATE INDEX transient_last_update_date_index ON usermodeltransientrecords(last_update_date)
+-indextransient_input_mode_indexusermodeltransientrecords	CREATE INDEX transient_input_mode_index ON usermodeltransientrecords(input_mode){
+indextransient_key_indexusermodeltransientrecords
+CREATE INDEX transient_key_index ON usermodeltransientrecords(key)
++tableusermodeltransientrecordsusermodeltransientrecords
+CREATE TABLE usermodeltransientrecords (    ROWID INTEGER PRIMARY KEY AUTOINCREMENT,   key    TEXT  NOT NULL,   input_mode      TEXT NOT NULL,   value           INTEGER DEFAULT 0,   secondary_value INTEGER DEFAULT 0,   real_value       REAL DEFAULT 0,   properties            BLOB,   last_update_date       REAL DEFAULT 0,   journaled)s
+	indexdurable_key_indexusermodeldurablerecords
+CREATE INDEX durable_key_index ON usermodeldurablerecords(key)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)'
+etableusermodeldurablerecordsusermodeldurablerecords
+CREATE TABLE usermodeldurablerecords (    ROWID INTEGER PRIMARY KEY AUTOINCREMENT,   key    TEXT  NOT NULL,   value           INTEGER DEFAULT 0,   creation_date       REAL DEFAULT 0,   last_update_date       REAL DEFAULT 0,   journaled)s
+1tablepropertiesproperties
+CREATE TABLE properties (  ROWID INTEGER PRIMARY KEY,  key,  value,  UNIQUE (key))3
+indexsqlite_autoindex_properties_1properties
+R:KxR}
+R:KJ'l!
+R:Kf0_z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+I
+>
+3
+R:K\
+h6
+l
+tium.autocorrection.enabledOnCurrentKeyboard.wordCounten_USbplist00
+Ay	0Rv?
+tium.PredictiveInput.enabledOnCurrentKeyboard.wordCounten_USbplist00
+Ay	0Rv
+R:KMC
+tium.candidateSourceDynamicDictionaryOrdereden_US
+R:K]~w	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+I
+>
+3
+(
+R:KH5
+R:KTp
+7lH$
+R:KKS
+
+tium.pathEligibleWordsTappeden_US
++5c
+R:Kta
+EGo'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+I
+>
+3
+(
+
+R:Kt
+R:Ks?8 
+
++%d
+NOK
+
+tium.totalWordsFromCandidateBar
+Az//Az?J\4
+tium.totalWordsAutocorrected!Ay	A
+tium.totalWordsTyped|Ax_&A~&k*Z
+R:KYV
+
+tium.totalWordsTyped
+Ax_&A
+R:K-2wF
+
+R:KYp
+vC\Lc
+
+R:K3jb[
+
+
+
+s
+V
+9
+
+R:KG
+tium.wordCounten_US
+fS%e
+Or47
+
+tium.autocorrection.performedCounten_US
+a5bcSQLite format 3
+R:KUfp4
+R:K
+o
+R:KU[
+R:K GN.)
+
+R:KuT(kW
+EaFh
+
+R:Ki%L>
+
+tium.revisedTotalCounten_USbplist00
+R:Kw6l
+R:K7'07
+R:K2kA
+tium.autocorrection.enabledOnCurrentKeyboard.wordCounten_US
+R:Kx
+R:K6R?g
+
+R:K	
+V5AC
+
+tium.PredictiveInput.enabledOnCurrentKeyboard.wordCounten_US
+fS?i
+R:KJ8 vb
+
+rFJ
+
+R:Kg'L
+R:K
+
+R:K3
+_[y
+
+tium.durationTappedWordsen_US
+R:K7y!
+
+					
+R:Ka!V
+|
+
+	bplist00
+SQLite format 3
+62h
+
+R:KI$
+R:K|&EB
+
+						
+R:K&9
+R:K!}
+R:K->w|A
+
+R:K{0@
+
+R:K45|
+							
+R:K[,~
+-5|
+
+tium.wordsTypeden_US	bplist00
+R:KG9&?
+
+								
+R:KON
+]lH$
+`Kn
+
+R:KL}7
+
+									
+R:K|8>==N
+
+R:K6^*
+;lH$
+R:K_
+tium.pathEligibleWordsTappeden_US	bplist00
+R:K`Cl
+R:KEA!F 
+R:K-MV^
+										
+R:Kk1
+!z4
+
+R:KPQk
+
+'
+
+
+s
+V
+9
+
+R:Klcdp,
+
+R:K1
+MONu
+
+											
+R:K5
+R:KR>=R
+
+R:K@QQTo+!SQLite format 3
+R:K[
+R:Kv}&
+												
+R:K>]8
+R:KL
+R:KCBk"N
+
+tium.wordsTypeden_US
+bplist00
+													x
+R:K"
+tium.durationTappedWordsen_US+
+@
+h
+
+R:K: *
+													x	m
+R:K^#g1x
+
+R:KJG
+
+bplist00
+3#t
+R:K0
+													x	m	b
+R:KF.S`t
+
+R:KX
+3#u
+R:KfF>R
+R:K=-2q
+													x	m	b	W
+R:Koa+r*M
+
+R:KVB
+y*
+R:K32N5
+
+tium.pathIneligibleWordsTappeden_US
+bplist00
+3'v
+R:K03a
+
+R:KJ
+R:K*X
+
+													x	m	b	W	L
+e
+
+
+s
+V
+9
+
+"_s
+
+tium.wordCounten_USbplist00
+Q'w
+ SQLite format 3
+2E`]
+
+R:Kk2]k
+
+													x	m	b	W	L	A
+R:KXp>Z
+
+R:K[J\Q
+
+R:Ka
+tium.autocorrection.performedCounten_USbplist00
+R:KPrS
+
+R:KG	
+
+													x	m	b	W	L	A	6
+R:K`
+R:K=X
+tium.autocorrection.enabledOnCurrentKeyboard.wordCounten_USbplist00
+Q*y
+%ri
+
+R:K*h
+
+													x	m	b	W	L	A	6	+
+R:Kk
+R:Kt,
+
+R:K8
+tium.PredictiveInput.enabledOnCurrentKeyboard.wordCounten_USbplist00
+Q?z
+R:K$aY
+
+R:K!>#
+
+													x	m	b	W	L	A	6	+	 
+R:KI^
+tium.autocorrection.hitTest.acceptedCounten_US
+Q@{
+R:K|
+OQvp
+													x	m	b	W	L	A	6	+	 	
+R:Kxm	p
+R:KNj
+tium.wordsTypeden_USbplist00
+k2|
+#G|SQLite format 3
+R:K!-
+
+
+R:Kt!
+R:KX|P~
+
+R:Kp
+R:Ko
+R:K[;}g
+R:Kfc,
+
+R:Kh@{"
+
+R:Kh7
+"+_
+
+HC
+
+R:KlCKoO
+
+R:K;#yn
+
+R:Kj
+R:K1g
+R:K$!
+
+R:Kl<y
+yt]
+
+R:KS(+MbX
+
+R:K?*E"
+
+R:K^
+ufIj
+
+R:Ks&SB]-j
+
+R:K+&
+R:KMlC
+
+R:K<
+R:Kmo
+R:K'@
+R:K'Y
+R:KoMB
+& k
+
+R:Ki
+R:K(]%q
+
+R:K	6
+
+tium.candidateSourceStaticDictionaryRawen_USbplist00
+R:KHfu
+R:K0g
+
+R:K\6"6?
+
+R:K	8**X\
+
+tium.candidateSourceStaticDictionaryRawen_US
+R:KzwO[
+
+R:K0~
+R:KTBUi
+
+R:KqLA
+
+R:KsVF
+Ozk
+
+R:Kh@g
+
+R:K !
+R:K}a
+
+.?gj
+
+R:KZPv
+
+R:KVmZZ
+
+			
+R
+0
+R:K^ra}=
+
+tium.candidateSourceStaticDictionaryRawen_US
+bplist00
+R:Ka|qSQLite format 3
+R:KnH
+ p'
+
+R:KEF
+R:Kwd6p
+
+R:KPX
+R:K!|
+R:K]hu* 
+
+R:Kb[
+1V83H
+
+k"	
+R:K4!j
+
+R:Kec:s.
+
+x
+
+
+~
+\
+:
+
+R:K,{2
+k#
+
+R:K	I/Z-
+
+J3SW
+R:KVio1
+
+R:K1q/x
+
+Z
+
+
+~
+\
+:
+
+R:KeV
+)>W
+
+k#
+R:Kt)'<>
+
+O}:
+
+R:K%d
+R:KM
+
+<
+
+
+~
+\
+:
+
+R:KU6Fc[
+
+k#
+R:KZ
+jk.q,
+
+R:KlB
+
+R:KFC5
+MSQLite format 3
+R:K2
+R:K6*XnA
+R:K.
+Pq`
+
+/
+bplist00
+R:K%
+R:K\10X
+
+R:K;s
+R:K{
+Y?i
+
+tium.pathIneligibleWordsTappeden_USbplist00
+R:KgyFJ
+R:KQ
+R:KI
+R:Kw{s
+
+R:Kd#I
+
+R:Kg(q
+R:Kv_<
+R:Kq/p
+R:K$
+R:KJQQpa
+
+R:K#yV;|
+
+R:K^Xp\|?
+
+R:K/PO
+p*
+	xG
+
+>SQLite format 3
+R:KmT
+
+R:K=p?~`Yi
+
+R:KN
+L*
+R:KC'Ygq
+
+R:K?}
+!l"6
+
+			
+0
+R:Ks6f
+tium.candidateSourceStaticDictionaryOrdereden_USbplist00
+R:KrM
+R:KM
+R:KJ:Q
+R:K(>#
+tium.candidateSourceStaticDictionaryOrdereden_US
+R:KU
+R:K$k
+
+R:KI?
+R:K*\1_
+
+R:K@O
+R:K@'SQLite format 3
+R:Ke8
+R:Km'%U7
+R:Kq
+R:K-
+<P
+tium.candidateSourceStaticDictionaryOrdereden_US
+bplist00
+R:KclW*:
+
+R:K#LGA
+
+R:K%*o
+R:KK
+/		~	i	T	?	*	
+R:Kv
+tium.wordsAutocorrecteden_US
+R:KC:>&`
+
+R:KRD
+
+		~	i	T	?	*	
+R:K>7HV
+
+tium.wordsAutocorrecteden_US
+bplist00
+R:KF$#
+R:KR .~E
+
+R:KxK
+R:K3$kwME
+
+R:Kf[
+R:K@
+R:K3J
+
+R:Kiar5SQLite format 3
+R:K:
+R:KOy
+R:K,2z!g
+
+R:Kn(
+R:K^v
+R:Kg?
+tium.totalWordsAutocorrected#Ay	A
+R:Kd
+".,i
+
+R:KMvu
+R:K8
+M
+
+R:K89
+R:K^I
+R:KJAv
+R:KS&7h
+
+R:Kmd
+K'`v
+
+R:K
+R:K=+j?
+
+R:KY1
+R:KQfEO
+
+R:KS
+O
+6En
+
+R:K
+PhU*
+
+R:K@$C^dt
+
+R:Kf2
+R:KfG/
+4SQLite format 3
+R:K>b
+R:KRh
+R:Ke
+R:KTBSc
+
+R:KS
+
+:v6
+
+R:KE~^
+
+			
+|
+R:KJdC
+
+W-@#
+R:KV
+R:KED"g"
+
+R:KWSF
+
+R:K#__
+
+P
+
+
+~
+\
+:
+
+R:KWn|v
+
+tium.durationTappedWordsen_US
+
+W-1$
+R:KS5
+iXI
+
+R:K	Is
+
+R:KLJ
+
+R:K}
+2
+
+
+~
+\
+:
+
+R:Ky
+
+W-#%
+R:Kwkv
+
+R:K{
+
+R:Kws$d-
+	=
+^
+@
+W-#&
+^SQLite format 3
+R:Kn
+j*w
+
+R:KL4h*_
+q}>1
+
+R:K
+R:K}
+R:Kx_
+R:K7
+
+R:Ksa'm
+
+R:K>XjiJ
+
+W-5(
+R:K]3c
+
+R:K&,t
+
+R:KV@L8
+W-&)
+R:KrvZ\
+
+R:K
+(USQLite format 3
+R:Kte#7
+R:K
+'
+zodYNC8-"
+R:KoQy
+
+vhZL>0"
+R:KQC3A
+
+tium.wordCounten_USbplist00
+R:K]X
+R:K:aa;
+_P'k
+tium.pathIneligibleWordsTappeden_US	bplist00
+_P'j
+						
+|
+|
+pL
+A~&k*Z35
+R:K<%,
+
+R:KL ^
+
+tium.autocorrection.hitTest.acceptedCounten_USbplist00
+tium.revisedTotalCounten_US
+tium.durationTappedWordsen_US,
+tium.autocorrection.performedCounten_US
+bplist00
+R:K^3
+
+EdW
+
+tium.candidateSourceStaticDictionaryOrdereden_US
+
+R:KuK
+R:KtX
+
+WZxd
+|ba@r
+R:Kf	
+WZxd%*
+R:K\`
+R:K7
+OSX9
+
+R:Ks;
+
+	{	N
+R:K	 
+WZxd/+
+R:K[>28SQLite format 3
+
+rS
+
+T}
+
+R:Kh
+!YPXF
+
+	{	N	!
+R:KlTWJ!
+
+R:KHMdm
+
+R:K`L
+WZxd0-
+R:KX=x"
+R:K2;&
+R:Kyg=G
+
+R:K$]
+>X
+
+R:K@n
+
+WZxd1.
+R:K&Jm|
+R:K@,u
+
+R:K2m
+
+/p
+
+WZxd0/
+R:K)m{
+
+					
+|
+|
+R:KT
+R:K"R
+xoR
+
+R:KO3
+WZxd30
+R:K/
+				
+|
+|
+R:K?D=SQLite format 3
+R:KtO:3i&3
+R:K<;Q
+
+R:K@7O
+R:K]
+			
+|
+|
+R:K\sYC
+
+R:KEmq#f
+
+R:K@
+Q/
+E
+
+R:Ki^*p
+
+WZxd42
+R:KRjl
+WZxd53
+R:K^
+b%m
+
+R:KN r?
+
+R:K;
+i3#
+
+WZxd44
+R:K"no7
+
+Ycw
+
+R:K4xX
+
+WZxd 5
+R:KJT?BSQLite format 3
+R:Ky
+R:KmY]H\
+R:K0?
+#\
+
+R:KkbX
+
+R:K+$4T
+2
+
+q
+R:K)t
+<bplist00
+R:K5tPsRY
+R:KB
+R:KTM
+2
+
+q
+S
+R:K93}O
+
+tium.durationTappedWordsen_US"
+WZxd"7
+R:K#
+ |
+
+
+R:K54
+R:Kt5+X
+
+f.9o
+
+2
+
+q
+S
+5
+DXH
+
+WZxd#8
+R:K
+_]k
+
+znY
+
+R:KdX
+2
+
+q
+S
+5
+
+R:KsW;9Qf
+
+tium.durationTappedWordsen_US
+v
+WZxd#9
+R:K(5
+R:Kf)TQ
+
+WZxd#:
+R:KM
+AX";
+R:KUzC
+
+R:KH
+
+	.
+R:K_<b
+WZxd#;
+R:K\|
+xB	SQLite format 3
+R:Kb+i
+6dE
+
+R:KTZ~rL
+
+R:KDa(ES
+
+;[2
+
+R:Km`,
+
+R:KEWZ;m
+WZxd'=
+R:K+t4(]
+
+R:Kj
+
+R:Kql`E
+R:KyQ+*x6
+
+R:K@c
+
+R:K
+"V
+
+R:KLO
+R:K{A
+R:KF
+R:K@<!
+
+R:KsR3
+
+R:Kr/M
+R:Kyf
+6o&
+
+Sp|
+
+R:K+u
+|&
+
+	
+
+{
+R:K~U2
+R:KKfa4hTSQLite format 3
+DKG
+
+R:Ku
+R:KDwI
+
+R:KE
+}*
+
+R:Kp(%
+	
+
+{f
+R:K3E
+ieA
+
+zP^
+
+R:K3G;
+
+	
+
+{fQ
+R:Kl,6V!
+
+n30
+
+i)S
+
+R:KFRJt
+
+R:KL@F,7
+/pL
+R:KX@O
+
+tium.pathEligibleWordsTappeden_USbplist00
+R:K4Nc
+{9
+
+e`eC
+
+/
+pL
+R:KtG-
+WZxd$E
+R:KhdBX
+
+R:KXLL
+/
+pL
+R:KQ
+WZxd&F
+R:KBR^;
+
+83
+
+R:KnD
+
+/
+pL
+WZxd&G
+W<8SQLite format 3
+R:K;*f
+
+rE
+
+R:K05L
+R:K~&SX
+/
+pL
+R:KmI
+R:K. 3{)
+
+R:K<o
+R:K5f
+R:KD
+/
+
+pL
+R:K('
+WZxd&I
+R:Kf
+tium.totalWordsAutocorrected$Ay	A
+R:Ki<
+WZxd7
+R:Kw
+\"SQLite format 3
+R:KPq	
+R:K	]
++
+8
+-"
+R:KP
+mi\
+0
+R:K #B
+
+A~&k*Z/:
+A~&k*Z/9
+A~&k*Z48
+A~&k*Z57
+R:Klj
+
+R:Kkt
+	
+
+{fQQQQQ
+R:K&
+l0KSQLite format 3
+R:K797
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+I
+>
+3
+(
+
+;a%.
+	~
+	p	b	T	F	8	*	
+R:K{4U
+8
+
+W
++0V
++0U
++4T
+R:KQu.G
+
++#[
++#Z
+tium.durationTappedWordsen_US	
++ Y
++ X
+R:K9u
+R:Ku)S
+																	
+R:Kb
+/
+
+
+	
+
+{fQQQQQQQQQQQQQQQQQQQQQQQQQ
+R:K<$
+R:K[[GV)<&
+
+R:K[tcQX
+
+A~&k*Z ?
+A~&k*Z >
+~82
+
+R:K9,
+l%\r
+
+
+R:KPbF_
+	~
+:,>;
+
+	
+
+{fQQQQQQQQQQQQQQQQQQQQQQQQ
+R:K~
+
+R:K1O
+R:K]8-
+	~
+R:K??
+																
+R:Kz
+R:KsH
+%
+	~
+R:K\<=\;
+
+	
+
+{fQQQQQQQQQQQQQQQQQQQQQQQ
+R:KewKkSQLite format 3
+R:KdP
+R:K,r
+R:K%!
+mh
+	~
+R:K75
+															
+R:K-b7E4
+
+R:Kw0GK
+
+
+R:K|gex,H
+	~
+R:KH1Y
+														
+
+=
+y
+R:K7#}yN
+
+R:Ki(;]=%
+
+
+R:KJH
+[
+	~
+R:K	7
+	
+
+{fQQQQQQQQQQQQQQQQQQQQQQ
+R:K&%z~c
+
++bplist00
+3"@O
+R:KA5	7
+
+R:K7]Z'?^r
+
+
+R:KU+Ned@
+	~
+R:K*
+
+	
+
+{fQQQQQQQQQQQQQQQQQQQQQ
+R:K&
+3""P
+R:K.P
+R:Kso
+
+
+s
+	~
+
+
+
+
+
+	
+
+{fQQQQQQQQQQQQQQQQQQQQ
+3"#Q
+?SQLite format 3
+R:K'Ah
+
+R:Krq2&
+d
+
+
+pi
+	~
+
+
+
+
+
+
+R:KEv@;\
+	
+
+{fQQQQQQQQQQQQQQQQQQQ
+R:Km
+(qh
+
+
+R:K++]
+
+
+
+
+
+
+
+1n*	
+
+QQQQQQQQQQQQQQQQQ
+R:KGpUZ
+
+3"#S
+R:K	
+
+R:K>NZ
+R:K$UGb
+	~
+
+
+
+
+
+
+
+
+R:K":d
+QQQQQQQQQQQQQQQQ
+R:K,
+R:Krc
+
+
+R:K=<
+4y
+	~
+
+
+
+
+
+
+
+
+
+QQQQQQQQQQQQQQQ
+R:K)/n
+R:KRk{5
+
+
+>
+	~
+
+
+
+
+
+
+
+
+
+
+R:K.BPqf
+
+QQQQQQQQQQQQQQ
+-S!D
+u0
+
+
+R:KB]
+
+
+
+
+
+
+
+
+
+
+|
+R:K6B
+QQQQQQQQQQQQQ
++y6h-
+R:K@	+SQLite format 3
+R:K3,
+R:K4
+R:K~
+V
+	~
+
+
+
+
+
+
+
+
+
+
+|
+n
+0=Oeb
+f%
+	
+QQQQQQQQQQQQ
+R:K$k
+]R7
+
+
+
+
+
+
+
+
+
+
+
+
+|
+n
+`
+R:KROf
+QQQQQQQQQQQ
+3"&Y
+R:KPNWe
+
+
+R:KC,UN9
+
+
+
+
+
+
+
+
+
+
+|
+n
+`
+R
+R:K-X	6j
+	c
+QQQQQQQQQQ
+R:K7eW
+3"%Z
+R:Kh$:uo
+
+7?6
+
+R:K\v
+R:KXH]bF
+	~
+
+
+
+
+
+
+
+
+
+
+|
+n
+`
+R
+D
+x`}_
+R:KY}FjtQ
+	
+QQQQQQQQQ
+x`}_%[
+R:KK|G
+
+
+I#Ge
+	~
+
+
+
+
+
+
+
+
+
+
+|
+n
+`
+R
+D
+6
+R:KOTd%H
+	
+QQQQQQQQ
+R:KA<
+
+R:K|(
+
+
+R:KU~hM
+
+
+
+
+
+
+
+
+
+
+|
+n
+`
+R
+D
+(
+6
+IC
+	
+QQQQQQQ
+tium.wordCounten_US
+bplist00
+1rV\
+
+
+
+
+
+
+
+
+
+
+
+
+|
+n
+`
+R
+D
+(
+6
+
+R:KO
+
+J!V
+	
+
+y
+L
+QQQQQQ
+R:K$I
+R:K|"
+R:Kc
+R:K*e]
+	~
+
+
+
+
+
+
+
+
+
+
+|
+n
+`
+R
+D
+(
+
+6
+
+R:KZ-$?
+
+													
+R:KSW
+
+tium.PredictiveInput.enabledOnCurrentKeyboard.wordCounten_US
+bplist00
+x`}_0_
+R:Kh03
+fM
+
+
+R:K_2a*
+	~
+
+y
+L
+
+QQQQQ
+R:K35Q
+
+
+
+
+
+
+
+
+
+
+
+R:KVl{k
+	~
+B AJX
+	
+QQQQ
+R:K E
+~SQLite format 3
+R:KTCi9
+
+R:K!
+9H
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R:KNY61M
+	~
+R:KT1:^v1
+QQQ
+R:KR
+R:K( B!Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+j[PT
+	~
+R:Ka
+QQ
+R:K
+{72
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+1
+	~
+R:KBpqL>n
+
+R:K)Y
+R:K>,
+;x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+{805
+	~
+
+R:K\K+
+R:Ko{:8
+R:KP]n8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+a
+
++Z
+	~
+
+R:K=2;#
+
+R:K)-~_
+
+R:K\^a?SQLite format 3
+R:Kb@
+c;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+a
+V
+R:K'`
+
+R:K9]>
+
+ihUa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+a
+V
+K
+,sb<
+	~
+
+R:K8)
+
+R:K?_
+
+R:K+y6zk
+
+R:Kk/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+a
+V
+K
+@
+R:KWIHp
+	~
+
+R:K 
+\SEd
+
+R:K56	@
+
+*h5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+a
+V
+K
+@
+5
+R:KrXF
+	~
+r
+R:K]`n
+R:Kl0
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+l
+a
+V
+K
+@
+5
+*
+R:KoqS+
+	~
+rd
+R:KfQ
+mbplist00
+0dSQLite format 3
+R:KgX#
+R:K=%9P
+R:KD9 
+
+
+rdV
+R:KI*8#
+vc"^
+	
+R:KbH
+R:KD:
+rdVH
+R:KPf0
+	
+R:Kew
+
+R:Ke
+^
+rdVH:
+R:K
+	
+R:K\/
+
+R:K?
+F'
+	~
+rdVH:,
+R:K1uG
+R:K`.
+tium.durationTappedWordsen_US
+X
+R:KaI
+
+	
+R:K =!/
+	~
+rdVH:,
+R:K`(
+R:KmJ#O
+
+R:K$v	i
+
+	
+R:KS
+R:K)K$
+R:KSc[
+aSQLite format 3
+w
+g
+
+R:KJ2g
+R:Kvg	
+
+	
+'
+	~
+R:KyhyKO%
+
+tium.durationTappedWordsen_US
+
+bplist00
+R:K"+
+
+R:K8
+h
+
+	
+R:KHwZ
+
+	~
+R:KA?'
+	
+R:Kd}
+]
+
+R:KGe
+
+	
+R:K7"u
+	~
+R:Kv
+	
+2		{	N	!
+R:K`v_
+
+R:K+ ^:7
+
+
+
+	
++	"
+	
+B/"
+
+
+	
+;
+	~
+
+(z{
+	
+R:KuR	
+
+	
+R:K<d
+	
+	~
+
+R:KHJ;	
+R:K%)hu
+
+
+SQLite format 3
+R:KY:GW
+_W
+
+
+
+	
+R:Kp)*
+	~
+
+R:K`,LX
+R:KN^\7	
+R:K>_z
+R:Kkb
+R:KW
+
+	
+R:KU<
+
+R:K+8r
+R:KwW"]$
+
+R:KD9
+
+
+
+	
+R:KY
+ay
+	~
+
+R:Kzos
+
+R:KNA	n
+
+R:KnFeh
+
+
+
+	z
+R:Kr
+CIB
+	~
+
+R:KY3lo4
+	
+		{	N	!
+R:Ke
+R:K3<N
+
+\C
+
+
+
+	zo
+R:K1%i<j
+^
+	~
+v
+
+
+
+
+
+{
+]
+?
+!
+
+mO1
+}_A#
+
+
+
+
+
+o
+Q
+3
+
+					s	Q	/	
+
+R:K#k
+
+
+	zod
+R:K1rt:
+vh
+R:KM_cW
+g]N
+
+[([1
+R:KZ
+
+R:KT"|c^
+
+
+
+	zodY
+R:KN
+	~
+vhZ
+R:KiI*
+R:K/|oJ
+z
+|
+O
+}_A#
+_b
+1
+tium.word
+R:Ks
+jLh
+
+
+	zodYN
++
+	~
+vhZL
+R:K-qAP
+1
+R:Ka>
+
+R:K	R
+R:K@cC~G
+
+
+
+	zodYNC
+R:KHSr
+	~
+vhZL>
+R:K`hKV
+1
+R:Kvl[O
+
+S0rcI
+
+
+
+	zodYNC8
+R:K
+Zf
+	~
+vhZL>0
+R:K%7
+
+R:Knm+QL
+
+R:K+'
+
+	zodYNC8-
+vhZL>0"
+R:KN%
+
+R:Krd}$
+
+DoSQLite format 3
+R:K0py
+
+R:KuaF:
+R:K=Cy
+
+	zodYNC8-"
+R:K:_
+0V
+	~
+R:K\ct
+1
+5ium.pathEligibleWordsTapped
+R:KC6#
+R:K,o
+R:KPt
+G*D
+
+
+R:K='
+:g
+1
+5m.pathEligibleWordsTapped
+R:K0sF2
+
+tium.pathEligibleWordsTappeden_US
+bplist00
+R:Ks`
+"
+
+
+i
+8
+
+nA
+
+					
+	a	C	%	
+R:KPm
+R:K@j
+)
+j
+
+R:KDR9B]
+R:K c`
+-
+
+
+
+i
+8
+
+|O"nA
+R:K*dY=
+R:K^%
+
+N |b
+
+VM<z
+
+R:KnlLs\
+
+R:K\sz:
+

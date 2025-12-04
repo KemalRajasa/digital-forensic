@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeviceBasedVPP</key>
+	<false/>
+	<key>artistName</key>
+	<string>Bumble Holding Limited</string>
+	<key>bundleShortVersionString</key>
+	<string>5.247.0</string>
+	<key>bundleVersion</key>
+	<string>5.247.0.1641957569</string>
+	<key>com.apple.iTunesStore.downloadInfo</key>
+	<dict>
+		<key>accountInfo</key>
+		<dict>
+			<key>AltDSID</key>
+			<string>000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1</string>
+			<key>AppleID</key>
+			<string>pbentley0107@gmail.com</string>
+			<key>DSPersonID</key>
+			<integer>17768365815</integer>
+			<key>DownloaderID</key>
+			<integer>0</integer>
+			<key>FamilyID</key>
+			<integer>0</integer>
+			<key>PurchaserID</key>
+			<integer>17768365815</integer>
+		</dict>
+		<key>purchaseDate</key>
+		<string>2022-01-21T20:43:44Z</string>
+	</dict>
+	<key>gameCenterEnabled</key>
+	<false/>
+	<key>gameCenterEverEnabled</key>
+	<false/>
+	<key>genre</key>
+	<string>Lifestyle</string>
+	<key>genreId</key>
+	<integer>6012</integer>
+	<key>hasMessagesExtension</key>
+	<false/>
+	<key>iad-attribution</key>
+	<string>0</string>
+	<key>is-auto-download</key>
+	<false/>
+	<key>is-purchased-redownload</key>
+	<false/>
+	<key>isFactoryInstall</key>
+	<false/>
+	<key>itemId</key>
+	<integer>930441707</integer>
+	<key>itemName</key>
+	<string>Bumble - Dating. Friends. Bizz</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>launchProhibited</key>
+	<false/>
+	<key>rating</key>
+	<dict>
+		<key>label</key>
+		<string>17+</string>
+		<key>rank</key>
+		<integer>600</integer>
+	</dict>
+	<key>redownload-params</key>
+	<string>productType=C&amp;price=0&amp;salableAdamId=930441707&amp;pricingParameters=STDRDL</string>
+	<key>releaseDate</key>
+	<string>2014-11-19T02:18:55Z</string>
+	<key>s</key>
+	<integer>143441</integer>
+	<key>sideLoadedDeviceBasedVPP</key>
+	<false/>
+	<key>softwareVersionBundleId</key>
+	<string>com.moxco.bumble</string>
+	<key>softwareVersionExternalIdentifier</key>
+	<integer>846596130</integer>
+	<key>sourceApp</key>
+	<string>com.apple.AppStore</string>
+	<key>storeCohort</key>
+	<string>10|date=1642797000000&amp;sf=143441&amp;pgtp=Search&amp;pgid=5f6bf3be-6a6c-4e1f-a646-a6220bf7fc51&amp;prpg=Genre_179183&amp;ctxt=Search&amp;issrch=1&amp;imptyp=lockup&amp;kind=iosSoftware&amp;itpltyp=PI3&amp;lngid=1</string>
+	<key>subgenres</key>
+	<array/>
+	<key>variantID</key>
+	<string>1:iPhone10,1:15</string>
+</dict>
+</plist>

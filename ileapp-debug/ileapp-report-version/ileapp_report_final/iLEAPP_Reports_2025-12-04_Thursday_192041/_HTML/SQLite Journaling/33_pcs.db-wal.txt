@@ -1,0 +1,116 @@
+ghv7o=N
+ghv7o
+5
+am9Q`SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+ghv7o
+ghv7os
+ghv7o`2W
+ghv7oi:
+ghv7o'=m
+ghv7o-j
+	d?U
+source-device-id:A0C6748D-02A4-592B-9617-7ACC691D8E1E:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !%-567;<=ADU$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+ D[b_
+`h4jG27m
+50q4
+?P(^
+J{)G
+"y|;L
+^Ac08Cen
+n]tI
+@Wt<AcsIy
+k1DE
+=gM
+
+	po4ahR
+Q5R5
+yyRp
+85!)H
+$yj%|eY/
+ql^q
+ &
+3
+(c'Ho(H$x
+rm`p
+>)0'0%
+$wvF
+ m^l@
++q	%QLa`
+^p0n
+f	}Fg*1Y#2pf6
+ |Hu3`
+
+(BEA245260EAC852027E340CBE450CE52DB8EA291
+"#$YNS.string
++3v5SLGkYINUrP5Gdh6SA2Z3CefqUAvFSl9gbz4ACcZA&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+anonymousCKUserIDYownerNameXZoneName
+5source-device-id:A0C6748D-02A4-592B-9617-7ACC691D8E1E_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneIDO
+=_q7
+8!uf
+JNgy~=
+
+(sV"k=
+SyH=
+lmTp
+8$&0(
+ a;wYgrL5dG]dp
+S96kr
+ ,
+g.
+"O/GE;<
+lr?`)y{
+Qa#	
+'>JbWuUv
+2_
+?@WNS.time#A
+
+&'BCVNSDateB,&'EF^CKDZonePCSDataGH,^CKDZonePCSDataZCKDPCSData
+zcom.apple.knowledgestore2AAA3EB7E-485D-4C71-93D7-7C0CF8E04464source-device-id:A0C6748D-02A4-592B-9617-7ACC691D8E1E:__defaultOwner__A
+x[jn
+ghv7oiGvc
+com.apple.knowledgestore2AAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+source-device-id:A0C6748D-02A4-592B-9617-7ACC691D8E1E:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.knowledgestore2
+ghv7oR
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.knowledgestore2
+BSQLite format 3
+Z_
+
+ghv7oNoAUQ
+ghv7o-xko&x
+
+EuE
+

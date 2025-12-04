@@ -1,0 +1,259 @@
+
+Q/G
+http://api2.appscraft.mobi/collector/ping.txt2022-01-21 22:13:10
+
+;MH
+g	http://api2.appscraft.mobi/collector/ping.txt
+5	cfurl_cache_response
+bplist00
+WVersionUArray
+
+
+ !
+_CFURLStringType\_CFURLString
+-http://api2.appscraft.mobi/collector/ping.txt#A
+VServer\Content-TypeZConnection]Last-ModifiedX__hhaa__TDate]Accept-Ranges^Content-LengthTEtagUnginxZtext/plainZkeep-alive_
+Mon, 26 Aug 2013 07:24:06 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlVEV0YWddTGFzdC1Nb2RpZmllZFREYXRlXUFjY2VwdC1SYW5nZXNeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEKVW5naW54oQxadGV4dC9wbGFpbqEOXCI1MjFiMDI5Ni00IqEQXxAdTW9uLCAyNiBBdWcgMjAxMyAwNzoyNDowNiBHTVShEl8QHUZyaSwgMjEgSmFuIDIwMjIgMjI6MTM6MTAgR01UoRRVYnl0ZXOhFlE0oRhaa2VlcC1hbGl2ZQgZIC0yQEVTYm1vdXeChJGTs7XV193f4eMAAAAAAAABAQAAAAAAAAAZAAAAAAAAAAAAAAAAAAAA7g==_
+Fri, 21 Jan 2022 22:13:10 GMTUbytesQ4\"521b0296-4"
+Ztext/plain
+bplist00
+-http://api2.appscraft.mobi/collector/ping.txt#@>
+__CFURLRequestNullTokenString__	
+SGET
+ !"ZUser-Agent_
+Accept-Language\Content-TypeVAccept_
+Accept-EncodingX__hhaa___
+Collector Network Agent/1.00Uen-US_
+text/plain; charset=UTF-8S*/*]gzip, deflate_
+4
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlpVc2VyLUFnZW50XxAPQWNjZXB0LUxhbmd1YWdlXENvbnRlbnQtVHlwZVZBY2NlcHRfEA9BY2NlcHQtRW5jb2RpbmehB18QHENvbGxlY3RvciBOZXR3b3JrIEFnZW50LzEuMDChCVVlbi1VU6ELXxAZdGV4dC9wbGFpbjsgY2hhcnNldD1VVEYtOKENUyovKqEPXWd6aXAsIGRlZmxhdGUIEx4wPURWWHd5f4Gdn6OlAAAAAAAAAQEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAALM=
+pong
+
+XV[
+
+3	2022-01-21 22:13:10
+
+st$Z
+
+dhttp://api2.appscraft.mobi/static/ads/ingame-en-ios_172.jpg2022-01-21 22:13:10P
+m?n
+
+http://api2.appscraft.mobi/static/ads/ingame-en-ios_172.jpg
+cfurl_cache_response
+
+G87$
+;http://api2.appscraft.mobi/static/ads/ingame-en-ios_172.jpg#A
+VServer\Content-TypeZConnection]Last-ModifiedX__hhaa__TDate]Accept-Ranges^Content-LengthTEtagUnginxZimage/jpegZkeep-alive_
+Fri, 30 Aug 2019 15:23:56 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlVEV0YWddTGFzdC1Nb2RpZmllZFREYXRlXUFjY2VwdC1SYW5nZXNeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEKVW5naW54oQxaaW1hZ2UvanBlZ6EOXxAQIjVkNjkzZjhjLTIyMjA2IqEQXxAdRnJpLCAzMCBBdWcgMjAxOSAxNToyMzo1NiBHTVShEl8QHUZyaSwgMjEgSmFuIDIwMjIgMjI6MTM6MTAgR01UoRRVYnl0ZXOhFlYxMzk3ODKhGFprZWVwLWFsaXZlCBkgLTJARVNibW91d4KEl5m5u9vd4+Xs7gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD5_
+Fri, 21 Jan 2022 22:13:10 GMTUbytesV139782_
+"5d693f8c-22206"
+Zimage/jpeg
+3bplist00
+;http://api2.appscraft.mobi/static/ads/ingame-en-ios_172.jpg#@>
+VAccept_
+Accept-Language_
+Accept-EncodingX__hhaa__S*/*Uen-us]gzip, deflate_
+
+
+YnBsaXN0MDDTAQIDBAYIXxAPQWNjZXB0LUVuY29kaW5nVkFjY2VwdF8QD0FjY2VwdC1MYW5ndWFnZaEFXWd6aXAsIGRlZmxhdGWhB1MqLyqhCVVlbi11cwgPISg6PEpMUFIAAAAAAAABAQAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAWA==
+	UC2446616-1C76-4CBB-A29F-5161F390AFEB
+
+Lc?
+
+
+$/Kr
+
+2022-01-21 22:13:10
+h=
+
+
+%C
+SQLite format 3
+.S`
+
+f
+
+#u
+indexreceiver_data_indexcfurl_cache_receiver_dataCREATE INDEX receiver_data_index ON cfurl_cache_receiver_data(entry_ID)t	
+indexproto_props_indexcfurl_cache_blob_dataCREATE INDEX proto_props_index ON cfurl_cache_blob_data(entry_ID)r
+indextime_stamp_indexcfurl_cache_response
+CREATE INDEX time_stamp_index ON cfurl_cache_response(time_stamp)u
+indexrequest_key_indexcfurl_cache_response	CREATE INDEX request_key_index ON cfurl_cache_response(request_key)+
+etablecfurl_cache_receiver_datacfurl_cache_receiver_data
+CREATE TABLE cfurl_cache_receiver_data(entry_ID INTEGER PRIMARY KEY, isDataOnFS INTEGER, receiver_data BLOB)I
+1tablecfurl_cache_blob_datacfurl_cache_blob_data
+CREATE TABLE cfurl_cache_blob_data(entry_ID INTEGER PRIMARY KEY, response_object BLOB, request_object BLOB, 			  proto_props BLOB, user_info BLOB)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)"
+gtablecfurl_cache_responsecfurl_cache_response
+CREATE TABLE cfurl_cache_response(entry_ID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, 	 version INTEGER, hash_value INTEGER, storage_policy INTEGER, request_key TEXT UNIQUE, 	 time_stamp NOT NULL DEFAULT CURRENT_TIMESTAMP, partition TEXT)G
+indexsqlite_autoindex_cfurl_cache_response_2cfurl_cache_response
+indexsqlite_autoindex_cfurl_cache_response_1cfurl_cache_response
+
+%U'#
+
+Kt
+
+}http://api2.appscraft.mobi/static/ads/ingame-en-apple-257.jpg2022-01-21 22:13:10_
+
+IS
+http://api2.appscraft.mobi/static/ads/ingame-en-apple-257.jpg
+aof
+
+	U1E3ED8E8-5729-40A3-8200-79427DF410FB(
+
+)Ym~
+
+
+)OAC
+
+
+$6oX
+K"m
+
+=http://api2.appscraft.mobi/static/ads/ingame-en-apple-257.jpg#A
+Sat, 07 Sep 2019 08:55:30 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlVEV0YWddTGFzdC1Nb2RpZmllZFREYXRlXUFjY2VwdC1SYW5nZXNeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEKVW5naW54oQxaaW1hZ2UvanBlZ6EOXxAQIjVkNzM3MDgyLTI0YzU0IqEQXxAdU2F0LCAwNyBTZXAgMjAxOSAwODo1NTozMCBHTVShEl8QHUZyaSwgMjEgSmFuIDIwMjIgMjI6MTM6MTAgR01UoRRVYnl0ZXOhFlYxNTA2MTKhGFprZWVwLWFsaXZlCBkgLTJARVNibW91d4KEl5m5u9vd4+Xs7gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD5_
+Fri, 21 Jan 2022 22:13:10 GMTUbytesV150612_
+"5d737082-24c54"
+LTZimage/jpeg
+5bplist00
+=http://api2.appscraft.mobi/static/ads/ingame-en-apple-257.jpg#@>
+o#$SQLite format 3
+dyghttp://api2.appscraft.mobi/static/ads/ingame-en-ios.jpg2022-01-21 22:13:10f
+2http://api2.appscraft.mobi/static/ads/prison-ingame-ios-en-847.jpg2022-01-21 22:13:10a
+
+Up
+
+_I4F
+
+http://api2.appscraft.mobi/static/ads/ingame-en-ios.jpg
+http://api2.appscraft.mobi/static/ads/prison-ingame-ios-en-847.jpg
+
+}<
+
+	U03A482B9-4E72-4962-A846-114F90CFA95D(
+	U28F75FF1-CD70-4B3A-A286-00C700F3B6F3(
+
+y$f6
+
+Bhttp://api2.appscraft.mobi/static/ads/prison-ingame-ios-en-847.jpg#A
+Wed, 28 Aug 2019 05:48:31 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlVEV0YWddTGFzdC1Nb2RpZmllZFREYXRlXUFjY2VwdC1SYW5nZXNeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEKVW5naW54oQxaaW1hZ2UvanBlZ6EOXxAQIjVkNjYxNWFmLTMwMmRkIqEQXxAdV2VkLCAyOCBBdWcgMjAxOSAwNTo0ODozMSBHTVShEl8QHUZyaSwgMjEgSmFuIDIwMjIgMjI6MTM6MTAgR01UoRRVYnl0ZXOhFlYxOTczNDGhGFprZWVwLWFsaXZlCBkgLTJARVNibW91d4KEl5m5u9vd4+Xs7gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD5_
+Fri, 21 Jan 2022 22:13:10 GMTUbytesV197341_
+"5d6615af-302dd"
+:bplist00
+Bhttp://api2.appscraft.mobi/static/ads/prison-ingame-ios-en-847.jpg#@>
+
+)*
+7http://api2.appscraft.mobi/static/ads/ingame-en-ios.jpg#A
+Tue, 05 Nov 2019 08:06:06 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlVEV0YWddTGFzdC1Nb2RpZmllZFREYXRlXUFjY2VwdC1SYW5nZXNeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEKVW5naW54oQxaaW1hZ2UvanBlZ6EOXxAQIjVkYzEyZDZlLTJmYTFkIqEQXxAdVHVlLCAwNSBOb3YgMjAxOSAwODowNjowNiBHTVShEl8QHUZyaSwgMjEgSmFuIDIwMjIgMjI6MTM6MTAgR01UoRRVYnl0ZXOhFlYxOTUxMDGhGFprZWVwLWFsaXZlCBkgLTJARVNibW91d4KEl5m5u9vd4+Xs7gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD5_
+Fri, 21 Jan 2022 22:13:10 GMTUbytesV195101_
+"5dc12d6e-2fa1d"
+/bplist00
+7http://api2.appscraft.mobi/static/ads/ingame-en-ios.jpg#@>
+
+C-B
+
+
+SP,http://api2.appscraft.mobi/static/ads/durak-bannerEN-2020.jpg2022-01-21 22:13:10Z
+
+W&X
+
+
+Zl#/z1
+
+http://api2.appscraft.mobi/static/ads/durak-bannerEN-2020.jpg
+	UABA06AB7-9FD5-4055-8E05-48AF691A484A(
+
+dXOk
+
+mLC
+
+
+W/k%c
+
+=http://api2.appscraft.mobi/static/ads/durak-bannerEN-2020.jpg#A
+Mon, 27 Jul 2020 12:12:40 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlVEV0YWddTGFzdC1Nb2RpZmllZFREYXRlXUFjY2VwdC1SYW5nZXNeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEKVW5naW54oQxaaW1hZ2UvanBlZ6EOXxAQIjVmMWVjNGI4LTY4ODkxIqEQXxAdTW9uLCAyNyBKdWwgMjAyMCAxMjoxMjo0MCBHTVShEl8QHUZyaSwgMjEgSmFuIDIwMjIgMjI6MTM6MTAgR01UoRRVYnl0ZXOhFlY0MjgxNzehGFprZWVwLWFsaXZlCBkgLTJARVNibW91d4KEl5m5u9vd4+Xs7gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD5_
+Fri, 21 Jan 2022 22:13:10 GMTUbytesV428177_
+"5f1ec4b8-68891"
+=http://api2.appscraft.mobi/static/ads/durak-bannerEN-2020.jpg#@>
+4wSQLite format 3
+&
+
+e
+_http://api2.appscraft.mobi/static/ads/ingame-en-ios_4.jpg2022-01-21 22:13:11a
+http://api2.appscraft.mobi/static/ads/ingame-en-ios_4.jpg
+
+ez==c
+	UD3162E44-5890-44B8-A1EF-43ACD8FA0B49(
+
+	tzR
+2022-01-21 22:13:11
+
+(K
+
+5Ch
+
+9http://api2.appscraft.mobi/static/ads/ingame-en-ios_4.jpg#A
+Wed, 29 May 2019 07:44:08 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlVEV0YWddTGFzdC1Nb2RpZmllZFREYXRlXUFjY2VwdC1SYW5nZXNeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEKVW5naW54oQxaaW1hZ2UvanBlZ6EOXxAQIjVjZWUzODQ4LTMxMDk0IqEQXxAdV2VkLCAyOSBNYXkgMjAxOSAwNzo0NDowOCBHTVShEl8QHUZyaSwgMjEgSmFuIDIwMjIgMjI6MTM6MTAgR01UoRRVYnl0ZXOhFlYyMDA4NTKhGFprZWVwLWFsaXZlCBkgLTJARVNibW91d4KEl5m5u9vd4+Xs7gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD5_
+Fri, 21 Jan 2022 22:13:10 GMTUbytesV200852_
+"5cee3848-31094"
+1bplist00
+9http://api2.appscraft.mobi/static/ads/ingame-en-ios_4.jpg#@>
+
+-;%4
+
+&
+
+e
+
+http://api2.appscraft.mobi/static/ads/metro-en-ios.jpg2022-01-21 22:13:11\
+
+:4XqU
+
+
+sqZa
+
+http://api2.appscraft.mobi/static/ads/metro-en-ios.jpg
+
+%OX
+
+a,?
+	U99C8697C-5CDE-4E66-B7A8-80B6310EAC59(
+
+=~)f
+
+^B\
+
+4,;J#
+6http://api2.appscraft.mobi/static/ads/metro-en-ios.jpg#A
+Fri, 10 Sep 2021 14:49:52 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlVEV0YWddTGFzdC1Nb2RpZmllZFREYXRlXUFjY2VwdC1SYW5nZXNeQ29udGVudC1MZW5ndGhaQ29ubmVjdGlvbqEKVW5naW54oQxaaW1hZ2UvanBlZ6EOXxAQIjYxM2I3MDkwLTQ4MjI2IqEQXxAdRnJpLCAxMCBTZXAgMjAyMSAxNDo0OTo1MiBHTVShEl8QHUZyaSwgMjEgSmFuIDIwMjIgMjI6MTM6MTAgR01UoRRVYnl0ZXOhFlYyOTU0NjKhGFprZWVwLWFsaXZlCBkgLTJARVNibW91d4KEl5m5u9vd4+Xs7gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD5_
+Fri, 21 Jan 2022 22:13:10 GMTUbytesV295462_
+"613b7090-48226"
+&Zimage/jpeg
+.bplist00
+6http://api2.appscraft.mobi/static/ads/metro-en-ios.jpg#@>

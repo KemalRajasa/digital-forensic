@@ -1,0 +1,4 @@
+2022-01-10 12:28:34 Data container moved com.apple.mobilemail.MailNotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/4609F58E-5C83-49D8-A1FF-669AFCF057F6
+2022-01-10 12:28:34 Data container moved com.apple.mobilemail.MailNotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/4609F58E-5C83-49D8-A1FF-669AFCF057F6
+2022-01-06 17:41:33 Made container live com.apple.mobilemail.MailNotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/B14EBEA0-7D9A-4E49-808A-5DBCF0A10B41
+2022-01-06 17:41:33 Made container live com.apple.mobilemail.MailNotificationContentExtension /private/var/mobile/Containers/Data/PluginKitPlugin/B14EBEA0-7D9A-4E49-808A-5DBCF0A10B41

@@ -1,0 +1,39 @@
+﻿Property	Property Value
+ReportedSubscriberIdentity	89148000007077222202
+kOperatorRoamingInfo_3GPP_2_Nid	3
+ne_config_state	False
+meid	35321910844250
+kOperatorRoamingInfo_Subscriber_Mnc	480
+imeis	[{'second': '353219108442509', 'first': '1:kOne'}]
+kCarrierSpaceLastRefreshStatusKey	6000
+kLastUploadTimestamp	2022-02-14 18:19:52.000062
+user_default_voice_slot	1:kOne
+kOperatorRoamingInfo_3GPP_2_Roaming	False
+kOperatorRoamingInfo_3GPP_2_NetworkIso	us
+kOperatorRoamingInfo_Subscriber_CarrierBundleID	com.apple.Verizon_TFW_LTE_US
+kPostponementActivationPushTokenRegRetryCount	0
+kAllowsMultiplePDNConnectionsToSameAPNConfiguration	{'AllowsMultiplePDNConnectionsToSameAPN': False}
+imei_svns	[{'second': '27', 'first': '1:kOne'}]
+kOperatorRoamingInfo_3GPP_2_RAT	3
+kPostponementActivationPushToken	690feecf7aa314c57437cb30a2bf617e13a086fe4208b1dadf21954c8a894f21
+kCKUploadCount	1
+kOperatorRoamingInfo_3GPP_NetworkMnc	480
+kPRIFileConfiguration	{'kPRIFileVersion': '1.2.121', 'kPRIFileBundleID': 'com.apple.Verizon_TFW_LTE_US', 'kPRIFileBundleVersion': '47.0', 'kPRIFileName': 'overrides_D20_D21_D22.der.pri', 'kPRIBundleDir': '/System/Library/Carrier Bundles/iPhone/Verizon_TFW_LTE_US.bundle'}
+activation_gemini_support	1:kFalse
+kOperatorRoamingInfo_3GPP_RAT	7
+kOperatorRoamingInfo_3GPP_NetworkMcc	311
+kEnableIMSISwitchConfiguration	{'EnableIMSISwitch': False}
+kNextCarrierBundleUpdateCheck	2022-02-15 15:35:55.296544
+PersonalWallet	{'89148000007077222202': {'CarrierEntitlements': {'phone-number-prefetched': True}}}
+kOperatorRoamingInfo_3GPP_CurrentOperatorBundleId	com.apple.Verizon_LTE_US
+kPostponementTicketLock	False
+kGRIFileConfiguration	{'kGRIBundleDir': '/System/Library/Carrier Bundles/iPhone/Default.bundle', 'kGRIFileName': 'global_setting_A.gri', 'kGRIFileBundleVersion': '47.0.1', 'kGRIFileVersion': '8.0.4', 'kGRIFileBundleID': 'com.apple.Default'}
+kPostponementTicket	{'ActivityURL': 'https://albert.apple.com/deviceservices/activity', 'ActivationTicket': 'MIICrQIBATALBgkqhkiG9w0BAQsxc58/BDfGcEGfQAThsAMAn0sUjjfeVGTAulHj86O7k40aiMR05C6fh2sHNTIZEIRCUJ+HbQc1MhkQhEJQn5c9DAAAAADu7u7u7u7u75+XPgQBAAAAn5c/BAEAAACfl0AEAQAAAJ+XQQQBAAAAn5dMBAAAAAAEggEAGpe5cjjiwylBNayARsfovoT8NIwhjKGP9vI1iHhMMnrSLPMrSLSasitJKc6xHWCPf4tGWGEDWXCOQfAqDpDpuj33KLDkRDteXpweYK6SMrMeC2aSyqELKtHP8+I+d4ptkcV9fzYmRoW6eFm/6TmlnQ7/EdItnx8jKEgUHDrrgqpShBRh0Eh+GEwYx46CWJGUc6fY21Lnv9MGYmlcBgE18xEZMcIF8CJ3T3DCaqNtp6orKZXzr7B5VfcEcqOZuR2Z/iDAtIk3iQSzqkWnH0oe9ue6q5JXGjYJgEdZMAqlAEBQZ2y0htJrJd+3hpDRveGFE32i0IM5QrNGKLgJ9Wf2iqOCASAwCwYJKoZIhvcNAQEBA4IBDwAwggEKAoIBAQCskU9F2dz8TtWBq2D8AdsqcYS51H66DxZmCHEw6U9p3d8vjaEcBdF5VFwETmWJBcTJo/SiPLezdAmG40RfAsxg4sIok0CPhKsTp1mon0JBqai68SdmN0L+AsEbmNK4AjjMX6GM5t7w5mdXpgZyigRtGQDnV2P7HnOZj69PS9r/D4Q50CJNaLrGJZ1UVBNcKkJNTMD2pxrHnxdSLTj51xVITBU71Tdl7KghSskP8WagOONk6J0IcOCwIaWct9A/+Aso4yk5/PDh1YUhbUiIO+z1TL5TdiHLITgc8NXHagB/yiOEEzOx2pcZVXXjwfSZlKRHj66VlWVHgT+bEHZl0/sdAgMBAAE=', 'PhoneNumberNotificationURL': 'https://albert.apple.com/deviceservices/phoneHome', 'ActivationState': 'Activated'}
+kOperatorRoamingInfo_Subscriber_Mcc	311
+is_activation_policy_locked	1:kFalse
+ReportedPhoneNumber	19732941683
+kOperatorRoamingInfo_3GPP_Roaming	True
+kCKUploadDate	2022-01-21 (original: 19013)
+activation_5g_support	1:kFalse
+kOperatorRoamingInfo_3GPP_2_Sid	119
+subscriber_account_ids	[{'second': '89148000007077222202', 'first': '1:kOne'}]

@@ -1,0 +1,23 @@
+*.|~=
+*.|B
+xSQLite format 3
+.S`
+
+Wtablethumbnailsthumbnails
+CREATE TABLE thumbnails( docid integer not null, vol_uuid blob not null, last_hit_date integer not null, last_seen_path text not null, PRIMARY KEY (docid, vol_uuid))3
+indexsqlite_autoindex_thumbnails_1thumbnails
+*.|$
+*.|xCSQLite format 3
+indexthumbnail_last_hit_datethumbnails
+CREATE INDEX thumbnail_last_hit_date ON thumbnails(last_hit_date)T
+stablethumbnailsthumbnails
+CREATE TABLE thumbnails( docid integer not null, vol_uuid blob not null, last_hit_date integer not null, last_seen_path text not null, size integer, PRIMARY KEY (docid, vol_uuid))3
+*.||5;
+mSQLite format 3
+*.|-?
+D'ESQLite format 3
+*.|l&L=9SQLite format 3
+*.|>
+SQLite format 3
+*.|\%'Bf
+SQLite format 3

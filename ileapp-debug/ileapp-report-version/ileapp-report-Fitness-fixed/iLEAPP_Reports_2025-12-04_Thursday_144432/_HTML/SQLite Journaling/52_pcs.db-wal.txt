@@ -1,0 +1,151 @@
+{]o +D`'
+{]o +.z%
+`9SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+{]o +
+PUU/
+4CD2B1BC-B69A-4E51-BEE7-330AEE89A0C2:9200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+'()-5;<DEFJNOU$null
+
+ChainParentPublicKeyID_
+PublicSharingKeyTEtagXParentIDUKeyIDWPCSDataZRecordTypeV$class]RecordShareIDXChainPCS\RecordZoneID_
+ZoneishPublicKeyIDXRecordID
+1~0|0%
+ qChV*
+?z>X
+
+2..0sP
+dh]m\
+^~&Az^Nza^v
+B7V7I
+q%.YCNZ.
+{yO31
+_"]w
+#^I?
+?9$<
+>{iDW
+5U?qC=|!
+a#1_b
+;\lvNFq
+|fs\i{z5hd
+ho0m
+V|
+1b2
+7HX_
+(44FD18524F6B76CCA5004AA3F816102F88F6DD7C
+*+,YNS.string
++H8cJGpz1Wnij5kw1_q0AzwdDsVaUO1e8lTQPoO93vrg./01Z$classnameX$classes_
+NSMutableString234_
+NSMutableStringXNSStringXNSObject
+6789$ZRecordNameVZoneID
+$4CD2B1BC-B69A-4E51-BEE7-330AEE89A0C2=>?
+ABC_
+anonymousCKUserIDYownerNameXZoneName
+
+	_
+@9200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869_
+__defaultOwner__./GH^CKRecordZoneIDI4^CKRecordZoneID./KLZCKRecordIDM4ZCKRecordIDWbackups./PQ_
+CKDRecordPCSDataRS4_
+CKDRecordPCSDataZCKDPCSData
+Zcom.apple.ProactivePredictionsBackupAAA3EB7E-485D-4C71-93D7-7C0CF8E044649200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869:__defaultOwner__A
+	NUU/
+9200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869:__defaultOwner__
+ !%-567;?BU$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+%_7
+J'-.q+
+:KL7iE
+
+oGb6px^ZMqu|&^u
+>+
+1x!
+uY;,HF
+Yp_=
+
+:<~
+zZO
+kR@
+cE3GJo
+RO$`I
+;oP>
+1!5HO
+ \}90i
+b
+L8u^+
+c)0'0%
+ vy+
+vYW5\0
+9o0m
+o?dS
+	{u4Ip*on
+(726C02902BCB64A340701D3238B6E7185D4E8DDF
+"#$YNS.string
++UaVrLt5QfUQn0RTbWekn69EXCbKtGuia7S_cg8c6SbI&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID<
+=>WNS.time#A
+Q&&'@AVNSDate@,&'CD^CKDZonePCSDataEF,^CKDZonePCSDataZCKDPCSData
+scom.apple.ProactivePredictionsBackupAAA3EB7E-485D-4C71-93D7-7C0CF8E044649200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869:__defaultOwner__A
+{]o +#-H9|
+/	9200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869:__defaultOwner__
+'Hgxl
+
+com.apple.ProactivePredictionsBackupAAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+	9200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869:__defaultOwner__
+9200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.ProactivePredictionsBackup
+/UU	9200A5EC712FFD9B39675210E41919E74342138B009A66CE0A843B2BA36BC869:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.ProactivePredictionsBackup
+{]o +
+g
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.ProactivePredictionsBackup
+UU	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.ProactivePredictionsBackup
+{]o +x{
+{]o +'^
+
+"pj
+,
+R~":\?R6[0@c'
+$)pcrJG
+p9$3
+U[RK"
+CFa9@.?
+"H"_w}}F
+
+ 
+P-5f
+(9B3351B21BC12240F939ED73038239856BC774E7
++=*"
+{]o +y}*}`[	
+
+{]o +c
+{]o +ut
+
+{]o +gg
+{]o +$#Mj4Q
+

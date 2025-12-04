@@ -1,0 +1,1 @@
+2022-01-06 17:41:17 Made container live com.apple.ibooks.BookLibraryCore.BooksAskPermissionExtension /private/var/mobile/Containers/Data/PluginKitPlugin/3E08A106-A49B-49EC-8B9C-E8A48694A956

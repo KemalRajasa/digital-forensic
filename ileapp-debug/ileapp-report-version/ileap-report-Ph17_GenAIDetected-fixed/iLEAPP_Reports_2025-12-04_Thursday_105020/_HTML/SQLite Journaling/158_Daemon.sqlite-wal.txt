@@ -1,0 +1,35 @@
+6Gek-SQLite format 3
+.S`
+
+[tablesqlite_stat1sqlite_stat1
+CREATE TABLE sqlite_stat1(tbl,idx,stat)m
+indexNextActivityByDateNextActivity
+CREATE INDEX NextActivityByDate on NextActivity (nextActivity asc)
+gtableNextActivityNextActivity
+CREATE TABLE NextActivity(
+   personID              text unique primary key,
+   nextActivity          float
+)7
+indexsqlite_autoindex_NextActivity_1NextActivity
+ItablePropertiesProperties
+CREATE TABLE Properties(
+   key             text unique primary key,
+   value           blob
+)3
+indexsqlite_autoindex_Properties_1Properties
+6Ge7lt
+version2
+6Gedd%
+
+	version
+6Ge#Z2k
+6Gey{Mk
+Mx
+
+Propertiessqlite_autoindex_Properties_11 1
+{uc8
+
+6Ge3q
+ 8I
+
+6GeM

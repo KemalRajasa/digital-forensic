@@ -1,0 +1,9 @@
+2022-01-10 12:29:39 Data container moved com.apple.MobileStore /private/var/mobile/Containers/Data/Application/6F36A725-727E-4CBF-8C11-F2C265C04BEF
+2022-01-10 12:29:39 Made container live com.apple.MobileStore /private/var/containers/Bundle/Application/99D71050-83BE-4653-91B6-39E9E14519FE
+2022-01-10 12:29:39 Install successful com.apple.MobileStore 
+2022-01-10 12:29:39 Data container moved com.apple.MobileStore /private/var/mobile/Containers/Data/Application/6F36A725-727E-4CBF-8C11-F2C265C04BEF
+2022-01-10 12:29:39 Made container live com.apple.MobileStore /private/var/containers/Bundle/Application/99D71050-83BE-4653-91B6-39E9E14519FE
+2022-01-10 12:29:39 Install successful com.apple.MobileStore 
+2022-01-06 17:41:29 Made container live com.apple.MobileStore /private/var/mobile/Containers/Data/Application/CCD4213B-F122-449D-8362-00B304D692BD
+2022-01-06 17:41:29 Made container live com.apple.MobileStore /private/var/containers/Bundle/Application/67C7AFCF-252E-4006-AC71-4CC7CA0C5AB9
+2022-01-06 17:41:29 Install successful com.apple.MobileStore 

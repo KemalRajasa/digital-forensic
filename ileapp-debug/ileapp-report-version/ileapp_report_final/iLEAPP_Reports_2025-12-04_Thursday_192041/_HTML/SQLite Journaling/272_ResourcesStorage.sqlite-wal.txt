@@ -1,0 +1,1779 @@
+g#SQLite format 3
+.S`
+
+'indextrue_primary_keydatabase2
+CREATE UNIQUE INDEX "true_primary_key" ON "database2" ( "collection", "key" ))
+!tabledatabase2database2
+CREATE TABLE "database2" ("rowid" INTEGER PRIMARY KEY,  "collection" CHAR NOT NULL,  "key" CHAR NOT NULL,  "data" BLOB,  "metadata" BLOB )
+tableyap2yap2
+CREATE TABLE "yap2" ("extension" CHAR NOT NULL,   "key" CHAR NOT NULL,   "data" BLOB,   PRIMARY KEY ("extension", "key") )'
+indexsqlite_autoindex_yap2_1yap2
+T6*R
+snapshot
+
+T*V
+K$6J
+
+ResourcesStoragert:5,ctxt:1bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ U$null
+
+R$1R$0V$class
+ZBMResource
+WNS.dataO
+good_openers:61140.10:en-us"
+2001
+2What
+s the first thing you notice about someone?
+2003
+What
+s your morning routine?
+2004
+8What
+s the last thing you did for the very first time?
+2006
+4What personality trait gets you in the most trouble?
+2007
+'What little thing made you happy today?
+2008
+6What is one phrase you want to know in every language?
+2009
+.How would you describe yourself in five words?
+2010
+3What
+s the last song you sang out loud and where?
+2012
+3Alright, I am here. What are your other two wishes?
+2013
+&What
+s your favorite late-night eat?
+2014
++What
+s the first thing you do after work?
+2016
+*Which podcast makes you feel the smartest?
+2017
+AWhat
+s your personal record for slices of pizza in one sitting?
+2018
+HIf you could live in a different era for a week, which would you choose?
+2019
+7What
+s the most useless talent you have? Most useful?
+2020
+&Speed round: Two truths and a lie. Go!
+2021
+.What trait do you admire most in other people?
+2023
+"First thing you do in the morning?
+2024
+*What is the best trip you
+ve ever taken?
+2025
+%What
+s the best thing you can cook?
+2026
+4Is there a topic you know a surprising amount about?
+2027
+%What song have you overplayed lately?
+2028
+)What
+s the best meal you
+ve ever had?
+2029
+\Would you rather be the best player on a horrible team or the worst player on the best team?
+2030
+ What is your go-to karaoke song?
+2031
+<If you could have anyone for a mentor, who would you choose?
+2032
+.What are the top 3 things on your bucket list?
+2033
+4Best hidden breakfast spot in town, in your opinion?
+2034
+'Best dive bar in town, in your opinion?
+2035
+#What
+s your favorite time of day?
+2036
+0What
+s a quirk you really like about yourself?
+2037
+?If you had to live in a different city, where would you choose?
+2038
+7If you could change careers, what would you want to do?
+2040
+#Do you ever talk to yourself? When?
+2041
+*What
+s the last thing you binge watched?
+2042
+#Which TV family is most like yours?
+2043
+:Who do you make sure to keep in touch with no matter what?
+2044
+s your favorite drink?
+2045
+'What
+s a skill you
+d love to learn?
+2046
+s your fave kind of ice cream?
+2047
+1What
+s your weirdest favorite family tradition?
+2049
+6What
+s the most extreme dare you
+ve ever accepted?
+2050
+<If you could heighten one of your senses, which would it be?
+2051
+s your favorite way to unwind?
+2052
+MWhat
+s something you
+ve learned about yourself lately that surprised you?
+2054
+:What
+s the coolest thing you
+ve tried while traveling?
+2055
+HIf you could have anyone from history as a mentor, who would you choose?
+2056
+8What do you think is the greatest invention of all time?
+2057
+,What movie do you think everyone should see?
+2058
+What was your very first job?
+2059
+(What
+s your go-to way to cure boredom?
+2060
+s your idea of the perfect day?
+2061
+s the highlight of your week so far?
+2062
+>Would you rather live for a week in the past or in the future?
+2063
+HYou seem like an expert. Who do you think makes the best coffee in town?
+2064
+Worst movie you
+ve ever seen?
+2065
+(Would you ever go on reality television?
+2066
+#Which game show would you 
+-#	ResourcesStoragert:5,ctxt:1
+uMU
+dominate?
+2067
+#Which app are you most addicted to?
+2068
+Where
+s your happy place?
+2069
+EWhen you were a kid, what was the scariest thing in the world to you?
+2070
+9What
+s the worst pickup line you
+ve gotten on Bumble?
+2071
+s your hidden talent?
+2072
+5What
+s the last thing that made you laugh out loud?
+2073
+s the quickest way to win you over?
+2074
+s the best gift you
+ve ever received or given?
+2075
+s the nicest thing someone has ever done for you?
+2076
+DWhat
+s the most interesting thing you
+ve seen or read this week?
+2077
+JWhat
+s the best first move you
+ve seen on Bumble? Looking for ideas...
+2078
+CWhat
+s the first thing you do when you get home from a long trip?
+2079
+4What
+s the best compliment you
+ve ever received?
+2080
+re embarrassed to admit you love?
+2081
+BWhat
+s something you should have gotten credit for but didn
+2082
+OWhat
+s something you know a surprising amount about that most people don
+2083
+=What
+s something that would make your day better right now?
+2084
+-What
+s something you won
+t ever do again?
+2085
+,What would you go viral for on the internet?
+2086
+What would your band name be?
+2087
+-What song always gets you on the dance floor?
+2088
+7What lengths would you go to to get something you want?
+2089
+1What childhood trophy are you still holding onto?
+2090
+,What are your top three travel destinations?
+2091
+What are your top three emojis?
+2092
+;The age-old quandary: Would you rather be invisible or fly?
+2093
+5So, do you plan extensively before a trip or wing it?
+2094
+&What are you overly competitive about?
+2095
+=Well, the search is over. You and your dog might be the ones.
+2096
+'Not to brag, but I
+m great with dogs.
+2097
+/On a scale of 1 to 10, how spontaneous are you?
+2098
+>Judging by your top artists, I
+d subscribe to your playlist.
+2099
+Never have I ever...
+2100
+:Is there anything you
+re really excited about this year?
+2101
+2Is there anything you
+d love to learn how to do?
+2102
+;Is there anything you wished more people noticed about you?
+2103
+7Important question: How do you feel about sharing food?
+2104
+:Is there a podcast you regularly listen to and learn from?
+2105
+5Imagine your phone battery is at 5%. How do you feel?
+2106
+"Favorite television show as a kid?
+2107
+HIf you had to stay one age for the rest of your life, which would it be?
+2108
+1If you had to pick, what
+s your favorite quote?
+2109
+(Do you wake up to the first alarm clock?
+2110
+<Do you or a loved one suffer from perpetually needing a nap?
+2111
+-Divisive question: window seat or aisle seat?
+2112
+TAre you willing to reveal the most outrageous thing you
+ve done with your friends?
+2113
+2Are you willing to divulge the last text you sent?
+2114
+(Are you a sleep-in-socks kind of person?
+2115
+bAre you the type of person who kept their childhood friends or reinvented themselves in adulthood?
+2116
+ Would you rather be the funniest or smartest person in the room?
+2117
+DIf you could travel to any city on a first date, where would you go?
+2118
+<If you had to go a week without your phone, could you do it?
+2119
+GIf you could trade places with someone else for a day, who would it be?
+2120
+6If you could ask your pet one thing, what would it be?
+2121
+:If you could learn a new language, which would you choose?
+2122
+-If I had food in my teeth, would you tell me?
+2123
+d just like to point out that we looked pretty good together on the match screen.
+2124
+DHow many hours of sleep do you need to be a functioning human being?
+2125
+0How do you unwind after an especially rough day?
+2126
+EHow do you like to spend your Sundays? Getting ahead or living it up?
+2127
+NHas there ever been a time when you felt really uncomfortable but it paid off?
+2128
+,Hey! What
+s the last song you listened to?
+2129
+3Do you prefer to go out or stay in on the weekends?
+2130
+	y! What
+s your favorite holiday?
+2131
+5Hi! If you were a ghost, who or what would you haunt?
+2132
+m not sure who I
+d be more excited to meet 
+ you or your dog 
+2133
+QIf you could be the spokesperson for any person or product, who/what would it be?
+2134
+FLet
+s play a round of 
+Would you rather?
+ Fight a bear or shark?
+2135
+Funny or scary movies?
+2136
+0Hi! What
+s your favorite Disney movie and why?
+2137
+1Matching with you makes today feel like a Friday.
+2138
+*Hey! What
+s your all time favorite meme?
+2139
+UNice to meet you. If you play your cards right, I
+ll tag you in all the best memes.
+2140
+If you had to pick one friend to answer your phone for the day, who would you trust with all of your messages and social media?
+2141
+NHey! If there were one thing you could change about society, what would it be?
+2142
+;Hi! Let
+s start with your most embarrassing story. Spill!
+2143
+eSince we
+re getting to know each other here, what
+s one thing most people don
+t know about you?
+2144
+,Hi! What would your autobiography be titled?
+2145
+KGrowing up, did you ever think you
+d be meeting new people this way? 
+2146
+ZI need to learn another language so I can find more ways to tell you how amazing you seem.
+2147
+;Hi hi! What would be the top 5 songs on your life playlist?
+2148
++Hey hey! What song is your guilty pleasure?
+2149
+FHey! How do you order your coffee? Asking for when we meet for coffee!
+2150
+ What
+s your favorite thing to eat for breakfast?
+2151
+.Hey hey! How important is coffee in your life?
+2152
+1Hey! What are your top three restaurants in town?
+2153
+ASerious question: If we go on a date, can we order dessert first?
+2154
+GWhat
+s your favorite pizza spot? I
+m always looking for new places.
+2155
+JOn a scale of 1 to popping champagne, how excited are you that we matched?
+2156
+]Okay, so I just happen to know the best hidden gem in town. We should meet there for a drink.
+2157
+)This is my opening line: ----------------
+2158
+Sunrise or sunset?
+2159
+.Hey! Tell me, what
+s your biggest pet peeve?
+2160
+<Hey! It
+s nice to meet you. What
+s your favorite season?
+2161
+5Wine or beer? Pizza or tacos? Comedy or scary movies?
+2162
+9Hi! You seem so interesting, tell me more about yourself.
+2163
+Love your photos!
+2164
+II didn
+t think today could get any better, but then I matched with you.
+2165
+2I bet your story is just as intriguing as you are.
+2166
+*Well, I guess we both have good taste 
+2167
+=I just did a little victory dance when I saw that we matched.
+2168
+^I feel like a kid again, because matching with you was like finding the prize in a happy meal.
+2169
+LI can
+t believe I matched with the person with the best profile on Bumble.
+2170
+oSo I usually don
+t make the first move, but I guess I can blame Bumble now because you are first-move worthy.
+2171
+LIf your profile weren
+t verified I
+d think you were too good to be true.
+2172
+!Your profile just 
+ my 
+2173
+TJust sitting here... staring at my phone... hoping you respond to my first move 
+2174
+ZWell, I can stop swiping now, because I
+m not gonna find anyone that comes close to you.
+2175
+?Hey! What
+s the hardest part about adulting, in your opinion?
+2176
+7What was your dream job when you were a child? And now?
+2177
+XI may not have a dog, but I promise what I lack in puppies I make up for in personality.
+2178
+0I think your dog and I would look cute together.
+2179
+>Hi! Want to bypass the small talk? How are you actually doing?
+2180
+DHi! It
+s an adventure you want to take?
+2181
+:Hey there! What
+s your favorite thing to do on Saturday?
+2182
+3Hey! What
+s your favorite thing to do after work?
+2183
+6Hey! What do you think is the best hidden gem in town?
+2184
+s your favorite road trip you
+ve been on?*6
+l%xC
+0How do you unwind after an especially rough day
+3001
+5Which television character do you relate to the most?
+3002
+TWhen you first hit a new city, do you look for the best restaurants or best museums?
+3003
+s your favorite memory from childhood?
+3004
+s your favorite cocktail to make at home?
+3005
+s your unique way of practicing self-care?
+3006
+s your favorite workout class in town?
+3007
+<What
+s the most embarrassing thing your kid has ever done?
+3008
+s something unique you always keep in the fridge or pantry?
+3009
+.What
+s one thing you can
+t travel without?
+3010
+_Someone unexpectedly drops by for a visit. Do they find your place a wreck or totally in order?
+3011
+OOn a scale of 1 to popping champagne, what do your Saturdays usually look like?
+3012
+MIf you had to revisit one place that you
+ve traveled to, where would it be?
+3013
+;I can already tell, we
+re going to be great wine buddies.
+3014
+s something you always keep in the fridge?
+3015
+/What
+s the weirdest food you
+ve ever tried?
+3016
+SNice to meet you! If you were going to tour this city for a day, what would you do?
+3017
+Hi! How are you really doing?
+3018
+GI need to know: Which part of the restaurant menu do you look at first?
+3019
+BHi! If you could travel to any city on a whim, where would you go?
+3020
+=I can
+t believe we
+ve only known each other for a minute.
+3021
+6Hi! What would you do if you were invisible for a day?
+3022
+ULet
+ Breathe underwater or be able to fly?
+3023
+2Hey! What
+s something that made you happy today?
+3024
+6Hey! It looks like a dog play date is in our future...
+3025
+#Do you prefer to go out or stay in?
+3026
+DHi, nice to meet you! What
+s your favorite way to enjoy a day off?
+6Hey! What do you think is the best hidden gem in town?*(
+4001
+4002
+4003
+4004
+4005
+,What do you listen to while you are working?
+4006
+3Who is someone that gave you a chance, and on what?
+4007
+s the best lesson you
+ve learned from failure?
+4008
+How do you empower others?
+4009
+!Who is someone that inspires you?
+4010
+.Do you have a mantra that you say to yourself?
+4011
+7What is the best professional advice you ever received?
+4012
+(What qualities do you admire in leaders?
+4013
+%Where do you get your best work done?
+4014
+=Past or present, who do you want to sit down with for coffee?
+4015
+s one book everyone should read?
+4016
+:What career advice would you give yourself five years ago?
+4017
+*What are you most proud of from your work?
+4018
+6What do you wish more people knew about your industry?
+4019
+s the best habit you have at work?
+4020
+"What kind of boss are you, really?
+4021
+BDo you think we learn more from major blunders or major successes?
+4022
+=Do you have many coworkers who have become your good friends?
+4023
+s something yo
+re hoping to learn on the job this year?
+4024
+;How do you de-stress when having a crazy day at the office?
+4025
+,Who was the best boss you ever had, and why?
+4026
+8What do you consider the proudest moment of your career?
+4027
+4028
+4029
+4030
+4031
+JWhat is the biggest professional risk you
+ve ever taken? Did it pay off?
+4032
+EWhat did it take to get your first promotion? How did you ask for it?
+4033
+;Real talk: What popular career advice do you disagree with?
+4034
+ENice to meet you! Have you ever had to face any fears in your career?
+4035
+4036
+4037
+4038
+PIf you were to switch careers right now, what industry or role would you pursue?
+4039
+4040
+@Best advice on standing out among a sea of qualified candidates?
+4041
+MDo you have recommendations on what to ask during an informational interview?
+4042
+4043
+4044
+m so happy to connect with you. I
+d love to hear more about what you do!
+4045
+4046
+PHi, I
+m looking to enter your industry! Any tips on how to do so successfully?
+4047
+,Hello! What are some of your favorite books?
+4048
+TGreat to connect! Is there a single piece of advice you give to everyone you mentor?
+4049
+If you had to pick one colleague to answer your phone for the day, who would you trust with all of your emails and social media?
+4050
+4051
+,Let
+s compare notes 
+ and coffee orders!
+4052
+5I have to know: How important is coffee in your life?
+4053
+4What do you tell someone who
+s low on inspiration?
+4054
+IWhat would help you achieve your goals sooner: more time or more support?
+4055
+>Nice to meet you! What values do you look for in team members?
+4056
+%How do you inspire success in others?
+4057
+MWhen
+s the last time you
+ve had to rethink how you did something at work?
+4058
+FHi! Any advice for someone like me to take the next step in my career?
+4059
+s your favorite interview question to ask a potential hire?
+4060
+FGreat to meet you. What
+s something you hope to do in the next year?
+4061
+m happy we
+re connected. What are some of your passions?
+4062
+FNice to meet you! What are your professional goals for the year ahead?
+4063
++What does good mentorship look like to you?
+4064
+XHi there! If you could teach your younger self a lesson about failure, what would it be?
+4065
+XIf you could live a totally different life in a different career, what would you choose?
+4066
+CHey there! How do you feel about work/life balance? Does it exist?!
+4067
+4068
+cHey! If you were going to tour this city
+s workplaces for a day, which companies would you go to?
+4069
+NHey there! If you could shadow employees of any company, which would you pick?
+4070
+?Hey! If you could learn a new language, which would you choose?
+4071
+4072
+VNice to meet you! If you could be anywhere in the world right now, where would you be?
+4073
+8Hello! Where would you love to work remotely for a year?
+Z$classnameX$classes]NSMutableData
+]NSMutableDataVNSDataXNSObject
+!"ZBMResource#$%
+ZBMResource_
+PBGeneratedMessage_
+PBAbstractMessage
+\\\\\\\\\]
+]!]6
+_$_K
+
+ResourcesStoragert:9,ctxt:10bplist00
+chat_client_domains_whitelist:1"
+
+	badoo.com
+	giphy.com
+ResourcesStoragert:9,ctxt:10
+SQLite format 3
+B^5~R
+EBM(
+
+ResourcesStoragert:8,ctxt:10
+B:n
+
+ResourcesStoragert:8,ctxt:10bplist00
+chat_domains_blacklist:0"
+
+
+*.pornhub.com
+pornhub.com
+-?Qw-
+
+ResourcesStoragert:4,rs:BMResourceType,ctxt:25
+Z!9Y!
+
+ResourcesStoragert:4,rs:BMResourceType,ctxt:25bplist00
+&2a481b12874eba82c05905bb5033f018:en-us""
+
+Agender
+
+
+	Androgyne
+
+
+Androgynes
+
+Androgynous
+
+Bigender
+
+Cis
+
+	Cisgender
+	
+Enby
+
+F2M
+
+FTM
+
+Female to Male
+
+Female to male trans man
+#
+Female to male transgender man
+#
+Female to male transsexual man
+
+Gender Fluid
+
+Gender Nonconforming
+
+Gender Questioning
+
+Gender Variant
+
+Gender neutral
+
+Genderqueer
+
+I use another term
+
+
+Intersex
+
+Intersex man
+
+Intersex person
+
+Intersex woman
+
+M2F
+
+MTF
+
+Male to Female
+
+Male to female trans woman
+%
+ Male to female transgender woman
+%
+ Male to female transsexual woman
+
+Neutrois
+
+
+Non-binary
+
+
+	Pangender
+
+
+Polygender
+
+T* man
+
+
+T* woman
+	
+Trans
+
+Trans Female
+
+
+Trans Male
+
+Trans Person
+
+	Trans man
+
+Trans woman
+
+Trans*Female
+
+
+Trans*Male
+
+
+	Trans*Man
+
+Trans*Person
+
+Trans*Woman
+
+
+Transexual
+
+Transexual Female
+
+Transexual Male
+
+Transexual Man
+
+Transexual Person
+
+Transexual Woman
+
+
+Transfeminine
+
+Transgender
+
+Transgender Female
+
+Transgender Male
+
+Transgender Man
+
+Transgender Person
+
+Transgender Woman
+
+Transmasculine
+
+Two* person
+
+
+Two-spirit
+
+Two-spirit person
+
+
+Cis Female(
+Cis Male(
+Cis Man(
+	Cis Woman(
+Cisgender Female(
+Cisgender Male(
+
+Cisgender Man(
+Cisgender Woman(
+Man(
+Woman(
+EC	C
+
+i2_
+
+ResourcesStoragert:4,rs:BMResourceType,ctxt:203
+<\)}
+
+ResourcesStoragert:4,rs:BMResourceType,ctxt:203bplist00
+2Dg?@
+
+0:`N
+
+ResourcesStoragert:10,assetType:3
+ResourcesStoragert:10,assetType:3bplist00
+2:en-us"
+MadeMeUncomfortable
+Made me uncomfortableH
+AbusiveOrThreatening
+Abusive or threateningH
+InappropriateContent
+Inappropriate contentH
+
+#
+
+SpamOrScam
+2Spam or scamH
+ResourcesStoragert:10,assetType:4
+ResourcesStoragert:10,assetType:4bplist00
+UnsolicitedPhoto
+Unsolicited lewd photoH
++QSQLite format 3
+V~0C
+cSqQ
+
+snapshot	
+ResourcesStoragert:20,rs:BMResourceType
+ResourcesStoragert:20,rs:BMResourceTypebplist00
+registration_animations:4"
+
+)bumble_relationship_profile_builder_start
+
+bhttps://pd2us.bumbcdn.com/i/big/animations/screen_story/bumble_relationship_profile_builder_start/
+.bumble_relationship_profile_builder_start.json
+9&g7SQLite format 3
+q`6
+
+snapshot
+
+ResourcesStoragert:21,gm:0	,
+cbo
+
+
+K[
+ResourcesStoragert:21,gm:0bplist00
+&e2a8110fc10e915b21cfb9bd19aac38d:en-us"
+UserFake
+Fake profile2#They
+re not who they say they areB{
+yhttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/fake-profile.png?v=5.0.45z.
+ Using photos from someone I know
+Using my ph
+otos
+0z.
+ Using photos from someone famous
+Robotic replies
+0z$
+Hasn
+t replied to me
+
+Fake location
+0z!
+Limited information
+Has asked me for money
+Other
+UserRude
+Rude or abusive behavior2.They
+re acting in a way you
+re not ok withB~
+|https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/rude-or-abusive.png?v=5.0.45z$
+Harassment or stalking
+0z4
+re not looking for the same thing
+Sexual harassment
+0z*
+Vulgar or offensive language
+Blackmailing
+ Has sent me inappropriate photos
+Inappropriate content22Their profile or messages aren
+t fit for
+BumbleB
+https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/inappropriate-content.png?v=5.0.45z-
+Inappropriate photos on profile
+0z+
+Inappropriate text on profile
+Hate speech
+SpamScamCommercial
+Scam or commercial23They
+re not on Bumble for meaningful
+connectionsB{
+yhttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/spam-or-scam.png?v=5.0.45z$
+0z%
+Selling sexual services
+Promoting social media
+Feels like spam
+Spammy messages
+0z(
+Contact details on profile
+Selling products or services
+
+
+HateSpeech
+Hate speech2'They
+ve said something discriminatoryBz
+xhttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/hate-speech.png?v=5.0.45z
+Racism
+
+Homophobia
+Misogyny
+Transphobia
+Body-shaming
+BehaviourOutsideProject
+Off Bumble behavior2=There
+s an issue with someone from Bumble away from the appB
+
+~https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/offline-behaviour.png?v=5.0.45z&
+Bad experience on a date
+Physical violence
+0z0
+"This person has a criminal history
+0z9
++I know this person and want to report
+them
+Stood me up
+Underage
+Underage2)They
+re not old enough to be on
+
+~https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/underage-or-minor.png?v=5.0.45z0
+"The profile says they are under 18
+0z,
+They told me they are under 18
+0z 
+They look under 18
+0z3
+%I know this person, they are under 18
+InRelationship
+They
+re in a relationship2
+B~
+|https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/in-relationship.png?v=5.0.45z*
+re in a relationship
+
+
+NotInterested
+m just not interested2
+https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/reporting/bumble_normal/ios/2x/sz___size__/made-me-uncomfortable.png?v=5.0.45z'
+m just not interested
+Block and report this person"gDon
+t worry, your feedback is anonymous and they won
+t know that you
+ve blocked or reported them.
+F	cAuSQLite format 3
+snapshot
+9>c
+
+ResourcesStoragert:21,gm:1
+
+
+K[	k
+ResourcesStoragert:21,gm:1bplist00
+
+Misuse of BFF
+8oV=
+snapshot
+ResourcesStoragert:21,gm:5
+m)C
+
+ResourcesStoragert:21,gm:5bplist00
+Misuse of Bizz
+fSQLite format 3
+QWf/pY
+lNX
+
+ResourcesStoragert:24,covid_preferences:BMResourceType
+&/;
+
+ResourcesStoragert:24,covid_preferences:BMResourceTypebplist00
+'covid_preference_categories:1:855783467"
+uhttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/generic/bumble_normal/ios/2x/sz___size__/first-date.png?v=5.0.45
+For the first meet I prefer to"
+Meet virtually
+Meet IRL
+"$
+
+Ok with virtual or IRL
+whttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/generic/bumble_normal/ios/2x/sz___size__/virtual-date.png?v=5.0.45
+My ideal virtual meet would be"
+
+Phone call
+
+Video call
+Phone or video call
+uhttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/generic/bumble_normal/ios/2x/sz___size__/happy-date.png?v=5.0.45
+m happy to meet"
+
+Outdoors only
+Indoors
+"!
+
+Open to any setting
+rhttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/generic/bumble_normal/ios/2x/sz___size__/meeting.png?v=5.0.45
+m comfortable meeting in"#
+
+Uncrowded places only
+"'
+
+Uncrowded or more crowded
+thttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/generic/bumble_normal/ios/2x/sz___size__/on-a-date.png?v=5.0.45
+When meeting"-
+%
+
+I want to be socially distanced
+"0
+(
+
+"Happy to distance, can be
+relaxed
+rhttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/generic/bumble_normal/ios/2x/sz___size__/mask-on.png?v=5.0.45
+What about wearing masks?")
+"
+
+Happy with or without a mask
+Masks are a must
+m exempt from masks
+F6:'
+
+ResourcesStoragert:2,gm:0,ctxt:1
+;
+w.~i
+ResourcesStoragert:2,gm:0,ctxt:1bplist00
+	6.1:en-us"
+DontWantThemToSeeMe
+I don
+t want them to see meB|
+zhttps://pd2us.bumbcdn.com/i/big/assets/user_reporting_icons/normal/ios/2x/sz___size__/ic_reporting_dontwantthemtoseeme.pngH
+Made me uncomfortableBv
+thttps://pd2us.bumbcdn.com/i/big/assets/user_reporting_icons/normal/ios/2x/sz___size__/ic_reporting_uncomfortable.pngH
+Inappropriate contentBv
+thttps://pd2us.bumbcdn.com/i/big/assets/user_reporting_icons/normal/ios/2x/sz___size__/ic_reporting_inappropriate.pngH
+PhotoMy
+2Stolen photoBt
+rhttps://pd2us.bumbcdn.com/i/big/assets/user_reporting_icons/normal/ios/2x/sz___size__/ic_reporting_stolenphoto.pngH
+User is under 18H
+!What
+s wrong with this profile?"yHelp us keep the Hive safe by telling us why you
+re reporting or blocking this user.
+
+Don
+t worry, this is anonymous.
+ResourcesStoragert:2,gm:0,ctxt:3
+ResourcesStoragert:2,gm:0,ctxt:3bplist00
+2{1]pSQLite format 3
+[w"b
+
+ResourcesStoragert:2,gm:0,ctxt:10
+ResourcesStoragert:2,gm:0,ctxt:10bplist00
+v^4.1
+
+
+
+
+
+
+ResourcesStoragert:2,gm:0,ctxt:253
+ResourcesStoragert:2,gm:0,ctxt:253bplist00
+12{s
+
+
+
+
+Y
+
+
+ResourcesStoragert:2,gm:0,ctxt:173
+ResourcesStoragert:2,gm:0,ctxt:173bplist00
+Abusive or threateningBp
+nhttps://pd2us.bumbcdn.com/i/big/assets/user_reporting_icons/normal/ios/2x/sz___size__/ic_reporting_abusive.pngH
+
+
+SpamOrScam
+2Spam or scamBm
+khttps://pd2us.bumbcdn.com/i/big/assets/user_reporting_icons/normal/ios/2x/sz___size__/ic_reporting_spam.pngH
+Everything OK?"yHelp us keep the Hive safe by telling us if there
+s a reason why you
+ve unmatched.
+
+Don
+t worry, this is anonymous.*
+b7r
+
+
+
+
+Y
+1
+
+
+ResourcesStoragert:2,gm:0,ctxt:189
+&FE
+
+ResourcesStoragert:2,gm:0,ctxt:189bplist00
+
+
+
+Y
+1
+	
+
+
+ResourcesStoragert:2,gm:0,ctxt:190
+.|0M
+ResourcesStoragert:2,gm:0,ctxt:190bplist00
+Tell us what happened"lHelp us keep the Hive safe by telling us why you
+re blocking this user.
+
+Don
+
+
+
+Y
+1
+	
+
+
+ResourcesStoragert:2,gm:0,ctxt:113
+ResourcesStoragert:2,gm:0,ctxt:113bplist00
+@MiSQLite format 3
+<pX
+
+
+
+
+Y
+1
+	
+
+
+ResourcesStoragert:2,gm:1,ctxt:1
+ResourcesStoragert:2,gm:1,ctxt:1bplist00
+UsingBffToDate
+Using BFF to dateBq
+ohttps://pd2us.bumbcdn.com/i/big/assets/user_reporting_icons/normal/ios/2x/sz___size__/ic_reporting_bizzdate.pngH
+C@w
+
+
+_7Q
+
+
+
+
+Y
+1
+	
+
+
+ResourcesStoragert:2,gm:1,ctxt:3
+ResourcesStoragert:2,gm:1,ctxt:3bplist00
+z
+?H
+
+
+
+
+Y
+1
+	
+
+n
+ResourcesStoragert:2,gm:1,ctxt:10
+ResourcesStoragert:2,gm:1,ctxt:10bplist00
+hc!`
+
+
+
+
+Y
+1
+	
+
+nF
+ResourcesStoragert:2,gm:1,ctxt:253
+ResourcesStoragert:2,gm:1,ctxt:253bplist00
+Y[4C
+H`	e
+ResourcesStoragert:2,gm:1,ctxt:173
+ResourcesStoragert:2,gm:1,ctxt:173bplist00
+	6.1:en-us"	
+xgF	
+
+9Zx
+
+F
+ResourcesStoragert:2,gm:1,ctxt:189
+t1f
+
+ResourcesStoragert:2,gm:1,ctxt:189bplist00
+e4?SM
+F
+ResourcesStoragert:2,gm:1,ctxt:190
+ResourcesStoragert:2,gm:1,ctxt:190bplist00
+ms=C]
+
+pw%
+
+
+
+
+Y
+1
+	
+
+n
+ResourcesStoragert:2,gm:1,ctxt:113
+ResourcesStoragert:2,gm:1,ctxt:113bplist00
+jo3{SQLite format 3
+;@Nq5
+KjV#
+F
+ResourcesStoragert:2,gm:5,ctxt:1
+ResourcesStoragert:2,gm:5,ctxt:1bplist00
+UsingBizzToDate
+Using Bizz to dateBq
+ohttps://pd2us.bumbcdn.com/i/big/assets/user_reporting_icons/normal/ios/2x/sz___size__/ic_reporting_bizzdate.pngH
+0Fu
+
+FZ
+ResourcesStoragert:2,gm:5,ctxt:3
+ResourcesStoragert:2,gm:5,ctxt:3bplist00
+snapshot 
+mtw
+
+F3Z
+ResourcesStoragert:2,gm:5,ctxt:10
+ResourcesStoragert:2,gm:5,ctxt:10bplist00
+snapshot!
+&i`xF
+
+F3Z
+ResourcesStoragert:2,gm:5,ctxt:253 &
+(Hs(
+ResourcesStoragert:2,gm:5,ctxt:253bplist00
+J%SQLite format 3
+snapshot"
+=nAp
+
+Oz@,
+F3
+Z
+ResourcesStoragert:2,gm:5,ctxt:173!'
+ResourcesStoragert:2,gm:5,ctxt:173bplist00
+snapshot#
+
+N	_
+
+F3
+
+Z
+ResourcesStoragert:2,gm:5,ctxt:189"'
+Q.Fy%D&
+
+ResourcesStoragert:2,gm:5,ctxt:189bplist00
+G
+4SQLite format 3
+tn@V7
+
+snapshot$
+WlR>I"
++uP
+
+F3
+
+
+Z
+ResourcesStoragert:2,gm:5,ctxt:190#'
+{A[h
+ResourcesStoragert:2,gm:5,ctxt:190bplist00
+Atj
+
+snapshot%
+CcN>j
+_3jU(
+
+F3
+k
+
+
+Z
+ResourcesStoragert:2,gm:5,ctxt:113$'
+a%vw
+
+ResourcesStoragert:2,gm:5,ctxt:113bplist00
+!SQLite format 3
+snapshot&
+?Vq-
+ResourcesStoragert:26,safety_center_support_page_gm:0,ctxt:262%'
+-331-9474
+
+"National Domestic Violence Hotline
+:Free, confidential, 24/7 assistance with domestic violence
+:Free, confidential, 24/7 assistance with domestic violence*"National Domestic Violence Hotline`
+Call 1-800-799-7233
+1-800-799-7233
+2
+
+Visit website
+https://www.thehotline.org/
+RAINN
+BConnect with a trained member of a sexual assault service provider
+BConnect with a trained member of a sexual assault service provider*
+RAINN`
+Call 800-656-4673
+800-656-4673
+\
+
+Visit website
+HBEhttps://www.rainn.org/about-national-sexual-assault-telephone-hotline
+Suicide Prevention Lifeline
+EConfidential support for people in suicidal crisis or mental distress
+EConfidential support for people in suicidal crisis or mental distress*
+Suicide Prevention Lifeline`
+Call 1-800-273-8255
+1-800-273-8255
+=
+
+Visit website
+HB&https://suicidepreventionlifeline.org/
+The Polaris Project
+4A social justice movement to fight human trafficking
+4A social justice movement to fight human trafficking*
+The Polaris Project`
+Call 1-888-373-7888
+1-888-373-7888
+https://polarisproject.org/
+Text 
+BeFree
+ to 233733
+233733
+"
+
+3safety_center_section:resources:emotional_wellbeing
+Emotional wellbeing
+Crisis Text Line
+BFree, 24/7 support for those in crisis to text a trained counselor
+BFree, 24/7 support for those in crisis to text a trained counselor*
+Crisis Text Line`
+?
+
+Visit website
+HB(https://www.crisistextline.org/about-us/
+Hello
+ to 741741
+741741
+love is respect
+CDisrupts and prevents unhealthy relationships and intimate violence
+CDisrupts and prevents unhealthy relationships and intimate violence*
+love is respect`
+Call 1-866-331-9474
+1-866-331-9474
+5
+
+Visit website
+https://www.loveisrespect.org/
+B
+#Text 
+LOVEIS
+ to 1-866-331-9474
+Trans Lifeline
+8Trans peer support and resources for the trans community
+8Trans peer support and resources for the trans community*
+Trans Lifeline`
+Call 877-565-8860
+877-565-8860
+1
+
+Visit website
+https://translifeline.org/
+safety_center_page:19
+Mental exhaustion
+https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-mental-exhaustion.png?v=5.0.45"
+
+ safety_center_section:19:default
+Anxiety, uncertainty, burnout
+/Support from Bumble on dating and mental health
+m unsure where to
+start
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFyQnC1lR5Dk8svtl6I8O5uC-SF9V7nzpiEAQ3K7Xqf9Wc6-PfxDo-VlX9z6f_KFI_4w/2M
+BDhttps://bumble.com/en/help/i-m-unsure-where-to-start?app_layout=true
+Article"
+ve got dating burnout
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s3/files/e/2.1.mgfBZES6-elQXZ2rKcYFyXC-sKxUasMcBEWSimJcuTVE-jd_eI4Ds_bP0ZKzFJfPafFTLd6qGcgl8yc9rmC-bA/2K
+BBhttps://bumble.com/en/help/i-ve-got-dating-burnout?app_layout=true
+Mental wellbeing during Covid
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFyY7NcINgG7drwe62QGrwXh1xtCs-7IVFgJeeXG3y2qv9xUh3oxstWvOj0uODmqK7nQ/2G
+B>https://bumble.com/en/help/dating-during-covid?app_layout=true
+
+/Support after being fetishized as a trans woman
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s1/files/e/2.1.mgfBZES6-elQXZ2rKcYFyXC7tKyheZ8kw5xIjLdITIRri_d0FDdlYCZIXKOUm5RDN2tDaeu14Af3ifKrwORVtA/2>
+B5https://bumble.com/en-us/help/43/3457?app_layout=true
+Artic
+m anxious about messaging first
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s1/files/e/2.1.mgfBZES6-elQXZ2rKcYFyTbf2-cjJDzQPFR-SF8KdPIYgs3k0Jyufo53HCaB_WUQjj6sAUcNueNNpKIla5gveg/2U
+BLhttps://bumble.com/en/help/i-m-anxious-about-messaging-first?app_layout=true
+Article(
+Make Bumble work for you
+*Learn about parts of the app that can help
+
+Snooze mode
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFyToHSFIW_2lU9D_keGpKo5bHqVytkpQzHvE8RlgMXNQfXEMpmYjLcSFBc3DMVrfwFw/2B
+B9https://bumble.com/en/help/what-is-snooze?app_layout=true
+BHow to guide"
+
+
+BFF & Bizz
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s3/files/e/2.1.mgfBZES6-elQXZ2rKcYFyX5FF2MZ4rgxBVDh4kbph9isqTyuHXiiD7Rn6VxiC6eIVex7uu5GmITrsSL2nAVXzg/2K
+BBhttps://bumble.com/en/help/what-is-bumble-bff-bizz?app_layout=true
+
+
+Question Game
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFycaCMn_KBHhJUPBJI6vfQgwMKy_R2v4GK5-D9RLgZ8lUrZgPlT-29lq1NrQfvQzfWg/2A
+B8https://bumble.com/en/help/question-game?app_layout=true
+BHow to guide(
+Helpful resources
+,Organizations to help you feel safe and well
+See more
+23safety_center_section:resources:emotional_wellbeing
+safety_center_page:resources8
+safety_center_page:21
+Feelings of rejection
+https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-feelings-of-rejection.png?v=5.0.45"
+
+ safety_center_section:21:default
+Being ghosted or ignored
+0How to handle feelings of rejection while dating
+m not getting any matches
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s1/files/e/2.1.mgfBZES6-elQXZ2rKcYFyX6nyhJjIVIo4ku6Rf5trXjdfZgYPbTxyZH6yto9gXNVnjiJCsT0m6AyyYvE_KuL3A/2O
+BFhttps://bumble.com/en/help/i-m-not-getting-any-matches?app_layout=true
+People don
+t message me first
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFyR6cdNZNYS6GeOPuUjkuCoPjPv-WppUpqbWRfmQQg0QhPxTGIAQF16PJ0VAFGdPO1A/2Q
+BHhttps://bumble.com/en/help/people-don-t-message-me-first?app_layout=true
+Ghosting (and when it
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s3/files/e/2.1.mgfBZES6-elQXZ2rKcYFyYxfzKwNu7IxfbzrdbP2GKpoxa4nAzeE5zFT4Wv7CwTdq_A6tAhUrdRvqZ0VsgnEHA/2<
+B3https://bumble.com/en/help/ghosting?app_layout=true
+Being unmatched
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFyWkLyM-gCAwOpxE6ft3WTBpsncp3exekvDhG1A8r7psRfWsJXNuX1O9Vfx2e9QbDUw/2C
+B:https://bumble.com/en/help/being-unmatched?app_layout=true
+Profile prompts
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s1/files/e/2.1.mgfBZES6-elQXZ2rKcYFydOBgSH53HMdjsqMKB7jDXE18s0ebGBv2keMIDwz-DfSPSso8ZNaLtAu7V_EcSDaxQ/2b
+BYhttps://bumble.com/en/help/what-are-move-make
+rs-and-how-can-i-update-them?app_layout=true
+Profile verification
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFye4WTiJUhUhllw7aCqw5cVUuhkaJl41IrseEPYzAp0WvjANUZUEKLQmkm3XVmC-ivg/2O
+BFhttps://bumble.com/en/help/how-can-i-verify-my-profile?app_layout=true
+Reporting after being unmatched
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s3/files/e/2.1.mgfBZES6-elQXZ2rKcYFyQ2rwbXs6-I0i6lbBtk81STNWxnUUFShmFMaKf9dQ4V6hyOsc9pAaMhVDsXGDxDf-Q/2S
+BJhttps://bumble.com/en/help/reporting-after-being-unmatched?app_layout=true
+safety_center_page:23
+Harmful behavior
+https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-harmful-behaviour.png?v=5.0.45"
+
+ safety_center_section:23:default
+Abuse of any kind or catfishing
+,What to do if someone is being inappropriate
+Reporting abusive messages
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFyZJgLUBw3XlrYWdLt45M0hxdg951bCXL4RX_loKdUg5jsOvgcLXCmkmRd0CpDQNzgQ/2N
+BEhttps://bumble.com/en/help/reporting-abusive-messages?app_layout=true
+What happens when I
+report
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s1/files/e/2.1.mgfBZES6-elQXZ2rKcYFycGc13GFoq7aEcEmTiHm8IXZgmgSAURgVNyACDNZmXdR6ZPtZVXlnjziHtRSWBzbaw/2P
+BGhttps://bumble.com/en/help/what-happens-when-you-report?app_layout=true
+
+%Spotting & recovering from catfishing
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFyS0OLz4nerg6lBEye1Fax4Ce53EdcqqfXNW01kG8PlAMH_7d9deGnkyl33lWywJ_zg/2>
+B5https://bumble.com/en/help/catfishing?app_layout=true
+
+ Microaggressions & fetishization
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s3/files/e/2.1.mgfBZES6-elQXZ2rKcYFycPY2qG_l2rlnjgtHZ-R9I5erREZVhwp8J1b4tUjEv7QkqtRYRju_23GAgPnXlHh2g/2T
+BKhttps://bumble.com/en/help/microaggressions---fetishization?app_layout=true
+Block & Report
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFyUXkJfax2rKOcnfwp5Z5r_U8gyG6vpxfbLhtExoHdzR4vwiguVOIx9JDfaq57g0Hfg/2L
+BChttps://bumble.com/en/help/how-can-i-report-someone?app_layout=true
+Unmatch someone
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s1/files/e/2.1.mgfBZES6-elQXZ2rKcYFyXLs61TuEzPQf1HXqYm3t_2o0WNHhNm-9nKS5Qd3iav87j-nsFFTqEasXGPc37aaDw/2C
+B:https://bumble.com/en/help/unmatch-someone?app_layout=true
+Unsolicited lewd photos
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFydMg4veytLrXGlh7UdETVkU0ZTI54Dhy-fK_n6D1U_qmgxHDNWYdI7wqXszoSufxRg/2S
+BJhttps://bumble.com/en/help/why-am-i-seeing-a-blurred-image?app_layout=true
+
+	BlackLine
+ESupporting the BIPOC community through crisis, abuse and mistreatment
+ESupporting the BIPOC community through crisis, abuse and mistreatment*	BlackLine`
+Call 1-800-604-5841
+1-800-604-5841
+https://www.callblackline.com/
+2+safety_center_section:resources:your_safety
+safety_center_page:25
+
+Bumble to IRL
+~https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-bumble-to-irl.png?v=5.0.45"
+
+ safety_center_section:25:default
+Physical safety, dates, sex
+-How to keep safe when meeting up with matches
+Preparing for safety IRL
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s3/files/e/2.1.mgfBZES6-elQXZ2rKcYFyaodwh04O-P3D_6ASA2glB_AIePmAnmSOorvtLw-b7N0KWVUkG-8_uDX62Fw45xSuQ/2E
+B<https://bumble.com/en/help/preparing-for-irl?app_layout=true
+How to navigate first
+dates
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s4/files/e/2.1.mgfBZES6-elQXZ2rKcYFyXqJc1hO6RJXzukEX9aVRwdLB-vdZ9ZkuNrAIZ5vFJAFtqR3_4nLaqvP6aR-uq0yww/2?
+B6https://bumble.com/en/help/first-dates?app_layout=true
+IRL dating during Covid
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s1/files/e/2.1.mgfBZES6-elQXZ2rKcYFyR799YD-5NJQOf85eUom3J-4VaxUjr8Bt20GVl5AQTf3NH0mK6j8GW8H7-A0zcA9mw/29
+B0https://bumble.com/en/help/covid?app_layout=true
+
+
+Video chat
+https://pd2us.bumbcdn.com/ssc/static-eu.bumble.com/s2/files/e/2.1.mgfBZES6-elQXZ2rKcYFyeVwmUmQHI-tbBNf6TlHp2vi4JatcSWcKGH5FXYsmkJNz3TL2pks5mKSorQhca7dMA/2S
+BJhttps://bumble.com/en/help/how-to-use-video-chat-on-bumble?app_layout=true
+JJJJK
+K#K*K3K8KCKHKSKh
+ResourcesStoragert:26,safety_center_support_page_gm:0,ctxt:262bplist00
+#support_pages:1631728065:1352161950"
+safety_center_page:main
+"
+"safety_center_section:main:default
+0Help with dating anxiety, uncertainty or burnout
+https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-mental-exhaustion.png?v=5.0.452
+safety_center_page:198
+"Overcome low moments like ghosting
+https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-feelings-of-rejection.png?v=5.0.452
+safety_center_page:218
+0What to do about things like abuse or catfishing
+https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-harmful-behaviour.png?v=5.0.452
+safety_center_page:238
+
+
+Bumble to IRL
+,Tips on staying safe when you decide to date
+"~https://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-bumble-to-irl.png?v=5.0.452
+safety_center_page:258
+Get help from Bumble
+Report a safety concern
+
+Your safety
+4Trusted organizations to help keep you safe and well
+safety_center_page:resources8B
+Your emotional wellbeing
+;Resources for a healthy state of mind in dating and in life
+Bumble values and guidelines
+;See what Bumble stands for and what we ask of our community
+B#https://bumble.com/en-us/guidelines
+safety_center_page:resources
+zhttps://pd2us.bumbcdn.com/i/big/assets/cosmos/mobile/safety/bumble_normal/ios/2x/sz___size__/safety-resources.png?v=5.0.45"
+
++safety_center_section:resources:your_safety
+Your safety
+1-866
+snapshot'
+5rO
+
+ResourcesStoragert:26,safety_center_support_page_gm:1,ctxt:262&C
+ResourcesStoragert:26,safety_center_support_page_gm:1,ctxt:262bplist00
+support_pages:2:0"
+;|E3
+snapshot(
+fNQ3
+
+
+'		
+ResourcesStoragert:26,safety_center_support_page_gm:5,ctxt:262'C
+ResourcesStoragert:26,safety_center_support_page_gm:5,ctxt:262bplist00
+snapshot)
+rx:z
+^:y:
+
+	_
+'		
+ResourcesStoragert:25,myplan_paid_subsccription_features:8(C
+ResourcesStoragert:25,myplan_paid_subsccription_features:8bplist00
+paid_subscription_features:1"
+Unlimited likes
+)Swipe right on as many people as you like
+Beeline
+See who has already liked you
+Advanced filters
+(More filters, apply as many as you
+like
+Incognito mode
+0Only be shown to people you
+ve swiped right on
+M
+Travel mode
+<Change your location to match with people in other countries
+5 SuperSwipes a week
+%Let someone know you really like them
+1 Spotlight a week
+6Spotlight shows you ahead of everyone else for 30 mins
+Unlimited Extends
+#Extend as many matches as you
+Unlimited Rematch
+/A second chance to connect with expired matches
+Unlimited Backtrack
+2Correct the mistake if you swiped left by accident
+snapshot*
+IfIKN
+
+	9
+
+
+Y
+1
+	
+
+n
+ResourcesStoragert:15,ctxt:130,0)?
+
+E4Tr
+ResourcesStoragert:15,ctxt:130,0bplist00
+interests_groups:1:353019539"
+
+CreativityH
+P
+SportsH
+P
+	Going outH
+P
+
+Staying inH
+P
+	Film & TVH
+P
+ReadingH
+P
+MusicH
+P
+Food & drinkH
+P
+	TravelingH
+P
+PetsH
+P
+Values & traitsH
+Bumble values & allyshipH
+snapshot+
+I~$
+
+ResourcesStoragert:15,ctxt:130,1*%
+/9w
+
+ResourcesStoragert:15,ctxt:130,1bplist00
+interests_groups:1:3608033241"
+DrinksH
+FaithH
+FitnessH
+FoodieH
+P
+MoviesH
+P
+Social allyship & activismH
+SpiritualityH
+Values & traitsH
+P
+WellnessH
+snapshot,
+ResourcesStoragert:32,ctxt:130,1+%
+ResourcesStoragert:32,ctxt:130,1bplist00
+'your_life_interests_groups:1:2070029282"
+Making movesH
+	EducationH
+
+Working itH
+Home sweet homeH
+LGBTQIA+H
+Family lifeH
+Owning my journeyH
+>ZqSQLite format 3
+snapshot-
+}i",
+
+{8?n,T
+ResourcesStoragert:33,ctxt:130,0,%
+5n_
+
+ResourcesStoragert:33,ctxt:130,0bplist00
+"interests_placeholder:1:3492869953"I
+Video games
+Dogs
+Beaches
+snapshot.
+ResourcesStoragert:33,ctxt:130,1-%
+_q0fn
+ResourcesStoragert:33,ctxt:130,1bplist00
+!interests_placeholder:1:140625089"O
+Coffee
+Photography
+snapshot/
+k6[
+ResourcesStoragert:34,ctxt:130,1.%
+
+	?
+ResourcesStoragert:34,ctxt:130,1bplist00
++your_life_interests_placeholder:1:461154979"W
+New in town
+Career focused
+Just graduated

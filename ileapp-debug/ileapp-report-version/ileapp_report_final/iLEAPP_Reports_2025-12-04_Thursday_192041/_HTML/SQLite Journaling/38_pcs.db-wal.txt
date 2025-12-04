@@ -1,0 +1,115 @@
+ys06fuI
+ys0yM4SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+	^EUE
+BeaconStore:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !%-567;?BU$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+.`0O
+_@Cw
+T]II"-2\@Nv
+'@^O
+J]o9m`
++ffA
+nN&&Xd
+]W$\x?
+3G0e'>p02y+U!
+'CR"wU
+_	%f0M
+z|6g-
+_9>E
+vvm&
+zY
+3)0'0%
+ /'_u$?{P
+ns`T
+A#6-
+S<lY
+
+*G{
+NUo0m
+ gt`k5kz?
+T6$exCl
+(3A9DAA9B5AF9C03E37B91AA4716A1AAC2A0693E7
+"#$YNS.string
++EQ5j0W68_6WkwHkmo5m9Te8vDij_SxGx3zMMpxBjkwI&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+anonymousCKUserIDYownerNameXZoneName
+	[BeaconStore_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID<
+=>WNS.time#A
+%y&'@AVNSDate@,&'CD^CKDZonePCSDataEF,^CKDZonePCSDataZCKDPCSData
+;com.apple.icloud.searchpartyAAA3EB7E-485D-4C71-93D7-7C0CF8E04464BeaconStore:__defaultOwner__A
+ys0
+&
+
+^
+^
+^
+com.apple.icloud.searchpartyAAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+ys0M
+
+BeaconStore:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.icloud.searchparty
+ys0}L
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.icloud.searchparty
+ys0{G.P	
+
+ys0mj
+SQLite format 3
+ys0)
+ys0&
+KghG
+
+ys0 
+ys0-G
+ys0/
+0U(
+
+ys0K/
+ys0"M
+ys0.
+ys0k5
+ys0[a}	
+
+ys0[@e
+ys0&#{H
+fc_D
+
+ys0} 
+ys0y%
+ys0]L]
+ys0{
+ys0<V
+ys0_
+
+ys0)F=on
+
+ys04

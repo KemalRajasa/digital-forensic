@@ -1,0 +1,1 @@
+2022-01-06 17:41:01 Made container live com.apple.QuickLookThumbnailing.extension-secure /private/var/mobile/Containers/Data/PluginKitPlugin/5113CEF7-D5C8-4E76-8ACF-E39A27F5F18D

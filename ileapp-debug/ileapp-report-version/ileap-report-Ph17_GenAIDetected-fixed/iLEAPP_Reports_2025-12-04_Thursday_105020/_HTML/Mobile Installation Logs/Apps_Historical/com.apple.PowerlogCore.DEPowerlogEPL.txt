@@ -1,0 +1,1 @@
+2022-01-06 17:41:07 Made container live com.apple.PowerlogCore.DEPowerlogEPL /private/var/mobile/Containers/Data/PluginKitPlugin/3BEA583F-21A2-4A0B-A93B-F20A430BB01D

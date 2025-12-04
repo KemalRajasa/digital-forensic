@@ -1,0 +1,1 @@
+2022-01-06 14:41:10 Made container live com.apple.Home.HomeControlService /private/var/mobile/Containers/Data/Application/0A0EF3AC-8295-478A-9708-D0232C4A1AE4

@@ -1,0 +1,35 @@
+""w<	T.<
+""w< u
+	GalleryUserDefaults
+GallerySnapTransientState
+GallerySnapMiniThumbnail
+GallerySnapDoc
+GallerySnapDetail
+GallerySnap
+GalleryQuotaStatus
+	GalleryProfile
+GalleryEntryAsset
+GalleryEntry
+CloudSyncOperationSnapshot
+""w<1
+4b7806c0-7381-4984-b53b-cb36fbecbb0e
+""w<`lW
+""w<Y
+""w<RM:*
+
+""w<
+Tb3
+
+U	4b7806c0-7381-4984-b53b-cb36fbecbb0e
+""w<L%(h
+
+""w<C
+sme
+
+""w<Vb
+
+""w<[ZE}:EZ
+
+`%4b7806c0-7381-4984-b53b-cb36fbecbb0e
+l3nSQLite format 3
+""w<i

@@ -1,0 +1,170 @@
+u_LK)
+u_,yC[
+
+6Mhttps://clientblacklist.wire.com/prod/ios2022-01-21 22:04:52
+X	
+
+_	https://clientblacklist.wire.com/prod/ios
+5	cfurl_cache_response
+u_<$NQ
+
+bplist00
+WVersionUArray
+
+
+*+
+_CFURLStringType\_CFURLString
+)https://clientblacklist.wire.com/prod/ios#A
+ !"#$%&'()\Content-Type[X-Amz-Cf-Id]Last-ModifiedSViaVServer\X-Amz-Cf-Pop]Cache-ControlTDate^Content-LengthZConnectionX__hhaa__]Accept-RangesTEtagWX-Cache_
+application/json_
+8bUnuYxhOd2g7zRsn12Yjz7Ci3ed0i0LFl4RpwKyen0srXrNu3ibJrg==_
+Thu, 18 May 2017 14:53:46 GMT_
+@1.1 e2ddb156cdc225570ee247c2aefc938e.cloudfront.net (CloudFront)XAmazonS3XEWR53-C1_
+private, max-age=3600_
+Fri, 21 Jan 2022 22:04:53 GMTS460Zkeep-alive_
+\
+
+YnBsaXN0MDDdAQIDBAUGBwgJCgsMDQ4QEhQWGBocHiAiJCZcQ29udGVudC1UeXBlV1gtQ2FjaGVbWC1BbXotQ2YtSWRTVmlhVlNlcnZlclxYLUFtei1DZi1Qb3BdQ2FjaGUtQ29udHJvbFREYXRlXkNvbnRlbnQtTGVuZ3RoWkNvbm5lY3Rpb25dQWNjZXB0LVJhbmdlc1RFdGFnXUxhc3QtTW9kaWZpZWShD18QEGFwcGxpY2F0aW9uL2pzb26hEV8QFE1pc3MgZnJvbSBjbG91ZGZyb250oRNfEDhiVW51WXhoT2QyZzd6UnNuMTJZano3Q2kzZWQwaTBMRmw0UnB3S3llbjBzclhyTnUzaWJKcmc9PaEVXxBAMS4xIGUyZGRiMTU2Y2RjMjI1NTcwZWUyNDdjMmFlZmM5MzhlLmNsb3VkZnJvbnQubmV0IChDbG91ZEZyb250KaEXWEFtYXpvblMzoRlYRVdSNTMtQzGhG18QFXByaXZhdGUsIG1heC1hZ2U9MzYwMKEdXxAdRnJpLCAyMSBKYW4gMjAyMiAyMjowNDo1MyBHTVShH1M0NjChIVprZWVwLWFsaXZloSNVYnl0ZXOhJV8QIiI1NGQ2MjBhODhjNDRlYjYxZmE3MTllNjQ3ODk2OWZhYiKhJ18QHVRodSwgMTggTWF5IDIwMTcgMTQ6NTM6NDYgR01UAAgAIwAwADgARABIAE8AXABqAG8AfgCJAJcAnACqAKwAvwDBANgA2gEVARcBWgFcAWUBZwFwAXIBigGMAawBrgGyAbQBvwHBAccByQHuAfAAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAACEA==Ubytes_
+""54d620a88c44eb61fa719e6478969fab"_
+Miss from cloudfront_
+ __CFURLResponseNullTokenString___
+application/json
+)https://clientblacklist.wire.com/prod/ios#@N
+__CFURLRequestNullTokenString__	
+SGET
+VAccept_
+Accept-Language_
+Accept-EncodingX__hhaa__S*/*Uen-us_
+gzip, deflate, br_
+
+
+YnBsaXN0MDDTAQIDBAYIXxAPQWNjZXB0LUVuY29kaW5nVkFjY2VwdF8QD0FjY2VwdC1MYW5ndWFnZaEFXxARZ3ppcCwgZGVmbGF0ZSwgYnKhB1MqLyqhCVVlbi11cwgPISg6PFBSVlgAAAAAAAABAQAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAXg==
+u_1{
+${
+    "min_version": "1",
+    "exclude": ["1896", "1921", "1963", "1992", "2006", "2032", "2093", "2135", "2161", "2173", "2191", "2222", "2252", "2301", "2319", "2365", "2377", "2395", "2406", "2424", "2472", "2484", "2516", "2521", "2531", "2538", "2549", "2565", "2584", "2585", "2592", "2620", "2629", "2635", "2650", "2669", "2670", "2675", "2681", "2702", "2713", "2720", "2731", "2735", "2742", "2752", "2766", "2772", "2780", "2787", "2795", "2811"]
+}
+
+u_?]
+3	2022-01-21 22:04:52
+mR8,
+
+u_o"
+u_.K\6
+
+Mhttps://clientblacklist.wire.com/prod/ios2022-01-21 22:04:52
+u_lb
+80X-c6QoC3WQZr5KQyZ_kSk_qSRq3daEx3VU9viNT1P6RZvqaz7CBYg==_
+@1.1 2ead2a81ff8cd9f180f8ec7fa0607b6e.cloudfront.net (CloudFront)XAmazonS3XEWR53-C1_
+\
+
+YnBsaXN0MDDdAQIDBAUGBwgJCgsMDQ4QEhQWGBocHiAiJCZcQ29udGVudC1UeXBlV1gtQ2FjaGVbWC1BbXotQ2YtSWRTVmlhVlNlcnZlclxYLUFtei1DZi1Qb3BdQ2FjaGUtQ29udHJvbFREYXRlXkNvbnRlbnQtTGVuZ3RoWkNvbm5lY3Rpb25dQWNjZXB0LVJhbmdlc1RFdGFnXUxhc3QtTW9kaWZpZWShD18QEGFwcGxpY2F0aW9uL2pzb26hEV8QFE1pc3MgZnJvbSBjbG91ZGZyb250oRNfEDgwWC1jNlFvQzNXUVpyNUtReVpfa1NrX3FTUnEzZGFFeDNWVTl2aU5UMVA2Ulp2cWF6N0NCWWc9PaEVXxBAMS4xIDJlYWQyYTgxZmY4Y2Q5ZjE4MGY4ZWM3ZmEwNjA3YjZlLmNsb3VkZnJvbnQubmV0IChDbG91ZEZyb250KaEXWEFtYXpvblMzoRlYRVdSNTMtQzGhG18QFXByaXZhdGUsIG1heC1hZ2U9MzYwMKEdXxAdRnJpLCAyMSBKYW4gMjAyMiAyMjowNDo1MyBHTVShH1M0NjChIVprZWVwLWFsaXZloSNVYnl0ZXOhJV8QIiI1NGQ2MjBhODhjNDRlYjYxZmE3MTllNjQ3ODk2OWZhYiKhJ18QHVRodSwgMTggTWF5IDIwMTcgMTQ6NTM6NDYgR01UAAgAIwAwADgARABIAE8AXABqAG8AfgCJAJcAnACqAKwAvwDBANgA2gEVARcBWgFcAWUBZwFwAXIBigGMAawBrgGyAbQBvwHBAccByQHuAfAAAAAAAAACAQAAAAAAAAAoAAAAAAAAAAAAAAAAAAACEA==Ubytes_
+u_RjqSQLite format 3
+.S`
+
+f
+
+#u
+indexreceiver_data_indexcfurl_cache_receiver_dataCREATE INDEX receiver_data_index ON cfurl_cache_receiver_data(entry_ID)t	
+indexproto_props_indexcfurl_cache_blob_dataCREATE INDEX proto_props_index ON cfurl_cache_blob_data(entry_ID)r
+indextime_stamp_indexcfurl_cache_response
+CREATE INDEX time_stamp_index ON cfurl_cache_response(time_stamp)u
+indexrequest_key_indexcfurl_cache_response	CREATE INDEX request_key_index ON cfurl_cache_response(request_key)+
+etablecfurl_cache_receiver_datacfurl_cache_receiver_data
+CREATE TABLE cfurl_cache_receiver_data(entry_ID INTEGER PRIMARY KEY, isDataOnFS INTEGER, receiver_data BLOB)I
+1tablecfurl_cache_blob_datacfurl_cache_blob_data
+CREATE TABLE cfurl_cache_blob_data(entry_ID INTEGER PRIMARY KEY, response_object BLOB, request_object BLOB, 			  proto_props BLOB, user_info BLOB)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)"
+gtablecfurl_cache_responsecfurl_cache_response
+CREATE TABLE cfurl_cache_response(entry_ID INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE, 	 version INTEGER, hash_value INTEGER, storage_policy INTEGER, request_key TEXT UNIQUE, 	 time_stamp NOT NULL DEFAULT CURRENT_TIMESTAMP, partition TEXT)G
+indexsqlite_autoindex_cfurl_cache_response_2cfurl_cache_response
+indexsqlite_autoindex_cfurl_cache_response_1cfurl_cache_response
+u_u7t
+
+https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY0MjgwMjgwMA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=8002022-01-21 22:06:41H
+https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY0MjgwMjgwMA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800
+u_C2|
+cfurl_cache_response
+	UA3FDBC80-6894-4D28-95D3-89D9FB5E38BBQ
+2022-01-21 22:06:41
+u_dJ<1%t
+
+Q#Y
+
+
+
+./
+https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY0MjgwMjgwMA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800#A
+ !"#$%&'()*+,-\Content-Type_
+Access-Control-Allow-Origin]Last-ModifiedSAgeZSet-CookieVServerZx-imgix-id_
+cross-origin-resource-policy]Cache-ControlTDate^Content-LengthX__hhaa___
+x-content-type-options]Accept-Ranges[x-served-byWx-cacheZimage/jpegQ*_
+Fri, 21 Jan 2022 15:19:45 GMTU24416_
+ugid=76d359c60a6282e2355a7e995e05f3385476009;domain=.unsplash.com;path=/;expires=Sat, 21 Jan 2023 22:06:41 GMT;SameSite=None;SecureUimgix_
+(f492a869cb8573f481e9f4f8284003e920ead871\cross-origin_
+public, max-age=315360000_
+Fri, 21 Jan 2022 22:06:41 GMTV143219_
+ 
+
+YnBsaXN0MDDfEA8BAgMEBQYHCAkKCwwNDg8QEhQWGBocHiAiJCYoKixcQ29udGVudC1UeXBlXxAbQWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2luV3gtY2FjaGVTQWdlWlNldC1Db29raWVWU2VydmVyWngtaW1naXgtaWRfEBxjcm9zcy1vcmlnaW4tcmVzb3VyY2UtcG9saWN5XUNhY2hlLUNvbnRyb2xURGF0ZV5Db250ZW50LUxlbmd0aF8QFngtY29udGVudC10eXBlLW9wdGlvbnNdQWNjZXB0LVJhbmdlc1t4LXNlcnZlZC1ieV1MYXN0LU1vZGlmaWVkoRFaaW1hZ2UvanBlZ6ETUSqhFVlISVQsIE1JU1OhF1UyNDQxNqEZXxCDdWdpZD03NmQzNTljNjBhNjI4MmUyMzU1YTdlOTk1ZTA1ZjMzODU0NzYwMDk7ZG9tYWluPS51bnNwbGFzaC5jb207cGF0aD0vO2V4cGlyZXM9U2F0LCAyMSBKYW4gMjAyMyAyMjowNjo0MSBHTVQ7U2FtZVNpdGU9Tm9uZTtTZWN1cmWhG1VpbWdpeKEdXxAoZjQ5MmE4NjljYjg1NzNmNDgxZTlmNGY4Mjg0MDAzZTkyMGVhZDg3MaEfXGNyb3NzLW9yaWdpbqEhXxAZcHVibGljLCBtYXgtYWdlPTMxNTM2MDAwMKEjXxAdRnJpLCAyMSBKYW4gMjAyMiAyMjowNjo0MSBHTVShJVYxNDMyMTmhJ1dub3NuaWZmoSlVYnl0ZXOhK18QJWNhY2hlLXNqYzEwMDIxLVNKQywgY2FjaGUtYm9zNDY4My1CT1OhLV8QHUZyaSwgMjEgSmFuIDIwMjIgMTU6MTk6NDUgR01UAAgAKQA2AFQAXABgAGsAcgB9AJwAqgCvAL4A1wDlAPEA/wEBAQwBDgEQARIBHAEeASQBJgGsAa4BtAG2AeEB4wHwAfICDgIQAjACMgI5AjsCQwJFAksCTQJ1AncAAAAAAAACAQAAAAAAAAAuAAAAAAAAAAAAAAAAAAAClw==WnosniffUbytes_
+%cache-sjc10021-SJC, cache-bos4683-BOSYHIT, MISS_
+ __CFURLResponseNullTokenString__Zimage/jpeg
+7bplist00
+https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=800&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY0MjgwMjgwMA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=800#@N
+eSQLite format 3
+'Ks<Z
+u_U|FVa
+
+Gh\https://in.appcenter.ms/logs?api-version=1.0.02022-01-21 22:07:050
+u_\M8
+
+https://in.appcenter.ms/logs?api-version=1.0.0
+u_
+5}
+u_x^C
+
+{"status":"Success","validDiagnosticsIds":[],"throttledDiagnosticsIds":[],"correlationId":"821f31b1-c154-4618-a57b-ba47b476060f"}(
+:^iT
+cW5
+
+2022-01-21 22:07:05
+u_VF`
+
+
+
+.https://in.appcenter.ms/logs?api-version=1.0.0#A
+TDateX__hhaa__\Content-Type^Content-LengthVServerZConnection_
+Fri, 21 Jan 2022 22:07:05 GMT_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZTZXJ2ZXJcQ29udGVudC1UeXBlXkNvbnRlbnQtTGVuZ3RoWkNvbm5lY3Rpb25URGF0ZaEHV0tlc3RyZWyhCV8QEGFwcGxpY2F0aW9uL2pzb26hC1MxMjmhDVprZWVwLWFsaXZloQ9fEB1GcmksIDIxIEphbiAyMDIyIDIyOjA3OjA1IEdNVAgTGic2QUZIUFJlZ2tteHoAAAAAAAABAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAmg==_
+application/jsonS129WKestrelZkeep-alive_
+kbplist00
+.https://in.appcenter.ms/logs?api-version=1.0.0#
+__CFURLRequestNullTokenString__
+TPOST
+ !"#$%&VAccept\Content-TypeX__hhaa__ZApp-SecretZInstall-ID_
+Accept-Language^Content-Length_
+Accept-EncodingS*/*_
+
+
+YnBsaXN0MDDXAQIDBAUGBwgKDA4QEhRWQWNjZXB0XENvbnRlbnQtVHlwZVpBcHAtU2VjcmV0Wkluc3RhbGwtSURfEA9BY2NlcHQtTGFuZ3VhZ2VeQ29udGVudC1MZW5ndGhfEA9BY2NlcHQtRW5jb2RpbmehCVMqLyqhC18QEGFwcGxpY2F0aW9uL2pzb26hDV8QJDhiNTdjZDk3LTg0Y2QtYjhhNy00ZmRhLTFmMWNkMjJhNDc4NaEPXxAkNEI2OTkzMkItODYzRS00MjlCLTg1NUQtMzRFNzIwMzFBOUU4oRFVZW4tdXOhE1M0NTahFV8QEWd6aXAsIGRlZmxhdGUsIGJyAAgAFwAeACsANgBBAFMAYgB0AHYAegB8AI8AkQC4ALoA4QDjAOkA6wDvAPEAAAAAAAACAQAAAAAAAAAWAAAAAAAAAAAAAAAAAAABBQ==_
+$8b57cd97-84cd-b8a7-4fda-1f1cd22a4785_
+$4B69932B-863E-429B-855D-34E72031A9E8Uen-usS456_
+gzip, deflate, br(O
+{"logs":[{"sid":"F4F67A19-4EDF-4A1F-A8A7-376A60F17507","timestamp":"2022-01-21T22:07:02.443Z","device":{"screenSize":"1334x750","appBuild":"4725","osName":"iOS","timeZoneOffset":-300,"carrierCountry":"us","osVersion":"15.0.2","carrierName":"TFW","locale":"en_US","appNamespace":"com.wearezeta.zclient.ios","osBuild":"19A404","sdkName":"appcenter.ios","oemName":"Apple","model":"iPhone10,1","sdkVersion":"4.3.0","appVersion":"3.94"},"type":"startSession"}]}
+https://in.appcenter.ms/logs?api-version=1.0.02022-01-21 22:07:050
+ {"status":"AllLogsThrottled","validDiagnosticsIds":[],"throttledDiagnosticsIds":[],"correlationId":"103885d9-86b2-40fc-b91a-281c48fd032d"}(
+u_T
+
+Fri, 21 Jan 2022 22:07:06 GMT_
+
+
+YnBsaXN0MDDVAQIDBAUGCAoMDlZTZXJ2ZXJcQ29udGVudC1UeXBlXkNvbnRlbnQtTGVuZ3RoWkNvbm5lY3Rpb25URGF0ZaEHV0tlc3RyZWyhCV8QEGFwcGxpY2F0aW9uL2pzb26hC1MxMzihDVprZWVwLWFsaXZloQ9fEB1GcmksIDIxIEphbiAyMDIyIDIyOjA3OjA2IEdNVAgTGic2QUZIUFJlZ2tteHoAAAAAAAABAQAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAmg==_
+application/jsonS138WKestrelZkeep-alive_
+
+
+YnBsaXN0MDDXAQIDBAUGBwgKDA4QEhRWQWNjZXB0XENvbnRlbnQtVHlwZVpBcHAtU2VjcmV0Wkluc3RhbGwtSURfEA9BY2NlcHQtTGFuZ3VhZ2VeQ29udGVudC1MZW5ndGhfEA9BY2NlcHQtRW5jb2RpbmehCVMqLyqhC18QEGFwcGxpY2F0aW9uL2pzb26hDV8QJDhiNTdjZDk3LTg0Y2QtYjhhNy00ZmRhLTFmMWNkMjJhNDc4NaEPXxAkNEI2OTkzMkItODYzRS00MjlCLTg1NUQtMzRFNzIwMzFBOUU4oRFVZW4tdXOhE1M0NTmhFV8QEWd6aXAsIGRlZmxhdGUsIGJyAAgAFwAeACsANgBBAFMAYgB0AHYAegB8AI8AkQC4ALoA4QDjAOkA6wDvAPEAAAAAAAACAQAAAAAAAAAWAAAAAAAAAAAAAAAAAAABBQ==_
+$4B69932B-863E-429B-855D-34E72031A9E8Uen-usS459_
+{"logs":[{"device":{"screenSize":"1334x750","appBuild":"4725","osName":"iOS","timeZoneOffset":-300,"carrierCountry":"us","osVersion":"15.0.2","carrierName":"TFW","locale":"en_US","appNamespace":"com.wearezeta.zclient.ios","osBuild":"19A404","sdkName":"appcenter.ios","oemName":"Apple","model":"iPhone10,1","sdkVersion":"4.3.0","appVersion":"3.94"},"timestamp":"2022-01-21T22:07:02.444Z","type":"startService","services":["Crashes","Distribute","Analytics"]}]}

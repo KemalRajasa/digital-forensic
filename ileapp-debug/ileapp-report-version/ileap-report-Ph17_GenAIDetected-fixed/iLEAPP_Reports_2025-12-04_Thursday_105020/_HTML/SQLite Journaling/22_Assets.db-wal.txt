@@ -1,0 +1,337 @@
+jI(Q
+jI(a0t
+SQLite format 3
+.S`
+
+
+
+7[s
+indexAssetVolumeVolumeUUIDIndexAssetVolumeCREATE INDEX AssetVolumeVolumeUUIDIndex on AssetVolume (volumeUUID)i	
+indexAssetHandleFileIDIndexAssetHandleCREATE INDEX AssetHandleFileIDIndex on AssetHandle (fileID)i
+indexAssetHandleStatusIndexAssetHandle
+CREATE INDEX AssetHandleStatusIndex on AssetHandle (status){
+indexAssetHandleLastUsedTimeIndexAssetHandle	CREATE INDEX AssetHandleLastUsedTimeIndex on AssetHandle (lastUsedTime)v
+indexAssetHandleSignatureIndexAssetHandle
+CREATE INDEX AssetHandleSignatureIndex on AssetHandle (fileSignature)b
+{indexAssetHandleUUIDIndexAssetHandle
+CREATE INDEX AssetHandleUUIDIndex on AssetHandle (UUID)
+ItableAssetVolumeAssetVolume
+CREATE TABLE AssetVolume (
+    volumeIndex     integer primary key,
+    volumeUUID      blob
+)
+{tableAssetHandleAssetHandle
+CREATE TABLE AssetHandle (
+    itemID        integer primary key,
+    UUID          blob not null,
+    lastUsedTime  integer not null,
+    volumeIndex      integer,
+    fileID        integer,
+    generationID  integer,
+    path          text,
+    fileSignature blob,
+    status        integer,
+    modTime       integer,
+    fileSize      integer,
+    chunkCount    integer
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+jI(nT
+
+vga2W
+	[59
+8,[px)#
+v^
+	LAwh
+nZaTB7
+/P
+jI(Z
+,	LAwh
+jI(RF,y
+jI(cT?
+
+jI(]3N
+
+jI(+
+jI(5wbd
+
+	
+aRL
+Ua2W
+-ozj
+jI(aFd$
+
+aRL
+jI(;
+jI(K[[
+
+jI(vD2
+jI(
+)I}9
+
+jI(A:ybpH
+
+jI(+B<
+jI(
+jI(6AEX
+
+jI(D~k
+
+jI(iSQLite format 3
+jI(^3nLbhSQLite format 3
+jI(Q'\
+jI($I'	
+!-LastVacuum664495485.541800Q
+'
+SchemaVersionAACF7DCBCFA6FAFB5A6223DBCD228F519DB805083706B27B8EB0A8ACFC81A749
+-Created664495485.534815
+SchemaVersion
+LastVacuum
+	Created
+jI(}I
+,apfsuuid
+@volum
+jI(@\Vf~
+
+jI(|hn8
+
+jI(6M
+
+jI(0
+jI(Y1$
+,	apfsuuid
+dcD<
+
+!-LastVacuum665200679.880842Q
+jI(RXeQr
+jI(e
+C\@tq*a
+jI(S
+C\@tq*
+jI([S
+jI(p,\
+
+jI(@(cV!
+
+jI(Nxt
+
+jI(-a
+
+BKKz?
+jI(pn>^
+
+jI(eOZ-W-
+
+@&$
+
+jI(l]
+jI(c+d
+J;a:
+
+uqI
+
+jI(MS
+jI('
+4?}d%^SQLite format 3
+jI(>k*
+
+NP6rar
+ar	A
+jI(|9Cz&
+
+NP6r
+jI(?9
+xn_a
+
+jI(J
+;._
+
+jI(wt
+jI(BS
+	p!Euu	nl)ar
+bhsGc@bZ
+jI(bb
+p!Euu	nl)
+
+Hw@?
+
+jI(*=^Pe
+
+jI(<
+jI(gPK
+jI(/.7
+jI(j_
+
+Q^H:
+.`aSu
+jI()~Q]1
+
+jI(@>1\F
+
+jI(G
+jI(dz
+jI(?I
+	hfYL
+&aSu
+Y -'*W0^
+jI([[b"
+
+hfYL
+jI(v
+jI({
+jI(a
+jI(~K!Db)
+
+jI(8
+jI(.f
+jI(Wx
+
+jI(}
+jI(m{
+@tq
+
+UjH
+
+jI(),q^m
+
+jI(2
+50z
+
+jI(uR'dy
+
+jI(h}Rto<W7
+
+yq(c|3H?
+A|>b
+jI(H
+,	yq(c|3H?
+.dB*.
+
+jI(_qS%
+
+jI(26X
+
+{nFN
+^YaJh
+jI(maX
+
+jI(DC"+
+
+jI(%
+jI(X%6
+
+jI(w
+jI(d
+jI([T
+jI(:R6
+
+jI(W/
+
+jI(6ih@
+
+jI(dF
+JSQLite format 3
+,0jJ*SQLite format 3
+jI(&"J=
+jI(!
+jI(SYWw
+
+jI(
+jI(1
+jI(c~
+jI(]
+QHJo
+jI(]U}
+JzH
+
+jI(gBP
+jI(Y:vz
+
+!-LastVacuum666549392.957964Q
+jI(b
+>:gJ}PUCb
+
+>:gJ}PUC
+jI(%R
+jI("{h
+
+jI(ok2
+
+jI(L_
+
+
+	 %E!zs
+
+Xb
+
+ %E!zs
+jI(%&
+bK
+
+jI(
+Npb5$
+
+jI(z
+jI(iJ(
+jI(z[Q
+
+m_L
+
+jI([R
+jI(qO,
+jI(~mv
+jI(<>8!|
+
+jI(SA
+jI(t+B
+jI(!NrKlh
+
+7
+LQ
+
+jI(:`F`
+
+jI(k~$N
+
+jI(}H
+
+jI(:"m+
+jI($
+
+jI(y;qWSQLite format 3
+jI(NeZ>
+
+G|xbC6P#
+jI()
+jI(oX
+i
+
+jI(=
+jI(
+.L
+
+jI(|
+*&*
+
+	#xMn*j@b
+
+#/bL[Ka0_kf
+1p
+
+#xMn*j@
+'hcp
+jI($<	
+
+jI(.|
+jI(M
+jI(U2
+jI([,>klC
+
+jI(;LO
+jI("
+

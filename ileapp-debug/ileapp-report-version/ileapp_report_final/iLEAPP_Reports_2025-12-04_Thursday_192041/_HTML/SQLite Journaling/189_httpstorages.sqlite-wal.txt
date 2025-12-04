@@ -1,0 +1,336 @@
+^SQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+rL}w
+"SQLite format 3
+"*SQLite format 3
+SQLite format 3
+a#SQLite format 3
+	)??
+bird.apple.comcom.icloud-content.uschi7uschi7.icloud-content.com
+XhII
+
+		bird.apple.comcom.icloud-content.uschi7
+mvtv
+aQRU
+bird.apple.comcom.icloud-content.uschi7
+OcG
+
+	?qq
+mobileslideshow.apple.comcom.googleapis.content-storage-upload.gcs-us-00003gcs-us-00003.content-storage-upload.googleapis.com
+/aVW
+mobileslideshow.apple.comcom.googleapis.content-storage-upload.gcs-us-00003
+]_j
+
+	'qq
+kbd.apple.comcom.googleapis.content-storage-upload.gcs-us-00003gcs-us-00003.content-storage-upload.googleapis.com
+a$a_N
+kbd.apple.comcom.googleapis.content-storage-upload.gcs-us-00003
+4:G<Y"
+
+ea$a_N
+	-qq
+Health.apple.comcom.googleapis.content-storage-upload.gcs-us-00003gcs-us-00003.content-storage-upload.googleapis.com
+Health.apple.comcom.googleapis.content-storage-upload.gcs-us-00003
+:da+
+
+`		???
+mobileslideshow.apple.comcom.icloud-content.usqas5usqas5.icloud-content.com
+mobileslideshow.apple.comcom.icloud-content.usqas5
+0
+b
+	???
+al`		???
+H
+I
+
+,u4
+
+0
+ah		-qq
+a2Wal
+0
+al	-qq
+ea2Wal
+		-qq
+/1f
+
+0
+
+d
+	CAA
+businessservicesd.apple.comcom.cdn-apple.publicassetspublicassets.cdn-apple.com
+a3famb
+	???
+b|p
+
+businessservicesd.apple.comcom.cdn-apple.publicassets
+0
+
+b
+	CAA
+ea3famd
+	CAA
+*X]
+$?\FSQLite format 3
+UM*
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+PP
+
+
+
+
+
+I
+
+
+
+
+
+
+
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+	-??
+Health.apple.comcom.icloud-content.uschi7uschi7.icloud-content.com
+aa+(
+
+
+
+
+I
+
+
+
+
+
+
+
+		Health.apple.comcom.icloud-content.uschi7
+L
+b
+b
+b
+b
+b
+b
+b
+b
+b
+b
+eaa+(W
+|ryBe
+
+
+
+
+I
+
+
+
+
+
+
+
+Health.apple.comcom.icloud-content.uschi7
+
+b
+b
+b
+b
+b
+b
+b
+b
+b
+aa1jY
+Z
+
+I
+
+
+
+
+
+
+
++)D%9
+
+~
+b
+b
+b
+b
+b
+b
+b
+b
+eaa1jd
+Z
+I
+
+
+
+
+
+
+
+2"iFSQLite format 3
+%
+b
+b
+b
+b
+b
+b
+b
+Health.apple.comcom.icloud-content.usbos2usbos2.icloud-content.com
+aSvb
+Z
+
+
+
+
+
+
+
+Health.apple.comcom.icloud-content.usbos2
+}3
+
+%
+b
+b
+b
+b
+b
+b
+eaSvb
+Z
+
+
+
+
+
+
+<t<^f$
+
+%
+
+b
+b
+b
+b
+b
+	---
+triald.apple.comcom.cdn-apple.mlml.cdn-apple.com
+:~b	tY
+
+
+
+
+
+
+triald.apple.comcom.cdn-apple.ml
+%
+
+
+:
+b
+b
+b
+b
+:~b	tE
+
+
+
+
+
+%
+
+
+:
+b
+b
+b
+			-qq
+!P/F
+y7
+0
+%
+
+
+: 
+b
+b
+
+	-qq
+%			-qq
+
+[Z,
+
+,SQLite format 3
+H)
+
+:
+         
+b
+b
+H6UK
+
+|D
+
+:
+       
+b
+b
+W	-??
+YsMX
+
+:
+L      
+b
+b
+Y	-??
+ <g
+
+wSQLite format 3
+D
+
+:
+      
+b
+b
+W
+	-??
+gJZ
+
+:
+PBPSQLite format 3
+<6nQ.
+M
+SQLite format 3

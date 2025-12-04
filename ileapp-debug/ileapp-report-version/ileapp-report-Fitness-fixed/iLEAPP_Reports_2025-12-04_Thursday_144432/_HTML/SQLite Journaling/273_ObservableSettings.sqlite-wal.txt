@@ -1,0 +1,25 @@
+@LEFx
+snapshot
+qBsz
+e|J]A
+
+ObservableSettingsServerHostsSettingbplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$nullO
+w[[{"host":"bmaus.bumble.com","port":443},{"host":"bmaus.bumble.com","port":443},{"host":"bmaus.bumble.com","port":80}]]
+$)27ILQSV\
+i7|
+
+11	ObservableSettingsServerHostsSetting
+B oSQLite format 3
+.S`
+
+!tabledatabase2database2
+CREATE TABLE "database2" ("rowid" INTEGER PRIMARY KEY,  "collection" CHAR NOT NULL,  "key" CHAR NOT NULL,  "data" BLOB,  "metadata" BLOB )
+tableyap2yap2
+CREATE TABLE "yap2" ("extension" CHAR NOT NULL,   "key" CHAR NOT NULL,   "data" BLOB,   PRIMARY KEY ("extension", "key") )'
+indexsqlite_autoindex_yap2_1yap2
+5/DF

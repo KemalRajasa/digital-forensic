@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>iLEAPP - Network Usage (netusage) - App Data report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="_elements/all.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="_elements/Roboto.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chats.css">
+        
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+
+        <!-- Icons -->
+        <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
+        <script src="_elements/feather.min.js"></script>
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">iLEAPP 2.3.0</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Saved Reports
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">
+                <span data-feather="home"></span> Report Home
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Accounts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Account_Configuration.html">
+                <span data-feather="user"></span> Account Configuration
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Account_Data.html">
+                <span data-feather="user"></span> Account Data
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            App Permissions
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Permissions.html">
+                <span data-feather="key"></span> Application Permissions
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            App Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_App_Usage.html">
+                <span data-feather="activity"></span> knowledgeC - App Usage
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Apple Wallet
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="PK_Pass_-_Apple Cash.html">
+                <span data-feather="credit-card"></span> PK Pass - Apple Cash
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Biome
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Backlight.html">
+                <span data-feather="eye"></span> Biome - Backlight
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Device_Syncs.html">
+                <span data-feather="eye"></span> Biome - Device Syncs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Notifications.html">
+                <span data-feather="eye"></span> Biome - Notifications
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Now_Playing.html">
+                <span data-feather="eye"></span> Biome - Now Playing
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Text_Input_Session.html">
+                <span data-feather="eye"></span> Biome - Text Input Session
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_User_Activity_Metadata.html">
+                <span data-feather="eye"></span> Biome - User Activity Metadata
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_Intents_-_663528486816806.html">
+                <span data-feather="eye"></span> Biome Intents - 663528486816806
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Bluetooth
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bluetooth_Other_LE.html">
+                <span data-feather="bluetooth"></span> Bluetooth Other LE
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Browser
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WebKit_Cache_Records.html">
+                <span data-feather="alert-triangle"></span> WebKit Cache Records
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Bumble
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bumble_-_Account_Details.html">
+                <span data-feather="user"></span> Bumble - Account Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bumble_-_Messages.html">
+                <span data-feather="message-circle"></span> Bumble - Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Business
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Wire_Secure_Messenger_Account.html">
+                <span data-feather="user"></span> Wire Secure Messenger Account
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cache Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="fsCachedData.html">
+                <span data-feather="box"></span> fsCachedData
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Calendar
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_Birthdays.html">
+                <span data-feather="gift"></span> Calendar Birthdays
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_Events.html">
+                <span data-feather="calendar"></span> Calendar Events
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_List.html">
+                <span data-feather="calendar"></span> Calendar List
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Call History
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_History_-_Group_Call.html">
+                <span data-feather="phone-call"></span> Call History - Group Call
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_History.html">
+                <span data-feather="phone-call"></span> Call History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="interactionC_Call_History_-_Group_Call.html">
+                <span data-feather="phone-call"></span> interactionC Call History - Group Call
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cellular
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Cellular_Wireless.html">
+                <span data-feather="alert-triangle"></span> Cellular Wireless
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Clock
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Alarms.html">
+                <span data-feather="clock"></span> Alarms
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Timers.html">
+                <span data-feather="clock"></span> Timers
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WorldClock.html">
+                <span data-feather="clock"></span> WorldClock
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cloudkit
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Note_Sharing.html">
+                <span data-feather="share-2"></span> Note Sharing
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Connected Devices
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Devices.html">
+                <span data-feather="smartphone"></span> Connected Devices
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Control Center
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Control_Center_Configuration.html">
+                <span data-feather="alert-triangle"></span> Control Center Configuration
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Core Accessories
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AccessoryD.html">
+                <span data-feather="zap"></span> AccessoryD
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="User_Event_Agent.html">
+                <span data-feather="activity"></span> User Event Agent
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Device Information
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Device_Information_-_Connected_Device_and_OS_History.html">
+                <span data-feather="smartphone"></span> Connected Device Information - Connected Device and OS History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Device_Information_-_Consolidated_Connected_Device_History.html">
+                <span data-feather="smartphone"></span> Connected Device Information - Consolidated Connected Device History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Device_Data.html">
+                <span data-feather="info"></span> Device Data
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Device Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Snapshot_lastUsedDate.html">
+                <span data-feather="smartphone"></span> Application Snapshot lastUsedDate
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Snapshot.html">
+                <span data-feather="smartphone"></span> Application Snapshot
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Lock_Status.html">
+                <span data-feather="smartphone"></span> knowledgeC - Device Lock Status
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Screen_Status.html">
+                <span data-feather="smartphone"></span> knowledgeC - Device Screen Status
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Discord
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Discord_-_Chats.html">
+                <span data-feather="message-circle"></span> Discord - Chats
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Discord_Account.html">
+                <span data-feather="user"></span> Discord Account
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Files App
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_Files_stored_in_iCloud_Drive.html">
+                <span data-feather="cloud"></span> Files App - Files stored in iCloud Drive
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_Operating_System_Updates.html">
+                <span data-feather="refresh-cw"></span> Files App - Operating System Updates
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_iCloud_Application_List.html">
+                <span data-feather="package"></span> Files App - iCloud Application List
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Gmail
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Gmail_-_Label_Details.html">
+                <span data-feather="mail"></span> Gmail - Label Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Gmail_-_Offline_Search.html">
+                <span data-feather="search"></span> Gmail - Offline Search
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Health
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Health_-_Provenances.html">
+                <span data-feather="smartphone"></span> Health - Provenances
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Health_-_Steps.html">
+                <span data-feather="activity"></span> Health - Steps
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Health & Fitness
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AllTrails_-_Trail_Details.html">
+                <span data-feather="map"></span> AllTrails - Trail Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AllTrails_-_User_Info.html">
+                <span data-feather="user"></span> AllTrails - User Info
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            IOS Build
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Information.html">
+                <span data-feather="git-commit"></span> iOS Information
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Identifiers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Backup_Settings.html">
+                <span data-feather="save"></span> Backup Settings
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Find_My_iPhone_Settings.html">
+                <span data-feather="settings"></span> Find My iPhone Settings
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="IMEI_-_IMSI.html">
+                <span data-feather="settings"></span> IMEI - IMSI
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Location_Services.html">
+                <span data-feather="navigation"></span> Location Services
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Obliterated_Time.html">
+                <span data-feather="settings"></span> Obliterated Time
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Preferences_PList.html">
+                <span data-feather="settings"></span> Preferences PList
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Subscriber_Info.html">
+                <span data-feather="settings"></span> Subscriber Info
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Timezone_Information.html">
+                <span data-feather="settings"></span> Timezone Information
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WIFI_Identifiers.html">
+                <span data-feather="settings"></span> WIFI Identifiers
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Message_Retention.html">
+                <span data-feather="message-circle"></span> iOS Message Retention
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Identity Lookup Service
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Identity_Lookup_Service.html">
+                <span data-feather="user-check"></span> Identity Lookup Service
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Installed Apps
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="App_Snapshots.html">
+                <span data-feather="package"></span> App Snapshots
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_State.html">
+                <span data-feather="package"></span> Application State
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_User_Defaults.html">
+                <span data-feather="package"></span> Application User Defaults
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Itunes_Metadata.html">
+                <span data-feather="package"></span> Apps - Itunes Metadata
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bundle_ID_by_AppGroup_&_PluginKit_IDs.html">
+                <span data-feather="package"></span> Bundle ID by AppGroup & PluginKit IDs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Installed_Apps_(storeUser).html">
+                <span data-feather="package"></span> Installed Apps (storeUser)
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Purchased_Apps_History_(storeUser).html">
+                <span data-feather="shopping-cart"></span> Purchased Apps History (storeUser)
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            InteractionC
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Contacts.html">
+                <span data-feather="user"></span> Contacts
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            KnowledgeC
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Battery_Percentage.html">
+                <span data-feather="battery"></span> knowledgeC - Battery Percentage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Plugin_Status.html">
+                <span data-feather="battery-charging"></span> knowledgeC - Device Plugin Status
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Media_Playing.html">
+                <span data-feather="play-circle"></span> knowledgeC - Media Playing
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Location
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Applications.html">
+                <span data-feather="alert-triangle"></span> Applications
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Map_Tile_Cache.html">
+                <span data-feather="alert-triangle"></span> Map Tile Cache
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="PD_Place_Cache.html">
+                <span data-feather="alert-triangle"></span> PD Place Cache
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Location Services Configurations
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_clients.plist.html">
+                <span data-feather="settings"></span> LSC - clients.plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_com.apple.locationd.plist.html">
+                <span data-feather="settings"></span> LSC - com.apple.locationd.plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_com.apple.routined.plist.html">
+                <span data-feather="settings"></span> LSC - com.apple.routined.plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Locations
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_ATXDatastore.html">
+                <span data-feather="map-pin"></span> iOS ATXDatastore
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Activation Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Activation_Logs.html">
+                <span data-feather="clipboard"></span> Mobile Activation Logs
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Backup
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Backup.html">
+                <span data-feather="alert-triangle"></span> Mobile Backup
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Backup Plist
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Backup_plist.html">
+                <span data-feather="settings"></span> Mobile Backup plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Container Manager
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Container_Manager.html">
+                <span data-feather="save"></span> Mobile Container Manager
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Installation Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Historical_Combined.html">
+                <span data-feather="clipboard"></span> Apps - Historical Combined
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Historical.html">
+                <span data-feather="clipboard"></span> Apps - Historical
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Installed.html">
+                <span data-feather="clipboard"></span> Apps - Installed
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Uninstalled.html">
+                <span data-feather="clipboard"></span> Apps - Uninstalled
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="State_-_Reboots.html">
+                <span data-feather="clipboard"></span> State - Reboots
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Network Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Data_Usage.html">
+                <span data-feather="send"></span> Data Usage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link  active" href="Network_Usage_(netusage)_-_App_Data.html">
+                <span data-feather="send"></span> Network Usage (netusage) - App Data
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Network_Usage_(netusage)_-_Connections.html">
+                <span data-feather="bar-chart"></span> Network Usage (netusage) - Connections
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Notes
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Notes.html">
+                <span data-feather="file-text"></span> Notes
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Notifications
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Notifications_Duet_-_663528487136197.html">
+                <span data-feather="bell"></span> Notifications Duet - 663528487136197
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Notifications.html">
+                <span data-feather="bell"></span> iOS Notifications
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            OS Updates
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Migrations.html">
+                <span data-feather="chevrons-up"></span> Migrations
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos-Z-Settings
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph80-Com-Apple-MobileSlideshow-Plist.html">
+                <span data-feather="settings"></span> Ph80-Com-Apple-MobileSlideshow-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph81-Com-Apple-Camera-Plist.html">
+                <span data-feather="settings"></span> Ph81-Com-Apple-Camera-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph82-Com-Apple-MediaAnalysisD-Plist.html">
+                <span data-feather="book"></span> Ph82-Com-Apple-MediaAnalysisD-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph83-Com-Apple-PurpleBuddy-Plist.html">
+                <span data-feather="settings"></span> Ph83-Com-Apple-PurpleBuddy-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph85-accountsd-cloud-Service-Enable-Log-Plist.html">
+                <span data-feather="settings"></span> Ph85-accountsd-cloud-Service-Enable-Log-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph86-assetsd-cloud-Service-Enable-Log-Plist.html">
+                <span data-feather="settings"></span> Ph86-assetsd-cloud-Service-Enable-Log-Plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-A-Asset_Basic_Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph1.1-Asset_Basic_Data-PhDaPsql.html">
+                <span data-feather="image"></span> Ph1.1-Asset Basic Data-PhDaPsql
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph2.1-Asset_Basic_Data_&_GenAlbum_Data-PhDaPsql.html">
+                <span data-feather="image"></span> Ph2.1-Asset Basic Data & GenAlbum Data-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-C-Other_Artifacts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph10.1-Assets_have_embedded_files-PhDaPsql.html">
+                <span data-feather="file-plus"></span> Ph10.1-Assets have embedded files-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-D-Generic_Album_Records-NAD
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph20.1-Album_Records_NAD-PhDaPsql.html">
+                <span data-feather="book"></span> Ph20.1-Album Records NAD-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-H-Possible_User_Adjusted_Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph73.1-Possible_Adjust_Date-PhDaPsql.html">
+                <span data-feather="edit"></span> Ph73.1-Possible Adjust Date-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-I-Asset_IntResou-Optimization
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph50.1-Asset_IntResou-PhDaPsql.html">
+                <span data-feather="database"></span> Ph50.1-Asset IntResou-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-R-Reference_for_Asset_Analysis
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph95.1-iOS15_Ref_for_Asset_Analysis-PhDaPsql.html">
+                <span data-feather="database"></span> Ph95.1-iOS15 Ref for Asset Analysis-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-S-Syndication_PL_Artifacts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph20.2-Album_Records_NAD-SyndPL.html">
+                <span data-feather="book"></span> Ph20.2-Album Records NAD-SyndPL
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph25.2-SWY_Conversation_Records_NAD-SyndPL.html">
+                <span data-feather="message-square"></span> Ph25.2-SWY Conversation Records NAD-SyndPL
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph50.2-Asset_IntResou-SyndPL.html">
+                <span data-feather="database"></span> Ph50.2-Asset IntResou-SyndPL
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SIM Info
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SIM_-_UUID.html">
+                <span data-feather="info"></span> SIM - UUID
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SIM_-_Unique_Label_Store.html">
+                <span data-feather="info"></span> SIM - Unique Label Store
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SMS & iMessage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS_&_iMessage_-_Messages_(Threaded).html">
+                <span data-feather="message-square"></span> SMS & iMessage - Messages (Threaded)
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS.html">
+                <span data-feather="message-square"></span> SMS
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SQLite Journaling
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Strings_-_SQLite_Journal_&_WAL.html">
+                <span data-feather="book-open"></span> Strings - SQLite Journal & WAL
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Safari Browser
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bookmarks.html">
+                <span data-feather="compass"></span> Bookmarks
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Favicons.html">
+                <span data-feather="compass"></span> Favicons
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Recent_WebSearches.html">
+                <span data-feather="compass"></span> Recent WebSearches
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Safari_Browser_-_History.html">
+                <span data-feather="compass"></span> Safari Browser - History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Safari_Browser_-_iCloud_Tabs.html">
+                <span data-feather="compass"></span> Safari Browser - iCloud Tabs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Search_Terms.html">
+                <span data-feather="compass"></span> Search Terms
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Siri Remembers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Siri_Remembers_-_Calls.html">
+                <span data-feather="alert-triangle"></span> Siri Remembers - Calls
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Siri_Remembers_-_Messages.html">
+                <span data-feather="alert-triangle"></span> Siri Remembers - Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Spotlight Searches
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="ParseCD_Cache.html">
+                <span data-feather="alert-triangle"></span> ParseCD Cache
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Sysdiagnose
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Sysdiagnose_-_Shutdown_Log_Processes.html">
+                <span data-feather="loader"></span> Sysdiagnose - Shutdown Log Processes
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Sysdiagnose_-_Shutdown_Log_Reboots.html">
+                <span data-feather="refresh-cw"></span> Sysdiagnose - Shutdown Log Reboots
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Trusted Peers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Trusted_Peers.html">
+                <span data-feather="alert-triangle"></span> Trusted Peers
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            User Activity
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Application_Usage.html">
+                <span data-feather="alert-triangle"></span> Keyboard Application Usage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Dynamic_Lexicon.html">
+                <span data-feather="alert-triangle"></span> Keyboard Dynamic Lexicon
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Usage_Stats.html">
+                <span data-feather="alert-triangle"></span> Keyboard Usage Stats
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            WiFi Connections
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_BSS_List.html">
+                <span data-feather="wifi"></span> WiFi BSS List
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_Known_Networks_Info.html">
+                <span data-feather="wifi"></span> WiFi Known Networks Info
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_Known_Networks_Times.html">
+                <span data-feather="wifi"></span> WiFi Known Networks Times
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            iOS Screens
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_per_screen.html">
+                <span data-feather="maximize"></span> Apps per screen
+            </a>
+        </li>
+        
+    <script>
+        feather.replace();
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <img src="_elements/iLEAPP_banner.png" alt="iLEAPP banner">
+                    <h3 class="display-5">Network Usage (netusage) - App Data report</h1>
+                    <h6 class="animated fadeIn mb-3"></h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 169</h6><p class="lead">Network Usage (netusage) - App Data located at: /home/rjskali/forensic/ileapp_report4/iLEAPP_Reports_2025-12-04_Thursday_105020/data/private/var/networkd/db/netusage.sqlite</p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">Last Connect Timestamp</th><th class="th-sm">First Usage Timestamp</th><th class="th-sm">Last Usage Timestamp</th><th class="th-sm">Bundle Name</th><th class="th-sm">Process Name</th><th class="th-sm">Type</th><th class="th-sm">Wifi In (Bytes)</th><th class="th-sm">Wifi Out (Bytes)</th><th class="th-sm">Mobile/WWAN In (Bytes)</th><th class="th-sm">Mobile/WWAN Out (Bytes)</th><th class="th-sm">Wired In (Bytes)</th><th class="th-sm">Wired Out (Bytes)</th></tr></thead><tbody><tr><td>2022-01-10 17:27:07+00:00</td><td>2022-01-10 17:27:07+00:00</td><td>2022-02-14 17:45:51+00:00</td><td>com.apple.purplebuddy</td><td>com.apple.purplebuddy</td><td>App</td><td>0.0</td><td>0.0</td><td>85381.0</td><td>133532.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:07+00:00</td><td>2022-01-10 17:27:07+00:00</td><td>2022-02-11 14:06:55+00:00</td><td></td><td>configd</td><td>Process</td><td>96280.0</td><td>28864.0</td><td>2576.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>mDNSResponder</td><td>Process</td><td>5795831.0</td><td>1677351.0</td><td>1645669.0</td><td>1509007.0</td><td>71845.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-14 16:44:27+00:00</td><td></td><td>com.apple.mobileassetd</td><td>Process</td><td>302178221.0</td><td>1852486.0</td><td>2991136.0</td><td>173824.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>akd</td><td>Process</td><td>521418.0</td><td>242989.0</td><td>1141795.0</td><td>292096.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>locationd</td><td>Process</td><td>14024688.0</td><td>3619612.0</td><td>13566394.0</td><td>1264236.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-14 16:36:16+00:00</td><td></td><td>identityservicesd</td><td>Process</td><td>269593.0</td><td>198332.0</td><td>964245.0</td><td>610260.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-14 18:09:17+00:00</td><td></td><td>apsd</td><td>Process</td><td>1320881.0</td><td>5185226.0</td><td>1563726.0</td><td>1633775.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>networkserviceproxy</td><td>Process</td><td>313917.0</td><td>3323939.0</td><td>1569073.0</td><td>1113809.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-12 04:45:09+00:00</td><td></td><td>timed</td><td>Process</td><td>139631.0</td><td>171628.0</td><td>232477.0</td><td>176456.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:18+00:00</td><td>2022-01-10 17:27:18+00:00</td><td>2022-02-11 03:59:22+00:00</td><td></td><td>swcd</td><td>Process</td><td>1022336.0</td><td>150579.0</td><td>489599.0</td><td>141875.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:57+00:00</td><td>2022-01-10 17:27:57+00:00</td><td>2022-02-14 18:19:00+00:00</td><td></td><td>CommCenter</td><td>Process</td><td>1953.0</td><td>1650.0</td><td>805765.0</td><td>557417.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:27:57+00:00</td><td>2022-01-10 17:27:57+00:00</td><td>2022-02-14 16:36:02+00:00</td><td></td><td>bookassetd</td><td>Process</td><td>0.0</td><td>810.0</td><td>67850.0</td><td>14888.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:17+00:00</td><td>2022-01-10 17:28:17+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>nsurlsessiond</td><td>Process</td><td>441761.0</td><td>2223540.0</td><td>1484337.0</td><td>485090.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:17+00:00</td><td>2022-01-10 17:28:17+00:00</td><td>2022-01-10 17:30:17+00:00</td><td></td><td>com.apple.DiagnosticsSessionAvai</td><td>Process</td><td>0.0</td><td>0.0</td><td>16189.0</td><td>5623.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:17+00:00</td><td>2022-01-10 17:28:17+00:00</td><td>2022-02-14 16:44:10+00:00</td><td></td><td>mobileactivationd</td><td>Process</td><td>275184.0</td><td>302489.0</td><td>1214219.0</td><td>303166.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:18+00:00</td><td>2022-01-10 17:28:18+00:00</td><td>2022-02-02 18:36:19+00:00</td><td></td><td>com.apple.CommCenterMobileHelper</td><td>Process</td><td>0.0</td><td>630.0</td><td>545279.0</td><td>22250.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:20+00:00</td><td>2022-01-10 17:28:20+00:00</td><td>2022-02-14 16:38:57+00:00</td><td></td><td>itunesstored</td><td>Process</td><td>262070.0</td><td>36591.0</td><td>2295242.0</td><td>313948.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:20+00:00</td><td>2022-01-10 17:28:20+00:00</td><td>2022-02-14 16:36:34+00:00</td><td></td><td>atc</td><td>Process</td><td>426.0</td><td>3038.0</td><td>609817.0</td><td>52963.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:20+00:00</td><td>2022-01-10 17:28:20+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>appstored</td><td>Process</td><td>1208825.0</td><td>578837.0</td><td>3222860.0</td><td>896998.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:21+00:00</td><td>2022-01-10 17:28:21+00:00</td><td>2022-02-11 03:57:24+00:00</td><td></td><td>passd</td><td>Process</td><td>1487640.0</td><td>158755.0</td><td>2117709.0</td><td>161247.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:21+00:00</td><td>2022-01-10 17:28:21+00:00</td><td>2022-02-14 17:43:04+00:00</td><td></td><td>searchpartyd</td><td>Process</td><td>104063.0</td><td>119672.0</td><td>82990.0</td><td>45362.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:21+00:00</td><td>2022-01-10 17:28:21+00:00</td><td>2022-02-14 18:04:08+00:00</td><td></td><td>amsengagementd</td><td>Process</td><td>59056.0</td><td>22978.0</td><td>530827.0</td><td>146373.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:21+00:00</td><td>2022-01-10 17:28:21+00:00</td><td>2022-02-14 17:45:51+00:00</td><td></td><td>softwareupdateservicesd</td><td>Process</td><td>9586.0</td><td>2966.0</td><td>45927.0</td><td>17856.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:21+00:00</td><td>2022-01-10 17:28:21+00:00</td><td>2022-02-04 00:33:29+00:00</td><td></td><td>watchlistd</td><td>Process</td><td>792.0</td><td>1752.0</td><td>186647.0</td><td>44898.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:21+00:00</td><td>2022-01-10 17:28:21+00:00</td><td>2022-01-10 17:29:24+00:00</td><td></td><td>vmd</td><td>Process</td><td>0.0</td><td>0.0</td><td>5810.0</td><td>1736.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:23+00:00</td><td>2022-01-10 17:28:23+00:00</td><td>2022-02-14 18:19:01+00:00</td><td>com.apple.AppStore</td><td>com.apple.AppStore</td><td>App</td><td>824181479.0</td><td>4698743.0</td><td>448055092.0</td><td>5739078.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:25+00:00</td><td>2022-01-10 17:28:25+00:00</td><td>2022-02-14 17:43:55+00:00</td><td></td><td>coreidvd</td><td>Process</td><td>1022946.0</td><td>309120.0</td><td>4759285.0</td><td>295064.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:41+00:00</td><td>2022-01-10 17:28:41+00:00</td><td>2022-02-14 18:17:00+00:00</td><td>com.apple.news</td><td>com.apple.news</td><td>App</td><td>0.0</td><td>0.0</td><td>1285738.0</td><td>69959.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:41+00:00</td><td>2022-01-10 17:28:41+00:00</td><td>2022-02-14 18:04:07+00:00</td><td></td><td>geod</td><td>Process</td><td>17499405.0</td><td>852332.0</td><td>55030182.0</td><td>3801812.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:28:52+00:00</td><td>2022-01-10 17:28:52+00:00</td><td>2022-02-11 03:57:22+00:00</td><td></td><td>kbd</td><td>Process</td><td>85131.0</td><td>173233.0</td><td>311096.0</td><td>129000.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:11+00:00</td><td>2022-01-10 17:29:11+00:00</td><td>2022-02-14 17:44:44+00:00</td><td></td><td>mobileassetd</td><td>Process</td><td>224023.0</td><td>388176.0</td><td>5164658.0</td><td>156852.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:21+00:00</td><td>2022-01-10 17:29:21+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>bluetoothd</td><td>Process</td><td>636500.0</td><td>32754.0</td><td>7271659.0</td><td>307866.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:24+00:00</td><td>2022-01-10 17:29:24+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>assistantd</td><td>Process</td><td>848599.0</td><td>6774503.0</td><td>3370726.0</td><td>2765112.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:35+00:00</td><td>2022-01-10 17:29:35+00:00</td><td>2022-02-14 16:48:21+00:00</td><td></td><td>CategoriesService</td><td>Process</td><td>119273.0</td><td>21245.0</td><td>390852.0</td><td>78840.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:43+00:00</td><td>2022-01-10 17:29:43+00:00</td><td>2022-02-14 16:48:40+00:00</td><td></td><td>assistant_service</td><td>Process</td><td>308036.0</td><td>226172.0</td><td>1927842.0</td><td>297758.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:43+00:00</td><td>2022-01-10 17:29:43+00:00</td><td>2022-02-14 18:04:08+00:00</td><td></td><td>itunescloudd</td><td>Process</td><td>359515.0</td><td>446064.0</td><td>5182605.0</td><td>565082.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:43+00:00</td><td>2022-01-10 17:29:43+00:00</td><td>2022-02-14 16:37:19+00:00</td><td></td><td>CommCenterMobileHelper</td><td>Process</td><td>17877100.0</td><td>246522.0</td><td>13800498.0</td><td>444164.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:43+00:00</td><td>2022-01-10 17:29:43+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>cloudd</td><td>Process</td><td>1375684.0</td><td>8930987.0</td><td>4922172.0</td><td>2759976.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:44+00:00</td><td>2022-01-10 17:29:44+00:00</td><td>2022-02-14 18:19:01+00:00</td><td>com.apple.mobilesafari</td><td>com.apple.mobilesafari</td><td>App</td><td>4056801.0</td><td>611183.0</td><td>24223420.0</td><td>2290322.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:45+00:00</td><td>2022-01-10 17:29:45+00:00</td><td>2022-02-14 16:36:11+00:00</td><td></td><td>com.apple.Safari.SafeBrowsing.Se</td><td>Process</td><td>4163094.0</td><td>154959.0</td><td>122971.0</td><td>41724.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:45+00:00</td><td>2022-01-10 17:29:45+00:00</td><td>2022-02-14 16:48:00+00:00</td><td>com.apple.Preferences</td><td>com.apple.Preferences</td><td>App</td><td>20024.0</td><td>5537.0</td><td>401741.0</td><td>193269.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:46+00:00</td><td>2022-01-10 17:29:46+00:00</td><td>2022-02-14 16:37:48+00:00</td><td></td><td>parsecd</td><td>Process</td><td>9782927.0</td><td>356043.0</td><td>679068.0</td><td>182120.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:47+00:00</td><td>2022-01-10 17:29:47+00:00</td><td>2022-01-21 20:25:48+00:00</td><td></td><td>dataaccessd</td><td>Process</td><td>0.0</td><td>0.0</td><td>99242.0</td><td>31232.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:49+00:00</td><td>2022-01-10 17:29:49+00:00</td><td>2022-01-10 17:29:49+00:00</td><td></td><td>passwordbreachd</td><td>Process</td><td>0.0</td><td>0.0</td><td>11431.0</td><td>2093.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:54+00:00</td><td>2022-01-10 17:29:54+00:00</td><td>2022-01-10 17:29:59+00:00</td><td></td><td>weatherd</td><td>Process</td><td>0.0</td><td>0.0</td><td>11289.0</td><td>2828.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:54+00:00</td><td>2022-01-10 17:29:54+00:00</td><td>2022-02-11 03:57:24+00:00</td><td>com.apple.mobilecal</td><td>com.apple.mobilecal</td><td>App</td><td>135693.0</td><td>40842.0</td><td>345330.0</td><td>114636.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:54+00:00</td><td>2022-01-10 17:29:54+00:00</td><td>2022-02-14 16:48:59+00:00</td><td></td><td>ndoagent</td><td>Process</td><td>834.0</td><td>2822.0</td><td>116443.0</td><td>38132.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:29:57+00:00</td><td>2022-01-10 17:29:57+00:00</td><td>2022-02-14 18:17:00+00:00</td><td></td><td>adprivacyd</td><td>Process</td><td>60883.0</td><td>76750.0</td><td>962213.0</td><td>303791.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:30:18+00:00</td><td>2022-01-10 17:30:18+00:00</td><td>2022-02-14 17:59:08+00:00</td><td>com.apple.weather</td><td>com.apple.weather</td><td>App</td><td>30310.0</td><td>6689.0</td><td>927946.0</td><td>226219.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-10 17:30:25+00:00</td><td>2022-01-10 17:30:25+00:00</td><td>2022-02-14 17:45:38+00:00</td><td>com.apple.tips</td><td>com.apple.tips</td><td>App</td><td>0.0</td><td>0.0</td><td>1052046.0</td><td>22529.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-12 22:18:40+00:00</td><td>2022-01-19 23:22:48+00:00</td><td>2022-02-14 17:45:36+00:00</td><td></td><td>tipsd</td><td>Process</td><td>0.0</td><td>0.0</td><td>13986.0</td><td>2586.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-12 22:18:40+00:00</td><td>2022-01-12 22:18:40+00:00</td><td>2022-01-15 00:09:23+00:00</td><td></td><td>callservicesd</td><td>App</td><td>8181.0</td><td>2453.0</td><td>13131505.0</td><td>2123788.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-12 22:18:40+00:00</td><td>2022-01-12 22:18:40+00:00</td><td>2022-02-14 18:17:00+00:00</td><td>com.apple.Maps</td><td>com.apple.Maps</td><td>App</td><td>0.0</td><td>0.0</td><td>70546.0</td><td>23030.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-12 22:18:41+00:00</td><td>2022-01-12 22:18:40+00:00</td><td>2022-02-14 18:19:01+00:00</td><td>com.apple.shortcuts</td><td>com.apple.shortcuts</td><td>Process</td><td>4177.0</td><td>7013.0</td><td>425339.0</td><td>100114.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-12 22:35:31+00:00</td><td>2022-01-12 22:18:41+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>amsaccountsd</td><td>Process</td><td>0.0</td><td>52470.0</td><td>128570.0</td><td>55369.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-12 22:35:34+00:00</td><td>2022-01-12 22:35:31+00:00</td><td>2022-02-14 16:44:04+00:00</td><td></td><td>com.apple.mediasetupd</td><td>Process</td><td>284411.0</td><td>616417.0</td><td>847635.0</td><td>171784.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-13 16:04:03+00:00</td><td>2022-01-12 22:35:34+00:00</td><td>2022-02-14 17:12:04+00:00</td><td></td><td>rtcreportingd</td><td>Process</td><td>493845.0</td><td>173691.0</td><td>504891.0</td><td>185378.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-13 16:04:04+00:00</td><td>2022-01-15 00:15:07+00:00</td><td>2022-02-14 16:37:50+00:00</td><td></td><td>OTACrashCopier</td><td>Process</td><td>2693276.0</td><td>34041.0</td><td>159359.0</td><td>45703.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 00:13:05+00:00</td><td>2022-01-13 16:04:04+00:00</td><td>2022-02-14 17:48:10+00:00</td><td></td><td>trustd</td><td>App</td><td>7246.0</td><td>2124.0</td><td>20140.0</td><td>4336.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 00:13:05+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>22870.0</td><td>5046.0</td><td>22860.0</td><td>2924.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 00:13:06+00:00</td><td>2022-01-15 00:13:05+00:00</td><td>2022-02-11 03:59:20+00:00</td><td>com.apple.Translate</td><td>com.apple.Translate</td><td>Process</td><td>70204.0</td><td>40405.0</td><td>52919.0</td><td>36867.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 00:13:07+00:00</td><td>2022-01-15 00:13:05+00:00</td><td>2022-01-21 22:19:06+00:00</td><td>com.apple.SafariViewService</td><td>com.apple.SafariViewService</td><td>Process</td><td>25485.0</td><td>9517.0</td><td>104752.0</td><td>33092.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 00:15:07+00:00</td><td>2022-01-15 00:13:06+00:00</td><td>2022-02-11 04:15:34+00:00</td><td></td><td>com.apple.WebKit.Networking</td><td>Process</td><td>3058.0</td><td>5478.0</td><td>735919.0</td><td>1555497.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 02:55:33+00:00</td><td>2022-01-15 00:13:07+00:00</td><td>2022-02-14 16:36:10+00:00</td><td></td><td>EnforcementService</td><td>Process</td><td>11464.0</td><td>1201571.0</td><td>165776.0</td><td>50949.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 02:57:35+00:00</td><td>2022-01-15 02:55:33+00:00</td><td>2022-02-14 18:09:17+00:00</td><td></td><td>com.apple.bird</td><td>Process</td><td>56481.0</td><td>29795.0</td><td>743778.0</td><td>312202.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 14:08:52+00:00</td><td>2022-01-15 02:57:35+00:00</td><td>2022-02-14 17:43:41+00:00</td><td></td><td>transparencyd</td><td>Process</td><td>11738.0</td><td>2945.0</td><td>23823.0</td><td>5752.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 14:11:33+00:00</td><td>2022-01-15 14:08:52+00:00</td><td>2022-02-06 04:51:50+00:00</td><td></td><td>searchd</td><td>Process</td><td>0.0</td><td>0.0</td><td>111918.0</td><td>29525.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 14:13:42+00:00</td><td>2022-01-15 14:11:33+00:00</td><td>2022-01-16 13:49:21+00:00</td><td></td><td>mapspushd</td><td>Process</td><td>61791.0</td><td>9236.0</td><td>107479.0</td><td>8405.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 14:42:13+00:00</td><td>2022-01-15 14:13:42+00:00</td><td>2022-01-21 22:28:19+00:00</td><td></td><td>voiced</td><td>Process</td><td>13406.0</td><td>32768.0</td><td>278069.0</td><td>350413.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 14:50:12+00:00</td><td>2022-01-15 14:42:13+00:00</td><td>2022-02-14 17:18:56+00:00</td><td></td><td>parsec-fbf</td><td>App</td><td>1659.0</td><td>565.0</td><td>5364.0</td><td>2347.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 17:23:11+00:00</td><td></td><td></td><td></td><td></td><td>Process</td><td>158444.0</td><td>35432.0</td><td>1076329.0</td><td>231690.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-16 00:25:41+00:00</td><td>2022-01-15 17:23:11+00:00</td><td>2022-02-11 05:23:06+00:00</td><td></td><td>clipserviced</td><td>Process</td><td>3706.0</td><td>6144.0</td><td>111267.0</td><td>42010.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-16 01:42:45+00:00</td><td>2022-01-16 00:25:41+00:00</td><td>2022-02-12 00:11:09+00:00</td><td></td><td>AppleCredentialManagerDaemon</td><td>Process</td><td>0.0</td><td>4050.0</td><td>142194.0</td><td>31626.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-16 14:03:53+00:00</td><td>2022-01-16 01:42:45+00:00</td><td>2022-02-14 16:45:06+00:00</td><td></td><td>com.apple.online-auth-agent</td><td>App</td><td>0.0</td><td>0.0</td><td>163271.0</td><td>62745.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 14:55:31+00:00</td><td>2022-01-16 14:03:53+00:00</td><td>2022-02-14 16:36:05+00:00</td><td>com.apple.mobilenotes</td><td>com.apple.mobilenotes</td><td>Process</td><td>28383.0</td><td>6896.0</td><td>94850.0</td><td>25496.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 15:04:52+00:00</td><td>2022-01-19 14:55:31+00:00</td><td>2022-02-14 16:56:19+00:00</td><td></td><td>healthappd</td><td>Process</td><td>246142684.0</td><td>2540684.0</td><td>841711.0</td><td>166028.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 15:10:48+00:00</td><td>2022-01-19 15:04:52+00:00</td><td>2022-02-14 17:46:25+00:00</td><td></td><td>com.apple.triald</td><td>App</td><td>0.0</td><td>0.0</td><td>218346.0</td><td>97618.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 23:22:48+00:00</td><td>2022-01-19 15:10:48+00:00</td><td>2022-02-14 16:36:25+00:00</td><td>com.apple.reminders</td><td>com.apple.reminders</td><td>Process</td><td>15899.0</td><td>5122.0</td><td>1968254.0</td><td>114265.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 23:22:49+00:00</td><td>2022-01-19 23:22:49+00:00</td><td>2022-02-14 17:45:34+00:00</td><td></td><td>com.apple.dprivacyd</td><td>Process</td><td>0.0</td><td>0.0</td><td>197381.0</td><td>116399.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:17+00:00</td><td>2022-01-21 20:21:17+00:00</td><td>2022-01-21 21:25:39+00:00</td><td></td><td>accountsd</td><td>Process</td><td>30125.0</td><td>12394.0</td><td>210177.0</td><td>88186.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:21+00:00</td><td>2022-01-21 20:21:21+00:00</td><td>2022-02-11 00:12:20+00:00</td><td></td><td>com.apple.syncdefaultsd</td><td>Process</td><td>54952.0</td><td>107545.0</td><td>54808.0</td><td>31676.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:21+00:00</td><td>2022-01-21 20:21:21+00:00</td><td>2022-02-14 16:36:49+00:00</td><td></td><td>familycircled</td><td>Process</td><td>18853.0</td><td>91104.0</td><td>191634.0</td><td>120503.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:30+00:00</td><td>2022-01-21 20:21:30+00:00</td><td>2022-02-14 16:37:36+00:00</td><td></td><td>com.apple.sbd</td><td>Process</td><td>247920.0</td><td>176828.0</td><td>579066.0</td><td>116309.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:32+00:00</td><td>2022-01-21 20:21:32+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>ind</td><td>Process</td><td>125579.0</td><td>226270.0</td><td>554531.0</td><td>304126.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:35+00:00</td><td>2022-01-21 20:21:35+00:00</td><td>2022-02-14 17:43:57+00:00</td><td>com.apple.Passbook</td><td>com.apple.Passbook</td><td>App</td><td>2610401.0</td><td>49220.0</td><td>2783903.0</td><td>67695.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:38+00:00</td><td>2022-01-21 20:21:38+00:00</td><td>2022-02-03 15:23:26+00:00</td><td></td><td>gamed</td><td>Process</td><td>752336.0</td><td>635443.0</td><td>75798.0</td><td>21110.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:38+00:00</td><td>2022-01-21 20:21:38+00:00</td><td>2022-02-14 18:17:00+00:00</td><td></td><td>fmflocatord</td><td>Process</td><td>141744.0</td><td>87734.0</td><td>173428.0</td><td>104184.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:45+00:00</td><td>2022-01-21 20:21:45+00:00</td><td>2022-02-11 04:13:09+00:00</td><td>com.apple.ScreenTimeWidgetApplication</td><td>com.apple.ScreenTimeWidgetApplication</td><td>App</td><td>0.0</td><td>0.0</td><td>12656.0</td><td>2640.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:50+00:00</td><td>2022-01-21 20:21:50+00:00</td><td>2022-02-12 04:10:46+00:00</td><td></td><td>sharingd</td><td>Process</td><td>99569.0</td><td>163434.0</td><td>238174.0</td><td>74916.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:21:56+00:00</td><td>2022-01-21 20:21:56+00:00</td><td>2022-02-14 16:36:06+00:00</td><td></td><td>cloudphotod</td><td>Process</td><td>0.0</td><td>0.0</td><td>59265.0</td><td>13098.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:25:42+00:00</td><td>2022-01-21 20:25:42+00:00</td><td>2022-02-14 16:57:33+00:00</td><td>com.apple.Health</td><td>com.apple.Health</td><td>App</td><td>219010.0</td><td>268417.0</td><td>191631.0</td><td>130864.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:25:42+00:00</td><td>2022-01-21 20:25:42+00:00</td><td>2022-01-21 20:26:10+00:00</td><td></td><td>remindd</td><td>Process</td><td>0.0</td><td>0.0</td><td>33997.0</td><td>14327.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:25:42+00:00</td><td>2022-01-21 20:25:42+00:00</td><td>2022-01-24 00:28:21+00:00</td><td></td><td>bird</td><td>Process</td><td>83466.0</td><td>39515.0</td><td>330998.0</td><td>214036.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:25:42+00:00</td><td>2022-01-21 20:25:42+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>fmfd</td><td>Process</td><td>41481.0</td><td>37965.0</td><td>183873.0</td><td>82182.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:25:44+00:00</td><td>2022-01-21 20:25:44+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>com.apple.cloudpaird</td><td>Process</td><td>0.0</td><td>17640.0</td><td>124120.0</td><td>73427.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:25:49+00:00</td><td>2022-01-21 20:25:49+00:00</td><td>2022-02-11 03:57:23+00:00</td><td>com.apple.MobileAddressBook</td><td>com.apple.MobileAddressBook</td><td>App</td><td>80499.0</td><td>28710.0</td><td>189410.0</td><td>72608.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:26:09+00:00</td><td>2022-01-21 20:26:09+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>findmydeviced</td><td>Process</td><td>16853.0</td><td>22145.0</td><td>91430.0</td><td>87627.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:27:44+00:00</td><td>2022-01-21 20:27:44+00:00</td><td>2022-01-21 20:29:24+00:00</td><td>com.apple.ios.StoreKitUIService</td><td>com.apple.ios.StoreKitUIService</td><td>App</td><td>0.0</td><td>0.0</td><td>1619655.0</td><td>128341.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:33:02+00:00</td><td>2022-01-21 20:33:02+00:00</td><td>2022-02-11 04:11:48+00:00</td><td></td><td>mediaserverd</td><td>Process</td><td>53487.0</td><td>12367.0</td><td>75329.0</td><td>8748.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:38:31+00:00</td><td>2022-01-21 20:38:31+00:00</td><td>2022-02-11 14:06:53+00:00</td><td></td><td>captiveagent</td><td>Process</td><td>205056.0</td><td>45707.0</td><td>1586.0</td><td>1032.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:38:33+00:00</td><td>2022-01-21 20:38:33+00:00</td><td>2022-02-06 04:41:20+00:00</td><td></td><td>wifivelocityd</td><td>Process</td><td>58079.0</td><td>26524.0</td><td>5251.0</td><td>1984.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:38:34+00:00</td><td>2022-01-21 20:38:34+00:00</td><td>2022-01-21 20:38:44+00:00</td><td>com.apple.WebSheet</td><td>com.apple.WebSheet</td><td>App</td><td>1400271.0</td><td>97033.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:38:45+00:00</td><td>2022-01-21 20:38:45+00:00</td><td>2022-02-04 00:33:35+00:00</td><td></td><td>healthrecordsd</td><td>Process</td><td>191604.0</td><td>563377.0</td><td>69416.0</td><td>7561.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:38:50+00:00</td><td>2022-01-21 20:38:50+00:00</td><td>2022-01-25 20:10:39+00:00</td><td></td><td>storebookkeeperd</td><td>Process</td><td>81325.0</td><td>13158.0</td><td>1610188.0</td><td>281452.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:39:37+00:00</td><td>2022-01-21 20:39:37+00:00</td><td>2022-02-11 05:36:36+00:00</td><td></td><td>AssetCacheLocatorService</td><td>Process</td><td>63871.0</td><td>47861.0</td><td>354.0</td><td>122.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:41:15+00:00</td><td>2022-01-21 20:41:15+00:00</td><td>2022-02-06 04:41:19+00:00</td><td></td><td>wifid</td><td>Process</td><td>15019.0</td><td>4732.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:43:15+00:00</td><td>2022-01-21 20:43:15+00:00</td><td>2022-01-21 22:28:14+00:00</td><td>com.apple.siri</td><td>com.apple.siri</td><td>App</td><td>477100405.0</td><td>4943250.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:48:29+00:00</td><td>2022-01-21 20:48:29+00:00</td><td>2022-02-11 06:34:27+00:00</td><td>com.apple.mobileslideshow</td><td>com.apple.mobileslideshow</td><td>App</td><td>669185.0</td><td>20073056.0</td><td>28410.0</td><td>19933.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 20:48:38+00:00</td><td>2022-01-21 20:48:38+00:00</td><td>2022-02-11 04:09:31+00:00</td><td></td><td>com.apple.pipelined</td><td>Process</td><td>1859418.0</td><td>2596363.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:25:13+00:00</td><td>2022-01-21 21:25:13+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>com.apple.siriknowledged</td><td>Process</td><td>41238.0</td><td>45571.0</td><td>85239.0</td><td>54296.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:25:14+00:00</td><td>2022-01-21 21:25:14+00:00</td><td>2022-01-21 21:26:00+00:00</td><td></td><td>seld</td><td>Process</td><td>31435.0</td><td>184631.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:25:31+00:00</td><td>2022-01-21 21:25:31+00:00</td><td>2022-02-11 03:57:23+00:00</td><td>com.apple.mobilephone</td><td>com.apple.mobilephone</td><td>App</td><td>25835.0</td><td>14302.0</td><td>11224.0</td><td>4355.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:25:47+00:00</td><td>2022-01-21 21:25:47+00:00</td><td>2022-02-04 02:41:23+00:00</td><td>com.google.Gmail</td><td>com.google.Gmail</td><td>App</td><td>1697308.0</td><td>313912.0</td><td>12011945.0</td><td>1016452.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:26:15+00:00</td><td>2022-01-21 21:26:15+00:00</td><td>2022-02-11 04:09:20+00:00</td><td></td><td>com.apple.coreduetd</td><td>Process</td><td>32529.0</td><td>74977.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:28:25+00:00</td><td>2022-01-21 21:28:25+00:00</td><td>2022-02-11 04:09:17+00:00</td><td>com.hammerandchisel.discord</td><td>com.hammerandchisel.discord</td><td>App</td><td>5396750.0</td><td>277735.0</td><td>215533.0</td><td>85795.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:33:13+00:00</td><td>2022-01-21 21:33:13+00:00</td><td>2022-02-12 00:11:13+00:00</td><td>com.toyopagroup.picaboo</td><td>com.toyopagroup.picaboo</td><td>App</td><td>13996033.0</td><td>262970.0</td><td>24115426.0</td><td>488351.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:35:25+00:00</td><td>2022-01-21 21:35:25+00:00</td><td>2022-02-09 15:06:22+00:00</td><td>com.apple.MobileSMS</td><td>com.apple.MobileSMS</td><td>App</td><td>6693.0</td><td>853.0</td><td>7294.0</td><td>1069.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:36:40+00:00</td><td>2022-01-21 21:36:40+00:00</td><td>2022-02-04 04:13:15+00:00</td><td>com.moxco.bumble</td><td>com.moxco.bumble</td><td>App</td><td>2158602.0</td><td>3344327.0</td><td>18438873.0</td><td>2985563.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:43:06+00:00</td><td>2022-01-21 21:43:06+00:00</td><td>2022-02-14 16:51:35+00:00</td><td>com.atebits.Tweetie2</td><td>com.atebits.Tweetie2</td><td>App</td><td>23219218.0</td><td>844064.0</td><td>564512.0</td><td>153892.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 21:57:03+00:00</td><td>2022-01-21 21:57:03+00:00</td><td>2022-02-14 17:00:01+00:00</td><td>com.reddit.Reddit</td><td>com.reddit.Reddit</td><td>App</td><td>8501544.0</td><td>358422.0</td><td>206575592.0</td><td>5449759.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:02:27+00:00</td><td>2022-01-21 22:02:27+00:00</td><td>2022-01-21 22:03:40+00:00</td><td>org.whispersystems.signal</td><td>org.whispersystems.signal</td><td>App</td><td>126762.0</td><td>75092.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:04:52+00:00</td><td>2022-01-21 22:04:52+00:00</td><td>2022-01-21 22:07:10+00:00</td><td>com.wearezeta.zclient.ios</td><td>com.wearezeta.zclient.ios</td><td>App</td><td>246695.0</td><td>246649.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:11:31+00:00</td><td>2022-01-21 22:11:31+00:00</td><td>2022-02-14 16:36:54+00:00</td><td>com.alltrails.AllTrails</td><td>com.alltrails.AllTrails</td><td>App</td><td>12128332.0</td><td>702687.0</td><td>1115945.0</td><td>407138.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:13:09+00:00</td><td>2022-01-21 22:13:09+00:00</td><td>2022-02-02 18:50:10+00:00</td><td>ru.appscraft.CollectorGame</td><td>ru.appscraft.CollectorGame</td><td>App</td><td>1801553.0</td><td>114886.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:14:31+00:00</td><td>2022-01-21 22:14:31+00:00</td><td>2022-02-04 01:15:12+00:00</td><td>com.chess.iphone</td><td>com.chess.iphone</td><td>App</td><td>2726512.0</td><td>190719.0</td><td>1371417.0</td><td>348423.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:20:10+00:00</td><td>2022-01-21 22:20:10+00:00</td><td>2022-01-21 23:24:29+00:00</td><td>com.gma.water.sort.puzzle</td><td>com.gma.water.sort.puzzle</td><td>App</td><td>4014912.0</td><td>707542.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:22:13+00:00</td><td>2022-01-21 22:22:13+00:00</td><td>2022-02-09 14:05:11+00:00</td><td></td><td>com.apple.securityd</td><td>Process</td><td>13089.0</td><td>123273.0</td><td>42661.0</td><td>23207.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:27:41+00:00</td><td>2022-01-21 22:27:41+00:00</td><td>2022-02-09 06:49:19+00:00</td><td></td><td>mlruntimed</td><td>Process</td><td>57434.0</td><td>21867.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:27:58+00:00</td><td>2022-01-21 22:27:58+00:00</td><td>2022-02-09 06:24:29+00:00</td><td></td><td>securityuploadd</td><td>Process</td><td>57574.0</td><td>15817.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-21 22:28:42+00:00</td><td>2022-01-21 22:28:42+00:00</td><td>2022-01-21 22:28:52+00:00</td><td></td><td>assetsd</td><td>Process</td><td>10390.0</td><td>3190.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-24 17:36:38+00:00</td><td>2022-02-03 07:37:28+00:00</td><td>2022-02-03 07:40:15+00:00</td><td></td><td>AssetCacheLocato</td><td>App</td><td>10513.0</td><td>45460.0</td><td>151512.0</td><td>53388.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-30 01:56:55+00:00</td><td>2022-02-04 00:24:30+00:00</td><td>2022-02-04 00:25:20+00:00</td><td></td><td>rapportd</td><td>App</td><td>0.0</td><td>2340.0</td><td>58152.0</td><td>32311.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-30 01:56:54+00:00</td><td>2022-02-06 07:02:22+00:00</td><td>2022-02-06 07:02:22+00:00</td><td></td><td>StatusKitAgent</td><td>App</td><td>0.0</td><td>0.0</td><td>124813.0</td><td>6330.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-30 01:56:55+00:00</td><td>2022-02-11 03:55:45+00:00</td><td>2022-02-11 03:56:47+00:00</td><td></td><td>CallHistorySyncHelper</td><td>App</td><td>24793298.0</td><td>4807511.0</td><td>2100013.0</td><td>416373.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-30 01:57:49+00:00</td><td>2022-02-14 16:48:40+00:00</td><td>2022-02-14 16:56:59+00:00</td><td></td><td>remoted</td><td>App</td><td>25783.0</td><td>337582.0</td><td>1567190.0</td><td>367661.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-30 02:24:55+00:00</td><td>2022-02-14 16:49:48+00:00</td><td>2022-02-14 16:49:50+00:00</td><td></td><td>com.apple.kbd</td><td>App</td><td>1360.0</td><td>14536.0</td><td>198821.0</td><td>64493.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-02 00:02:01+00:00</td><td>2022-02-14 18:04:07+00:00</td><td>2022-02-14 18:19:01+00:00</td><td></td><td>com.apple.cloudd</td><td>App</td><td>62093.0</td><td>75632.0</td><td>84766.0</td><td>30884.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-02 22:06:56+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>10392.0</td><td>307478.0</td><td>33230.0</td><td>25636.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-03 02:48:25+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>1838.0</td><td>2220.0</td><td>73602.0</td><td>13301.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-03 07:37:28+00:00</td><td></td><td></td><td></td><td></td><td>Process</td><td>1494.0</td><td>2400.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-04 00:24:30+00:00</td><td></td><td></td><td></td><td></td><td>Process</td><td>0.0</td><td>1800.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-04 00:49:17+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>0.0</td><td>0.0</td><td>1334.0</td><td>508.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-04 00:51:16+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>15330.0</td><td>4680.0</td><td>7602.0</td><td>2799.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-04 01:05:24+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>91949.0</td><td>37208.0</td><td>88327.0</td><td>34621.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-04 22:41:22+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>901.0</td><td>3076.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-04 22:44:22+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>21386.0</td><td>40104.0</td><td>71115.0</td><td>26431.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-05 00:18:16+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>23857.0</td><td>50764.0</td><td>316526.0</td><td>66543.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-05 04:08:26+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>38018197.0</td><td>2438504.0</td><td>17054.0</td><td>5418.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 04:39:20+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>57947.0</td><td>106275.0</td><td>211910.0</td><td>115227.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 04:40:24+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>1648620.0</td><td>45936.0</td><td>1268688.0</td><td>65550.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 04:53:50+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>9104652.0</td><td>905001.0</td><td>3086152.0</td><td>3837977.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 04:56:37+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>42945.0</td><td>7629.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 05:07:27+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>200142.0</td><td>88343.0</td><td>189917.0</td><td>32884.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 07:02:22+00:00</td><td></td><td></td><td></td><td></td><td>Process</td><td>6692.0</td><td>853.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 21:13:29+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>0.0</td><td>0.0</td><td>2078238.0</td><td>157532.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 21:13:45+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>1680.0</td><td>14098.0</td><td>87755.0</td><td>31089.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-06 21:12:13+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>0.0</td><td>0.0</td><td>30303.0</td><td>20362.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-07 19:18:53+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>16999.0</td><td>136516.0</td><td>112950.0</td><td>35783.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-09 07:00:31+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>16392.0</td><td>282658.0</td><td>533.0</td><td>1025.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-11 03:55:32+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>1022.0</td><td>37040.0</td><td>23718.0</td><td>12204.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-11 03:55:45+00:00</td><td></td><td></td><td></td><td></td><td>Process</td><td>0.0</td><td>1800.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-14 16:36:01+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>0.0</td><td>0.0</td><td>60382.0</td><td>33324.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-14 16:37:34+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>0.0</td><td>0.0</td><td>397845.0</td><td>101136.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-14 16:36:02+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>0.0</td><td>0.0</td><td>168942.0</td><td>104883.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-14 16:48:40+00:00</td><td></td><td></td><td></td><td></td><td>Process</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>6206.0</td><td>8560.0</td></tr><tr><td>2022-02-14 16:49:48+00:00</td><td></td><td></td><td></td><td></td><td>Process</td><td>0.0</td><td>0.0</td><td>9419.0</td><td>4793.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-14 18:04:07+00:00</td><td></td><td></td><td></td><td></td><td>Process</td><td>0.0</td><td>0.0</td><td>37835.0</td><td>18262.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-14 18:16:59+00:00</td><td></td><td></td><td></td><td></td><td>App</td><td>0.0</td><td>0.0</td><td>419316.0</td><td>16827.0</td><td>0.0</td><td>0.0</td></tr></tbody><tfoot><tr><th>Last Connect Timestamp</th><th>First Usage Timestamp</th><th>Last Usage Timestamp</th><th>Bundle Name</th><th>Process Name</th><th>Type</th><th>Wifi In (Bytes)</th><th>Wifi Out (Bytes)</th><th>Mobile/WWAN In (Bytes)</th><th>Mobile/WWAN Out (Bytes)</th><th>Wired In (Bytes)</th><th>Wired Out (Bytes)</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

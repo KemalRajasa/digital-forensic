@@ -1,0 +1,365 @@
+3B90.)F
+3B90.
+)SQLite format 3
+.S`
+
+
+Td,
+		2
+gindexisUnsupportedMessagesecondaryIndex_unsupportedMessagesIndexName
+CREATE INDEX "isUnsupportedMessage" ON "secondaryIndex_unsupportedMessagesIndexName" ("isUnsupportedMessage")[
+}tablesecondaryIndex_unsupportedMessagesIndexNamesecondaryIndex_unsupportedMessagesIndexName
+CREATE TABLE "secondaryIndex_unsupportedMessagesIndexName" ("rowid" INTEGER PRIMARY KEY, "isUnsupportedMessage" INTEGER)F
+7tableview_messages_pageview_messages_page
+CREATE TABLE "view_messages_page" ("pageKey" CHAR NOT NULL PRIMARY KEY,  "group" CHAR NOT NULL,  "prevPageKey" CHAR,  "count" INTEGER,  "data" BLOB )C
+indexsqlite_autoindex_view_messages_page_1view_messages_page
+?tableview_messages_mapview_messages_map
+CREATE TABLE "view_messages_map" ("rowid" INTEGER PRIMARY KEY,  "pageKey" CHAR NOT NULL )
++indexschemaTypesecondaryIndex_schemaVersionIndex
+CREATE INDEX "schemaType" ON "secondaryIndex_schemaVersionIndex" ("schemaType")
+7indexschemaVersionsecondaryIndex_schemaVersionIndex
+CREATE INDEX "schemaVersion" ON "secondaryIndex_schemaVersionIndex" ("schemaVersion")L
+tablesecondaryIndex_schemaVersionIndexsecondaryIndex_schemaVersionIndex
+CREATE TABLE "secondaryIndex_schemaVersionIndex" ("rowid" INTEGER PRIMARY KEY, "schemaVersion" INTEGER, "schemaType" INTEGER)
+=indexdeliveryStatussecondaryIndex_deliveryStatusIndexCREATE INDEX "deliveryStatus" ON "secondaryIndex_deliveryStatusIndex" ("deliveryStatus"):	
+_tablesecondaryIndex_deliveryStatusIndexsecondaryIndex_deliveryStatusIndexCREATE TABLE "secondaryIndex_deliveryStatusIndex" ("rowid" INTEGER PRIMARY KEY, "deliveryStatus" INTEGER)y
+indexisIncomingsecondaryIndex_isReadIndex
+CREATE INDEX "isIncoming" ON "secondaryIndex_isReadIndex" ("isIncoming")
+%indexcollectionIdsecondaryIndex_isReadIndex	CREATE INDEX "collectionId" ON "secondaryIndex_isReadIndex" ("collectionId")m
+
+indexisReadsecondaryIndex_isReadIndex
+CREATE INDEX "isRead" ON "secondaryIndex_isReadIndex" ("isRead")E
+tablesecondaryIndex_isReadIndexsecondaryIndex_isReadIndex
+CREATE TABLE "secondaryIndex_isReadIndex" ("rowid" INTEGER PRIMARY KEY, "isRead" INTEGER, "collectionId" TEXT, "isIncoming" INTEGER)s
+'indextrue_primary_keydatabase2
+CREATE UNIQUE INDEX "true_primary_key" ON "database2" ( "collection", "key" ))
+!tabledatabase2database2
+CREATE TABLE "database2" ("rowid" INTEGER PRIMARY KEY,  "collection" CHAR NOT NULL,  "key" CHAR NOT NULL,  "data" BLOB,  "metadata" BLOB )
+tableyap2yap2
+CREATE TABLE "yap2" ("extension" CHAR NOT NULL,   "key" CHAR NOT NULL,   "data" BLOB,   PRIMARY KEY ("extension", "key") )'
+indexsqlite_autoindex_yap2_1yap2
+&
+
+
+
+?unsupportedMessagesIndexNameclassYapDatabaseSecondaryIndex*
+E!
+unsupportedMessagesIndexNameversionTag,
+E%	unsupportedMessagesIndexNameclassVersion$
+3messagesclassYapDatabaseAutoView
+messagesversionTag1
+messagesclassVersion
+?schemaVersionIndexclassYapDatabaseSecondaryIndex 
+
+1!
+schemaVersionIndexversionTag"	
+1%	schemaVersionIndexclassVersion
+8
+snapshot85
+?deliveryStatusIndexclassYapDatabaseSecondaryIndex!
+3!
+deliveryStatusIndexversionTag#
+3%	deliveryStatusIndexclassVersion
+?isReadIndexclassYapDatabaseSecondaryIndex
+isReadIndexversionTag1
+#%	isReadIndexclassVersion
+3B90.;
+VSc
+
+unsupportedMessagesIndexNameclass
+unsupportedMessagesIndexNameversionTag
+unsupportedMessagesIndexNameclassVersion
+messagesclass
+messagesversionTag
+messagesclassVersion
+
+schemaVersionIndexclass!
+schemaVersionIndexversionTag
+#
+schemaVersionIndexclassVersion	
+deliveryStatusIndexclass
+deliveryStatusIndexversionTag
+deliveryStatusIndexclassVersion
+snapshot8
+isReadIndexclass
+isReadIndexversionTag
+3B90.	 
+3B90.LT[B
+
+17206903164312590863
+17206903164312590382
+17206903164312590380
+17206903164312590195
+ChatInfo1720690316
+17206903164312590383
+lastDeliveredMessage1720690316
+
+17206903164312590178*
+undeliveredMessagesMetadata1720690316
+drafts1720690316
+17186427174312580694-000000	
+ChatInfo1718642717
+lastDeliveredMessage1718642717
+17186427174312580694
+undeliveredMessagesMetadata1718642717
+drafts1718642717
+ChatchatSyncInfo
+3	ChatChatDatabaseVersion
+1720690316
+	!	1720690316
+1718642717
+3B90.39Tu
+
+1720690316
+1718642717	
+3B90.#
+m!kS
+
+3B90.
+
+3B90.`#'A
+
+3B90."\
+
+UEDD77CFF-65FF-43C2-822A-8578FB4BD70D'
+UEDD77CFF-65FF-43C2-822A-8578FB4BD70D'
+UEDD77CFF-65FF-43C2-822A-8578FB4BD70D'	
+U6AF64D50-7615-4415-9382-E7E950209969'
+U6AF64D50-7615-4415-9382-E7E950209969
+3B90.9a6
+
+3B90.A*
+
+lastDeliveredMessage1720690316bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$nullZ4312590863
+$)27ILQSV\
+17206903164312590178bplist00
+QU$null
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNNOOMQQSTUMQOXOOQOOM^OOSOQQQfQONMXiOOlUQOpOOsOUQOOTUz{Q}Q
+N^self.clientUid]self.location_
+self.deliveryStatus_
+self.schemaType_
+self.messageType_
+self.toConversationId_
+self.liveLocation_
+self.emojisCount_
+self.hasLewdPhoto]self.isMasked_
+self.allowReply_
+self.dateCreated[self.gameId^self.uidOrigin_
+self.allowForwarding_
+self.listSectionContext]self.latitude_
+self.musicTrack]self.fromUser_
+self.isGifInfoInvalid^self.stickerId]self.question_
+self.linkPreviewStatus_
+self.verificationMethod_
+self.forwardingOrigin_
+self.gifMessageInfo_
+self.firstResponseZself.video_
+self.isDeclined_
+!self.resentAfterInappropriateMark[self.isRead_
+self.messageText_
+self.hasEmojiCharactersOnly]self.reaction_
+self.schemaVersion_
+self.unreadFromUser^self.longitude_
+self.dateRefreshedFromServer_
+self.errorMessage_
+self.reactionsPhotoV$class_
+self.replyToMessageUid^self.allowLike_
+self.instantVideoXself.uid_
+self.forwardingInfo^self.datingHub_
+self.fromPersonUid\self.albumId_
+self.userSubstituteId_
+self.isOffensive_
+self.linkPreviewZself.audio_
+self.dateModified]self.imageUrl_
+self.toPersonUid_
+self.accessResponse_
+self.isReported\self.isLiked_
+self.isLikelyOffensive_
+self.videoCallInfo[self.origin
+Z4312590178_
+$0749B5DB-22DB-4981-8354-9670D9C07D68_
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs_
+AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87Lin
+5WNS.time#Ao+t
+Z$classnameX$classesVNSDateXNSObject
+5R$1R$0
+	_
+BMVerificationAccessObject
+5WNS.data@
+]NSMutableData]NSMutableDataVNSData
+BMVerificationAccessObject_
+PBGeneratedMessage_
+PBAbstractMessageP
+]BMGeoLocation
+]BMGeoLocation]BMGeoLocation_
+PBAbstractMessage
+BMVideoCallMsgInfo
+BMVideoCallMsgInfo_
+BMASimpleChatMessage
+BMASimpleChatMessage^BMAChatMessage
+	"	9
+3B90.@P{`
+
+17206903164312590382bplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNNKKMQQSTUMQKXKKQKKM^KKQKQQSfQKNMXiKKlUQKpKKstUQKKTUz{Q}Q
+M^self.clientUid]self.location_
+Z4312590382_
+AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87Lin_
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs
+5WNS.time#Ao+
+5R$1R$0	
+5WNS.data@
+
+'You can find me at DesertBusDriver#9827Q0
+3B90.m H31
+
+drafts1720690316bplist00
+U$nullP
+17206903164312590383bplist00
+RU$null
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOKKMRRTUVMRKYKKRKKM_KaRKRRTgRKNMYjKKmVRKqKKtuVRKKUV{|R~RM^self.clientUid]self.location_
+Z4312590383_
+5WNS.time#Ao,
+%https://giphy.com/embed/cXCVTR1wUn1a8Q0
+BMGifMessageInfo
+BMGifMessageInfo_
+	1	F	Z	_	v	z	
+17206903164312590863bplist00
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNNOOMQQSTUMQOXOOQOOM^OOQOQQQfQONMXiOOlUQOpOOsOUQOOTUz{Q}Q
+Z4312590863_
+$2673063E-3531-4AA0-A136-30C63973CBCD_
+5WNS.time#Aof
+	$	8	=	T	X	o
+3B90.FWCTSSQLite format 3
+1%	schemaVersionIndexclassVersion
+9
+snapshot95
+3B90.PwuLx
+
+snapshot9
+3B90.v_W=
+C
+
+17206903164312590195bplist00
+a|;
+Z4312590195_
+5WNS.time#Ao+M
+Yeah - wanna play together?Q0
+ChatInfo1720690316bplist00
++!"#$%&'(./3;?CDGMNVZ[^dhilpqtxy|U$null
+
+ WNS.keysZNS.objectsV$class
+%))*XchatUser\chatSettings_
+readMessagesTimestamp\chatMessages\chatInstance_
+userOriginatedMessage_
+isNotInterested)*
++,-R$1R$0
+
+VBMUser0
+12WNS.dataO
+
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs
+Phone number
+Added(
+Rafael
+%
+
+
+1373936259
+https://pd2us.bumbcdn.com/p519/hidden?euri=4ksO6zklVDHfVDwRJb2jJkriq09PWJ8gQJ73NalplCeDfYqXzxb.GSpcYR8xcEWgjNVaEiLqRzagVdIUbtpA4A7Tt8caB4d.uaDa7gCWC8TCmO-wGJsNk3tBSjdX.Ym5S1HAjtVA8xdRVtK3QAOKdw&size=__size__&ck=ee39c51960d84c34ca851ee83d4b7e69&h=HXN&gs=server_open_chat%3A%3Aserver_get_user%3A%3Aprofile_photo&t=22.5.247.0
+https://pd2us.bumbcdn.com/p519/hidden?euri=c7Z3OugKfpYqI6XIdDWif9f31wPrfZycANGPm3ycOK8QVQ9oE.XO0D.48RHQOcK6XQGx-T2RgXGJqwqvVeBP7peoWZclXRgVqcox72k1TIZUSeQgxGL
+q4oM29qcEdKk5-4i8j4k3jF.05XQ6Bebreolpr-dUWPQjPro.kWuaykY&size=__size__&ck=be9c61befef9a4b047058b918e18a732&h=HXN&gs=server_open_chat%3A%3Aserver_get_user%3A%3Aprofile_photo&t=22.5.247.0"
+location
+Location"
+Burlington
+1.0 mile away
+
+aboutme_text
+About me"
+lifestyle_relationship
+!What is your relationship status?"
+Single(
+You matched <b>today</b>$
+4567Z$classnameX$classes]NSMutableData89:]NSMutableDataVNSDataXNSObject45.<.=>:_
+PBAbstractMessage)*
+^BMChatSettings0
+d
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs
+Forever
+1 view
+
+
+ views
+@F@o@q@I45HI^BMChatSettingsJKL:^BMChatSettings_
+OUPQRST
+!$)*
+]BMChatMessage0
+M
+
+4312590178
+AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87Lin"LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs*
+re into Minecraft too?!0
+	yesterday
+45_`]BMChatMessageabc:]BMChatMessage_
+;
+
+4312590195
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs"AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87Lin*
+Yeah - wanna play together?0
+}
+
+4312590380
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs"AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87Lin*]Let's work this out on discord, bumble is such a buzz kill with their limits on free accounts0
+uvY 
+G
+
+4312590382
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs"AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87Lin*'You can find me at DesertBusDriver#98270
+}~Y#"
+T
+
+4312590383
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs"AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87Lin*%https://giphy.com/embed/cXCVTR1wUn1a80$8
+
+Sent a GIF
+45WNSArray:)*
+'&(^BMChatInstance0
+?
+LzAhMACjE3MjA2OTAzMTYIbs1BZgAAAAAg8_vaF2P--ERKQ6dfd_wv1oaxB71CX2_8zYVvtTwEwYs
+https://pd2us.bumbcdn.com/p521/hidden?euri=hh6u3KlmhoScOnyQiwyf03PqXNHHcaeUcmzAVnZ9GMlglEJkdIvkaWoeogkHzbHIBkkF.mMKFA0CxmS0Yd-BTFuOk5amIMiQRt97IUf40PY09QNFFykIL9bYxTgprUVXWSbkDHfux0ttyX0VA.8Pe0.Ivc3fJAM6itrI3z4aJ24&size=__size__&ck=6f9280605aeee6f45757354fc8e73599&h=PJZ&gs=2&t=22.5.247.00
+ziHey, just checked out your profile, but it doesn't show your interests. What kind of things are you into?
+F<html>Break the ice with Rafael. Why not ask him what he likes?</html>
+45^BMChatInstance:^BMChatInstance_
+45\NSDictionary:
+					
+
+
+
+
+3
+:
+<
+>
+@
+N
+S
+5
+7
+>
+@
+B
+D
+R
+W
+3B90.zyTU/
+
+1%	schemaVersionIndexclassVersion
+:
+snapshot:5
+3B90.q
+snapshot:

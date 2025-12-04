@@ -1,0 +1,109 @@
+[Tq
+o+SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+[dO@\
+
+BluetoothDeviceInformationZone:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !%-567;U$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+n?~pea%
+t0[u
+
+_\t
+
+"Gp1L+[
+_[-H:
+!H>$
+Nhx'
+O]u0
+4w3.0
+$ltC
+`S<<`]9\
+s*7uu38m
+%-T&`p6;Fr"[10
+vH\L
+@#0M
+	
+HWT
+H	E
+NXB1
+)0'0%
+TV,}
+B`1MY
+Y3Sg_yZt
+cldp0n
+AG^J
+Q*c(
++G5=+d
+(9E6A4C5309D85437B1B21166A25129F47F77139F
+"#$YNS.string
++hEcb9sHRbuQTnK0eNDxn4XjsDGM1Neq2OJ51MNvRiAE&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+anonymousCKUserIDYownerNameXZoneName
+BluetoothDeviceInformationZone_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID&'<=^CKDZonePCSData>?,^CKDZonePCSDataZCKDPCSData
+(com.apple.bluetooth.servicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464BluetoothDeviceInformationZone:__defaultOwner__Az2
+k	BluetoothDeviceInformationZone:__defaultOwner__
+	BluetoothDeviceInformationZone:__defaultOwner__
+com.apple.bluetooth.servicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464Az2
+}H`S
+
+kUE	BluetoothDeviceInformationZone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.bluetooth.services
+[6+)
+UE	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.bluetooth.services
+	Az2
+l>eSQLite format 3
+[`55
+r}
+
+	
+EUk
+ !%-567;?BU$null
+
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID<
+=>WNS.time#A
+%&'@AVNSDate@,&'CD^CKDZonePCSDataEF,^CKDZonePCSDataZCKDPCSData
+Qcom.apple.bluetooth.servicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464BluetoothDeviceInformationZone:__defaultOwner__A
+com.apple.bluetooth.servicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+[h1{d
+BluetoothDeviceInformationZone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.bluetooth.services
+[PLm
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.bluetooth.services
+[Z#9/
+
+B
+7
+
+[2!y
+q
+
+OSQLite format 3

@@ -1,0 +1,26 @@
+﻿Key	Items
+formatVersion	1
+passTypeIdentifier	paymentpass.com.apple
+teamIdentifier	Apple Inc.
+associatedStoreIdentifiers	[]
+serialNumber	nc.prod.pod2_0831c498d2f04e9490e64b530fb9a5cf
+backgroundColor	rgb(0, 0, 0)
+foregroundColor	rgb(0, 0, 0)
+labelColor	rgb(126, 106, 136)
+organizationName	Apple
+description	Apple Cash
+supportsDefaultCardSelection	False
+isPaymentOptionSelectable	False
+supportsSerialNumberBasedProvisioning	False
+requiresTransferSerialNumberBasedProvisioning	False
+supportsDPANNotifications	0
+supportsFPANNotifications	0
+paymentCard	{'backFields': [{'key': 'notice', 'value': 'Customer Service', 'label': 'INFORMATION', 'dataDetectorTypes': []}, {'key': 'contactWebsite', 'value': 'https://apple.co/AppleCash', 'label': 'WEBSITE', 'dataDetectorTypes': []}, {'key': 'contactNumber', 'value': '1-877-233-8552', 'label': 'PHONE', 'dataDetectorTypes': []}, {'key': 'contactName', 'value': 'Customer Service', 'label': 'NAME', 'dataDetectorTypes': []}, {'key': 'privacyPolicyURL', 'value': 'https://applecash.greendot.com/privacy', 'label': 'POLICY URL', 'dataDetectorTypes': []}, {'key': 'termsAndConditionsURL', 'value': 'https://applecash.greendot.com/termsconditions', 'label': 'TERMS URL', 'dataDetectorTypes': []}]}
+paymentApplications	[]
+sequenceCounter	1
+isCobranded	False
+contactName	Apple
+hasAssociatedPeerPaymentAccount	True
+liveRenderedBackground	True
+supportsCategoryVisualization	False
+isShellPass	False

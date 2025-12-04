@@ -1,0 +1,82 @@
+gn-S
+`|	SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+	 ;Uo
+com.apple.coredata.cloudkit.zone:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !%-567;U$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+|78+4~C
+1Ed9
+M=O%r
+btvY0
+GzrT
+6kKH2"
+(VA):}aSd
+3j2B+p\%
+
+x~~!f
+8@60+~[mtPB#p-~
+lE)~`^
+i]#$
+
+",q
+ Yx*=M4|NvG\
+PX)0'0%
+jwLp0n
+&2wsHwbbU
+_p[Y
+ K~E
+U6\srr
+(69BD61278F8E772EB39D1E24B2E672F0F9E7E43B
+"#$YNS.string
++JOTsoWszPejzSr7wTec4vhA9CDx8ZI7Uuvhzs8yZe-0&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+anonymousCKUserIDYownerNameXZoneName
+ com.apple.coredata.cloudkit.zone_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID&'<=^CKDZonePCSData>?,^CKDZonePCSDataZCKDPCSData
+*com.apple.AccessibilityAAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.coredata.cloudkit.zone:__defaultOwner__Az60
+o	com.apple.coredata.cloudkit.zone:__defaultOwner__
+gn_$dj>
+
+	com.apple.coredata.cloudkit.zone:__defaultOwner__
+com.apple.AccessibilityAAA3EB7E-485D-4C71-93D7-7C0CF8E04464Az60
+gn"A\Bm
+
+oU;	com.apple.coredata.cloudkit.zone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.Accessibility
+gng`k
+
+U;	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.Accessibility
+gn`J
+	Az60
+gn{=Q/ SSQLite format 3
+gnHfg9%
+gnlyt
+gn(uNfSQLite format 3

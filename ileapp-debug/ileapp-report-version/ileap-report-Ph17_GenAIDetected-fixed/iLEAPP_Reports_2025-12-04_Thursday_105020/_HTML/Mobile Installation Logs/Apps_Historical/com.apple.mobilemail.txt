@@ -1,0 +1,12 @@
+2022-01-10 12:28:34 Data container moved com.apple.mobilemail /private/var/mobile/Containers/Data/Application/BD8BCA2B-0BC4-4FB6-A185-E46DF9923616
+2022-01-10 12:28:34 Made container live com.apple.mobilemail /private/var/containers/Bundle/Application/5B971068-256C-4880-8DB2-5799F9712B93
+2022-01-10 12:28:34 Install successful com.apple.mobilemail 
+2022-01-10 12:28:34 Data container moved com.apple.mobilemail /private/var/mobile/Containers/Data/Application/BD8BCA2B-0BC4-4FB6-A185-E46DF9923616
+2022-01-10 12:28:34 Made container live com.apple.mobilemail /private/var/containers/Bundle/Application/5B971068-256C-4880-8DB2-5799F9712B93
+2022-01-10 12:28:34 Install successful com.apple.mobilemail 
+2022-01-06 17:41:33 Made container live com.apple.mobilemail /private/var/mobile/Containers/Data/Application/C175B3F3-3E7A-4028-8919-CD8D7A07A956
+2022-01-06 17:41:33 Made container live com.apple.mobilemail /private/var/containers/Bundle/Application/27312496-F803-4BE2-B144-F51486773ACA
+2022-01-06 17:41:33 Install successful com.apple.mobilemail 
+2022-01-06 17:41:33 Made container live com.apple.mobilemail /private/var/mobile/Containers/Data/Application/C175B3F3-3E7A-4028-8919-CD8D7A07A956
+2022-01-06 17:41:33 Made container live com.apple.mobilemail /private/var/containers/Bundle/Application/27312496-F803-4BE2-B144-F51486773ACA
+2022-01-06 17:41:33 Install successful com.apple.mobilemail 

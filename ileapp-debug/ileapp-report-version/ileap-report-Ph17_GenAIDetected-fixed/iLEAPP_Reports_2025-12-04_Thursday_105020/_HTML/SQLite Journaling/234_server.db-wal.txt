@@ -1,0 +1,524 @@
+_y|H
+5dSQLite format 3
+_y@(U%
+_yrLA
+
+_yz~#
+19A404902.12.1N N 
+_yL}
+
+version_size_sum
+_y*?e{I
+
+]!c
+
+@m!6
+
+_yQXI
+
+_yPI
+tQ27
+
+_y Q'q
+
+_y_p"
+
+_y%v9
+
+_y:7b
+
+_y7-W
+_yl/
+_yv'S
+h";
+
+#h?
+
+_yHOt
+
+_yW-UL
+_yrJy
+
+
+
+JB
+indexsqlite_autoindex_users_1users
+Mindexserver_zones/zone_name__zone_ownerserver_zones
+CREATE UNIQUE INDEX "server_zones/zone_name__zone_owner" ON server_zones (zone_name, zone_owner)
+9indexserver_items/path_indexserver_items
+CREATE INDEX "server_items/path_index" ON server_items (item_parent_id, item_filename))
+mtableusersusers
+CREATE TABLE users ( user_key integer primary key, user_name text not null, user_plist blob, UNIQUE (user_name))i
+indexserver_items/item_idserver_items
+CREATE INDEX "server_items/item_id" ON server_items(item_id)
+Kindexserver_items/item_rank_depthserver_items
+CREATE INDEX "server_items/item_rank_depth" ON server_items (zone_rowid, item_rank, item_depth)y
+indexserver_items/version_sizeserver_items
+CREATE INDEX "server_items/version_size" ON server_items (version_size)&
+_indexserver_items/version_xattr_signatureserver_items
+CREATE INDEX "server_items/version_xattr_signature" ON server_items (zone_rowid, version_xattr_signature)
+Sindexserver_items/item_xattr_signatureserver_items
+CREATE INDEX "server_items/item_xattr_signature" ON server_items (zone_rowid, item_xattr_signature)/
+kindexserver_items/item_parent_id__item_stateserver_items
+CREATE INDEX "server_items/item_parent_id__item_state" ON server_items (zone_rowid, item_parent_id, item_state)|
+'indexserver_items/item_rankserver_items
+CREATE INDEX "server_items/item_rank" ON server_items (zone_rowid, item_rank)7
+indexsqlite_autoindex_server_items_2server_items
+indexsqlite_autoindex_server_items_1server_items
+1tableserver_itemsserver_items
+CREATE TABLE server_items ( zone_rowid integer not null, item_id blob not null, item_rank integer, item_sharing_options integer not null default 0, item_sharing_etag blob default null, item_stat_ckinfo blob, item_state integer not null, item_type integer not null, item_mode integer not null, item_creator_id integer not null, item_birthtime integer not null, item_parent_id blob not null, item_filename text not null, item_origname text, item_hidden_ext integer not null, item_finder_tags blob, item_xattr_signature blob, version_ckinfo blob, version_mtime integer, version_name text, version_size integer, version_thumb_size integer, version_thumb_signature blob, version_content_signature blob, version_xattr_signature blob, version_device integer, version_conflict_loser_etags blob, version_quarantine_info blob, item_depth integer NOT NULL DEFAULT 0, item_trash_put_back_parent_id BLOB DEFAULT NULL, item_trash_put_back_path BLOB DEFAULT NULL, pcs_state INTEGER NOT NULL DEFAULT 0, item_lastusedtime integer DEFAULT NULL, item_favoriterank integer DEFAULT NULL, item_alias_target text, item_side_car_ckinfo BLOB, item_creator INTEGER, version_edited_since_shared INTEGER, quota_used INTEGER, recursive_child_count INTEGER, shared_children_count INTEGER, shared_alias_count INTEGER, child_count INTEGER, PRIMARY KEY (zone_rowid, item_id), UNIQUE (item_rank))C
+
+indexsqlite_autoindex_server_xattr_blobs_1server_xattr_blobs@	
++tableserver_xattr_blobsserver_xattr_blobsCREATE TABLE server_xattr_blobs ( zone_rowid integer not null, signature blob not null, data blob not null, PRIMARY KEY(zone_rowid, signature))7
+indexsqlite_autoindex_server_zones_1server_zones
+?
+Atableserver_zonesserver_zones	CREATE TABLE server_zones ( rowid integer PRIMARY KEY, zone_owner text not null, zone_name text not null, zone_plist blob, UNIQUE (zone_owner, zone_name))
+Atableserver_boot_historyserver_boot_history
+CREATE TABLE server_boot_history ( date integer primary key, os text not null, br text not null, bird_schema integer not null, db_schema integer not null)-
+indexsqlite_autoindex_devices_1devices
+!tabledevicesdevices
+CREATE TABLE devices ( key integer primary key, name text unique not null)
+Stableserver_stateserver_state
+CREATE TABLE "server_state" (state)E/
+triggerserver_items/sharing_state_propagationserver_itemsCREATE TRIGGER "server_items/sharing_state_propagation" AFTER UPDATE OF item_sharing_options ON server_items BEGIN UPDATE server_items SET item_sharing_options = (item_sharing_options & (~124)) | (new.item_sharing_options & 120) WHERE new.item_sharing_options != old.item_sharing_options AND new.item_type IN (0, 9, 10) AND new.item_state = 0 AND item_parent_id = new.item_id AND zone_rowid = new.zone_rowid AND (item_sharing_options & 4) == 0 AND (item_sharing_options & 120) != (new.item_sharing_options & 120); END+.
+eindexserver_items/item_parent_id__item_typeserver_items
+CREATE INDEX "server_items/item_parent_id__item_type" ON server_items(zone_rowid, item_type, item_parent_id)C-
+indexsqlite_autoindex_side_car_lookahead_1side_car_lookahead
+Atableside_car_lookaheadside_car_lookahead
+CREATE TABLE side_car_lookahead ( record_name text primary key , root_alias_record_name text NOT NULL, item_side_car_ckinfo BLOB NOT NULL , item_favoriterank integer , item_lastusedtime integer , item_finder_tags blob)
+[indexserver_items/alias_mapserver_items
+CREATE INDEX "server_items/alias_map" ON server_items(item_type, item_alias_target) WHERE item_type = 3C*
+indexsqlite_autoindex_rowid_reservations_1rowid_reservations
+Ktablerowid_reservationsrowid_reservations
+CREATE TABLE rowid_reservations ( rowid integer PRIMARY KEY, container_id text unique not null)i&
+}triggerdelete_version_sum_sizeserver_itemsCREATE TRIGGER delete_version_sum_size BEFORE DELETE ON server_items  BEGIN  UPDATE aggregates SET value = (value - COALESCE(old.version_size, 0)) WHERE key = 'version_size_sum';   END
+Otriggerupdate_version_sum_sizeserver_itemsCREATE TRIGGER update_version_sum_size UPDATE OF version_size ON server_items  BEGIN  UPDATE aggregates SET value = (value - COALESCE(old.version_size, 0) + COALESCE(new.version_size, 0)) WHERE key = 'version_size_sum';   ENDh$
+{triggerinsert_version_sum_sizeserver_itemsCREATE TRIGGER insert_version_sum_size AFTER INSERT ON server_items  BEGIN  UPDATE aggregates SET value = (value + COALESCE(new.version_size, 0)) WHERE key = 'version_size_sum';   ENDp#
++tableaggregatesaggregates
+CREATE TABLE aggregates ( key TEXT NOT NULL, value INTEGER NOT NULL DEFAULT 0 )
+[indexserver_items/share_rootserver_items CREATE INDEX "server_items/share_root" ON server_items(item_rank) WHERE (item_sharing_options & 4) != 0`1
+Qtriggerserver_items/sharing_state_insertionserver_itemsCREATE TRIGGER "server_items/sharing_state_insertion" AFTER INSERT ON server_items BEGIN UPDATE server_items SET item_sharing_options = ((item_sharing_options & (~124)) | IFNULL((SELECT item_sharing_options & 120 FROM server_items as pi WHERE pi.item_id = new.item_parent_id AND pi.zone_rowid = new.zone_rowid), 0)) WHERE (new.item_sharing_options & 4) == 0 AND item_id = new.item_id AND zone_rowid = new.zone_rowid; UPDATE server_items SET item_sharing_options = (item_sharing_options & (~124)) | (new.item_sharing_options & 120) WHERE (new.item_sharing_options & 4) != 0 AND new.item_type IN (0, 9, 10) AND new.item_state = 0 AND item_parent_id = new.item_id AND zone_rowid = new.zone_rowid AND (item_sharing_options & 4) == 0 AND (item_sharing_options & 120) != (new.item_sharing_options & 120); END60
+wtriggerserver_items/learn_parent_sharing_stateserver_itemsCREATE TRIGGER "server_items/learn_parent_sharing_state" AFTER UPDATE OF item_parent_id ON server_items BEGIN UPDATE server_items SET item_sharing_options = ((item_sharing_options & (~124)) | IFNULL((SELECT item_sharing_options & 120 FROM server_items as pi WHERE pi.item_id = new.item_parent_id AND pi.zone_rowid = new.zone_rowid), 0)) WHERE new.item_parent_id != old.item_parent_id AND item_id = new.item_id AND zone_rowid = new.zone_rowid AND item_state = 0 AND (item_sharing_options & 4) == 0; END
+_y"A3
+^bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ 'U$null
+
+]shareDatabaseWlsdDateXnextRankV$class[minUsedTime^migrationQuery
+YlsdStatusYrequestIDUtoken
+!"#$Z$classnameX$classes_
+BRCServerChangeState%&_
+BRCServerChangeStateXNSObject!"()_
+BRCServerPersistedState*&_
+BRCServerPersistedState
+_yl*
+
+3-	com.apple.CloudDocs__defaultOwner__
+n|'
+
+-3p__defaultOwner__com.apple.CloudDocsbplist00
+U$null
+
+WNS.keysZNS.objectsV$class
+Ustate^lastSyncStatus_
+clientRequestID
+ !Z$classnameX$classes_
+NSMutableDictionary "#\NSDictionaryXNSObject
+j^p
+
+-3	__defaultOwner__com.apple.CloudDocs
+_y$$
+AX"F
+
+3	com.apple.CloudDocs
+_yCZ
+3com.apple.CloudDocs
+_y$:p]b'
+com.apple.TextInput__defaultOwner__
+_ydsfn
+
+-3p__defaultOwner__com.apple.TextInputbplist00
+_yO:Br
+__defaultOwner__com.apple.TextInput
+({\g
+
+com.apple.TextInput
+_ye.
+
+
+3com.apple.TextInput
+_yk~CJG
+
+com.apple.shoebox__defaultOwner__
+b(
+-/p__defaultOwner__com.apple.shoeboxbplist00
+_ybYJ
+__defaultOwner__com.apple.shoebox
+_y\f
+com.apple.shoebox
+/com.apple.shoebox
+_y0;*v
+
+iCloud.com.apple.mobilesafari__defaultOwner__
+_y0j6o6
+
+b(	
+-Gp__defaultOwner__iCloud.com.apple.mobilesafaribplist00
+__defaultOwner__iCloud.com.apple.mobilesafari
+_yB_*
+
+iCloud.com.apple.mobilesafari
+_yP0	
+GiCloud.com.apple.mobilesafari
+_yY'v)2
+
+Lbplist00
+ '+.U$null
+
+BRCServerChangeStateXNSObject(
+)*WNS.time#A
+!",-VNSDate,&!"/0_
+BRCServerPersistedState1&_
+_ym,+Z
+-/(__defaultOwner__com.apple.shoeboxbplist00
+ !%+U$null
+
+
+Ustate^lastSyncStatus_
+clientRequestID_
+lastSyncDownDate
+#$WNS.time#A
+$>1	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+NSMutableDictionary,.*\NSDictionary
+_y'#
+_y"^
+!3
+(
+-3(__defaultOwner__com.apple.TextInputbplist00
+$wR	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+com.apple.iBooks.cloudData__defaultOwner__
+l
+(
+-Ap__defaultOwner__com.apple.iBooks.cloudDatabplist00
+_y:o=5
+__defaultOwner__com.apple.iBooks.cloudData
+_yAt@#o p
+
+com.apple.iBooks.cloudData
+_yy[6~CI
+
+Acom.apple.iBooks.cloudData 
+_y<l?jri
+
+_y?T-'
+(
+	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+_ym7
+
+-G(__defaultOwner__iCloud.com.apple.mobilesafaribplist00
+8f(t
+
+-/x__defaultOwner__com.apple.shoeboxbplist00
+ !"&'./0158U$null
+
+
+
+
+[changeTokenUstate^lastSyncStatus_
+#$%_
+ChangeTokenData	
++-PB
+YD()*+Z$classnameX$classes_
+CKServerChangeToken,-_
+CKServerChangeTokenXNSObject
+34WNS.time#A
+()67VNSDate6-()9:_
+NSMutableDictionary9;-\NSDictionary
+_y#Fd
+
+sOC=A
+UbiquitousCardsa
+_y6gu
+q9
+
+_yHy'
+%&c
+
+_ylP
+_yacRL
+
+UbiquitousCards
+_yr,o
+_yD"Ql#
+
+dNv
+
+-A(__defaultOwner__com.apple.iBooks.cloudDatabplist00
+_y^7
+%	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+%q{Mv
+
+y	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+F^q
+
+iCloud.com.apple.iBooks.iTunesU__defaultOwner__
+_y"n/?
+
+-Kp__defaultOwner__iCloud.com.apple.iBooks.iTunesUbplist00
+X?y&
+
+__defaultOwner__iCloud.com.apple.iBooks.iTunesU
+iCloud.com.apple.iBooks.iTunesU
+_y:tY[
+
+KiCloud.com.apple.iBooks.iTunesU
+com.apple.SafariShared.History__defaultOwner__
+_y7H6
+-Ip__defaultOwner__com.apple.SafariShared.Historybplist00
+_yn)
+[MW
+
+__defaultOwner__com.apple.SafariShared.History
+_y+&/
+com.apple.SafariShared.History
+_y
+!]l
+Icom.apple.SafariShared.History"
+5IT5{
+
+iCloud.com.apple.passd__defaultOwner__
+_yA2S3	
+
+-9p__defaultOwner__iCloud.com.apple.passdbplist00
+_ygAekq
+
+__defaultOwner__iCloud.com.apple.passd
+iCloud.com.apple.passd
+9iCloud.com.apple.passd!
+SQLite format 3
+_yM~w*5
+
+!%+/048;U$null
+
+ YlsdStatusYrequestIDUtoken
+&'()Z$classnameX$classesVNSDate(*XNSObject
+,-._
+ChangeTokenData
+~~P4&'12_
+CKServerChangeToken3*_
+CKServerChangeToken&'56_
+BRCServerChangeState7*_
+BRCServerChangeState"
+9$#A
+&'<=_
+BRCServerPersistedState>*_
+_yX!v
+-3n__defaultOwner__com.apple.CloudDocsbplist00
+ !"&'./047U$null
+
+
+
+
+e^oz()*+Z$classnameX$classes_
+23WNS.time#A
+&+]
+()56VNSDate5-()89_
+NSMutableDictionary8:-\NSDictionary
+
+U
+	
+_y}M}
+
+Xr
+U
+-K(__defaultOwner__iCloud.com.apple.iBooks.iTunesUbplist00
+&P	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+_yQ=PJ
+
+-I(__defaultOwner__com.apple.SafariShared.Historybplist00
+_y_r;
+
+_y4|Wv
+	
+-9(__defaultOwner__iCloud.com.apple.passdbplist00
+_y)@b)
+
+_y!
+
+|
+	
+&$	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+_ykM$
+
+com.apple.mobilemail__defaultOwner__	+
+__defaultOwner__com.apple.mobilemail	+
+_yO%Rf2
+	
+-5p__defaultOwner__com.apple.mobilemailbplist00
+_y,NLj
+
+com.apple.mobilemail	
+5com.apple.mobilemail
+_y:'{H
+
+V
+	
+_yAU~
+
+-3x__defaultOwner__com.apple.CloudDocsbplist00
+_yJ3D
+iCloud.com.apple.DocumentsApp__defaultOwner__
+)
+V5O
+
+__defaultOwner__iCloud.com.apple.DocumentsApp
+)
+_y[`M
+	
+-Gp__defaultOwner__iCloud.com.apple.DocumentsAppbplist00
+_y	'R
+
+iCloud.com.apple.DocumentsApp
+
+GiCloud.com.apple.DocumentsApp
+_y	h
+
+iCloud.com.apple.shortcuts.runtime__defaultOwner__2
+__defaultOwner__iCloud.com.apple.shortcuts.runtime2
+$5
+	
+-Qp__defaultOwner__iCloud.com.apple.shortcuts.runtimebplist00
+iCloud.com.apple.shortcuts.runtime!
+_ytSyU7
+
+QiCloud.com.apple.shortcuts.runtime 
+
+LF%Q
+
+_y/)N
+-G(__defaultOwner__iCloud.com.apple.DocumentsAppbplist00
+_yUp/
+
+iCloud.is.workflow.my.workflows__defaultOwner__7
+_yn2
+__defaultOwner__iCloud.is.workflow.my.workflows7
+-Kp__defaultOwner__iCloud.is.workflow.my.workflowsbplist00
+_yI=Wu
+
+iCloud.is.workflow.my.workflows&
+KiCloud.is.workflow.my.workflows%
+_y:&V
+
+-5(__defaultOwner__com.apple.mobilemailbplist00
+_yh{4
+e51'h
+
+_y3De
+_y{
+
+-K(__defaultOwner__iCloud.is.workflow.my.workflowsbplist00
+_y"Fv%
+_yj:C{
+'f	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+_y]f){l
+_yVe~
+
+-Q(__defaultOwner__iCloud.com.apple.shortcuts.runtimebplist00
+_yI5
+
+_ygp
+
+']	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+_yuQ;
+
+'s\	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+n.,-
+_y\iu
+
+iCloud.com.apple.iBooks__defaultOwner__
+4
+__defaultOwner__iCloud.com.apple.iBooks
+4
+4H},
+
+-;p__defaultOwner__iCloud.com.apple.iBooksbplist00
+_y:I
+iCloud.com.apple.iBooks
+#
+;iCloud.com.apple.iBooks"
+-;(__defaultOwner__iCloud.com.apple.iBooksbplist00
+@	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+_yZDN$
+
+_yDxB
+
+
+	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+
+
+c
+
+iCloud.com.wearezeta.zclient.ios__defaultOwner__
+_yGB
+__defaultOwner__iCloud.com.wearezeta.zclient.ios
+-Mp__defaultOwner__iCloud.com.wearezeta.zclient.iosbplist00
+_y[k
+
+iCloud.com.wearezeta.zclient.ios
+_ykIf
+
+MiCloud.com.wearezeta.zclient.ios
+_y8
+NSQLite format 3
+_y%!p
+
+
+
+"
+c
+
+iCloud.com.gma.water.sort.puzzle.cloud.save__defaultOwner__
+c?8p
+
+__defaultOwner__iCloud.com.gma.water.sort.puzzle.cloud.save
+-cp__defaultOwner__iCloud.com.gma.water.sort.puzzle.cloud.savebplist00
+iCloud.com.gma.water.sort.puzzle.cloud.save
+ciCloud.com.gma.water.sort.puzzle.cloud.save#
+_y=@SQLite format 3
+_yaY
+_yL-0]
+
+
+^d
+_yVk
+-M(__defaultOwner__iCloud.com.wearezeta.zclient.iosbplist00
+p	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+_yG]a
+_yz5
+_ykv
+_y	<
+-c(__defaultOwner__iCloud.com.gma.water.sort.puzzle.cloud.savebplist00
+!
+j
+
+_y<Hd@S+
+
+5mL	&'()Z$classnameX$classesVNSDate(*XNSObject&',-_
+_yj8~]
+
+_yJ?t?MSQLite format 3
+_ySQLite format 3
+OSQLite format 3
+_yVc>6XSQLite format 3
+_y]vy
+LlSQLite format 3
+9$#Ai%'g
+
+_y[I
+34WNS.time#Ai%'g
+
+LSQLite format 3
+qY	SQLite format 3

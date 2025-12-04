@@ -1,0 +1,723 @@
+
+<style>
+
+.whyTracfone-menusubtitle p{padding: 0 !important;}
+	.navbar.yamm .yamm-content ul.navvertical {
+		background-image: url('https://media.tracfone.com/wps/wcm/connect/99af455d-7cbb-43b3-af9f-e9a9da601df2/gradient_vertical.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-99af455d-7cbb-43b3-af9f-e9a9da601df2-m1n89jT');
+	}
+	.yamm.navbar .nav.secondary-nav li.myaccount a {
+		background: url('https://media.tracfone.com/wps/wcm/connect/5f122fbe-0dc1-499b-b68c-dddc38f39dc8/social_icon_new.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-5f122fbe-0dc1-499b-b68c-dddc38f39dc8-m5c.u19') no-repeat;
+		background-position: 5px -377px;
+	}
+	.yamm.navbar .nav.secondary-nav li.myaccount a:hover {
+		background: url('https://media.tracfone.com/wps/wcm/connect/5f122fbe-0dc1-499b-b68c-dddc38f39dc8/social_icon_new.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-5f122fbe-0dc1-499b-b68c-dddc38f39dc8-m5c.u19') no-repeat;
+		background-position: 5px -227px;
+	}
+	.cd-nav li#mobilenav-Home, .cd-nav li#mobilenav-myaccount, .cd-nav li.sub-nav, .cd-nav li.dl-back {
+		background: url('https://media.tracfone.com/wps/wcm/connect/5f122fbe-0dc1-499b-b68c-dddc38f39dc8/social_icon_new.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-5f122fbe-0dc1-499b-b68c-dddc38f39dc8-m5c.u19') scroll right 10px top -320px no-repeat;
+	}
+	.cd-nav li#mobilenav-myaccount {
+		background-position: right -10px top -545px;
+	}
+	.cd-nav  li:first-child{
+		border-bottom:1px solid #fff;
+		list-style:none;
+		padding-top:20px;
+	}
+
+	.cd-nav  #mobile_search_bar {
+		
+		margin-top:0;
+		margin-bottom:15px;
+	}
+
+	.mobile-navwrapper span.menulabel {
+		color: #000;
+		font-family: Gotham Rounded medium;
+		font-size: 12px;
+		font-weight: 700;
+		line-height: 46px;
+		text-align: right;
+		position: absolute;
+		right: 60px;
+	}
+	.plan_wrapper .st-home-plans .plan_wrapper input[type="text"] {
+		width: 100%;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		border-right: 0;
+	}
+
+	.st-home-plans .form-inline .form-group input {
+		margin: 0px 0;
+	}
+
+	.st-home-plans  .plan_wrapper    input[type="text"] {
+		width:100%
+	}
+
+        .navigation .module_title{
+
+	    min-height: 44px;
+      }
+.navigation .module_title h2{
+    margin: 0;
+    color: #fff;
+    font-size: 21px;
+    line-height: 44px;
+    text-align: center;
+}
+
+a#lnk_help_text:focus  div.popover,a#lnk_tfhome_myaccount:focus{
+	outline: dotted thin;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+}
+.carousel_wrapper button:focus{
+	outline: #7f7f7f dotted 1px;
+    outline: -webkit-focus-ring-color auto 5px;
+    outline-offset: -2px;
+}
+
+/*styles added for accessbiity issues reported on 19th may 17*/
+.introduction h2 {
+    font-size: 20px;
+}
+.introduction h2, .whytracfone .title {
+    color: #004da1;
+    font-weight: 600;
+    font-family: Gotham Rounded Medium;
+}
+.center, .circle, .get-started, .introduction h2 {
+    text-align: center;
+}
+
+
+@media (max-width: 420px){
+.wide-banner-text div h1 {
+    font-size: 21px;
+}
+}
+
+@media (min-width: 768px){
+.technicalsupport .center h2 {
+    min-height: 70px;
+}
+.technicalsupport .center h2, .whytracfone.howitworks .center h2 {
+    width: 179px;
+}
+}
+@media (max-width: 767px){
+.technicalsupport .center h2, .whytracfone .center h2 {
+    font-size: 22px;
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+}
+}
+
+@media (max-width: 1060px) and (min-width: 768px) {
+.wide-banner-text div h1 {
+    font-size: 21px;
+}
+}
+/*end*/
+
+/* Accessibility skip to content link */
+#skipnav { }
+
+.offscreen {
+    position: absolute;
+    left: -999px;
+    overflow: hidden;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    z-index: 10;
+}
+
+a.offscreen:hover, a.offscreen:focus, a.offscreen:active {
+    left: 25px;
+    top: 5px;
+    width: auto;
+    height: auto;
+    outline: 3px solid #f1ca00;
+}
+
+.navbar.yamm .whytw-footer div{background: #e3e9ef;margin-bottom: -14px;border-radius: 0 0 0px 0px;}
+.navbar.yamm .whytw-footer h5 {
+    line-height: 47px; 
+    color: #000;
+    font-weight: bold; 
+    font-size: 1.2rem;     
+}
+.navbar.yamm .whytw-footer .btn.btn-primary{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 30px;
+    max-width: 100%;
+   background-color:  #00b09a !important; 
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700 !important;
+
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+}
+.navbar.yamm .whytw-footer .btn.btn-primary.btn-block {display: block;width: auto;}
+.navbar.yamm .whytw-footer .btn.btn-primary:hover, 
+.navbar.yamm .whytw-footer .btn.btn-primary:active, 
+.navbar.yamm .whytw-footer .btn.btn-primary:focus { 
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    outline: none;
+}
+.navbar.yamm .whytw-footer{
+margin-left:-29px;
+margin-right:-29px;
+}
+.navbar.yamm .whytw-footer div.col-sm-9{
+padding-left: 10px !important;
+    height: 65px;
+}
+.navbar.yamm .whytw-footer div.col-sm-3{
+padding-right: 10px !important;
+    height: 65px;
+}
+.mainContentLanding{
+font-size:0px;
+}
+</style>
+<a href ng-click="skipFocus('mainContent')" id=skipnav class=offscreen aria-label="Click here to skip to main content">Skip to main content</a>
+<header class=cd-main-header>
+<div class="logo col-md-3 col-xs-7 col-sm-3 visible-print-block">
+<img id=img_total_wireless_print src="https://media.tracfone.com//wps/wcm/connect/2d58730f-b310-4baf-9807-d37bdb501abe/header-tw-ic.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-2d58730f-b310-4baf-9807-d37bdb501abe-murzmt6" class=img-responsive alt="Total Wireless">
+</div>
+<div class="topbar hidden-xs">
+<div class=page-container>
+<div class=row>
+<div class="logo col-md-3 col-xs-7 col-sm-3">
+<a title="" target="" href="/home" id=lnk_desktop_home data-eventctx="home page" data-eventcta=home>
+<img id=img_total_wireless data-src="https://media.tracfone.com//wps/wcm/connect/2d58730f-b310-4baf-9807-d37bdb501abe/header-tw-ic.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-2d58730f-b310-4baf-9807-d37bdb501abe-murzmt6" class=img-responsive alt="Total Wireless">
+</a>
+</div>
+<div class="col-md-3 col-sm-3 hidden-print">
+<div class=helplogo ng-if="!is_activation && !updateBrowser">
+<a id=lnk_help_text tabindex=-1 data-eventctx="help text" data-eventcta="help text" target=_blank href="http://dsweb.totalwireless.com/611611/help/" class=hidden-xs>
+<div class="popover top fade in inline-tooltip ">
+<div class=down-arrow></div>
+<div class=popover-inner>
+<div class=popover-content>
+<div tabindex=0 class=tf-popover><div>FOR ANSWERS</div> TEXT<sup>∆</sup><span> HELP</span> TO <span>611611</span></div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="col-md-3  pull-right col-sm-4 col-xs-5 hidden-print">
+<div class="find_store clearfix">
+<a href="/findastore" aria-label="Click here to Find a Store" ng-if="!updateBrowser">find a store</a>
+<a href="javascript:void(0);" ng-click="changeLanguage('es_ES')" id=oo_locale class=language tab-index=0 data-eventctx=spanish data-eventcta=spanish hide-on-event=apn-settings-received>español</a>
+</div>
+<div class=hidden-xs id=search_bar ng-controller=searchController tab-index=1 ng-if="!updateBrowser">
+<form ng-submit="performSearch()" method=POST>
+<div class="input-group float-text">
+<input aria-label="search website" ng-model=asyncSelected placeholder='search website' uib-typeahead="result as result.title for result in getLocation($viewValue)" typeahead-loading=loadingLocations typeahead-no-results=noResults typeahead-focus-first=false class="form-control search-query" typeahead-on-select="selectedsearch($item, $model, $label, $event)" required>
+<span class=input-group-btn>
+<button title=Search id=btn_search data-eventctx=performSearch data-eventcta=performSearch class="btn btn-danger" type=button ng-click="performSearch()">
+<span class="icon icon-search"></span>
+</button>
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation  hidden-xs hidden-print" ng-if="!is_activation && !updateBrowser">
+<div class="navbar yamm navbar-default">
+<div class=navbar-inner>
+<div class=page-container>
+<div class=navbar-header>
+<button id=btn_navbar-header data-eventctx="navbar header" data-eventcta="navbar header" type=button data-toggle=collapse data-target="#navbar-collapse-1" class=navbar-toggle>
+<span class="icon icon-bar"></span><span class="icon icon-bar"></span><span class="icon icon-bar"></span>
+</button>
+<a href="#" class=navbar-brand>Yamm Megamenu</a>
+</div>
+<div id=navbar-collapse-1 class="navbar-collapse collapse" role=navigation>
+<ul role=menu class="nav navbar-nav primary-nav">
+<li role=menuitem class="dropdown " id=SHOP> <a href="/shop" class=dropdown-toggle id=lnk_shop_menu data-eventctx="shop page" data-eventcta=shop>shop</a>
+<ul role=menu class=dropdown-menu>
+<li>
+<div class=yamm-content>
+<div class=row>
+<h6></h6>
+<h6>Shop for the latest service plans, phones, hotspots, or bring your own device.</h6>
+<ul role=menu class="col-sm-2 list-unstyled" id="nav-service plans">
+<li aria-hidden=true role=presentation>
+<a data-eventctx="service plans" data-eventcta="service plans" id="lnk_service plans" href="/serviceplan?session=reset" tabindex=-1><img id="img_service plans" alt="service plans" data-src="https://media.tracfone.com/wps/wcm/connect/c223cd46-cefd-4d91-bcf1-6f54422ff075/retention-buy-ic%402x.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-c223cd46-cefd-4d91-bcf1-6f54422ff075-n8kU3Um" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/serviceplan?session=reset" alt="prepaid plans" id=lnk_shop_airtime_serviceplans data-eventctx="Airtime and Service Plans" data-eventcta="Airtime and Service Plans">service plans</a></p>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-Phones>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=Phones data-eventcta=Phones id=lnk_Phones href="https://shop.totalwireless.com/shop/en/totalwireless/phones" tabindex=-1><img id=img_Phones alt=Phones data-src="https://media.tracfone.com/wps/wcm/connect/6903218e-b02f-474f-a8be-c91107f96fde/ico-phone-new.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-6903218e-b02f-474f-a8be-c91107f96fde-m3WJEPK" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="https://shop.totalwireless.com/shop/en/totalwireless/phones" id=lnk_shop_phones data-eventctx=Phones data-eventcta=Phones>phones</a></p>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id="nav-Bring your Own Phone">
+<li aria-hidden=true role=presentation>
+<a data-eventctx="Bring your Own Phone" data-eventcta="Bring your Own Phone" id="lnk_Bring your Own Phone" href="/keep-your-own-phone" tabindex=-1><img id="img_Bring your Own Phone" alt="Bring your Own Phone" data-src="https://media.tracfone.com/wps/wcm/connect/6c98c03d-f1ec-4728-b801-8b6884e4ce63/ico-phone-byop.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-6c98c03d-f1ec-4728-b801-8b6884e4ce63-m3WJ.g9" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/keep-your-own-phone" id=lnk_shop_byop data-eventctx="Bring your Own Phone" data-eventcta="Bring your Own Phone">buy sim card/BYOP</a></p>
+</li>
+</ul>
+<ul role=menu class="col-sm-3 list-unstyled navvertical">
+<li role=menuitem id="nav-Shop Reconditioned iPhones">
+<a href="http://www.astocked.com/" id=lnk_ild data-eventctx="International Calling" data-eventcta="International Calling">shop reconditioned iPhones</a></li><li role=menuitem id=nav-ild>
+<a href="/shop/ild" id=lnk_ild data-eventctx="International Calling" data-eventcta="International Calling">international calling card</a></li><li role=menuitem id="nav-Phone Payment Plan">
+<a href="https://shop.totalwireless.com/shop/en/totalwireless/lease-deals" target=_self id=lnk_payment_plan data-eventctx="Payment Plan" data-eventcta="Payment Plan">phone payment plan</a></li><li role=menuitem id="nav-Total Wireless Cloud">
+<a href="/cloud" id=lnk_shop_vert_cloud data-eventctx="Total Wireless cloud" data-eventcta="Total Wireless cloud">total wireless cloud</a></li><li role=menuitem id=nav-Extras>
+<a href="http://extras.totalwireless.com/en/happenings" target=_blank id=lnk_shop_vert_extras data-eventctx="Total Wireless Extras" data-eventcta="Total Wireless Extras">extras</a></li><li role=menuitem id=nav-shopall>
+<a href="/shop" id=lnk_shop_all data-eventctx="Shop All" data-eventcta="Shop All" aria-label="Shop All Total Wireless">shop all</a></li><li role=menuitem id="nav-total wireless stores">
+<a href="https://locations.totalwireless.com/" target=_blank id=lnk_total_wireless_stores data-eventctx="total wireless stores" data-eventcta="total wireless stores" aria-label="total wireless stores">total wireless stores</a></li><li role=menuitem id="nav-Protect Your Phone">
+<a href="/hpp/landing" id=lnk_ild data-eventctx="International Calling" data-eventcta="International Calling">Protect Your Phone</a>	</div>
+</div>
+</li>
+</ul>
+</li>
+<li role=menuitem class="dropdown " id=REFILL> <a href="/collectminpinpromo?session=reset" class=dropdown-toggle id=lnk_REFILL data-eventctx="Refill or Add" data-eventcta=Refill>refill</a>
+<ul role=menu class=dropdown-menu>
+<li>
+<div class=yamm-content>
+<div class=row>
+<h6></h6>
+<h6>Refill your plan or sign up for auto-refill.</h6>
+<ul role=menu class="col-sm-6 list-unstyled" id=nav-ReUp>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=ReUp data-eventcta=ReUp id=lnk_ReUp href="/collectminpinpromo?session=reset" tabindex=-1><img id=img_ReUp alt=ReUp data-src="https://media.tracfone.com/wps/wcm/connect/8c2a3942-2d4a-4221-9e23-046eb0235b0d/icp-phone-refillnow.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-8c2a3942-2d4a-4221-9e23-046eb0235b0d-m3WKSXf" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/collectminpinpromo?session=reset" id=lnk_refill_now data-eventctx="Refill Now" data-eventcta="Refill Now">refill now</a></p>
+</li>
+</ul>
+<ul role=menu class="col-sm-6 list-unstyled" id=nav-Auto-Reup>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=Auto-Reup data-eventcta=Auto-Reup id=lnk_Auto-Reup href="/autorefill?session=reset" tabindex=-1><img id=img_Auto-Reup alt=Auto-Reup data-src="https://media.tracfone.com/wps/wcm/connect/c3e949a1-c2a0-472a-8e20-c2828a3f90c1/ico-ar.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-c3e949a1-c2a0-472a-8e20-c2828a3f90c1-m3WL20F" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/autorefill?session=reset" id=lnk_refill_autoreup data-eventctx="Auto Reup" data-eventcta="Auto Reup">auto-refill</a></p>
+</li>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li role=menuitem class="dropdown " id=ACTIVATE> <a href="/activation/selectdevice" class=dropdown-toggle id=lnk_activate_menu data-eventctx=Activate data-eventcta=Activate>activate</a>
+<ul role=menu class=dropdown-menu>
+<li>
+<div class=yamm-content>
+<div class=row>
+<h6></h6>
+<h6>Activate your phone now!</h6>
+<ul role=menu class="col-sm-6 list-unstyled" id=nav-Activate>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=Activate data-eventcta=Activate id=lnk_Activate href="/activation/selectdevice" tabindex=-1><img id=img_Activate alt=Activate data-src="https://media.tracfone.com/wps/wcm/connect/7b742bd7-f63d-4546-8d29-1ad7615eaac3/ico-phone-activate.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-7b742bd7-f63d-4546-8d29-1ad7615eaac3-m3WLgMC" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/activation/selectdevice" id=lnk_tfhome_activate data-eventctx=Activate data-eventcta=Activate>activate</a></p>
+</li>
+</ul>
+<ul role=menu ng-if=!isLoggedIn() class="col-sm-6 list-unstyled" id="nav-Add a Line">
+<li aria-hidden=true role=presentation>
+<a data-eventctx="Add a Line" data-eventcta="Add a Line" id="lnk_Add a Line" href="/activation/createaclogin/activation!selectdevice?loginLanding=true&amp;addLine=true" tabindex=-1><img id="img_Add a Line" alt="Add a Line" data-src="https://media.tracfone.com/wps/wcm/connect/78fed7df-5ada-47d8-befe-8890c654e13f/ico-phone-additional-add.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-78fed7df-5ada-47d8-befe-8890c654e13f-m6wUu06" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/activation/createaclogin/activation!selectdevice?loginLanding=true&amp;addLine=true" id=lnk_add_a_line data-eventctx="Add a Line" data-eventcta="Add a Line">add a line</a></p>
+</li>
+</ul>
+<ul role=menu ng-if=isLoggedIn() class="col-sm-6 list-unstyled" id="nav-Authenticated - Add a Line">
+<li aria-hidden=true role=presentation>
+<a data-eventctx="Authenticated - Add a Line" data-eventcta="Authenticated - Add a Line" id="lnk_Authenticated - Add a Line" href="/activation/selectdevice?addLine=true" tabindex=-1><img id="img_Authenticated - Add a Line" alt="Authenticated - Add a Line" data-src="https://media.tracfone.com/wps/wcm/connect/f1c52550-e618-4318-9ce4-44afe24aea36/ico-phone-additional-add.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-f1c52550-e618-4318-9ce4-44afe24aea36-murzoR7" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/activation/selectdevice?addLine=true" id=lnk_add_a_line data-eventctx="Add a Line" data-eventcta="Add a Line">add a line</a></p>
+</li>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li role=menuitem class="dropdown yamm-fw" id=HELP> <a href="/techsupport" class=dropdown-toggle id=lnk_help data-eventctx="help page" data-eventcta=help>help</a>
+<ul role=menu class=dropdown-menu>
+<li>
+<div class=yamm-content>
+<div class=row>
+<h6></h6>
+<h6>Looking for help? We have plenty right here.</h6>
+<ul role=menu class="col-sm-2 list-unstyled" id="nav-Check Your Balance">
+<li aria-hidden=true role=presentation>
+<a data-eventctx="Check Your Balance" data-eventcta="Check Your Balance" id="lnk_Check Your Balance" href="/balanceinquiry" tabindex=-1><img id="img_Check Your Balance" alt="Check Your Balance" data-src="https://media.tracfone.com/wps/wcm/connect/1eee898f-ee24-4ebc-9e08-4e0743d56c7a/ico-phone-checkbalance.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-1eee898f-ee24-4ebc-9e08-4e0743d56c7a-m3WLDQ6" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/balanceinquiry" id=lnk_CheckYourBalance data-eventctx="Check Your Balance" data-eventcta="Check Your Balance">check your balance / service end date</a></p>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-FAQ>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=FAQ data-eventcta=FAQ id=lnk_FAQ href="http://support.totalwireless.com/" tabindex=-1><img id=img_FAQ alt=FAQ data-src="https://media.tracfone.com/wps/wcm/connect/27e4ade1-bc3d-4af6-943a-3379eff8cdb9/ico-faqs02.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-27e4ade1-bc3d-4af6-943a-3379eff8cdb9-m5i.MaY" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="http://support.totalwireless.com/" target=_blank id=lnk_faq_desktop data-eventctx=FAQ data-eventcta=FAQ>FAQs</a></p>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-whytotalwireless>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=whytotalwireless data-eventcta=whytotalwireless id=lnk_whytotalwireless href="/why" tabindex=-1><img id=img_whytotalwireless alt=whytotalwireless data-src="https://media.tracfone.com/wps/wcm/connect/c3a00d31-dccc-4dad-aaf6-e99dc5a68028/TW_Digital_5G_Launch_Icon_146x146_ENG+%281%29.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-c3a00d31-dccc-4dad-aaf6-e99dc5a68028-nu2oiAv" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/why" id=lnk_why_TW data-eventctx="Why Total Wireless" data-eventcta="Why Total Wireless">why total wireless</a></p>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id="nav-Check Compatibility">
+<li aria-hidden=true role=presentation>
+<a data-eventctx="Check Compatibility" data-eventcta="Check Compatibility" id="lnk_Check Compatibility" href="/activation/byop/collectesn?carrier=VZW" tabindex=-1><img id="img_Check Compatibility" alt="Check Compatibility" data-src="https://media.tracfone.com/wps/wcm/connect/bb1aa8e9-d9df-4104-b8b9-145e449c11af/ico-phone-settings-help.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-bb1aa8e9-d9df-4104-b8b9-145e449c11af-m3WMgEP" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="/activation/byop/collectesn?carrier=VZW" id=lnk_check_compatibility data-eventctx="Check Compatibility" data-eventcta="Check Compatibility">check compatibility</a></p>
+</li>
+</ul>
+<ul role=menu class="col-sm-3 list-unstyled navvertical">
+<li role=menuitem id="nav-611611 for Self Help">
+<a href="http://dsweb.totalwireless.com/611611/help/" target=_blank id=lnk_selfhelp data-eventctx="611611 for Self Help" data-eventcta=helptext>611611 for self help</a></li><li role=menuitem id="nav-Coverage Map">
+<a href="/coverage/check" id=lnk_coverage data-eventctx="Coverage Map" data-eventcta="Coverage Map">coverage map</a></li><li role=menuitem id="nav-Tutorials and User Manuals">
+<a href="http://totalwireless.devicebits.com/devicepicker" target=_blank id=lnk_tutorials data-eventctx="Tutorials and User Manuals" data-eventcta=tutorials>tutorials &amp; user manuals</a></li><li role=menuitem id="nav-Track My Order">
+<a href="https://shop.totalwireless.com/shop/TFOrderStatusForm?storeId=20003&amp;urlRequestType=Base&amp;langId=-1&amp;catalogId=12051" target=_blank id=lnk_trackorder data-eventctx="Track My Order" data-eventcta="Track My Order">track my order</a></li><li role=menuitem id="nav-Contact Us">
+<a href="/contactus" id=lnk_contact data-eventctx="Contact Us" data-eventcta="Contact Us">contact us</a></li><li role=menuitem id="nav-Transfer Service">
+<a href="/activation/selectdevice" id=lnk_transfer_service data-eventctx="Transfer service" data-eventcta="Transfer service">transfer service</a></li><li role=menuitem id="nav-Wifi Calling">
+<a href="/wic/collectdevice">WiFI - Calling</a></li><li role=menuitem id="nav-Network Changes">
+<a href="https://www.totalwireless.com/info/network-changes.html" target=_blank id=lnk_volte data-eventctx="volte landing page" data-eventcta=volte>VoLTE Network Changes</a>	</div>
+</div>
+</li>
+</ul>
+</li><ul role=menu class=dropdown-menu>
+<li>
+<div class=yamm-content>
+<div class=row>
+<h6></h6>
+<h6></h6>
+<ul role=menu class="col-sm- list-unstyled" id="nav-MY ACCOUNT">
+<li aria-hidden=true role=presentation>
+<a data-eventctx="MY ACCOUNT" data-eventcta="MY ACCOUNT" id="lnk_MY ACCOUNT" href="javascript:void(0);" tabindex=-1><img id="img_MY ACCOUNT" alt="MY ACCOUNT" data-src="https://media.tracfone.com/wps/wcm/connect/d4909fb4-5829-416b-bec7-c38d03e5bad1/social_icons.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-d4909fb4-5829-416b-bec7-c38d03e5bad1-m3HSj67" class=img-responsive></a>
+</li>
+<li>
+<p class=sectiontitle><a href="javascript:void(0);" ng-mouseenter="onMouseEnterMyAccount()" ng-mouseleave="onMouseLeaveMyAccount()" ng-click="myAccount()" class=dropdown-toggle id=lnk_tfhome_myaccount data-eventctx="MY ACCOUNT" data-eventcta="MY ACCOUNT">my account</a></p>
+</li>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li role=menuitem class="dropdown " id=DEALS> <a href="https://shop.totalwireless.com/shop/en/totalwireless/deals" title=DEALS class=dropdown-toggle id=lnk_DEALS data-eventctx=Deals data-eventcta=Deals>deals</a>
+<li role=menuitem class="dropdown yamm-fw" id=WhyTW> <a href="/why" class=dropdown-toggle id=lnk_whytotalwireless_menu data-eventctx="Why TotelWireless" data-eventcta="Why TotelWireless">why total wireless</a>
+<ul role=menu class=dropdown-menu>
+<li>
+<div class=yamm-content>
+<div class=row>
+<h6></h6>
+<h6></h6>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-WhyTotalWireless>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=WhyTotalWireless data-eventcta=WhyTotalWireless id=lnk_WhyTotalWireless href="/why/do-amazing" tabindex=-1><img id=img_WhyTotalWireless alt=WhyTotalWireless data-src="https://media.tracfone.com/wps/wcm/connect/5456e96b-772d-4c95-8161-3b0eecc781d5/DoAmazing_Icon.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-5456e96b-772d-4c95-8161-3b0eecc781d5-nI.UiNq" class=img-responsive></a>
+</li>
+<li>
+<a href="/why/do-amazing">
+<span style="font-size: 14px;text-decoration: none;margin: 15px 0 10px 0;display:block;font-weight:850">do amazing </span>
+<span style=" padding: 0;font-size: .8rem;" role=presentation>discover how Total Wireless helps you get the most out of life.</span></a>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-NoContracts>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=NoContracts data-eventcta=NoContracts id=lnk_NoContracts href="/why/no-contracts" tabindex=-1><img id=img_NoContracts alt=NoContracts data-src="https://media.tracfone.com/wps/wcm/connect/ee533240-f75c-4bc6-9669-47477c2e4801/no-contracts.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-ee533240-f75c-4bc6-9669-47477c2e4801-mpr-1sq" class=img-responsive></a>
+</li>
+<li>
+<a href="/why/no-contracts">
+<span style="font-size: 14px;text-decoration: none;margin: 15px 0 10px 0;display:block;font-weight:850">no contracts </span>
+<span style=" padding: 0;font-size: .8rem;" role=presentation>Get what you need with no contracts, no worries – all at a price you wouldn’t expect</span></a>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-BestCoverage>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=BestCoverage data-eventcta=BestCoverage id=lnk_BestCoverage href="/why/coverage" tabindex=-1><img id=img_BestCoverage alt=BestCoverage data-src="https://media.tracfone.com/wps/wcm/connect/ca176e2d-cf16-4568-8c7c-47a246e00c35/TW_Digital_5G_Launch_Icon_146x146_ENG.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-ca176e2d-cf16-4568-8c7c-47a246e00c35-nRVlwiM" class=img-responsive></a>
+</li>
+<li>
+<a href="/why/coverage">
+<span style="font-size: 14px;text-decoration: none;margin: 15px 0 10px 0;display:block;font-weight:850">best coverage </span>
+<span style=" padding: 0;font-size: .8rem;" role=presentation>Connect with the nation’s largest most reliable network, now with 5G nationwide.</span></a>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-MonthlyPaymentPlans>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=MonthlyPaymentPlans data-eventcta=MonthlyPaymentPlans id=lnk_MonthlyPaymentPlans href="/why/phone-payment-plan" tabindex=-1><img id=img_MonthlyPaymentPlans alt=MonthlyPaymentPlans data-src="https://media.tracfone.com/wps/wcm/connect/c9f8d76d-fb9c-4f0d-bc3d-ca39f03e94be/monthly.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-c9f8d76d-fb9c-4f0d-bc3d-ca39f03e94be-nI.Qpe6" class=img-responsive></a>
+</li>
+<li>
+<a href="/why/phone-payment-plan">
+<span style="font-size: 14px;text-decoration: none;margin: 15px 0 10px 0;display:block;font-weight:850">phone payment plan </span>
+<span style=" padding: 0;font-size: .8rem;" role=presentation>Get the latest smartphones and plans for one low monthly price.</span></a>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-BestPhones>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=BestPhones data-eventcta=BestPhones id=lnk_BestPhones href="/why/phones" tabindex=-1><img id=img_BestPhones alt=BestPhones data-src="https://media.tracfone.com/wps/wcm/connect/e6718b18-8029-488d-b66d-918bd782f443/best-phones.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-e6718b18-8029-488d-b66d-918bd782f443-mqISeX4" class=img-responsive></a>
+</li>
+<li>
+<a href="/why/phones">
+<span style="font-size: 14px;text-decoration: none;margin: 15px 0 10px 0;display:block;font-weight:850">best phones </span>
+<span style=" padding: 0;font-size: .8rem;" role=presentation>Find 'the one' for you or keep the phone you love.</span></a>
+</li>
+</ul>
+<ul role=menu class="col-sm-2 list-unstyled" id=nav-BestDeal>
+<li aria-hidden=true role=presentation>
+<a data-eventctx=BestDeal data-eventcta=BestDeal id=lnk_BestDeal href="/why/service-plans" tabindex=-1><img id=img_BestDeal alt=BestDeal data-src="https://media.tracfone.com/wps/wcm/connect/5e5d042f-d297-4914-bf99-e8d26bde5f51/best-deal.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-5e5d042f-d297-4914-bf99-e8d26bde5f51-nI.QdCB" class=img-responsive></a>
+</li>
+<li>
+<a href="/why/service-plans">
+<span style="font-size: 14px;text-decoration: none;margin: 15px 0 10px 0;display:block;font-weight:850">no-contract wireless plans </span>
+<span style=" padding: 0;font-size: .8rem;" role=presentation>See how our no-contract plans make it easy to stay connected at prices you’ll love.</span></a>
+</li>
+</ul>
+<footer class="whytw-footer clearfix">
+<div class=col-sm-9>
+<h5 class=branded-text>
+move to a better place with Total Wireless
+</h5>
+</div>
+<div class=col-sm-3>
+<a href="/how-it-works" class="btn btn-primary btn-lg btn-block">how it works</a>
+</div>
+</footer>
+</div>
+</div>
+</li>
+</ul>
+</li>
+<li role=menuitem class="dropdown " id=JOINREWARDS> <tf-rewards ng-if="$root.isLRPLive"></tf-rewards></li>
+</ul>
+<ul class="nav secondary-nav"><li class="dropdown yamm-fullwidth myaccount">
+<a href="javascript:void(0);" ng-mouseenter="onMouseEnterMyAccount()" ng-mouseleave="onMouseLeaveMyAccount()" ng-click="myAccount()" class=dropdown-toggle id=lnk_tfhome_myaccount data-eventctx="MY ACCOUNT" data-eventcta="MY ACCOUNT">my account</a>
+</li></ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation hidden-xs hidden-print" ng-if="is_activation && !updateBrowser">
+<div class="navbar yamm navbar-default">
+<div class=module_title>
+<h2>Activation</h2>
+</div>
+</div>
+</div>
+<div class="m-topbar visible-xs hidden-print" ng-if="!is_activation && !updateBrowser">
+<ul><li class="" id=mobile-topmenu-SHOP>
+<a href="/shop" id=lnk_shop_mob data-eventctx=Shop data-eventcta=Shop>SHOP</a>
+</li><li class="" id=mobile-topmenu-REFILL>
+<a href="/collectminpinpromo?session=reset" id=lnk_REUP_topnav data-eventctx=REUP data-eventcta=REUP>REFILL</a>
+</li><li class="" id=mobile-topmenu-ACTIVATE>
+<a href="/activation/selectdevice" id=lnk_activate_mob data-eventctx=Activate data-eventcta=Activate>ACTIVATE</a>
+</li><li class="" id=mobile-topmenu-HELP>
+<a href="/techsupport" id=lnk_help_mob data-eventctx=Help data-eventcta=Help>HELP</a>
+</li></ul>
+</div>
+<div class="mobile-navwrapper  visible-xs hidden-print">
+<div class=container>
+<div class=row>
+<div class="col-xs-3 pull-right hidden-print" id=mobilemenunavigation ng-if=updateBrowser>
+<ul class=cd-header-buttons>
+<li><a href="javascript:void(0);" ng-click="changeLanguage('es_ES')" id=oo_locale class=language tab-index=0 data-eventctx=spanish data-eventcta=spanish hide-on-event=apn-settings-received>español</a></li>
+</ul>
+</div>
+<div class="col-xs-3 pull-right hidden-print" id=mobilemenunavigation ng-if="!is_activation && !updateBrowser">
+<ul class=cd-header-buttons>
+<li role=presentation><a data-eventctx="mobile menu navigation" class=cd-nav-trigger data-eventcta=menu id=mobile-menu-nav role=button ng-init="ariaExpandVal=false;" ng-click="ariaExpandVal=!ariaExpandVal;" aria-expanded="{{ariaExpandVal}}">Menu<span></span></a></li>
+</ul>
+<nav class="cd-nav hidden-print visible-xs">
+<ul id=cd-primary-nav class="cd-primary-nav hidden-print is-fixed noprint">
+<li>
+<div id=mobile_search_bar ng-controller=searchController>
+<form method=POST id=mobile_search_form>
+<div class=input-group>
+<input id=search-field-mobile ng-model=asyncSelected placeholder=Search uib-typeahead="result as result.title for result in getLocation($viewValue)" typeahead-loading=loadingLocations typeahead-no-results=noResults typeahead-focus-first=false class="form-control search-query" typeahead-on-select="selectedsearch($item, $model, $label, $event)" required>
+<span class=input-group-btn>
+<button data-eventctx="perform search" data-eventcta="perform search" class="btn btn-danger" type=button name=sa id=google_search_button ng-click="performSearch()">
+<span class="icon icon-search"></span>
+</button>
+</span>
+</div>
+</form>
+</div>
+</li>
+<li class="" id=mobilenav-DEALS>
+<a href="https://shop.totalwireless.com/shop/en/totalwireless/deals" title="class=&quot;dropdown-toggle&quot; id=&quot;deals&quot; data-eventctx=&quot;Deals&quot; data-eventcta=&quot;Deals&quot;">deals</a>
+</li>
+<li class="" id=mobilenav-Home>
+<a href="/home" id=lnk_simplemobile_home data-eventctx="Simple Mobile Home" data-eventcta="Simple Mobile Home">HOME</a>
+</li>
+<li class="" id=mobilenav-myaccount ng-show="!isLoggedIn()">
+<a href="javascript:void(0);" ng-mouseenter="onMouseEnterMyAccount()" ng-mouseleave="onMouseLeaveMyAccount()" ng-click="myAccount()" id=lnk_tfhome_myaccount_mob data-eventctx="MY ACCOUNT" data-eventcta="MY ACCOUNT">MY ACCOUNT</a>
+</li>
+<li class=has-children id=mobilenav-login ng-show="isLoggedIn()">
+<a href="" class=dropdown-toggle id=lnk_myaccount_mob>MY ACCOUNT</a>
+<ul class="cd-secondary-nav is-hidden">
+<li class=go-back>
+<a>MY ACCOUNT</a>
+</li>
+<li class="" id=mobilenav-myacc_loggedin>
+<my-account-nav signout="logout()"></my-account-nav>
+</li>
+</ul>
+</li>
+<li class=has-children id=mobilenav-SHOP>
+<a href="/shop" class=dropdown-toggle id=shop data-eventctx="shop page" data-eventcta=shop>SHOP</a>
+<ul class="cd-secondary-nav is-hidden">
+<li class=go-back><a>SHOP</a></li>
+<li class="" id=mobilenav-Plans>
+<a href="/serviceplan?session=reset" id=lnk_shop_airtime_serviceplans_mob data-eventctx="Airtime and Service Plans" data-eventcta="Airtime and Service Plans">service plans</a></li>
+<li class="" id=mobilenav-Phones>
+<a href="https://shop.totalwireless.com/shop/en/totalwireless/phones" id=lnk_shop_phones_mob data-eventctx=Phones data-eventcta=Phones>phones</a></li>
+<li class="" id="mobilenav-Bring your Own Phone">
+<a href="/keep-your-own-phone" id=lnk_shop_byop_mob data-eventctx="Bring your Own Phone" data-eventcta="Bring your Own Phone">buy sim card/BYOP</a></li>
+<li class="" id="mobilenav-Shop Reconditioned iPhones">
+<a href="http://www.astocked.com/" id=lnk_ild data-eventctx="International Calling" data-eventcta="International Calling">shop reconditioned iPhones</a></li>
+<li class="" id=mobilenav-ild>
+<a href="/shop/ild" id=lnk_ild_mob data-eventctx="International Calling" data-eventcta="International Calling">International Calling</a></li>
+<li class="" id="mobilenav-Phone Payment Plan">
+<a href="https://shop.totalwireless.com/shop/en/totalwireless/lease-deals" target=_self id=lnk_payment_plan_mob data-eventctx="Payment Plan" data-eventcta="Payment Plan">Phone Payment Plan</a></li>
+<li class="" id="mobilenav-Total Wireless Cloud">
+<a href="/cloud" id=lnk_shop_vert_cloud data-eventctx="Total Wireless cloud" data-eventcta="Total Wireless cloud">total wireless cloud</a></li>
+<li class="" id=mobilenav-Extras>
+<a href="http://extras.totalwireless.com/en/happenings" target=_blank id=lnk_shop_vert_extras_mob data-eventctx="SimpleMobile Apps &amp; More" data-eventcta="SimpleMobile Apps &amp; More">Extras</a></li>
+<li class="" id=mobilenav-shopall>
+<a href="/shop" id=lnk_shopall data-eventctx="Shop All" data-eventcta="Shop All">shop all</a></li>
+<li class="" id="mobilenav-total wireless stores">
+<a href="https://locations.totalwireless.com/" target=_blank id=lnk_totalwirelessstores data-eventctx="total wireless stores" data-eventcta="total wireless stores">total wireless stores</a></li>
+<li class="" id="mobilenav-Protect Your Phone">
+<a href="/hpp/landing" id=lnk_ild data-eventctx="International Calling" data-eventcta="International Calling">protect your phone</a></ul></li>
+<li class=has-children id=mobilenav-REUP>
+<a href="/collectminpinpromo?session=reset">REFILL</a>
+<ul class="cd-secondary-nav is-hidden">
+<li class=go-back><a>REFILL</a></li>
+<li class="" id=mobilenav-Refill>
+<a href="/collectminpinpromo?session=reset" id=lnk_refill_refill_mob data-eventctx=Refill data-eventcta=Refill>Refill</a></li>
+<li class="" id=mobilenav-Auto-Refill>
+<a href="/autorefill?session=reset" id=lnk_refill_autorefill_mob data-eventctx="Auto Refill" data-eventcta="Auto Refill">Auto-Refill</a></ul></li>
+<li class=has-children id=mobilenav-ACTIVATION>
+<a href="/activation/selectdevice" id=lnk_sm_activate_mob data-eventctx=Activate data-eventcta=Activate>ACTIVATE</a>
+<ul class="cd-secondary-nav is-hidden">
+<li class=go-back><a>ACTIVATE</a></li>
+<li class="" id=mobilenav-Activate>
+<a href="/activation/selectdevice" class=dropdown-toggle id=lnk_sm_activate data-eventctx=Activate data-eventcta=Activate>Activate</a></li>
+<li ng-if=!isLoggedIn() class="" id="mobilenav-Add a Line">
+<a href="/activation/createaclogin/activation!selectdevice?loginLanding=true&amp;addLine=true" id=lnk_add_a_line_mob class=mobilenavHide data-eventctx="Add a Line" data-eventcta="Add a Line">Add a Line</a></li>
+<li ng-if=isLoggedIn() class="" id=mobilenav-Authenticated-Add_a_Line>
+<a href="/activation/selectdevice" id=lnk_add_a_line_mob class=mobilenavHide data-eventctx="Add a Line" data-eventcta="Add a Line">Add a Line</a></ul></li>
+<li class=has-children id=mobilenav-HELP>
+<a href="/techsupport" class=dropdown-toggle id=help_mob data-eventctx="help page" data-eventcta=help>HELP</a>
+<ul class="cd-secondary-nav is-hidden">
+<li class=go-back><a>HELP</a></li>
+<li class="" id="mobilenav-Check Your Balance">
+<a href="/balanceinquiry" id=lnk_CheckYourBalance_mob data-eventctx="Check Your Balance" data-eventcta="Check Your Balance">check your balance / service end date</a></li>
+<li class="" id=mobilenav-FAQ>
+<a href="http://support.totalwireless.com/" target=_blank id=lnk_faq_mob data-eventctx=FAQ data-eventcta=FAQ>FAQs</a></li>
+<li class="" id=mobilenav-Why>
+<a href="/why" id=lnk_whytotalwireless_mob data-eventctx="Why Total Wireless" data-eventcta="Why Total Wireless">why total wireless</a></li>
+<li class="" id="mobilenav-check compatibility">
+<a href="/activation/byop/collectesn?carrier=VZW" id=lnk_check_compatibility_mob data-eventctx="Check Compatibility" data-eventcta="Check Compatibility">check compatibility</a></li>
+<li class="" id="mobilenav-611611 for Self Help">
+<a href="http://dsweb.totalwireless.com/611611/help/" target=_blank id=lnk_selfhelp_mob data-eventctx="611611 for Self Help" data-eventcta=helptext>611611 Text Help Line</a></li>
+<li class="" id="mobilenav-Coverage Map">
+<a href="/coverage/check" id=lnk_coverage_mob data-eventctx="Coverage Map" data-eventcta="Coverage Map">Coverage Map</a></li>
+<li class="" id="mobilenav-Tutorials and User Manuals">
+<a href="http://totalwireless.devicebits.com/devicepicker" target=_blank id=lnk_tutorials_mob data-eventctx="Tutorials and User Manuals" data-eventcta=tutorials>Tutorials &amp; User Manuals</a></li>
+<li class="" id="mobilenav-Track My Order">
+<a href="https://shop.totalwireless.com/shop/TFOrderStatusForm?storeId=20003&amp;urlRequestType=Base&amp;langId=-1&amp;catalogId=12051" target=_blank id=lnk_trackorder_mob data-eventctx="Track My Order" data-eventcta="Track My Order">Track Order</a></li>
+<li class="" id="mobilenav-Wi-Fi Calling">
+<a href="/wic/collectdevice" id=lnk_TrackMyTicket data-eventctx="Track My Ticket" data-eventcta="Track My Ticket">Wi-Fi Calling</a></li>
+<li class="" id="mobilenav-Network Changes">
+<a href="https://www.totalwireless.com/info/network-changes.html" target=_blank id=lnk_volte data-eventctx="volte landing page" data-eventcta=volte>VoLTE Network Changes</a></li>
+<li class="" id="mobilenav-Contact Us">
+<a href="/contactus" id=lnk_contact_mob data-eventctx="Contact Us" data-eventcta="Contact Us">Contact Us</a></li>
+<li class="" id="mobilenav-Transfer Service">
+<a href="/activation/selectdevice" id=lnk_transfer_service_mob data-eventctx="Transfer Service" data-eventcta="Transfer Service">Transfer Service</a></ul></li>
+<li class=has-children id="mobilenav-WHY TOTAL WIRELESS">
+<a href="/why" class=dropdown-toggle id=whytotalwireless_mob data-eventctx="why total wireless page" data-eventcta="why total wireless">why total wireless</a>
+<ul class="cd-secondary-nav is-hidden">
+<li class=go-back><a>WHY TOTAL WIRELESS</a></li>
+<li class="" id=mobilenav-WhyTotalWireless>
+<a href="/why/do-amazing">do amazing</a></li>
+<li class="" id=mobilenav-NoContracts>
+<a href="/why/no-contracts">no contracts</a></li>
+<li class="" id=mobilenav-BestCoverage>
+<a href="/why/coverage">best coverage</a></li>
+<li class="" id=mobilenav-MonthlyPaymentPlans>
+<a href="/why/phone-payment-plan">phone payment plan</a></li>
+<li class="" id=mobilenav-BestPhones>
+<a href="/why/phones">best phones</a></li>
+<li class="" id=mobilenav-BestDeal>
+<a href="/why/service-plans">no-contract wireless plans</a></ul></li>
+<li class="" id=mobilenav-JOINREWARDS ng-if=!$root.lrpDetails.isLRPEnrolled&amp;&amp;$root.isLRPLive>
+<a href="javascript:void(0);" id=lnk_joinrewards_mob data-eventctx=JoinRewards" data-eventcta=JoinRewards ng-click="redirectPage('/rewards')">JOIN REWARDS</a>
+</li>
+<li class=feedback id=mobilenav-FEEDBACK>
+<div id=m_oo_feedback>
+</div>
+</li>
+<li class="" id=mobilenav-English>
+<a href="javascript:void(0);" id=oo_locale class=language ng-click="changeLanguage('es_ES')" data-eventctx="Switch Language" data-eventcta="Switch Language">ESPAÑOL</a>
+</li>
+<li class="" id=mobilenav-findastore>
+<a href="/findastore" ng-mouseenter="" ng-mouseleave="" ng-click="" id=lnk_tfhome_findastore_mob data-eventctx="find a store" data-eventcta="find a store">find a store</a>
+</ul>
+</nav>
+</div>
+<div class="mobile-logo col-xs-4">
+<a title="" target="" href="/home" id=lnk_mobile_home data-eventctx="home page" data-eventcta=home>
+<img id=img_TW_logo src="https://media.tracfone.com//wps/wcm/connect/8c8f21f2-8615-45d0-bf83-5e65912ee4f4/mobile-header-tw-ic%402x.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-8c8f21f2-8615-45d0-bf83-5e65912ee4f4-murzmt6" class=img-responsive alt="Total Wireless">
+<strong></strong>
+</a>
+</div>
+<div class=col-xs-5>
+<div class=helplogo ng-if="!updateBrowser">
+<a id=lnk_helptext data-eventctx="help text" data-eventcta="help text" target=_blank href="http://dsweb.totalwireless.com/611611/help/">
+<div class="popover top fade in inline-tooltip ">
+<div class=arrow></div>
+<div class=popover-inner>
+<div class=popover-content>
+<div tabindex=0 class=tf-popover><div>FOR ANSWERS</div> TEXT<sup>∆</sup><span> HELP</span> TO <span>611611</span></div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="navigation hidden-print" ng-if=is_activation>
+<div class="navbar yamm navbar-default">
+<div class=module_title>
+<h2>Activation</h2>
+</div>
+</div>
+</div>
+</div>
+</header>
+<div aria-hidden=false tabindex=-1 id=mainContent class=mainContentLanding>Main content showed</div>

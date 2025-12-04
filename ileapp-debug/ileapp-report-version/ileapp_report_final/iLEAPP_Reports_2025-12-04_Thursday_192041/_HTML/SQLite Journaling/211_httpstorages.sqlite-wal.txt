@@ -1,0 +1,26 @@
+wF"U=u
+wF"U|]Z2DSQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+wF"U(A"Z
+wF"UT
+wF"UC
+wF"U8$zSQLite format 3
+wF"Uu
+>SQLite format 3
+wF"U3XxMSQLite format 3
+wF"UA
+>iSQLite format 3
+wF"Uj8<
+r
+SQLite format 3
+wF"Us8icSQLite format 3
+wF"Uk
+r
+wF"Ub
+9SQLite format 3
+wF"U
+~4kSQLite format 3

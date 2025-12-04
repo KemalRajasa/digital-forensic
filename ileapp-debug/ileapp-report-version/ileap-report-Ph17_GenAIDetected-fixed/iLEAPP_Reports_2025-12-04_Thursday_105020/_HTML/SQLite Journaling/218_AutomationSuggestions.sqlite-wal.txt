@@ -1,0 +1,270 @@
+4x4k
+4x4_|C
+Item
+Rule
+4x4d
+'{
+
+[+{com%2Eapple%2EMaps%3Acom%2Eapple%2EMapsAppActivityTypeAppActivityType:com%2Eapple%2EMaps%3Acom%2Eapple%2EMaps
+%10HourOfDayHourOfDay:10
+#1IsWeekendIsWeekend:1
+#0IsWeekendIsWeekend:0
+#9HourOfDayHourOfDay:9
+K2C
+
+4x48$^
+?333333?I$I$
+?I$I$
+?I$I$!
+?Et]
+4x48s)F
+
+4x4YC
+4x4?G_
+IsWeekend:1
+HourOfDay:9
+{	AppActivityType:com%2Eapple%2EMaps%3Acom%2Eapple%2EMaps
+HourOfDay:10
+IsWeekend:0
+4x4K&
+IsWeekend
+HourOfDay
++	AppActivityType
+
+4x4X`zr
+
+4x4eV"
+4x4d:Xq"
+
+	?I$I$
+4x4w'H
+
+?333333
+4x42
+X@?
+
+4x4r0SN
+
+4x4V
+UdF34FDD0D-68C1-4445-9051-26AC371AEC44bplist00
+	,./0167_
+BMBehaviorDatabaseMetadata_
+NSStoreModelVersionIdentifiers[NSStoreType_
+_NSAutoVacuumLevel_
+NSStoreModelVersionHashesDigest_
+NSStoreModelVersionHashes_
+NSPersistenceFrameworkVersion_
+ NSStoreModelVersionHashesVersion
+
+
+()*+ZminingDate_
+eventIntervalStart_
+minimumConfidence_
+samplingInterval_
+itemTypeIdentifiers_
+eventIntervalEnd_
+minimumAbsoluteSupport_
+numberOfBaskets_
+targetTypeIdentifiers3Aj
+#?#@
+ !"#$%&'_
+ConnectedToCarPlayYHourOfDay_
+ToggledLowPowerMode_
+ToggledAirplaneMode_
+WiFiConnectedToSSID_
+AlarmSnoozedWithIDYIsWeekend_
+"BluetoothConnectedToDeviceWithName_
+AppIntentAutomationHash_
+CoreRoutineEnterLocation_
+CoreRoutineExitLocation_
+AlarmSnoozedAny_
+AlarmStoppedWithID_
+AppActivityType_
+AlarmStoppedAny_
+ToggledDoNotDisturb3AS
+% -PVSQLiteQ2_
+XkJ33KQGP1bcjRI89Gg6ShM6TOtdXCPr+0rFRKsN0KYg+KEED8eqE14syrKGC0KPhi1H41+WVxE0ngITdGhakPg==2345TItemTRuleO
+/C7g
+SQLite format 3
+.S`
+
+
+Q		U
+atableZ_MODELCACHEZ_MODELCACHE
+CREATE TABLE Z_MODELCACHE (Z_CONTENT BLOB){
+AtableZ_METADATAZ_METADATA
+CREATE TABLE Z_METADATA (Z_VERSION INTEGER PRIMARY KEY, Z_UUID VARCHAR(255), Z_PLIST BLOB)
+
+WtableZ_PRIMARYKEYZ_PRIMARYKEY
+CREATE TABLE Z_PRIMARYKEY (Z_ENT INTEGER PRIMARY KEY, Z_NAME VARCHAR, Z_SUPER INTEGER, Z_MAX INTEGER)p
+indexZ_Rule_bySupportIndexZRULE
+CREATE INDEX Z_Rule_bySupportIndex ON ZRULE (ZSUPPORT COLLATE BINARY ASC)y
++indexZ_Rule_byConfidenceIndexZRULE
+CREATE INDEX Z_Rule_byConfidenceIndex ON ZRULE (ZCONFIDENCE COLLATE BINARY ASC)k
+indexZ_Rule_confidenceZRULE
+CREATE INDEX Z_Rule_confidence ON ZRULE (ZCONFIDENCE COLLATE BINARY ASC)b
+indexZ_Rule_supportZRULE
+CREATE INDEX Z_Rule_support ON ZRULE (ZSUPPORT COLLATE BINARY ASC)
+UindexZ_Item_UNIQUE_uniformIdentifierZITEM
+CREATE UNIQUE INDEX Z_Item_UNIQUE_uniformIdentifier ON ZITEM (ZUNIFORMIDENTIFIER COLLATE BINARY ASC)
+;indexZ_Item_byTypeIdentifierIndexZITEM
+CREATE INDEX Z_Item_byTypeIdentifierIndex ON ZITEM (ZTYPEIDENTIFIER COLLATE BINARY ASC)~
+7indexZ_Item_byTypeValueIndexZITEM
+CREATE INDEX Z_Item_byTypeValueIndex ON ZITEM (ZUNIFORMIDENTIFIER COLLATE BINARY ASC)w
+
+-indexZ_Item_typeIdentifierZITEMCREATE INDEX Z_Item_typeIdentifier ON ZITEM (ZTYPEIDENTIFIER COLLATE BINARY ASC)
+9indexZ_Item_uniformIdentifierZITEMCREATE INDEX Z_Item_uniformIdentifier ON ZITEM (ZUNIFORMIDENTIFIER COLLATE BINARY ASC)J
+indexZ_1CONSEQUENTOFRULES_Z_2CONSEQUENTOFRULES_INDEXZ_1CONSEQUENTOFRULES
+CREATE INDEX Z_1CONSEQUENTOFRULES_Z_2CONSEQUENTOFRULES_INDEX ON Z_1CONSEQUENTOFRULES (Z_2CONSEQUENTOFRULES, Z_1CONSEQUENT)J
+indexZ_1ANTECEDENTOFRULES_Z_2ANTECEDENTOFRULES_INDEXZ_1ANTECEDENTOFRULES	CREATE INDEX Z_1ANTECEDENTOFRULES_Z_2ANTECEDENTOFRULES_INDEX ON Z_1ANTECEDENTOFRULES (Z_2ANTECEDENTOFRULES, Z_1ANTECEDENT) 
+tableZRULEZRULE
+CREATE TABLE ZRULE ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZABSOLUTEANTECEDENTSUPPORT INTEGER, ZABSOLUTECONSEQUENTSUPPORT INTEGER, ZABSOLUTESUPPORT INTEGER, ZUNIQUEDAYSLASTWEEK INTEGER, ZUNIQUEDAYSTOTAL INTEGER, ZCONFIDENCE FLOAT, ZSUPPORT FLOAT )A
+%tableZ_1CONSEQUENTOFRULESZ_1CONSEQUENTOFRULES
+CREATE TABLE Z_1CONSEQUENTOFRULES ( Z_1CONSEQUENT INTEGER, Z_2CONSEQUENTOFRULES INTEGER, PRIMARY KEY (Z_1CONSEQUENT, Z_2CONSEQUENTOFRULES) )G
+indexsqlite_autoindex_Z_1CONSEQUENTOFRULES_1Z_1CONSEQUENTOFRULES
+%tableZ_1ANTECEDENTOFRULESZ_1ANTECEDENTOFRULES
+CREATE TABLE Z_1ANTECEDENTOFRULES ( Z_1ANTECEDENT INTEGER, Z_2ANTECEDENTOFRULES INTEGER, PRIMARY KEY (Z_1ANTECEDENT, Z_2ANTECEDENTOFRULES) )G
+indexsqlite_autoindex_Z_1ANTECEDENTOFRULES_1Z_1ANTECEDENTOFRULES
+ytableZITEMZITEM
+CREATE TABLE ZITEM ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZABSOLUTESUPPORT INTEGER, ZNORMALIZEDVALUE VARCHAR, ZTYPEIDENTIFIER VARCHAR, ZUNIFORMIDENTIFIER VARCHAR )
+4x4t
+com%2Eapple%2EMaps%3Acom%2Eapple%2EMapsAppActivityTypeAppActivityType:com%2Eapple%2EMaps%3Acom%2Eapple%2EMaps
+10HourOfDayHourOfDay:10
+9HourOfDayHourOfDay:9
+1IsWeekendIsWeekend:1
+0IsWeekendIsWeekend:0
+4x4J
+4x4888
+4x4E
+4x4P
+4x4`.
+TW
+@
+
+4x44H
+4x4wEP
+
+4x4rPg=G
+
+4x4DwX)
+4x4j@Cu2
+
+4x4]|x]YB
+
+4x4#|	f.
+
+4x4D
+4x4A}g
+Item
+4x4A/W 
+
++=com%2Eapple%2Emobilenotes%3Acom%2Eapple%2Enotes%2Eactivity%2Eedit%2DnoteAppActivityTypeAppActivityType:com%2Eapple%2Emobilenotes%3Acom%2Eapple%2Enotes%2Eactivity%2Eedit%2Dnoteu
+
+%14HourOfDayHourOfDay:14
+4x40V
+
+4x4x
+4x4:w4
+?%~
+
+4x4BjV
+4x4@|
+]~-
+
+AppActivityType:com%2Eapple%2Emobilenotes%3Acom%2Eapple%2Enotes%2Eactivity%2Eedit%2Dnote
+HourOfDay:14
+HourOfDay:10;
+AppActivityType:com%2Eapple%2EMaps%3Acom%2Eapple%2EMaps
+
+HourOfDay:9	
+IsWeekend:1
+4x4^lL8c
+
+IsWeekend
+AppActivityType
+HourOfDay
+AppActivityType
+
+
+HourOfDay	
+4x4Fl
+4x4op9
+
+4x4bb
+5/5
+
+4x4j
+"	2
+
+4x4r
+4x4s
+targetTypeIdentifiers3A91
+ToggledDoNotDisturb3A
+ % -PVSQLiteQ2_
+4x4:F
+(SQLite format 3
+4x4&
+~Zqjz
+
+
+0IsWeekendIsWeekend:0 
+14HourOfDayHourOfDay:14:
+com%2Eapple%2Emobilenotes%3Acom%2Eapple%2Enotes%2Eactivity%2Eedit%2DnoteAppActivityTypeAppActivityType:com%2Eapple%2Emobilenotes%3Acom%2Eapple%2Enotes%2Eactivity%2Eedit%2Dnote
+9HourOfDayHourOfDay:9 
+7q@
+
+4x4/@
+Z
+
+4x4HV
+
+4x4Q
+
+4x4(V
+4x4`I$S
+
+4x4HG
+4x4!i
+4x4Vg
+4x4C
+,
+4x4W	?pqf2
+
+4x4L
+4x4~P
+4x4.&s
+
++=com%2Eapple%2Emobilenotes%3Acom%2Eapple%2Enotes%2Eactivity%2Eedit%2DnoteAppActivityTypeAppActivityType:com%2Eapple%2Emobilenotes%3Acom%2Eapple%2Enotes%2Eactivity%2Eedit%2Dnote
+4x4oX
+qE_
+
+4x4ma
+4x4D1
+
+4x4
++
+4x4Q&l0
+?UUUUUU
+?I$I$?UUUUUU 
+?UUUUUU 
+?UUUUUU?
+4x4Ov
+
+4x4uOP
+-:(
+
+4x4(
+
+4x4TF
+hHo
+
+4x4<\.T
+4x4]
+4x4 =\'-
+
+4x4zU6O
+4x4Ml`
+
+targetTypeIdentifiers3A`\v3A
+ToggledDoNotDisturb3ARd
+0% -PVSQLiteQ2_

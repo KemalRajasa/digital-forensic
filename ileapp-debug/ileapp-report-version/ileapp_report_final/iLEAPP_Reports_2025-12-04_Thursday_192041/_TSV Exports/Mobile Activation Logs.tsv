@@ -1,0 +1,21 @@
+﻿Datetime	Event	Log Name
+2022-01-12 17:18:17	Mobile Activation Startup at line: 391	mobileactivationd.log.0
+2022-01-13 11:03:46	Mobile Activation Startup at line: 413	mobileactivationd.log.0
+2022-01-14 19:08:41	Mobile Activation Startup at line: 434	mobileactivationd.log.0
+2022-01-21 16:54:34	Mobile Activation Startup at line: 464	mobileactivationd.log.0
+2022-01-21 17:11:27	Mobile Activation Startup at line: 482	mobileactivationd.log.0
+2022-01-21 17:56:24	Mobile Activation Startup at line: 500	mobileactivationd.log.0
+2022-01-27 16:07:20	Mobile Activation Startup at line: 518	mobileactivationd.log.0
+2022-02-03 12:05:13	Mobile Activation Startup at line: 539	mobileactivationd.log.0
+2022-02-14 09:41:44	Mobile Activation Startup at line: 564	mobileactivationd.log.0
+2022-02-14 12:58:45	Mobile Activation Startup at line: 585	mobileactivationd.log.0
+2022-02-14 13:03:23	Mobile Activation Startup at line: 606	mobileactivationd.log.0
+2022-02-14 13:08:24	Mobile Activation Startup at line: 627	mobileactivationd.log.0
+2022-02-14 13:16:33	Mobile Activation Startup at line: 648	mobileactivationd.log.0
+2022-02-14 13:18:33	Mobile Activation Startup at line: 669	mobileactivationd.log.0
+2022-02-14 13:25:49	Mobile Activation Startup at line: 690	mobileactivationd.log.0
+2022-01-06 14:40:57	Mobile Activation Startup at line: 1	mobileactivationd.log.1
+2022-01-10 12:26:40	Mobile Activation Startup at line: 152	mobileactivationd.log.1
+﻿Mobile Activation	Upgrade
+Found 15 Mobile Activation entries in mobileactivationd.log.0	Found 0 Upgrade entries in mobileactivationd.log.0
+Found 2 Mobile Activation entries in mobileactivationd.log.1	Found 1 Upgrade entries in mobileactivationd.log.1

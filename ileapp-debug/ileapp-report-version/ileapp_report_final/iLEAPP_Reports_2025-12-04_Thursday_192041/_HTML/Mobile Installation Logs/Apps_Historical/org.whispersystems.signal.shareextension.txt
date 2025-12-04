@@ -1,0 +1,2 @@
+2022-01-21 15:47:19 Made container live org.whispersystems.signal.shareextension /private/var/mobile/Containers/Data/PluginKitPlugin/7F393543-09EE-4AC5-A4D7-E30DDFF3E48C
+2022-01-21 15:47:19 Made container live org.whispersystems.signal.shareextension /private/var/mobile/Containers/Data/PluginKitPlugin/7F393543-09EE-4AC5-A4D7-E30DDFF3E48C

@@ -1,0 +1,1 @@
+2022-01-06 17:41:12 Made container live com.apple.CurareSandboxMLR.CurareSandboxMLRPlugin /private/var/mobile/Containers/Data/PluginKitPlugin/3E7C2FAF-2F80-4E5A-A0B8-749D03E93B71

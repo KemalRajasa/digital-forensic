@@ -1,0 +1,9 @@
+2022-01-10 12:28:42 Data container moved com.apple.facetime /private/var/mobile/Containers/Data/Application/DD76330D-5CCE-4F74-B2F5-45D322CB17B1
+2022-01-10 12:28:42 Made container live com.apple.facetime /private/var/containers/Bundle/Application/606916D2-1A93-4FA0-80D5-9B4E9DEF9B8C
+2022-01-10 12:28:42 Install successful com.apple.facetime 
+2022-01-10 12:28:42 Data container moved com.apple.facetime /private/var/mobile/Containers/Data/Application/DD76330D-5CCE-4F74-B2F5-45D322CB17B1
+2022-01-10 12:28:42 Made container live com.apple.facetime /private/var/containers/Bundle/Application/606916D2-1A93-4FA0-80D5-9B4E9DEF9B8C
+2022-01-10 12:28:42 Install successful com.apple.facetime 
+2022-01-06 17:41:29 Made container live com.apple.facetime /private/var/mobile/Containers/Data/Application/015340C1-5AF7-499D-91B9-7E8689BF86F7
+2022-01-06 17:41:29 Made container live com.apple.facetime /private/var/containers/Bundle/Application/66E9BFC7-0B5F-475E-BCAB-D1F35318B83B
+2022-01-06 17:41:29 Install successful com.apple.facetime 

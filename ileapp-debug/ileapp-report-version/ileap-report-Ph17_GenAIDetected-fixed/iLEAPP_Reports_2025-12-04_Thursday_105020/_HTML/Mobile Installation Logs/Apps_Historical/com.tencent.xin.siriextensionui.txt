@@ -1,0 +1,6 @@
+2022-01-21 17:11:26 Destroying container com.tencent.xin.siriextensionui /private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55
+2022-01-21 17:11:26 Destroying container com.tencent.xin.siriextensionui /private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55
+2022-01-21 17:11:26 Destroying container com.tencent.xin.siriextensionui /private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55
+2022-01-21 17:11:26 Destroying container com.tencent.xin.siriextensionui /private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55
+2022-01-21 16:14:46 Made container live com.tencent.xin.siriextensionui /private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55
+2022-01-21 16:14:46 Made container live com.tencent.xin.siriextensionui /private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55

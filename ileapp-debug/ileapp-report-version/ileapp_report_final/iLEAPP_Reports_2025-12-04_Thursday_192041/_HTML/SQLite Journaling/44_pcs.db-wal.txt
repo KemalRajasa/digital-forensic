@@ -1,0 +1,124 @@
+r,SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+ ]'W
+xrJ
+
+H=Uc
+dc/LlSlTlj5zxHKe9lDnlnXIpLdbUesvxKwguNvcrxA=:IDSKeyTransparencyDataZone:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+'()-5;<DEFJNOU$null
+
+ChainParentPublicKeyID_
+PublicSharingKeyTEtagXParentIDUKeyIDWPCSDataZRecordTypeV$class]RecordShareIDXChainPCS\RecordZoneID_
+ZoneishPublicKeyIDXRecordID
+1~0|0%
+MnOQg
+XX0Y
+_P;&
+xfl6
+hiY88k(H
+v6D).Oci
+)!
+5!0
+*N^{*G$Trf 
+M=hO(6C#c/	
+E8;_%e8Pd0M
+VSMl
+\'X	
+o^HYXm
+=YwF`
+)%zdR
+vq0o
+.PRi
+,^R!a>
+W\
+gu!wmI
+(193CCC8D0293FDC3B92587DF3319422B5C566914
+*+,YNS.string
++nFVtjHn42-uBa5jua-Uhac7yqxI5sXIYoUu0iW5mq1k./01Z$classnameX$classes_
+NSMutableString234_
+NSMutableStringXNSStringXNSObject
+6789$ZRecordNameVZoneID
+,dc/LlSlTlj5zxHKe9lDnlnXIpLdbUesvxKwguNvcrxA==>?
+ABC_
+anonymousCKUserIDYownerNameXZoneName
+
+	_
+IDSKeyTransparencyDataZone_
+__defaultOwner__./GH^CKRecordZoneIDI4^CKRecordZoneID./KLZCKRecordIDM4ZCKRecordID_
+IDSKeyTransparencyDeviceRecord./PQ_
+CKDRecordPCSDataRS4_
+CKDRecordPCSDataZCKDPCSData
+Vcom.apple.private.ids.ktAAA3EB7E-485D-4C71-93D7-7C0CF8E04464IDSKeyTransparencyDataZone:__defaultOwner__A
+IDSKeyTransparencyDataZone:__defaultOwner__
+ !%-567;?BU$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+ sC
+^S#"$;
+""0K\0k&}
+W:C<
+OB!s=^
+(6TRh
+8R2w
+
+G-P>z?Y
+& Yc$
+j0*S
+
+V$wZ|%o0
+$o0R}d
+&6a40M
+[V_(mAdI3
+ :z=
+}=\:m(
+)0'0%
+ X}
+
+5Oq0o
+(A279885B5576E6A087DD46FC94202CF394FF1C63
+"#$YNS.string
++gyRlsdLxiBa6B9LwWzK3oUiWLhX2OZbLaqtGZwmk26o&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID<
+=>WNS.time#A
+-H&'@AVNSDate@,&'CD^CKDZonePCSDataEF,^CKDZonePCSDataZCKDPCSData
+Ncom.apple.private.ids.ktAAA3EB7E-485D-4C71-93D7-7C0CF8E04464IDSKeyTransparencyDataZone:__defaultOwner__A
+c	IDSKeyTransparencyDataZone:__defaultOwner__
+u~Y
+
+com.apple.private.ids.ktAAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+	IDSKeyTransparencyDataZone:__defaultOwner__
+IDSKeyTransparencyDataZone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.private.ids.kt
+cU=	IDSKeyTransparencyDataZone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.private.ids.kt
+R$h
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.private.ids.kt
+U=	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.private.ids.kt
+/IZ
+

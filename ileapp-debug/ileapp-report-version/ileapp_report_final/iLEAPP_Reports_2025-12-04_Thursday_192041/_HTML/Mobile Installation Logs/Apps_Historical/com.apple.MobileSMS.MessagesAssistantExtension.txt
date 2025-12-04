@@ -1,0 +1,1 @@
+2022-01-06 14:41:01 Made container live com.apple.MobileSMS.MessagesAssistantExtension /private/var/mobile/Containers/Data/PluginKitPlugin/58B0D121-23E5-45F3-9C6F-D4C566F46A84

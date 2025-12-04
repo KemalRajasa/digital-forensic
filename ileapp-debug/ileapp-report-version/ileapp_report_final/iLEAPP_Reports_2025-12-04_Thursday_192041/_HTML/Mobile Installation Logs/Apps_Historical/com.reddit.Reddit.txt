@@ -1,0 +1,12 @@
+2022-01-21 15:46:27 Data container moved com.reddit.Reddit /private/var/mobile/Containers/Data/Application/2BBE56D0-9F4F-47D1-903C-2653DA9B5789
+2022-01-21 15:46:27 Made container live com.reddit.Reddit /private/var/containers/Bundle/Application/71C6BB94-7A59-4317-9247-4011F89FDCF0
+2022-01-21 15:46:27 Install successful com.reddit.Reddit 
+2022-01-21 15:46:27 Data container moved com.reddit.Reddit /private/var/mobile/Containers/Data/Application/2BBE56D0-9F4F-47D1-903C-2653DA9B5789
+2022-01-21 15:46:27 Made container live com.reddit.Reddit /private/var/containers/Bundle/Application/71C6BB94-7A59-4317-9247-4011F89FDCF0
+2022-01-21 15:46:27 Install successful com.reddit.Reddit 
+2022-01-21 15:45:42 Made container live com.reddit.Reddit /private/var/mobile/Containers/Data/Application/46FF044C-A31A-4E6A-8310-C81C4C501263
+2022-01-21 15:45:42 Made container live com.reddit.Reddit /private/var/containers/Bundle/Application/15F8C777-6174-486D-A080-4B7AF39C67A2
+2022-01-21 15:45:42 Install successful com.reddit.Reddit 
+2022-01-21 15:45:42 Made container live com.reddit.Reddit /private/var/mobile/Containers/Data/Application/46FF044C-A31A-4E6A-8310-C81C4C501263
+2022-01-21 15:45:42 Made container live com.reddit.Reddit /private/var/containers/Bundle/Application/15F8C777-6174-486D-A080-4B7AF39C67A2
+2022-01-21 15:45:42 Install successful com.reddit.Reddit 

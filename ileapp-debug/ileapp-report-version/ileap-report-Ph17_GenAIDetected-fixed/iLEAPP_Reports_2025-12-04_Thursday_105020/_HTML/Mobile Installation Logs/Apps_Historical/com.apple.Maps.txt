@@ -1,0 +1,9 @@
+2022-01-10 12:29:35 Data container moved com.apple.Maps /private/var/mobile/Containers/Data/Application/9916AB7F-EA5B-4A45-88C7-3896807D7F83
+2022-01-10 12:29:35 Made container live com.apple.Maps /private/var/containers/Bundle/Application/F758033D-C4F0-4488-96AB-D872DA1496C3
+2022-01-10 12:29:35 Install successful com.apple.Maps 
+2022-01-10 12:29:35 Data container moved com.apple.Maps /private/var/mobile/Containers/Data/Application/9916AB7F-EA5B-4A45-88C7-3896807D7F83
+2022-01-10 12:29:35 Made container live com.apple.Maps /private/var/containers/Bundle/Application/F758033D-C4F0-4488-96AB-D872DA1496C3
+2022-01-10 12:29:35 Install successful com.apple.Maps 
+2022-01-06 17:41:28 Data container moved com.apple.Maps /private/var/mobile/Containers/Data/Application/C43FB419-30BA-4E8D-BB10-9215E59B1E60
+2022-01-06 17:41:28 Made container live com.apple.Maps /private/var/containers/Bundle/Application/460D57DD-0A23-4246-920D-354526888629
+2022-01-06 17:41:28 Install successful com.apple.Maps 

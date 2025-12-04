@@ -1,0 +1,105 @@
+WSQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+SJD
+
+	CCC
+net.doubleclick.g.googleadsnet.doubleclick.g.googleadsgoogleads.g.doubleclick.net
+a/aj
+		net.doubleclick.g.googleadsnet.doubleclick.g.googleads
+ea/aj
+net.doubleclick.g.googleadsnet.doubleclick.g.googleads
+SQLite format 3
+)%fd
+
+_dxM
+o2kZl
+
+XSQLite format 3
+F6ph-
+
+eaVaf
+E6c
+l)1
+
+aa0k
+eaa0kf
+3
+\
+
+eaa0kf		CCC
+aa-k
+lrw
+
+h
+	CCC
+eaa-kf		CCC
+
+X#z
+eaa-kf	CCC
+	HV|N"
+
+h	CCC
+eatb
+]f	CCC
+,SQLite format 3
+
+~Lc	r
+
+]f
+	CCC
+Xf
+	CCC
+v9@
+
+?b	zP
+?b	zPf
+pM{c
+
+Hb	-
+Hb	-f
+.a=SQLite format 3
+.13
+
+YE1uSQLite format 3
+.2,;y
+
+eb
+b
+Uids
+[,]SQLite format 3
+g&a[
+
+b
+wb
+eb
+wb
+B(i
+
+vxuSQLite format 3
+oRc
+
+b8&
+
+XC!=SQLite format 3
+iy^
+
+i#1
+
+}5SQLite format 3
+w_'
+
+:#Gy
+
+\L|/
+!tt$CSQLite format 3
+FP h
+
+h 	CCC
+c
+
+V
+

@@ -1,0 +1,868 @@
+﻿Bundle ID	Report Link
+2022-01-06 17:41:32	Made container live	com.apple.tv	/private/var/mobile/Containers/Data/Application/F2D07057-1E66-4344-A8CE-E2F29787F8DC
+2022-01-06 17:41:32	Made container live	com.apple.tv.TVCoreSpotlightExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B59D9E64-1669-4EE2-992F-7BE7F12B2BD6
+2022-01-06 17:41:32	Made container live	com.apple.tv.TVIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9B9697D2-BBD2-4FDB-AAF5-4552B73347C8
+2022-01-06 17:41:32	Made container live	com.apple.tv.TVNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9294D1A0-D90C-48D3-8D70-B9EC967EEC41
+2022-01-06 17:41:33	Made container live	com.apple.tv.TVWidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/CE9C7456-B400-42E7-A007-6B1DA90A661A
+2022-01-06 17:41:33	Made container live	com.apple.tv	/private/var/containers/Bundle/Application/737DEF30-B886-47A0-B532-03A8B74D2495
+2022-01-06 17:41:33	Install successful	com.apple.tv	
+2022-01-06 17:41:33	Made container live	com.apple.shortcuts	/private/var/mobile/Containers/Data/Application/BE36DFBB-03D4-4771-9CBB-0AF0B08D0FF2
+2022-01-06 17:41:33	Made container live	com.apple.shortcuts.ThumbnailExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/562D2761-BF72-47EB-A7B2-6422236BEC29
+2022-01-06 17:41:33	Made container live	com.apple.shortcuts.QuickLookExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/518D6790-3126-4580-BEB0-8B3609D3A285
+2022-01-06 17:41:33	Made container live	com.apple.shortcuts.Run-Workflow	/private/var/mobile/Containers/Data/PluginKitPlugin/547A8601-DACB-486E-BC81-AA7A7ABE2F63
+2022-01-06 17:41:33	Made container live	com.apple.shortcuts.AutomationNotificationContent	/private/var/mobile/Containers/Data/PluginKitPlugin/934DC2AE-67C6-4C3F-8B9B-A10A8E071274
+2022-01-06 17:41:33	Made container live	com.apple.shortcuts	/private/var/containers/Bundle/Application/D2F82A82-3256-467D-AF56-78538D2A2911
+2022-01-06 17:41:33	Install successful	com.apple.shortcuts	
+2022-01-06 17:41:33	Made container live	com.apple.mobilemail	/private/var/mobile/Containers/Data/Application/C175B3F3-3E7A-4028-8919-CD8D7A07A956
+2022-01-06 17:41:33	Made container live	com.apple.mobilemail.MailWidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E8DB73B2-5A5F-4103-9A2B-1159868282E6
+2022-01-06 17:41:33	Made container live	com.apple.mobilemail.DiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/07AB212E-9220-4576-8062-5E228D08CFD3
+2022-01-06 17:41:33	Made container live	com.apple.mobilemail.MailSpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9068791F-0A6D-41C4-838C-2D9317751933
+2022-01-06 17:41:33	Made container live	com.apple.mobilemail.MailNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B14EBEA0-7D9A-4E49-808A-5DBCF0A10B41
+2022-01-06 17:41:33	Made container live	com.apple.mobilemail.MailIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/EA43FF77-7E32-4EB5-9A54-6871658F430F
+2022-01-06 17:41:33	Made container live	com.apple.mobilemail.MailQuickLookExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/EA612B73-28E6-4B54-8FAE-B50726F4E93B
+2022-01-06 17:41:33	Made container live	com.apple.mobilemail	/private/var/containers/Bundle/Application/27312496-F803-4BE2-B144-F51486773ACA
+2022-01-06 17:41:33	Install successful	com.apple.mobilemail	
+2022-01-10 12:26:23	Reboot detected	com.apple.mobilemail	
+2022-01-10 12:28:29	Data container moved	com.apple.Magnifier	/private/var/mobile/Containers/Data/Application/F3F13E0C-9D87-432A-9E48-89D0E614BAD5
+2022-01-10 12:28:29	Made container live	com.apple.Magnifier	/private/var/containers/Bundle/Application/70B5B450-A236-4849-8B17-0D0D7199B616
+2022-01-10 12:28:29	Install successful	com.apple.Magnifier	
+2022-01-10 12:28:30	Data container moved	com.apple.shortcuts	/private/var/mobile/Containers/Data/Application/550A6641-89A4-4C3A-A00E-C583D92C0C36
+2022-01-10 12:28:30	Data container moved	com.apple.shortcuts.Run-Workflow	/private/var/mobile/Containers/Data/PluginKitPlugin/967C42C8-C4DB-4402-98BC-3D0E77906DE7
+2022-01-10 12:28:30	Data container moved	com.apple.shortcuts.QuickLookExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/BF312A16-FC6A-4F14-804F-2C079C683AFC
+2022-01-10 12:28:30	Data container moved	com.apple.shortcuts.ThumbnailExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/3CF7F86F-BCA6-410C-BE62-944B77733EC5
+2022-01-10 12:28:30	Data container moved	com.apple.shortcuts.AutomationNotificationContent	/private/var/mobile/Containers/Data/PluginKitPlugin/0465FD94-BED2-46BB-8B98-A3F5F1D344B8
+2022-01-10 12:28:30	Made container live	com.apple.shortcuts	/private/var/containers/Bundle/Application/55E15CB2-B9CD-4F30-9334-165F2B3B13E0
+2022-01-10 12:28:30	Install successful	com.apple.shortcuts	
+2022-01-10 12:28:31	Data container moved	com.apple.MobileAddressBook	/private/var/mobile/Containers/Data/Application/B8A8E25C-AE88-42F4-9131-AAB74BA02D1C
+2022-01-10 12:28:31	Made container live	com.apple.MobileAddressBook	/private/var/containers/Bundle/Application/2486C8D9-1BC3-4D3B-A876-039FACAB5E7B
+2022-01-10 12:28:31	Install successful	com.apple.MobileAddressBook	
+2022-01-10 12:28:33	Data container moved	com.apple.calculator	/private/var/mobile/Containers/Data/Application/4696E02A-6FF8-4FF8-8D56-257CC5CAE402
+2022-01-10 12:28:33	Made container live	com.apple.calculator	/private/var/containers/Bundle/Application/14B7EE7F-BFE5-4B90-A81D-3181033F2A8E
+2022-01-10 12:28:33	Install successful	com.apple.calculator	
+2022-01-10 12:28:34	Data container moved	com.apple.mobilemail	/private/var/mobile/Containers/Data/Application/BD8BCA2B-0BC4-4FB6-A185-E46DF9923616
+2022-01-10 12:28:34	Data container moved	com.apple.mobilemail.MailWidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/2F6CEF12-89A8-4774-8586-0C0ACA148A81
+2022-01-10 12:28:34	Data container moved	com.apple.mobilemail.MailQuickLookExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B6772C1E-E2A8-4849-BD35-E588F861A488
+2022-01-10 12:28:34	Data container moved	com.apple.mobilemail.MailIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9B446AFE-1633-4510-BF9A-D63F1FD29E7E
+2022-01-10 12:28:34	Data container moved	com.apple.mobilemail.DiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E9E02941-1952-4DAE-BD40-0CEE05598471
+2022-01-10 12:28:34	Data container moved	com.apple.mobilemail.MailSpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DD9CB882-690A-4002-BA34-E858239F9C44
+2022-01-10 12:28:34	Data container moved	com.apple.mobilemail.MailNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/4609F58E-5C83-49D8-A1FF-669AFCF057F6
+2022-01-10 12:28:34	Made container live	com.apple.mobilemail	/private/var/containers/Bundle/Application/5B971068-256C-4880-8DB2-5799F9712B93
+2022-01-10 12:28:34	Install successful	com.apple.mobilemail	
+2022-01-10 12:28:39	Data container moved	com.apple.news	/private/var/mobile/Containers/Data/Application/16DF9F32-7C2E-4ED5-A4A2-FBDA58FBFEA2
+2022-01-10 12:28:39	Data container moved	com.apple.news.openinnews	/private/var/mobile/Containers/Data/PluginKitPlugin/8D6E9F26-6179-4538-AAF4-F796EA6977F6
+2022-01-10 12:28:39	Data container moved	com.apple.news.NewsArticleQuickLook	/private/var/mobile/Containers/Data/PluginKitPlugin/9D4027CF-99AB-4188-BA78-0711001C5C03
+2022-01-10 12:28:39	Data container moved	com.apple.news.tag	/private/var/mobile/Containers/Data/PluginKitPlugin/832FA6E3-8611-4469-B0CA-7B3C87914A0A
+2022-01-10 12:28:39	Data container moved	com.apple.news.widgetintents	/private/var/mobile/Containers/Data/PluginKitPlugin/D82FE8AB-CC3C-4177-910D-82E9FA246596
+2022-01-10 12:28:39	Data container moved	com.apple.news.marketingnotificationextension	/private/var/mobile/Containers/Data/PluginKitPlugin/1E2F76CB-AC33-490C-BC53-BB3C32B75D39
+2022-01-10 12:28:39	Data container moved	com.apple.news.NewsAudioExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7164A7B9-2118-4307-A081-DB9AE1CC275D
+2022-01-10 12:28:39	Data container moved	com.apple.news.engagementExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/BEC45871-255C-4509-B119-D563BBF6FBFA
+2022-01-10 12:28:40	Data container moved	com.apple.news.widget	/private/var/mobile/Containers/Data/PluginKitPlugin/3A99FF3D-86E1-441F-9AA2-93175AF2DD03
+2022-01-10 12:28:40	Data container moved	com.apple.news.articlenotificationextension	/private/var/mobile/Containers/Data/PluginKitPlugin/70D3BC9F-E80A-445C-815C-B207BAE4EC43
+2022-01-10 12:28:40	Data container moved	com.apple.news.articlenotificationserviceextension	/private/var/mobile/Containers/Data/PluginKitPlugin/022DB110-DB3D-4626-B4D9-9CA5093F4592
+2022-01-10 12:28:40	Made container live	com.apple.news	/private/var/containers/Bundle/Application/65135AE2-61F0-4E2F-869A-13638973B03A
+2022-01-10 12:28:40	Install successful	com.apple.news	
+2022-01-10 12:28:42	Data container moved	com.apple.facetime	/private/var/mobile/Containers/Data/Application/DD76330D-5CCE-4F74-B2F5-45D322CB17B1
+2022-01-10 12:28:42	Made container live	com.apple.facetime	/private/var/containers/Bundle/Application/606916D2-1A93-4FA0-80D5-9B4E9DEF9B8C
+2022-01-10 12:28:42	Install successful	com.apple.facetime	
+2022-01-10 12:28:45	Data container moved	com.apple.mobilenotes	/private/var/mobile/Containers/Data/Application/74F100B6-16A0-400D-8AB4-CA8CD0FC5D62
+2022-01-10 12:28:45	Data container moved	com.apple.mobilenotes.QuickLookExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DFD49B09-D1FE-495D-A9CF-869535D55F07
+2022-01-10 12:28:45	Data container moved	com.apple.mobilenotes.IntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/2705904B-D25F-4854-A16F-FC8B1D049FC8
+2022-01-10 12:28:45	Data container moved	com.apple.mobilenotes.SpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/510F4B3F-FC18-4F66-8D21-B5F76C775B2E
+2022-01-10 12:28:45	Data container moved	com.apple.mobilenotes.SharingExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/CE890251-2F5C-4FFD-948C-64A354EFE744
+2022-01-10 12:28:45	Data container moved	com.apple.mobilenotes.WidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9ADD73BD-7A9E-404E-B84D-23DE46C2A580
+2022-01-10 12:28:45	Made container live	com.apple.mobilenotes	/private/var/containers/Bundle/Application/F632CB0E-2EF4-4C4A-9255-182A4A131197
+2022-01-10 12:28:45	Install successful	com.apple.mobilenotes	
+2022-01-10 12:29:06	Data container moved	com.apple.reminders	/private/var/mobile/Containers/Data/Application/3F54194D-707E-42E1-9928-B84EBBE0DD24
+2022-01-10 12:29:06	Data container moved	com.apple.reminders.IntentsUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/75FFA327-205E-4C7F-8F51-E0F733290CBD
+2022-01-10 12:29:06	Data container moved	com.apple.reminders.WidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/4AFD0CC7-D7BE-4979-9D3D-F4B6205BCD1B
+2022-01-10 12:29:06	Data container moved	com.apple.reminders.sharingextension	/private/var/mobile/Containers/Data/PluginKitPlugin/528ED369-0A7B-47BD-A437-2A5CF2E8702C
+2022-01-10 12:29:06	Data container moved	com.apple.reminders.IntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/66087BEC-9CB5-4ACE-A4C9-4771966F694D
+2022-01-10 12:29:06	Data container moved	com.apple.reminders.spotlightindexextension	/private/var/mobile/Containers/Data/PluginKitPlugin/73669CAF-6312-4A86-86B7-1ED02E32AD68
+2022-01-10 12:29:07	Made container live	com.apple.reminders	/private/var/containers/Bundle/Application/4ED311CB-E73D-42AD-B70F-36C5AE96BF7A
+2022-01-10 12:29:07	Install successful	com.apple.reminders	
+2022-01-10 12:29:20	Data container moved	com.apple.Home	/private/var/mobile/Containers/Data/Application/3B887C73-082E-4580-A535-919CAC0EECFF
+2022-01-10 12:29:20	Data container moved	com.apple.Home.HomeNotification	/private/var/mobile/Containers/Data/PluginKitPlugin/E9EE3691-8416-4757-86D2-0966CC0E1BAA
+2022-01-10 12:29:20	Data container moved	com.apple.Home.HomeIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/566FD3D3-9C05-49BA-9794-A406BDD01D67
+2022-01-10 12:29:20	Data container moved	com.apple.Home.HomeUtilNotification	/private/var/mobile/Containers/Data/PluginKitPlugin/F80A301A-D634-4803-BE57-159B05626DD3
+2022-01-10 12:29:20	Data container moved	com.apple.Home.HomePersonalRequestNotification	/private/var/mobile/Containers/Data/PluginKitPlugin/66B3648A-1AB6-436A-BB66-FA71C5363130
+2022-01-10 12:29:20	Made container live	com.apple.Home	/private/var/containers/Bundle/Application/AA9B4815-DE27-4442-950F-9C1B0FF3B969
+2022-01-10 12:29:20	Install successful	com.apple.Home	
+2022-01-10 12:29:33	Data container moved	com.apple.tips	/private/var/mobile/Containers/Data/Application/6F2613F3-C432-4CE8-BE19-993D1E520DDA
+2022-01-10 12:29:33	Data container moved	com.apple.tips.TipsPFLPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/2EDDFE4B-3D0E-4B41-B3F4-EE00C196A2E8
+2022-01-10 12:29:33	Data container moved	com.apple.tips.TipsSwift	/private/var/mobile/Containers/Data/PluginKitPlugin/13BFBE25-7CCF-4BFA-8A23-B75556EFF289
+2022-01-10 12:29:33	Data container moved	com.apple.tips.TipsNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/451D518C-2C17-4849-A064-F80FA30768EA
+2022-01-10 12:29:33	Made container live	com.apple.tips	/private/var/containers/Bundle/Application/608AF1BA-CEC2-42EF-8C4A-149FCFD5DCB7
+2022-01-10 12:29:34	Install successful	com.apple.tips	
+2022-01-10 12:29:35	Data container moved	com.apple.Maps	/private/var/mobile/Containers/Data/Application/9916AB7F-EA5B-4A45-88C7-3896807D7F83
+2022-01-10 12:29:35	Data container moved	com.apple.Maps.MapsSpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/58BF6D35-E5E9-4550-9CF0-809EF37AEE4E
+2022-01-10 12:29:35	Data container moved	com.apple.Maps.SiriTrafficIncidents	/private/var/mobile/Containers/Data/PluginKitPlugin/D40775AF-EF2C-4D8B-941C-4A0B2997781C
+2022-01-10 12:29:35	Data container moved	com.apple.Maps.GeneralMapsWidget	/private/var/mobile/Containers/Data/PluginKitPlugin/8D4F2C30-4855-4C07-A422-A188082CBD2A
+2022-01-10 12:29:35	Made container live	com.apple.Maps	/private/var/containers/Bundle/Application/F758033D-C4F0-4488-96AB-D872DA1496C3
+2022-01-10 12:29:35	Install successful	com.apple.Maps	
+2022-01-10 12:29:39	Data container moved	com.apple.MobileStore	/private/var/mobile/Containers/Data/Application/6F36A725-727E-4CBF-8C11-F2C265C04BEF
+2022-01-10 12:29:39	Data container moved	com.apple.MobileStore.MusicStoreNotificationContentPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/11AF928C-9941-46E9-9C58-B8D9DD868B99
+2022-01-10 12:29:39	Made container live	com.apple.MobileStore	/private/var/containers/Bundle/Application/99D71050-83BE-4653-91B6-39E9E14519FE
+2022-01-10 12:29:39	Install successful	com.apple.MobileStore	
+2022-01-10 12:29:51	Data container moved	com.apple.mobilecal	/private/var/mobile/Containers/Data/Application/D08ACEC1-A1F9-4BA3-B8F1-7F8DABF70DB9
+2022-01-10 12:29:51	Data container moved	com.apple.mobilecal.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/014FD58C-9EFC-4D28-81D2-B2D49C885E9A
+2022-01-10 12:29:51	Data container moved	com.apple.mobilecal.FacetimeExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/1C83B4CC-AF1F-4D90-B724-2F28687BC83F
+2022-01-10 12:29:51	Data container moved	com.apple.mobilecal.CalendarWidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/0096EDCD-16F4-49F8-8749-3664535A53CE
+2022-01-10 12:29:51	Made container live	com.apple.mobilecal	/private/var/containers/Bundle/Application/82BA0175-167C-4A47-AB7A-AD4C5C964143
+2022-01-10 12:29:51	Install successful	com.apple.mobilecal	
+2022-01-10 12:29:51	Data container moved	com.apple.VoiceMemos	/private/var/mobile/Containers/Data/Application/B133A44D-0C57-4553-A8E9-A834ECB85031
+2022-01-10 12:29:51	Data container moved	com.apple.VoiceMemos.VoiceMemosIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/0612DA3F-D94E-4062-A4CB-90D6B570BDD5
+2022-01-10 12:29:52	Data container moved	com.apple.VoiceMemos.VoiceMemosShareExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C0727A56-48AA-46F5-86D8-B7C6F4697FAF
+2022-01-10 12:29:52	Data container moved	com.apple.VoiceMemos.SpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/79A05D3D-55F4-4BEC-BEE3-CEDA1E3F2613
+2022-01-10 12:29:52	Made container live	com.apple.VoiceMemos	/private/var/containers/Bundle/Application/6658B107-135A-4D8A-AA1E-5A4435DF8269
+2022-01-10 12:29:52	Install successful	com.apple.VoiceMemos	
+2022-01-10 12:30:00	Data container moved	com.apple.DocumentsApp	/private/var/mobile/Containers/Data/Application/EF9D7D76-5961-4413-8222-A2B6D8CE2C61
+2022-01-10 12:30:00	Made container live	com.apple.DocumentsApp	/private/var/containers/Bundle/Application/5D067746-B6CC-406F-ABEA-5F2B7D149925
+2022-01-10 12:30:00	Install successful	com.apple.DocumentsApp	
+2022-01-10 12:30:05	Data container moved	com.apple.tv	/private/var/mobile/Containers/Data/Application/B39E093C-0EE2-480D-8BDA-139CF14AC4C0
+2022-01-10 12:30:05	Data container moved	com.apple.tv.TVCoreSpotlightExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/936EFEB3-2F38-4310-AD34-B04802BAC39A
+2022-01-10 12:30:05	Data container moved	com.apple.tv.TVNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E7029AE6-D0BC-4154-A385-9897C3A88FD7
+2022-01-10 12:30:05	Data container moved	com.apple.tv.TVIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E03F882A-44A8-4C4D-B3A0-FFCECD411CBE
+2022-01-10 12:30:05	Data container moved	com.apple.tv.TVWidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/BF610A06-4078-49D0-B83C-EC8FF9006A58
+2022-01-10 12:30:05	Made container live	com.apple.tv	/private/var/containers/Bundle/Application/FC9D9B88-97A6-4E66-AA9B-4F0B6F97ACB3
+2022-01-10 12:30:05	Install successful	com.apple.tv	
+2022-01-10 12:30:08	Data container moved	com.apple.weather	/private/var/mobile/Containers/Data/Application/32622B94-890D-4FE3-9292-E9572FA5BB6E
+2022-01-10 12:30:08	Data container moved	com.apple.weather.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/BAEC9871-9DF3-473C-9981-5322466526E4
+2022-01-10 12:30:08	Data container moved	com.apple.weather.widget	/private/var/mobile/Containers/Data/PluginKitPlugin/F9B7D887-8D3E-48A4-8504-B1835308C75F
+2022-01-10 12:30:08	Data container moved	com.apple.weather.WeatherIntents	/private/var/mobile/Containers/Data/PluginKitPlugin/0C512F53-9CFB-4AB2-997A-0B440CD188E8
+2022-01-10 12:30:09	Made container live	com.apple.weather	/private/var/containers/Bundle/Application/A7DF3428-2116-49D9-A9CB-AC31E2765014
+2022-01-10 12:30:09	Install successful	com.apple.weather	
+2022-01-10 12:30:10	Data container moved	com.apple.Translate	/private/var/mobile/Containers/Data/Application/C42C703E-0188-4E34-9315-87FA33AA1BAC
+2022-01-10 12:30:10	Data container moved	com.apple.Translate.CacheDeleteExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C3E9DD8C-5A1D-4636-9641-79BE87A52D80
+2022-01-10 12:30:10	Made container live	com.apple.Translate	/private/var/containers/Bundle/Application/0865FD66-EFF4-430A-B971-1FFEA036E89A
+2022-01-10 12:30:10	Install successful	com.apple.Translate	
+2022-01-10 12:30:32	Data container moved	com.apple.measure	/private/var/mobile/Containers/Data/Application/05EB721F-DE9D-473C-9414-829D1EE0FA72
+2022-01-10 12:30:32	Made container live	com.apple.measure	/private/var/containers/Bundle/Application/54A7991F-0071-4682-9794-6E975123D0C7
+2022-01-10 12:30:32	Install successful	com.apple.measure	
+2022-01-10 12:30:32	Data container moved	com.apple.iBooks	/private/var/mobile/Containers/Data/Application/94BC6CE7-FFB0-489F-A6EF-FF3DC7C1566A
+2022-01-10 12:30:32	Data container moved	com.apple.iBooks.BooksIntentHandler	/private/var/mobile/Containers/Data/PluginKitPlugin/E1901285-B64F-4812-B82C-AB81E03602D1
+2022-01-10 12:30:32	Data container moved	com.apple.iBooks.iBooksProductPageExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7F9A1FF0-FED4-4DE0-84F6-291398D79FAF
+2022-01-10 12:30:32	Data container moved	com.apple.iBooks.iBooksSpotlightExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/32A8C629-79E6-4261-91A6-A09548A33040
+2022-01-10 12:30:32	Data container moved	com.apple.iBooks.BooksNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/3BD50A3E-F4F5-4A8E-B8E9-DAA3444FA6D6
+2022-01-10 12:30:32	Made container live	com.apple.iBooks	/private/var/containers/Bundle/Application/62116CF5-85ED-47A7-95A6-97D8E50D039C
+2022-01-10 12:30:33	Install successful	com.apple.iBooks	
+2022-01-10 12:30:36	Data container moved	com.apple.stocks	/private/var/mobile/Containers/Data/Application/C9B401E3-4B74-41C6-9FE6-9FE3FF79EDF8
+2022-01-10 12:30:36	Data container moved	com.apple.stocks.widget	/private/var/mobile/Containers/Data/PluginKitPlugin/BAA59E75-7290-408A-89E0-20149630CC6E
+2022-01-10 12:30:36	Data container moved	com.apple.stocks.detailintents	/private/var/mobile/Containers/Data/PluginKitPlugin/AC876D3A-5C7A-4E49-9FD4-F98520C565EA
+2022-01-10 12:30:36	Made container live	com.apple.stocks	/private/var/containers/Bundle/Application/ABE92BA3-D0A1-4470-86EA-B8091C1588C8
+2022-01-10 12:30:36	Install successful	com.apple.stocks	
+2022-01-10 12:30:36	Data container moved	com.apple.Music	/private/var/mobile/Containers/Data/Application/BC97E272-F86E-48F8-9485-F9782C979B4F
+2022-01-10 12:30:36	Data container moved	com.apple.Music.MusicNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/61424FF2-284E-4883-9131-8D621E23FAB8
+2022-01-10 12:30:36	Data container moved	com.apple.Music.Messages	/private/var/mobile/Containers/Data/PluginKitPlugin/EEEECF8A-D23C-456C-82E5-24AE7896591D
+2022-01-10 12:30:36	Data container moved	com.apple.Music.MusicCoreSpotlightExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/2DA37A7F-9CB9-4494-A67F-1D4B80A92AA1
+2022-01-10 12:30:37	Data container moved	com.apple.Music.MusicWidgets	/private/var/mobile/Containers/Data/PluginKitPlugin/1374A668-0598-41A0-9355-9B98C9F386A4
+2022-01-10 12:30:37	Data container moved	com.apple.Music.MediaPicker	/private/var/mobile/Containers/Data/PluginKitPlugin/D54BA222-AF59-498C-92B9-4912BBBE5B64
+2022-01-10 12:30:37	Data container moved	com.apple.Music.StoreFlowExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/059A7B05-3BF1-4B99-AE7F-8243CCD6F14D
+2022-01-10 12:30:37	Made container live	com.apple.Music	/private/var/containers/Bundle/Application/64DD3919-6C8A-411B-9B80-21A9C9FDF9DF
+2022-01-10 12:30:37	Install successful	com.apple.Music	
+2022-01-10 12:30:43	Data container moved	com.apple.compass	/private/var/mobile/Containers/Data/Application/0D33A09F-96DD-46AD-A09C-6081407DE7CA
+2022-01-10 12:30:43	Made container live	com.apple.compass	/private/var/containers/Bundle/Application/D5793328-81DB-4A6A-8861-6844E5695774
+2022-01-10 12:30:43	Install successful	com.apple.compass	
+2022-01-10 12:30:48	Data container moved	com.apple.podcasts	/private/var/mobile/Containers/Data/Application/0DC9574D-52DD-426A-BCC8-DB1A9EC1DB7F
+2022-01-10 12:30:48	Data container moved	com.apple.podcasts.DiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/AD824AB6-872B-4B37-9559-02719DF4E369
+2022-01-10 12:30:48	Data container moved	com.apple.podcasts.PodcastsNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/F55762F7-EA64-4C5B-885B-5136E8452D91
+2022-01-10 12:30:48	Data container moved	com.apple.podcasts.PodcastsClassKitExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/26E80F3F-E3C7-47D1-B3B5-DA5AF82141B9
+2022-01-10 12:30:48	Data container moved	com.apple.podcasts.widget	/private/var/mobile/Containers/Data/PluginKitPlugin/3682DFF9-0F7D-40C5-9134-80B8ABEB5E2E
+2022-01-10 12:30:48	Data container moved	com.apple.podcasts.SpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/0AC78E23-92FC-435A-9584-D65A7450774B
+2022-01-10 12:30:48	Data container moved	com.apple.podcasts.PodcastsProductPageExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/D5E75BEE-F1CC-459E-9E30-ADC108150CA0
+2022-01-10 12:30:48	Data container moved	com.apple.podcasts.PodcastsAnnouncementsNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DCDE0AE3-CEFC-46EE-9589-51EED92252FC
+2022-01-10 12:30:48	Made container live	com.apple.podcasts	/private/var/containers/Bundle/Application/A92DE7FE-82C1-4A14-B8E3-F48D3849092E
+2022-01-10 12:30:48	Install successful	com.apple.podcasts	
+2022-01-12 17:18:16	Reboot detected	com.apple.podcasts	
+2022-01-12 17:20:07	Data container moved	com.apple.Bridge	/private/var/mobile/Containers/Data/Application/70E805AE-A727-4E45-983A-7A862F2C85C3
+2022-01-12 17:20:07	Data container moved	com.apple.Bridge.GreenfieldThumbnailExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/97EC0BF4-4148-48D2-8083-062C8F56BFD9
+2022-01-12 17:20:07	Made container live	com.apple.Bridge	/private/var/containers/Bundle/Application/27CE6AB1-CBA1-46B7-99E6-3870E5597E26
+2022-01-12 17:20:07	Install successful	com.apple.Bridge	
+2022-01-21 15:30:40	Reboot detected	com.apple.Bridge	
+2022-01-21 15:30:42	Made container live	com.google.Gmail	/private/var/mobile/Containers/Data/Application/E5EB4009-9E4F-4AC6-8234-852CAEBE7FBA
+2022-01-21 15:30:42	Made container live	com.google.Gmail	/private/var/containers/Bundle/Application/4EFDA9CA-6B68-4B50-A3BA-16E73DAD3221
+2022-01-21 15:30:42	Install successful	com.google.Gmail	
+2022-01-21 15:32:02	Data container moved	com.google.Gmail	/private/var/mobile/Containers/Data/Application/84B8DB80-7562-444A-9296-D4D23A12BCE9
+2022-01-21 15:32:02	Made container live	com.google.Gmail.BroadcastUploadExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/269EFE03-0B0A-4BAD-86CA-1B56BE7E9E0D
+2022-01-21 15:32:02	Made container live	com.google.Gmail.SiriKitExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/32FC46C2-7858-47D9-AD86-A4F60B491A0C
+2022-01-21 15:32:02	Made container live	com.google.Gmail.NotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/46F691FA-0DA1-44B6-A808-B5A009E3F799
+2022-01-21 15:32:02	Made container live	com.google.Gmail.ShareExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/EA89503C-22C9-451B-B3D9-4122A481078D
+2022-01-21 15:32:02	Made container live	com.google.Gmail.WidgetKitExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/190C182C-1C7C-4378-A6D6-AD1733ABF336
+2022-01-21 15:32:02	Made container live	com.google.Gmail	/private/var/containers/Bundle/Application/9CEB8690-55FC-4630-9371-ACC6B617C9B5
+2022-01-21 15:32:02	Install successful	com.google.Gmail	
+2022-01-21 15:33:22	Made container live	com.hammerandchisel.discord	/private/var/mobile/Containers/Data/Application/02E12C43-2626-4E25-8C12-7BF1D20B81A1
+2022-01-21 15:33:22	Made container live	com.hammerandchisel.discord	/private/var/containers/Bundle/Application/7FB029A2-1E2D-4E54-BC18-60C19647EFB5
+2022-01-21 15:33:22	Install successful	com.hammerandchisel.discord	
+2022-01-21 15:34:19	Data container moved	com.hammerandchisel.discord	/private/var/mobile/Containers/Data/Application/80C6D157-4E08-4C34-8A6F-FA3F7D5EE229
+2022-01-21 15:34:19	Made container live	com.hammerandchisel.discord.BroadcastUpload	/private/var/mobile/Containers/Data/PluginKitPlugin/77F6CDED-CC55-4BED-93B0-D8C38DC01CFE
+2022-01-21 15:34:19	Made container live	com.hammerandchisel.discord.Share	/private/var/mobile/Containers/Data/PluginKitPlugin/9E6E7A71-EEF9-4B97-80CD-90E2FCE11CB2
+2022-01-21 15:34:19	Made container live	com.hammerandchisel.discord	/private/var/containers/Bundle/Application/C51899EA-7648-4C1A-9C15-31982701749D
+2022-01-21 15:34:19	Install successful	com.hammerandchisel.discord	
+2022-01-21 15:35:06	Made container live	com.toyopagroup.picaboo	/private/var/mobile/Containers/Data/Application/EDB0C8E8-D66F-484E-AC77-E1A32274D8BE
+2022-01-21 15:35:06	Made container live	com.toyopagroup.picaboo	/private/var/containers/Bundle/Application/43682057-8383-4A9B-B248-1F6BF58B3D93
+2022-01-21 15:35:06	Install successful	com.toyopagroup.picaboo	
+2022-01-21 15:37:49	Data container moved	com.toyopagroup.picaboo	/private/var/mobile/Containers/Data/Application/55937BA7-D5B0-48A7-9FCF-CBBB350952A1
+2022-01-21 15:37:49	Made container live	com.toyopagroup.picaboo.notification	/private/var/mobile/Containers/Data/PluginKitPlugin/EAE68FCD-2868-4804-9501-0716137368BE
+2022-01-21 15:37:49	Made container live	com.toyopagroup.picaboo.today	/private/var/mobile/Containers/Data/PluginKitPlugin/1DF2F7E8-D872-4676-9AB2-FF8E525AE15B
+2022-01-21 15:37:49	Made container live	com.toyopagroup.picaboo.share	/private/var/mobile/Containers/Data/PluginKitPlugin/1C49CE7C-52AE-4EF6-8902-254F11BE450D
+2022-01-21 15:37:49	Made container live	com.toyopagroup.picaboo.homeWidget	/private/var/mobile/Containers/Data/PluginKitPlugin/3795CE1C-9B46-4BC7-AFB6-E1FC6DA89ECE
+2022-01-21 15:37:49	Made container live	com.toyopagroup.picaboo	/private/var/containers/Bundle/Application/AED1104D-1BEA-436F-A010-5E0D589275DC
+2022-01-21 15:37:49	Install successful	com.toyopagroup.picaboo	
+2022-01-21 15:43:45	Made container live	com.moxco.bumble	/private/var/mobile/Containers/Data/Application/7485F9FF-D78C-4164-9085-A213DC456431
+2022-01-21 15:43:45	Made container live	com.moxco.bumble	/private/var/containers/Bundle/Application/9788B3A8-F488-4C2D-A885-B12049506189
+2022-01-21 15:43:45	Install successful	com.moxco.bumble	
+2022-01-21 15:44:04	Data container moved	com.moxco.bumble	/private/var/mobile/Containers/Data/Application/F6664A1F-E4CE-412A-B6F6-825A08EDCC34
+2022-01-21 15:44:04	Made container live	com.moxco.bumble	/private/var/containers/Bundle/Application/77F6EDF4-341B-403B-9FD1-76F1C0461D97
+2022-01-21 15:44:04	Install successful	com.moxco.bumble	
+2022-01-21 15:44:59	Made container live	com.atebits.Tweetie2	/private/var/mobile/Containers/Data/Application/942BBCBF-9593-4A39-A7C4-EA67F72B7E4F
+2022-01-21 15:44:59	Made container live	com.atebits.Tweetie2	/private/var/containers/Bundle/Application/CDF1A082-96CE-4156-9507-224F607FFAF3
+2022-01-21 15:44:59	Install successful	com.atebits.Tweetie2	
+2022-01-21 15:45:15	Data container moved	com.atebits.Tweetie2	/private/var/mobile/Containers/Data/Application/CFD03282-AFFA-4F26-BBCA-AB8802A6BEDB
+2022-01-21 15:45:15	Made container live	com.atebits.Tweetie2.NotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/0BBE6E06-4F54-44E8-ABF9-D39CB27101C9
+2022-01-21 15:45:15	Made container live	com.atebits.Tweetie2.SiriExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/847B4CE0-1DCD-46CC-AB27-A5C32548E6F5
+2022-01-21 15:45:15	Made container live	com.atebits.Tweetie2.ShareExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9CD81B9C-B3CF-45D7-B5D3-F6E46C51BC62
+2022-01-21 15:45:15	Made container live	com.atebits.Tweetie2.NotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/3299BADB-2AE8-4514-A8C4-D4B19B8200EC
+2022-01-21 15:45:15	Made container live	com.atebits.Tweetie2	/private/var/containers/Bundle/Application/1557501C-9962-4B57-BC3D-048D757B21D6
+2022-01-21 15:45:15	Install successful	com.atebits.Tweetie2	
+2022-01-21 15:45:42	Made container live	com.reddit.Reddit	/private/var/mobile/Containers/Data/Application/46FF044C-A31A-4E6A-8310-C81C4C501263
+2022-01-21 15:45:42	Made container live	com.reddit.Reddit	/private/var/containers/Bundle/Application/15F8C777-6174-486D-A080-4B7AF39C67A2
+2022-01-21 15:45:42	Install successful	com.reddit.Reddit	
+2022-01-21 15:46:27	Data container moved	com.reddit.Reddit	/private/var/mobile/Containers/Data/Application/2BBE56D0-9F4F-47D1-903C-2653DA9B5789
+2022-01-21 15:46:27	Made container live	com.reddit.Reddit.NotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/608A49B0-6B56-4A61-ABB9-76E8DE0EB215
+2022-01-21 15:46:27	Made container live	com.reddit.Reddit.RedditIntents	/private/var/mobile/Containers/Data/PluginKitPlugin/E2E2A19E-CA3F-49DD-8C83-D81807F7A89B
+2022-01-21 15:46:27	Made container live	com.reddit.Reddit.RedditWidgets	/private/var/mobile/Containers/Data/PluginKitPlugin/9EBFA73F-EDAA-4F2B-9932-DAFFCEAE1BDA
+2022-01-21 15:46:27	Made container live	com.reddit.Reddit.stickers	/private/var/mobile/Containers/Data/PluginKitPlugin/87D9A248-FD7E-4D2C-9AE6-4CA45495C076
+2022-01-21 15:46:27	Made container live	com.reddit.Reddit	/private/var/containers/Bundle/Application/71C6BB94-7A59-4317-9247-4011F89FDCF0
+2022-01-21 15:46:27	Install successful	com.reddit.Reddit	
+2022-01-21 15:46:58	Made container live	org.whispersystems.signal	/private/var/mobile/Containers/Data/Application/D443CDBF-06C3-4057-A37B-6BDE160CDBF6
+2022-01-21 15:46:58	Made container live	org.whispersystems.signal	/private/var/containers/Bundle/Application/6CF3F2E1-998B-40E8-A911-91A49DD33B49
+2022-01-21 15:46:58	Install successful	org.whispersystems.signal	
+2022-01-21 15:47:19	Data container moved	org.whispersystems.signal	/private/var/mobile/Containers/Data/Application/D17DD49D-9D3F-4E70-8E40-408AFCA23B09
+2022-01-21 15:47:19	Made container live	org.whispersystems.signal.shareextension	/private/var/mobile/Containers/Data/PluginKitPlugin/7F393543-09EE-4AC5-A4D7-E30DDFF3E48C
+2022-01-21 15:47:19	Made container live	org.whispersystems.signal.SignalNSE	/private/var/mobile/Containers/Data/PluginKitPlugin/7FDAB546-A5AF-4A36-B865-FEAFD46D1FAF
+2022-01-21 15:47:19	Made container live	org.whispersystems.signal	/private/var/containers/Bundle/Application/6596350B-4FA2-4F11-9EB5-C68C89051C55
+2022-01-21 15:47:19	Install successful	org.whispersystems.signal	
+2022-01-21 16:13:28	Made container live	com.wearezeta.zclient.ios	/private/var/mobile/Containers/Data/Application/DBAEFC5A-EB5E-499A-9F48-FCB31BAD53A7
+2022-01-21 16:13:28	Made container live	com.wearezeta.zclient.ios	/private/var/containers/Bundle/Application/1C3CE53B-4779-4DF8-814A-5507A99F4232
+2022-01-21 16:13:28	Install successful	com.wearezeta.zclient.ios	
+2022-01-21 16:13:31	Data container moved	com.wearezeta.zclient.ios	/private/var/mobile/Containers/Data/Application/5F6D548F-428E-46FD-B1F9-FCFA2EBB7C00
+2022-01-21 16:13:31	Made container live	com.wearezeta.zclient.ios.extension-share	/private/var/mobile/Containers/Data/PluginKitPlugin/345B36B3-586E-449A-911B-11ECB65F60D7
+2022-01-21 16:13:31	Made container live	com.wearezeta.zclient.ios	/private/var/containers/Bundle/Application/2C6CF3CC-904B-4844-9A59-EC58DB0ECEA1
+2022-01-21 16:13:31	Install successful	com.wearezeta.zclient.ios	
+2022-01-21 16:14:20	Made container live	com.tencent.xin	/private/var/mobile/Containers/Data/Application/A9F17813-0202-4BB2-8CCD-3114CA3B02BF
+2022-01-21 16:14:20	Made container live	com.tencent.xin	/private/var/containers/Bundle/Application/1B9E90C1-E31E-4115-847C-164728F3E07D
+2022-01-21 16:14:20	Install successful	com.tencent.xin	
+2022-01-21 16:14:46	Data container moved	com.tencent.xin	/private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 16:14:46	Made container live	com.tencent.xin.siriextensionui	/private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55
+2022-01-21 16:14:46	Made container live	com.tencent.xin.siriextension	/private/var/mobile/Containers/Data/PluginKitPlugin/FA0E36A5-941F-41BA-8A4C-5F3B9AA46CF1
+2022-01-21 16:14:46	Made container live	com.tencent.xin.sharetimeline	/private/var/mobile/Containers/Data/PluginKitPlugin/1E21D9F0-BCB3-44B9-AE28-6A5832180833
+2022-01-21 16:14:46	Made container live	com.tencent.xin.WeChatNotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-21 16:14:46	Made container live	com.tencent.xin	/private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 16:14:46	Install successful	com.tencent.xin	
+2022-01-21 16:15:28	Made container live	com.alltrails.AllTrails	/private/var/mobile/Containers/Data/Application/F607B7BC-D7B6-443A-91CF-B52946B378EE
+2022-01-21 16:15:28	Made container live	com.alltrails.AllTrails	/private/var/containers/Bundle/Application/F147B056-AA64-4C10-B198-BF6D4659386E
+2022-01-21 16:15:28	Install successful	com.alltrails.AllTrails	
+2022-01-21 16:15:34	Data container moved	com.alltrails.AllTrails	/private/var/mobile/Containers/Data/Application/30A358D5-56DB-4638-A4CA-5EB2EE575B96
+2022-01-21 16:15:34	Made container live	com.alltrails.AllTrails.NotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6451DD89-382F-4B1D-AF22-16C30D89C336
+2022-01-21 16:15:34	Made container live	com.alltrails.AllTrails	/private/var/containers/Bundle/Application/FD1AC727-4119-469D-932E-67E866E2245A
+2022-01-21 16:15:34	Install successful	com.alltrails.AllTrails	
+2022-01-21 16:17:04	Made container live	ru.appscraft.CollectorGame	/private/var/mobile/Containers/Data/Application/BD47EB34-339F-45D7-A79C-E039F6AEE3CE
+2022-01-21 16:17:04	Made container live	ru.appscraft.CollectorGame	/private/var/containers/Bundle/Application/D2A9D0C3-2941-461D-8822-5702E5CD4105
+2022-01-21 16:17:04	Install successful	ru.appscraft.CollectorGame	
+2022-01-21 16:17:10	Data container moved	ru.appscraft.CollectorGame	/private/var/mobile/Containers/Data/Application/BB8E90B6-E561-4D4D-BC8C-A12067289D11
+2022-01-21 16:17:10	Made container live	ru.appscraft.CollectorGame	/private/var/containers/Bundle/Application/A742413C-8D39-4271-9681-73FBD1FD4EE2
+2022-01-21 16:17:10	Install successful	ru.appscraft.CollectorGame	
+2022-01-21 16:17:52	Made container live	com.gma.water.sort.puzzle	/private/var/mobile/Containers/Data/Application/1A87459E-0F04-4030-92F6-F4EB66B973CD
+2022-01-21 16:17:52	Made container live	com.gma.water.sort.puzzle	/private/var/containers/Bundle/Application/AEB963BD-B6A3-40A3-861B-600E5E25F205
+2022-01-21 16:17:52	Install successful	com.gma.water.sort.puzzle	
+2022-01-21 16:17:55	Data container moved	com.gma.water.sort.puzzle	/private/var/mobile/Containers/Data/Application/DD42734F-C83C-46AB-9549-30628C58F0E8
+2022-01-21 16:17:55	Made container live	com.gma.water.sort.puzzle	/private/var/containers/Bundle/Application/480F45B4-41D3-4E2B-92FE-1DC503BA3BB7
+2022-01-21 16:17:55	Install successful	com.gma.water.sort.puzzle	
+2022-01-21 16:21:34	Made container live	com.chess.iphone	/private/var/mobile/Containers/Data/Application/935FC4FD-CCB4-42B7-B103-F349EE1FDE3C
+2022-01-21 16:21:34	Made container live	com.chess.iphone	/private/var/containers/Bundle/Application/B8A9D50A-6DB0-4F53-AE2D-D75D21A505ED
+2022-01-21 16:21:34	Install successful	com.chess.iphone	
+2022-01-21 16:21:39	Data container moved	com.chess.iphone	/private/var/mobile/Containers/Data/Application/8A394840-7BE2-4814-A1EE-C3D35526444B
+2022-01-21 16:21:39	Made container live	com.chess.iphone.NotificationService	/private/var/mobile/Containers/Data/PluginKitPlugin/FC305E7E-7ED9-463C-B56C-30A7CE99595A
+2022-01-21 16:21:39	Made container live	com.chess.iphone	/private/var/containers/Bundle/Application/382CCEB1-2F70-45CC-A24B-B7BF2C2FC5BB
+2022-01-21 16:21:39	Install successful	com.chess.iphone	
+2022-01-21 17:11:26	Uninstalling identifier	com.tencent.xin	
+2022-01-21 17:11:26	Destroying container	com.tencent.xin	/private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 17:11:26	Destroying container	com.tencent.xin	/private/var/containers/Bundle/Application/F0067D5E-D0A6-470B-B082-0A0D78B1ED11
+2022-01-21 17:11:26	Destroying container	com.tencent.xin	/private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 17:11:26	Destroying container	com.tencent.xin	/private/var/mobile/Containers/Data/Application/51242092-6D52-4404-B2A8-04A94D9E9D51
+2022-01-21 17:11:26	Destroying container	com.tencent.xin.siriextensionui	/private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55
+2022-01-21 17:11:26	Destroying container	com.tencent.xin.siriextensionui	/private/var/mobile/Containers/Data/PluginKitPlugin/51367283-9562-4278-AE33-AEBA2C2A9B55
+2022-01-21 17:11:26	Destroying container	com.tencent.xin.siriextension	/private/var/mobile/Containers/Data/PluginKitPlugin/FA0E36A5-941F-41BA-8A4C-5F3B9AA46CF1
+2022-01-21 17:11:26	Destroying container	com.tencent.xin.siriextension	/private/var/mobile/Containers/Data/PluginKitPlugin/FA0E36A5-941F-41BA-8A4C-5F3B9AA46CF1
+2022-01-21 17:11:26	Destroying container	com.tencent.xin.sharetimeline	/private/var/mobile/Containers/Data/PluginKitPlugin/1E21D9F0-BCB3-44B9-AE28-6A5832180833
+2022-01-21 17:11:26	Destroying container	com.tencent.xin.sharetimeline	/private/var/mobile/Containers/Data/PluginKitPlugin/1E21D9F0-BCB3-44B9-AE28-6A5832180833
+2022-01-21 17:11:26	Destroying container	com.tencent.xin.WeChatNotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-21 17:11:26	Destroying container	com.tencent.xin.WeChatNotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-29 21:12:28	Reboot detected	com.tencent.xin.WeChatNotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-02-03 20:16:39	Reboot detected	com.tencent.xin.WeChatNotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-02-14 11:44:13	Reboot detected	com.tencent.xin.WeChatNotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-06 14:41:00	Reboot detected	com.tencent.xin.WeChatNotificationServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6C3C0BE5-762B-4D21-B926-00FB9D9D6FF9
+2022-01-06 14:41:01	Made container live	com.apple.PaperBoard	/private/var/mobile/Containers/Data/Application/3E7EA26A-C34D-4361-8AC5-FB4E748632A3
+2022-01-06 14:41:01	Made container live	com.apple.AAUIViewService	/private/var/mobile/Containers/Data/Application/CFA5D8B9-C169-403C-8E06-7EEDCD7AB0DE
+2022-01-06 14:41:01	Made container live	com.apple.DemoApp	/private/var/mobile/Containers/Data/Application/34241DD8-3FB3-443B-856D-F2D1F23C6032
+2022-01-06 14:41:01	Made container live	com.apple.MobileSMS	/private/var/mobile/Containers/Data/Application/32AB8F0E-BE6D-483E-AF7D-6E2EB9095799
+2022-01-06 14:41:01	Made container live	com.apple.MobileSMS.MessagesAssistantExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/58B0D121-23E5-45F3-9C6F-D4C566F46A84
+2022-01-06 14:41:01	Made container live	com.apple.MobileSMS.MessagesAssistantUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/58270D26-F431-4C7B-B9CA-5BB041C3FF29
+2022-01-06 14:41:01	Made container live	com.apple.MobileSMS.MessagesTranscriptExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/1BA2FD77-B865-473E-91F4-5B0ADADCE7BC
+2022-01-06 14:41:01	Made container live	com.apple.MobileSMS.MessagesNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/70C87BF9-EE4E-4165-ACC9-520C55285303
+2022-01-06 14:41:01	Made container live	com.apple.MobileSMS.spotlight	/private/var/mobile/Containers/Data/PluginKitPlugin/BC897A76-3AE6-4E2D-B2D7-104B98DCCB63
+2022-01-06 14:41:01	Made container live	com.apple.AccountAuthenticationDialog	/private/var/mobile/Containers/Data/Application/85D6DBD2-CB1A-455E-B5A7-513A2C00733E
+2022-01-06 14:41:01	Made container live	com.apple.ctkui	/private/var/mobile/Containers/Data/Application/7A4C210E-BC9C-42D6-B040-024B3A48F457
+2022-01-06 14:41:01	Made container live	com.apple.ScreenTimeWidgetApplication	/private/var/mobile/Containers/Data/Application/C799B0D1-79DF-485F-9B14-CA4F5F583F42
+2022-01-06 14:41:02	Made container live	com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DB96A16D-C3C9-4491-A1CC-A2EFA35EF5B7
+2022-01-06 14:41:02	Made container live	com.apple.ScreenTimeWidgetApplication.ScreenTimeWidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/A1B076E9-1CE3-498A-BA7F-8298FBE09D8E
+2022-01-06 14:41:02	Made container live	com.apple.musicrecognition	/private/var/mobile/Containers/Data/Application/D6C14EE0-1770-4BD5-9DFE-41724E84BDE8
+2022-01-06 14:41:02	Made container live	com.apple.FontInstallViewService	/private/var/mobile/Containers/Data/Application/629DB439-10B7-4A37-8D3A-35839D9FCD0B
+2022-01-06 14:41:02	Made container live	com.apple.Animoji.StickersApp	/private/var/mobile/Containers/Data/Application/4A55A58F-4EB2-4C92-9126-072F081AD8F6
+2022-01-06 14:41:02	Made container live	com.apple.Animoji.StickersApp.MessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/D936B121-6AAD-49A5-A893-F047186FDE23
+2022-01-06 14:41:02	Made container live	com.apple.AppSSOUIService	/private/var/mobile/Containers/Data/Application/364A7E6B-C963-4915-8266-D22FCF1F600F
+2022-01-06 14:41:02	Made container live	com.apple.Diagnostics	/private/var/mobile/Containers/Data/Application/FADD4106-79A3-4CBA-A75F-7D44F6C42ABD
+2022-01-06 14:41:02	Made container live	com.apple.Diagnostics.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/868C70C5-8DA8-464D-8051-84CCA38FEDA1
+2022-01-06 14:41:02	Made container live	com.apple.FMDMagSafeSetupRemoteUI	/private/var/mobile/Containers/Data/Application/8ED469FC-1572-4915-A5DC-085488847092
+2022-01-06 14:41:02	Made container live	com.apple.Photos.PhotosUIService	/private/var/mobile/Containers/Data/Application/9E7BC794-A409-4905-8AA4-A8B4D4635197
+2022-01-06 14:41:02	Made container live	com.apple.CarPlayWallpaper	/private/var/mobile/Containers/Data/Application/36DD7D91-69D8-498C-9F96-331344969119
+2022-01-06 14:41:02	Made container live	com.apple.CTNotifyUIService	/private/var/mobile/Containers/Data/Application/D34F561F-1F82-4313-A704-B3A8FDB566AD
+2022-01-06 14:41:02	Made container live	com.apple.dt.XcodePreviews	/private/var/mobile/Containers/Data/Application/425D3A8B-4016-4F6D-8239-290802E8FCAB
+2022-01-06 14:41:02	Made container live	com.apple.siri.parsec.HashtagImagesApp	/private/var/mobile/Containers/Data/Application/1905DB7A-EA0F-40FC-976F-CC819D2F9C96
+2022-01-06 14:41:02	Made container live	com.apple.siri.parsec.HashtagImagesApp.HashtagImagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C82FB015-ABDF-4962-A673-11B9C47A4345
+2022-01-06 14:41:02	Made container live	com.apple.FunCamera.ShapesPicker	/private/var/mobile/Containers/Data/Application/6FCDF3C4-7947-4060-92CD-321B5C445444
+2022-01-06 14:41:02	Made container live	com.apple.FunCamera.ShapesPicker.MessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/88478A07-DC4C-46B5-8FF8-928C533CAA08
+2022-01-06 14:41:02	Made container live	com.apple.Health	/private/var/mobile/Containers/Data/Application/6A762DC8-024A-4A5B-B629-9A02D8242E26
+2022-01-06 14:41:02	Made container live	com.apple.Health.ShareExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/80C13780-5124-45F3-BCF2-EAEFC0BB5745
+2022-01-06 14:41:02	Made container live	com.apple.CloudKit.ShareBear	/private/var/mobile/Containers/Data/Application/4BD6E9AE-14D3-40F5-B3B5-8E7807520D9C
+2022-01-06 14:41:02	Made container live	com.apple.sidecar	/private/var/mobile/Containers/Data/Application/2F0B138F-340F-4AB7-869D-8B426137C8DA
+2022-01-06 14:41:03	Made container live	com.apple.sidecar.extension.signature	/private/var/mobile/Containers/Data/PluginKitPlugin/5FF70942-74E4-491B-9FE8-CFC10A2E05C6
+2022-01-06 14:41:03	Made container live	com.apple.sidecar.extension.display	/private/var/mobile/Containers/Data/PluginKitPlugin/6C1A11D8-7C8D-455F-A91D-B405E4938191
+2022-01-06 14:41:03	Made container live	com.apple.sidecar.extension.camera	/private/var/mobile/Containers/Data/PluginKitPlugin/5974BEE7-DCC1-4CCC-813E-DA4AF5745D06
+2022-01-06 14:41:03	Made container live	com.apple.sidecar.extension.markup	/private/var/mobile/Containers/Data/PluginKitPlugin/A3C4654F-B13C-48FF-B435-82277F5AABDB
+2022-01-06 14:41:03	Made container live	com.apple.sidecar.extension.sketch	/private/var/mobile/Containers/Data/PluginKitPlugin/F7CFC434-62CB-4F45-8FC5-85C94A0C1361
+2022-01-06 14:41:03	Made container live	com.apple.datadetectors.DDActionsService	/private/var/mobile/Containers/Data/Application/75EF5CF6-0233-4A02-A626-06A1D800AE43
+2022-01-06 14:41:03	Made container live	com.apple.PassbookBanner	/private/var/mobile/Containers/Data/Application/8A4A7C1E-247C-4E83-9E1F-30C3FD0E9AF2
+2022-01-06 14:41:03	Made container live	com.apple.family.FAFollowupExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/87308249-F327-4112-B005-BA140448464F
+2022-01-06 14:41:03	Made container live	com.apple.iMessageAppsViewService	/private/var/mobile/Containers/Data/Application/8B4409EF-4EF6-42DA-9E08-244E4B6C5D90
+2022-01-06 14:41:03	Made container live	com.apple.icloud.apps.messages.business	/private/var/mobile/Containers/Data/Application/A641137C-B3F5-41DA-A663-D555880F90AE
+2022-01-06 14:41:03	Made container live	com.apple.icloud.apps.messages.business.extension	/private/var/mobile/Containers/Data/PluginKitPlugin/A7A16178-ACB0-4F7F-BECE-2DF5ADD1D173
+2022-01-06 14:41:03	Made container live	com.apple.TVRemoteUIService	/private/var/mobile/Containers/Data/Application/FBD36310-6E3A-409D-9D7D-5C74383DDCCF
+2022-01-06 14:41:03	Made container live	com.apple.TVRemoteUIService.TVRemoteIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/52BE9EBB-279C-416F-A69F-960CAEF5E39D
+2022-01-06 14:41:03	Made container live	com.apple.AppSettings	/private/var/mobile/Containers/Data/Application/8BCF5940-BF78-495A-9D0F-8C2814D19869
+2022-01-06 14:41:03	Made container live	com.apple.DiagnosticsService	/private/var/mobile/Containers/Data/Application/71D2214D-9EF7-40DF-B6BC-C0669FA82577
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4003	/private/var/mobile/Containers/Data/PluginKitPlugin/66052B6E-1FAF-4087-B432-FE8E67E3B858
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-3939	/private/var/mobile/Containers/Data/PluginKitPlugin/33CDF090-BEEA-468C-92E3-CC7BC13522D6
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-3904	/private/var/mobile/Containers/Data/PluginKitPlugin/9499F0A7-2723-45C0-B2D1-4CFBD2EB14DB
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-3732	/private/var/mobile/Containers/Data/PluginKitPlugin/BFA1A810-4EE1-485D-8785-CA8ED87CE03C
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4182	/private/var/mobile/Containers/Data/PluginKitPlugin/23039B69-4C0B-489C-B760-3B034DD73918
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-8201	/private/var/mobile/Containers/Data/PluginKitPlugin/4C537B1D-66E6-42D1-841F-BF363E6C757F
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4180	/private/var/mobile/Containers/Data/PluginKitPlugin/169DCEE3-DAE8-4872-8E18-B9D7BB05EC07
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4615	/private/var/mobile/Containers/Data/PluginKitPlugin/CC575D17-01D5-4A9A-91CB-8E1039A2B702
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-8246	/private/var/mobile/Containers/Data/PluginKitPlugin/7C716D80-21DC-461D-BC12-5E5A4D363567
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-8187	/private/var/mobile/Containers/Data/PluginKitPlugin/F242508A-2400-4098-8D27-D016B107A3B2
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-3906	/private/var/mobile/Containers/Data/PluginKitPlugin/578B3154-FB14-4D41-A1F9-DF9EF5CB5606
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-3734	/private/var/mobile/Containers/Data/PluginKitPlugin/E154ADBE-A5B1-4CC4-81B4-D4B59F5630EA
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4005	/private/var/mobile/Containers/Data/PluginKitPlugin/EFF2BB24-9555-496F-80EE-AC9F27382531
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4184	/private/var/mobile/Containers/Data/PluginKitPlugin/7F39ED5B-FA9A-4E1A-889D-3B4BABE3A11F
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-8238	/private/var/mobile/Containers/Data/PluginKitPlugin/07C6B9EA-F231-491A-9E9C-6E1EA6AD9511
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-3985	/private/var/mobile/Containers/Data/PluginKitPlugin/D33729FF-0459-4FE6-B8B6-4E680645FCBF
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4007	/private/var/mobile/Containers/Data/PluginKitPlugin/A8974A0E-AF23-44C8-A5EC-631DF1A6A519
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4492	/private/var/mobile/Containers/Data/PluginKitPlugin/975E2B89-2ADA-4A1B-8D74-DF5021F7F019
+2022-01-06 14:41:04	Made container live	com.apple.DiagnosticsService.Diagnostic-4181	/private/var/mobile/Containers/Data/PluginKitPlugin/B5E38105-E8AA-4B4C-85A9-3F35287F71A2
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-3942	/private/var/mobile/Containers/Data/PluginKitPlugin/FFDBA1ED-5300-4B80-9510-AE0808BD9FAE
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-3907	/private/var/mobile/Containers/Data/PluginKitPlugin/A0F406C8-D798-4385-848B-3640BB0854C3
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-3905	/private/var/mobile/Containers/Data/PluginKitPlugin/4BF0F7FB-AF50-4920-8A84-162DED6831D2
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4002	/private/var/mobile/Containers/Data/PluginKitPlugin/39887A7D-3C48-4C7F-BC77-7A8BA3A0BFD4
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4183	/private/var/mobile/Containers/Data/PluginKitPlugin/A399EF79-2451-492A-8BD2-A99A8CA7AE17
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-8079	/private/var/mobile/Containers/Data/PluginKitPlugin/71A5CA53-FBB7-4139-8E5C-15528BEC3ECC
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4006	/private/var/mobile/Containers/Data/PluginKitPlugin/A31FCD5C-4D8B-48F9-8870-4C3724E129EA
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4004	/private/var/mobile/Containers/Data/PluginKitPlugin/D56FB39F-C5E3-4827-92EA-3A458B5A75C7
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-3903	/private/var/mobile/Containers/Data/PluginKitPlugin/8AFCFF92-D740-439C-BB77-536C2116178E
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4359	/private/var/mobile/Containers/Data/PluginKitPlugin/AC9CBEC7-82DD-40BD-ABFD-54FE1A25CF55
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.SystemReport	/private/var/mobile/Containers/Data/PluginKitPlugin/AC27EE01-1AC0-43E5-8B3C-9BFCBFBFF487
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-3741	/private/var/mobile/Containers/Data/PluginKitPlugin/C1C1C7EB-4739-43F0-BF64-39841CDE3440
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4008	/private/var/mobile/Containers/Data/PluginKitPlugin/9B6C82D9-6AEC-492A-880C-BE5EF634FF69
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-3743	/private/var/mobile/Containers/Data/PluginKitPlugin/41626C69-3D74-411A-AC8D-39DCE253E3AE
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-8134	/private/var/mobile/Containers/Data/PluginKitPlugin/267CE972-EED3-4A7E-9947-56C9E7DDCC01
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.SystemReport-AirPods	/private/var/mobile/Containers/Data/PluginKitPlugin/8228F59C-147E-4ADF-B4F5-0819D24EE524
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.SystemReport-BatteryCase	/private/var/mobile/Containers/Data/PluginKitPlugin/7BA44C1A-C8BB-49AE-9B6B-E8E39BB06B10
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-8068	/private/var/mobile/Containers/Data/PluginKitPlugin/FCEC2A2D-0240-4360-8C3C-570D99C8466E
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-8290	/private/var/mobile/Containers/Data/PluginKitPlugin/835AA3F9-3D58-43E1-B1CB-89C0670A1F34
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-3909	/private/var/mobile/Containers/Data/PluginKitPlugin/5A934DD4-1004-4A08-ACD5-AF36F9D1F3D0
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-8217	/private/var/mobile/Containers/Data/PluginKitPlugin/48F45762-724A-4A35-8EC6-B72C92B20019
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4154	/private/var/mobile/Containers/Data/PluginKitPlugin/49058E8C-C5D3-4C75-80B0-99B98DE3C159
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-3745	/private/var/mobile/Containers/Data/PluginKitPlugin/AB48C3F3-F07C-4965-91E3-23EC5D704683
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4351	/private/var/mobile/Containers/Data/PluginKitPlugin/86965F97-91BF-41A8-A8E9-C5EE940514F4
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-8276	/private/var/mobile/Containers/Data/PluginKitPlugin/59B24A6D-0D7A-46C2-BAF9-F0C36E8257DA
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-4153	/private/var/mobile/Containers/Data/PluginKitPlugin/01C7AD4E-B55C-45A3-B60C-C73F55D8318C
+2022-01-06 14:41:05	Made container live	com.apple.DiagnosticsService.Diagnostic-8209	/private/var/mobile/Containers/Data/PluginKitPlugin/99913FF3-95E7-4C28-A422-260F9D93DD04
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-4276	/private/var/mobile/Containers/Data/PluginKitPlugin/1BB3D773-348A-47F6-9C2A-5F6AD5986F91
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-4009	/private/var/mobile/Containers/Data/PluginKitPlugin/A51524AE-0920-452B-A634-50EA17B641B1
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-3738	/private/var/mobile/Containers/Data/PluginKitPlugin/85B01456-48D2-4C1D-8A3A-04ED016B0DA7
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-3744	/private/var/mobile/Containers/Data/PluginKitPlugin/D73AB400-1FE3-48CA-9352-67FA02C81FE8
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-4579	/private/var/mobile/Containers/Data/PluginKitPlugin/1FB9436B-E320-4A9B-A0BE-A8D795892193
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-8253	/private/var/mobile/Containers/Data/PluginKitPlugin/5B98EBE0-158E-41C3-8A85-3771AE15B47A
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-8357	/private/var/mobile/Containers/Data/PluginKitPlugin/61B8098D-80D6-484A-B106-8B9EFAC08A6E
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-8288	/private/var/mobile/Containers/Data/PluginKitPlugin/0D17E281-2C29-4A6E-A0AD-888FDF66DF98
+2022-01-06 14:41:06	Made container live	com.apple.DiagnosticsService.Diagnostic-8035	/private/var/mobile/Containers/Data/PluginKitPlugin/57D2C559-862A-4E75-A179-085B2468EC05
+2022-01-06 14:41:06	Made container live	com.apple.Preferences.indexSettingsManifests	/private/var/mobile/Containers/Data/PluginKitPlugin/941B4A10-02C1-44FF-9CF0-EC4F2F15EA81
+2022-01-06 14:41:06	Made container live	com.apple.CompanionAuthViewService	/private/var/mobile/Containers/Data/Application/0002BE67-8BC5-4EF7-B953-BCF901E5AD97
+2022-01-06 14:41:06	Made container live	com.apple.CarPlaySettings	/private/var/mobile/Containers/Data/Application/8F99D94A-7C0B-4A00-B307-D8BC25255DCF
+2022-01-06 14:41:06	Made container live	com.apple.FCAuthenticationUI	/private/var/mobile/Containers/Data/Application/88117336-3D97-465F-A4AC-FDE97EFC5BAA
+2022-01-06 14:41:06	Made container live	com.apple.icloud.FindMyDevice.FindMyExtensionContainer	/private/var/mobile/Containers/Data/Application/66678EF7-6831-45D6-8E50-F2E652B30937
+2022-01-06 14:41:06	Made container live	com.apple.icloud.FindMyDevice.FindMyExtensionContainer.FMDMagSafeExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E701C23A-F709-44C0-89FC-C4F114E2160C
+2022-01-06 14:41:06	Made container live	com.apple.icloud.FindMyDevice.FindMyExtensionContainer.FindMyDeviceBluetoothExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/872F4D10-EE33-4FBA-9452-DAC0956B315D
+2022-01-06 14:41:06	Made container live	com.apple.HealthENLauncher	/private/var/mobile/Containers/Data/Application/5415C0B6-02F2-4A76-83B1-C8ACDD36114C
+2022-01-06 14:41:06	Made container live	com.apple.CoreAuthUI	/private/var/mobile/Containers/Data/Application/A672BA25-19F7-431A-A23B-A3E2E16A5A14
+2022-01-06 14:41:06	Made container live	com.apple.PrintKit.Print-Center	/private/var/mobile/Containers/Data/Application/D058E16F-4229-4426-99B7-B01EFEE77EFA
+2022-01-06 14:41:06	Made container live	com.apple.gamecenter.widgets	/private/var/mobile/Containers/Data/Application/E44767B8-679F-4FFF-ACC7-5A87D1DAA566
+2022-01-06 14:41:06	Made container live	com.apple.gamecenter.widgets.extension	/private/var/mobile/Containers/Data/PluginKitPlugin/12DB71FA-6AC6-427A-8943-BCA41954CE43
+2022-01-06 14:41:06	Made container live	com.apple.BarcodeScanner	/private/var/mobile/Containers/Data/Application/F81F4A8F-56B0-4BA5-A602-16F1C3AEC588
+2022-01-06 14:41:06	Made container live	com.apple.Passbook	/private/var/mobile/Containers/Data/Application/95A286EA-70DB-4F01-B0C2-83CB3980C161
+2022-01-06 14:41:07	Made container live	com.apple.Passbook.NotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B64C455C-98CE-4CF9-8771-91371547A8BF
+2022-01-06 14:41:07	Made container live	com.apple.Passbook.QuicklookPreviewExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/F4CAC427-60BB-4F81-B024-6655BC3C78C1
+2022-01-06 14:41:07	Made container live	com.apple.SafariViewService	/private/var/mobile/Containers/Data/Application/82A5DECF-0979-411D-8D8B-BA511ACCB23E
+2022-01-06 14:41:07	Made container live	com.apple.AMSEngagementViewService	/private/var/mobile/Containers/Data/Application/1C3301D9-B259-4008-A1C9-07A4F4E6C2B8
+2022-01-06 14:41:07	Made container live	com.apple.FunCamera.EmojiStickers	/private/var/mobile/Containers/Data/Application/DA3E09F9-4605-4E1F-A9F4-085EC002472C
+2022-01-06 14:41:07	Made container live	com.apple.FunCamera.EmojiStickers.MessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/CBF3876B-B329-42ED-AECF-68828118EA29
+2022-01-06 14:41:07	Made container live	com.apple.siri	/private/var/mobile/Containers/Data/Application/CFFD5BAD-9D96-44D4-99B8-B5B06708CBC5
+2022-01-06 14:41:07	Made container live	com.apple.MBHelperApp	/private/var/mobile/Containers/Data/Application/54B8E241-ACB4-4AE8-A94D-237742CF6425
+2022-01-06 14:41:07	Made container live	com.apple.PublicHealthRemoteUI	/private/var/mobile/Containers/Data/Application/158AB755-7FA9-4CD6-BF5D-381E9BF725E6
+2022-01-06 14:41:07	Made container live	com.apple.FTMInternal	/private/var/mobile/Containers/Data/Application/EF1FF6EA-DC44-48B5-AAF7-67638C8E7F34
+2022-01-06 14:41:07	Made container live	com.apple.SleepLockScreen	/private/var/mobile/Containers/Data/Application/F8A2090C-7ACE-41BC-A841-FF814DC6E00F
+2022-01-06 14:41:07	Made container live	com.apple.CompassCalibrationViewService	/private/var/mobile/Containers/Data/Application/394CC486-69AF-4B34-945C-BD1D4D075847
+2022-01-06 14:41:07	Made container live	com.apple.ios.StoreKitUIService	/private/var/mobile/Containers/Data/Application/2FFE2542-5FC6-48EC-BB89-091BDF09D4CB
+2022-01-06 14:41:07	Made container live	com.apple.PeopleViewService	/private/var/mobile/Containers/Data/Application/CE67E08A-B791-4F1E-8E69-204079FA33E4
+2022-01-06 14:41:07	Made container live	com.apple.PeopleViewService.SelectPerson-iOS	/private/var/mobile/Containers/Data/PluginKitPlugin/3FFC4AC2-CA3F-44D5-AA69-1DA027164D04
+2022-01-06 14:41:07	Made container live	com.apple.PeopleViewService.PeopleWidget-iOS	/private/var/mobile/Containers/Data/PluginKitPlugin/7C425B67-7B76-47C5-A750-6AD146C14DF9
+2022-01-06 14:41:07	Made container live	com.apple.CarPlaySplashScreen	/private/var/mobile/Containers/Data/Application/2E2D3264-D3D2-4485-BFCC-506E4DA536BF
+2022-01-06 14:41:07	Made container live	com.apple.AppStore	/private/var/mobile/Containers/Data/Application/5DE29AD8-C869-49FA-B8D5-6C375641A72A
+2022-01-06 14:41:07	Made container live	com.apple.AppStore.Widgets	/private/var/mobile/Containers/Data/PluginKitPlugin/FC3C982D-8C2F-4E6D-891D-377C6E22A403
+2022-01-06 14:41:07	Made container live	com.apple.AppStore.ProductPageExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/94E35C53-C838-4533-91D9-DEA3D543A5EB
+2022-01-06 14:41:07	Made container live	com.apple.AppStore.SubscribePageExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/5EE875DD-8325-4224-9E10-318C358696BB
+2022-01-06 14:41:07	Made container live	com.apple.SubcredentialUIService	/private/var/mobile/Containers/Data/Application/42244707-7343-438A-8546-B85920ECD7A4
+2022-01-06 14:41:07	Made container live	com.apple.SubcredentialUIService.SubcredentialInvitationMessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B1028312-55B3-4F2A-B614-235A01B1822A
+2022-01-06 14:41:08	Made container live	com.apple.social.SLYahooAuth.SLYahooAuthService	/private/var/mobile/Containers/Data/PluginKitPlugin/DCA4D432-CD72-49E9-86CC-C9588EBFC15E
+2022-01-06 14:41:08	Made container live	com.apple.FunCamera.TextPicker	/private/var/mobile/Containers/Data/Application/FBDC5C13-8DCA-43A9-BDA9-2158095D59B4
+2022-01-06 14:41:08	Made container live	com.apple.FunCamera.TextPicker.MessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/66F7690B-8E0D-429A-B204-BB2DE7895E17
+2022-01-06 14:41:08	Made container live	com.apple.ScreenTimeUnlock	/private/var/mobile/Containers/Data/Application/14E994E6-E3A1-42C5-B41E-C128432E6EE1
+2022-01-06 14:41:08	Made container live	com.apple.susuiservice.SUSUInstallAlertCFUserNotificationUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B813EF13-C3F2-4E95-8E14-628AB93B04FF
+2022-01-06 14:41:08	Made container live	com.apple.susuiservice.SUSUIVerifyingAlertCFUserNotificationUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/88D07480-FD7E-4269-9058-25A01494C972
+2022-01-06 14:41:08	Made container live	com.apple.TVAccessViewService	/private/var/mobile/Containers/Data/Application/A66811FF-CFF0-46F3-8137-679D1A27F87D
+2022-01-06 14:41:08	Made container live	com.apple.mobiletimer.WorldClockWidget	/private/var/mobile/Containers/Data/PluginKitPlugin/E2B6DD1D-4E8A-4571-86E7-6239174E0E4D
+2022-01-06 14:41:08	Made container live	com.apple.mobiletimer.MobileTimerNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DE54CAC6-C2F0-4320-95DA-B0DF843A8D87
+2022-01-06 14:41:08	Made container live	com.apple.Health.Sleep	/private/var/mobile/Containers/Data/Application/B7D6B053-5D66-4B72-8766-EA5A3CA65DC1
+2022-01-06 14:41:08	Made container live	com.apple.Health.Sleep.SleepWidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/64481F66-123C-4B73-ACF9-E7DA501FC040
+2022-01-06 14:41:08	Made container live	com.apple.MTLReplayer	/private/var/mobile/Containers/Data/Application/0697A669-4198-4703-AA7F-87D411E51C5B
+2022-01-06 14:41:08	Made container live	com.apple.shortcuts.runtime	/private/var/mobile/Containers/Data/Application/04BA9F0C-504E-4086-AD1F-CF95DC023F8D
+2022-01-06 14:41:08	Made container live	com.apple.gamecenter.GameCenterUIService	/private/var/mobile/Containers/Data/Application/91E6A509-37DC-418E-AF9B-DF614DA09172
+2022-01-06 14:41:08	Made container live	com.apple.gamecenter.GameCenterUIService.GameCenterMessageExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/FD214172-DFBA-434E-A5FD-4916B304F238
+2022-01-06 14:41:08	Made container live	com.apple.GameCenterRemoteAlert	/private/var/mobile/Containers/Data/Application/CC88D56B-3AB2-4FEA-8049-66595CC7827D
+2022-01-06 14:41:08	Made container live	com.apple.mobilephone	/private/var/mobile/Containers/Data/Application/F9D31133-EFAA-471B-BB25-5EFF0BD00A90
+2022-01-06 14:41:08	Made container live	com.apple.mobilephone.extension.VoicemailMessageNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/1CA85DB2-E92A-4DCD-B10A-A2E2E60D849B
+2022-01-06 14:41:08	Made container live	com.apple.SharingViewService	/private/var/mobile/Containers/Data/Application/D6AC9BD5-F1FB-4D5D-8FA6-7C393DC7202A
+2022-01-06 14:41:08	Made container live	com.apple.AXUIViewService	/private/var/mobile/Containers/Data/Application/879AF752-7E94-4C76-8323-8B79DF12FF52
+2022-01-06 14:41:08	Made container live	com.apple.RemoteiCloudQuotaUI	/private/var/mobile/Containers/Data/Application/77433FF3-7A8A-417F-A2A8-885A75367392
+2022-01-06 14:41:08	Made container live	com.apple.PassbookUIService	/private/var/mobile/Containers/Data/Application/AE3AFBEA-CE38-41AF-85C1-1A09F40FFDA9
+2022-01-06 14:41:09	Made container live	com.apple.PassbookUIService.PeerPaymentMessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/15F86BDA-E530-4B8B-A82E-730BAB5C1D92
+2022-01-06 14:41:09	Made container live	com.apple.findmy	/private/var/mobile/Containers/Data/Application/191952BF-5149-4B20-BDA2-D68B2C4BEA1A
+2022-01-06 14:41:09	Made container live	com.apple.findmy.FindMyWidgetPeople	/private/var/mobile/Containers/Data/PluginKitPlugin/361FE8C0-69C8-4D59-8F74-1F6A7311FE27
+2022-01-06 14:41:09	Made container live	com.apple.findmy.FindMyWidgetItems	/private/var/mobile/Containers/Data/PluginKitPlugin/B4307E2B-77BD-491D-B82B-717E4D5B78C7
+2022-01-06 14:41:09	Made container live	com.apple.findmy.FindMyNotificationsContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/55F75B69-0A3E-468F-A864-01AFB3A1A1B7
+2022-01-06 14:41:09	Made container live	com.apple.findmy.FindMyWidgetIntentsPeople	/private/var/mobile/Containers/Data/PluginKitPlugin/84AEA4EC-96B9-4977-9107-1DF189B8A4B4
+2022-01-06 14:41:09	Made container live	com.apple.findmy.FindMySiriIntents	/private/var/mobile/Containers/Data/PluginKitPlugin/A53FD826-154F-453C-AF1C-0283C4DFFCFD
+2022-01-06 14:41:09	Made container live	com.apple.findmy.FindMyNotificationsServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7D97BC20-C4F9-4BDC-9F9D-AA67179A9445
+2022-01-06 14:41:09	Made container live	com.apple.findmy.FindMyWidgetIntentsItems	/private/var/mobile/Containers/Data/PluginKitPlugin/5211FF90-51AB-4FE0-816B-3CDC72744AF7
+2022-01-06 14:41:09	Made container live	com.apple.mobilesafari.SafariDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B65CA549-CBC7-4272-88F4-E5FA76C89BA7
+2022-01-06 14:41:09	Made container live	com.apple.WebContentFilter.remoteUI.WebContentAnalysisUI	/private/var/mobile/Containers/Data/Application/A4160226-F7DD-48EA-B474-4F788FD99744
+2022-01-06 14:41:09	Made container live	com.apple.WebSheet	/private/var/mobile/Containers/Data/Application/BCE162AF-468C-46A3-B770-DC2C682D946F
+2022-01-06 14:41:09	Made container live	com.apple.VSViewService	/private/var/mobile/Containers/Data/Application/A6B66B58-DAAE-4875-B6E4-5532707F671C
+2022-01-06 14:41:09	Made container live	com.apple.PassbookSecureUIService	/private/var/mobile/Containers/Data/Application/EF213A43-C3E1-42E6-A7A4-00F701DC72B5
+2022-01-06 14:41:09	Made container live	com.apple.AuthKitUIService	/private/var/mobile/Containers/Data/Application/70DB7549-84AE-43B6-ADD7-27620C72EF87
+2022-01-06 14:41:09	Made container live	com.apple.StoreDemoViewService	/private/var/mobile/Containers/Data/Application/AFA6ABE0-A691-4862-AE2F-CA6BE47EC06A
+2022-01-06 14:41:09	Made container live	com.apple.smsFilter	/private/var/mobile/Containers/Data/Application/75516FE9-4607-4EAA-90D0-1BB529EE64D4
+2022-01-06 14:41:09	Made container live	com.apple.smsFilter.extension	/private/var/mobile/Containers/Data/PluginKitPlugin/97FBBCFB-1F7E-49B5-91C8-79DE1C2E594E
+2022-01-06 14:41:09	Made container live	com.apple.HDSViewService	/private/var/mobile/Containers/Data/Application/679DB9B1-6E04-4103-90C7-D45E2A23F56C
+2022-01-06 14:41:09	Made container live	com.apple.MailCompositionService	/private/var/mobile/Containers/Data/Application/87011307-8A8E-4F1E-B895-72928186710F
+2022-01-06 14:41:09	Made container live	com.apple.CTCarrierSpaceAuth	/private/var/mobile/Containers/Data/Application/BB255A65-B3D1-4F36-8773-86A4C6F7EC07
+2022-01-06 14:41:09	Made container live	com.apple.ScreenshotServicesService	/private/var/mobile/Containers/Data/Application/2C49830E-6847-4296-BD99-07B002008431
+2022-01-06 14:41:09	Made container live	com.apple.SIMSetupUIService	/private/var/mobile/Containers/Data/Application/99E9EF7E-2909-4F0B-9927-1B3AB1D1AA7B
+2022-01-06 14:41:10	Made container live	com.apple.InCallService	/private/var/mobile/Containers/Data/Application/C6DD536C-5857-4C91-AE26-DF926B3AFEC3
+2022-01-06 14:41:10	Made container live	com.apple.InCallService.IntentsUI	/private/var/mobile/Containers/Data/PluginKitPlugin/9178D4EB-7734-4024-AA73-FBABE8F7C7A8
+2022-01-06 14:41:10	Made container live	com.apple.appleseed.FeedbackAssistant	/private/var/mobile/Containers/Data/Application/0B6EBA9B-8F3F-4EBD-848A-729FC0B59163
+2022-01-06 14:41:10	Made container live	com.apple.CredentialSharingService	/private/var/mobile/Containers/Data/Application/C171C601-C2CA-4CB6-9D6D-6DE6D2C8B10E
+2022-01-06 14:41:10	Made container live	com.apple.CredentialSharingService.ShareableCredentialsMessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/3CB629C0-65D8-4008-9F3B-1CC8A358EF49
+2022-01-06 14:41:10	Made container live	com.apple.Home.HomeControlService	/private/var/mobile/Containers/Data/Application/0A0EF3AC-8295-478A-9708-D0232C4A1AE4
+2022-01-06 14:41:10	Made container live	com.apple.icq	/private/var/mobile/Containers/Data/Application/AE98E929-A9CD-4A31-B035-DC00F8E6783E
+2022-01-06 14:41:10	Made container live	com.apple.ScreenSharingViewService	/private/var/mobile/Containers/Data/Application/8D487193-1A88-4BCD-8C4D-AD7633619398
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.DestructiveChangeConfirmation	/private/var/mobile/Containers/Data/PluginKitPlugin/CA689ADF-9CE0-4CAC-9470-6EA88DF3663E
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.photosmemoriesnotificationupdates	/private/var/mobile/Containers/Data/PluginKitPlugin/8E982D6F-6E8F-4AF7-8FB3-A66747D7D04F
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.photospicker	/private/var/mobile/Containers/Data/PluginKitPlugin/2EA520C8-029F-4E28-AA07-2851A785F439
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.PhotosFileProvider	/private/var/mobile/Containers/Data/PluginKitPlugin/EF560D3F-5054-453A-9102-FA903AB2D367
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.photo-picker	/private/var/mobile/Containers/Data/PluginKitPlugin/2CD831B5-D17C-4F91-B333-CD725B81088C
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.PhotosSiriExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/A8C4C90A-2E54-4772-9DE1-CC61AE5BD881
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.PhotosMessagesApp	/private/var/mobile/Containers/Data/PluginKitPlugin/98A66576-1BD5-49C3-9F87-7E69CA6CA664
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.photosnotifications-updates	/private/var/mobile/Containers/Data/PluginKitPlugin/CD2B700A-6A8B-4F3F-A8A8-C0FC1A2D1CD5
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.PhotosReliveWidget	/private/var/mobile/Containers/Data/PluginKitPlugin/74E2876A-E110-4A87-8E5C-ABE5EA478FC8
+2022-01-06 14:41:10	Made container live	com.apple.mobileslideshow.StreamShareService	/private/var/mobile/Containers/Data/PluginKitPlugin/9BEB4C5D-9E23-45A5-8BCF-F7206E928ACC
+2022-01-06 14:41:10	Made container live	com.apple.HealthPrivacyService	/private/var/mobile/Containers/Data/Application/EF1BC6F4-8CE2-4C5A-AC2C-9AFD4BBD83C9
+2022-01-06 14:41:10	Made container live	com.apple.ActivityMessagesApp	/private/var/mobile/Containers/Data/Application/90456EDA-7198-44E4-8AAC-7101AFA0A3AD
+2022-01-06 14:41:10	Made container live	com.apple.ActivityMessagesApp.MessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/403B32DF-5466-45BA-BD5B-40C822FB9B7C
+2022-01-06 14:41:10	Made container live	com.apple.ClipViewService	/private/var/mobile/Containers/Data/Application/0575266D-72A2-4B2B-91AF-490A3135E6A2
+2022-01-06 14:41:10	Made container live	com.apple.FaceTimeLinkTrampoline	/private/var/mobile/Containers/Data/Application/E8DEAC51-3E45-41A0-A2E5-2C292B47E846
+2022-01-06 14:41:11	Made container live	com.apple.HealthENBuddy	/private/var/mobile/Containers/Data/Application/A05ED1C2-D074-4AFB-87E9-92FEEE9FBDF7
+2022-01-06 14:41:11	Made container live	com.apple.BusinessChatViewService	/private/var/mobile/Containers/Data/Application/32297A07-24BE-4E95-9B9D-52A3340E645E
+2022-01-06 14:41:11	Made container live	com.apple.RemotePassUIService	/private/var/mobile/Containers/Data/Application/D708760F-84F7-4E4F-82E4-FDD5456645FD
+2022-01-06 14:41:11	Made container live	com.apple.RemotePassUIService.RemotePaymentPassActionsMessagesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E0523502-D239-43C9-9473-7D2225268FFA
+2022-01-06 14:41:11	Made container live	com.apple.camera.CameraMessagesApp	/private/var/mobile/Containers/Data/PluginKitPlugin/2ECD6C07-5056-4B38-A2EA-DD4710E5F1AB
+2022-01-06 14:41:11	Made container live	com.apple.webapp	/private/var/mobile/Containers/Data/Application/920C1101-D14B-467B-A20B-2D40D4562B0F
+2022-01-06 14:41:11	Made container live	com.apple.AuthenticationServicesUI	/private/var/mobile/Containers/Data/Application/55A5B282-C9E1-4EF5-B812-F6EC15892D08
+2022-01-06 14:41:11	Made container live	com.apple.springboard.SpringBoardDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DC0C6FCE-D020-4894-B68C-A93865834ADB
+2022-01-06 14:41:11	Made container live	com.apple.fullkeyboardaccess	/private/var/mobile/Containers/Data/Application/F903A820-2EF8-4687-86DD-BADD8AC680A5
+2022-01-06 14:41:11	Made container live	com.apple.CMPluginApp.MLPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/EEAEB1D7-A00A-44D1-8AF3-D0A41CC9A2A1
+2022-01-06 14:41:00	Made container live	com.apple.VoiceOverTouch	/private/var/mobile/Containers/Data/Application/38C54D8E-9384-4832-86CD-1C91CCBAB58D
+2022-01-06 17:41:00	Made container live	com.apple.eventkitui.spotlight	/private/var/mobile/Containers/Data/PluginKitPlugin/9BFA4395-90E7-4AB9-8836-ADB38D1B1F0D
+2022-01-06 17:41:00	Made container live	com.apple.PassKit.PassKitIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E08E2A28-93F2-45B6-A105-62CBB0700E2F
+2022-01-06 17:41:00	Made container live	com.apple.PassKit.applepay.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/FEAB87CE-2650-45AA-9B39-990A2DCA6723
+2022-01-06 17:41:00	Made container live	com.apple.PassKit.PassKitIntentsUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/66413370-E0E7-425A-813A-656233BDD2BE
+2022-01-06 17:41:00	Made container live	com.apple.PassKit.PassKitSpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/0CE9EFF7-75DF-4C0D-A966-997BA07CBF4B
+2022-01-06 17:41:00	Made container live	com.apple.PassKit.PassKitThumbnailExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/49D04EAF-E47A-4E6B-92B6-F5BB9B74FEA0
+2022-01-06 17:41:00	Made container live	com.apple.SensorKit.SensorKitViewService	/private/var/mobile/Containers/Data/PluginKitPlugin/7B4C65B5-B4F8-4900-BD18-A9D2B6FA79BC
+2022-01-06 17:41:00	Made container live	com.apple.ScreenTime.ScreenTimeWebExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C4B7F77E-BA18-4022-8771-691CA5AA4BA6
+2022-01-06 17:41:01	Made container live	com.apple.ReplayKit.RPBroadcastActivityViewControllerExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/93C80A6E-61A7-46CC-AF08-34087B0479F5
+2022-01-06 17:41:01	Made container live	com.apple.ReplayKit.RPVideoEditorExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/92BBEFE9-9568-4D9B-BA81-E14C6E2B96D4
+2022-01-06 17:41:01	Made container live	com.apple.HealthKit.HealthDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C7276852-5210-4F66-AAFF-C12DD46BAD1D
+2022-01-06 17:41:01	Made container live	com.apple.CoreTelephony.CTFollowUpExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/EF4C8FE6-5121-472A-9821-D92F4EA010ED
+2022-01-06 17:41:01	Made container live	com.apple.NetworkExtension.IKEv2Provider	/private/var/mobile/Containers/Data/PluginKitPlugin/DBBC06E6-BF70-4BA8-924A-A4565DB1144E
+2022-01-06 17:41:01	Made container live	com.apple.QuickLookThumbnailing.extension-secure	/private/var/mobile/Containers/Data/PluginKitPlugin/5113CEF7-D5C8-4E76-8ACF-E39A27F5F18D
+2022-01-06 17:41:01	Made container live	com.apple.QuickLookThumbnailing.extension	/private/var/mobile/Containers/Data/PluginKitPlugin/CB7858C7-2488-4519-944D-5300BEEAD32A
+2022-01-06 17:41:01	Made container live	com.apple.CoreSpotlight.ImportExtension2	/private/var/mobile/Containers/Data/PluginKitPlugin/9F6EB028-9012-406A-BBAB-02C88A0006F3
+2022-01-06 17:41:01	Made container live	com.apple.CoreSpotlight.ImportExtension1	/private/var/mobile/Containers/Data/PluginKitPlugin/12DC742B-A765-40DF-9E2E-BE6EEE94F413
+2022-01-06 17:41:01	Made container live	com.apple.StoreKit.SKAskPermissionExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C2779894-6CA2-4CDE-BE8B-89BA7627C2B2
+2022-01-06 17:41:02	Made container live	com.apple.ExternalAccessory.WACUI	/private/var/mobile/Containers/Data/PluginKitPlugin/69443A8C-990B-4027-95FF-857333C8A146
+2022-01-06 17:41:02	Made container live	com.apple.CFNetwork.DiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9699F1E5-41A5-4DE8-A835-2176FBE0290C
+2022-01-06 17:41:02	Made container live	com.apple.contacts.ContactsCoreSpotlightExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/01AE8E5B-6852-4FEF-BE29-58298DBF3798
+2022-01-06 17:41:02	Made container live	com.apple.FileProviderUI.ServerAuthUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B3B6B17E-0B81-465E-BACD-1B267C49E2CA
+2022-01-06 17:41:02	Made container live	com.apple.FileProvider.FPSpotlightIndexer	/private/var/mobile/Containers/Data/PluginKitPlugin/9012E6F3-1910-436D-A235-0BA33F4B2FC3
+2022-01-06 17:41:02	Made container live	com.apple.FileProvider.LocalStorage	/private/var/mobile/Containers/Data/PluginKitPlugin/3CE6B200-9CFD-4451-9152-9D20F9A1D93B
+2022-01-06 17:41:02	Made container live	com.apple.FamilyControls.ActivityPickerExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/451ECAC5-0DE5-4EFB-877F-1E5168F907C2
+2022-01-06 17:41:02	Made container live	com.apple.FamilyControls.FamilyControlsOverrideSettingsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/3E8AD4F9-830D-4590-8E04-6B7DA7F8F728
+2022-01-06 17:41:02	Made container live	com.apple.CryptoTokenKit.secelemtoken	/private/var/mobile/Containers/Data/PluginKitPlugin/65ED64BE-A3D9-4450-9225-1B51179BA25D
+2022-01-06 17:41:02	Made container live	com.apple.ContactsUI.ContactsViewService	/private/var/mobile/Containers/Data/PluginKitPlugin/F41FE307-A371-4356-ADFE-61600FD5067A
+2022-01-06 17:41:02	Made container live	com.apple.ContactsUI.ContactViewViewService	/private/var/mobile/Containers/Data/PluginKitPlugin/314A0F38-A94C-4996-B94D-4866E163DE3B
+2022-01-06 17:41:02	Made container live	com.apple.UIKit.FontPicker	/private/var/mobile/Containers/Data/PluginKitPlugin/F4557976-455E-4CE5-B2E7-2FA5F63CF298
+2022-01-06 17:41:02	Made container live	com.apple.UIKit.ShareUI	/private/var/mobile/Containers/Data/PluginKitPlugin/7971A88B-F4AE-4612-83A5-1575ACFF9CAC
+2022-01-06 17:41:02	Made container live	com.apple.UIKit.screenpicker	/private/var/mobile/Containers/Data/PluginKitPlugin/D5D8E580-A8F4-4D42-AEC3-C025BA882355
+2022-01-06 17:41:02	Made container live	com.apple.UIKit.ColorPicker	/private/var/mobile/Containers/Data/PluginKitPlugin/DF72DFA4-E193-44C6-A2A4-61938DCE9D5B
+2022-01-06 17:41:03	Made container live	com.apple.MediaPlayer.DiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/00287B17-0C15-4BAC-95C6-3E1F04532B30
+2022-01-06 17:41:03	Made container live	com.apple.VisionKit.KeyboardCamera	/private/var/mobile/Containers/Data/PluginKitPlugin/B91CADD9-3F12-41F1-A563-578B0E6FFE74
+2022-01-06 17:41:03	Made container live	com.apple.HomeKit.HomeKitIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DAEB6F6D-1628-46D9-81BB-646A83B93971
+2022-01-06 17:41:03	Made container live	com.apple.HomeKit.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/63CB8482-5106-4ACE-84AF-86DF943FC57C
+2022-01-06 17:41:03	Made container live	com.apple.AuthenticationServices.AccountAuthenticationModificationExtensionHelper	/private/var/mobile/Containers/Data/PluginKitPlugin/D00237BF-E22C-435A-B08A-A9DCB8C944D7
+2022-01-06 17:41:03	Made container live	com.apple.PDFKit.OFD-Thumbnail	/private/var/mobile/Containers/Data/PluginKitPlugin/64661C22-7A8F-42D7-A5C2-039928D46CED
+2022-01-06 17:41:03	Made container live	com.apple.PDFKit.OFD-Preview	/private/var/mobile/Containers/Data/PluginKitPlugin/83AECB28-3999-4EB8-8455-3C029ECE210B
+2022-01-06 17:41:03	Made container live	com.apple.PDFKit.PDFExtensionView	/private/var/mobile/Containers/Data/PluginKitPlugin/533B4D85-6168-4E9F-95BB-7757CFDD2322
+2022-01-06 17:41:03	Made container live	com.apple.quicklook.extension.previewUI	/private/var/mobile/Containers/Data/PluginKitPlugin/BA93B4A0-14CE-4CD1-9547-9977DF57784F
+2022-01-06 17:41:03	Made container live	com.apple.ShazamKit.ShazamNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/04022CBC-5594-4582-860A-C9CA1A563DCB
+2022-01-06 17:41:03	Made container live	com.apple.corelocation.CoreLocationTemporaryPreciseAuthPromptPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/F1891260-A23F-485A-9939-6E5673AA8C00
+2022-01-06 17:41:03	Made container live	com.apple.corelocation.CoreLocationVanillaWhenInUseAuthPromptPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/47D9DE20-6C58-4938-B4EF-37A07E639577
+2022-01-06 17:41:03	Made container live	com.apple.corelocation.CoreLocationRepromptAlwaysAuthPromptPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/80725853-0EA4-4127-8C67-BBE89011A700
+2022-01-06 17:41:03	Made container live	com.apple.ClassKit.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/84869E19-D4A6-4EFE-9A2C-882CF7440005
+2022-01-06 17:41:04	Made container live	com.apple.RemoteManagement.AccountExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/159265D3-BDFA-439C-85DD-0208FF140FD9
+2022-01-06 17:41:04	Made container live	com.apple.RemoteManagement.LegacyProfilesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/BC87D1AD-EA1D-4E45-BBA2-4EE8656DAF1E
+2022-01-06 17:41:04	Made container live	com.apple.RemoteManagement.PasscodeSettingsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/0CB3DE2B-A12F-4EDD-9746-D8E1F2079FFF
+2022-01-06 17:41:04	Made container live	com.apple.RemoteManagement.ManagementTestExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/399D8080-4C35-4C8C-9107-38A9A3B2B62A
+2022-01-06 17:41:04	Made container live	com.apple.RemoteManagement.InteractiveLegacyProfilesExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/90B35D16-3FAE-4F99-A4AE-F28533DAE0EB
+2022-01-06 17:41:04	Made container live	com.apple.siri.SiriAppLaunchIntents.AppLaunchIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9EC8BCF9-5E3E-4005-B081-11E4072C9F17
+2022-01-06 17:41:04	Made container live	com.apple.TranslationUIServices.TranslationUIService	/private/var/mobile/Containers/Data/PluginKitPlugin/3FEA91CF-AB74-45B7-A9E5-57034F25D778
+2022-01-06 17:41:05	Made container live	com.apple.NanoTimeKitCompanion.NTKDiagnosticExtensionCompanion	/private/var/mobile/Containers/Data/PluginKitPlugin/0B673FF5-D87C-4091-8633-45E45E45FEB6
+2022-01-06 17:41:05	Made container live	com.apple.NanoTimeKitCompanion.CreateWatchFace	/private/var/mobile/Containers/Data/PluginKitPlugin/E360C8D9-B4AE-4492-83DE-C178BEBA859B
+2022-01-06 17:41:05	Made container live	com.apple.DiskSpaceDiagnostics.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/060FCA61-6866-4A45-BA7F-20F0537DE14D
+2022-01-06 17:41:05	Made container live	com.apple.managedconfiguration.ManagedSettingsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/F1058F56-4E01-4B7E-B19F-2780223E9461
+2022-01-06 17:41:05	Made container live	com.apple.dp.PrivateFederatedLearning.DPMLRuntimePlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/15903B77-0A83-44E8-B58D-9C7A118B111A
+2022-01-06 17:41:06	Made container live	com.apple.HangTracer.PerformanceLoggingDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/480A3B0E-CDE9-4503-B6BF-20E60E83408C
+2022-01-06 17:41:06	Made container live	com.apple.Search.framework.SpotlightDiagnostic	/private/var/mobile/Containers/Data/PluginKitPlugin/86CB69D2-44E2-4523-BB6F-FAF4FA4926BD
+2022-01-06 17:41:06	Made container live	com.apple.DocumentCamera.ViewService	/private/var/mobile/Containers/Data/PluginKitPlugin/E19AFE38-710D-4210-B1FA-E7A778DAD32B
+2022-01-06 17:41:06	Made container live	com.apple.AppSSOKerberos.KerberosExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/22E9C81D-2982-4659-BFFD-9B62F5896067
+2022-01-06 17:41:06	Made container live	com.apple.ibooks.BookLibrary.BooksDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/1D17B35E-D73F-4909-ACB5-E88050F9DACF
+2022-01-06 17:41:07	Made container live	com.apple.framework.WiFiKit.WiFiPickerExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/EDF485AE-5342-4A0E-9AAD-1001FC0BA8AD
+2022-01-06 17:41:07	Made container live	com.apple.accessibility.RTTUI.RTTNotifications	/private/var/mobile/Containers/Data/PluginKitPlugin/2D7A1320-5E1F-4FBC-B349-A26E7153F4E9
+2022-01-06 17:41:07	Made container live	com.apple.siri.SiriVideoIntents.VideoIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/CED367B3-1539-470E-B928-2B544397A2FB
+2022-01-06 17:41:07	Made container live	com.apple.AssistantServices.SiriDE	/private/var/mobile/Containers/Data/PluginKitPlugin/BCA252A5-A87F-4E5B-B131-C9654ADD4B1B
+2022-01-06 17:41:07	Made container live	com.apple.FeatureStoreUploader.FeatureStoreUploaderPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/B1C3ACD9-6C27-4DF1-88BC-C33371C1646A
+2022-01-06 17:41:07	Made container live	com.apple.PowerlogCore.DEPowerlogEPL	/private/var/mobile/Containers/Data/PluginKitPlugin/3BEA583F-21A2-4A0B-A93B-F20A430BB01D
+2022-01-06 17:41:07	Made container live	com.apple.PowerlogCore.DESysLogFilterProcess	/private/var/mobile/Containers/Data/PluginKitPlugin/30FDEC4C-4D75-402B-A3F1-CBFF23912C3A
+2022-01-06 17:41:07	Made container live	com.apple.PowerlogCore.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/35B2A857-CB38-4EB2-9B3D-3AE895AD6390
+2022-01-06 17:41:07	Made container live	com.apple.CoreRoutine.RTDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/5D9DDB91-BB90-4CC0-8A7C-70442B752E49
+2022-01-06 17:41:07	Made container live	com.apple.newsservices.NewsArticleViewer	/private/var/mobile/Containers/Data/PluginKitPlugin/FD975D55-9F41-42DB-8850-1D37EB23FC93
+2022-01-06 17:41:08	Made container live	com.apple.ActionKit.BundledIntentHandler	/private/var/mobile/Containers/Data/PluginKitPlugin/4D1A2503-1CE0-4A2C-A8D4-55B5572EC26E
+2022-01-06 17:41:09	Made container live	com.apple.ClassKitUI.PrivacyDisclosure	/private/var/mobile/Containers/Data/PluginKitPlugin/C54624A3-1053-4171-ADB0-98094D731A7C
+2022-01-06 17:41:09	Made container live	com.apple.AppleMediaDiscovery.AMDEngagementExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/2D759FEF-DB87-4EFA-9E82-7450B9940CEF
+2022-01-06 17:41:09	Made container live	com.apple.AppleMediaDiscovery.ASLAppEmbedding	/private/var/mobile/Containers/Data/PluginKitPlugin/F196EC4D-EDE6-4C31-836B-F4F528284351
+2022-01-06 17:41:09	Made container live	com.apple.AppleMediaDiscovery.ASLArcadeRanking	/private/var/mobile/Containers/Data/PluginKitPlugin/42E4A70E-9993-45BF-B85C-60A560F97FB7
+2022-01-06 17:41:09	Made container live	com.apple.biome.BiomeStreams.BiomeLighthousePlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/77C437B0-6053-4030-ACC4-3DA1EC552AFA
+2022-01-06 17:41:09	Made container live	com.apple.DoNotDisturb.Intents	/private/var/mobile/Containers/Data/PluginKitPlugin/63192AC2-0528-4DE3-9F14-587DE4860954
+2022-01-06 17:41:10	Made container live	com.apple.SMBClientProvider.FileProvider	/private/var/mobile/Containers/Data/PluginKitPlugin/682E9E53-FED3-40D6-B28B-A71C435200E7
+2022-01-06 17:41:10	Made container live	com.apple.PeopleSuggester.ProactiveSharesheetLighthousePlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/041BB29A-A1E3-4909-AFD4-2EC8E54CFBE4
+2022-01-06 17:41:10	Made container live	com.apple.siri.SiriSettingsIntents.SettingsIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/CC84965B-4EE9-4863-81C3-DBD6A6CA6603
+2022-01-06 17:41:10	Made container live	com.apple.reminderkit.NotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/1376F2A0-A635-407E-AC98-A1C23DB6C3B2
+2022-01-06 17:41:10	Made container live	com.apple.GameCenterUI.GameCenterDashboardExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/3C187132-D95B-4C26-9F99-FF4BF5C3D1FD
+2022-01-06 17:41:10	Made container live	com.apple.GameCenterUI.GameCenterAuthenticateExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/2C75282B-4468-4305-B407-05ED5D062E60
+2022-01-06 17:41:10	Made container live	com.apple.GameCenterUI.GameCenterChallengeIssueExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/A9EFD34A-FE8F-4A89-BAA4-54BBFFCB0FB3
+2022-01-06 17:41:10	Made container live	com.apple.GameCenterUI.GameCenterMatchmakerExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/4DBB34CF-4AD0-4BDD-B9E8-D6EAFCDD1C6F
+2022-01-06 17:41:10	Made container live	com.apple.GameCenterUI.GameCenterTurnBasedMatchmakerExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C00038D5-0E79-483F-AE7F-1975C27DA69C
+2022-01-06 17:41:10	Made container live	com.apple.TelephonyUtilities.PhoneIntentHandler	/private/var/mobile/Containers/Data/PluginKitPlugin/7CB241BE-6ED6-4F77-AB1F-209664B533A1
+2022-01-06 17:41:10	Made container live	com.apple.coreaudio.haenotifications.HAENotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/41CE75D0-EDBC-4E3D-9DA1-1927D3130C6B
+2022-01-06 17:41:11	Made container live	com.apple.MobileBackup.framework.MBPrebuddyFollowUpExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7FA8858B-57D5-4119-B083-ED3D40C80206
+2022-01-06 17:41:11	Made container live	com.apple.MobileBackup.framework.FollowUpUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DAE6D1F0-41F5-4083-B55F-DCC12935E7C0
+2022-01-06 17:41:11	Made container live	com.apple.MobileBackup.framework.DiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E5225C30-F980-4E3C-AEC4-5B365D0BDAE1
+2022-01-06 17:41:11	Made container live	com.apple.DisembarkUI.DKFollowUpExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/60B6DACF-4842-4901-BF2C-02792B8015A7
+2022-01-06 17:41:11	Made container live	com.apple.iCloudQuota.ICQFollowup	/private/var/mobile/Containers/Data/PluginKitPlugin/AB145866-311C-4BEA-A576-C0C2AEEF838A
+2022-01-06 17:41:12	Made container live	com.apple.AppleMediaServicesUI.EngagementViewExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/4A95B320-DFBD-47DC-BAE9-62214AC77741
+2022-01-06 17:41:12	Made container live	com.apple.MLKit.MLPackagePreview	/private/var/mobile/Containers/Data/PluginKitPlugin/66EA650E-55D3-439D-9835-0D9A8FA073DC
+2022-01-06 17:41:12	Made container live	com.apple.MLKit.MLModelPreview	/private/var/mobile/Containers/Data/PluginKitPlugin/E6DD8020-6B95-4376-9632-182B20E8AE8C
+2022-01-06 17:41:12	Made container live	com.apple.CurareSandboxMLR.CurareSandboxMLRPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/3E7C2FAF-2F80-4E5A-A0B8-749D03E93B71
+2022-01-06 17:41:12	Made container live	com.apple.Symptoms.SFDiagnosticExtension.appex	/private/var/mobile/Containers/Data/PluginKitPlugin/7B1A78E1-E643-4BD7-A567-FF9E22D2B1A1
+2022-01-06 17:41:12	Made container live	com.apple.NetworkRelay.NRDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/53304D29-CEDA-482B-AD58-7FCDFEC941EB
+2022-01-06 17:41:12	Made container live	com.apple.BiometricKit.BioLogDiagnostic	/private/var/mobile/Containers/Data/PluginKitPlugin/09DA4FBA-38C8-4C44-92FC-35691784D5EA
+2022-01-06 17:41:12	Made container live	com.apple.CloudDocsUI.DocumentPicker	/private/var/mobile/Containers/Data/PluginKitPlugin/27FF0361-1D27-4FAA-889B-B5DF4279B8A3
+2022-01-06 17:41:12	Made container live	com.apple.CloudDocsUI.CloudSharing	/private/var/mobile/Containers/Data/PluginKitPlugin/1129E328-A348-4196-A7F7-9416D6E30D61
+2022-01-06 17:41:13	Made container live	com.apple.WorkflowUI.AddShortcutExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/A8535532-32E9-4724-970E-E30AE13E5AAC
+2022-01-06 17:41:13	Made container live	com.apple.WorkflowUI.WidgetConfigurationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/01A39720-5E87-4B99-BC8E-14DC228A3BEB
+2022-01-06 17:41:13	Made container live	com.apple.WorkflowUI.CatalystContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/84D7677C-4790-4BB6-A942-9D57A35D481B
+2022-01-06 17:41:13	Made container live	com.apple.AuthKitUI.AKAppSSOExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E15069FD-8CAD-4243-B8FE-52998F6899B8
+2022-01-06 17:41:13	Made container live	com.apple.AuthKitUI.AKFollowUpServerUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/0ED490C3-0A57-4AC5-B587-DF87FD8658F3
+2022-01-06 17:41:13	Made container live	com.apple.AuthKitUI.AKLocationSignInAlert	/private/var/mobile/Containers/Data/PluginKitPlugin/7044F4FC-20B5-4543-BBE1-03B860B2345C
+2022-01-06 17:41:13	Made container live	com.apple.AuthKitUI.AKSecondFactorAlert	/private/var/mobile/Containers/Data/PluginKitPlugin/2AC37899-6A29-4D1F-9FB6-757E47C1F2EE
+2022-01-06 17:41:13	Made container live	com.apple.AuthKitUI.AKSecondFactorEntryAlert	/private/var/mobile/Containers/Data/PluginKitPlugin/2161CAC9-BD9E-4C37-83AF-3A86AB5F455D
+2022-01-06 17:41:14	Made container live	com.apple.awd.AWDDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/19EBFC01-386E-4F53-AFF3-F19A2CA6B8DA
+2022-01-06 17:41:14	Made container live	com.apple.filesystems.UserFS.FileProvider	/private/var/mobile/Containers/Data/PluginKitPlugin/326A6BDC-D148-4AC4-9401-982CCF8B730B
+2022-01-06 17:41:14	Made container live	com.apple.CalendarWidget.IntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/313167F3-53B0-4265-8168-CC98434D06A2
+2022-01-06 17:41:14	Made container live	com.apple.CoreBluetoothUI.BTDevicePickerUI	/private/var/mobile/Containers/Data/PluginKitPlugin/38F55019-E286-4753-99B2-89C3F795E0F2
+2022-01-06 17:41:14	Made container live	com.apple.CalendarNotification.CalendarContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/5A862FB1-5761-499C-9A3E-2D31F270AB2D
+2022-01-06 17:41:14	Made container live	com.apple.SleepHealthUI.SleepNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/FF8A519C-E098-48DB-873C-086B81EB0F09
+2022-01-06 17:41:15	Made container live	com.apple.SoftwareUpdateServices.SUSFollowUpExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6691598E-56EA-43EE-80F5-C2FA9B42D2DB
+2022-01-06 17:41:15	Made container live	com.apple.voiceservices.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/4D2D4894-553B-4A9A-B399-6F042BDC07F7
+2022-01-06 17:41:15	Made container live	com.apple.mobiletimer-framework.MobileTimerIntents	/private/var/mobile/Containers/Data/PluginKitPlugin/0B038160-6134-419D-9BCB-6CBB72644BFF
+2022-01-06 17:41:15	Made container live	com.apple.AssetViewer.ASVAssetThumbnail	/private/var/mobile/Containers/Data/PluginKitPlugin/F59DD8B2-AD58-4C59-BCD0-9E55028E951B
+2022-01-06 17:41:15	Made container live	com.apple.AssetViewer.ASVAssetViewer	/private/var/mobile/Containers/Data/PluginKitPlugin/F34F6C32-1FEA-4056-A17F-CAFF94132C70
+2022-01-06 17:41:15	Made container live	com.apple.VideoSubscriberAccount.VideoSubscriberAccountUIFramework.AuthenticationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B1446BF6-897C-4E9D-BDA6-FEF1B02A3AC6
+2022-01-06 17:41:15	Made container live	com.apple.siri.SiriAnnounceExtensions.AnnounceIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/D6AB2B6B-43BA-463D-BA45-371EB9A9AF89
+2022-01-06 17:41:15	Made container live	com.apple.iTunesStoreUI.SUAskPermissionExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/009425CB-C862-450B-88DD-8C6439884880
+2022-01-06 17:41:16	Made container live	com.apple.Sharing.AirDropAlertUI	/private/var/mobile/Containers/Data/PluginKitPlugin/1C398C2D-A26F-42AB-B2F8-800F691A762D
+2022-01-06 17:41:16	Made container live	com.apple.Sharing.AirDrop	/private/var/mobile/Containers/Data/PluginKitPlugin/98899480-15F9-486A-AAEA-21D2F7907329
+2022-01-06 17:41:16	Made container live	com.apple.Sharing.continuityRemote	/private/var/mobile/Containers/Data/PluginKitPlugin/D5DECD36-EA04-4A4F-BA94-9D8E34D3C2BA
+2022-01-06 17:41:16	Made container live	com.apple.PBBridgeSupport.BridgeIntents	/private/var/mobile/Containers/Data/PluginKitPlugin/F9F1A087-2810-460A-A056-882C6F66C599
+2022-01-06 17:41:16	Made container live	com.apple.exchangesyncexpress.framework.EASOAuthService	/private/var/mobile/Containers/Data/PluginKitPlugin/02286A4A-7841-42D6-8AFE-276FF1D2C1BB
+2022-01-06 17:41:16	Made container live	com.apple.UserActivity.UASharedPasteboardiOSUI	/private/var/mobile/Containers/Data/PluginKitPlugin/62DD9941-4E35-4AC8-8A77-3650985BCC49
+2022-01-06 17:41:17	Made container live	com.apple.DocumentManagerUICore.RecentsAppPopover	/private/var/mobile/Containers/Data/PluginKitPlugin/F0CAE51D-513D-4B29-806B-7ED9518A1A94
+2022-01-06 17:41:17	Made container live	com.apple.DocumentManagerUICore.Service	/private/var/mobile/Containers/Data/PluginKitPlugin/AEBAFD8E-6338-4852-A477-5335779E9BBD
+2022-01-06 17:41:17	Made container live	com.apple.DocumentManagerUICore.SaveToFiles	/private/var/mobile/Containers/Data/PluginKitPlugin/470F8920-064A-4C7D-8D9D-27F4522F4BE0
+2022-01-06 17:41:17	Made container live	com.apple.DocumentManagerUICore.AddTagsActionExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/1C1C0956-AC3F-4B6E-804A-9E8C0C7F5695
+2022-01-06 17:41:17	Made container live	com.apple.DocumentManagerUICore.RecentsAvocadoIntentHandler	/private/var/mobile/Containers/Data/PluginKitPlugin/36F9F4E3-EA9B-4633-ADAD-4855E380EB3C
+2022-01-06 17:41:17	Made container live	com.apple.DocumentManagerUICore.RecentsAvocado	/private/var/mobile/Containers/Data/PluginKitPlugin/DEF0B204-0240-4BD3-B69E-EF1B0870AF92
+2022-01-06 17:41:17	Made container live	com.apple.AppStoreDaemon.AppStoreEventServiceExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/F76E4C19-1E00-4554-8553-A107FAEAF547
+2022-01-06 17:41:17	Made container live	com.apple.AppStoreDaemon.ASDFollowUpExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/A48B8CE8-7CF4-4DC1-BC2C-2DA32145B1EA
+2022-01-06 17:41:17	Made container live	com.apple.AppStoreDaemon.ASDAskPermissionExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/14C4710C-33F3-4FA9-9200-AE6A01936E6D
+2022-01-06 17:41:17	Made container live	com.apple.AppStoreDaemon.ASDUserNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9C2A93B9-E7A5-4067-83C0-E02823280DDF
+2022-01-06 17:41:17	Made container live	com.apple.HealthMenstrualCyclesUI.NotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/5C6FD8E4-56CF-4CAE-902A-0B4952D6638B
+2022-01-06 17:41:17	Made container live	com.apple.ibooks.BookLibraryCore.BooksAskPermissionExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/3E08A106-A49B-49EC-8B9C-E8A48694A956
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.HangTracer	/private/var/mobile/Containers/Data/PluginKitPlugin/6B32F213-7507-4D03-A401-60E6CD4F4DF6
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.StackShot	/private/var/mobile/Containers/Data/PluginKitPlugin/3E5A3358-1167-4BA4-8708-2C7FBE633EF6
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Siri	/private/var/mobile/Containers/Data/PluginKitPlugin/39A8B5A4-233B-4AFF-8883-C14039FDCBAB
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Panic	/private/var/mobile/Containers/Data/PluginKitPlugin/AFDEA667-A4DA-4D70-98A1-03ACEBC0FED7
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.B389	/private/var/mobile/Containers/Data/PluginKitPlugin/E5DB2C4F-EC34-485A-A138-55DE7F9EE963
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Cellular	/private/var/mobile/Containers/Data/PluginKitPlugin/3E25DA62-6EAE-468F-932B-26C0BCC51B6D
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Nearbyd	/private/var/mobile/Containers/Data/PluginKitPlugin/788D33D1-4D2F-41CF-806F-BE3ABBE6B616
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Sandbox	/private/var/mobile/Containers/Data/PluginKitPlugin/E4DFBE78-0F15-4D37-90FB-1D3ED477551E
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Messages	/private/var/mobile/Containers/Data/PluginKitPlugin/EFCFF15A-86C4-4485-B82D-3B15EF9CA6D7
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.BluetoothHeadset	/private/var/mobile/Containers/Data/PluginKitPlugin/092AFB0B-29E7-4931-8180-AF291F905584
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Syslog	/private/var/mobile/Containers/Data/PluginKitPlugin/533A62CC-DB66-4E8A-B736-C1D32A2FC6B8
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.BluetoothABCDE	/private/var/mobile/Containers/Data/PluginKitPlugin/B41F3633-F704-4ABF-B019-87197894BDE3
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Contacts	/private/var/mobile/Containers/Data/PluginKitPlugin/EE286C7D-9146-4646-961D-B0EDCC295B56
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.BackgroundAppRefresh	/private/var/mobile/Containers/Data/PluginKitPlugin/134C6138-4D7A-4950-BDA3-77FCED8A786E
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.CrashLogs	/private/var/mobile/Containers/Data/PluginKitPlugin/73664747-8A86-4280-B463-14DC20ABB331
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.LowMemory	/private/var/mobile/Containers/Data/PluginKitPlugin/02A60E63-175E-4207-AECE-AF2E55885021
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Phone	/private/var/mobile/Containers/Data/PluginKitPlugin/7A35F099-7FEA-4219-83EE-95BEEA26274A
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Microstackshot	/private/var/mobile/Containers/Data/PluginKitPlugin/5234F3F7-9F11-4029-95C9-76728D00C74D
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.VoiceMemos	/private/var/mobile/Containers/Data/PluginKitPlugin/EEDC950B-CE9C-4ADB-B9AB-66AD3AB546B5
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.CoreLocation	/private/var/mobile/Containers/Data/PluginKitPlugin/C4E3E0C7-1413-469A-AFF0-D6160FE9BC27
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.VPN	/private/var/mobile/Containers/Data/PluginKitPlugin/594AE074-57B0-478C-8E32-FEB420752ADF
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.sysdiagnose	/private/var/mobile/Containers/Data/PluginKitPlugin/24AFAD63-CF6A-4F5D-89B2-954BAF77E9FA
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.WiFi	/private/var/mobile/Containers/Data/PluginKitPlugin/33385A6C-D0F1-4004-BA75-B91A5B0E12B7
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.VisualVoiceMail	/private/var/mobile/Containers/Data/PluginKitPlugin/64E6CACE-2C05-42E2-BCCC-5B0046AA64EB
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.WirelessCharging	/private/var/mobile/Containers/Data/PluginKitPlugin/24B8AEB9-AFD0-4EEE-B944-F6F724AC4635
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.tailspin	/private/var/mobile/Containers/Data/PluginKitPlugin/6A306A98-32EC-4B56-AD45-91332CE89960
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.FaceTime	/private/var/mobile/Containers/Data/PluginKitPlugin/7CD35F4A-F7F4-42C2-9FA7-8B1FEA50920B
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.Keyboard	/private/var/mobile/Containers/Data/PluginKitPlugin/46217807-22F9-47E1-A35F-E8AFAA99E03B
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.DataAccess	/private/var/mobile/Containers/Data/PluginKitPlugin/A26C162F-917E-4C87-9262-1008B81F268F
+2022-01-06 17:41:18	Made container live	com.apple.DiagnosticExtensions.HIDSensingDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/FDA18918-7C80-4192-96E5-D5A062D959E0
+2022-01-06 17:41:18	Made container live	com.apple.mediaservicesbroker.ViewService	/private/var/mobile/Containers/Data/PluginKitPlugin/5DB6E3FE-BC02-4D6E-9EC4-566CE05F12BB
+2022-01-06 17:41:19	Made container live	com.apple.CloudDocs.MobileDocumentsFileProvider	/private/var/mobile/Containers/Data/PluginKitPlugin/07DD82BB-9AF0-4A30-ADEF-9E684C75598B
+2022-01-06 17:41:19	Made container live	com.apple.CloudDocs.MobileDocumentsFileProviderUI	/private/var/mobile/Containers/Data/PluginKitPlugin/8A0C99D0-83B8-46FF-AB49-6B039655B377
+2022-01-06 17:41:19	Made container live	com.apple.CloudDocs.MobileDocumentsFileProviderManaged	/private/var/mobile/Containers/Data/PluginKitPlugin/D7DCBD5D-E450-40F9-8942-73813170FF82
+2022-01-06 17:41:19	Made container live	com.apple.ReminderKitUI.ReminderCreationViewService	/private/var/mobile/Containers/Data/PluginKitPlugin/0E0E3723-C81A-4120-83AD-5EB0DBE4A45C
+2022-01-06 17:41:19	Made container live	com.apple.CoreCDPUI.localSecretPrompt	/private/var/mobile/Containers/Data/PluginKitPlugin/C8C7A580-BA83-4F0B-ADE9-466664C41A6A
+2022-01-06 17:41:19	Made container live	com.apple.CoreCDPUI.CDPFollowUpExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6ED59B17-3776-4AA5-BC32-3E306042E17B
+2022-01-06 17:41:19	Made container live	com.apple.siri.SiriContactsIntents.ContactsIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DEFA3BF6-F766-47EF-863E-8131C7230EF8
+2022-01-06 17:41:19	Made container live	com.apple.AppStoreOverlays.ViewService	/private/var/mobile/Containers/Data/PluginKitPlugin/7F885ED9-CFEC-477B-B39F-B07F51275EF5
+2022-01-06 17:41:19	Made container live	com.apple.IOAccessoryManagerFramework.WetNotification	/private/var/mobile/Containers/Data/PluginKitPlugin/0C49D068-BB46-4F43-BF7F-74F438D4B2CD
+2022-01-06 17:41:19	Made container live	com.apple.CoreFollowUpUI.FollowUpSampleExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7504F306-F902-4D18-9F62-8216CFAE4AEB
+2022-01-06 17:41:20	Made container live	com.apple.AccessibilityUtilities.AXSettingsShortcuts	/private/var/mobile/Containers/Data/PluginKitPlugin/29079976-BC89-4AA1-A64C-EDD4EF6749B4
+2022-01-06 17:41:20	Made container live	com.apple.MarkupUI.MarkupPhotoExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DA2BCC91-A71A-4E8E-9CDA-F3DD905B499A
+2022-01-06 17:41:20	Made container live	com.apple.MarkupUI.MarkupPrivateExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DADFFCE1-3835-403D-A661-36A8AEF37CEB
+2022-01-06 17:41:20	Made container live	com.apple.das.DASDaemon.DuetDiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/280E981D-86E0-4EDC-AAC0-4FCC23B86EA3
+2022-01-06 17:41:20	Made container live	com.apple.HomeAI.HomeAIDESExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/DEFFA64C-8DBC-4D96-B2FC-605B326EB9C2
+2022-01-06 17:41:20	Made container live	com.apple.siri.SiriTimeInternal.AlarmIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B864A137-BA16-44AE-9FBB-2CE30872DD1B
+2022-01-06 17:41:20	Made container live	com.apple.siri.SiriTimeInternal.TimerIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/49C1A719-CDC5-479F-B86C-3EFC1BC493E8
+2022-01-06 17:41:21	Made container live	com.apple.FocusSettingsUI.UserNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E693EAD4-B798-4685-88D7-CEAA4D36C426
+2022-01-06 17:41:21	Made container live	com.apple.AppleMediaServices.FollowUpExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C18A375A-60A6-41AB-8466-6C65D3242EAE
+2022-01-06 17:41:21	Made container live	com.apple.WorkflowKit.ShortcutsIntents	/private/var/mobile/Containers/Data/PluginKitPlugin/C440D83D-C4BE-4554-B2A4-04C139630EB8
+2022-01-06 17:41:21	Made container live	com.apple.NewDeviceOutreach.Extension	/private/var/mobile/Containers/Data/PluginKitPlugin/9F87E430-1A1F-4C57-BD76-C921B1FE95DF
+2022-01-06 17:41:21	Made container live	com.apple.UserNotificationsUIKit.DefaultUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/2410A6B7-2F68-49C3-87B2-EC20D7251416
+2022-01-06 17:41:21	Made container live	com.apple.UserNotificationsUIKit.ThumbnailProvider	/private/var/mobile/Containers/Data/PluginKitPlugin/5DCA9212-FEAD-4DD8-A385-DD4738C71F8A
+2022-01-06 17:41:21	Made container live	com.apple.iCloudQuotaUI.ICQEngagementExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/EAFFCA5F-4166-4C45-A183-F0B74044C042
+2022-01-06 17:41:22	Made container live	com.apple.OfficeImport.OfficeSpotlightImporter	/private/var/mobile/Containers/Data/PluginKitPlugin/F7B1F63A-2749-48C2-94FA-E8F669BCB942
+2022-01-06 17:41:22	Made container live	com.apple.siri.SiriGeo.SiriGeoIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/5CF83C6D-36E9-4AB7-A778-BFDB68BCA627
+2022-01-06 17:41:22	Made container live	com.apple.CarKit.CarPlayDiagnosticsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9D74E267-0078-4ED8-B08D-4F4D1C0E6E9B
+2022-01-06 17:41:22	Made container live	com.apple.NLPLearner.QuickTypePFLExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/D4552C1C-FE2B-4864-88A3-C57DEC13566A
+2022-01-06 17:41:22	Made container live	com.apple.PhotoLibraryServices.PhotosDiagnostics	/private/var/mobile/Containers/Data/PluginKitPlugin/B66E059A-15E4-4ED5-93FA-E0259BA2DC67
+2022-01-06 17:41:22	Made container live	com.apple.DataDetectorsUI.ActionsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6AF355EB-14D5-4920-85DC-AE5F4498EC73
+2022-01-06 17:41:23	Made container live	com.apple.BarcodeSupport.BarcodeNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/F8D5C517-42D1-4D7B-8AAD-FE3DE8F514E0
+2022-01-06 17:41:23	Made container live	com.apple.BarcodeSupport.BarcodeNotificationExtension2	/private/var/mobile/Containers/Data/PluginKitPlugin/6F502F22-24E3-4A4F-8272-46DCF7A1438E
+2022-01-06 17:41:23	Made container live	com.apple.ScreenTimeUI.ScreenTimeNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/8006F15D-9B37-4D10-A0C8-25508F752C45
+2022-01-06 17:41:23	Made container live	com.apple.AppleAccountUI.AAUIFollowUpExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/009A46F2-A6D6-4E3E-B02A-9E97B2C9F8F4
+2022-01-06 17:41:23	Made container live	com.apple.SeymourServices.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/046FEE33-71D1-4CA2-BD17-BC6A15DA7D49
+2022-01-06 17:41:23	Made container live	com.apple.SeymourServices.SeymourNotifications	/private/var/mobile/Containers/Data/PluginKitPlugin/B379CC29-E3C3-4994-A0D3-EA6234A7E789
+2022-01-06 17:41:23	Made container live	com.apple.CloudDocsDaemon.diagnostic	/private/var/mobile/Containers/Data/PluginKitPlugin/6771EA48-C906-489E-9ED0-712B0F031D72
+2022-01-06 17:41:23	Made container live	com.apple.AVConference.Diagnostic	/private/var/mobile/Containers/Data/PluginKitPlugin/D6B1FE95-4D8B-4F69-A04F-4BE14B66DE93
+2022-01-06 17:41:27	Made container live	com.apple.calculator	/private/var/mobile/Containers/Data/Application/CCAD3427-E32B-46F7-82E9-D108BC270B1A
+2022-01-06 17:41:27	Made container live	com.apple.calculator	/private/var/containers/Bundle/Application/18747DCC-925D-49C9-AD34-14D923E6EEAB
+2022-01-06 17:41:27	Install successful	com.apple.calculator	
+2022-01-06 17:41:27	Made container live	com.apple.MobileAddressBook	/private/var/mobile/Containers/Data/Application/066A4A9D-7449-4300-96D2-0FA1AA59CBE2
+2022-01-06 17:41:27	Made container live	com.apple.MobileAddressBook	/private/var/containers/Bundle/Application/139DE4E3-8D94-4C25-A72A-4D7B29D6283F
+2022-01-06 17:41:27	Install successful	com.apple.MobileAddressBook	
+2022-01-06 17:41:27	Made container live	com.apple.weather	/private/var/mobile/Containers/Data/Application/53A8381F-BE59-4766-889D-5294516BF721
+2022-01-06 17:41:27	Made container live	com.apple.weather.WeatherIntents	/private/var/mobile/Containers/Data/PluginKitPlugin/AB2956D5-D4FA-4DA7-8B18-BB7EA5E9C985
+2022-01-06 17:41:27	Made container live	com.apple.weather.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/CA9CCB7F-2356-4E3D-B500-319FBD6868D8
+2022-01-06 17:41:27	Made container live	com.apple.weather.widget	/private/var/mobile/Containers/Data/PluginKitPlugin/B634FE9A-327E-4CFD-9CFA-CCE7A6D44023
+2022-01-06 17:41:27	Made container live	com.apple.weather	/private/var/containers/Bundle/Application/E36B9618-2B47-42EA-BC4E-EAEFEAEDDD85
+2022-01-06 17:41:27	Install successful	com.apple.weather	
+2022-01-06 17:41:27	Made container live	com.apple.DocumentsApp	/private/var/mobile/Containers/Data/Application/A6C6548D-584A-4C98-8621-AF5E2D239E9D
+2022-01-06 17:41:27	Made container live	com.apple.DocumentsApp	/private/var/containers/Bundle/Application/EF597A1E-A847-400D-B67C-71FC26D3ED97
+2022-01-06 17:41:27	Made container live	com.apple.VoiceMemos	/private/var/mobile/Containers/Data/Application/F9CA62D0-5A96-42EF-8AD6-ABE7A1B11482
+2022-01-06 17:41:27	Made container live	com.apple.VoiceMemos.VoiceMemosIntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/D7DE7598-C748-4A7B-AD3C-A2920290CDC0
+2022-01-06 17:41:27	Made container live	com.apple.VoiceMemos.VoiceMemosShareExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7008A94E-17B7-4796-BD45-4A6ABA4449CC
+2022-01-06 17:41:27	Install successful	com.apple.DocumentsApp	
+2022-01-06 17:41:27	Made container live	com.apple.VoiceMemos.SpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E9663313-3B32-477F-BD76-904714CE6E71
+2022-01-06 17:41:27	Made container live	com.apple.VoiceMemos	/private/var/containers/Bundle/Application/D05366E4-24C8-44AF-B20D-141B9811081A
+2022-01-06 17:41:27	Install successful	com.apple.VoiceMemos	
+2022-01-06 17:41:27	Made container live	com.apple.podcasts	/private/var/mobile/Containers/Data/Application/D517F1FE-600D-47C1-B2AD-151328975ED8
+2022-01-06 17:41:27	Made container live	com.apple.podcasts.DiagnosticExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/586A0577-937C-4724-9A95-37C5293593E7
+2022-01-06 17:41:27	Made container live	com.apple.podcasts.PodcastsNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7B8D4661-F4FB-4F61-9059-3505DA5AB54D
+2022-01-06 17:41:27	Made container live	com.apple.podcasts.PodcastsClassKitExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6338FF81-FC7F-4BCD-9546-E25D3E904329
+2022-01-06 17:41:27	Made container live	com.apple.podcasts.PodcastsAnnouncementsNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/0FCD0CDF-013F-473C-93EF-A0E92DD6CDA4
+2022-01-06 17:41:27	Made container live	com.apple.podcasts.widget	/private/var/mobile/Containers/Data/PluginKitPlugin/529D2143-57AC-48F4-99BF-579F74C25B8F
+2022-01-06 17:41:27	Made container live	com.apple.podcasts.SpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/244CE36F-FE6D-43D6-9333-5C6DA487B7C3
+2022-01-06 17:41:27	Made container live	com.apple.podcasts.PodcastsProductPageExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C8860497-CAB9-4353-895F-3F02A1F0AA5B
+2022-01-06 17:41:27	Made container live	com.apple.podcasts	/private/var/containers/Bundle/Application/A99DEF07-D0D0-442E-B2DF-3C40C1F103CB
+2022-01-06 17:41:28	Install successful	com.apple.podcasts	
+2022-01-06 17:41:28	Made container live	com.apple.tips	/private/var/mobile/Containers/Data/Application/2B6C372E-A8EF-4DBE-AFF1-987E25B0348C
+2022-01-06 17:41:28	Made container live	com.apple.tips.TipsSwift	/private/var/mobile/Containers/Data/PluginKitPlugin/DFF092DB-725F-4C39-AD55-9BA2F0E49953
+2022-01-06 17:41:28	Made container live	com.apple.tips.TipsNotificationExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/201739C6-28F5-4FD5-8458-BD93860E56CB
+2022-01-06 17:41:28	Made container live	com.apple.tips.TipsPFLPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/0C134D7E-4044-41AB-B762-051CF59378C6
+2022-01-06 17:41:28	Made container live	com.apple.tips	/private/var/containers/Bundle/Application/1D28E50C-E7BF-4710-9CE6-D36CD2DC773F
+2022-01-06 17:41:28	Install successful	com.apple.tips	
+2022-01-06 17:41:28	Data container moved	com.apple.Maps	/private/var/mobile/Containers/Data/Application/C43FB419-30BA-4E8D-BB10-9215E59B1E60
+2022-01-06 17:41:28	Made container live	com.apple.Maps.GeneralMapsWidget	/private/var/mobile/Containers/Data/PluginKitPlugin/8CBB4C04-C146-4FEB-A5E9-66F3A34CBAEC
+2022-01-06 17:41:28	Made container live	com.apple.Maps.SiriTrafficIncidents	/private/var/mobile/Containers/Data/PluginKitPlugin/9437AA3B-C89C-43FF-8578-BEB5C9DB64EF
+2022-01-06 17:41:28	Made container live	com.apple.Maps.MapsSpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/F7B30FAB-0094-4215-B2C2-39DFE36F6219
+2022-01-06 17:41:28	Made container live	com.apple.Maps	/private/var/containers/Bundle/Application/460D57DD-0A23-4246-920D-354526888629
+2022-01-06 17:41:28	Install successful	com.apple.Maps	
+2022-01-06 17:41:28	Made container live	com.apple.Translate	/private/var/mobile/Containers/Data/Application/14EDA08E-1E41-49AA-ADA1-865B3A4CCFBB
+2022-01-06 17:41:28	Made container live	com.apple.Translate.CacheDeleteExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7F0761C3-A7BA-4656-9C9B-0CCB98A599F7
+2022-01-06 17:41:28	Made container live	com.apple.Translate	/private/var/containers/Bundle/Application/8FDFF978-7252-481C-AD17-4E04BEAE20C6
+2022-01-06 17:41:28	Install successful	com.apple.Translate	
+2022-01-06 17:41:28	Made container live	com.apple.Magnifier	/private/var/mobile/Containers/Data/Application/CB907285-E5CE-4AA5-ACAD-0078F9AA1A44
+2022-01-06 17:41:28	Made container live	com.apple.Magnifier	/private/var/containers/Bundle/Application/53F1628B-01DD-4ECB-B685-EAB2394D40FF
+2022-01-06 17:41:28	Install successful	com.apple.Magnifier	
+2022-01-06 17:41:28	Made container live	com.apple.Bridge	/private/var/mobile/Containers/Data/Application/D6263E91-4F92-46F4-81E3-439F298B2C9A
+2022-01-06 17:41:28	Made container live	com.apple.Bridge.GreenfieldThumbnailExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/33548D57-5CAE-4624-A0B6-F141FD040A4B
+2022-01-06 17:41:28	Made container live	com.apple.Bridge	/private/var/containers/Bundle/Application/D646852A-6223-4373-9198-9BA10E09FB21
+2022-01-06 17:41:28	Install successful	com.apple.Bridge	
+2022-01-06 17:41:29	Made container live	com.apple.iBooks	/private/var/mobile/Containers/Data/Application/0CE4A90A-E7D1-496F-BBB2-5685760B5A69
+2022-01-06 17:41:29	Made container live	com.apple.iBooks.BooksIntentHandler	/private/var/mobile/Containers/Data/PluginKitPlugin/68994C61-6DAD-4A00-B0CD-C634BECC634A
+2022-01-06 17:41:29	Made container live	com.apple.iBooks.iBooksProductPageExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/2E6601AF-2F9A-49E9-9F87-3F03F82072F8
+2022-01-06 17:41:29	Made container live	com.apple.iBooks.BooksNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/E0D628B0-EE6A-48B1-BF16-9951769E411D
+2022-01-06 17:41:29	Made container live	com.apple.iBooks.iBooksSpotlightExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/CE83F914-DEB4-46A8-B41E-4BE113564DE6
+2022-01-06 17:41:29	Made container live	com.apple.iBooks	/private/var/containers/Bundle/Application/A3320985-6F4D-4A65-B701-649916F14098
+2022-01-06 17:41:29	Install successful	com.apple.iBooks	
+2022-01-06 17:41:29	Made container live	com.apple.MobileStore	/private/var/mobile/Containers/Data/Application/CCD4213B-F122-449D-8362-00B304D692BD
+2022-01-06 17:41:29	Made container live	com.apple.MobileStore.MusicStoreNotificationContentPlugin	/private/var/mobile/Containers/Data/PluginKitPlugin/7488E39E-89CC-4088-9B3F-C67FDC02C34F
+2022-01-06 17:41:29	Made container live	com.apple.MobileStore	/private/var/containers/Bundle/Application/67C7AFCF-252E-4006-AC71-4CC7CA0C5AB9
+2022-01-06 17:41:29	Install successful	com.apple.MobileStore	
+2022-01-06 17:41:29	Made container live	com.apple.facetime	/private/var/mobile/Containers/Data/Application/015340C1-5AF7-499D-91B9-7E8689BF86F7
+2022-01-06 17:41:29	Made container live	com.apple.facetime	/private/var/containers/Bundle/Application/66E9BFC7-0B5F-475E-BCAB-D1F35318B83B
+2022-01-06 17:41:29	Install successful	com.apple.facetime	
+2022-01-06 17:41:29	Made container live	com.apple.Music	/private/var/mobile/Containers/Data/Application/57409277-DC41-4FC3-95F7-8A96FE48B3A5
+2022-01-06 17:41:29	Made container live	com.apple.Music.StoreFlowExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C912BECD-8032-4F5C-B2B8-6D1DBCA0795C
+2022-01-06 17:41:29	Made container live	com.apple.Music.MusicWidgets	/private/var/mobile/Containers/Data/PluginKitPlugin/FE1DD17B-C10A-485B-9EAF-03E1C58F77FF
+2022-01-06 17:41:29	Made container live	com.apple.Music.MusicCoreSpotlightExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/37766E18-B8F1-4A18-BE46-D22ACE37B887
+2022-01-06 17:41:29	Made container live	com.apple.Music.MediaPicker	/private/var/mobile/Containers/Data/PluginKitPlugin/6BB73875-EED8-40F0-BA77-F64DCACE57CB
+2022-01-06 17:41:29	Made container live	com.apple.Music.MusicNotificationContentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/2ECF72A2-7411-4E4A-B1D4-1A2C5052C8B5
+2022-01-06 17:41:29	Made container live	com.apple.Music.Messages	/private/var/mobile/Containers/Data/PluginKitPlugin/71EB7A08-DE3A-4B55-AF28-302D29DA4CBE
+2022-01-06 17:41:29	Made container live	com.apple.Music	/private/var/containers/Bundle/Application/2F4E8BB9-A58B-42F5-B668-6B137F901E44
+2022-01-06 17:41:30	Install successful	com.apple.Music	
+2022-01-06 17:41:30	Made container live	com.apple.Home	/private/var/mobile/Containers/Data/Application/A36BD96E-D18C-4482-9EA7-C14AE80B4E26
+2022-01-06 17:41:30	Made container live	com.apple.Home.HomePersonalRequestNotification	/private/var/mobile/Containers/Data/PluginKitPlugin/EAEE2DE8-E83B-4D79-967C-8526E1B4DD81
+2022-01-06 17:41:30	Made container live	com.apple.Home.HomeUtilNotification	/private/var/mobile/Containers/Data/PluginKitPlugin/6CF2B4C0-6242-4AFF-A31C-19B63F5D415A
+2022-01-06 17:41:30	Made container live	com.apple.Home.HomeNotification	/private/var/mobile/Containers/Data/PluginKitPlugin/174BF6BE-8446-40F1-969E-85AB88CB3771
+2022-01-06 17:41:30	Made container live	com.apple.Home.HomeIntentExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/07FA1CFF-2C28-4E42-9BB8-C14FFDC83A9A
+2022-01-06 17:41:30	Made container live	com.apple.Home	/private/var/containers/Bundle/Application/CE25510A-F989-4505-8EA9-1330BB18EF87
+2022-01-06 17:41:30	Install successful	com.apple.Home	
+2022-01-06 17:41:30	Made container live	com.apple.mobilecal	/private/var/mobile/Containers/Data/Application/38312AE4-CB0A-4665-AE74-9D23DB912B94
+2022-01-06 17:41:30	Made container live	com.apple.mobilecal.CalendarWidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/A4ECEF97-7885-4F15-8932-BDC188D0C306
+2022-01-06 17:41:30	Made container live	com.apple.mobilecal.FacetimeExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/C28B7BA1-22CF-4ABC-B3A6-8DA3B89E33FB
+2022-01-06 17:41:30	Made container live	com.apple.mobilecal.diagnosticextension	/private/var/mobile/Containers/Data/PluginKitPlugin/B878C2A1-2470-49F4-8F04-3A73C802D96C
+2022-01-06 17:41:30	Made container live	com.apple.mobilecal	/private/var/containers/Bundle/Application/397148C1-E8F3-403E-961D-D3322C4918A1
+2022-01-06 17:41:30	Install successful	com.apple.mobilecal	
+2022-01-06 17:41:30	Made container live	com.apple.measure	/private/var/mobile/Containers/Data/Application/BF4020E7-8F76-49CA-9E54-1ED67B283C43
+2022-01-06 17:41:30	Made container live	com.apple.measure	/private/var/containers/Bundle/Application/49745E08-E318-404A-B561-AECA72FC33F1
+2022-01-06 17:41:30	Install successful	com.apple.measure	
+2022-01-06 17:41:31	Made container live	com.apple.reminders	/private/var/mobile/Containers/Data/Application/D0D764D4-004D-40C6-84EF-58C89A89A4C1
+2022-01-06 17:41:31	Made container live	com.apple.reminders.WidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/3E159043-7BB6-4BC3-8448-B37D993BF942
+2022-01-06 17:41:31	Made container live	com.apple.reminders.spotlightindexextension	/private/var/mobile/Containers/Data/PluginKitPlugin/01ACF459-A774-4ED6-96E5-DCBD8D18D6DA
+2022-01-06 17:41:31	Made container live	com.apple.reminders.IntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/5340D245-5504-4F92-8367-98ED4D5D0193
+2022-01-06 17:41:31	Made container live	com.apple.reminders.sharingextension	/private/var/mobile/Containers/Data/PluginKitPlugin/44A06C87-1632-46A9-B933-4BD0EC784C53
+2022-01-06 17:41:31	Made container live	com.apple.reminders.IntentsUIExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/00C3DE6D-6C73-4E56-B6AE-D0C65D84C845
+2022-01-06 17:41:31	Made container live	com.apple.reminders	/private/var/containers/Bundle/Application/B04B5740-4761-4A03-ACE4-210B7F06F8A0
+2022-01-06 17:41:31	Install successful	com.apple.reminders	
+2022-01-06 17:41:32	Made container live	com.apple.stocks	/private/var/mobile/Containers/Data/Application/5D33441A-9B18-43B9-9420-0C7C7BE42DC2
+2022-01-06 17:41:32	Made container live	com.apple.stocks.widget	/private/var/mobile/Containers/Data/PluginKitPlugin/13B8DC4B-7FA8-4AE5-9DBD-600173E7E14C
+2022-01-06 17:41:32	Made container live	com.apple.stocks.detailintents	/private/var/mobile/Containers/Data/PluginKitPlugin/B963DBFE-B991-4FB4-8D2A-BAA609F35B36
+2022-01-06 17:41:32	Made container live	com.apple.stocks	/private/var/containers/Bundle/Application/169411EC-504F-4ACF-8B97-A5FCF4CC2042
+2022-01-06 17:41:32	Made container live	com.apple.compass	/private/var/mobile/Containers/Data/Application/030EEADB-EC59-4288-A445-F7269CA68B35
+2022-01-06 17:41:32	Made container live	com.apple.compass	/private/var/containers/Bundle/Application/F2820F81-22D1-4E49-9001-2D4A14E8E594
+2022-01-06 17:41:32	Install successful	com.apple.compass	
+2022-01-06 17:41:32	Made container live	com.apple.news	/private/var/mobile/Containers/Data/Application/9BEE4F96-D35A-448F-8715-BDD631C9FFCB
+2022-01-06 17:41:32	Install successful	com.apple.stocks	
+2022-01-06 17:41:32	Made container live	com.apple.news.NewsArticleQuickLook	/private/var/mobile/Containers/Data/PluginKitPlugin/C80518C4-F970-4A62-A244-C43EB56A47E7
+2022-01-06 17:41:32	Made container live	com.apple.news.tag	/private/var/mobile/Containers/Data/PluginKitPlugin/36E87DCA-D250-4C17-8396-643200B820EC
+2022-01-06 17:41:32	Made container live	com.apple.news.engagementExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/7F45A810-38D6-42E4-BDC9-4A883D87399F
+2022-01-06 17:41:32	Made container live	com.apple.news.articlenotificationserviceextension	/private/var/mobile/Containers/Data/PluginKitPlugin/7039E1CE-652D-47AE-BB70-BF005CDFC7AD
+2022-01-06 17:41:32	Made container live	com.apple.news.widgetintents	/private/var/mobile/Containers/Data/PluginKitPlugin/941682A8-2659-4C43-8EDE-A231AC856695
+2022-01-06 17:41:32	Made container live	com.apple.news.articlenotificationextension	/private/var/mobile/Containers/Data/PluginKitPlugin/C6C3817E-4423-4BAF-BC39-1F9D735B2770
+2022-01-06 17:41:32	Made container live	com.apple.news.marketingnotificationextension	/private/var/mobile/Containers/Data/PluginKitPlugin/8572DA36-26EE-4694-82CD-F7CE40064F62
+2022-01-06 17:41:32	Made container live	com.apple.news.widget	/private/var/mobile/Containers/Data/PluginKitPlugin/95C17B5B-E756-4A3D-A277-3DE53D9D0FDC
+2022-01-06 17:41:32	Made container live	com.apple.news.NewsAudioExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/1E3D8C9C-35BA-4717-B6D7-A5FBC5535BE3
+2022-01-06 17:41:32	Made container live	com.apple.news.openinnews	/private/var/mobile/Containers/Data/PluginKitPlugin/F90B1FC6-4B27-42C3-B787-C793D7F019E0
+2022-01-06 17:41:32	Made container live	com.apple.news	/private/var/containers/Bundle/Application/7354AD48-E136-4253-9C38-3F81BDCBCE90
+2022-01-06 17:41:32	Install successful	com.apple.news	
+2022-01-06 17:41:32	Made container live	com.apple.mobilenotes	/private/var/mobile/Containers/Data/Application/B2EC0989-D311-4544-860C-1D5C965F24BB
+2022-01-06 17:41:32	Made container live	com.apple.mobilenotes.QuickLookExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/6787DFB0-8F01-4189-BA2C-D13E33721550
+2022-01-06 17:41:32	Made container live	com.apple.mobilenotes.IntentsExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/B81221B0-FA69-44C2-865B-71202FA7A472
+2022-01-06 17:41:32	Made container live	com.apple.mobilenotes.SpotlightIndexExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/A905E92B-7EC0-424B-B4EE-EFB5EE71EBE0
+2022-01-06 17:41:32	Made container live	com.apple.mobilenotes.SharingExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/9667974D-65BE-4511-901B-47E42125786A
+2022-01-06 17:41:32	Made container live	com.apple.mobilenotes.WidgetExtension	/private/var/mobile/Containers/Data/PluginKitPlugin/D8646F93-9B60-4033-AC01-1997F03B2FCC
+2022-01-06 17:41:32	Made container live	com.apple.mobilenotes	/private/var/containers/Bundle/Application/56177DC1-C9F0-418F-9279-BF8B27F46D89
+2022-01-06 17:41:32	Install successful	com.apple.mobilenotes	
