@@ -1,0 +1,1 @@
+2022-01-06 17:41:01 Made container live com.apple.CoreSpotlight.ImportExtension1 /private/var/mobile/Containers/Data/PluginKitPlugin/12DC742B-A765-40DF-9E2E-BE6EEE94F413

@@ -1,0 +1,110 @@
+SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+	6
+Ue
+PCSUserRegistryMobileBackup:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !%-567;U$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+j?<t>QH%^!?^E#
+
+5,n	
+
+q0R)+#
+o#kZ
+@B"
+o/(!9
+gaYSWnv_
+Efl4hzE
+Yq}=H7_Yg
+mT|0X&
+;P*^7S
+	u:+!i0
+6&*Ys?
+%dE 
+F*8(Re(U#
+"i)0'0%
+g
+b
+i!{I}
+(28B44C8DD13DDC284E4909FF8055444FFF33DD12
+"#$YNS.string
++cQqHAmz4iTbQfoVvpfmo3VOqhLP9RXi36Z2GvDEWhKE&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+anonymousCKUserIDYownerNameXZoneName
+PCSUserRegistryMobileBackup_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID&'<=^CKDZonePCSData>?,^CKDZonePCSDataZCKDPCSData
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464PCSUserRegistryMobileBackup:__defaultOwner__Az
+e	PCSUserRegistryMobileBackup:__defaultOwner__
+	PCSUserRegistryMobileBackup:__defaultOwner__
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464Az
+eU
+	PCSUserRegistryMobileBackup:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+H_g
+
+U
+	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+C{eW
+CISQLite format 3
+	$
+Ue
+ !%-567;?BU$null
+
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID<
+=>WNS.time#A
+#mp&'@AVNSDate@,&'CD^CKDZonePCSDataEF,^CKDZonePCSDataZCKDPCSData
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464PCSUserRegistryMobileBackup:__defaultOwner__A}|
+Ax$|
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464A}|
+CeW90
+
+PCSUserRegistryMobileBackup:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+CDS[b
+
+C#X
+
+C\Cs>xcH
+
+C`1|
+~Qi
+
+Cr	f
+
+C1e?V
+C<%.
+
+C_'
+
+C	rR3
+C@Z!6
+
+!PSQLite format 3

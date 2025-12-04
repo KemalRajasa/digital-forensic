@@ -1,0 +1,73 @@
+snapshot
+T(L
+
+
+m<(
+J*'R B*
+
+SettingsStorageKey.CrashDebugCoreInfoStorage.PreviousSessionDebugInfo.HealthDatabplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$nullO
+[{"accumulatedMemoryUsage":{"avg":130.03906250000003,"count":132,"max":138.40625,"last":17.640625},"accumulatedActiveTime":129.60839558333282,"accumulatedMemoryUsageLastUpdate":665816024.52632499,"isInActiveState":false,"mainThreadUpdateLastUpdate":665640793.78393304,"lastTime":15142.755688625,"startTime":6680.160292583334,"activeStartTime":0,"accumulatedMainThreadDelay":{"avg":0.0041867719999791001,"count":125,"max":0.2645535416668281,"last":0.00012712499938061228}}]
+SettingsStorageFallbackUrlStorageKeybplist00
+U$null
+
+WNS.baseV$class[NS.relative
+https://fclcdn.com/v1/2.json
+Z$classnameX$classesUNSURL
+XNSObject
+$)27ILQSX^emt
+SettingsStorageKey.CrashDebugCoreInfoStorage.PreviousSessionDebugInfobplist00
+[{"received_memory_warning":false,"received_memory_warning_update_date":-978307200,"launch_date":665640542.83961594,"application_version":"5.247.0","last_application_state_update_date":665640794.34317696,"last_application_state":2}]
+SettingsStoragehealthDataStoragebplist00
+!"#$%&'(456789:;<BCDPQRSTUVU$null
+
+ WNS.keysZNS.objectsV$class
+[memoryUsage_
+accumulatedActiveTimeXlastTime_
+mainThreadDelayYstartTime_
+activeStartTime_
+isInActiveState
+
+). *+,-
+
+/012
+UcountSmaxTlastSavg
+#@aM
+#@`({0
+	=>?@Z$classnameX$classes\NSDictionary?AXNSObject#@`3w
+c)'
+EJ ,*-+
+
+KLMN
+#? n
+}#?q&&
+
+/
+#?q`
+J
+~kr
+
+JpMXR
+
+
+	l
+SettingsStorageinstant_paywall_service.storagebplist00
+U$nullW5.247.0
+$)27ILQSV\
+SettingsStorageexpectingTerminationbplist00
+U$nullF[true]
+SettingsStorageKey.CrashDebugCoreInfoStorage.PreviousSessionDebugInfo.StorageCapacityInfobplist00
+[{"availableForOpportunisticUsage":48176590848,"dateFetched":665640782.87730002,"total":63968497664,"availableForImportantUsage":50655465833}]
+SettingsStoragekilledByUserKeybplist00
+SettingsStorageKey.CrashDebugCoreInfoStorage.PreviousSessionDebugInfo.DeviceInfobplist00
+J[{"osVersion":"15.0.2","deviceId":"2D883726-9C2B-4AE4-88FE-3DE32472B0A5"}]
+SettingsStorageKey.CrashDebugCoreInfoStorage.PreviousSessionDebugInfo.BuildInfobplist00
+[{"build_host":"GeorgeHarrison","git_hash":"0d9296ad94817d4137ae8905d0c3353fb4933ded","git_branch":"release_ios_5.247","build_timestamp":"Wed 12 Jan 2022 03:37:54 GMT","version":"5.247.0"}]
+J$u%
+d)Z
+
+[{"accumulatedMemoryUsage":{"avg":129.265037593985,"count":133,"max":138.40625,"last":27.09375},"accumulatedActiveTime":129.60839558333282,"accumulatedMemoryUsageLastUpdate":665816024.54526901,"isInActiveState":false,"mainThreadUpdateLastUpdate":665640793.78393304,"lastTime":15142.774693375,"startTime":6680.160292583334,"activeStartTime":0,"accumulatedMainThreadDelay":{"avg":0.0041867719999791001,"count":125,"max":0.2645535416668281,"last":0.00012712499938061228}}]

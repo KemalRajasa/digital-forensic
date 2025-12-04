@@ -1,0 +1,2 @@
+2022-01-21 16:13:31 Made container live com.wearezeta.zclient.ios.extension-share /private/var/mobile/Containers/Data/PluginKitPlugin/345B36B3-586E-449A-911B-11ECB65F60D7
+2022-01-21 16:13:31 Made container live com.wearezeta.zclient.ios.extension-share /private/var/mobile/Containers/Data/PluginKitPlugin/345B36B3-586E-449A-911B-11ECB65F60D7

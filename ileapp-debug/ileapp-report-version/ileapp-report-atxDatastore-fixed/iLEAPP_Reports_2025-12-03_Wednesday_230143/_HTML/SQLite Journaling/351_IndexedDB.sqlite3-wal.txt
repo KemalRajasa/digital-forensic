@@ -1,0 +1,116 @@
+C!QSa
+C!QS
+[
+SQLite format 3
+.S`
+
+}tableRecordsRecords
+CREATE TABLE Records (objectStoreID INTEGER NOT NULL ON CONFLICT FAIL, key TEXT COLLATE IDBKEY NOT NULL ON CONFLICT FAIL, value NOT NULL ON CONFLICT FAIL, recordID INTEGER PRIMARY KEY)
+C!QS=k^
+C!QS
+aSQLite format 3
+
+indexRecordsIndexRecords
+CREATE UNIQUE INDEX RecordsIndex ON Records (objectStoreID, key)S
+{ a
+
+SQLite format 3
+7tableIndexRecordsIndexRecords
+CREATE TABLE IndexRecords (indexID INTEGER NOT NULL ON CONFLICT FAIL, objectStoreID INTEGER NOT NULL ON CONFLICT FAIL, key TEXT COLLATE IDBKEY NOT NULL ON CONFLICT FAIL, value TEXT COLLATE IDBKEY NOT NULL ON CONFLICT FAIL, objectStoreRecordID INTEGER NOT NULL ON CONFLICT FAIL)`
+C!QSB
+B6>v
+
+VSQLite format 3
+indexIndexRecordsIndexIndexRecords
+CREATE INDEX IndexRecordsIndex ON IndexRecords (indexID, key, value):
+C!QS\
+C!QS8
+NySQLite format 3
+?indexIndexRecordsRecordIndexIndexRecords
+CREATE INDEX IndexRecordsRecordIndex ON IndexRecords (objectStoreID, objectStoreRecordID)n
+C!QS$
+q
+C
+
+.SQLite format 3
+stableBlobRecordsBlobRecords
+CREATE TABLE BlobRecords (objectStoreRow INTEGER NOT NULL ON CONFLICT FAIL, blobURL TEXT NOT NULL ON CONFLICT FAIL)	
+C!QSM^f
+C!QScoNcSQLite format 3
+.S`
+
+
+
+=tableBlobFilesBlobFiles
+CREATE TABLE BlobFiles (blobURL TEXT NOT NULL ON CONFLICT FAIL UNIQUE ON CONFLICT FAIL, fileName TEXT NOT NULL ON CONFLICT FAIL UNIQUE ON CONFLICT FAIL)1	
+indexsqlite_autoindex_BlobFiles_2BlobFiles
+1
+indexsqlite_autoindex_BlobFiles_1BlobFiles	
+C!QS6Tn
+
+C!QS@/`6qv
+
+
+C!QS{
+C!QS
+>)iSQLite format 3
+
+	
+
+tableIDBDatabaseInfoIDBDatabaseInfoCREATE TABLE IDBDatabaseInfo (key TEXT NOT NULL ON CONFLICT FAIL UNIQUE ON CONFLICT REPLACE, value TEXT NOT NULL ON CONFLICT FAIL)=
+indexsqlite_autoindex_IDBDatabaseInfo_1IDBDatabaseInfo7
+C!QSu
+C!QSTT%]SQLite format 3
+<		a
+{tableObjectStoreInfoObjectStoreInfo
+CREATE TABLE ObjectStoreInfo (id INTEGER PRIMARY KEY NOT NULL ON CONFLICT FAIL UNIQUE ON CONFLICT FAIL, name TEXT NOT NULL ON CONFLICT FAIL UNIQUE ON CONFLICT FAIL, keyPath BLOB NOT NULL ON CONFLICT FAIL, autoInc INTEGER NOT NULL ON CONFLICT FAIL)=
+indexsqlite_autoindex_ObjectStoreInfo_2ObjectStoreInfo
+indexsqlite_autoindex_ObjectStoreInfo_1ObjectStoreInfo
+C!QSz
+C!QSzU'1~
+
+C!QS?Bq
+C!QS_USQLite format 3
+7tableIndexInfoIndexInfo
+CREATE TABLE IndexInfo (id INTEGER NOT NULL ON CONFLICT FAIL, name TEXT NOT NULL ON CONFLICT FAIL, objectStoreID INTEGER NOT NULL ON CONFLICT FAIL, keyPath BLOB NOT NULL ON CONFLICT FAIL, isUnique INTEGER NOT NULL ON CONFLICT FAIL, multiEntry INTEGER NOT NULL ON CONFLICT FAIL)"
+7tableKeyGeneratorsKeyGenerators
+CREATE TABLE KeyGenerators (objectStoreID INTEGER NOT NULL ON CONFLICT FAIL UNIQUE ON CONFLICT REPLACE, currentKey INTEGER NOT NULL ON CONFLICT FAIL)9
+indexsqlite_autoindex_KeyGenerators_1KeyGenerators
+C!QS-S-
+
+C!QSc21
+C!QS
+F9\b
+
+MetadataVersion1
+C!QSf
+
++	MetadataVersion
+
+.m
+
+DatabaseNamenerf-web
+DatabaseName
+C!QS4
+DatabaseVersion0
+C!QS[+
+DatabaseVersion
+yJT
+
+MaxObjectStoreID1
+[?]2
+
+MaxObjectStoreID
+C!QS$Vr
+DatabaseVersion1
+C!QS6
+keyvalbplist00
+Ttype
+C!QS+MhqU
+C!QSH(*
+
+	keyval
+C!QS4C
+
+C!QS`!
+

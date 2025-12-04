@@ -1,0 +1,209 @@
+lKu
+
+`Phttps://smp-device-content.apple.com/static/discovery/assets/applepay-logo-v2@2x.png2022-01-21 21:25:27
+_n:@~
+
+siW
+
+5	https://smp-device-content.apple.com/static/discovery/assets/applepay-logo-v2@2x.png
+5	cfurl_cache_response
+bplist00
+WVersionUArray
+
+
+ !
+_CFURLStringType\_CFURLString
+Thttps://smp-device-content.apple.com/static/discovery/assets/applepay-logo-v2@2x.png#A
+VServer\Content-TypeTEtag]Last-ModifiedX__hhaa__]Accept-RangesTDate^Content-LengthZConnection\nginx/1.18.0Yimage/png^"61e89c9e-b1d"_
+Wed, 19 Jan 2022 23:19:58 GMT_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlWkNvbm5lY3Rpb25dTGFzdC1Nb2RpZmllZF1BY2NlcHQtUmFuZ2VzVERhdGVeQ29udGVudC1MZW5ndGhURXRhZ6EKXG5naW54LzEuMTguMKEMWWltYWdlL3BuZ6EOWmtlZXAtYWxpdmWhEF8QHVdlZCwgMTkgSmFuIDIwMjIgMjM6MTk6NTggR01UoRJVYnl0ZXOhFF8QHUZyaSwgMjEgSmFuIDIwMjIgMjE6MjU6MjcgR01UoRZUMjg0NaEYXiI2MWU4OWM5ZS1iMWQiCBkgLThGVFlobW98foiKlZe3ub/B4ePo6gAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD5Ubytes_
+Fri, 21 Jan 2022 21:25:27 GMTT2845Zkeep-alive_
+ __CFURLResponseNullTokenString__Yimage/png
+ibplist00
+Thttps://smp-device-content.apple.com/static/discovery/assets/applepay-logo-v2@2x.png#@N
+__CFURLRequestNullTokenString__	
+SGET
+VAccept_
+Accept-Language_
+Accept-EncodingX__hhaa__S*/*^en-US,en;q=0.9_
+gzip, deflate, br_
+
+
+YnBsaXN0MDDTAQIDBAYIXxAPQWNjZXB0LUVuY29kaW5nVkFjY2VwdF8QD0FjY2VwdC1MYW5ndWFnZaEFXxARZ3ppcCwgZGVmbGF0ZSwgYnKhB1MqLyqhCV5lbi1VUyxlbjtxPTAuOQgPISg6PFBSVlgAAAAAAAABAQAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAZw==
+FPNG
+
+
+IHDR
+
+IDATxUU
+W
+qb
+dL EY
+)|T6=F
+t,3-j*l|dE
+^Zg}\7
+((((((J@G
+<dP
+0
+F"8"-}Z{'
+{PKG
+V-ec
+
+c4+
+~
+`uTea
+1
+6=Cp,e;O[GVF
+R]	r
+W Qc
+
+\
+/
+M9]o]es0
+z{RF<8g7
+r3G9
+y/k(
+@F1faA
+XJ%`&(_
+6FY
+X3?Z
+x[1g Z,cX
+O$y)|@
+;Do)
+yx	.l
+eXAcL(R<QTL;=
+N[`!_4
+<H dn
+H7S#"@j?f
+]2Z#h
+K/.~ms=,k{t_|v,
+Nh
+b
+Bfn8^
+r	$<If
+e~n#8w}A=I
+NOY4
+%wiRX:*-
+K-gV
+p"(G
+Yuf9*i\
++gHy$9%O
+AKb$
+T	'Z|1
+129;
+N[Jg
+GRKM
+(QsV
+.|5
+s8aH-
+OJw1
+*p0*)
+t
+urAV
+~~P.
+0r |
+
+!)ABs8Olfu.
+x-.E3-
+4(cr
+(U-3
+a:h.`r","
+7f-;}7
+3@j \hW!9Y\Y1]:.e
+0~Ge%q(=
+VlJcZ
+kp:^:0
+j7
+8i7I
+-'<<
+v-,]
+=s[F~l
+g']L8OJa_L3;>
+/JajtkI^~
+so23<
+&~M	Y~<f
+>qX/ `!6
+
+Hl*m
+Dqbb
+q{|#
+xP$}
+\ ]-
+)&xu{)l
+#?LhL[#v
+?6EV%\
+yq'?*s
+qnV:^Ht
+azFr#K}
+f{+t>
+]mvrSw
+S:Rad\~)yM
+s'a
+G3<JY
+
+3l7
+g^ ZN
+3u8[
+EaExshD[>
+@q9=7..8
+nJp`A
+%H@E
+/GQB4^2EYK)pKGGt
+
+
+%	
+d*,h
+H$Pk)Ns$[WAa
+-CX60z
++Zo#
+`C-%cN
+`6,Y+
+|L ]hB
+-eW/,
+/,7XZn
+ZR3q6.	
+8=
+$n5-G
+-~gM*
+b>Mm 0bS
+kZLq=c8H
+ws'B
+08HK'
+Z	3
+W8H_n
+"`R	{7{#]dVI+
+!\E)
+6^E
+f^]+QYY4R&]
+en1Dn
+3b(93nEi
+BR&q
+v'w8)R*
+d
+W0(((((
+
+IENDB`
+wbs	/
+
+3	2022-01-21 21:25:27
+(sUX
+
+m;7https://smp-device-content.apple.com/static/discovery/assets/contactless-TouchID-hero-2@2x.png2022-01-21 21:25:27x
+https://smp-device-content.apple.com/static/discovery/assets/contactless-TouchID-hero-2@2x.png
+cfurl_cache_response
+^https://smp-device-content.apple.com/static/discovery/assets/contactless-TouchID-hero-2@2x.png#A
+VServer\Content-TypeTEtag]Last-ModifiedX__hhaa__]Accept-RangesTDate^Content-LengthZConnection\nginx/1.18.0Yimage/png_
+"61e89c9e-76f3c"_
+
+
+YnBsaXN0MDDYAQIDBAUGBwgJCw0PERMVF1ZTZXJ2ZXJcQ29udGVudC1UeXBlWkNvbm5lY3Rpb25dTGFzdC1Nb2RpZmllZF1BY2NlcHQtUmFuZ2VzVERhdGVeQ29udGVudC1MZW5ndGhURXRhZ6EKXG5naW54LzEuMTguMKEMWWltYWdlL3BuZ6EOWmtlZXAtYWxpdmWhEF8QHVdlZCwgMTkgSmFuIDIwMjIgMjM6MTk6NTggR01UoRJVYnl0ZXOhFF8QHUZyaSwgMjEgSmFuIDIwMjIgMjE6MjU6MjcgR01UoRZWNDg3MjI4oRhfEBAiNjFlODljOWUtNzZmM2MiCBkgLThGVFlobW98foiKlZe3ub/B4ePq7AAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAD/Ubytes_
+Fri, 21 Jan 2022 21:25:27 GMTV487228Zkeep-alive_
+^https://smp-device-content.apple.com/static/discovery/assets/contactless-TouchID-hero-2@2x.png#@N
+	U6324D65D-BBE2-4383-9F18-E29C35D4FB34"
+WY[
+
+2022-01-21 21:25:27
+eis^}
+

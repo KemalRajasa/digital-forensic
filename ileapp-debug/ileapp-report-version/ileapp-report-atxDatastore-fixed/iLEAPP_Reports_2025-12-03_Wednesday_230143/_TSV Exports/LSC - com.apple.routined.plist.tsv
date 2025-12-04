@@ -1,0 +1,28 @@
+﻿Value	Key
+2022-02-14 16:44:06.325371	XPCActivityLastCompleteDate.com.apple.routined.metrics.daily
+2022-01-21 22:23:25.838731	XPCActivityLastAttemptDate.com.apple.routined.persistence.mirroring.post-install
+2022-02-09 06:41:02.153988	LastAssetUpdateDate
+2022-02-09 06:09:45.466864	XPCActivityLastAttemptDate.com.apple.routined.learnedLocationEngine.train
+2022-02-14 17:07:20.630192	XPCActivityLastAttemptDate.com.apple.routined.purge
+2022-02-09 06:41:02.160836	XPCActivityLastAttemptDate.com.apple.routined.persistence.mirroring.background
+2022-02-09 06:26:01.026591	LearnedLocationEngineTrainVisitsLastAttemptDate
+2022-01-21 22:27:44.749656	RTDefaultsPersistenceMirroringManagerBackgroundLastImportDate
+2022-02-09 06:26:01.305761	learnedLocationEngineTrainLocationsOfInterestLastCompletionDate
+2022-02-09 06:26:01.453992	XPCActivityLastAttemptDate.com.apple.routined.assets
+2022-02-09 06:27:15.909073	LastExitDate.CoreRoutineHelperService
+2022-02-14 17:05:59.529743	XPCActivityLastAttemptDate.com.apple.routined.locationAwareness.heartbeat
+True	RTDefaultsLearnedLocationEngineLocationOfInterestMetricsSubmitted
+2022-02-09 06:41:02.159130	XPCActivityLastCompleteDate.com.apple.routined.assets
+2022-02-09 06:10:41.855173	LastLaunchDate.CoreRoutineHelperService
+2022-02-14 17:54:00.329181	RTDefaultsPersistenceMirroringManagerBackgroundLastExportDate
+2022-02-14 17:53:57.964209	XPCActivityLastCompleteDate.com.apple.routined.purge
+['CKAcccountInfoCacheReset']	CKPerBootTasks
+2022-02-14 17:05:59.531422	XPCActivityLastCompleteDate.com.apple.routined.locationAwareness.heartbeat
+2022-02-09 06:43:04.405416	XPCActivityLastCompleteDate.com.apple.routined.persistence.mirroring.background
+2022-02-14 17:51:08.560120	XPCActivityLastCompleteDate.com.apple.routined.locationAwareness.highAccuracyLocationRequest
+1644863059	CKStartupTime
+2022-02-14 17:51:08.550119	XPCActivityLastAttemptDate.com.apple.routined.locationAwareness.highAccuracyLocationRequest
+2022-02-14 18:25:49.174730	LastLaunchDate.routined
+2022-02-14 16:44:06.226872	XPCActivityLastAttemptDate.com.apple.routined.metrics.daily
+2022-02-09 06:26:01.383814	XPCActivityLastCompleteDate.com.apple.routined.learnedLocationEngine.train
+2022-01-21 22:23:26.978897	XPCActivityLastCompleteDate.com.apple.routined.persistence.mirroring.post-install

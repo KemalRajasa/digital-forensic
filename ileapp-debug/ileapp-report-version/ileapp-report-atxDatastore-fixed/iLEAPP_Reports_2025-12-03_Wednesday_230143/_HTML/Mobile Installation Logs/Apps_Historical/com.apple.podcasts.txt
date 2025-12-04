@@ -1,0 +1,9 @@
+2022-01-10 12:30:48 Data container moved com.apple.podcasts /private/var/mobile/Containers/Data/Application/0DC9574D-52DD-426A-BCC8-DB1A9EC1DB7F
+2022-01-10 12:30:48 Made container live com.apple.podcasts /private/var/containers/Bundle/Application/A92DE7FE-82C1-4A14-B8E3-F48D3849092E
+2022-01-10 12:30:48 Install successful com.apple.podcasts 
+2022-01-10 12:30:48 Data container moved com.apple.podcasts /private/var/mobile/Containers/Data/Application/0DC9574D-52DD-426A-BCC8-DB1A9EC1DB7F
+2022-01-10 12:30:48 Made container live com.apple.podcasts /private/var/containers/Bundle/Application/A92DE7FE-82C1-4A14-B8E3-F48D3849092E
+2022-01-10 12:30:48 Install successful com.apple.podcasts 
+2022-01-06 17:41:28 Install successful com.apple.podcasts 
+2022-01-06 17:41:27 Made container live com.apple.podcasts /private/var/mobile/Containers/Data/Application/D517F1FE-600D-47C1-B2AD-151328975ED8
+2022-01-06 17:41:27 Made container live com.apple.podcasts /private/var/containers/Bundle/Application/A99DEF07-D0D0-442E-B2DF-3C40C1F103CB

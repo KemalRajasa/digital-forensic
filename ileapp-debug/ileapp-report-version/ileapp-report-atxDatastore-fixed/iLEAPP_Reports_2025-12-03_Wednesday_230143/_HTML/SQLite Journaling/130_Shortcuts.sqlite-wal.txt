@@ -1,0 +1,437 @@
+PkZSQLite format 3
+Pks#SQLite format 3
+SQLite format 3
+PkYd
+
+VCVoiceShortcutSyncStateManagedObject/
+VCVoiceShortcutSuggestionListManagedObject!
+VCVoiceShortcutManagedObject
+TrustedDomain
+TriggerEvent
+Trigger
+SmartPromptPermission
+ShortcutRunEvent
+ShortcutQuarantine
+ShortcutIcon
+ShortcutBookmark
+ShortcutActions
+
+Shortcut
+Collection
+	CloudKitSyncToken
+AccessResourcePermission
+;UU
+
+Production:_defaultZone:_2595a1e0b283e4630eece2ee69daf410607076B3-6B60-413B-966F-C112C81E54EE
+PkV/
+
+U	607076B3-6B60-413B-966F-C112C81E54EE
+Pkdy5
+
+%?eProduction:_defaultZone:_2595a1e0b283e4630eece2ee69daf410E750E918-AF46-472F-ADE2-1D73FA0570B6bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+!'.16:<ACEU$null
+
+ V$class_
+needsToSaveDatabaseSubscription_
+inFlightRecordModifications[zonesToSave_
+serverChangeTokensByZoneID_
+pendingRecordModifications_
+zoneIDsNeedingToFetchChanges_
+zoneIDsToDelete_
+needsToFetchDatabaseChanges_
+serverChangeTokenForDatabase	
+
+"#
+$%&WNS.keysZNS.objects
+()*+Z$classnameX$classes_
+NSMutableDictionary*,-\NSDictionaryXNSObject#
+/0
+()23\NSMutableSet45-\NSMutableSetUNSSet"#
+78&
+()=>_
+NSMutableOrderedSet?@-_
+NSMutableOrderedSet\NSOrderedSet
+;
+()FG_
+CKSyncEngineMetadataH-_
+CKSyncEngineMetadata
+Pka
+
+
+U	E750E918-AF46-472F-ADE2-1D73FA0570B6
+MR	v
+
+%vMProduction:_defaultZone:_2595a1e0b283e4630eece2ee69daf410976AC06C-C60E-4F66-9475-9A3178E33D80bplist00
+!'.16<DEFJ]eikpty~
+U$null
+
+serverChangeTokenForDatabase
+()23\NSMutableSet45-\NSMutableSetUNSSet"#
+79&8
+=>?
+ ABC_
+anonymousCKUserIDYownerNameXZoneName
+
+YShortcuts_
+__defaultOwner__()GH^CKRecordZoneIDI-^CKRecordZoneIDKLMNOPQRST
+UVW    \] ] 8ab  XPCSKeyID\ZoneishKeyID_
+ClientChangeToken^ShareReference[DeviceCount_
+AssetQuotaUsage_
+PCSModificationDate_
+MetadataQuotaUsage_
+PreviousProtectionEtagVZoneID\Capabilities_
+InvitedKeysToRemove_
+CurrentServerChangeToken
+()fg\CKRecordZoneh-\CKRecordZone
+j
+()lm_
+NSMutableOrderedSetno-_
+NSMutableOrderedSet\NSOrderedSet
+qjs[NS.object.0
+u
+v]wxTtypeXrecordID
+
+zT{|8ZRecordName
+]ShortcutFlags()ZCKRecordID-ZCKRecordID()_
+CKSyncEngineRecordModification-_
+CKSyncEngineRecordModification
+j
+CKSyncEngineMetadata-_
+416
+
+U	976AC06C-C60E-4F66-9475-9A3178E33D80
+#>T
+
+%I,Production:_defaultZone:_2595a1e0b283e4630eece2ee69daf410DF1278EB-28AD-4B12-AFD0-87834B9DA718bplist00
+Pkz>Y
+U	DF1278EB-28AD-4B12-AFD0-87834B9DA718
+Pkc*
+
+%pXProduction:_defaultZone:_2595a1e0b283e4630eece2ee69daf410BA4748CA-F96A-4B9A-8918-DE829AB2A726bplist00
+!'.16:<AEKQRZ[\`dhjU$null
+
+NSMutableOrderedSet\NSOrderedSet
+B;D[NS.object.0
+
+F
+GHIJTtypeXrecordID
+
+LMNOPZRecordNameVZoneID
+
+]ShortcutFlagsSTU
+ WXY_
+YShortcuts_
+__defaultOwner__()]^^CKRecordZoneID_-^CKRecordZoneID()abZCKRecordIDc-ZCKRecordID()ef_
+CKSyncEngineRecordModificationg-_
+CKSyncEngineRecordModification
+;
+()kl_
+CKSyncEngineMetadatam-_
+U	BA4748CA-F96A-4B9A-8918-DE829AB2A726
+isY(Q
+
+Production:_defaultZone:_2595a1e0b283e4630eece2ee69daf41016FE23A6-B4E8-4E17-A22C-F0DD7E1128F1bplist00
+bplist00
+VX$versionY$archiverT$topX$objects
+	
+
+
+ !"#$%&'()*+,-./0/23/06/////<=/////C/E/0///K60/0/QR/0/_
+TombstonedPublicKeyIDs_
+HasUpdatedParentReference_
+ChainProtectionData]KnownToServer_
+DisplayedHostnameYBaseToken_
+WantsChainPCSKey[RecordCtimeZRoutingKey_
+ProtectionDataEtag_
+&PreviousProtectionDataEtagFromUnitTest_
+ConflictLoserEtags_
+PreviousProtectionDataEtagZRecordType_
+CreatorUserRecordID_
+ParentReferenceYShareEtagXPCSKeyID\ZoneishKeyID_
+ MutableEncryptedPublicSharingKeyTETag_
+PreviousShareReference_
+ModifiedByDevice^ProtectionData_
+UseLightweightPCS^ShareReferenceSURL_
+ChainParentPublicKeyID_
+LastModifiedUserRecordID[RecordMtime_
+WantsPublicSharingKey_
+ZoneProtectionDataEtagYWasCached_
+ChainPrivateKeyZPermissionXRecordID\AllPCSKeyIDs_
+HasUpdatedShareReference_
+PreviousParentReference
+WXY`hijquy|U$null]ShortcutFlagsZ[\]<_V$classZRecordNameVZoneID
+abcZ/efg_
+__defaultOwner__klmnZ$classnameX$classes^CKRecordZoneIDop^CKRecordZoneIDXNSObjectklrsZCKRecordIDtpZCKRecordIDvZwxWNS.time#A
+{	klz{VNSDatezpZ[\]~
+__defaultOwner__abcZ/g
+\_defaultZone_
+__defaultOwner__Z[\]
+__defaultOwner__XiPhone 8Xkyournbe^www.icloud.com
+U	16FE23A6-B4E8-4E17-A22C-F0DD7E1128F1
+nProduction:_defaultZone:_2595a1e0b283e4630eece2ee69daf410B031A1DA-6187-4EC1-9B5E-1389261CC0C6bplist00
+serverChangeTokenForDatabase
+U	B031A1DA-6187-4EC1-9B5E-1389261CC0C6
+':Production:_defaultZone:_2595a1e0b283e4630eece2ee69daf4100DEFC32D-5583-4EF6-9D90-BB505598CAA4bplist00
+!%&-37;CDEINRTY[]U$null
+
+
+"#$_
+ChangeTokenData
+'()*Z$classnameX$classes_
+CKServerChangeToken+,_
+CKServerChangeTokenXNSObject./
+012WNS.keysZNS.objects
+'(45_
+NSMutableDictionary46,\NSDictionary/
+8:9
+<=>
+?@AB_
+
+	YShortcuts_
+__defaultOwner__'(FG^CKRecordZoneIDH,^CKRecordZoneID'(JK\NSMutableSetLM,\NSMutableSetUNSSet./
+OP2
+'(UV_
+NSMutableOrderedSetWX,_
+NSMutableOrderedSet\NSOrderedSet
+S
+'(^__
+CKSyncEngineMetadata`,_
+U	0DEFC32D-5583-4EF6-9D90-BB505598CAA4
+'YProduction:_defaultZone:_2595a1e0b283e4630eece2ee69daf4105DD1A4AE-4BE1-4584-83E9-575CEC3DDC53bplist00
+Pk^0`
+
+U	5DD1A4AE-4BE1-4584-83E9-575CEC3DDC53
+PkWDA
+
+'LProduction:_defaultZone:_2595a1e0b283e4630eece2ee69daf410A37E98CB-6618-4101-B467-E5AD909CF815bplist00
+ !"#$%&'()*+,-./0/2//06/////<=/////C/E/0///K60/0/QR/0/_
+WXY`aijkrvz}U$null]ShortcutFlagsZ[\]^_V$classZRecordNameVZoneID
+]ShortcutFlagsbcdZ/fgh_
+__defaultOwner__lmnoZ$classnameX$classes^CKRecordZoneIDpq^CKRecordZoneIDXNSObjectlmstZCKRecordIDuqZCKRecordIDwZxyWNS.time#A
+{
+lm{|VNSDate{qZ[\]
+__defaultOwner__bcdZ/h
+__defaultOwner__XiPhone 8Xkyournbe
+U	A37E98CB-6618-4101-B467-E5AD909CF815
+PkNj^
+'Production:_defaultZone:_2595a1e0b283e4630eece2ee69daf410268446B7-AD7A-4DC3-BDA3-70DA0ECEAFD5bplist00
+!%&-5=>?CFGKNSWY^`bU$null
+
+CKServerChangeTokenXNSObject./
+024WNS.keysZNS.objects1
+3
+678
+9:;<_
+	YShortcuts_
+__defaultOwner__'(@A^CKRecordZoneIDB,^CKRecordZoneID
+"#E
+'(HI_
+NSMutableDictionaryHJ,\NSDictionary/
+LM
+'(OP\NSMutableSetQR,\NSMutableSetUNSSet./
+TU4
+X
+'(Z[_
+NSMutableOrderedSet\],_
+NSMutableOrderedSet\NSOrderedSet
+X
+'(cd_
+CKSyncEngineMetadatae,_
+U	268446B7-AD7A-4DC3-BDA3-70DA0ECEAFD5
+	VCVoiceShortcutSuggestionListManagedObject!
+Pk?V?
+TSQLite format 3
+PS61
+Pk;E
+com.atebits.Tweetie2bplist00
+FU$null
+ZNS.objectsV$class
+"-8C
+]activityImage_
+activityBundleIdentifier_
+activitySubtitleVintent\userActivity
+_shouldForwardToAppOnSucccess_
+recordDeviceUID\backingStoreZidentifier_
+parameterCombinations[recordRoute_
+recordDeviceIdentifier]_indexingHash_
+donationMetadata
+$6C4F2437-BA38-4FEA-8FD4-9BD160FABA09
+codableDescriptionBytesUbytes_
+_nonNilRepeatedAttributesO
+kbplist00
+EFGOPyz{|U$null
+ !"#$%&'())),-./0)23)5,7822)2=>?@/2CD_
+mainBundleIdentifier_
+_inputAttributeName\semanticRootUtitle_
+descriptiveTextLocIDXtypeName[entityVerbs_
+displayOrderedAttributes_
+defaultImageNameZforeground_
+_localizationTable_
+_keyAttributeNameV$class_
+descriptiveText_
+eligibleForSuggestions^versioningHashZdeprecated_
+eligibleForWidgets_
+_customLocalizationTable\configurableTverbZtitleLocIDYclassName^intentCategory_
+referencedCodableDescriptions_
+userConfirmationRequired_
+intentDefinitionNamespaceZattributes
+VQg5zos_
+T1ComposeIntentHI
+JLNWNS.keysZNS.objectsK
+TUVWXYZ[ \]^_`abc)e2)h)j)))2)22))t)@v)2Xmetadata^supportsSearch[displayName_
+_originalTypeNameZwindowSize[_typeString\relationship_
+unsupportedReasons_
+supportsDynamicEnumeration]promptDialogs^fixedSizeArray_
+_arraySizesBySizeClass]entityKeypath_
+displayPriorityRank_
+_codableDescriptionXmodifier\propertyName]displayNameID_
+supportsResolution
+Y_metadata
+_INPBIntentMetadata}~
+Z$classnameX$classes_
+INCodableObjectAttribute_
+INCodableAttributeXNSObject}~\NSDictionaryWCompose
+M[NS.object.0
+NSMutableOrderedSet_
+NSMutableOrderedSet\NSOrderedSet
+bundleIdentifierYtableName
+com.atebits.Tweetie2WIntents}~_
+INCodableLocalizationTable_
+INCodableLocalizationTableI
+}~WNSArray_
+Create new TweetVbahaOvV1ptrVbTView
+~}~_
+INIntentCodableDescription_
+INRootCodableDescription_
+INCodableDescription
+ViewX
+com.atebits.Tweetie2b
+INDeferredLocalizedString:YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGtCwwbHCEiKSowMTQ4PVUkbnVsbNcNDg8QERITFBUWFxgZGlYkY2xhc3NfEBFfYnVuZGxlSWRlbnRpZmllclZfdGFibGVfEBNfY2FjaGVkTG9jYWxpemF0aW9uWl9hcmd1bWVudHNaX2J1bmRsZVVSTFpfZm9ybWF0S2V5gAyABoAAgAqAA4AHgAJSJUDSHQ0eIFpOUy5vYmplY3RzoR+ABIAFWU5ldyBUd2VldNIjJCUmWiRjbGFzc25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjJScoV05TQXJyYXlYTlNPYmplY3RfEBRjb20uYXRlYml0cy5Ud2VldGllMtMrDSwWLi9XTlMuYmFzZVtOUy5yZWxhdGl2ZYAAgAmACF8QY2ZpbGU6Ly8vcHJpdmF0ZS92YXIvY29udGFpbmVycy9CdW5kbGUvQXBwbGljYXRpb24vMTU1NzUwMUMtOTk2Mi00QjU3LUJDM0QtMDQ4RDc1N0IyMUQ2L1R3aXR0ZXIuYXBwL9IjJDIzVU5TVVJMojIo0g01NjdZTlMuc3RyaW5ngAtZTmV3IFR3ZWV00iMkOTpfEA9OU011dGFibGVTdHJpbmejOzwoXxAPTlNNdXRhYmxlU3RyaW5nWE5TU3RyaW5n0iMkPj9fEBlJTkRlZmVycmVkTG9jYW
+Pk]^5s
+5	com.atebits.Tweetie2
+BA8KF8QGUlORGVmZXJyZWRMb2NhbGl6ZWRTdHJpbmcACAARABoAJAApADIANwBJAEwAUQBTAGEAZwB2AH0AkQCYAK4AuQDEAM8A0QDTANUA1wDZANsA3QDgAOUA8ADyAPQA9gEAAQUBEAEZASgBLAE0AT0BVAFbAWMBbwFxAXMBdQHbAeAB5gHpAe4B+AH6AgQCCQIbAh8CMQI6Aj8CWwJfAAAAAAAAAgEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAns=x
+FZ$classnameX$classes\NSMutableSet
+I\NSMutableSetUNSSetXNSObject
+LYINCodable
+IYPBCodable
+TWNS.keys
+Wprimary_
+titleFormatString_
+subtitleFormatString_
+titleFormatStringLocID_
+supportsBackgroundExecution_
+subtitleFormatStringLocID
+Create new TweetVjdR1i5
+com.atebits.Tweetie2WIntents
+INCodableLocalizationTable
+INParameterCombination
+~\NSDictionary
+XINIntent
+ZINShortcut
+IZINShortcut
+$D5865B2D-7887-431B-9CCA-101596698C09
+T1ComposeMessageIntentHI
+INCodableAttributeXNSObject}~\NSDictionary^ComposeMessage
+Create new Direct MessageVscBHqeVjknobrTView
+O{D"}~_
+INDeferredLocalizedString:YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGtCwwbHCEiKSowMTQ4PVUkbnVsbNcNDg8QERITFBUWFxgZGlYkY2xhc3NfEBFfYnVuZGxlSWRlbnRpZmllclZfdGFibGVfEBNfY2FjaGVkTG9jYWxpemF0aW9uWl9hcmd1bWVudHNaX2J1bmRsZVVSTFpfZm9ybWF0S2V5gAyABoAAgAqAA4AHgAJSJUDSHQ0eIFpOUy5vYmplY3RzoR+ABIAFXxASTmV3IERpcmVjdCBNZXNzYWdl0iMkJSZaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU011dGFibGVBcnJheaMlJyhXTlNBcnJheVhOU09iamVjdF8QFGNvbS5hdGViaXRzLlR3ZWV0aWUy0ysNLBYuL1dOUy5iYXNlW05TLnJlbGF0aXZlgACACYAIXxBjZmlsZTovLy9wcml2YXRlL3Zhci9jb250YWluZXJzL0J1bmRsZS9BcHBsaWNhdGlvbi8xNTU3NTAxQy05OTYyLTRCNTctQkMzRC0wNDhENzU3QjIxRDYvVHdpdHRlci5hcHAv0iMkMjNVTlNVUkyiMijSDTU2N1lOUy5zdHJpb
+Pk(M[
+AmeAC18QEk5ldyBEaXJlY3QgTWVzc2FnZdIjJDk6XxAPTlNNdXRhYmxlU3RyaW5nozs8KF8QD05TTXV0YWJsZVN0cmluZ1hOU1N0cmluZ9IjJD4/XxAZSU5EZWZlcnJlZExvY2FsaXplZFN0cmluZ6NAPChfEBlJTkRlZmVycmVkTG9jYWxpemVkU3RyaW5nAAgAEQAaACQAKQAyADcASQBMAFEAUwBhAGcAdgB9AJEAmACuALkAxADPANEA0wDVANcA2QDbAN0A4ADlAPAA8gD0APYBCwEQARsBJAEzATcBPwFIAV8BZgFuAXoBfAF+AYAB5gHrAfEB9AH5AgMCBQIaAh8CMQI1AkcCUAJVAnECdQAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAKRx
+Create new Direct MessageVmc5Q8V
+com.atebits.Tweetie2
+$E659F217-C99C-4FC8-B721-5BF2F4F73636
+[bplist00
+VQg5zos^T1ScanQRIntentHI
+INCodableAttributeXNSObject}~\NSDictionaryXT1ScanQR
+}~WNSArray\Scan QR codeVbDehnFVQqqzJwTView
+!X}~_
+INDeferredLocalizedString:YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGtCwwbHCEiKSowMTQ4PVUkbnVsbNcNDg8QERITFBUWFxgZGlYkY2xhc3NfEBFfYnVuZGxlSWRlbnRpZmllclZfdGFibGVfEBNfY2FjaGVkTG9jYWxpemF0aW9uWl9hcmd1bWVudHNaX2J1bmRsZVVSTFpfZm9ybWF0S2V5gAyABoAAgAqAA4AHgAJSJUDSHQ0eIFpOUy5vYmplY3RzoR+ABIAFXxAUU2NhbiBUd2l0dGVyIFFSIGNvZGXSIyQlJlokY2xhc3NuYW1lWCRjbGFzc2VzXk5TTXV0YWJsZUFycmF5oyUnKFdOU0FycmF5WE5TT2JqZWN0XxAUY29tLmF0ZWJpdHMuVHdlZXRpZTLTKw0sFi4vV05TLmJhc2VbTlMucmVsYXRpdmWAAIAJgAhfEGNmaWxlOi8vL3ByaXZhdGUvdmFyL2NvbnRhaW5lcnMvQnVuZGxlL0FwcGxpY2F0aW9uLzE1NTc1MDFDLTk5NjItNEI1Ny1CQzNELTA0OEQ3NTdCMjFENi9Ud2l0dGVyLmFwcC/SIyQyM1VOU1VSTKIyKNINNTY3WU5TLnN0cmluZ4ALXxAUU2NhbiBUd2l0dGVyIFFSIGNvZGXSIyQ5Ol8QD05TTXV0YWJsZVN0cmluZ6M7PChfEA9OU011dGFibGVTdHJpbmdYTlNTdHJpbmfSIyQ+P18QGUlORGVmZXJyZWRMb2NhbGl6ZWRTdHJpbmejQDwoXxAZSU5EZWZlcnJlZExvY2FsaXplZFN0cmluZwAIABEAGgAkACkAMgA3AEkATABRAFMAYQBnAHYAfQCRAJgArgC5AMQAzwDRANMA1QDXANkA2wDdAOAA5QDwAPIA9AD2AQ0BEgEdASYBNQE5AUEBSgFhAWgBcAF8AX4BgAGCAegB7QHzAfYB+wIFAgcCHgIjAjUCOQJLAlQCWQJ1AnkAAAAAAAACAQAAAAAAAABBAAAAAAAAAAAAAAAAAAAClQ==x
+\Scan QR codeV96FdFv
+$4B258FFA-6512-454B-BE5D-3BE37D76EB62
+cbplist00
+VQg5zos^T1SearchIntentHI
+INCodableAttributeXNSObject}~\NSDictionaryVSearch
+}~WNSArray^Search TwitterVmX6OgcVVGAj3gTView
+KH>b@
+INDeferredLocalizedString:YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGtCwwbHCEiKSowMTQ4PVUkbnVsbNcNDg8QERITFBUWFxgZGlYkY2xhc3NfEBFfYnVuZGxlSWRlbnRpZmllclZfdGFibGVfEBNfY2FjaGVkTG9jYWxpemF0aW9uWl9hcmd1bWVudHNaX2J1bmRsZVVSTFpfZm9ybWF0S2V5gAyABoAAgAqAA4AHgAJSJUDSHQ0eIFpOUy5vYmplY3RzoR+ABIAFXlNlYXJjaCBUd2l0dGVy0iMkJSZaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU011dGFibGVBcnJheaMlJyhXTlNBcnJheVhOU09iamVjdF8QFGNvbS5hdGViaXRzLlR3ZWV0aWUy0ysNLBYuL1dOUy5iYXNlW05TLnJlbGF0aXZlgACACYAIXxBjZmlsZTovLy9wcml2YXRlL3Zhci9jb250YWluZXJzL0J1bmRsZS9BcHBsaWNhdGlvbi8xNTU3NTAxQy05OTYyLTRCNTctQkMzRC0wNDhENzU3QjIxRDYvVHdpdHRlci5hcHAv0iMkMjNVTlNVUkyiMijSDTU2N1lOUy5zdHJpbmeAC15TZWFyY2ggVHdpdHRlctIjJDk6XxAPTlNNdXRhYmxlU3RyaW5nozs8KF8QD05TTXV0YWJsZVN0cmluZ1hOU1N0cmluZ9IjJD4/XxAZSU5EZWZlcnJlZExvY2FsaXplZFN0cmluZ6NAPChfEBlJTkRlZmVycmVkTG9jYWxpemVkU3RyaW5nAAgAEQAaACQAKQAyADcASQBMAFEAUwBhAGcAdgB9AJEAmACuALkAxADPANEA0wDVANcA2QDbAN0A4ADlAPAA8gD0APYBBQEKARUBHgEtATEBOQFCAVkBYAFoAXQBdgF4AXoB4AHlAesB7gHzAf0B/wIOAhMCJQIpAjsCRAJJAmUCaQAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAKFx
+^Search TwitterVrNnlWA
+$607CF099-8A2F-4488-9813-54F20E341F7D
+wbplist00
+PkC_1
+VQg5zos^T1TrendsIntentHI
+INCodableAttributeXNSObject}~\NSDictionaryVTrends
+}~WNSArrayo
+gVdhYptCV8bNn9eTView
+B2N}~_
+com.atebits.Tweetie2b	INDeferredLocalizedString:YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGtCwwbHCEiKSowMTQ4PVUkbnVsbNcNDg8QERITFBUWFxgZGlYkY2xhc3NfEBFfYnVuZGxlSWRlbnRpZmllclZfdGFibGVfEBNfY2FjaGVkTG9jYWxpemF0aW9uWl9hcmd1bWVudHNaX2J1bmRsZVVSTFpfZm9ybWF0S2V5gAyABoAAgAqAA4AHgAJSJUDSHQ0eIFpOUy5vYmplY3RzoR+ABIAFbxARAFcAaABhAHQgGQBzACAAaABhAHAAcABlAG4AaQBuAGcAP9IjJCUmWiRjbGFzc25hbWVYJGNsYXNzZXNeTlNNdXRhYmxlQXJyYXmjJScoV05TQXJyYXlYTlNPYmplY3RfEBRjb20uYXRlYml0cy5Ud2VldGllMtMrDSwWLi9XTlMuYmFzZVtOUy5yZWxhdGl2ZYAAgAmACF8QY2ZpbGU6Ly8vcHJpdmF0ZS92YXIvY29udGFpbmVycy9CdW5kbGUvQXBwbGljYXRpb24vMTU1NzUwMUMtOTk2Mi00QjU3LUJDM0QtMDQ4RDc1N0IyMUQ2L1R3aXR0ZXIuYXBwL9IjJDIzVU5TVVJMojIo0g01NjdZTlMuc3RyaW5ngAtvEBEAVwBoAGEAdCAZAHMAIABoAGEAcABwAGUAbgBpAG4AZwA/0iMkOTpfEA9OU011dGFibGVTdHJpbmejOzwoXxAPTlNNdXRhYmxlU3RyaW5nWE5TU3RyaW5n0iMkPj9fEBlJTkRlZmVycmVkTG9jYWxpemVkU3RyaW5no0A8KF8QGUlORGVmZXJyZWRMb2NhbGl6ZWRTdHJpbmcACAARABoAJAApADIANwBJAEwAUQBTAGEAZwB2AH0AkQCYAK4AuQDEAM8A0QDTANUA1wDZANsA3QDgAOUA8ADyAPQA9gEbASABKwE0AUMBRwFPAVgBbwF2AX4BigGMAY4BkAH2AfsCAQIEAgkCEwIVAjoCPwJRAlUCZwJwAnUCkQKVAAAAAAAAAgEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAArE=x
+gVAsh62K
+H^NSMutableArray
+IWNSArray
+ X Z \ e f h u x z } 
+                 !
+! !"!K!L!N!P!R!T!V!X!Z!\!!)......................./
+//
+/'/@/B/D/F/H/J/L/u/v/x/z/|/~//////8%<<<<<<<<<<<<<<<<<<=
+='=)=+=-=D=]=_=a=c=e=g=i============FVK
+K%K&K(K5K8K:K=K?KAKbKdKeKgKiKkKmKnKpKKKKKKKKKK
+Pk!`.T
+DxpemVkU3RyaW5no0A8KF8QGUlORGVmZXJyZWRMb2NhbGl6ZWRTdHJpbmcACAARABoAJAApADIANwBJAEwAUQBTAGEAZwB2AH0AkQCYAK4AuQDEAM8A0QDTANUA1wDZANsA3QDgAOUA8ADyAPQA9gEAAQUBEAEZASgBLAE0AT0BVAFbAWMBbwFxAXMBdQHbAeAB5gHpAe4B+AH6AgQCCQIbAh8CMQI6Aj8CWwJfAAAAAAAAAgEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAns=x
+EmeAC18QEk5ldyBEaXJlY3QgTWVzc2FnZdIjJDk6XxAPTlNNdXRhYmxlU3RyaW5nozs8KF8QD05TTXV0YWJsZVN0cmluZ1hOU1N0cmluZ9IjJD4/XxAZSU5EZWZlcnJlZExvY2FsaXplZFN0cmluZ6NAPChfEBlJTkRlZmVycmVkTG9jYWxpemVkU3RyaW5nAAgAEQAaACQAKQAyADcASQBMAFEAUwBhAGcAdgB9AJEAmACuALkAxADPANEA0wDVANcA2QDbAN0A4ADlAPAA8gD0APYBCwEQARsBJAEzATcBPwFIAV8BZgFuAXoBfAF+AYAB5gHrAfEB9AH5AgMCBQIaAh8CMQI1AkcCUAJVAnECdQAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAKRx
+Pk,`
+
+Pk^;
+Pk$5
+]SQLite format 3
+VCVoiceShortcutSuggestionListManagedObject
+VCVoiceShortcutSyncStateManagedObject
+Pkh2
+VcSQLite format 3
+Pkhe]S
+
+G,mq
+
+$C535E45A-1111-4BB6-9648-B909B36485C9
+Pk}i7
+Pky`
+CA8KF8QGUlORGVmZXJyZWRMb2NhbGl6ZWRTdHJpbmcACAARABoAJAApADIANwBJAEwAUQBTAGEAZwB2AH0AkQCYAK4AuQDEAM8A0QDTANUA1wDZANsA3QDgAOUA8ADyAPQA9gEAAQUBEAEZASgBLAE0AT0BVAFbAWMBbwFxAXMBdQHbAeAB5gHpAe4B+AH6AgQCCQIbAh8CMQI6Aj8CWwJfAAAAAAAAAgEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAns=x
+$7659A3B0-5F0E-4073-A6CE-D1EECB940232
+Pk}:yl
+BmeAC18QEk5ldyBEaXJlY3QgTWVzc2FnZdIjJDk6XxAPTlNNdXRhYmxlU3RyaW5nozs8KF8QD05TTXV0YWJsZVN0cmluZ1hOU1N0cmluZ9IjJD4/XxAZSU5EZWZlcnJlZExvY2FsaXplZFN0cmluZ6NAPChfEBlJTkRlZmVycmVkTG9jYWxpemVkU3RyaW5nAAgAEQAaACQAKQAyADcASQBMAFEAUwBhAGcAdgB9AJEAmACuALkAxADPANEA0wDVANcA2QDbAN0A4ADlAPAA8gD0APYBCwEQARsBJAEzATcBPwFIAV8BZgFuAXoBfAF+AYAB5gHrAfEB9AH5AgMCBQIaAh8CMQI1AkcCUAJVAnECdQAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAKRx
+$D9118025-C2E2-439B-A2A6-9A5F14CCC2A0
+$8789C8AF-72FB-4071-90D8-47EB60665544
+$6EE82A85-7207-43DF-87D9-AEFC948FE00D
+Pk:h)
+ExpemVkU3RyaW5no0A8KF8QGUlORGVmZXJyZWRMb2NhbGl6ZWRTdHJpbmcACAARABoAJAApADIANwBJAEwAUQBTAGEAZwB2AH0AkQCYAK4AuQDEAM8A0QDTANUA1wDZANsA3QDgAOUA8ADyAPQA9gEAAQUBEAEZASgBLAE0AT0BVAFbAWMBbwFxAXMBdQHbAeAB5gHpAe4B+AH6AgQCCQIbAh8CMQI6Aj8CWwJfAAAAAAAAAgEAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAns=x
+Pk4r]
+FmeAC18QEk5ldyBEaXJlY3QgTWVzc2FnZdIjJDk6XxAPTlNNdXRhYmxlU3RyaW5nozs8KF8QD05TTXV0YWJsZVN0cmluZ1hOU1N0cmluZ9IjJD4/XxAZSU5EZWZlcnJlZExvY2FsaXplZFN0cmluZ6NAPChfEBlJTkRlZmVycmVkTG9jYWxpemVkU3RyaW5nAAgAEQAaACQAKQAyADcASQBMAFEAUwBhAGcAdgB9AJEAmACuALkAxADPANEA0wDVANcA2QDbAN0A4ADlAPAA8gD0APYBCwEQARsBJAEzATcBPwFIAV8BZgFuAXoBfAF+AYAB5gHrAfEB9AH5AgMCBQIaAh8CMQI1AkcCUAJVAnECdQAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAAKRx
+Pk	 }
+Pk(D
+
+qbSQLite format 3
+Pkj[+
+
+$CC40AC35-6492-402E-AC73-B084C3442D84
+A~A
+
+Pk=s
+
+PkW9O
+$63E22E1D-F61B-4918-A135-963AD53D8B6F
+PkZ+
+$D5B390CC-BA88-4FA6-A204-D246DAD204A3
+Pk2A>~~
+$69517873-7A42-46C3-8980-39BDD20C9A23
+$91173CAC-7A40-43CA-B1F2-D72F116CA067
+PkSlUD9v
+Pk
+T@
+Pk6%,y
+Pkwh
+'SQLite format 3
+PkF?SQLite format 3
+1uSQLite format 3
+2ABSQLite format 3

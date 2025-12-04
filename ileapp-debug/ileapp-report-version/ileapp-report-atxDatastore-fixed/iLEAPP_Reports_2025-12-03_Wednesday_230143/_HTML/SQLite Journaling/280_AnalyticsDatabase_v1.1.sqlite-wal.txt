@@ -1,0 +1,90 @@
+>M	(
+z|e3F#
+
+snapshot
+z|_0D
+
+global.services.analytics.events.BPPlatform_Hotpanel.BPFHotpanelProviderBPHEvent BPHEventName - 1643947994342 - 6410931190592742468bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+&*TUVWXYZ[\]^_`abcdefghijklm}~
+U$null
+
+WhpEventZpropertiesV$class
+R$1R$0
+XBPHEvent
+WNS.dataO
+ !"Z$classnameX$classes]NSMutableData#$%]NSMutableDataVNSDataXNSObject
+()%_
+PBGeneratedMessage_
+PBAbstractMessage+,
+-@SWNS.keysZNS.objects
+./0123456789:;<=>?
+	
+
+
+ABCDEFGHIJKLMNOPQR
+ !-./0123456,[app_versionZsession_idXuser_age\carrier_nameTmodeYapp_label_
+device_manufacturer[applicationVlocaleZscreen_dpi\device_modelWuser_idZos_versionXlanguageZcountry_id[user_genderYdevice_id_
+network_interfaceW5.247.0_
+$416D3884-7CD4-41C7-B272-32A94895E108
+STFWSiosUmoxieUApple+,
+nuSopqrst"#$%&'vwFEz{()
+*+,YisPremiumUbuildUlabelXplatformVlayoutUbrand
+XstandardUphoneUMoxie
+ \NSDictionary%Uen_US
+FXiPhone 8_
+AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87LinV15.0.2Ren
+7Qm_
+$2D883726-9C2B-4AE4-88FE-3DE32472B0A5SLTE
+$BPPlatform_Hotpanel.BPHPEventWrapper%_
+$BPPlatform_Hotpanel.BPHPEventWrapper
+global.services.analytics.events.BPPlatform_Hotpanel.BPFHotpanelProviderBPHEvent BPHEventName - 1643947994329 - 6410414003410116267bplist00
+&*TUVWXYZ[\]^_`abcdefghiyz{|}~
+WNS.dataI
+*+,-./0123456&)Yapp_labelVlocaleYdevice_id[applicationWuser_id[app_versionZsession_idXlanguage_
+network_interface\device_model\carrier_nameZos_versionZcountry_id[user_gender_
+device_manufacturerXuser_ageZscreen_dpiTmodeUmoxieUen_US_
+$2D883726-9C2B-4AE4-88FE-3DE32472B0A5+,
+jqSklmnop
+ !"#rsARvw$%
+&'()YisPremiumUbuildUlabelXplatformVlayoutUbrand
+XstandardSiosUphoneUMoxie
+ \NSDictionary%_
+AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87LinW5.247.0_
+$416D3884-7CD4-41C7-B272-32A94895E108RenSLTEXiPhone 8STFWV15.0.2
+7QmUApple
+kAnalyticsConfigurationCollectionkAnalyticsDateOfStartInactivitybplist00
+WNS.timeV$class#Ao*mP
+Z$classnameX$classesVNSDate
+XNSObject
+$)27ILQSW]bjqz|
+CurrentVersionKeybplist00
+U$nullW5.247.0
+$)27ILQSV\
+kAnalyticsConfigurationCollectionkAnalyticsSessionIdentifierKeybplist00
+U$null_
+OI	kAnalyticsConfigurationCollectionkAnalyticsSessionIdentifierKeyE
+kAnalyticsConfigurationCollectionkAnalyticsDateOfStartInactivityy
+global.services.analytics.events.BPPlatform_Hotpanel.BPFHotpanelProviderBPHEvent BPHEventName - 1643947994342 - 6410931190592742468{
+
+global.services.analytics.events.BPPlatform_Hotpanel.BPFHotpanelProviderBPHEvent BPHEventName - 1643947994329 - 6410414003410116267z
+CurrentVersionKey
+%>{;A
+%>9L%Y
+
+global.services.analytics.events.BPPlatform_Hotpanel.BPFHotpanelProviderBPHEvent BPHEventName - 1643947959522 - -4269896881297711232bplist00
+&*TUVWXYZ[\]^_`abcdefghijklmnopqrU$null
+
+ !"#$%&345/62VlocaleXuser_age_
+network_interface_
+device_manufacturer[user_genderXlanguageZos_version[app_versionWuser_idZsession_idTmodeYdevice_id[application\device_model\carrier_nameZscreen_dpiYapp_labelZcountry_idUen_US
+SLTEUAppleQmRenV15.0.2W5.247.0_
+AzAhMACjE3MTU1ODg0NjIAIMiIwSCpu6qfB6xsUreyL_guKspjDyxzmrO50yH87Lin_
+$416D3884-7CD4-41C7-B272-32A94895E108Sios_
+szStuvwxy'()*+,{|QK
+-./$012YisPremiumUbuildUlabelXplatformVlayoutUbrand
+XstandardUmoxieUphoneUMoxie
+ \NSDictionary%XiPhone 8STFW

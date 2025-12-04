@@ -1,0 +1,3290 @@
+v0Ww
+
+EncodedFeatureTag
+DataType
+FeedItem
+TRANSACTION
+Plugin
+PluginDataj
+TRANSACTIONSTRING
+	Profile
+FeedSection
+Feed
+CHANGE
+Keyword(
+
+v
+&
+
+N		
+
+
+l
+:
+b
+Jx
+a	
+	
+uX
+f
+C
+	
+;	Z		
+
+[
+:O
+L5
+
+~
+	z	
+
+
+		
+\
+
+o
+o
+	1
+
+
+S 	'
+>	D
+
+
+
+	d		
+		
+
+%x			O		:	o
+(
+e
+vl$mP
+
+
+
+
+
+|
+`
+D
+(
+dH,
+hL0
+
+
+
+
+
+
+l
+P
+4
+
+						p	T	8	
+A`8?
+A`KI
+A`Uq
+A`|k{
+A`w*
+A`slQ
+A`nk
+A`js
+A`aq
+A`\o
+A`X2M
+A`O=)
+A`J=
+A`F3H
+A`=,
+A`8y
+A`40^
+A`+.j
+A`"D
+A`#p
+A`ck
+A`|/Q
+A`s6
+A`h,
+A`[
+
+A`MG
+A`#.
+A`na
+A`#l
+A`?Dg
+A`
+9
+A`"W
+l`%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+x
+r
+l
+f
+`
+Z
+T
+N
+H
+B
+<
+6
+0
+*
+$
+
+
+1kY
+
+v60Jt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|
+u
+n
+g
+`
+Y
+R
+K
+D
+=
+6
+/
+(
+!
+
+yrkd]VOH
+vt1f
+
+
+
+
+
+
+
+
+
+
+|
+n
+`
+R
+D
+6
+(
+
+
+rdVH:,
+vhZL>0"
+
+
+
+
+
+
+
+
+
+
+z
+l
+^
+P
+B
+4
+&
+
+
+
+										~	p	b	T	F	8	*	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+p
+h
+`
+X
+P
+H
+@
+8
+0
+(
+ 
+
+xph`XPH@80( 
+xph`XPH@80( 
+																	x	p	h	`	X	P	H	@	8	0	(	 
+<
+)
+7
+`	82
+		H
+j@x
+\N
+
+
+a
+}
+
+
+
+o
+
+
+
+
+a
+"	,$	
+
+
+
+
+)
+7
+E
+S
+
+
+
+
+
+
+
+
+
+
+4
+&
+
+A."\
+A.
+92
+A.Jo
+A.Wu
+A`iH
+A`*I
+A`c0
+A`NT
+
+A`EG
+A`:6
+A`3H
+A`g#
+A`%E
+A`T?
+A`lt
+A.R!
+A.?6
+A`rOf
+A`jU
+A`<Eg
+A`3
+A`[F
+A`.C
+A`U2
+A`WM
+A`MD
+A`r}
+A`c%
+A`Z%[
+A`!Y
+A`Q%
+A`
+s
+A`{K
+AiIU
+AiDF
+Ai7?
+Ai"OD
+A`~k
+A`]d
+
+A`{p
+A`>&
+A`?>
+A`DD
+
+A`\S
+
+A`ac
+A`v6
+A`GL
+A`=%
+A`+s
+A`m4
+A.L8
+A.jn
+A.6&
+A.2\
+A.Ep
+A.Re
+A.Xq
+A._=K
+A.e
+A.zm
+vT=
+y
+
+
+
+
+
+
+
+v
+c
+K
+7
+$
+zgO;(
+~kS?,
+
+
+
+
+
+
+
+o
+W
+C
+
+
+
+
+l
+@
+
+d8\0
+
+
+
+
+T
+(				x	L	 
+!ProminenceFeatureTag{"value":5})Y
+ProminenceFeatureTag{"value":5})X
+ProminenceFeatureTag{"value":5})W
+ProminenceFeatureTag{"value":5})V
+ProminenceFeatureTag{"value":5})U
+ProminenceFeatureTag{"value":5})T
+ProminenceFeatureTag{"value":5})S
+ProminenceFeatureTag{"value":5})R
+ProminenceFeatureTag{"value":5})Q
+ProminenceFeatureTag{"value":5})P
+ProminenceFeatureTag{"value":5})O
+ProminenceFeatureTag{"value":5})N
+ProminenceFeatureTag{"value":5})M
+ProminenceFeatureTag{"value":5})L
+ProminenceFeatureTag{"value":5})K
+ProminenceFeatureTag{"value":5})J
+ProminenceFeatureTag{"value":5})I
+ProminenceFeatureTag{"value":5})H
+ProminenceFeatureTag{"value":5})G
+ProminenceFeatureTag{"value":5})F
+ProminenceFeatureTag{"value":5})E
+ProminenceFeatureTag{"value":5})D
+ProminenceFeatureTag{"value":5})C
+ProminenceFeatureTag{"value":5})B
+ProminenceFeatureTag{"value":5})A
+ProminenceFeatureTag{"value":5})@
+ProminenceFeatureTag{"value":5})?
+ProminenceFeatureTag{"value":5})>
+ProminenceFeatureTag{"value":5})=
+ProminenceFeatureTag{"value":5})<
+ProminenceFeatureTag{"value":5});
+ProminenceFeatureTag{"value":5}):
+ProminenceFeatureTag{"value":5})9
+ProminenceFeatureTag{"value":5})8
+ProminenceFeatureTag{"value":5})7
+ProminenceFeatureTag{"value":5})6
+ProminenceFeatureTag{"value":5})5
+ProminenceFeatureTag{"value":5})4
+$ProminenceFeatureTag{"value":5})3
+ProminenceFeatureTag{"value":5})2
+ProminenceFeatureTag{"value":5})1
+ProminenceFeatureTag{"value":5})0
+ProminenceFeatureTag{"value":5})/
+ProminenceFeatureTag{"value":5}).
+ProminenceFeatureTag{"value":5})-
+ProminenceFeatureTag{"value":5}),
+#ProminenceFeatureTag{"value":5})+
+ProminenceFeatureTag{"value":5})*
+	ProminenceFeatureTag{"value":5}))
+ProminenceFeatureTag{"value":5})(
+"ProminenceFeatureTag{"value":5})'
+ProminenceFeatureTag{"value":5}
+
+
+phxX`PH@80( 
+																	x	p	h	`	X	P	H	@	8	0	(	 	
+YjE
+
+
+X
+,
+
+		|	P	$<4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ProminenceFeatureTag{"value":5})a
+ ProminenceFeatureTag{"value":5}
+ProminenceFeatureTag{"value":5})]
+ProminenceFeatureTag{"value":5})
+ProminenceFeatureTag{"value":5})[
+ProminenceFeatureTag{"value":5})	
+ProminenceFeatureTag{"value":5})
+
+ProminenceFeatureTag{"value":5}	
+%ProminenceFeatureTag{"value":5})1
+ProminenceFeatureTag{"value":5}
+
+ProminenceFeatureTag{"value":5})$
+ProminenceFeatureTag{"value":5})#
+ProminenceFeatureTag{"value":5}`
+ProminenceFeatureTag{"value":5}
+ProminenceFeatureTag{"value":5}
+ProminenceFeatureTag{"value":5}
+
+ProminenceFeatureTag{"value":5}
+
+;
+l
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierRapidPoundingOrFlutteringHeartbeat_profile_00000000-0000-0000-0000-000000000000
+
+America/New_York
+(tA!
+hdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryRiboflavin_profile_00000000-0000-0000-0000-000000000000
+
+(FA!
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryThiamin_profile_00000000-0000-0000-0000-000000000000
+
+A`hdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierHandwashingEvent_profile_00000000-0000-0000-0000-000000000000
+
+A`acdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierSleepAnalysis_profile_00000000-0000-0000-0000-000000000000
+
+vdu.w
+
+vw3	QfSQLite format 3
+vZ'
+lW&
+g_(!
+
+Wl
+
+v*78n`e
+
+
+vQlc
+
+v\xz`X
+
+yrkd]VOHA
+v"cL
+vM*W
+
+vsF?
+>-~@
+>|@
+>Bz@
+>"t@
+>ho@
+>nm@
+A`bZ
+
+
+
+
+
+
+
+o
+W
+C
+0
+
+vKbmx
+ProminenceFeatureTag{"value":5})Z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=
+{	
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryFiber_profile_00000000-0000-0000-0000-000000000000
+
+A`bZdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierChills_profile_00000000-0000-0000-0000-000000000000
+
+A`rOfdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryMagnesium_profile_00000000-0000-0000-0000-000000000000
+
+'dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBodyMass_profile_00000000-0000-0000-0000-000000000000
+
+0
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryIron_profile_00000000-0000-0000-0000-000000000000
+
+
+@oF
+
+vizphX
+
+yrkd]VOHA:
+vwkN!p
+
+vwy7^#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	1
+
+E
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierNightSweats_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryMolybdenum_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryFatTotal_profile_00000000-0000-0000-0000-000000000000
+
+A`TdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietarySugar_profile_00000000-0000-0000-0000-000000000000
+
+A`DdataSummaryChartineligiblecom.apple.health.Summarieschart_HKActivitySummaryTypeIdentifier_profile_00000000-0000-0000-0000-000000000000
+`
+
+A`sdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierFainting_profile_00000000-0000-0000-0000-000000000000
+
+A`jUdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierFatigue_profile_00000000-0000-0000-0000-000000000000
+
+A`<EgdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierDizziness_profile_00000000-0000-0000-0000-000000000000
+
+A`AdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierLowerBackPain_profile_00000000-0000-0000-0000-000000000000
+
+vqS1
+vPeSF2
+
+veu\
+
+
+v
+%X
+yrkd]VOHA:3
+v@P/sq
+
+v5i|q{
+
+g)	
+
+vIbvu6G
+
+						
+ProminenceFeatureTag{"value":5})\
+v7!&v
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v/rcg
+
+A`kdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryIron_profile_00000000-0000-0000-0000-000000000000
+
+vv7_[
+
+vu*8	hHR
+
+vu^i~Z
+
+
+vYx.7
+v^Q"-
+]$4y
+
+yrkd]VOHA:3,
+27f
+
+v('sF6
+
+vr!
+b
+
+v,LE=
+
+	,$	
+v${6
+
+							s	[	G
+Rq&
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:
+t		
+A`MDdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierSwimmingStrokeCount_profile_00000000-0000-0000-0000-000000000000
+
+A`ydataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryVitaminK_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierMemoryLapse_profile_00000000-0000-0000-0000-000000000000
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierInsulinDelivery_profile_00000000-0000-0000-0000-000000000000
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierSinusCongestion_profile_00000000-0000-0000-0000-000000000000
+
+vf.
+
+v3Q?j
+
+v)P+	
+
+
+vw7=
+
+v3L7NJ
+
+yrkd]VOHA:3,%
+ve\3A
+
+vH[|
+							s	[	G	4	
+ProminenceFeatureTag{"value":5})^
+bkc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierShortnessOfBreath_profile_00000000-0000-0000-0000-000000000000
+
+A`.CdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryNiacin_profile_00000000-0000-0000-0000-000000000000
+
+A`sdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierWalkingAsymmetryPercentage_profile_00000000-0000-0000-0000-000000000000
+
+A"	X
+xeW?
+%PZ
+A"	
+(A"	333333?
+A"	NV
+hA"	
+#A"	
+hoA"	
+iA"	{
+A"	N
+%PZ
+(A"	`"?
+cA"	X
+xeWv?
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBodyMassIndex_profile_00000000-0000-0000-0000-000000000000
+
+rdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierDiarrhea_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierAppleStandTime_profile_00000000-0000-0000-0000-000000000000
+
+A`U2dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierBloating_profile_00000000-0000-0000-0000-000000000000
+
+~dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierConstipation_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierPushCount_profile_00000000-0000-0000-0000-000000000000
+
+]jl
+
+
+A]=
+
+yrkd]VOHA:3,%
+v:9&j
+
+v
+W9
+v$CS
+v7iYn
+
+v<^eX
+
+ProminenceFeatureTag{"value":5})_
+v.]*Xq
+
+A`c0dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierSexualActivity_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierWalkingStepLength_profile_00000000-0000-0000-0000-000000000000
+
+	
+
+in"
+	"H$
+in*
+	p8
+@
+Z	
+in"
+	@ 
+in*
+	{^=@
+@
+l	
+in"
+	
+in*
+	z<
+?
+u	
+in"
+	ST*J3@
+@
+H	
+
+BP>@
+in*
+	~?@
+in"
+	l68@
+in*
+	D"H$@@
+?
+c	
+in"
+	r\.9@
+in"
+	}>;@
+in*
+	
+Fh8@
+@ A@
+?
+H	
+in*
+	r\.9@
+@
+~	
+?
+~	
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDistanceDownhillSnowSports_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierGeneralizedBodyAche_profile_00000000-0000-0000-0000-000000000000
+
+A`NT
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierLossOfTaste_profile_00000000-0000-0000-0000-000000000000
+
+BYa
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v{?<m_v
+
+v2o,6
+vraZ?
+
+
+vJV
+
+v
+~V
+
+v8)y
+
+A`y 
+vdGt
+\Xl
+
+vt>oa
+
+d;B
+
+%ProminenceFeatureTag{"value":5})`
+v6c
+
+		|	$<4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ProminenceFeatureTag{"value":5}	P
+v -\
+
+A`udataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierRapidPoundingOrFlutteringHeartbeat_profile_00000000-0000-0000-0000-000000000000
+
+vqt&kyed
+
+
+v&&
+
+vWqn*
+
+v[Sh7d
+
+vX\UJ6W@m
+
+vX#m
+
+vMzXP
+
+v%Ta"	
+
+e
+	X
+RdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierProgesteroneTestResult_profile_00000000-0000-0000-0000-000000000000
+
+.dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierStairAscentSpeed_profile_00000000-0000-0000-0000-000000000000
+
+A`*IdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierElectrodermalActivity_profile_00000000-0000-0000-0000-000000000000
+
+A`rdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierHairLoss_profile_00000000-0000-0000-0000-000000000000
+
+A`iHdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryBiotin_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierHeartburn_profile_00000000-0000-0000-0000-000000000000
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierIrregularHeartRhythmEvent_profile_00000000-0000-0000-0000-000000000000
+9
+aeA!Q`A0"
+Q`A(
+A`vdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierSkippedHeartbeat_profile_00000000-0000-0000-0000-000000000000
+
+	|	$<4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.n|I 
+
+
+v]^S
+v*)r
+
+vrW}
+F8r({Z
+
+ProminenceFeatureTag{"value":5})b
+v7Nz?
+
+v!j}eB|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+viRu
+
+E
+vn{K
+
+vu'f
+wt'
+
+v+UO
+v&PGT
+
+A`m	
+v.1^
+
+
+
+B
+
+p,
+
+		[	)
+D
+S
+S
+S
+S
+S
+S
+S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0TimeScopeFeatureTag{"value":"week"}q
+0NoveltyFeatureTag{"value":"Highlights.SevenDay.Suffix-HKQuantityTypeIdentifierDistanceWalkingRunning"}d
+0MutualExclusionGroupFeatureTag{"value":"averageReport_HKQuantityTypeIdentifierStepCount"}D
+0ContentCompletenessFeatureTag{"value":0.42857142857142855}B
+0DataVisualizationKindFeatureTag{"value":"averageReport"}A
+0ContentMagnitudeFeatureTag{"value":0.49428663804654688})
+0ProminenceFeatureTag{"value":5}d
+.NoveltyFeatureTag{"value":"Highlights.SevenDay.Suffix-HKQuantityTypeIdentifierStepCount"})
+.ProminenceFeatureTag{"value":5}d
+.MutualExclusionGroupFeatureTag{"value":"averageReport_HKQuantityTypeIdentifierStepCount"}A
+.ContentMagnitudeFeatureTag{"value":0.53735255570117957}B~
+.DataVisualizationKindFeatureTag{"value":"averageReport"}D}
+.ContentCompletenessFeatureTag{"value":0.42857142857142855}-|
+.TimeScopeFeatureTag{"value":"week"}|{
+-NoveltyFeatureTag{"value":"Highlights.AverageLineProgress.Suffix-HKQuantityTypeIdentifierHeadphoneAudioExposure"})z
+-ProminenceFeatureTag{"value":5}>y
+-DataVisualizationKindFeatureTag{"value":"lineChart"}mx
+-MutualExclusionGroupFeatureTag{"value":"lineChart_HKQuantityTypeIdentifierHeadphoneAudioExposure"}-w
+-TimeScopeFeatureTag{"value":"week"}/v
+-ContentMagnitudeFeatureTag{"value":0}2u
+-ContentCompletenessFeatureTag{"value":0}|t
+'NoveltyFeatureTag{"value":"Highlights.AverageLineProgress.Suffix-HKQuantityTypeIdentifierDistanceWalkingRunning"}Ar
+'ContentMagnitudeFeatureTag{"value":0.33231985959443999}
+
+ProminenceFeatureTag{"value":5}@Q
+ContentMagnitudeFeatureTag{"value":0.8048015277588324}
+'ProminenceFeatureTag{"value":5}_q
+'MutualExclusionGroupFeatureTag{"value":"lineChart_HKQuantityTypeIdentifierStepCount"},p
+'TimeScopeFeatureTag{"value":"day"}>o
+'DataVisualizationKindFeatureTag{"value":"lineChart"}on
+&NoveltyFeatureTag{"value":"Highlights.AverageLineProgress.Suffix-HKQuantityTypeIdentifierStepCount"}_m
+&MutualExclusionGroupFeatureTag{"value":"lineChart_HKQuantityTypeIdentifierStepCount"}Al
+&ContentMagnitudeFeatureTag{"value":0.24087956021989004})k
+&ProminenceFeatureTag{"value":5}>j
+&DataVisualizationKindFeatureTag{"value":"lineChart"},i
+&TimeScopeFeatureTag{"value":"day"}gf
+MutualExclusionGroupFeatureTag{"value":"twoBarComparison_HKQuantityTypeIdentifierStepCount"}Ee
+DataVisualizationKindFeatureTag{"value":"twoBarComparison"}xd
+NoveltyFeatureTag{"value":"Highlights.Comparison.Suffix-HKQuantityTypeIdentifierDistanceWalkingRunning+Left:DailyMostRecentStatOffset0IntervaloneWeekOptioncumulativeSum+Right:DailyMostRecentStatOffset1IntervaloneWeekOptioncumulativeSum"})c
+ProminenceFeatureTag{"value":5}Ab
+ContentMagnitudeFeatureTag{"value":0.71708199073991441}-a
+TimeScopeFeatureTag{"value":"week"}
+A`{N
+	P		
+
+`
+ProminenceFeatureTag{"value":5}(O
+ProminenceFeatureTag{"value":5}(R
+DProminenceFeatureTag{"value":5})^
+dProminenceFeatureTag{"value":5})	
+ProminenceFeatureTag{"value":5})W
+ProminenceFeatureTag{"value":5}(V
+SProminenceFeatureTag{"value":5})U
+5ProminenceFeatureTag{"value":5})`
+ProminenceFeatureTag{"value":5})c
+8ProminenceFeatureTag{"value":5})b
+zProminenceFeatureTag{"value":5})F
+ProminenceFeatureTag{"value":5})g
+ProminenceFeatureTag{"value":5})f
+pProminenceFeatureTag{"value":5})e
+ProminenceFeatureTag{"value":5})d
+ProminenceFeatureTag{"value":5})h
+ProminenceFeatureTag{"value":5})i
+ProminenceFeatureTag{"value":5})k
+ProminenceFeatureTag{"value":5})j
+ProminenceFeatureTag{"value":5})l
+ProminenceFeatureTag{"value":5}(N
+ProminenceFeatureTag{"value":5})m
+ProminenceFeatureTag{"value":5})n
+ProminenceFeatureTag{"value":5})o
+ProminenceFeatureTag{"value":5})p
+ProminenceFeatureTag{"value":5})u
+ProminenceFeatureTag{"value":5})t
+ProminenceFeatureTag{"value":5})s
+ProminenceFeatureTag{"value":5})r
+ProminenceFeatureTag{"value":5})q
+vrOd
+v?3d`
+v,5>
+A`{NdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierLactation_profile_00000000-0000-0000-0000-000000000000
+
+A`mdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierWalkingDoubleSupportPercentage_profile_00000000-0000-0000-0000-000000000000
+
+
+%"	Cl?
+%*	d;O?
+?
+W	
+%"	M?
+%*	q=
+
+@
+`	
+%"	Mb
+%*	-?
+	p=
+
+%*	
+@
+N	
+%*	(\?
+%"	S
+%*	A`"?
+@
+i	
+%"	Mb?
+?
+`	
+%"	p=
+
+%*	{
+%"	 r?
+%*	Mb
+@
+r	
+	)\(?
+%"	d;O?
+%"	A`"?
+%*	x&1
+?
+i	
+?
+r	
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierAppleWalkingSteadiness_profile_00000000-0000-0000-0000-000000000000
+
+A`RdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierRespiratoryRate_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBodyTemperature_profile_00000000-0000-0000-0000-000000000000
+
+vef4=
+	$
+ProminenceFeatureTag{"v
+ProminenceFeatureTag{"value":5})%
+ProminenceFeatureTag{"value":5})"
+ProminenceFeatureTag{"value":5})!
+ProminenceFeatureTag{"value":5}) 
+ProminenceFeatureTag{"value":5})
+ProminenceFeatureTag{"value":5})
+
+ProminenceFeatureTag{"value":5})
+ProminenceFeatureTag{"value":5})~
+ProminenceFeatureTag{"value":5})}
+ProminenceFeatureTag{"value":5})|
+ProminenceFeatureTag{"value":5}){
+ProminenceFeatureTag{"value":5})z
+ProminenceFeatureTag{"value":5})y
+ProminenceFeatureTag{"value":5})x
+ProminenceFeatureTag{"value":5})w
+xwjQ
+
+v]+`
+
+vYSEF
+v8ZJ
+
+v&x
+
+v=	9y
+:V
+
+A
+	$
+	|<4
+v^#&i
+v'Ata,?
+
+v$(
+T
+vCR>
+
+fdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryProtein_profile_00000000-0000-0000-0000-000000000000
+
+A`<dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierPelvicPain_profile_00000000-0000-0000-0000-000000000000
+
+zdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierMoodChanges_profile_00000000-0000-0000-0000-000000000000
+
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierHeadache_profile_00000000-0000-0000-0000-000000000000
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierHeartRateVariabilitySDNN_profile_00000000-0000-0000-0000-000000000000
+
+A`ltdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierIntermenstrualBleeding_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierWalkingSpeed_profile_00000000-0000-0000-0000-000000000000
+
+
+mi/hr"
+N>|?
+mi/hr*
+mi/hrA
+9@
+Q	
+	 VB~3@
+&@
+Q	
+,@
+Q	
+PnN
+@
+@
+Q	
+	e*@
+.@
+Q	
+5@
+Q	
+9@
+Z	
+A@
+Q	
+$@
+Q	
+l]fZ
+
+v8d'k*
+
+v^+@
+
+
+v{S-)e
+
+
+vtT
+
+A`nT
+vOe
+
+	|<4
+
+
+
+
+
+
+v!x>cac
+
+ProminenceFeatureTag{"value":5})e
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryFatPolyunsaturated_profile_00000000-0000-0000-0000-000000000000
+
+A`ddataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryPantothenicAcid_profile_00000000-0000-0000-0000-000000000000
+
+A`/dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierLossOfSmell_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierHotFlashes_profile_00000000-0000-0000-0000-000000000000
+
+'dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierVO2Max_profile_00000000-0000-0000-0000-000000000000
+
+"dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierNausea_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierFever_profile_00000000-0000-0000-0000-000000000000
+
+.dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryWater_profile_00000000-0000-0000-0000-000000000000
+
+A`EGdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierHeight_profile_00000000-0000-0000-0000-000000000000
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryVitaminB6_profile_00000000-0000-0000-0000-000000000000
+
+vB9)
+
+vuwX
+
+
+
+vp9|
+-B$
+
+vQ.gY0w
+
+v%p
+vw	0
+v+L&xH
+	|4
+
+
+
+
+
+
+
+ProminenceFeatureTag{"value":5}<
+v8k#
+v`>ea
+
+v> ]
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierSleepChanges_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierBreastPain_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierHeadphoneAudioExposure_profile_00000000-0000-0000-0000-000000000000
+
+A`adataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierHighHeartRateEvent_profile_00000000-0000-0000-0000-000000000000
+9
+aeA!P`A0"
+P`A(
+A`v6dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierAcne_profile_00000000-0000-0000-0000-000000000000
+
+zdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierToothbrushingEvent_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierMenstrualFlow_profile_00000000-0000-0000-0000-000000000000
+
+A`GLdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryCholesterol_profile_00000000-0000-0000-0000-000000000000
+
+A`vdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryFatSaturated_profile_00000000-0000-0000-0000-000000000000
+
+vk^=5q`W
+
+vMPq
+TWc
+
+vgt
+
+|
+veFbF
+
+v:x
+
+
+vscV
+vk&?^
+
+vq
+O,
+
+v	tU
+	$
+
+
+
+
+
+
+
+wZ!
+
+v,-
+
+ProminenceFeatureTag{"value":5})g
+v VRjf{
+
+v@R(
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierNikeFuel_profile_00000000-0000-0000-0000-000000000000
+
+A`sdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBloodAlcoholContent_profile_00000000-0000-0000-0000-000000000000
+
+A`+sdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierDrySkin_profile_00000000-0000-0000-0000-000000000000
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierAppleStandHour_profile_00000000-0000-0000-0000-000000000000
+
+A`=%dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierForcedExpiratoryVolume1_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryPotassium_profile_00000000-0000-0000-0000-000000000000
+
+A`wdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierForcedVitalCapacity_profile_00000000-0000-0000-0000-000000000000
+
+TdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierActiveEnergyBurned_profile_00000000-0000-0000-0000-000000000000
+
+VdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierFlightsClimbed_profile_00000000-0000-0000-0000-000000000000
+
+countP
+count2
+countB
+mdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierLowHeartRateEvent_profile_00000000-0000-0000-0000-000000000000
+9
+DBUA!D
+A0"
+	DBUA
+=lv
+
+v\cCd
+@-
+
+
+v8*
+
+|v
+
+v^.G#,
+
+v/ "zj
+
+N:
+uM'
+
+
+
+
+
+
+
+
+
+ProminenceFeatureTag{"value":5}	$
+v<>b/"
+
+v5T!
+
+
+
+
+E
+(dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryFatTotal_profile_00000000-0000-0000-0000-000000000000
+
+Itq!
+
+v[O9
+
+v&o/`
+|vp
+vLm8
+
+v6m4 
+
+v^H
+
+
+
+
+
+
+
+
+
+
+
+zProminenceFeatureTag{"value":5}	$
+Nwu
+
+v|)n
+
+vIf=ko
+
+
+k
+=
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierWheezing_profile_00000000-0000-0000-0000-000000000000
+
+fdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierNumberOfTimesFallen_profile_00000000-0000-0000-0000-000000000000
+
+A`r}dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryChromium_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDistanceSwimming_profile_00000000-0000-0000-0000-000000000000
+
+A``dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryCopper_profile_00000000-0000-0000-0000-000000000000
+
+8dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierUVExposure_profile_00000000-0000-0000-0000-000000000000
+
+IdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryChloride_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryEnergyConsumed_profile_00000000-0000-0000-0000-000000000000
+
+#dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietarySodium_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKWorkoutTypeIdentifier_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierRestingHeartRate_profile_00000000-0000-0000-0000-000000000000
+
+|vpj
+
+v-^:
+
+v=q[
+
+v-:<T
+
+v*Z
+
+
+X
+,	|4
+
+
+
+
+
+
+
+
+
+
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBodyFatPercentage_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryFatMonounsaturated_profile_00000000-0000-0000-0000-000000000000
+
+A`"dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierNumberOfAlcoholicBeverages_profile_00000000-0000-0000-0000-000000000000
+
+cdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierStepCount_profile_00000000-0000-0000-0000-000000000000
+	
+
+countP
+Z
+h)AB
+(uAB
+hoAB
+countP	Z
+h)A*
+	UUUUU%@
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryVitaminA_profile_00000000-0000-0000-0000-000000000000
+
+A`bdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierRunnyNose_profile_00000000-0000-0000-0000-000000000000
+
+vd*j
+|vpjd
+v4dnx	
+
+v\X3`
+
+7#G
+
+v6Xc
+
+
+X
+,	|4
+
+
+
+
+
+
+
+
+
+
+
+
+vH{v
+eE	E
+
+3dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierNumberOfTimesFallen_profile_00000000-0000-0000-0000-000000000000
+
+v_rL
+vN9&O
+
+v?[Am
+|vpjd^
+
+v.$9rS
+
+vSW
+
+vk2e
+
+X	|4
+
+
+
+
+
+
+
+
+
+
+
+
+
+vPT/?Y
+
+PdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierHotFlashes_profile_00000000-0000-0000-0000-000000000000
+
+v93iT
+
+v lV
+
+v\p
+|vpjd^X
+\OK
+
+D
+A
+
+
+A`!G
+vDd}j]
+
+.z e0
+
+,$	
+A` _
+vRY<
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v6Z}
+vj!t
+
+v/d"
+
+-
+	
+A`@dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierStairDescentSpeed_profile_00000000-0000-0000-0000-000000000000
+
+A`ldataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierWaistCircumference_profile_00000000-0000-0000-0000-000000000000
+
+A`Q%dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierMindfulSession_profile_00000000-0000-0000-0000-000000000000
+
+A`LdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierCervicalMucusQuality_profile_00000000-0000-0000-0000-000000000000
+
+A` _dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierWalkingHeartRateAverage_profile_00000000-0000-0000-0000-000000000000
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierAppleExerciseTime_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierPregnancyTestResult_profile_00000000-0000-0000-0000-000000000000
+
+A`xdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryVitaminB12_profile_00000000-0000-0000-0000-000000000000
+
+/dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierAudioExposureEvent_profile_00000000-0000-0000-0000-000000000000
+9
+c'AUA!c'
+	c'AUA
++dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierAppleWalkingSteadinessEvent_profile_00000000-0000-0000-0000-000000000000
+9
+BUA!6<
+A`
+sdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierPregnancy_profile_00000000-0000-0000-0000-000000000000
+
+oYc
+
+v30j{
+
+|vpjd^XR
+vwX;[
+
+v wCJ
+
+vVx^
+
+
+v]&
+
+A`%C
+v[l]
+
+A`$	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v}<	
+A`$	dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierAppleWalkingSteadinessEvent_profile_00000000-0000-0000-0000-000000000000
+9
+
+aeA!`A0"
+	
+aeA
+verR
+vC%l
+
+|vpjd^XRL
+vbt`c
+
+
+K%/
+
+A`*/s
+A`)C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ted
+
+vB;i
+
+vn	
+z6
+
+{Km
+
+|vpjd^XRLF
+va7u[#
+
+vzI~
+
+Ik
+
+v3yh7
+
+A`.T
+vLd]	
+v
+F\`P
+
+
+
+
+
+
+|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vy|	Jq
+
+vxn"/H
+
+A`-dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierMoodChanges_profile_00000000-0000-0000-0000-000000000000
+
+vpxS"
+
+v\Kf"5	
+
+|vpjd^XRLF@
+#\M
+
+
+vj
+o1MZ
+
+A`3&
+
+
+
+
+
+|
+`
+vIpKB5
+
+$	
+A`2;%
+v53M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ProminenceFeatureTag{"value":5})q
+A`2;%dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierToothbrushingEvent_profile_00000000-0000-0000-0000-000000000000
+
+v3zb
+vaET8}
+
+|vpjd^XRLF@:
+vRuR@
+
+
+vQ;
+
+v$Gp
+
+
+
+
+
+
+|
+`
+D
+	p,
+v1gY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+voo
+
+v/lpm
+vQ6Jj
+
+A`6dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierAudioExposureEvent_profile_00000000-0000-0000-0000-000000000000
+9
+
+aeA!
+`A0"
+
+aeA
+vBUb
+vpg
+
+vxoKm
+
+v"G1n
+
+|vpjd^XRLF@:4
+vf)g
+v>Vg
+
+
+vQS!3
+
+A`<1j
+vr`gf
+
+v:LW
+
+
+
+
+
+|
+`
+D
+(
+V	p,
+A`;M
+
+X4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ProminenceFeatureTag{"value":5}	|
+vzt.eAI
+
+EDi
+
+vuS;!z
+v1:6
+#-9
+
+|vpjd^XRLF@:4.
+vMH
+^LU"*
+
+
+v;rR
+
+
+
+
+
+|
+`
+D
+(
+
+vI^`GnQ
+
+$V	p,
+A`?y
+vFZ}R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DProminenceFeatureTag{"value":5}
+v+*3
+
+v@D$Di
+A`?ydataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierLowHeartRateEvent_profile_00000000-0000-0000-0000-000000000000
+9
+aeA!Dk`A0"
+Dk`A(
+v_%
+{
+
+|vpjd^XRLF@:4.(
+vpq/q
+
+v%ir`S
+
+
+vUeI
+
+vq(
+
+
+
+
+
+
+|
+`
+D
+(
+
+3of^
+
+A`D8*
+v[[xz=
+
+T
+X4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+zProminenceFeatureTag{"value":5}
+?!F
+
+)P0
+
+vkUu
+A`D8*dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBodyMass_profile_00000000-0000-0000-0000-000000000000
+
+vVCvP^
+
+h	sS
+
+
+
+
+
+
+
+
+
+x
+
+
+~
+
+
+f
+
+
+
+l
+
+
+
+
+
+
+r
+
+|vpjd^XRLF@:4.("
+m<c
+
+}
+vS-o
+v'90F
+
+
+
+
+
+|
+`
+D
+(
+
+M)V
+
+A`H]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v-GXJ]=
+
+
+ProminenceFeatureTag{"value":5})v
++Y3
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBloodGlucose_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierChestTightnessOrPain_profile_00000000-0000-0000-0000-000000000000
+
+A`Z%[dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDistanceWheelchair_profile_00000000-0000-0000-0000-000000000000
+
+A`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierContraceptive_profile_00000000-0000-0000-0000-000000000000
+
+A`^dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierCoughing_profile_00000000-0000-0000-0000-000000000000
+
+A`!YdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBasalBodyTemperature_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierHeartRate_profile_00000000-0000-0000-0000-000000000000
+
+iW`dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDistanceCycling_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierAbdominalCramps_profile_00000000-0000-0000-0000-000000000000
+
+A`0dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierPeripheralPerfusionIndex_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryCarbohydrates_profile_00000000-0000-0000-0000-000000000000
+
+vDtE
+
+A`H]dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierFlightsClimbed_profile_00000000-0000-0000-0000-000000000000
+
+	333333
+^pY[
+
+vjLi
+|vpjd^XRLF@:4.("
+v{;g[+
+
+vfhp
+}v
+79<L
+
+vp+a
+s\B
+
+
+
+
+
+
+|
+`
+D
+(
+
+A`M-
+8W4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vy~z:
+
+va_<B
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryChloride_profile_00000000-0000-0000-0000-000000000000
+
+vE?*J`
+v *C
+M)b
+
+}vo
+vFlA
+vhR
+
+vs9
+
+
+
+
+
+
+|
+`
+D
+(
+
+A`Qe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4
+=^.c
+
+A`QedataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDistanceCycling_profile_00000000-0000-0000-0000-000000000000
+
+
+c	
+
+vgGPg
+v/KX
+?DF
+
+}voh
+v=M
+
+v3~
+
+
+
+
+
+
+|
+`
+D
+(
+
+vi/]b[
+
+A`V#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vk+5`
+
+v6`[
+
+A`V#dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryPotassium_profile_00000000-0000-0000-0000-000000000000
+
+])$
+
+v7L~
+"C
+
+v2paW
+
+vy+ 
+}voha
+vM5:
+
+
+
+
+
+|
+`
+D
+(
+d
+T
+X
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v@-W2M&\3
+
+A`ZdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierNausea_profile_00000000-0000-0000-0000-000000000000
+
+v#+9{
+
+v? 
+
+vd4j!
+
+vN)%1@
+
+K2q
+
+vW iD
+
+}vohaZ
+v>@aX
+
+A``DR
+9n`
+
+
+
+
+
+
+|
+`
+D
+(
+dH
+v+Tc
+A`_W
+vmHbo@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v4%
+
+v`
+4TH
+A`_WdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierVO2Max_profile_00000000-0000-0000-0000-000000000000
+
+v#EV
+F\'
+
+v+@
+
+v9xt*Wo
+
+vVFw
+
+}vohaZS
+vJ-V@J
+
+
+
+
+
+|
+`
+D
+(
+dH,
+vYFhr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+va{R_
+
+>}a
+
+A`cdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierWheezing_profile_00000000-0000-0000-0000-000000000000
+
+SQLite format 3
+v\"^
+H;Un
+z7	
+
+$KR
+
+}vohaZSL
+A`iA
+v~.%'[q
+v<0FE
+A`h]l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dProminenceFeatureTag{"value":5}
+v1yA
+Ogx
+
+vs{bv	
+
+A`h]ldataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierLowCardioFitnessEvent_profile_00000000-0000-0000-0000-000000000000
+9
+U|
+aeA!U|`A0"
+	U|
+aeA
+U|`A(
+A`kdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierOvulationTestResult_profile_00000000-0000-0000-0000-000000000000
+
+zdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryCaffeine_profile_00000000-0000-0000-0000-000000000000
+
+A`ddataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryFolate_profile_00000000-0000-0000-0000-000000000000
+
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryVitaminD_profile_00000000-0000-0000-0000-000000000000
+
+|dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierEnvironmentalAudioExposure_profile_00000000-0000-0000-0000-000000000000
+
+A`:6dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierAppleMoveTime_profile_00000000-0000-0000-0000-000000000000
+
+v4xL_~SQLite format 3
+vJ:w
+X)G
+
+vsuR<
+
+}vohaZSLE
+vC]TY5G3
+
+Ed3p
+
+v!a
+`
+v5b!W
+
+E
+p	
+
+7
+A`ldataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietarySelenium_profile_00000000-0000-0000-0000-000000000000
+
+A`3HdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierOxygenSaturation_profile_00000000-0000-0000-0000-000000000000
+
+A`g#dataSummaryChartineligiblecom.apple.health.Summarieschart_HKCorrelationTypeIdentifierBloodPressure_profile_00000000-0000-0000-0000-000000000000
+
+z	gregorian
+dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryManganese_profile_00000000-0000-0000-0000-000000000000
+
+A`T?dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierLeanBodyMass_profile_00000000-0000-0000-0000-000000000000
+
+A`LdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryCalcium_profile_00000000-0000-0000-0000-000000000000
+
+A`%EdataSummaryChartineligiblecom.apple.health.Summarieschart_HKCategoryTypeIdentifierSoreThroat_profile_00000000-0000-0000-0000-000000000000
+
+A`{dataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryVitaminE_profile_00000000-0000-0000-0000-000000000000
+
+A`UdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierInhalerUsage_profile_00000000-0000-0000-0000-000000000000
+
+*IdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierDietaryIodine_profile_00000000-0000-0000-0000-000000000000
+
+
+
+o
+
+
+
+
+a
+
+
+vZU=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v3Su
+vL03
+
+vmQ
+
+vx&(jb
+
+}vohaZSLE>
+vrH\n
+
+vX#Faqy
+
+A`rVP
+voui.
+
+
+
+o
+
+
+
+
+a
+
+
+A`qdR
+v&^E5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A`qdRdataSummaryChartineligiblecom.apple.health.Summarieschart_HKQuantityTypeIdentifierBodyFatPercentage_profile_00000000-0000-0000-0000-000000000000
+
+vBWf
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$null
+
+VpidentUptypeV$class
+\NS.uuidbytesO
+Z$classnameX$classesVNSUUID
+XNSObject
+HKProfileIdentifier 
+HKProfileIdentifier
+:b#
+
+p
+H
+.
+	
+,
+O
+
+
+w
+Z
+SummariesHealthRecordsIdentifierSharingAccount,!
+SummariesDataStatusIdentifierNoData
+ActivityAndMobility,&
+SummariesDataStatusIdentifierHasData&%
+FeatureStatusIdentifierInactivepp
+sex;"
+SummariesAuthorizationIdentifierOnboardingFeedItem*
+medications that affect heart rate
+*HideInSharedProfileView^
+TimeScopeIdentifierDay.
+HKDisplayCategoryIdentifierRespiratory'
+HKDisplayCategoryIdentifierSleep,
+HealthAppNotificationSettingsDefaults-
+HKDisplayCategoryIdentifierVitalSigns
+name
+SuggestedActions5
+HKDisplayCategoryIdentifierReproductiveHealth
+HKDisplayCategoryIdentifierFitness(
+HKDisplayCategoryIdentifierOther+
+HKDisplayCategoryIdentifierMobility-
+FeatureStatusIdentifierCategorySafety%
+FeatureStatusIdentifierActive
+beta blocker)
+FeatureStatusIdentifierUnavailable
+HKDisplayCategoryIdentifierHeart*
+WalkingSteadinessHeightNotAvailable
+first name
+profile
+cardio fitness
+blood type
+birthdate
+skin type
+health profile
+wheelchair
+calcium channel blocker
+DisplayInSharingDashboard
+date of birth
+last name
+TimeScopeIdentifierWeek*
+HKDisplayCategoryIdentifierHearing
+vw{
+
+(PB
+
+v]"
+
+j,d
+
+vZ9A9M
+
+}vohaZSLE>7
+Aa&HA
+|Ud
+
+platformAlertineligiblecom.apple.health.Profiles00000000-0000-0000-0000-000000000000_CloudSyncFeedItemGenerator.AlertProfiles.CloudSyncTileViewController{"firstRestoreNotComplete":true}*
+navigationineligibleHealth Detailscom.apple.health.ProfilesProfileSearch_healthDetails_00000000-0000-0000-0000-000000000000Profiles.ProfileSearchTileViewController{"destination":"healthDetails","localizedTitle":"Health Details","profileIdentifier":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwTFx1VJG51bGzTDQ4PEBESVnBpZGVudFVwdHlwZVYkY2xhc3OAAhABgATSFA8VFlxOUy51dWlkYnl0ZXNPEBAAAAAAAAAAAAAAAAAAAAAAgAPSGBkaG1okY2xhc3NuYW1lWCRjbGFzc2VzVk5TVVVJRKIaHFhOU09iamVjdNIYGR4fXxATSEtQcm9maWxlSWRlbnRpZmllcqIgHF8QE0hLUHJvZmlsZUlkZW50aWZpZXIACAARABoAJAApADIANwBJAEwAUQBTAFkAXwBmAG0AcwB6AHwAfgCAAIUAkgClAKcArAC3AMAAxwDKANMA2ADuAPEAAAAAAAACAQAAAAAAAAAhAAAAAAAAAAAAAAAAAAABBw=="}}U
+promotionineligiblecom.apple.health.MobilityAppPluginWalkingSteadinessPromotionFeedItemMobilityAppPlugin.WalkingSteadinessPromotionTileViewController5
+A.promotionineligiblecom.apple.health.SleepSleepOnboardingFeedItemSleepHealthAppPlugin.SleepOnboardingTileViewController;
+A./categoryineligibleSleepcom.apple.health.SleepSleepBrowseTileViewControllerSleepHealthAppPlugin.SleepBrowseTileViewControllerB
+A.7promotionineligiblecom.apple.health.ProfilesSummarySharingOnboarding_SharingTabProfiles.SummarySharingInformationTileViewController
+A.9profileineligiblecom.apple.health.ProfilesProfile_00000000-0000-0000-0000-000000000000Profiles.ProfileItemTileViewController{"firstName":"","profileImageInformation":{"firstName":"","lastName":"","reuseIdentifier":"ProfileAvatarImageCell","photoImage":{"imageData":null},"uniqueIdentifier":"ProfileImageInformation__Optional(\"\")"},"lastName":"","activityMoveModeState":{"hasDataInOtherActivityMoveMode":false,"activityMoveMode":1},"profileIdentifier":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwTFx1VJG51bGzTDQ4PEBESVnBpZGVudFVwdHlwZVYkY2xhc3OAAhABgATSFA8VFlxOUy51dWlkYnl0ZXNPEBAAAAAAAAAAAAAAAAAAAAAAgAPSGBkaG1okY2xhc3NuYW1lWCRjbGFzc2VzVk5TVVVJRKIaHFhOU09iamVjdNIYGR4fXxATSEtQcm9maWxlSWRlbnRpZmllcqIgHF8QE0hLUHJvZmlsZUlkZW50aWZpZXIACAARABoAJAApADIANwBJAEwAUQBTAFkAXwBmAG0AcwB6AHwAfgCAAIUAkgClAKcArAC3AMAAxwDKANMA2ADuAPEAAAAAAAACAQAAAAAAAAAhAAAAAAAAAAAAAAAAAAABBw=="},"reuseIdentifier":"ProfileNameCell"}r
+featureStatusineligibleHeadphone Notificationscom.apple.health.HearingAppPluginHeadphoneNotificationsFeatureStatusGenerator.Type_FeatureStatus_00000000-0000-0000-0000-000000000000HearingAppPlugin.HeadphoneNotificationsFeatureStatusTileViewController{"imageData":{"name":"headphone-notifications-feature-status","bundleIdentifier":"com.apple.health.HearingAppPlugin"},"titleName":"Headphone Notifications","featureStatusKind":{"active":{}},"accessoryTitle":"Enable","primaryDescriptionContent":["Notifications are on.","You
+ll receive a notification if you
+ve been listening to loud headphone audio for long enough to affect your hearing."],"reuseIdentifier":"StubbedReuseIdentifier"}
+vJ4}i
+
+
+
+o
+
+
+
+
+
+
+v_RbE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ProminenceFeatureTag{"value":5}
+^
+X	
+
+
+	
+
+
+}
+v0
+
+8v
+
+
+
+
+
+4T	T
+I
+
+
+mZ
+f
+p
+
+b
+F
+sF
+W
+:
+
+Q&
+
+D
+
+3
+P
+$
+p}(
+0
+n
+,
+
+
+
+
+
+h
+
+(
+B7
+
+
+	
+-	
+
+%L
+
+
+5
+<Z
+
+
+
++h
+
+
+
+Aa
+^Lx
+
+J
+z 
+
+;
+
+
+>												{	s	S	c	[	C	k	K	;	3	+	#	
+v56Ng
+
+v
+D7
+
+vg"
+
+vG-H\x
+
+}vohaZSLE>70
+vM?Pj
+
+vKR.
+Aa-ABnavigationineligibleHealth Detailscom.apple.health.ProfilesProfileSearch_healthDetails_00000000-0000-0000-0000-000000000000Profiles.ProfileSearchTileViewController{"destination":"healthDetails","localizedTitle":"Health Details","profileIdentifier":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGlCwwTFx1VJG51bGzTDQ4PEBESVnBpZGVudFVwdHlwZVYkY2xhc3OAAhABgATSFA8VFlxOUy51dWlkYnl0ZXNPEBAAAAAAAAAAAAAAAAAAAAAAgAPSGBkaG1okY2xhc3NuYW1lWCRjbGFzc2VzVk5TVVVJRKIaHFhOU09iamVjdNIYGR4fXxATSEtQcm9maWxlSWRlbnRpZmllcqIgHF8QE0hLUHJvZmlsZUlkZW50aWZpZXIACAARABoAJAApADIANwBJAEwAUQBTAFkAXwBmAG0AcwB6AHwAfgCAAIUAkgClAKcArAC3AMAAxwDKANMA2ADuAPEAAAAAAAACAQAAAAAAAAAhAAAAAAAAAAAAAAAAAAABBw=="}}U
+v~ .
+
+{RrU
+
+
+
+}
+
+
+o
+
+
+
+
+
+Aa-AB
+v<[
+
+vQ
+7
+$X
+
+vU] u
+
+ProminenceFeatureTag{"value":5}(
+com.apple.health.ResearchApp.plugin
+com.apple.health.Highlights
+com.apple.health.Snippets
+com.apple.health.Heart'
+com.apple.health.HighlightAlerts
+v~*69
+
+CardioFitnessOnboardingStatus:00000000-0000-0000-0000-000000000000bplist00
+V$class_
+IsLocaleValidOnLocalDeviceUState_
+OnboardingUnavailableReasons_
+IsClassificationAvailableKey_
+ShouldAdvertiseOnboarding]DateOnboarded
+Z$classnameX$classes_
+!HKHRCardioFitnessOnboardingStatus !_
+!HKHRCardioFitnessOnboardingStatusXNSObject
+v>
+	
+Highlights.Comparison.Suffix-HKQuantityTypeIdentifierPushCount+Left:DailyMostRecentStatOffset0IntervaloneMonthOptioncumulativeSum+Right:DailyMostRecentStatOffset1IntervaloneMonthOptioncumulativeSum{"configuration":{"flavor":{"comparison":{"type":{"quantity":"HKQuantityTypeIdentifierPushCount"},"right":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneMonth","offset":1}},"left":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneMonth","offset":0}}}},"objectTypeIdentifiers":["HKQuantityTypeIdentifierPushCount"]},"codableAnchor":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVyb3dpZFYkY2xhc3NbY2xpZW50VG9rZW4RATyAAoAA0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc11IS1F1ZXJ5QW5jaG9yohgZXUhLUXVlcnlBbmNob3JYTlNPYmplY3QIERokKTI3SUxRU1ddZGpxfYCChImUnauuvAAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAADF"},"shouldRegenerate":false}:	
+Highlights.Comparison.Suffix-HKQuantityTypeIdentifierPushCount+Left:DailyMostRecentStatOffset1IntervaloneWeekOptioncumulativeSum+Right:DailyMostRecentStatOffset2IntervaloneWeekOptioncumulativeSum{"configuration":{"flavor":{"comparison":{"type":{"quantity":"HKQuantityTypeIdentifierPushCount"},"right":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneWeek","offset":2}},"left":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneWeek","offset":1}}}},"objectTypeIdentifiers":["HKQuantityTypeIdentifierPushCount"]},"codableAnchor":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVyb3dpZFYkY2xhc3NbY2xpZW50VG9rZW4RATyAAoAA0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc11IS1F1ZXJ5QW5jaG9yohgZXUhLUXVlcnlBbmNob3JYTlNPYmplY3QIERokKTI3SUxRU1ddZGpxfYCChImUnauuvAAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAADF"},"shouldRegenerate":false}
+Highlights.Comparison.Suffix-HKQuantityTypeIdentifierPushCount+Left:DailyMostRecentStatOffset0IntervaloneYearOptioncumulativeSum+Right:DailyMostRecentStatOffset1IntervaloneYearOptioncumulativeSum{"configuration":{"flavor":{"comparison":{"type":{"quantity":"HKQuantityTypeIdentifierPushCount"},"right":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneYear","offset":1}},"left":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneYear","offset":0}}}},"objectTypeIdentifiers":["HKQuantityTypeIdentifierPushCount"]},"codableAnchor":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVyb3dpZFYkY2xhc3NbY2xpZW50VG9rZW4RATyAAoAA0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc11IS1F1ZXJ5QW5jaG9yohgZXUhLUXVlcnlBbmNob3JYTlNPYmplY3QIERokKTI3SUxRU1ddZGpxfYCChImUnauuvAAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAADF"},"shouldRegenerate":false}
+$>SQLite format 3
+vtw!
+{SQLite format 3
+vg8+r
+v{0I
+TRANSACTIONSTRING
+	
+<y<
+
+
+@F
+
+}vohaZSLE>70)
+vFh
+
+vI,?
+
+Ak@tplatformAlertineligiblecom.apple.health.Profiles00000000-0000-0000-0000-000000000000_CloudSyncFeedItemGenerator.AlertProfiles.CloudSyncTileViewController{"firstRestoreNotComplete":true}*
+v-o77y
+
+}
+
+Ak@t
+vmv!L
+	$
+d8)&
+vHD\-
+\0
+v>dq
+
+v?kC[`
+
+vCI
+
+EB
+
+
+00000000-0000-0000-0000-000000000000{"codableAnchor":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVyb3dpZFYkY2xhc3NbY2xpZW50VG9rZW4RArCAAoAA0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc11IS1F1ZXJ5QW5jaG9yohgZXUhLUXVlcnlBbmNob3JYTlNPYmplY3QIERokKTI3SUxRU1ddZGpxfYCChImUnauuvAAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAADF"},"codableAvailability":{"CardioFitness":false}}:
+Highlights.Comparison.Suffix-HKQuantityTypeIdentifierStepCount+Left:DailyMostRecentStatOffset0IntervaloneWeekOptioncumulativeSum+Right:DailyMostRecentStatOffset1IntervaloneWeekOptioncumulativeSum{"configuration":{"flavor":{"comparison":{"type":{"quantity":"HKQuantityTypeIdentifierStepCount"},"right":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneWeek","offset":1}},"left":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneWeek","offset":0}}}},"objectTypeIdentifiers":["HKQuantityTypeIdentifierStepCount"]},"codableAnchor":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVyb3dpZFYkY2xhc3NbY2xpZW50VG9rZW4RATyAAoAA0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc11IS1F1ZXJ5QW5jaG9yohgZXUhLUXVlcnlBbmNob3JYTlNPYmplY3QIERokKTI3SUxRU1ddZGpxfYCChImUnauuvAAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAADF"},"shouldRegenerate":false}:
+Highlights.Comparison.Suffix-HKQuantityTypeIdentifierStepCount+Left:DailyMostRecentStatOffset1IntervaloneWeekOptioncumulativeSum+Right:DailyMostRecentStatOffset2IntervaloneWeekOptioncumulativeSum{"configuration":{"flavor":{"comparison":{"type":{"quantity":"HKQuantityTypeIdentifierStepCount"},"right":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneWeek","offset":2}},"left":{"mostRecentDailyStatistic":{"option":"cumulativeSum","interval":"oneWeek","offset":1}}}},"objectTypeIdentifiers":["HKQuantityTypeIdentifierStepCount"]},"codableAnchor":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVyb3dpZFYkY2xhc3NbY2xpZW50VG9rZW4RATyAAoAA0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc11IS1F1ZXJ5QW5jaG9yohgZXUhLUXVlcnlBbmNob3JYTlNPYmplY3QIERokKTI3SUxRU1ddZGpxfYCChImUnauuvAAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAADF"},"shouldRegenerate":false}"
+Highlights.Comparison.Suffix-HKQuantityTypeIdentifierStepCount+Left:MostRecentStatOffset1IntervaloneDayOptioncumulativeSum+Right:MostRecentStatOffset2IntervaloneDayOptioncumulativeSum{"configuration":{"flavor":{"comparison":{"type":{"quantity":"HKQuantityTypeIdentifierStepCount"},"right":{"mostRecentStatistic":{"option":"cumulativeSum","interval":"oneDay","offset":2}},"left":{"mostRecentStatistic":{"option":"cumulativeSum","interval":"oneDay","offset":1}}}},"objectTypeIdentifiers":["HKQuantityTypeIdentifierStepCount"]},"codableAnchor":{"data":"YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVyb3dpZFYkY2xhc3NbY2xpZW50VG9rZW4RATyAAoAA0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc11IS1F1ZXJ5QW5jaG9yohgZXUhLUXVlcnlBbmNob3JYTlNPYmplY3QIERokKTI3SUxRU1ddZGpxfYCChImUnauuvAAAAAAAAAEBAAAAAAAAABoAAAAAAAAAAAAAAAAAAADF"},"shouldRegenerate":false}Z
+LMAppStoreStatePluginStorage{"available":{"lastCheckedDate":666550578.40004206}}
+00000000-0000-0000-0000-000000000000{}

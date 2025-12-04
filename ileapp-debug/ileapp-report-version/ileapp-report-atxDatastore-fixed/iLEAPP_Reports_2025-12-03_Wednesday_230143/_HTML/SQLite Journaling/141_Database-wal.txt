@@ -1,0 +1,653 @@
+RwODqU
+	RwODY
+	PolicyRegistration
+EffectivePolicy
+RwODh\`
+
+spdmf.policy.monitor.appbplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$null
+
+ZNS.objectsV$class
+applicationcategoriesXwebsitesZcategories\applications
+Z$classnameX$classesUNSSet
+XNSObject
+$)27ILQS[afqx}
+	RwOD
+9	dmf.policy.monitor.app
+	RwOD~I)	
+
+PolicyRegistration
+RwOD[
+dmf.policy.monitor.communicationbplist00
+\applicationsZcategories
+$)27ILQSY_dovy{}
+dmf.policy.monitor.communication
+	RwODy;b
+
+8*dmf.policy.monitor.communicationbplist00
+%
+z
+<dmf.policy.monitor.appbplist00
+dmf.policy.monitor.appbplist00
+	RwOD@
+Zcategories
+$)27ILQSX^cnuwy{
+	RwODU
+H
+,!
+
+z
+Rdmf.policy.monitor.appbplist00
+RwODySQLite format 3
+.S`
+
+
+S>
+atableZ_MODELCACHEZ_MODELCACHE	CREATE TABLE Z_MODELCACHE (Z_CONTENT BLOB){
+AtableZ_METADATAZ_METADATA
+CREATE TABLE Z_METADATA (Z_VERSION INTEGER PRIMARY KEY, Z_UUID VARCHAR(255), Z_PLIST BLOB)
+
+WtableZ_PRIMARYKEYZ_PRIMARYKEY
+CREATE TABLE Z_PRIMARYKEY (Z_ENT INTEGER PRIMARY KEY, Z_NAME VARCHAR, Z_SUPER INTEGER, Z_MAX INTEGER)8
+qindexZ_PolicyRegistration_UNIQUE_identifierZPOLICYREGISTRATION
+CREATE UNIQUE INDEX Z_PolicyRegistration_UNIQUE_identifier ON ZPOLICYREGISTRATION (ZIDENTIFIER COLLATE BINARY ASC)C
+indexZ_EffectivePolicy_byTypeAndIdentifierZEFFECTIVEPOLICY
+CREATE INDEX Z_EffectivePolicy_byTypeAndIdentifier ON ZEFFECTIVEPOLICY (ZTYPE COLLATE BINARY ASC, ZIDENTIFIER COLLATE BINARY ASC)S
+MtableZPOLICYREGISTRATIONZPOLICYREGISTRATION
+CREATE TABLE ZPOLICYREGISTRATION ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZMODIFICATIONDATE TIMESTAMP, ZIDENTIFIER VARCHAR, ZPOLICYTYPES BLOB )
+OtableZEFFECTIVEPOLICYZEFFECTIVEPOLICY
+CREATE TABLE ZEFFECTIVEPOLICY ( Z_PK INTEGER PRIMARY KEY, Z_ENT INTEGER, Z_OPT INTEGER, ZPOLICY INTEGER, ZPRIORITY INTEGER, ZDECLARATIONIDENTIFIER VARCHAR, ZIDENTIFIER VARCHAR, ZORGANIZATIONIDENTIFIER VARCHAR, ZTYPE VARCHAR )
+	RwOD#w
+
+z
+AQs1dmf.policy.monitor.appbplist00
+	RwODQ|&U
+
+z
+Qdmf.policy.monitor.appbplist00
+	RwOD}Q
+
+z
+AQdmf.policy.monitor.appbplist00
+	RwODMp
+AQ_|dmf.policy.monitor.communicationbplist00
+	RwODm
+%
+
+z
+_dmf.policy.monitor.communicationbplist00
+&yV_
+
+z
+AQ0'dmf.policy.monitor.communicationbplist00
+	RwODga
+ve
+
+z
+4dmf.policy.monitor.appbplist00
+RwOD
+:RSQLite format 3
+	RwOD(
+
+
+z
+AQlddmf.policy.monitor.communicationbplist00
+	RwOD^
+"
+
+z
+AQx(dmf.policy.monitor.communicationbplist00
+	RwODF
+Tdmf.policy.monitor.appbplist00
+	RwODk
+3
+
+z
+AQn|dmf.policy.monitor.appbplist00
+	RwODp	K
+XT
+
+z
+	AQo,dmf.policy.monitor.communicationbplist00
+^3
+
+z
+]dmf.policy.monitor.communicationbplist00
+RwOD46,SQLite format 3
+	RwOD269BL
+
+z
+	RwODZ[
+RwOD)DtX
+
+	[3!%always_allow_app_configuration_personalcom.apple.MobileSMSscreentimeapplicationsU
+	[)!%always_allow_app_configuration_personalcom.apple.MapsscreentimeapplicationsY
+	[1!%always_allow_app_configuration_personalcom.apple.facetimescreentimeapplications\
+	[7!%always_allow_app_configuration_personalcom.apple.mobilephonescreentimeapplications
+applicationscom.apple.MobileSMS
+%)	applicationscom.apple.Maps#
+applicationscom.apple.facetime
+applicationscom.apple.mobilephone
+>f
+
+z
+ARCO
+	RwOD%TH%
+
+RwODNa
+@dB
+
+z
+ARCdmf.policy.monitor.webbplist00
+Xwebsites_
+websitecategoriesZcategories\applications
+	RwOD)Cl
+
+dmf.policy.monitor.web
+	RwOD3#7
+
+z
+
+ARCMYdmf.policy.monitor.appbplist00
+ 
+
+z
+!dmf.policy.monitor.appbplist00
+~dmf.policy.monitor.appbplist00
+i6
+
+z
+ARV	odmf.policy.monitor.communicationbplist00
+RwOD6
+SQLite format 3
+	RwODFW5`
+
+z
+[dmf.policy.monitor.appbplist00
+	RwODl7
+tG
+
+z
+cdmf.policy.monitor.appbplist00
+	RwOD$W
+vdmf.policy.monitor.appbplist00
+
+D
+
+z
+tdmf.policy.monitor.communicationbplist00
+	RwODa
+
+z
+6dmf.policy.monitor.communicationbplist00
+	RwODE7z
+	RwODp
+
+z
+pdmf.policy.monitor.appbplist00
+	RwOD\"q
+M
+
+z
+4dmf.policy.monitor.communicationbplist00
+	RwODA| {/
+
+z
+ABqk+dmf.policy.monitor.appbplist00
+	RwODTr
+~.
+
+z
+ABq&dmf.policy.monitor.appbplist00
+/e
+
+z
+ABqJwdmf.policy.monitor.appbplist00
+	RwODM
+ABsKBdmf.policy.monitor.communicationbplist00
+	RwOD]}r
+ABsW.dmf.policy.monitor.appbplist00
+	RwOD/!
+ABso%dmf.policy.monitor.communicationbplist00
+	RwODt
+ABssQdmf.policy.monitor.communicationbplist00
+]9
+
+z
+ABubdmf.policy.monitor.appbplist00
+	RwOD%
+ABx%`dmf.policy.monitor.appbplist00
+	RwOD_E
+
+z
+ABx)
+RwODWHL
+	RwODSA^y
+
+z
+]Fdmf.policy.monitor.appbplist00
+,
+
+z
+<3$
+
+z
+>dmf.policy.monitor.appbplist00
+	RwOD$
+
+z
+h
+dmf.policy.monitor.communicationbplist00
+	RwOD{VB+i
+	RwODYX8
+
+z
+A$	2F
+	RwODX|b=
+A$	L5dmf.policy.monitor.communicationbplist00
+Y
+
+z
+ A$	O
+	RwOD*d*><]
+
+z
+!A$
+
+	RwOD!	a8
+
+z
+A$
+)dmf.policy.monitor.communicationbplist00
+	RwOD_A'
+A$y;dmf.policy.monitor.webbplist00
+	RwODmMfh
+"AswFdmf.policy.monitor.appbplist00
+	RwODiDH>
+#AswFdmf.policy.monitor.appbplist00
+	RwOD|pe
+Asw}Kjdmf.policy.monitor.communicationbplist00
+	RwOD]E&.5
+
+.hQdmf.policy.monitor.webbplist00
+.dmf.policy.monitor.communicationbplist00
+	RwODTZz
+
+ydmf.policy.monitor.appbplist00
+/1L
+
+vudmf.policy.monitor.communicationbplist00
+	RwODg
+F@dmf.policy.monitor.webbplist00
+	RwOD
+
+gdmf.policy.monitor.webbplist00
+	RwODG(<
+
+wdmf.policy.monitor.webbplist00
+KZdmf.policy.monitor.communicationbplist00
+	RwODwe
+dmf.policy.monitor.webbplist00
+	RwODkKp
+RwODB_|
+dmf.policy.monitor.icloud.account.logoutbplist00
+icloudaccountlogout
+	RwODL=p
+dmf.policy.monitor.icloud.account.logout
+	RwOD"
+4dmf.policy.monitor.icloud.account.logoutbplist00
+	RwODdV
+	#dmf.policy.monitor.icloud.account.logoutbplist00
+	RwODaoGH
+	RwODFh
+
+
+	RwODs
+!Cdmf.policy.monitor.icloud.account.logoutbplist00
+	RwODz
+riM
+
+7dmf.policy.monitor.webbplist00
+	RwOD:
+	RwOD;A
+
+	RwOD_/q 
+
+5dmf.policy.monitor.appbplist00
+	RwOD_Gz
+-i$dmf.policy.monitor.appbplist00
+	RwODd?G
+7	dmf.policy.monitor.webbplist00
+	RwODj
+y{{
+
+}Ydmf.policy.monitor.appbplist00
+	RwODex@d
+
+N9dmf.policy.monitor.communicationbplist00
+	RwODvCO0
+rdmf.policy.monitor.communicationbplist00
+odmf.policy.monitor.webbplist00
+|dmf.policy.monitor.appbplist00
+	RwODo
+0.;9
+
+Zdmf.policy.monitor.communicationbplist00
+RwODv
+KSQLite format 3
+	RwODC
+{cVdmf.policy.monitor.appbplist00
+	RwODNQ
+STdmf.policy.monitor.communicationbplist00
+,dmf.policy.monitor.appbplist00
+QOdmf.policy.monitor.communicationbplist00
+	RwODI
+	RwODORZk.
+Idmf.policy.monitor.appbplist00
+	RwODmtgKu
+
+
+dmf.policy.monitor.communicationbplist00
+	RwODs3i
+
+	RwOD?Q
+kdmf.policy.monitor.appbplist00
+	RwODu@F\
+zdmf.policy.monitor.communicationbplist00
+	RwOD9R
+(dmf.policy.monitor.communicationbplist00
+	RwOD*OSi
+
+Udmf.policy.monitor.appbplist00
+	RwODMFud
+
+	dmf.policy.monitor.appbplist00
+	RwODS\sWs
+bjdmf.policy.monitor.communicationbplist00
+	RwOD&O-f
+
+	RwODNS
+
+Pdmf.policy.monitor.communicationbplist00
+*A4J
+	RwODMB,(
+
+4A	;
+eodmf.policy.monitor.appbplist00
+	RwOD}
+5A	;
+	RwOD(/mzQ0
+
+6A	;
+udmf.policy.monitor.appbplist00
++A	;kdmf.policy.monitor.communicationbplist00
+	RwODZ+"
+q'dZdmf.policy.monitor.icloud.account.logoutbplist00
+	RwODSF/
+
+	RwOD!{?
+Ldmf.policy.monitor.communicationbplist00
+RwOD\
+	RwODF0
+7AT}dmf.policy.monitor.appbplist00
+	RwOD*-]Vo
+
+8AT<dmf.policy.monitor.appbplist00
+7=<
+
+-ATOsdmf.policy.monitor.communicationbplist00
+	RwOD-:0
+
+9ATOdmf.policy.monitor.appbplist00
+:ATP-dmf.policy.monitor.appbplist00
+	RwODhzaq
+
+;AT[dmf.policy.monitor.appbplist00
+.AT>Cdmf.policy.monitor.communicationbplist00
+/ATTdmf.policy.monitor.communicationbplist00
+	RwODeN
+<ATn
+	RwOD}9
+0ATtdmf.policy.monitor.communicationbplist00
+	RwODx2#*4
+
+=ATy'=dmf.policy.monitor.appbplist00
+	RwODbU|r?
+
+1AV%dmf.policy.monitor.communicationbplist00
+	RwODXvh
+>AV%
+	RwOD@-fHj
+
+:dmf.policy.monitor.webbplist00
+3Aaodmf.policy.monitor.communicationbplist00
+?vO1
+
+?Aaodmf.policy.monitor.appbplist00
+	RwODU
+Hdmf.policy.monitor.communicationbplist00
+	RwODE
+@Axdmf.policy.monitor.appbplist00
+	RwODpd=#X#
+
+	RwODOX
+
+BAxozdmf.policy.monitor.appbplist00
+	RwOD|Eu	
+5Axdmf.policy.monitor.communicationbplist00
+	RwODFm\(Z
+
+hTdmf.policy.monitor.communicationbplist00
+	RwODA*
+
+h~dmf.policy.monitor.appbplist00
+	RwODF60b
+
+8AYdmf.policy.monitor.communicationbplist00
+9Ax!+dmf.policy.monitor.communicationbplist00
+Wdmf.policy.monitor.communicationbplist00
+	RwOD5N)
+
+AK\
+	RwODh
+EAQdmf.policy.monitor.appbplist00
+0vj5r
+
+AQdmf.policy.monitor.webbplist00
+CNT
+
+FA^0
+	RwODOH
+
+GA^0G$dmf.policy.monitor.appbplist00
+	RwODOh
+HA^0dmf.policy.monitor.appbplist00
+;A^1?3Ddmf.policy.monitor.communicationbplist00
+	RwODrd
+IA^1
+<A^2
+sdmf.policy.monitor.communicationbplist00
+	RwOD,
+JA^2
+	RwODP
+KA^24'Jdmf.policy.monitor.appbplist00
+	RwOD?B)
+LA^3
+:dmf.policy.monitor.appbplist00
+	RwODW''
+
+=A^3xdmf.policy.monitor.communicationbplist00
+	RwODX
+nO
+
+>A^3sdmf.policy.monitor.communicationbplist00
+	RwOD/q(
+?A_)pdmf.policy.monitor.communicationbplist00
+	RwODS
+MA_)q
+	RwODV~A
+bdmf.policy.monitor.communicationbplist00
+tKC
+
+NAgR
+	RwOD)7!
+
+AAg\dmf.policy.monitor.communicationbplist00
+	RwODPz(
+
+OAg1dmf.policy.monitor.appbplist00
+	RwODtih
+
+	RwOD/*5
+
+CAgdmf.policy.monitor.communicationbplist00
+RwOD]{h2SQLite format 3
+	RwOD%3
+
+`dmf.policy.monitor.appbplist00
+	RwOD4}\
+
+^dmf.policy.monitor.communicationbplist00
+	RwODI
+
+mdmf.policy.monitor.appbplist00
+UAgW2dmf.policy.monitor.appbplist00
+	RwODo!&
+
+EAgxdmf.policy.monitor.communicationbplist00
+VAgcf
+	RwOD1)
+
+WAgl@dmf.policy.monitor.appbplist00
+	RwOD3`
+XAgmxdmf.policy.monitor.appbplist00
+	RwODB{^p)
+
+FAgu
+RwOD%PSQLite format 3
+YAh8dmf.policy.monitor.appbplist00
+	RwODA
+Q] 
+
+ZAh,dmf.policy.monitor.appbplist00
+	RwODNC
+[Ahl/dmf.policy.monitor.appbplist00
+	RwODFc,J
+
+GAhvhdmf.policy.monitor.communicationbplist00
+	RwODB,(P
+
+\Ah@bdmf.policy.monitor.appbplist00
+]AhNDdmf.policy.monitor.appbplist00
+	RwODS8 !
+
+^Ahdmf.policy.monitor.appbplist00
+	RwODHp\SZ
+
+HAhdmf.policy.monitor.communicationbplist00
+	RwOD07p
+
+Admf.policy.monitor.communicationbplist00
+	RwOD+
+_Ah80dmf.policy.monitor.appbplist00
+	RwOD#B
+JAhd
+dmf.policy.monitor.communicationbplist00
+RwODWIYSQLite format 3
+rD}
+
+`Ai";dmf.policy.monitor.appbplist00
+aAi"ci+dmf.policy.monitor.appbplist00
+bAi"edmf.policy.monitor.appbplist00
+	RwOD
+
+cAi"f*dmf.policy.monitor.appbplist00
+	RwOD7
+KAi"
+?EQ7
+
+dAi"Qdmf.policy.monitor.appbplist00
+	RwOD
+mQGN
+
+LAi#dmf.policy.monitor.communicationbplist00
+	RwOD({
+MAi#dmf.policy.monitor.communicationbplist00
+N@2H
+
+eAi$*!dmf.policy.monitor.appbplist00
+%fJ!
+NAi$YU7dmf.policy.monitor.communicationbplist00
+	RwODn
+fAi$sQdmf.policy.monitor.appbplist00
+	RwOD|=~(
+
+2+dmf.policy.monitor.appbplist00
+	RwODVt
+	RwOD$t
+]Vdmf.policy.monitor.appbplist00
+7dmf.policy.monitor.communicationbplist00
+	RwOD	v
+X`dmf.policy.monitor.appbplist00
+	RwOD[Ng
+
+PHdmf.policy.monitor.communicationbplist00
+	RwODXvT
+	RwODDY
+Wdmf.policy.monitor.appbplist00
+	RwODRM~C
+
+Ddmf.policy.monitor.communicationbplist00
+	RwODL
+
+
++dmf.policy.monitor.appbplist00
+	RwODyiVN.W
+
+0dmf.policy.monitor.appbplist00
+	RwODd2f
+oAj	
+	RwOD<
+pAj	
+\dmf.policy.monitor.appbplist00
+zSW%
+
+qAj
+(Admf.policy.monitor.appbplist00
+	RwOD6<
+SAj
+RwOD)G
+	RwODCH
+F^	
+
+rAjDwdmf.policy.monitor.appbplist00
+4Aw|*
+sAjDHdmf.policy.monitor.appbplist00
+	RwOD&0
+TAjD*Rdmf.policy.monitor.communicationbplist00
+	RwOD#Z
+tAjD]dmf.policy.monitor.appbplist00
+A]V
+
+uAjE
+	RwODB;}
+
+UAjFZOdmf.policy.monitor.communicationbplist00
+v[G
+
+VAjG&.dmf.policy.monitor.communicationbplist00
+	RwOD"]	?tL
+
+WAjG3qdmf.policy.monitor.communicationbplist00
+RwODVSQLite format 3
+	RwOD(.
+vAkW*dmf.policy.monitor.appbplist00
+MFo|
+
+XAk}dmf.policy.monitor.communicationbplist00
+	RwODV
+YAkkdmf.policy.monitor.communicationbplist00

@@ -1,0 +1,55 @@
+A;/\r&nSQLite format 3
+.S`
+
+tableOperationMetricsOperationMetrics
+CREATE TABLE OperationMetrics (
+    operationID               text primary key,
+    operationGroupID          text,
+    operationGroupName        text,
+    operationGroupQuantity    integer,
+    operationQualityOfService integer,
+    operationType             integer,
+    applicationID             text,
+    containerID               text,
+    operationMetrics          blob
+)?
+indexsqlite_autoindex_OperationMetrics_1OperationMetrics
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+deS
+
+'
+SchemaVersion550C4954CFB9DB2144DCC7754F1CE709AA9265D141BDEC373009338195ACD526
+-Created666554199.112442
+SchemaVersion
+	Created
+A;/=_QHr
+
+SQLite format 3
+ o!/
+4ex
+
+A;/hXn
+
+A;/	
+A;/ij
+
+!-LastVacuum666554199.119029Q
+LastVacuum
+A;/2i
+$&z@
+A;/~ pbrc
+
+A;/mnb
+
+{kP* 
+
+A;/k\CSQLite format 3
+tVSCz
+A;/gI
+A;/2
+A;/"4

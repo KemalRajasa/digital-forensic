@@ -1,0 +1,801 @@
+1!d4>~u
+1!C`e
+
+
+
+
+
+
+~
+b
+W
+G
+8
+%
+
+lS>%
+vXE-
+
+
+
+
+
+
+
+k
+W
+B
+,
+
+							e	J	3	
+TurnBasedSessionList
+TurnBasedSessionEntry
+TurnBasedSession
+TurnBasedParticipant
+TurnBasedExchangeReply
+TurnBasedExchange
+TopGamesListEntry
+TopGamesList!C
+ReengagementAchievementEntry
+RecentPlayerList
+RecentPlayerEntry
+RecentGameList
+RecentGameEntry
+PlayerToInvite
+	PlayerProfile
+CompatiblePlayerList;
+PlayerList
+CompatiblePlayerEntry9
+PlayerEntry
+PlayerEmail 7
+MultiplayerGroupParticipant
+MultiplayerGroupList
+MultiplayerGroup
+MessageInboxEntry
+Localization
+LeaderboardTitleMapList
+LeaderboardTitleMap
+LeaderboardSetList
+LeaderboardSet
+LeaderboardListEntry
+LeaderboardList
+Leaderboard+
+Invite
+GKCDGameSettings
+GKCDGameFriendList
+GKCDGameFriend
+GKCDGameAccessList
+GKCDFriendCodeDetail
+GameSummary
+GamesPlayedSummaryList
+GamesPlayed
+GameRecord
+GameRecommendationList
+GameRecommendationEntry
+GameRating
+GamePlatform
+
+GameList
+GameEntry	
+Game
+FriendsPlayedGameList
+FriendRequestList
+FriendRequestEntry
+FriendRecommendationList
+FriendRecommendationEntry
+FriendPlayedGameEntry
+FriendPlayedEntry
+FriendList
+FriendEntry
+
+FlowRate
+CompatibilityMatrixVersion$
+CompatibilityMatrixShortVersion
+CompatibilityMatrixList
+CompatibilityMatrixEntry
+ChallengeList 
+ChallengeCompatibleBundleID
+ScoreChallenge
+AchievementChallenge
+Challenge
+BadgeCount
+AchievementPointsList
+AchievementPointsEntry
+AchievementList
+AchievementDescriptionList
+AchievementDescription
+Achievement
+v'c!
+
+	Game
+6mW
+
+	TurnBasedSessionList
+	GamePlatform
+
+{{{w{!
+com.apple.gamecenterhttp://is5.mzstatic.com/image/thumb/dummy/128x128bb.pnghttp://is4.mzstatic.com/image/thumb/dummy/256x256bb.pnghttp://is5.mzstatic.com/image/thumb/dummy/512x512bb.pnghttp://is5.mzstatic.com/image/thumb/dummy/64x64bb.pnghttp://is3.mzstatic.com/image/thumb/dummy/{w}x{h}bb.pngGameCenteriOS
+f5?
+
+vpbentley0107@gmail.comU:a3b375ee71aa52268a135b8e74d20105
+1!j+?
+1D7EBAB6-5194-4E1B-BB32-FF3944E9EAFF
+1!ROA
+
+1!Cg#Wpd
+1!DE_B
+1!-_M?E
+
+1!l.
+OMj
+
+1!X$l
+5	com.apple.gamecenter
+1![~O
+
+1!V'x
+
+1!
+h8F`
+
+@*fbf
+
+1!9s
+Q	U:a3b375ee71aa52268a135b8e74d20105
+1!q&7ck	
+
+3;y
+
+W
+
+
+
+
+
+
+~
+b
+
+G
+8
+%
+
+GameEntry
+1!Uh[
+	GameRecord
+	GameList
+1!Ib
+mcom.apple.gamecenter.widgets11.0.0r
+1!X%
+
+C1F37B766-E70C-4800-9FE6-06E58DA9E33C
+yr#
+
+1!n~>;
+
+1!VY
+6Ix
+
+1!$y?Tg
+
+com.apple.gamecenter.widgets
+1!kR@	I
+1!5aB
+
+W
+1!TY/
+lS>%
+CompatibilityMatrixShortVersionk
+	GameSummary
+	GamesPlayedSummaryList
+GamesPlayed
+W
+	GameEntry
+	FriendList
+CompatibilityMatrixVersionk
+	CompatibilityMatrixList
+	CompatibilityMatrixEntry
+ru.appscraft.CollectorGame
+SeD
+
+AG&A
+Hsyru.appscraft.CollectorGameF5B2CF24-D76A-4197-8FAA-CB53DE2B2F2C16.92018.07.181250
+1!I7
+[
+e
+
+/	j
+r
+
+	(	
+
+@	{
+y
+	9
+.
+
+	J
+?
+Z
+Z	
+
+ 	Y
+P
+
+k	
+)
+)`	
+
+|	
+:
+
+a
+
+:q	
+
+14.0
+16.0
+5
+11.2
+15.0
+14.7
+15.2
+5.80
+13.7
+11.8
+J
+10.7
+16.5
+15.9
+5.90
+13.1
+f
+15.4
+12.7
+11.4
+10.6
+11.9
+12.0
+14.1
+A
+13.3
+11.5
+11.3
+14.2
+
+9.6
+R
+11.7
+11.1
+12.8
+16.4
+13.9
+14.3
+13.4
+C
+16.6
+12.6
+?
+15.5
+i
+7.9
+
+12.1
+I
+14.8
+16.9
+10.2
+9.4
+
+7.1
+ 
+6.7
+Z
+6.9
+e
+15.7
+13.0
+10.9
+12.2
+16.3
+12.3
+14.4
+@
+11.0
+
+7.4
+<
+14.9
+14.5
+
+8.7
+'
+16.2
+15.6
+5.70
+\
+8.0
+g
+10.4
+15.1
+10.3
+11.6
+14.6
+(
+13.8
+B
+15.3
+12.9
+15.8
+10.1
+
+12.4
+10.0
+S
+10.8
+10.5
+12.5
+
+16.1
+13.6
+16.7
+1!g
+
+b
+	V
+L~
+
+b	,
+|
+	q
+W
+|	;
+2015.04.271447
+2017.08.281237
+2015.12.011739
+2018.07.051107
+2017.03.201748
+2016.01.181755
+2015.07.241734
+2017.04.271405
+2016.08.021328
+2017.04.041228
+2016.01.051236
+2015.05.241427
+2015.07.171322
+2015.03.171736
+2015.04.071636
+2016.10.041001
+2017.08.081551
+2016.04.131726
+2018.06.221100
+2015.03.261714
+2016.05.131713
+2017.11.211128
+2015.02.181740
+2015.08.151618
+J
+2015.03.081419
+2018.05.161047
+2017.01.191615
+P
+2016.12.301209
+2017.09.281647
+2016.10.141713
+2018.04.261352
+2017.07.141113
+2016.04.281336
+2016.07.251351
+2016.03.031531
+2017.07.041248
+2015.08.271536
+2018.06.071733
+2
+2017.12.181652
+2016.09.231306
+2015.06.221630
+2016.11.071204
+W
+2018.01.161213
+2015.01.272108
+2016.02.250813
+2015.09.081657
+2017.06.261240
+2016.09.151238
+2015.11.181731
+2016.02.111336
+2018.07.181250
+2018.06.201122
+2015.11.051850
+2016.06.081151
+4
+2017.09.292327
+2016.05.251356
+2016.08.111752
+2018.04.101557
+2016.06.171729
+2017.12.251636
+2017.12.041647
+2015.09.221130
+2017.02.061758
+2015.10.231635
+2015.06.081551
+2017.03.031136
+2018.07.121052
+2017.02.161554
+2017.10.241647
+2014.12.031853
+2018.05.251401
+2014.12.291613
+2016.08.301431
+2015.02.081501
+2015.10.081604
+
+2016.07.111551
+2015.02.271822
+2018.02.021312
+2017.10.161054
+2015.01.141808
+2018.06.191644
+2016.12.071748
+2015.01.051555
+2018.04.051850
+2016.11.281640
+2016.03.301721
+2016.11.171533
+2017.07.211153
+2015.12.151753
+2018.02.271753
+2017.06.081252
+2016.03.141618
+2017.05.121755
+2014.12.131246
+2016.02.021346
+2016.10.271052
+2015.05.061646
+2017.11.091736
+2016.06.301547
+2018.07.131359
+2018.05.202139
+1!`u)C
+AVA
+VP0A343C94-FE91-4AD2-BABC-650F5F8D5E2A
+				
+A)#333/3-
+Q!yA
+Q"Sappscraftru.appscraft.CollectorGame2018.07.181250playerscorshttp://is5.mzstatic.com/image/thumb/Purple118/v4/23/e6/20/23e620a3-311e-840d-107c-1b96d6e60317/AppIcon-1x_U007emarketing-85-220-6.png/128x128bb.pnghttp://is4.mzstatic.com/image/thumb/Purple118/v4/23/e6/20/23e620a3-311e-840d-107c-1b96d6e60317/AppIcon-1x_U007emarketing-85-220-6.png/256x256bb.pnghttp://is5.mzstatic.com/image/thumb/Purple118/v4/23/e6/20/23e620a3-311e-840d-107c-1b96d6e60317/AppIcon-1x_U007emarketing-85-220-6.png/512x512bb.pnghttp://is4.mzstatic.com/image/thumb/Purple118/v4/23/e6/20/23e620a3-311e-840d-107c-1b96d6e60317/AppIcon-1x_U007emarketing-85-220-6.png/64x64bb.pnghttp://is3.mzstatic.com/image/thumb/Purple118/v4/23/e6/20/23e620a3-311e-840d-107c-1b96d6e60317/AppIcon-1x_U007emarketing-85-220-6.png/{w}x{h}bb.pngStamps CollectorGET16.9https://apps.apple.com/us/app/stamps-collector/id705203926iOShttps://apps.apple.com/us/app/stamps-collector/id705203926j
+1!,wH
+
+1!Ca
+1!q]I
+
+1!S/^>
+
+1!V57
+1!Yw$\
+
+UFA:_f27f493afedb652d5c3d1b3ea97a1ff0T:_6da59d143419c5fcb9023c7834bacc9f!
+Q$U:a3b375ee71aa52268a135b8e74d20105
+ZZY
+
+Seoru.appscraft.CollectorGame
+H0pbentley0107@gmail.comPlayer_9805218496PatrickA:_f27f493afedb652d5c3d1b3ea97a1ff0Bentleyru.appscraft.CollectorGameU:a3b375ee71aa52268a135b8e74d20105T:_6da59d143419c5fcb9023c7834bacc9f
+1!6#JE/
+Z5XG
+
+A	ru.appscraft.CollectorGame
+1!dU
+Wln
+
+	ru.appscraft.CollectorGame2018.07.18125016.9
+1!sT
+=L
+
+1!9Y
+
+1!Qn
+w[2X
+
+1!?`
+1!s`
+
+1!f&
+
+1!Hb	'*=)
+
+1!	*d
+
+1!w*
+1!@J
+1!F=3
+
+1!MjTqm
+H0pbentley0107@gmail.comDarkest Meerkat 0107PatrickA:_f27f493afedb652d5c3d1b3ea97a1ff0Bentleyru.appscraft.CollectorGameU:a3b375ee71aa52268a135b8e74d20105T:_6da59d143419c5fcb9023c7834bacc9f
+1!/lKTTm
+
+ yypbentley0107@gmail.comDarkest Meerkat 0107PatrickA:_f27f493afedb652d5c3d1b3ea97a1ff0Bentleyru.appscraft.CollectorGameU:a3b375ee71aa52268a135b8e74d20105T:_6da59d143419c5fcb9023c7834bacc9f
+1!eY)=Z
+
+	|C/
+
+	LeaderboardListEntry
+	LeaderboardList
+	Leaderboard+
+AchievementDescription- 
+	AchievementList
+	AchievementDescriptionList
+1! RB6
+SQLite format 3
+1!T|=s
+1!yRk^
+BCF09CEC-49F0-47EE-AE59-9D570EAF782E
+1!o#E-DX
+
+P7BEA3319-F1A8-4D40-9C84-19E68431F08E
+1!ic
+1!?Pg8
+
+playerscorsplayerscors
+4EEF783C-7E22-4866-B099-00B8CFD0784Aclassic
+1!LG!
+
+87A331D6-3468-4CB0-9446-E6B5A7E9E063
+playerscors
+1!ZtTv 6
+
+vc=A
+epbentley0107@gmail.comDarkest Meerkat 0107PatrickA:_f27f493afedb652d5c3d1b3ea97a1ff0Bentleyru.appscraft.CollectorGameU:a3b375ee71aa52268a135b8e74d20105T:_6da59d143419c5fcb9023c7834bacc9f
+1!rvk!.
+
+1!/^[e
+
+r
+
+b
+9
+
+
+
+t
+#
+}
+M
+T
+
+
+
+seriesComplete42&
+seriesComplete14
+seriesComplete35
+seriesComplete18(
+seriesComplete23
+seriesComplete7+
+seriesComplete6
+seriesComplete38	
+seriesComplete19
+seriesComplete34
+seriesComplete40!
+seriesComplete39
+rareCollected
+seriesComplete32$
+foilCollected
+seriesComplete17
+seriesComplete8'
+seriesComplete29
+seriesComplete5
+seriesComplete9)
+SeriesComplete15
+seriesComplete10,
+seriesComplete21
+seriesComplete4
+
+seriesComplete44
+seriesComplete3
+
+seriesComplete37"
+seriesComplete25
+seriesComplete12
+seriesComplete13%
+seriesComplete22
+seriesComplete2
+seriesComplete24
+seriesComplete41*
+seriesComplete28
+seriesComplete16
+auctionWon-
+SeriesComplete27
+firstStampel
+seriesComplete26 
+seriesComplete20
+seriesComplete31
+seriesComplete43#
+seriesComplete30
+-	seriesComplete36
+1!67R
+
+1!C>
+1! 9
+1!JF
+1!	ox']p
+
+1!FzL
+
+TrV,
+
+1!.z(>
+U	4EEF783C-7E22-4866-B099-00B8CFD0784A
+	#		
+1!;a
+
+1!yC
+,B
+	
+rareCollectedhttp://is4.mzstatic.com/image/thumb/Purple6/v4/b8/2e/24/b82e242e-3f19-66b7-801f-07656166fb84/mzl.onphqikg.png/{w}x{h}bb.png
+seriesComplete31http://is2.mzstatic.com/image/thumb/Purple4/v4/02/05/ae/0205ae56-c106-92a9-a25d-6549c5ffc18f/mzl.tvjwpetq.png/{w}x{h}bb.png
+seriesComplete3http://is4.mzstatic.com/image/thumb/Purple6/v4/68/6a/86/686a86ae-ae59-558a-8fc5-d4e11be1b5dc/mzl.qbknofub.png/{w}x{h}bb.png
+seriesComplete19http://is5.mzstatic.com/image/thumb/Purple4/v4/69/48/b1/6948b195-a99f-6b2a-d2f8-9b52349b2496/mzl.gldciwnh.png/{w}x{h}bb.png
+firstStampelhttp://is4.mzstatic.com/image/thumb/Purple4/v4/35/01/64/35016445-d961-d149-c1e6-7cce2d55eeb9/mzl.qlodvxvb.png/{w}x{h}bb.png
+seriesComplete4http://is4.mzstatic.com/image/thumb/Purple6/v4/ae/e6/3f/aee63f92-6a18-d62c-11e8-184c7b7cd411/mzl.fpckqenk.png/{w}x{h}bb.png
+Commercial fish series completeseriesComplete38http://is3.mzstatic.com/image/thumb/Purple6/v4/49/e7/06/49e706a5-a4dd-c0bf-0fff-db1b3bf99e99/mzl.bwisgtpd.png/{w}x{h}bb.pngCommercial fishCommercial fish
+seriesComplete16http://is2.mzstatic.com/image/thumb/Purple/v4/5c/86/a0/5c86a04a-5509-4d8c-f1c8-3e2d9d101461/mzl.vxugmtnv.png/{w}x{h}bb.png
+seriesComplete23http://is2.mzstatic.com/image/thumb/Purple6/v4/2a/47/d5/2a47d5e3-d87a-e2a3-5eab-783b409d011c/mzl.mesnsvkm.png/{w}x{h}bb.png
+seriesComplete24http://is3.mzstatic.com/image/thumb/Purple4/v4/10/f4/b5/10f4b54d-2420-32b9-3af5-8df4df46115a/mzl.jqwmtjxn.png/{w}x{h}bb.png
+seriesComplete5http://is3.mzstatic.com/image/thumb/Purple/v4/e3/09/c7/e309c721-3385-28fe-0367-c2607efd9b1c/mzl.wbpaeyxt.png/{w}x{h}bb.png
+Helicopters series completeseriesComplete35http://is2.mzstatic.com/image/thumb/Purple/v4/10/74/c3/1074c30b-a6dc-2568-fb72-0a08a1397b20/mzl.leyjunez.png/{w}x{h}bb.pngHelicoptersHelicopters
+seriesComplete22http://is5.mzstatic.com/image/thumb/Purple6/v4/b8/4e/99/b84e99c2-7839-372f-bbb4-e932348d21f3/mzl.sqiqocqf.png/{w}x{h}bb.png
+seriesComplete17http://is2.mzstatic.com/image/thumb/Purple4/v4/fc/73/a2/fc73a2d6-fe71-ec35-4171-1c333b062b9f/mzl.dntkbbgk.png/{w}x{h}bb.png
+The first Russian Stamps collectedseriesComplete36http://is1.mzstatic.com/image/thumb/Purple6/v4/9e/36/3e/9e363e71-43ed-d7e5-fd94-2fa231afa0ee/mzl.ghttikby.png/{w}x{h}bb.pngThe first Russian StampsThe first Russian Stamps
+1!n;
+seriesComplete14http://is2.mzstatic.com/image/thumb/Purple/v4/5d/61/0f/5d610f81-e373-979b-1a5d-a82878ded295/mzl.ouhanavh.png/{w}x{h}bb.png
+seriesComplete6http://is5.mzstatic.com/image/thumb/Purple6/v4/16/43/e4/1643e4c2-9e21-6fe7-49a9-1a77fdb84adf/mzl.klccgxuy.png/{w}x{h}bb.png
+Cats series completeseriesComplete39http://is2.mzstatic.com/image/thumb/Purple6/v4/77/44/7f/77447fa1-f915-6fbd-ed47-1a49c40cabd8/mzl.msrhezdz.png/{w}x{h}bb.pngCatsCatsX
+Moscow views series completeseriesComplete44http://is1.mzstatic.com/image/thumb/Purple6/v4/9a/ad/37/9aad378c-ce2d-fc7c-c3c3-585154608530/mzl.ekhdtorw.png/{w}x{h}bb.pngMoscow viewsMoscow views
+seriesComplete34http://is3.mzstatic.com/image/thumb/Purple6/v4/7a/fb/c7/7afbc7b3-9869-0d1a-607e-3e3715786ff6/mzl.hbjljfsl.png/{w}x{h}bb.png
+SeriesComplete27http://is5.mzstatic.com/image/thumb/Purple/v4/2d/0d/5a/2d0d5a13-82ee-0de4-b22a-ff4842ba4730/mzl.hjagthsh.png/{w}x{h}bb.png
+seriesComplete21http://is5.mzstatic.com/image/thumb/Purple4/v4/76/89/48/7689481e-2035-3cf5-74b8-7873ddd258fe/mzl.juererce.png/{w}x{h}bb.png
+seriesComplete28http://is1.mzstatic.com/image/thumb/Purple/v4/27/d3/21/27d321df-231c-aa6d-ba3e-4ae68c79d793/mzl.kfzmhekw.png/{w}x{h}bb.png
+SeriesComplete15http://is1.mzstatic.com/image/thumb/Purple6/v4/b6/0c/a8/b60ca89d-317c-3d0d-1085-4e49aa586842/mzl.wzygikov.png/{w}x{h}bb.png
+.seriesComplete2http://is4.mzstatic.com/image/thumb/Purple6/v4/38/96/fe/3896fe55-33ea-c8a5-fbbb-4c4602d46904/mzl.qgchiamr.png/{w}x{h}bb.png
+seriesComplete29http://is2.mzstatic.com/image/thumb/Purple6/v4/e6/ef/b2/e6efb2d7-4743-e2c9-f780-fb34512a833a/mzl.mrwnzmmb.png/{w}x{h}bb.png
+seriesComplete12http://is4.mzstatic.com/image/thumb/Purple/v4/9a/b4/dd/9ab4dd1f-c755-f08a-bac7-6f8394f74f4e/mzl.svaglusl.png/{w}x{h}bb.png
+foilCollectedhttp://is5.mzstatic.com/image/thumb/Purple6/v4/be/7c/68/be7c6851-c929-4ccf-177b-f558fb8b997b/mzl.dlwwbfpa.png/{w}x{h}bb.png
+seriesComplete30http://is4.mzstatic.com/image/thumb/Purple4/v4/ea/12/5f/ea125f00-997c-261f-18b0-adac02a82d5c/mzl.fjeahmii.png/{w}x{h}bb.png
+seriesComplete25http://is5.mzstatic.com/image/thumb/Purple4/v4/ed/65/93/ed659306-0b0f-e69f-6125-95460fdc1d13/mzl.rzuezdap.png/{w}x{h}bb.png
+1!Yaq
+
+U
+n
+Battle ships series completeseriesComplete42http://is3.mzstatic.com/image/thumb/Purple/v4/b2/76/2a/b2762a2c-d005-90ec-7dd0-55bad7223092/mzl.vnxsdqpu.png/{w}x{h}bb.pngBattle shipsBattle shipse
+seriesComplete20http://is2.mzstatic.com/image/thumb/Purple4/v4/db/bb/1e/dbbb1e26-c10e-109e-b4d2-d84c12e9e9e7/mzl.cqqkovdo.png/{w}x{h}bb.png
+seriesComplete18http://is3.mzstatic.com/image/thumb/Purple6/v4/c7/84/27/c78427fb-f292-7db7-1843-b79b1d3faa31/mzl.uognxtek.png/{w}x{h}bb.png
+.seriesComplete7http://is4.mzstatic.com/image/thumb/Purple/v4/0e/5d/78/0e5d781c-8444-3e98-7b29-354f86c006d5/mzl.mpxepnxt.png/{w}x{h}bb.png
+Dogs series completeseriesComplete37http://is4.mzstatic.com/image/thumb/Purple4/v4/7d/30/0b/7d300bc2-f12e-b7f4-c216-f3c9e6798734/mzl.qikuaibo.png/{w}x{h}bb.pngDogs seriesDogs series completem!
+Football word champ series completeseriesComplete40http://is3.mzstatic.com/image/thumb/Purple4/v4/cf/cb/85/cfcb85cc-c828-994c-de76-ea712768f8f7/mzl.nvahwrbb.png/{w}x{h}bb.pngFootball word champFootball word champ
+seriesComplete26http://is1.mzstatic.com/image/thumb/Purple/v4/86/06/57/860657fc-cec5-8e1a-f5af-c629624bd8ce/mzl.jcwbnqdb.png/{w}x{h}bb.png
+auctionWonhttp://is2.mzstatic.com/image/thumb/Purple6/v4/a8/28/95/a8289528-759d-9589-e1cf-bfc6488f8851/mzl.lpabqjja.png/{w}x{h}bb.png
+ 1960 
+. - 
+seriesComplete10http://is2.mzstatic.com/image/thumb/Purple/v4/50/c4/1e/50c41e3c-080e-a577-43ab-01845361178e/mzl.icdfudsm.png/{w}x{h}bb.png
+Hockey world cup series completeseriesComplete41http://is2.mzstatic.com/image/thumb/Purple4/v4/9d/e1/ed/9de1ed4f-1748-e47b-8790-1c20fe31caa6/mzl.kbeewwaj.png/{w}x{h}bb.pngHockey world cupHockey world cup`)
+seriesComplete9http://is2.mzstatic.com/image/thumb/Purple6/v4/9e/61/ea/9e61ea53-4ba4-fd03-eb36-2ec027d5848d/mzl.hcqbsplb.png/{w}x{h}bb.png
+seriesComplete8http://is3.mzstatic.com/image/thumb/Purple6/v4/0b/2d/b3/0b2db3a1-b514-dc46-0fd2-bdb1c2a5660e/mzl.nzfyoseo.png/{w}x{h}bb.png
+seriesComplete13http://is1.mzstatic.com/image/thumb/Purple/v4/d6/79/40/d67940d6-9a1f-0c74-25b6-3a5b4d28a8a4/mzl.idgqfoon.png/{w}x{h}bb.png
+seriesComplete32http://is4.mzstatic.com/image/thumb/Purple/v4/e8/f8/23/e8f823ea-9126-391b-f9bf-0fb3f607a1ac/mzl.vampuval.png/{w}x{h}bb.png
+Research vessel series completeseriesComplete43http://is5.mzstatic.com/image/thumb/Purple/v4/ba/a4/45/baa445a3-109e-faaf-1a7d-1d776cbf9285/mzl.wdsdvhlt.png/{w}x{h}bb.pngResearch vesselResearch vessel
+1!Sl)P
+]^
+
+
+8
+%
+
+lS>%
+CompatibilityMatrixShortVersionm
+GKCDFriendCodeDetail
+GamesPlayed
+G
+CompatibilityMatrixVersionm
+1!A7Nx
+
+?
+ZF
+com.gma.water.sort.puzzle*
+1!$Sz)
+
+com.gma.water.sort.puzzle0805D4C7-22C7-4C2F-8AB2-22076B1813EC3.0.2383l
+:q	
+	
+3.0.23
+-1
+l
+1!0B@
+
+IEC GLOBAL PTY LTDcom.gma.water.sort.puzzle83com.gma.water.sort.puzzle.level_leaderboardWater Sort PuzzleGET3.0.23https://apps.apple.com/us/app/water-sort-puzzle/id1514542157iOShttps://apps.apple.com/us/app/water-sort-puzzle/id1514542157~
+1!#*AT
+
+1!CF}M
+
+eEO
+
+com.gma.water.sort.puzzle$
+	O^
+
+1!'Ln
+1!6%
+1!- c
+
+oSL
+
+yA:_624127d3e28775cf0e6237c4e0fb7456T:_4c2c6fa0208dfad069bfcb8fb19650ddw
+U:a3b375ee71aa52268a135b8e74d20105
+1!3YS'k
+
+?%ZF
+com.gma.water.sort.puzzle3
+1!g?]c
+
+epbentley0107@gmail.comDarkest Meerkat 0107PatrickA:_624127d3e28775cf0e6237c4e0fb7456Bentleycom.gma.water.sort.puzzleU:a3b375ee71aa52268a135b8e74d20105T:_4c2c6fa0208dfad069bfcb8fb19650dd
+1!j#Y4
+
+1!Tf
+com.gma.water.sort.puzzle
+com.gma.water.sort.puzzle833.0.23
+1!FY
+1!TY
+1!NpAOg^
+
+1!RJ!
+1!j*\
+
+1!3S+
+1!	ic^
+
+x~~~
+
+0|1
+1!F8.
+
+1!Uqw
+1!$G3b'K
+
+1!HK
+
+vXE-
+LeaderboardSet
+Leaderboard
+1!jKA%
+
+com.gma.water.sort.puzzle.level_leaderboardcom.gma.water.sort.puzzle.level_leaderboardLevelC92F0782-5AFC-49C5-AE64-AAD81FA2935Dclassic}
+1!H~1
+
+
+97C16B4C-5875-45F9-BEF8-DB20226E31DBA
+1!?*mW
+
+com.gma.water.sort.puzzle.level_leaderboard
+
+Lpbentley0107@gmail.comDarkest Meerkat 0107PatrickA:_624127d3e28775cf0e6237c4e0fb7456Bentleycom.gma.water.sort.puzzleU:a3b375ee71aa52268a135b8e74d20105T:_4c2c6fa0208dfad069bfcb8fb19650dd
+1!AJ
+*~XA
+
+1!"%%
+
+C92F0782-5AFC-49C5-AE64-AAD81FA2935D
+1!hg+k
+=}2
+
+1!!/pSAf
+
+1!iN~8[k
+
+1!i(-
+1!
+m
+"DE
+
+UFA:_f27f493afedb652d5c3d1b3ea97a1ff0T:_6da59d143419c5fcb9023c7834bacc9fw
+yA:_624127d3e28775cf0e6237c4e0fb7456T:_4c2c6fa0208dfad069bfcb8fb19650dd
+/#K"
+
+
+Lpbentley0107@gmail.comDarkest Meerkat 0107PatrickA:_f27f493afedb652d5c3d1b3ea97a1ff0Bentleyru.appscraft.CollectorGameU:a3b375ee71aa52268a135b8e74d20105T:_6da59d143419c5fcb9023c7834bacc9f

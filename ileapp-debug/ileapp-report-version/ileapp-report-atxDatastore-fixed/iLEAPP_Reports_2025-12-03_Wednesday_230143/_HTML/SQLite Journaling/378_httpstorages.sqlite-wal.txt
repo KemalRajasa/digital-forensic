@@ -1,0 +1,47 @@
+"R
+:V	
+"R
+:V>Lz$5SQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+"R
+:V~$
+9'E$
+"R
+:V
+"R
+:Vy
+nonecom.crashlytics.firebase-settingsfirebase-settings.crashlytics.com
+"R
+:VF
+		nonecom.crashlytics.firebase-settings
+"R
+:VX
+aNz[
+"R
+:VZJE3
+nonecom.crashlytics.firebase-settings
+"R
+:Vm
+@SQLite format 3
+"R
+:Vt
+S|@L-
+
+"R
+:V*{1
+
+ea&a[
+"R
+:V2
+7%s*SQLite format 3
+"R
+:Vv0.,P
+
+"R
+:V}
+WT@5
+

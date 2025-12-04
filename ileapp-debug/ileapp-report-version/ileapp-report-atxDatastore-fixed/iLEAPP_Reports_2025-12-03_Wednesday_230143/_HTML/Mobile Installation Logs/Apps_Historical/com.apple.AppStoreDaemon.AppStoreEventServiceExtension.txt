@@ -1,0 +1,1 @@
+2022-01-06 17:41:17 Made container live com.apple.AppStoreDaemon.AppStoreEventServiceExtension /private/var/mobile/Containers/Data/PluginKitPlugin/F76E4C19-1E00-4554-8553-A107FAEAF547

@@ -1,0 +1,179 @@
+!ZiCs>A$il)
+!ZiCs
+E=L%]SQLite format 3
+.S`
+
+}tablealt_servicesalt_services
+CREATE TABLE alt_services (        partition text NOT NULL,        host text NOT NULL,        alternateHost text NOT NULL,        port int NOT NULL,        alternatePort int NOT NULL,        type int NOT NULL,        creation_time int,        expires_time int,        UNIQUE(partition, host, port, type)        )7
+indexsqlite_autoindex_alt_services_1alt_services
+!ZiCsN(t
+!ZiCs;w
+
+!ZiCsK!{
+
+!ZiCsbS
+nonecom.facebook.graphgraph.facebook.com
+a1a?
+!ZiCsAdXo
+
+		nonecom.facebook.graph
+!ZiCsm
+ea1a?=
+!ZiCs%^
+
+nonecom.facebook.graph
+nonecom.unity3d.cloud.uca.configconfig.uca.cloud.unity3d.com
+a1al
+!ZiCs]:Az
+nonecom.unity3d.cloud.uca.config
+ea1al
+nonecom.unity3d.cloud.cdpcdp.cloud.unity3d.com
+!ZiCslT
+
+nonecom.unity3d.cloud.cdp
+!ZiCsq	
+!ZiCs	1&h
+
+nonecom.google.scriptscript.google.com
+!ZiCsq[\Q
+
+nonecom.google.script
+!ZiCsD*
+!ZiCs!q
+nonecom.googleusercontent.scriptscript.googleusercontent.com
+!ZiCs#
+nonecom.googleusercontent.script
+!ZiCsOX
+
+
+}
+(
+!ZiCs@d[
+
+!ZiCsj
+G,~
+
+
+
+}
+(
+nonenet.fbcdn.xx.scontent-bos3-1scontent-bos3-1.xx.fbcdn.net
+a1a?S
+	
+nonenet.fbcdn.xx.scontent-bos3-1
+/.Yg
+
+
+
+}
+(
+ea1a?Q	
+!ZiCsxxKR
+!ZiCs@`{
+
+
+}
+(?
+nonecom.chartboost.livelive.chartboost.com
+!ZiCs1
+nonecom.chartboost.live
+!ZiCs#wT0
+
+
+
+}
+(?
+!ZiCs
+V-b
+
+!ZiCs;_@
+
+
+}
+(?
+noneinfo.pubnativepubnative.info
+noneinfo.pubnative
+
+
+}
+(?
+ea1a
+!ZiCs.
+!ZiCs$
+
+
+}
+(?Q
+nonecom.facebook.webweb.facebook.com
+a1a?7
+-V/
+
+nonecom.facebook.web
++uQ
+
+
+
+}
+(?Q
+ea1a?9
+!ZiCs%$\M
+
+!ZiCsj[_
+
+nonecom.unity3d.unityads.publisher-configpublisher-config.unityads.unity3d.com
+!ZiCsLim
+
+F
+
+
+nonecom.unity3d.unityads.publisher-config
+!ZiCs9R7Q
+!ZiCs1Ub-jT
+!ZiCs+Wrb
+
+
+
+H
+
+nonecom.app-measurementapp-measurement.com
+a1al!e
+!ZiCsA	1W
+
+nonecom.app-measurement
+ 3t.O
+
+ea1al!?
+!ZiCsxz
+w=#
+
+nonenet.doubleclick.g.googleadsgoogleads.g.doubleclick.net
+a1al"A
+!ZiCsQb3
+
+
+F
+
+
+nonenet.doubleclick.g.googleads
+!ZiCsy8)b
+
+		s	 
+ea1al"O
+Ao#
+
+
+F
+
+y
+!ZiCs*#
+
+nonecom.unity3d.internal.mz.prd.sdk-diagnosticssdk-diagnostics.prd.mz.internal.unity3d.com
+a1al3Q
+!ZiCsY
+nonecom.unity3d.internal.mz.prd.sdk-diagnostics
+!ZiCs("
+ea1al3o
+!ZiCsl
+
+{OT
+

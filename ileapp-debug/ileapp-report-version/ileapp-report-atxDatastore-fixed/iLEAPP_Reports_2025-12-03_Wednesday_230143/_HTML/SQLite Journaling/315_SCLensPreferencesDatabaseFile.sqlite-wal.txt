@@ -1,0 +1,59 @@
+Gh=z
+.T|SQLite format 3
+.S`
+
+Iindexdoc_manual_index_docprefitemnameGroup_1index_docprefitemnameGroup
+CREATE INDEX doc_manual_index_docprefitemnameGroup_1 ON index_docprefitemnameGroup (nameGroup)
+7tableindex_docprefitemnameGroupindex_docprefitemnameGroup
+CREATE TABLE index_docprefitemnameGroup (rowid INTEGER PRIMARY KEY, nameGroup STRING)P
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+Utabledocprefitemdocprefitem
+CREATE TABLE docprefitem (rowid INTEGER PRIMARY KEY AUTOINCREMENT, p BLOB, key STRING, UNIQUE (key))5
+indexsqlite_autoindex_docprefitem_1docprefitem
+SCLensDownloadTrackerContentCooldownEndDatesMapKey
+j,y
+q	SCLensDownloadTrackerContentCooldownEndDatesMapKey
+0+wO!
+
+#	docprefitem
+Gh=M
+Gh=A
+Gh=[ST
+
+SCLensDownloadTrackerContentDownloadDatesMapKey
+docprefitem
+fUz,
+Gh=8D=
+Gh=2T(
+SCLensCacheClearTrackerDateKey
+SCLensCacheClearTrackerDateKey|
+Gh=&2
+Gh=P/V,oc
+
+Gh=X
+Gh=y&	1@[
+
+TSAF
+SCLensDownloadTrackerContentCooldownEndDatesMapKeyZ
+Gh=g2k
+
+Gh=q^
+
+Gh=s|{
+
+SCLensPreferencesSubPickerActiveOptionIdsKey
+SCLensPreferencesSubPickerActiveOptionIdsKey;
+Gh=.)xfb
+Gh=-
+Gh= ^nm\&
+
+Gh==
+Gh=P
+Gh=
+sj
+
+Gh=.
+H
+Ig]
+

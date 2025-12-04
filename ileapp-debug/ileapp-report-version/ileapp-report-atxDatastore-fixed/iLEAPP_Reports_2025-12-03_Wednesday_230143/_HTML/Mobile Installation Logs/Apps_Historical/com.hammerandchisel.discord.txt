@@ -1,0 +1,12 @@
+2022-01-21 15:34:19 Data container moved com.hammerandchisel.discord /private/var/mobile/Containers/Data/Application/80C6D157-4E08-4C34-8A6F-FA3F7D5EE229
+2022-01-21 15:34:19 Made container live com.hammerandchisel.discord /private/var/containers/Bundle/Application/C51899EA-7648-4C1A-9C15-31982701749D
+2022-01-21 15:34:19 Install successful com.hammerandchisel.discord 
+2022-01-21 15:34:19 Data container moved com.hammerandchisel.discord /private/var/mobile/Containers/Data/Application/80C6D157-4E08-4C34-8A6F-FA3F7D5EE229
+2022-01-21 15:34:19 Made container live com.hammerandchisel.discord /private/var/containers/Bundle/Application/C51899EA-7648-4C1A-9C15-31982701749D
+2022-01-21 15:34:19 Install successful com.hammerandchisel.discord 
+2022-01-21 15:33:22 Made container live com.hammerandchisel.discord /private/var/mobile/Containers/Data/Application/02E12C43-2626-4E25-8C12-7BF1D20B81A1
+2022-01-21 15:33:22 Made container live com.hammerandchisel.discord /private/var/containers/Bundle/Application/7FB029A2-1E2D-4E54-BC18-60C19647EFB5
+2022-01-21 15:33:22 Install successful com.hammerandchisel.discord 
+2022-01-21 15:33:22 Made container live com.hammerandchisel.discord /private/var/mobile/Containers/Data/Application/02E12C43-2626-4E25-8C12-7BF1D20B81A1
+2022-01-21 15:33:22 Made container live com.hammerandchisel.discord /private/var/containers/Bundle/Application/7FB029A2-1E2D-4E54-BC18-60C19647EFB5
+2022-01-21 15:33:22 Install successful com.hammerandchisel.discord 

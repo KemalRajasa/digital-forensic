@@ -1,0 +1,23 @@
+﻿Property	Property Value
+SIMPhoneNumber	+19732941683
+LteDbHasDeploymentTypeKey	1
+EnableLTEAfterUpgrade	True
+Last Good IMSI	311480671810922
+Self Registration Update IMSI	311480671810922
+Self Registration Update IMEI	353219108442509
+Phone Number	19732941683
+EnhancedLQMDataTransferTimeRegistration	False
+com.apple.carrier_1	311480_GID2-A1
+EnhancedLQMDataStallRegistration	True
+EnhancedLQMLinkStateRegistration	True
+EnhancedLQMLinkQualityFingerPrintRegistration	True
+EnhancedLQMLinkPowerCostRegistration	True
+LastKnownICCID	89148000007077222202
+PhoneNumberChangeReport	True
+LastKnownServingMcc	311
+NetworkPhoneNumberICCID	89148000007077222202
+LastKnownServingMnc	480
+NetworkPhoneNumber	+19732941683
+LASDNextUpdate	2022-02-15 04:40:47.822475
+EnhancedLQMTrafficClassRegistration	True
+PhoneServices	{'Version': 1}

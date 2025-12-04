@@ -1,0 +1,12 @@
+2022-01-21 16:17:10 Data container moved ru.appscraft.CollectorGame /private/var/mobile/Containers/Data/Application/BB8E90B6-E561-4D4D-BC8C-A12067289D11
+2022-01-21 16:17:10 Made container live ru.appscraft.CollectorGame /private/var/containers/Bundle/Application/A742413C-8D39-4271-9681-73FBD1FD4EE2
+2022-01-21 16:17:10 Install successful ru.appscraft.CollectorGame 
+2022-01-21 16:17:10 Data container moved ru.appscraft.CollectorGame /private/var/mobile/Containers/Data/Application/BB8E90B6-E561-4D4D-BC8C-A12067289D11
+2022-01-21 16:17:10 Made container live ru.appscraft.CollectorGame /private/var/containers/Bundle/Application/A742413C-8D39-4271-9681-73FBD1FD4EE2
+2022-01-21 16:17:10 Install successful ru.appscraft.CollectorGame 
+2022-01-21 16:17:04 Made container live ru.appscraft.CollectorGame /private/var/mobile/Containers/Data/Application/BD47EB34-339F-45D7-A79C-E039F6AEE3CE
+2022-01-21 16:17:04 Made container live ru.appscraft.CollectorGame /private/var/containers/Bundle/Application/D2A9D0C3-2941-461D-8822-5702E5CD4105
+2022-01-21 16:17:04 Install successful ru.appscraft.CollectorGame 
+2022-01-21 16:17:04 Made container live ru.appscraft.CollectorGame /private/var/mobile/Containers/Data/Application/BD47EB34-339F-45D7-A79C-E039F6AEE3CE
+2022-01-21 16:17:04 Made container live ru.appscraft.CollectorGame /private/var/containers/Bundle/Application/D2A9D0C3-2941-461D-8822-5702E5CD4105
+2022-01-21 16:17:04 Install successful ru.appscraft.CollectorGame 

@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>iLEAPP - Network Usage (netusage) - Connections report</title>
+        <!-- Dark mode -->
+        <link rel="stylesheet" href="_elements/dark-mode.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="_elements/all.css">
+        <!-- Google Fonts Roboto -->
+        <link rel="stylesheet" href="_elements/Roboto.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/bootstrap.min.css">
+        <!-- Material Design Bootstrap - TOGGLE THIS FOR ALTERNATE DESIGN!-->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/mdb.min.css">
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="_elements/dashboard.css">
+        <link rel="stylesheet" href="_elements/chats.css">
+        
+        <!-- MDBootstrap Datatables  -->
+        <link rel="stylesheet" href="_elements/MDB-Free_4.13.0/css/addons/datatables.min.css" rel="stylesheet">
+
+        <!-- Icons -->
+        <!--script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script-->
+        <script src="_elements/feather.min.js"></script>
+    </head>
+    <body>
+
+    <!-- Start your project here-->
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">iLEAPP 2.3.0</a>
+        <div class="custom-control custom-switch">
+            <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+            <label class="custom-control-label mr-2" for="darkSwitch" style="color:white">Dark Switch</label>
+        </div>
+        <script src="_elements/dark-mode-switch.js"></script>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky" id="sidebar_id">
+                    <ul class="nav flex-column">
+
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Saved Reports
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="index.html">
+                <span data-feather="home"></span> Report Home
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Accounts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Account_Configuration.html">
+                <span data-feather="user"></span> Account Configuration
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Account_Data.html">
+                <span data-feather="user"></span> Account Data
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            App Permissions
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Permissions.html">
+                <span data-feather="key"></span> Application Permissions
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            App Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_App_Usage.html">
+                <span data-feather="activity"></span> knowledgeC - App Usage
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Apple Wallet
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="PK_Pass_-_Apple Cash.html">
+                <span data-feather="credit-card"></span> PK Pass - Apple Cash
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Biome
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Backlight.html">
+                <span data-feather="eye"></span> Biome - Backlight
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Device_Syncs.html">
+                <span data-feather="eye"></span> Biome - Device Syncs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Notifications.html">
+                <span data-feather="eye"></span> Biome - Notifications
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Now_Playing.html">
+                <span data-feather="eye"></span> Biome - Now Playing
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_Text_Input_Session.html">
+                <span data-feather="eye"></span> Biome - Text Input Session
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_-_User_Activity_Metadata.html">
+                <span data-feather="eye"></span> Biome - User Activity Metadata
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Biome_Intents_-_663528486816806.html">
+                <span data-feather="eye"></span> Biome Intents - 663528486816806
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Bluetooth
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bluetooth_Other_LE.html">
+                <span data-feather="bluetooth"></span> Bluetooth Other LE
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Browser
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WebKit_Cache_Records.html">
+                <span data-feather="alert-triangle"></span> WebKit Cache Records
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Bumble
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bumble_-_Account_Details.html">
+                <span data-feather="user"></span> Bumble - Account Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bumble_-_Messages.html">
+                <span data-feather="message-circle"></span> Bumble - Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Business
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Wire_Secure_Messenger_Account.html">
+                <span data-feather="user"></span> Wire Secure Messenger Account
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cache Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="fsCachedData.html">
+                <span data-feather="box"></span> fsCachedData
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Calendar
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_Birthdays.html">
+                <span data-feather="gift"></span> Calendar Birthdays
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_Events.html">
+                <span data-feather="calendar"></span> Calendar Events
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Calendar_List.html">
+                <span data-feather="calendar"></span> Calendar List
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Call History
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_History_-_Group_Call.html">
+                <span data-feather="phone-call"></span> Call History - Group Call
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Call_History.html">
+                <span data-feather="phone-call"></span> Call History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="interactionC_Call_History_-_Group_Call.html">
+                <span data-feather="phone-call"></span> interactionC Call History - Group Call
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cellular
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Cellular_Wireless.html">
+                <span data-feather="alert-triangle"></span> Cellular Wireless
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Clock
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Alarms.html">
+                <span data-feather="clock"></span> Alarms
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Timers.html">
+                <span data-feather="clock"></span> Timers
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WorldClock.html">
+                <span data-feather="clock"></span> WorldClock
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Cloudkit
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Note_Sharing.html">
+                <span data-feather="share-2"></span> Note Sharing
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Connected Devices
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Devices.html">
+                <span data-feather="smartphone"></span> Connected Devices
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Control Center
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Control_Center_Configuration.html">
+                <span data-feather="alert-triangle"></span> Control Center Configuration
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Core Accessories
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AccessoryD.html">
+                <span data-feather="zap"></span> AccessoryD
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="User_Event_Agent.html">
+                <span data-feather="activity"></span> User Event Agent
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Device Information
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Device_Information_-_Connected_Device_and_OS_History.html">
+                <span data-feather="smartphone"></span> Connected Device Information - Connected Device and OS History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Connected_Device_Information_-_Consolidated_Connected_Device_History.html">
+                <span data-feather="smartphone"></span> Connected Device Information - Consolidated Connected Device History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Device_Data.html">
+                <span data-feather="info"></span> Device Data
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Device Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Snapshot_lastUsedDate.html">
+                <span data-feather="smartphone"></span> Application Snapshot lastUsedDate
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_Snapshot.html">
+                <span data-feather="smartphone"></span> Application Snapshot
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Lock_Status.html">
+                <span data-feather="smartphone"></span> knowledgeC - Device Lock Status
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Screen_Status.html">
+                <span data-feather="smartphone"></span> knowledgeC - Device Screen Status
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Discord
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Discord_-_Chats.html">
+                <span data-feather="message-circle"></span> Discord - Chats
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Discord_Account.html">
+                <span data-feather="user"></span> Discord Account
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Files App
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_Files_stored_in_iCloud_Drive.html">
+                <span data-feather="cloud"></span> Files App - Files stored in iCloud Drive
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_Operating_System_Updates.html">
+                <span data-feather="refresh-cw"></span> Files App - Operating System Updates
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Files_App_-_iCloud_Application_List.html">
+                <span data-feather="package"></span> Files App - iCloud Application List
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Gmail
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Gmail_-_Label_Details.html">
+                <span data-feather="mail"></span> Gmail - Label Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Gmail_-_Offline_Search.html">
+                <span data-feather="search"></span> Gmail - Offline Search
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Health
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Health_-_Provenances.html">
+                <span data-feather="smartphone"></span> Health - Provenances
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Health_-_Steps.html">
+                <span data-feather="activity"></span> Health - Steps
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Health & Fitness
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AllTrails_-_Trail_Details.html">
+                <span data-feather="map"></span> AllTrails - Trail Details
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="AllTrails_-_User_Info.html">
+                <span data-feather="user"></span> AllTrails - User Info
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            IOS Build
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Information.html">
+                <span data-feather="git-commit"></span> iOS Information
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Identifiers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Backup_Settings.html">
+                <span data-feather="save"></span> Backup Settings
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Find_My_iPhone_Settings.html">
+                <span data-feather="settings"></span> Find My iPhone Settings
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="IMEI_-_IMSI.html">
+                <span data-feather="settings"></span> IMEI - IMSI
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Location_Services.html">
+                <span data-feather="navigation"></span> Location Services
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Obliterated_Time.html">
+                <span data-feather="settings"></span> Obliterated Time
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Preferences_PList.html">
+                <span data-feather="settings"></span> Preferences PList
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Subscriber_Info.html">
+                <span data-feather="settings"></span> Subscriber Info
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Timezone_Information.html">
+                <span data-feather="settings"></span> Timezone Information
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WIFI_Identifiers.html">
+                <span data-feather="settings"></span> WIFI Identifiers
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Message_Retention.html">
+                <span data-feather="message-circle"></span> iOS Message Retention
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Identity Lookup Service
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Identity_Lookup_Service.html">
+                <span data-feather="user-check"></span> Identity Lookup Service
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Installed Apps
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="App_Snapshots.html">
+                <span data-feather="package"></span> App Snapshots
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_State.html">
+                <span data-feather="package"></span> Application State
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Application_User_Defaults.html">
+                <span data-feather="package"></span> Application User Defaults
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Itunes_Metadata.html">
+                <span data-feather="package"></span> Apps - Itunes Metadata
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bundle_ID_by_AppGroup_&_PluginKit_IDs.html">
+                <span data-feather="package"></span> Bundle ID by AppGroup & PluginKit IDs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Installed_Apps_(storeUser).html">
+                <span data-feather="package"></span> Installed Apps (storeUser)
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Purchased_Apps_History_(storeUser).html">
+                <span data-feather="shopping-cart"></span> Purchased Apps History (storeUser)
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            InteractionC
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Contacts.html">
+                <span data-feather="user"></span> Contacts
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            KnowledgeC
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Battery_Percentage.html">
+                <span data-feather="battery"></span> knowledgeC - Battery Percentage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Device_Plugin_Status.html">
+                <span data-feather="battery-charging"></span> knowledgeC - Device Plugin Status
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="knowledgeC_-_Media_Playing.html">
+                <span data-feather="play-circle"></span> knowledgeC - Media Playing
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Location
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Applications.html">
+                <span data-feather="alert-triangle"></span> Applications
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Map_Tile_Cache.html">
+                <span data-feather="alert-triangle"></span> Map Tile Cache
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="PD_Place_Cache.html">
+                <span data-feather="alert-triangle"></span> PD Place Cache
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Location Services Configurations
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_clients.plist.html">
+                <span data-feather="settings"></span> LSC - clients.plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_com.apple.locationd.plist.html">
+                <span data-feather="settings"></span> LSC - com.apple.locationd.plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="LSC_-_com.apple.routined.plist.html">
+                <span data-feather="settings"></span> LSC - com.apple.routined.plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Locations
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_ATXDatastore.html">
+                <span data-feather="map-pin"></span> iOS ATXDatastore
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Activation Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Activation_Logs.html">
+                <span data-feather="clipboard"></span> Mobile Activation Logs
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Backup
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Backup.html">
+                <span data-feather="alert-triangle"></span> Mobile Backup
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Backup Plist
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Backup_plist.html">
+                <span data-feather="settings"></span> Mobile Backup plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Container Manager
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Mobile_Container_Manager.html">
+                <span data-feather="save"></span> Mobile Container Manager
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Mobile Installation Logs
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Historical_Combined.html">
+                <span data-feather="clipboard"></span> Apps - Historical Combined
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Historical.html">
+                <span data-feather="clipboard"></span> Apps - Historical
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Installed.html">
+                <span data-feather="clipboard"></span> Apps - Installed
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_-_Uninstalled.html">
+                <span data-feather="clipboard"></span> Apps - Uninstalled
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="State_-_Reboots.html">
+                <span data-feather="clipboard"></span> State - Reboots
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Network Usage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Data_Usage.html">
+                <span data-feather="send"></span> Data Usage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Network_Usage_(netusage)_-_App_Data.html">
+                <span data-feather="send"></span> Network Usage (netusage) - App Data
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link  active" href="Network_Usage_(netusage)_-_Connections.html">
+                <span data-feather="bar-chart"></span> Network Usage (netusage) - Connections
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Notes
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Notes.html">
+                <span data-feather="file-text"></span> Notes
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Notifications
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Notifications_Duet_-_663528487136197.html">
+                <span data-feather="bell"></span> Notifications Duet - 663528487136197
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="iOS_Notifications.html">
+                <span data-feather="bell"></span> iOS Notifications
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            OS Updates
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Migrations.html">
+                <span data-feather="chevrons-up"></span> Migrations
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos-Z-Settings
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph80-Com-Apple-MobileSlideshow-Plist.html">
+                <span data-feather="settings"></span> Ph80-Com-Apple-MobileSlideshow-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph81-Com-Apple-Camera-Plist.html">
+                <span data-feather="settings"></span> Ph81-Com-Apple-Camera-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph82-Com-Apple-MediaAnalysisD-Plist.html">
+                <span data-feather="book"></span> Ph82-Com-Apple-MediaAnalysisD-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph83-Com-Apple-PurpleBuddy-Plist.html">
+                <span data-feather="settings"></span> Ph83-Com-Apple-PurpleBuddy-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph85-accountsd-cloud-Service-Enable-Log-Plist.html">
+                <span data-feather="settings"></span> Ph85-accountsd-cloud-Service-Enable-Log-Plist
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph86-assetsd-cloud-Service-Enable-Log-Plist.html">
+                <span data-feather="settings"></span> Ph86-assetsd-cloud-Service-Enable-Log-Plist
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-A-Asset_Basic_Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph1.1-Asset_Basic_Data-PhDaPsql.html">
+                <span data-feather="image"></span> Ph1.1-Asset Basic Data-PhDaPsql
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph2.1-Asset_Basic_Data_&_GenAlbum_Data-PhDaPsql.html">
+                <span data-feather="image"></span> Ph2.1-Asset Basic Data & GenAlbum Data-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-C-Other_Artifacts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph10.1-Assets_have_embedded_files-PhDaPsql.html">
+                <span data-feather="file-plus"></span> Ph10.1-Assets have embedded files-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-D-Generic_Album_Records-NAD
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph20.1-Album_Records_NAD-PhDaPsql.html">
+                <span data-feather="book"></span> Ph20.1-Album Records NAD-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-H-Possible_User_Adjusted_Data
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph73.1-Possible_Adjust_Date-PhDaPsql.html">
+                <span data-feather="edit"></span> Ph73.1-Possible Adjust Date-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-I-Asset_IntResou-Optimization
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph50.1-Asset_IntResou-PhDaPsql.html">
+                <span data-feather="database"></span> Ph50.1-Asset IntResou-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-R-Reference_for_Asset_Analysis
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph95.1-iOS15_Ref_for_Asset_Analysis-PhDaPsql.html">
+                <span data-feather="database"></span> Ph95.1-iOS15 Ref for Asset Analysis-PhDaPsql
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Photos.sqlite-S-Syndication_PL_Artifacts
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph20.2-Album_Records_NAD-SyndPL.html">
+                <span data-feather="book"></span> Ph20.2-Album Records NAD-SyndPL
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph25.2-SWY_Conversation_Records_NAD-SyndPL.html">
+                <span data-feather="message-square"></span> Ph25.2-SWY Conversation Records NAD-SyndPL
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Ph50.2-Asset_IntResou-SyndPL.html">
+                <span data-feather="database"></span> Ph50.2-Asset IntResou-SyndPL
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SIM Info
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SIM_-_UUID.html">
+                <span data-feather="info"></span> SIM - UUID
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SIM_-_Unique_Label_Store.html">
+                <span data-feather="info"></span> SIM - Unique Label Store
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SMS & iMessage
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS_&_iMessage_-_Messages_(Threaded).html">
+                <span data-feather="message-square"></span> SMS & iMessage - Messages (Threaded)
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="SMS.html">
+                <span data-feather="message-square"></span> SMS
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            SQLite Journaling
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Strings_-_SQLite_Journal_&_WAL.html">
+                <span data-feather="book-open"></span> Strings - SQLite Journal & WAL
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Safari Browser
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Bookmarks.html">
+                <span data-feather="compass"></span> Bookmarks
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Favicons.html">
+                <span data-feather="compass"></span> Favicons
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Recent_WebSearches.html">
+                <span data-feather="compass"></span> Recent WebSearches
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Safari_Browser_-_History.html">
+                <span data-feather="compass"></span> Safari Browser - History
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Safari_Browser_-_iCloud_Tabs.html">
+                <span data-feather="compass"></span> Safari Browser - iCloud Tabs
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Search_Terms.html">
+                <span data-feather="compass"></span> Search Terms
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Siri Remembers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Siri_Remembers_-_Calls.html">
+                <span data-feather="alert-triangle"></span> Siri Remembers - Calls
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Siri_Remembers_-_Messages.html">
+                <span data-feather="alert-triangle"></span> Siri Remembers - Messages
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Spotlight Searches
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="ParseCD_Cache.html">
+                <span data-feather="alert-triangle"></span> ParseCD Cache
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Sysdiagnose
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Sysdiagnose_-_Shutdown_Log_Processes.html">
+                <span data-feather="loader"></span> Sysdiagnose - Shutdown Log Processes
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Sysdiagnose_-_Shutdown_Log_Reboots.html">
+                <span data-feather="refresh-cw"></span> Sysdiagnose - Shutdown Log Reboots
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            Trusted Peers
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Trusted_Peers.html">
+                <span data-feather="alert-triangle"></span> Trusted Peers
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            User Activity
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Application_Usage.html">
+                <span data-feather="alert-triangle"></span> Keyboard Application Usage
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Dynamic_Lexicon.html">
+                <span data-feather="alert-triangle"></span> Keyboard Dynamic Lexicon
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Keyboard_Usage_Stats.html">
+                <span data-feather="alert-triangle"></span> Keyboard Usage Stats
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            WiFi Connections
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_BSS_List.html">
+                <span data-feather="wifi"></span> WiFi BSS List
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_Known_Networks_Info.html">
+                <span data-feather="wifi"></span> WiFi Known Networks Info
+            </a>
+        </li>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="WiFi_Known_Networks_Times.html">
+                <span data-feather="wifi"></span> WiFi Known Networks Times
+            </a>
+        </li>
+        
+        <h6 class="sidebar-heading justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+            iOS Screens
+        </h6>
+        
+        <li class="nav-item">
+            <a class="nav-link " href="Apps_per_screen.html">
+                <span data-feather="maximize"></span> Apps per screen
+            </a>
+        </li>
+        
+    <script>
+        feather.replace();
+        var element = document.getElementById("sidebar_id");
+        var searchParams = new URLSearchParams(window.location.search);
+        if (searchParams.has('navpos')) {
+            var nav_pos = parseInt(searchParams.get('navpos'));
+            if (!isNaN(nav_pos))
+                element.scrollTop = nav_pos;
+        }
+    </script>
+
+                    </ul>
+                    <br /><br />
+                </div>
+            </nav>
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+                <div class="justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <img src="_elements/iLEAPP_banner.png" alt="iLEAPP banner">
+                    <h3 class="display-5">Network Usage (netusage) - Connections report</h1>
+                    <h6 class="animated fadeIn mb-3"></h6>
+                </div>
+
+                <div id="mySpinner" class="spinner-border text-info float-right" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+<h6>Total number of entries: 222</h6><p class="lead">Network Usage (netusage) - Connections located at: /home/rjskali/forensic/ileapp_report3/iLEAPP_Reports_2025-12-03_Wednesday_230143/data/private/var/networkd/db/netusage.sqlite</p><br /><div class='table-responsive'><table id="dtBasicExample" class="table table-striped table-bordered table-xsm" cellspacing="0" ><thead><tr><th class="th-sm">First Connection Timestamp</th><th class="th-sm">Last Connection Timestamp</th><th class="th-sm">Network Name</th><th class="th-sm">Cell Tower ID/Wifi MAC</th><th class="th-sm">Network Type</th><th class="th-sm">Bytes In</th><th class="th-sm">Bytes Out</th><th class="th-sm">Connection Attempts</th><th class="th-sm">Connection Successes</th><th class="th-sm">Packets In</th><th class="th-sm">Packets Out</th></tr></thead><tbody><tr><td>2022-01-10 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16986637</td><td>Cellular</td><td>4694771.0</td><td>1048486.0</td><td>219.0</td><td>216.0</td><td>4056.0</td><td>5636.0</td></tr><tr><td>2022-01-12 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16986646</td><td>Cellular</td><td>96762567.0</td><td>1413756.0</td><td>132.0</td><td>126.0</td><td>22589.0</td><td>18185.0</td></tr><tr><td>2022-01-12 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16986636</td><td>Cellular</td><td>148089474.0</td><td>1053200.0</td><td>105.0</td><td>97.0</td><td>19284.0</td><td>15781.0</td></tr><tr><td>2022-01-12 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16986647</td><td>Cellular</td><td>4112927.0</td><td>1312652.0</td><td>263.0</td><td>258.0</td><td>4030.0</td><td>5661.0</td></tr><tr><td>2022-01-14 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>16983555</td><td>Cellular</td><td>3204026.0</td><td>294200.0</td><td>93.0</td><td>90.0</td><td>1573.0</td><td>2268.0</td></tr><tr><td>2022-01-14 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16983586</td><td>Cellular</td><td>22097028.0</td><td>3374804.0</td><td>750.0</td><td>735.0</td><td>18381.0</td><td>24867.0</td></tr><tr><td>2022-01-14 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16983589</td><td>Cellular</td><td>131771737.0</td><td>4614764.0</td><td>422.0</td><td>417.0</td><td>40984.0</td><td>43089.0</td></tr><tr><td>2022-01-14 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17050661</td><td>Cellular</td><td>75147882.0</td><td>1533099.0</td><td>134.0</td><td>133.0</td><td>11502.0</td><td>10551.0</td></tr><tr><td>2022-01-14 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16983590</td><td>Cellular</td><td>11682535.0</td><td>1587136.0</td><td>304.0</td><td>290.0</td><td>8782.0</td><td>11042.0</td></tr><tr><td>2022-01-14 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16983587</td><td>Cellular</td><td>7723761.0</td><td>1299118.0</td><td>300.0</td><td>282.0</td><td>7277.0</td><td>9349.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17050659</td><td>Cellular</td><td>8485311.0</td><td>1382530.0</td><td>355.0</td><td>351.0</td><td>7499.0</td><td>10030.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-08 05:00:00+00:00</td><td>TFW</td><td>17051168</td><td>Cellular</td><td>16485462.0</td><td>2360796.0</td><td>384.0</td><td>383.0</td><td>10145.0</td><td>13459.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17051169</td><td>Cellular</td><td>13342681.0</td><td>428669.0</td><td>98.0</td><td>94.0</td><td>3424.0</td><td>4025.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17050657</td><td>Cellular</td><td>1147125.0</td><td>159693.0</td><td>33.0</td><td>33.0</td><td>819.0</td><td>1030.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16961571</td><td>Cellular</td><td>274840.0</td><td>48314.0</td><td>18.0</td><td>18.0</td><td>309.0</td><td>432.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>16958209</td><td>Cellular</td><td>14429.0</td><td>12994.0</td><td>2.0</td><td>2.0</td><td>44.0</td><td>98.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16961539</td><td>Cellular</td><td>403775.0</td><td>93808.0</td><td>29.0</td><td>29.0</td><td>492.0</td><td>713.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16961568</td><td>Cellular</td><td>768.0</td><td>1275.0</td><td>1.0</td><td>1.0</td><td>11.0</td><td>12.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16961570</td><td>Cellular</td><td>95054.0</td><td>32727.0</td><td>11.0</td><td>9.0</td><td>121.0</td><td>170.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17065239</td><td>Cellular</td><td>49127.0</td><td>9375.0</td><td>2.0</td><td>2.0</td><td>51.0</td><td>70.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16961550</td><td>Cellular</td><td>123163.0</td><td>41770.0</td><td>15.0</td><td>15.0</td><td>195.0</td><td>289.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16961549</td><td>Cellular</td><td>22507.0</td><td>18274.0</td><td>7.0</td><td>6.0</td><td>66.0</td><td>91.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16961548</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16959761</td><td>Cellular</td><td>5087.0</td><td>9350.0</td><td>4.0</td><td>1.0</td><td>12.0</td><td>51.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16961537</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16959758</td><td>Cellular</td><td>190073.0</td><td>31324.0</td><td>11.0</td><td>11.0</td><td>190.0</td><td>248.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16959757</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056033</td><td>Cellular</td><td>90204.0</td><td>48858.0</td><td>16.0</td><td>14.0</td><td>177.0</td><td>265.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056023</td><td>Cellular</td><td>203514.0</td><td>39993.0</td><td>14.0</td><td>13.0</td><td>189.0</td><td>285.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056034</td><td>Cellular</td><td>300268.0</td><td>59437.0</td><td>10.0</td><td>10.0</td><td>242.0</td><td>310.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17056003</td><td>Cellular</td><td>609770.0</td><td>153156.0</td><td>14.0</td><td>15.0</td><td>525.0</td><td>804.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056037</td><td>Cellular</td><td>5826175.0</td><td>293869.0</td><td>69.0</td><td>69.0</td><td>1751.0</td><td>2206.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056035</td><td>Cellular</td><td>5510293.0</td><td>508794.0</td><td>102.0</td><td>100.0</td><td>2695.0</td><td>3814.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056024</td><td>Cellular</td><td>61371.0</td><td>58573.0</td><td>8.0</td><td>7.0</td><td>155.0</td><td>272.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056025</td><td>Cellular</td><td>8347.0</td><td>6803.0</td><td>3.0</td><td>3.0</td><td>28.0</td><td>38.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>16958220</td><td>Cellular</td><td>5247.0</td><td>1404.0</td><td>0.0</td><td>0.0</td><td>11.0</td><td>10.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>16958223</td><td>Cellular</td><td>11255.0</td><td>10762.0</td><td>2.0</td><td>2.0</td><td>21.0</td><td>39.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16958233</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17069583</td><td>Cellular</td><td>7356.0</td><td>6157.0</td><td>2.0</td><td>2.0</td><td>18.0</td><td>27.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>16958231</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>16958232</td><td>Cellular</td><td>74301.0</td><td>25668.0</td><td>9.0</td><td>9.0</td><td>142.0</td><td>212.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>4950</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17051424</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17051414</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17050646</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>17050627</td><td>Cellular</td><td>14387731.0</td><td>663375.0</td><td>127.0</td><td>128.0</td><td>8443.0</td><td>5407.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17050658</td><td>Cellular</td><td>604809.0</td><td>126752.0</td><td>39.0</td><td>38.0</td><td>944.0</td><td>1171.0</td></tr><tr><td>2022-01-15 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17050656</td><td>Cellular</td><td>34543870.0</td><td>2462812.0</td><td>759.0</td><td>754.0</td><td>13816.0</td><td>18930.0</td></tr><tr><td>2022-01-16 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16958723</td><td>Cellular</td><td>0.0</td><td>40.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>1.0</td></tr><tr><td>2022-01-16 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17068556</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-16 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16962342</td><td>Cellular</td><td>4422.0</td><td>7957.0</td><td>1.0</td><td>1.0</td><td>23.0</td><td>32.0</td></tr><tr><td>2022-01-16 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056042</td><td>Cellular</td><td>8098.0</td><td>2249.0</td><td>1.0</td><td>1.0</td><td>19.0</td><td>21.0</td></tr><tr><td>2022-01-16 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16961551</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-16 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16962338</td><td>Cellular</td><td>0.0</td><td>76.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>1.0</td></tr><tr><td>2022-01-16 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17072662</td><td>Cellular</td><td>18765.0</td><td>12536.0</td><td>4.0</td><td>4.0</td><td>39.0</td><td>64.0</td></tr><tr><td>2022-01-16 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>17051464</td><td>Cellular</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>2022-01-18 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>16978968</td><td>Cellular</td><td>547.0</td><td>304.0</td><td>1.0</td><td>0.0</td><td>4.0</td><td>5.0</td></tr><tr><td>2022-01-18 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>16978978</td><td>Cellular</td><td>5951.0</td><td>1661.0</td><td>0.0</td><td>1.0</td><td>7.0</td><td>12.0</td></tr><tr><td>2022-01-18 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>16978976</td><td>Cellular</td><td>27826.0</td><td>7826.0</td><td>3.0</td><td>3.0</td><td>39.0</td><td>74.0</td></tr><tr><td>2022-01-18 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>16978977</td><td>Cellular</td><td>0.0</td><td>230.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>2.0</td></tr><tr><td>2022-01-18 05:00:00+00:00</td><td>2022-01-18 05:00:00+00:00</td><td>TFW</td><td>17051158</td><td>Cellular</td><td>376.0</td><td>296.0</td><td>0.0</td><td>0.0</td><td>4.0</td><td>4.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16983579</td><td>Cellular</td><td>2943344.0</td><td>556598.0</td><td>10.0</td><td>9.0</td><td>2404.0</td><td>3469.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17051434</td><td>Cellular</td><td>26041.0</td><td>7202.0</td><td>1.0</td><td>1.0</td><td>24.0</td><td>36.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16962336</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16958744</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17065248</td><td>Cellular</td><td>7426.0</td><td>6176.0</td><td>1.0</td><td>1.0</td><td>10.0</td><td>20.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17065250</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16958488</td><td>Cellular</td><td>503609.0</td><td>15902.0</td><td>1.0</td><td>1.0</td><td>161.0</td><td>139.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056002</td><td>Cellular</td><td>17178.0</td><td>8135.0</td><td>3.0</td><td>3.0</td><td>42.0</td><td>59.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056015</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17056027</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>16958230</td><td>Cellular</td><td>122846.0</td><td>14091.0</td><td>3.0</td><td>3.0</td><td>60.0</td><td>90.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>17069592</td><td>Cellular</td><td>8850.0</td><td>2393.0</td><td>1.0</td><td>1.0</td><td>23.0</td><td>21.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17069582</td><td>Cellular</td><td>11929.0</td><td>1921.0</td><td>1.0</td><td>1.0</td><td>13.0</td><td>19.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17069581</td><td>Cellular</td><td>6191.0</td><td>2025.0</td><td>1.0</td><td>1.0</td><td>9.0</td><td>16.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17069580</td><td>Cellular</td><td>50.0</td><td>196.0</td><td>0.0</td><td>0.0</td><td>2.0</td><td>3.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16983580</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>16983554</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>4864</td><td>Cellular</td><td>61976.0</td><td>16055.0</td><td>3.0</td><td>3.0</td><td>105.0</td><td>116.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>757</td><td>Cellular</td><td>17217.0</td><td>18007.0</td><td>3.0</td><td>3.0</td><td>40.0</td><td>88.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>196609</td><td>Cellular</td><td>5180.0</td><td>5802.0</td><td>1.0</td><td>1.0</td><td>17.0</td><td>22.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>193792</td><td>Cellular</td><td>8307.0</td><td>6421.0</td><td>1.0</td><td>1.0</td><td>33.0</td><td>41.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16961569</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17065229</td><td>Cellular</td><td>6534.0</td><td>2368.0</td><td>1.0</td><td>1.0</td><td>16.0</td><td>23.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>17065251</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16962307</td><td>Cellular</td><td>6790.0</td><td>1639.0</td><td>1.0</td><td>1.0</td><td>13.0</td><td>19.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-19 05:00:00+00:00</td><td>TFW</td><td>16962329</td><td>Cellular</td><td>1178.0</td><td>1740.0</td><td>2.0</td><td>1.0</td><td>8.0</td><td>12.0</td></tr><tr><td>2022-01-19 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16962306</td><td>Cellular</td><td>12463.0</td><td>4121.0</td><td>2.0</td><td>2.0</td><td>19.0</td><td>32.0</td></tr><tr><td>2022-01-21 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16958754</td><td>Cellular</td><td>45368.0</td><td>3440.0</td><td>1.0</td><td>1.0</td><td>38.0</td><td>44.0</td></tr><tr><td>2022-01-21 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16958755</td><td>Cellular</td><td>796.0</td><td>511.0</td><td>0.0</td><td>0.0</td><td>9.0</td><td>8.0</td></tr><tr><td>2022-01-21 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>Spinner Place</td><td>44:1E:98:43:CD:0C</td><td>Wifi</td><td>1902104897.0</td><td>40851860.0</td><td>1507.0</td><td>1492.0</td><td>245831.0</td><td>232089.0</td></tr><tr><td>2022-01-21 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16962339</td><td>Cellular</td><td>5054.0</td><td>2290.0</td><td>1.0</td><td>1.0</td><td>20.0</td><td>23.0</td></tr><tr><td>2022-01-21 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16962332</td><td>Cellular</td><td>551698.0</td><td>448167.0</td><td>7.0</td><td>7.0</td><td>346.0</td><td>543.0</td></tr><tr><td>2022-01-21 05:00:00+00:00</td><td>2022-01-21 05:00:00+00:00</td><td>TFW</td><td>16962326</td><td>Cellular</td><td>401.0</td><td>228.0</td><td>0.0</td><td>0.0</td><td>4.0</td><td>3.0</td></tr><tr><td>2022-02-03 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>38:17:C3:6C:9A:72</td><td>Wifi</td><td>5955640.0</td><td>1947865.0</td><td>343.0</td><td>340.0</td><td>10943.0</td><td>13459.0</td></tr><tr><td>2022-02-05 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>Philatelist_Connextion 2.4</td><td>00:16:FB:B2:B6:20</td><td>Wifi</td><td>1980463.0</td><td>8481553.0</td><td>15037.0</td><td>0.0</td><td>7081.0</td><td>130617.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D2:F0:72</td><td>Wifi</td><td>675730.0</td><td>90486.0</td><td>25.0</td><td>22.0</td><td>529.0</td><td>649.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D2:F1:12</td><td>Wifi</td><td>103414112.0</td><td>12892624745.0</td><td>857.0</td><td>845.0</td><td>52438.0</td><td>56723.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>38:17:C3:6B:2C:92</td><td>Wifi</td><td>2953.0</td><td>3375.0</td><td>14.0</td><td>0.0</td><td>13.0</td><td>51.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D3:4D:D2</td><td>Wifi</td><td>411.0</td><td>3399.0</td><td>0.0</td><td>0.0</td><td>1.0</td><td>53.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D3:5F:12</td><td>Wifi</td><td>7241.0</td><td>5207.0</td><td>23.0</td><td>0.0</td><td>24.0</td><td>79.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>16978979</td><td>Cellular</td><td>9390.0</td><td>8009.0</td><td>1.0</td><td>1.0</td><td>36.0</td><td>50.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>16978967</td><td>Cellular</td><td>411.0</td><td>1671.0</td><td>0.0</td><td>0.0</td><td>1.0</td><td>26.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>17051425</td><td>Cellular</td><td>3014.0</td><td>42662.0</td><td>74.0</td><td>0.0</td><td>10.0</td><td>665.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>17051415</td><td>Cellular</td><td>13070.0</td><td>5041.0</td><td>4.0</td><td>3.0</td><td>42.0</td><td>49.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>TFW</td><td>16958221</td><td>Cellular</td><td>2895477.0</td><td>517523.0</td><td>88.0</td><td>87.0</td><td>3919.0</td><td>4428.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:A9:F0</td><td>Wifi</td><td>441896.0</td><td>205321.0</td><td>28.0</td><td>28.0</td><td>941.0</td><td>1113.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16978966</td><td>Cellular</td><td>767315.0</td><td>311403.0</td><td>18.0</td><td>17.0</td><td>1246.0</td><td>1450.0</td></tr><tr><td>2022-02-06 05:00:00+00:00</td><td>2022-02-06 05:00:00+00:00</td><td>ChamplainPSK</td><td>38:17:C3:6C:0F:12</td><td>Wifi</td><td>30897.0</td><td>8421.0</td><td>1.0</td><td>1.0</td><td>55.0</td><td>59.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>38:17:C3:6C:DA:92</td><td>Wifi</td><td>836901.0</td><td>137002.0</td><td>24.0</td><td>24.0</td><td>1023.0</td><td>1205.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D3:5E:F2</td><td>Wifi</td><td>3459276.0</td><td>1013505.0</td><td>188.0</td><td>188.0</td><td>5155.0</td><td>6433.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D3:5F:02</td><td>Wifi</td><td>465338.0</td><td>48690.0</td><td>6.0</td><td>5.0</td><td>504.0</td><td>594.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>TFW</td><td>17050649</td><td>Cellular</td><td>2409641.0</td><td>193932.0</td><td>26.0</td><td>21.0</td><td>2284.0</td><td>2561.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AB:B3</td><td>Wifi</td><td>1194.0</td><td>962.0</td><td>0.0</td><td>0.0</td><td>16.0</td><td>14.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>94:B4:0F:2C:F1:E2</td><td>Wifi</td><td>7977587.0</td><td>444390.0</td><td>22.0</td><td>18.0</td><td>6837.0</td><td>7319.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>TFW</td><td>17052185</td><td>Cellular</td><td>169482.0</td><td>327958.0</td><td>31.0</td><td>31.0</td><td>493.0</td><td>754.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AA:03</td><td>Wifi</td><td>101261.0</td><td>2266371.0</td><td>15.0</td><td>14.0</td><td>1416.0</td><td>2449.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>17051465</td><td>Cellular</td><td>94619.0</td><td>37367.0</td><td>7.0</td><td>7.0</td><td>178.0</td><td>234.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D3:59:73</td><td>Wifi</td><td>26549.0</td><td>25408.0</td><td>47.0</td><td>1.0</td><td>72.0</td><td>371.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>B4:5D:50:60:E9:C3</td><td>Wifi</td><td>276372.0</td><td>40218.0</td><td>7.0</td><td>7.0</td><td>292.0</td><td>348.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>00:24:6C:10:37:93</td><td>Wifi</td><td>4025.0</td><td>3498.0</td><td>11.0</td><td>0.0</td><td>16.0</td><td>53.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>00:24:6C:0E:F9:0B</td><td>Wifi</td><td>6586.0</td><td>7692.0</td><td>32.0</td><td>0.0</td><td>24.0</td><td>118.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>00:24:6C:0E:F7:93</td><td>Wifi</td><td>0.0</td><td>13196.0</td><td>14.0</td><td>0.0</td><td>0.0</td><td>206.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AA:53</td><td>Wifi</td><td>6152.0</td><td>40059.0</td><td>72.0</td><td>0.0</td><td>18.0</td><td>622.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AA:A3</td><td>Wifi</td><td>21370.0</td><td>2259.0</td><td>1.0</td><td>1.0</td><td>22.0</td><td>23.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:C7:B3</td><td>Wifi</td><td>34755.0</td><td>8389.0</td><td>25.0</td><td>0.0</td><td>66.0</td><td>131.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>94:B4:0F:2C:F1:F2</td><td>Wifi</td><td>5701.0</td><td>33679.0</td><td>48.0</td><td>0.0</td><td>20.0</td><td>523.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>TFW</td><td>17051148</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>ChamplainPSK</td><td>24:DE:C6:BF:FE:F3</td><td>Wifi</td><td>0.0</td><td>1223.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>19.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>00:24:6C:29:AE:5C</td><td>Wifi</td><td>110089.0</td><td>389893.0</td><td>740.0</td><td>0.0</td><td>400.0</td><td>6025.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>24:DE:C6:BF:FE:FB</td><td>Wifi</td><td>20982.0</td><td>26916.0</td><td>3.0</td><td>3.0</td><td>91.0</td><td>118.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>24:DE:C6:BF:FF:7B</td><td>Wifi</td><td>43716.0</td><td>39651.0</td><td>7.0</td><td>7.0</td><td>152.0</td><td>201.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16978969</td><td>Cellular</td><td>5937.0</td><td>20727.0</td><td>39.0</td><td>0.0</td><td>22.0</td><td>322.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:A9:E0</td><td>Wifi</td><td>0.0</td><td>405.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>6.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-09 05:00:00+00:00</td><td>TFW</td><td>16978959</td><td>Cellular</td><td>1854.0</td><td>1409.0</td><td>4.0</td><td>0.0</td><td>8.0</td><td>20.0</td></tr><tr><td>2022-02-09 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>38:17:C3:6C:9A:62</td><td>Wifi</td><td>420.0</td><td>2008.0</td><td>2.0</td><td>0.0</td><td>1.0</td><td>30.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:A7:03</td><td>Wifi</td><td>5458.0</td><td>19467.0</td><td>41.0</td><td>0.0</td><td>11.0</td><td>304.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:A8:F0</td><td>Wifi</td><td>391.0</td><td>12568.0</td><td>20.0</td><td>0.0</td><td>2.0</td><td>197.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>00:24:6C:0E:F9:03</td><td>Wifi</td><td>4301.0</td><td>27631.0</td><td>44.0</td><td>0.0</td><td>15.0</td><td>430.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AA:83</td><td>Wifi</td><td>19541.0</td><td>78384.0</td><td>146.0</td><td>0.0</td><td>65.0</td><td>1200.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>18:64:72:84:BD:D3</td><td>Wifi</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>18:64:72:84:B1:F0</td><td>Wifi</td><td>16252.0</td><td>11283.0</td><td>26.0</td><td>0.0</td><td>46.0</td><td>98.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>18:64:72:84:BD:E3</td><td>Wifi</td><td>1867.0</td><td>19295.0</td><td>19.0</td><td>0.0</td><td>6.0</td><td>298.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>D8:C7:C8:E7:B3:BC</td><td>Wifi</td><td>17707.0</td><td>14905.0</td><td>2.0</td><td>2.0</td><td>67.0</td><td>88.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AE:23</td><td>Wifi</td><td>17069.0</td><td>72821.0</td><td>152.0</td><td>0.0</td><td>64.0</td><td>1128.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AB:D3</td><td>Wifi</td><td>90441.0</td><td>345918.0</td><td>717.0</td><td>0.0</td><td>334.0</td><td>5350.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AD:03</td><td>Wifi</td><td>14105.0</td><td>13632.0</td><td>2.0</td><td>2.0</td><td>49.0</td><td>68.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AD:13</td><td>Wifi</td><td>5643.0</td><td>26162.0</td><td>33.0</td><td>0.0</td><td>17.0</td><td>406.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AB:C3</td><td>Wifi</td><td>0.0</td><td>358.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>5.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>18:64:72:84:B5:D3</td><td>Wifi</td><td>14108.0</td><td>8372.0</td><td>24.0</td><td>2.0</td><td>55.0</td><td>108.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:A8:E0</td><td>Wifi</td><td>4106.0</td><td>1047.0</td><td>0.0</td><td>0.0</td><td>20.0</td><td>17.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:A7:13</td><td>Wifi</td><td>6146.0</td><td>3471.0</td><td>9.0</td><td>0.0</td><td>25.0</td><td>53.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AD:C3</td><td>Wifi</td><td>7623.0</td><td>61611.0</td><td>126.0</td><td>0.0</td><td>24.0</td><td>958.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AE:D3</td><td>Wifi</td><td>10907.0</td><td>5950.0</td><td>5.0</td><td>1.0</td><td>37.0</td><td>71.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AE:83</td><td>Wifi</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>AC:A3:1E:E2:AE:13</td><td>Wifi</td><td>411.0</td><td>397.0</td><td>1.0</td><td>0.0</td><td>1.0</td><td>6.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>18:64:72:84:BE:F0</td><td>Wifi</td><td>51574.0</td><td>206752.0</td><td>408.0</td><td>0.0</td><td>175.0</td><td>3203.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>4694</td><td>Cellular</td><td>5433.0</td><td>20927.0</td><td>46.0</td><td>0.0</td><td>18.0</td><td>325.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>153089</td><td>Cellular</td><td>794.0</td><td>1549.0</td><td>0.0</td><td>0.0</td><td>2.0</td><td>24.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>218625</td><td>Cellular</td><td>6454.0</td><td>15141.0</td><td>40.0</td><td>0.0</td><td>29.0</td><td>236.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>18:64:72:84:B1:E0</td><td>Wifi</td><td>4646.0</td><td>31663.0</td><td>39.0</td><td>0.0</td><td>19.0</td><td>491.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>00:24:6C:29:AE:54</td><td>Wifi</td><td>11868.0</td><td>63003.0</td><td>137.0</td><td>0.0</td><td>46.0</td><td>978.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>TFW</td><td>17069601</td><td>Cellular</td><td>5655.0</td><td>26788.0</td><td>53.0</td><td>0.0</td><td>21.0</td><td>417.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>6C:F3:7F:16:FB:8B</td><td>Wifi</td><td>5610.0</td><td>34062.0</td><td>70.0</td><td>0.0</td><td>22.0</td><td>531.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>00:24:6C:23:6D:AC</td><td>Wifi</td><td>17285.0</td><td>8378.0</td><td>27.0</td><td>0.0</td><td>49.0</td><td>113.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-10 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D3:5E:D2</td><td>Wifi</td><td>82171.0</td><td>298918.0</td><td>517.0</td><td>0.0</td><td>269.0</td><td>4640.0</td></tr><tr><td>2022-02-10 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:D3:5F:53</td><td>Wifi</td><td>3706.0</td><td>23456.0</td><td>43.0</td><td>0.0</td><td>13.0</td><td>365.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>ChamplainPSK</td><td>38:17:C3:6D:08:B2</td><td>Wifi</td><td>4626.0</td><td>40112.0</td><td>71.0</td><td>0.0</td><td>17.0</td><td>622.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>ChamplainPSK</td><td>C8:B5:AD:BA:33:52</td><td>Wifi</td><td>9608.0</td><td>4359.0</td><td>8.0</td><td>0.0</td><td>45.0</td><td>64.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17051159</td><td>Cellular</td><td>0.0</td><td>2020.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>31.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16978957</td><td>Cellular</td><td>2015.0</td><td>1559.0</td><td>2.0</td><td>0.0</td><td>6.0</td><td>23.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17053453</td><td>Cellular</td><td>2978.0</td><td>5437.0</td><td>14.0</td><td>0.0</td><td>12.0</td><td>84.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16978956</td><td>Cellular</td><td>1380.0</td><td>2007.0</td><td>9.0</td><td>0.0</td><td>5.0</td><td>30.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17068568</td><td>Cellular</td><td>0.0</td><td>92.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>1.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17072672</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16961561</td><td>Cellular</td><td>52973.0</td><td>114846.0</td><td>7.0</td><td>7.0</td><td>224.0</td><td>263.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16958489</td><td>Cellular</td><td>25732.0</td><td>48303.0</td><td>5.0</td><td>5.0</td><td>102.0</td><td>127.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17013250</td><td>Cellular</td><td>794.0</td><td>1485.0</td><td>0.0</td><td>0.0</td><td>2.0</td><td>23.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16964611</td><td>Cellular</td><td>4257.0</td><td>2339.0</td><td>1.0</td><td>1.0</td><td>21.0</td><td>26.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16964609</td><td>Cellular</td><td>19723.0</td><td>5716.0</td><td>9.0</td><td>2.0</td><td>37.0</td><td>65.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16956699</td><td>Cellular</td><td>44533.0</td><td>2202.0</td><td>1.0</td><td>1.0</td><td>17.0</td><td>23.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17000450</td><td>Cellular</td><td>10977.0</td><td>2821.0</td><td>1.0</td><td>1.0</td><td>19.0</td><td>29.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16955905</td><td>Cellular</td><td>6092.0</td><td>4588.0</td><td>11.0</td><td>0.0</td><td>32.0</td><td>72.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16967683</td><td>Cellular</td><td>1032.0</td><td>7695.0</td><td>15.0</td><td>0.0</td><td>4.0</td><td>119.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16967682</td><td>Cellular</td><td>4534.0</td><td>8786.0</td><td>17.0</td><td>0.0</td><td>21.0</td><td>135.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16963586</td><td>Cellular</td><td>146608.0</td><td>403482.0</td><td>732.0</td><td>2.0</td><td>533.0</td><td>6211.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17020930</td><td>Cellular</td><td>34022.0</td><td>65204.0</td><td>105.0</td><td>0.0</td><td>127.0</td><td>983.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17019906</td><td>Cellular</td><td>4099.0</td><td>4793.0</td><td>8.0</td><td>0.0</td><td>18.0</td><td>72.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16924161</td><td>Cellular</td><td>22474.0</td><td>6528.0</td><td>3.0</td><td>3.0</td><td>41.0</td><td>57.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16928769</td><td>Cellular</td><td>426.0</td><td>236.0</td><td>0.0</td><td>0.0</td><td>3.0</td><td>3.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16929026</td><td>Cellular</td><td>3374.0</td><td>1523.0</td><td>1.0</td><td>1.0</td><td>10.0</td><td>11.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16928023</td><td>Cellular</td><td>7056.0</td><td>4272.0</td><td>1.0</td><td>1.0</td><td>20.0</td><td>26.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16928002</td><td>Cellular</td><td>527.0</td><td>488.0</td><td>0.0</td><td>0.0</td><td>6.0</td><td>7.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>15792899</td><td>Cellular</td><td>3693.0</td><td>2072.0</td><td>1.0</td><td>1.0</td><td>11.0</td><td>17.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16989185</td><td>Cellular</td><td>4307.0</td><td>2316.0</td><td>1.0</td><td>1.0</td><td>15.0</td><td>20.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17002497</td><td>Cellular</td><td>10560.0</td><td>4004.0</td><td>2.0</td><td>2.0</td><td>29.0</td><td>37.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17005604</td><td>Cellular</td><td>1056.0</td><td>1056.0</td><td>2.0</td><td>1.0</td><td>8.0</td><td>8.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17005571</td><td>Cellular</td><td>126055.0</td><td>16557.0</td><td>7.0</td><td>8.0</td><td>126.0</td><td>182.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16947490</td><td>Cellular</td><td>4236.0</td><td>2331.0</td><td>1.0</td><td>1.0</td><td>17.0</td><td>21.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16947488</td><td>Cellular</td><td>120094.0</td><td>41367.0</td><td>14.0</td><td>14.0</td><td>201.0</td><td>278.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16930338</td><td>Cellular</td><td>106348.0</td><td>12931.0</td><td>4.0</td><td>4.0</td><td>96.0</td><td>128.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>17115140</td><td>Cellular</td><td>608.0</td><td>1182.0</td><td>0.0</td><td>0.0</td><td>7.0</td><td>17.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16918785</td><td>Cellular</td><td>44566.0</td><td>5003.0</td><td>1.0</td><td>1.0</td><td>54.0</td><td>58.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16920835</td><td>Cellular</td><td>8587.0</td><td>3787.0</td><td>2.0</td><td>2.0</td><td>32.0</td><td>34.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16918273</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-11 05:00:00+00:00</td><td>2022-02-11 05:00:00+00:00</td><td>TFW</td><td>16920864</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-12 05:00:00+00:00</td><td>2022-02-12 05:00:00+00:00</td><td>TFW</td><td>16917761</td><td>Cellular</td><td>3691.0</td><td>1756.0</td><td>1.0</td><td>1.0</td><td>12.0</td><td>15.0</td></tr><tr><td>2022-02-12 05:00:00+00:00</td><td>2022-02-12 05:00:00+00:00</td><td>TFW</td><td>16934422</td><td>Cellular</td><td>7434.0</td><td>1998.0</td><td>1.0</td><td>1.0</td><td>15.0</td><td>19.0</td></tr><tr><td>2022-02-12 05:00:00+00:00</td><td>2022-02-12 05:00:00+00:00</td><td>TFW</td><td>15124481</td><td>Cellular</td><td>44090.0</td><td>2503.0</td><td>1.0</td><td>1.0</td><td>21.0</td><td>27.0</td></tr><tr><td>2022-02-12 05:00:00+00:00</td><td>2022-02-12 05:00:00+00:00</td><td>TFW</td><td>16442113</td><td>Cellular</td><td>48.0</td><td>244.0</td><td>0.0</td><td>0.0</td><td>5.0</td><td>4.0</td></tr><tr><td>2022-02-12 05:00:00+00:00</td><td>2022-02-12 05:00:00+00:00</td><td>TFW</td><td>16582412</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-12 05:00:00+00:00</td><td>2022-02-12 05:00:00+00:00</td><td>TFW</td><td>16384771</td><td>Cellular</td><td>643.0</td><td>524.0</td><td>1.0</td><td>0.0</td><td>8.0</td><td>8.0</td></tr><tr><td>2022-02-12 05:00:00+00:00</td><td>2022-02-12 05:00:00+00:00</td><td>TFW</td><td>16409345</td><td>Cellular</td><td>16836.0</td><td>3582.0</td><td>2.0</td><td>2.0</td><td>33.0</td><td>35.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955854</td><td>Cellular</td><td>13998.0</td><td>3787.0</td><td>2.0</td><td>2.0</td><td>23.0</td><td>34.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955852</td><td>Cellular</td><td>6767.0</td><td>1933.0</td><td>1.0</td><td>1.0</td><td>19.0</td><td>19.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955874</td><td>Cellular</td><td>24.0</td><td>144.0</td><td>0.0</td><td>0.0</td><td>1.0</td><td>2.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955878</td><td>Cellular</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955877</td><td>Cellular</td><td>0.0</td><td>124.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>2.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955872</td><td>Cellular</td><td>15070.0</td><td>3803.0</td><td>2.0</td><td>2.0</td><td>28.0</td><td>36.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955858</td><td>Cellular</td><td>192.0</td><td>881.0</td><td>1.0</td><td>1.0</td><td>4.0</td><td>6.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955843</td><td>Cellular</td><td>12467.0</td><td>2817.0</td><td>1.0</td><td>1.0</td><td>15.0</td><td>24.0</td></tr><tr><td>2022-02-14 05:00:00+00:00</td><td>2022-02-14 05:00:00+00:00</td><td>TFW</td><td>29955841</td><td>Cellular</td><td>0.0</td><td>160.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td>2.0</td></tr></tbody><tfoot><tr><th>First Connection Timestamp</th><th>Last Connection Timestamp</th><th>Network Name</th><th>Cell Tower ID/Wifi MAC</th><th>Network Type</th><th>Bytes In</th><th>Bytes Out</th><th>Connection Attempts</th><th>Connection Successes</th><th>Packets In</th><th>Packets Out</th></tr></tfoot></table></div>
+            </main>
+        </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/bootstrap.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="_elements/MDB-Free_4.13.0/js/addons/datatables.min.js"></script>
+    <script>
+        feather.replace()
+    </script>
+
+    <script>
+        $(document).ready(function() {
+            $('.table').DataTable({
+                //"scrollY": "60vh",
+                //"scrollX": "10%",
+                //"scrollCollapse": true,
+                "aLengthMenu": [[ 15, 50, 100, -1 ], [ 15, 50, 100, "All" ]],
+            });
+            $('.dataTables_length').addClass('bs-select');
+            $('#mySpinner').remove();
+            //$('#infiniteLoading').remove();
+        });
+    </script>
+
+    <script>
+        var elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+        document.addEventListener("DOMContentLoaded", function() {
+            var element = document.getElementById("sidebar_id");
+            element.addEventListener("scroll", function() {
+                elemScrollTop = document.getElementById("sidebar_id").scrollTop.toString();
+            });
+        });
+        $('a.nav-link').click(function(e) {
+            e.preventDefault();
+            location.href = $(this).attr('href') + "?navpos=" + elemScrollTop;
+        });
+    </script>
+
+    </body>
+</html>

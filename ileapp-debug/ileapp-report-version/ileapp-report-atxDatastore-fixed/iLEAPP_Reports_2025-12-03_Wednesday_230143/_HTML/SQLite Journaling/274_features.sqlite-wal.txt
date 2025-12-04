@@ -1,0 +1,58 @@
+YP?
+
+snapshot
+ay
+n
+
+
+`	
+services.featuresservices.analytics.hotpanelbplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+#$%&'56789:DEFGHIJPQRSU$null
+
+ !"ZgroupOrderV$classXeditableUtitle[onByDefaultZidentifierSkeyWtoggledUgroupXuserInfo_
+parentFeatureKey
+XHotpanel_
+Analytics Providers
+services.analytics.hotpanel()
+*/4WNS.keysZNS.objects+,-.
+	
+0123
+analytics.maximum.poolsize_
+ global.services.hotpanel.options_
+analytics.maximum.timeout_
+global.services.hotpanel.url
+;?4<=>
+
+%global.services.hotpanel.dataCenterId_
+analytics.maximum.timeout
+xKLMNZ$classnameX$classes\NSDictionaryMOXNSObject
+.https://eu1.bumble.com/hotpanel/hotpanel.phtml_
+services.analyticsKLTUZBPFFeatureVOZBPFFeature
+services.featuresmox_ctaBoxScreenbplist00
+#$%&'-3U$null
+
+ZgroupOrderV$classXeditableUtitle[onByDefaultZidentifierSkeyWtoggledUgroupXuserInfo_
+^Cta Box Screen_
+Development features
+mox_ctaBoxScreen()
+*+,WNS.keysZNS.objects
+./01Z$classnameX$classes\NSDictionary02XNSObject./45ZBPFFeature62ZBPFFeature
+services.featuresservices.analyticsbplist00
+YAnalyticsXServices
+services.analytics()
+services.featuresbadoo.images.cachebplist00
+]Cache enabled]Image service
+badoo.images.cache()
+services.featuresmox.firsttimebplist00
+Show first time UI_
+Connections/Tutorial
+]mox.firsttime()
+services.featuresfeatures.app.whatsnewbplist00
+ZWhat's NewXServices
+features.app.whatsnew()
+w<	
+

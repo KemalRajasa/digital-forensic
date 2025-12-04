@@ -1,0 +1,6 @@
+SQLite format 3
+.S`
+
+&Sl!6
+itableWorkItemsWorkItems
+CREATE TABLE WorkItems (item BLOB, class TEXT)

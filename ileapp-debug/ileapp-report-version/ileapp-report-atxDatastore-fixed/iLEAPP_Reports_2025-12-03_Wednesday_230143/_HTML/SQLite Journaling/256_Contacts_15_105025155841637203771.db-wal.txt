@@ -1,0 +1,23 @@
+Jy
+
+
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+#)*U$null
+
+ContactsCountKeyV$class[ClientIDKey_
+CreationTimeKey_
+RefreshIntervalKey_
+InvalidateIntervalKey_
+ContactStorageShapeKey_
+AffinityVersionKey_
+ContainsPartialResultsKey
+#A2u
+!"WNS.time#A
+$%&'Z$classnameX$classesVNSDate&(XNSObject
+$%+,_
+PDLTopNCacheMetadata-(_
+PDLTopNCacheMetadata

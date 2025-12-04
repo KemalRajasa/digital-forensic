@@ -1,0 +1,25 @@
+SQLite format 3
+.S`
+
+)indexABFullSizeImageRecordIDIndexABFullSizeImage
+CREATE UNIQUE INDEX ABFullSizeImageRecordIDIndex ON ABFullSizeImage(record_id)
+7indexABImageRecordIDFormatIndexABThumbnailImage
+CREATE UNIQUE INDEX ABImageRecordIDFormatIndex ON ABThumbnailImage(record_id, format)5
+!tableABFullSizeImageABFullSizeImage
+CREATE TABLE ABFullSizeImage (ROWID INTEGER PRIMARY KEY, record_id INTEGER, crop_x INTEGER, crop_y INTEGER, crop_width INTEGER, data BLOB)1
+tableABThumbnailImageABThumbnailImage
+CREATE TABLE ABThumbnailImage (ROWID INTEGER PRIMARY KEY, record_id INTEGER, format INTEGER, derived_from_format INTEGER, data BLOB)	
+!table_SqliteDatabaseProperties_SqliteDatabaseProperties
+CREATE TABLE _SqliteDatabaseProperties (key TEXT, value TEXT, UNIQUE(key))Q
+indexsqlite_autoindex__SqliteDatabaseProperties_1_SqliteDatabaseProperties
+jz>E
+/U_UniqueIdentifier77A86B4D-EBF9-4DDD-B22A-3DFC09C8585F
+_ClientVersion8
+
+noU
+_UniqueIdentifier
+)	_ClientVersion
+	P;=
+
+Z~X
+

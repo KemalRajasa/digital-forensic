@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeviceBasedVPP</key>
+	<false/>
+	<key>artistName</key>
+	<string>Google LLC</string>
+	<key>bundleShortVersionString</key>
+	<string>6.0.211226</string>
+	<key>bundleVersion</key>
+	<string>6.0.211226.1395752</string>
+	<key>com.apple.iTunesStore.downloadInfo</key>
+	<dict>
+		<key>accountInfo</key>
+		<dict>
+			<key>AltDSID</key>
+			<string>000548-08-f13aace4-469a-4e18-b925-29a5dad92ee1</string>
+			<key>AppleID</key>
+			<string>pbentley0107@gmail.com</string>
+			<key>DSPersonID</key>
+			<integer>17768365815</integer>
+			<key>DownloaderID</key>
+			<integer>0</integer>
+			<key>FamilyID</key>
+			<integer>0</integer>
+			<key>PurchaserID</key>
+			<integer>17768365815</integer>
+		</dict>
+		<key>purchaseDate</key>
+		<string>2022-01-21T20:30:39Z</string>
+	</dict>
+	<key>gameCenterEnabled</key>
+	<false/>
+	<key>gameCenterEverEnabled</key>
+	<false/>
+	<key>genre</key>
+	<string>Productivity</string>
+	<key>genreId</key>
+	<integer>6007</integer>
+	<key>hasMessagesExtension</key>
+	<false/>
+	<key>iad-attribution</key>
+	<string>0</string>
+	<key>is-auto-download</key>
+	<false/>
+	<key>is-purchased-redownload</key>
+	<false/>
+	<key>isFactoryInstall</key>
+	<false/>
+	<key>itemId</key>
+	<integer>422689480</integer>
+	<key>itemName</key>
+	<string>Gmail - Email by Google</string>
+	<key>kind</key>
+	<string>software</string>
+	<key>launchProhibited</key>
+	<false/>
+	<key>rating</key>
+	<dict>
+		<key>label</key>
+		<string>4+</string>
+		<key>rank</key>
+		<integer>100</integer>
+	</dict>
+	<key>redownload-params</key>
+	<string>productType=C&amp;price=0&amp;salableAdamId=422689480&amp;pricingParameters=STDRDL</string>
+	<key>releaseDate</key>
+	<string>2011-11-02T17:13:30Z</string>
+	<key>s</key>
+	<integer>143441</integer>
+	<key>sideLoadedDeviceBasedVPP</key>
+	<false/>
+	<key>softwareVersionBundleId</key>
+	<string>com.google.Gmail</string>
+	<key>softwareVersionExternalIdentifier</key>
+	<integer>846445969</integer>
+	<key>sourceApp</key>
+	<string>com.apple.AppStore</string>
+	<key>storeCohort</key>
+	<string>10|date=1642797000000&amp;sf=143441&amp;pgtp=Search&amp;pgid=7f2c595e-a296-4670-9c6b-10f878f8c1b1&amp;prpg=Search_7f2c595e-a296-4670-9c6b-10f878f8c1b1&amp;ctxt=Search&amp;issrch=1&amp;imptyp=lockup&amp;kind=iosSoftware&amp;itpltyp=PI3&amp;lngid=1</string>
+	<key>subgenres</key>
+	<array/>
+	<key>variantID</key>
+	<string>1:iPhone10,1:15</string>
+</dict>
+</plist>

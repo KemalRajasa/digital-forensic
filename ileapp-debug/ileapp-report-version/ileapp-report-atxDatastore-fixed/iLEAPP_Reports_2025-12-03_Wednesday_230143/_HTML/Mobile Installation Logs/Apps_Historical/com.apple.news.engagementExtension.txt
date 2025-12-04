@@ -1,0 +1,3 @@
+2022-01-10 12:28:39 Data container moved com.apple.news.engagementExtension /private/var/mobile/Containers/Data/PluginKitPlugin/BEC45871-255C-4509-B119-D563BBF6FBFA
+2022-01-10 12:28:39 Data container moved com.apple.news.engagementExtension /private/var/mobile/Containers/Data/PluginKitPlugin/BEC45871-255C-4509-B119-D563BBF6FBFA
+2022-01-06 17:41:32 Made container live com.apple.news.engagementExtension /private/var/mobile/Containers/Data/PluginKitPlugin/7F45A810-38D6-42E4-BDC9-4A883D87399F

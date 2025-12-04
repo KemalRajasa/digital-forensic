@@ -1,0 +1,9 @@
+2022-01-10 12:30:32 Data container moved com.apple.measure /private/var/mobile/Containers/Data/Application/05EB721F-DE9D-473C-9414-829D1EE0FA72
+2022-01-10 12:30:32 Made container live com.apple.measure /private/var/containers/Bundle/Application/54A7991F-0071-4682-9794-6E975123D0C7
+2022-01-10 12:30:32 Install successful com.apple.measure 
+2022-01-10 12:30:32 Data container moved com.apple.measure /private/var/mobile/Containers/Data/Application/05EB721F-DE9D-473C-9414-829D1EE0FA72
+2022-01-10 12:30:32 Made container live com.apple.measure /private/var/containers/Bundle/Application/54A7991F-0071-4682-9794-6E975123D0C7
+2022-01-10 12:30:32 Install successful com.apple.measure 
+2022-01-06 17:41:30 Made container live com.apple.measure /private/var/mobile/Containers/Data/Application/BF4020E7-8F76-49CA-9E54-1ED67B283C43
+2022-01-06 17:41:30 Made container live com.apple.measure /private/var/containers/Bundle/Application/49745E08-E318-404A-B561-AECA72FC33F1
+2022-01-06 17:41:30 Install successful com.apple.measure 

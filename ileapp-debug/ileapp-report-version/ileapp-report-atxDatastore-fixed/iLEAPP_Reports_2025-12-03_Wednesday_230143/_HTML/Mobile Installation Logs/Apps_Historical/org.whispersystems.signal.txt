@@ -1,0 +1,12 @@
+2022-01-21 15:47:19 Data container moved org.whispersystems.signal /private/var/mobile/Containers/Data/Application/D17DD49D-9D3F-4E70-8E40-408AFCA23B09
+2022-01-21 15:47:19 Made container live org.whispersystems.signal /private/var/containers/Bundle/Application/6596350B-4FA2-4F11-9EB5-C68C89051C55
+2022-01-21 15:47:19 Install successful org.whispersystems.signal 
+2022-01-21 15:47:19 Data container moved org.whispersystems.signal /private/var/mobile/Containers/Data/Application/D17DD49D-9D3F-4E70-8E40-408AFCA23B09
+2022-01-21 15:47:19 Made container live org.whispersystems.signal /private/var/containers/Bundle/Application/6596350B-4FA2-4F11-9EB5-C68C89051C55
+2022-01-21 15:47:19 Install successful org.whispersystems.signal 
+2022-01-21 15:46:58 Made container live org.whispersystems.signal /private/var/mobile/Containers/Data/Application/D443CDBF-06C3-4057-A37B-6BDE160CDBF6
+2022-01-21 15:46:58 Made container live org.whispersystems.signal /private/var/containers/Bundle/Application/6CF3F2E1-998B-40E8-A911-91A49DD33B49
+2022-01-21 15:46:58 Install successful org.whispersystems.signal 
+2022-01-21 15:46:58 Made container live org.whispersystems.signal /private/var/mobile/Containers/Data/Application/D443CDBF-06C3-4057-A37B-6BDE160CDBF6
+2022-01-21 15:46:58 Made container live org.whispersystems.signal /private/var/containers/Bundle/Application/6CF3F2E1-998B-40E8-A911-91A49DD33B49
+2022-01-21 15:46:58 Install successful org.whispersystems.signal 

@@ -1,0 +1,72 @@
+;/5p
+DLSQLite format 3
+.S`
+
+tableadditional_remote_content_linksadditional_remote_content_links
+CREATE TABLE additional_remote_content_links (ROWID INTEGER PRIMARY KEY,
+url TEXT COLLATE BINARY NOT NULL,
+requests INTEGER NOT NULL DEFAULT 0,
+last_seen_date INTEGER NOT NULL,
+last_request_date INTEGER NOT NULL DEFAULT 0,
+UNIQUE(url) ON CONFLICT ABORT)]
+indexsqlite_autoindex_additional_remote_content_links_1additional_remote_content_links
+;4&\
+"SQLite format 3
+'indexadditional_remote_content_links_requests_last_request_date_indexadditional_remote_content_links
+CREATE INDEX additional_remote_content_links_requests_last_request_date_index ON additional_remote_content_links(requests, last_request_date)H
+'SQLite format 3
+
+Q]
+indexadditional_remote_content_links_requests_last_seen_date_indexadditional_remote_content_links
+CREATE INDEX additional_remote_content_links_requests_last_seen_date_index ON additional_remote_content_links(requests, last_seen_date)z
+Hzg
+
+]SQLite format 3
+
+Q]
+?tableprotected_message_dataprotected_message_data
+CREATE TABLE protected_message_data (ROWID INTEGER PRIMARY KEY,
+data TEXT COLLATE BINARY)q
+rbGl
+SQLite format 3
+
+Q]
+
+i
+Ytablesqlite_sequencesqlite_sequence	CREATE TABLE sqlite_sequence(name,seq)W
+}tableaddressesaddresses
+CREATE TABLE addresses (ROWID INTEGER PRIMARY KEY AUTOINCREMENT,
+address TEXT COLLATE NOCASE NOT NULL,
+comment TEXT COLLATE BINARY NOT NULL,
+UNIQUE(address, comment) ON CONFLICT ABORT)1
+indexsqlite_autoindex_addresses_1addresses
+TSQLite format 3
+
+Q]
+
+i	
+6
+tablesummariessummaries
+CREATE TABLE summaries (ROWID INTEGER PRIMARY KEY AUTOINCREMENT,
+summary TEXT COLLATE RTRIM NOT NULL,
+UNIQUE(summary) ON CONFLICT ABORT)1
+
+indexsqlite_autoindex_summaries_1summariesP
+<U.k
+
+LIH&
+
+tablesubjectssubjectsCREATE TABLE subjects (ROWID INTEGER PRIMARY KEY AUTOINCREMENT,
+subject TEXT COLLATE RTRIM NOT NULL,
+UNIQUE(subject) ON CONFLICT ABORT)/
+indexsqlite_autoindex_subjects_1subjects
+'	
+% R+
+
+(ugz3
+
+subjects
+summaries
+addresses
+protected_message_data"
+additional_remote_content_links

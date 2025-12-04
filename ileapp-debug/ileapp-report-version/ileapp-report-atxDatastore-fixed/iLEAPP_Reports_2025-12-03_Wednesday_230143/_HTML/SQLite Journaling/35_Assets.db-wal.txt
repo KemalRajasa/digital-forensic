@@ -1,0 +1,537 @@
+f&
+6~
+f&
+6~>r&SQLite format 3
+.S`
+
+
+
+7[s
+indexAssetVolumeVolumeUUIDIndexAssetVolumeCREATE INDEX AssetVolumeVolumeUUIDIndex on AssetVolume (volumeUUID)i	
+indexAssetHandleFileIDIndexAssetHandleCREATE INDEX AssetHandleFileIDIndex on AssetHandle (fileID)i
+indexAssetHandleStatusIndexAssetHandle
+CREATE INDEX AssetHandleStatusIndex on AssetHandle (status){
+indexAssetHandleLastUsedTimeIndexAssetHandle	CREATE INDEX AssetHandleLastUsedTimeIndex on AssetHandle (lastUsedTime)v
+indexAssetHandleSignatureIndexAssetHandle
+CREATE INDEX AssetHandleSignatureIndex on AssetHandle (fileSignature)b
+{indexAssetHandleUUIDIndexAssetHandle
+CREATE INDEX AssetHandleUUIDIndex on AssetHandle (UUID)
+ItableAssetVolumeAssetVolume
+CREATE TABLE AssetVolume (
+    volumeIndex     integer primary key,
+    volumeUUID      blob
+)
+{tableAssetHandleAssetHandle
+CREATE TABLE AssetHandle (
+    itemID        integer primary key,
+    UUID          blob not null,
+    lastUsedTime  integer not null,
+    volumeIndex      integer,
+    fileID        integer,
+    generationID  integer,
+    path          text,
+    fileSignature blob,
+    status        integer,
+    modTime       integer,
+    fileSize      integer,
+    chunkCount    integer
+)i
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+f&
+6~n`
+.SQLite format 3
+!-LastVacuum663908255.617209Q
+'
+SchemaVersionAACF7DCBCFA6FAFB5A6223DBCD228F519DB805083706B27B8EB0A8ACFC81A749
+-Created663908255.613086
+f&
+6~#HEs
+
+SchemaVersion
+LastVacuum
+	Created
+f&
+6~v
+
+WX
+OxoB
+ a3e
+f&
+6~
+?T%
+
+,apfsuuid
+@volum
+,	OxoB
+?)H
+
+f&
+6~79%
+
+	a3e
+f&
+6~C
+'
+
+f&
+6~5F
+f&
+6~@LzY
+,	apfsuuid
+!-LastVacuum664820453.745088Q
+f&
+6~
+f&
+6~2Ki<8
+
+yFI,4
+=a#e
+chn85CVQ^P
+B7qU<a#e
+;s{Oo
+f&
+6~"FO
+
+B7qU<
+f&
+6~wZ
+
+f&
+6~t
+rLj
+
+f&
+6~J
+CPIl
+
+0 a#f
+>(Nw
+f&
+6~Y
+f&
+6~DN#r
+
+f&
+6~qG
+
+f&
+6~f
+YI 
+
+$8
+
+f&
+6~<r
+
+f&
+6~A[`3
+f&
+6~.N-
+
+a#f	%A
+f&
+6~z#U
+
+f&
+6~OA+Z
+f&
+6~45
+
+f&
+6~{C)0
+
+f&
+6~zx4YSQLite format 3
+f&
+6~W`#U
+
+7*oAa\
+%og42%
+7*oA
+f&
+6~FN|}Q
+
+f&
+6~0q<n
+f&
+6~e\es
+
+!G<ECGWoa\
+f&
+6~Ot|DG
+
+!G<ECGWo
+f&
+6~hH
+unP
+
+f&
+6~g
+[<{i
+
+f&
+6~(
+a]	%7
+f&
+6~9'X
+
+f&
+6~E]
+f&
+6~iT
+
+f&
+6~xH>E
+
+j(_
+
+f&
+6~b!6
+
+
+a]	%
+f&
+6~rN#\5
+
+f&
+6~s
+f&
+6~!'
+f&
+6~Fk/qSQLite format 3
+^SQLite format 3
+f&
+6~0
+f&
+6~q
+s\b
+
+f&
+6~yO
+e`1
+
+a]	%A
+f&
+6~U
+f&
+6~(N
+
+rG'D4
+
+f&
+6~K_D!
+f&
+6~E2
+f&
+6~,`
+f&
+6~z
+!-LastVacuum665630529.998800Q
+f&
+6~!
+%
+
+
+p
+ey%2
+l<iOQAjksa
+)z)dx&
+re.
+f&
+6~OO
+l<iOQAjks	
+re.	
+f&
+6~M^"G
+f&
+6~Ln
+f&
+6~Tgb
+%
+
+
+p
+7
+C9<kaa
+G'vHyl
+f&
+6~u=E
+
+C9<ka
+f&
+6~ ~0
+f&
+6~;
+f&
+6~V
+f&
+6~/
+%
+
+
+p
+-
+	%7
+
+
+f&
+6~T+
+f&
+6~^n"P9
+
+f&
+6~K
+()a
+
+W
+
+p
+%
+
+
+-
+f&
+6~ EQ
+
+f&
+6~@
+f&
+6~
+@SA*
+
+l]*4D
+
+p
+%
+
+
+-v
+paSr
+y4=J-@c8
+[jpaSr
+Wu!hp(
+f&
+6~	
+[jp
+f&
+6~=-.Z
+
+Wu!hp(
+f&
+6~Pml(N37
+
+aSr
+
+aSr
+f&
+6~R6,v
+f&
+6~LdD"
+f&
+6~R+/i
+%
+
+
+-v=
+S\H]e1
+f&
+6~^W
+f&
+6~Jk
+f&
+6~p
+f&
+6~?|A[3b
+
+f&
+6~6kR
+
+p
+%
+
+
+-v3
+aSr	%7
+
+
+f&
+6~i
+
+f&
+6~*
+f&
+6~ca$	
+
+f&
+6~tday8y
+l,R
+v
+%
+
+
+-3
+aSr	%
+p
+f&
+6~O
+nT
+
+f&
+6~HW`U
+
+f&
+6~{uRY"W
+
+f&
+6~=3f;}
+
+f&
+6~W}NO
+
+f&
+6~=
+)
+v
+f&
+6~0&k
+f&
+6~}DEs/
+
+f&
+6~HK%
+
+f&
+6~]N3x=W
+
+f&
+6~5<
+ev
+
+33333333333333
+f&
+6~|ac
+
+5F!
+
+f&
+6~2{Qye
+
+3333333333333
+~xG6)0M
+DD&3d
+f&
+6~pJ
+,	~xG6)0M
+f&
+6~a
+f&
+6~Bo
+jU
+
+f&
+6~rI
+U33333333333
+Lp%VCb
+|cI)LK@X
+cgI|B$c
+Lp%VC
+f&
+6~)Z(
+f&
+6~+5O,
+f&
+6~T
+W*`
+
+f&
+6~"
+f&
+6~H4#
+
+	~xG6)0M
+f&
+6~2]G:
+f&
+6~zX
+f&
+6~R
+f&
+6~`
+-b:
+
+x33333333333
+f&
+6~>L4M
+
+f&
+6~Uo8[
+
+f&
+6~,x
+SQLite format 3
+f&
+6~PnuYBPSQLite format 3
+f&
+6~3`OP/
+
+f&
+6~$
+
+$6b
+
+f&
+6~}g
+f&
+6~S
+f&
+6~q9z
+
+f&
+6~<
+f&
+6~
+j1
+
+f&
+6~9;0El
+
+!-LastVacuum666553570.202218Q
+f&
+6~nX^
+f&
+6~_b0
+
+E;0Wlb
+b
+?*|[Sq
+x,;B
+T/N`
+Vpo~*
+f&
+6~V`jIN8
+
+E;0Wl
+f&
+6~l;
+f&
+6~	w
+f&
+6~&
+
+f&
+6~:Zt
+cz{
+
+f&
+6~"J(H+
+
+f&
+6~Gy-P1t
+
+f&
+6~pOq

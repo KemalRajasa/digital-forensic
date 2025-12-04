@@ -1,0 +1,116 @@
+iYSQLite format 3
+.S`
+
+`
+
+0O
+indexCSChunkTable_ftrowid_inxCSChunkTable	CREATE INDEX CSChunkTable_ftrowid_inx ON CSChunkTable(ft_rowid)e
+indexCSChunkTable_iid_inxCSChunkTable
+CREATE INDEX CSChunkTable_iid_inx ON CSChunkTable(ct_iid)b
+yindexCSChunkTable_cid_inxCSChunkTable
+CREATE INDEX CSChunkTable_cid_inx ON CSChunkTable(cid)^
+tableCSChunkTableCSChunkTable
+CREATE TABLE CSChunkTable (ct_rowid INTEGER PRIMARY KEY,cid BLOB,ct_iid BIGINT,ft_rowid BIGINT,offset BIGINT,dataLen INTEGER,refCount INTEGER,timeStamp BIGINT,location INTEGER,key BLOB)
+;indexCSRegisteredFileTable_crt_iid_inxCSRegisteredFileTable
+CREATE UNIQUE INDEX CSRegisteredFileTable_crt_iid_inx ON CSRegisteredFileTable(crt_iid)
+)indexCSRegisteredFileTable_crt_id_inxCSRegisteredFileTable
+CREATE INDEX CSRegisteredFileTable_crt_id_inx ON CSRegisteredFileTable(crt_id)=
+tableCSRegisteredFileTableCSRegisteredFileTable
+CREATE TABLE CSRegisteredFileTable (crt_rowid INTEGER PRIMARY KEY,crt_id	BLOB,crt_iid BIGINT,crt_filekey BLOB,crt_filesize BIGINT,crt_profileType INTEGER,crt_profileTypeIsDefault INTEGER,crt_profileConfigurationVersion TEXT,crt_profileResolvedFileExtension TEXT)^
+mtableCSDatabaseVersionCSDatabaseVersion
+CREATE TABLE CSDatabaseVersion (version INTEGER)
+-ozj
+8,[px)#
+v^
+nZaTB7
+/P
+2aT=
+
+w<['~
+.%v2U+\
+u"j~m
+1}s4
+%v2U+\
+2OYPd#1
+
+2021-03-17-tar-override
+2vtJSQLite format 3
+?S:I>
+
+27:
+.[J5
+GGo[ i
+F2021-05-05-diagnostic-override
+2p~(tb0SQLite format 3
+2y`j0n
+bhsGc@bZ
+.W/y
+C`)
+
+	2021-05-05-diagnostic-override
+!E;SQLite format 3
+2yw
+Y -'*W0^
+2+bF
+2`b@W
+
+hmg5
+2~x0
+
+P=f
+
+2=IAQI'
+
+2021-05-05-diagnostic-override
+2n.i1SQLite format 3
+2q3ZzQ
+fP7)
+
+2w|1	{2
+
+2D*X
+^YaJh
+Y2021-05-05-diagnostic-override
+23NwD)
+
+2^/<
+.k\"0`w
+wYr
+sSq~g
+6	k\"0`w
+"~(
+
+VSQLite format 3
+2gi!
+
+.`N=yi$XnX
++ugL8NnAmC4
+`N=yi$XnX
+2$i``Y
+2(v%X
+
+2!Iz
+27
+
+/2021-05-05-diagnostic-override
+20"H[SQLite format 3
+2)P5
++ugL8NnAmC
+2V2XbS
+
+2D$8r63
+2}#ESQLite format 3
+2=YSO0
+#/bL[Ka0_kf
+.xb`X2]$
+@u}/~5
+Gt-
+
+xb`X2]$
+2\]
+
+2t>8y
+
+2ejv%
+
+2/uGE

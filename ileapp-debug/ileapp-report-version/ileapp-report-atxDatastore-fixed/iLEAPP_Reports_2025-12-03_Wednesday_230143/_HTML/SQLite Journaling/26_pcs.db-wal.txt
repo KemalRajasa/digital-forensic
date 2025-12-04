@@ -1,0 +1,182 @@
+{?)SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+{?:h
+D
+TextReplacements:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !%-567;U$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+[7q!p
+=':oJkW0Q$
+Y*Gr]y
+&B$J
+<9M
+l
+kRzY
+k;5(3s
+}B
+#Qf8Y'={h
+C^<^%	!
+CGrYLfx6
+&g
+a>s1a]-d)s:
+M:Qdlj	0N
+.1
+0f
+4>d
+r!r-y=
+)0'0%
+\}2%
+(E4F4B942BCCDEEC649E31582611F1A7BE8C91FB5
+"#$YNS.string
++26YlTMdUFvkWhx1fGJyHJyxbujhxN_HtuCautgovvBI&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+anonymousCKUserIDYownerNameXZoneName
+TextReplacements_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID&'<=^CKDZonePCSData>?,^CKDZonePCSDataZCKDPCSData
+KeyboardServicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464TextReplacements:__defaultOwner__Az
+O	TextReplacements:__defaultOwner__
+{?-S
+E6_
+
+	TextReplacements:__defaultOwner__
+KeyboardServicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464Az
+{?9
+MZ
+
+OU-	TextReplacements:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464KeyboardServices
+{?
+(
+U-	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464KeyboardServices
+{?*S*
+
+{?72i
+
+	-UO
+ !%-567;?BU$null
+
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID<
+=>WNS.time#A
+&'@AVNSDate@,&'CD^CKDZonePCSDataEF,^CKDZonePCSDataZCKDPCSData
+KeyboardServicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464TextReplacements:__defaultOwner__Az-
+{?ak];8^
+
+{?"
+
+KeyboardServicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464Az-
+{??oE3
+
+TextReplacements:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464KeyboardServices
+*A$s
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464KeyboardServices
+{?,!?W%
+
+{?Nv!<$
+
+:-UO
+A75C3F02-9829-4E3B-A74A-D1507118336F:TextReplacements:__defaultOwner__
+'()-5;<DEFJNOTUVU$null
+
+ChainParentPublicKeyID_
+PublicSharingKeyTEtagXParentIDUKeyIDWPCSDataZRecordTypeV$class]RecordShareIDXChainPCS\RecordZoneID_
+ZoneishPublicKeyIDXRecordID
+Wb
+QL8]
+(^0
+
+,@;
+j3FI
+aedV
+`Znf
+;LU
+
+c},$
+WQC9G
+
+m^*
+Tw9I
+-TK}P4
+ ;\7r)
+H1n2C 
+w>^_
+(3AB6D11EA905A0FA27974218B93DE4D4185682C5
+*+,YNS.string
++7GO0fLB7H04SqaORdOPfkwQMgmNzoxWXq_Q67PG7pXQ./01Z$classnameX$classes_
+NSMutableString234_
+NSMutableStringXNSStringXNSObject
+6789:ZRecordNameVZoneID
+$A75C3F02-9829-4E3B-A74A-D1507118336F=>?
+ABC_
+
+	_
+__defaultOwner__./GH^CKRecordZoneIDI4^CKRecordZoneID./KLZCKRecordIDM4ZCKRecordID_
+TextReplacementEntry=>?
+__defaultOwner__./WX_
+CKDRecordPCSDataYZ4_
+CKDRecordPCSDataZCKDPCSData
+{?f{1
+{?A8 8
+
+{?XA
+{?K{b
+{?Cgv
+{?2!
+OSQLite format 3
+{?<h,
+*-UO
+'()-5;<DEFJNOU$null
+
+6789$ZRecordNameVZoneID
+TextReplacementEntry./PQ_
+CKDRecordPCSDataRS4_
+KeyboardServicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464TextReplacements:__defaultOwner__A}|[
+KeyboardServicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464TextReplacements:__defaultOwner__A}|Zb
+{?1*
+{?^>w53
+
+KeyboardServicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464A}|[
+KeyboardServicesAAA3EB7E-485D-4C71-93D7-7C0CF8E04464A}|Zb
+{?I;g
+{?6\Vx
+{?Kc.x
+
+A}|[
+A}|Zb
+{?<J{SQLite format 3
+{?4
+
+
+{?7I\
+{?c#
+
+{?[1y/
+
+{?_rWSQLite format 3

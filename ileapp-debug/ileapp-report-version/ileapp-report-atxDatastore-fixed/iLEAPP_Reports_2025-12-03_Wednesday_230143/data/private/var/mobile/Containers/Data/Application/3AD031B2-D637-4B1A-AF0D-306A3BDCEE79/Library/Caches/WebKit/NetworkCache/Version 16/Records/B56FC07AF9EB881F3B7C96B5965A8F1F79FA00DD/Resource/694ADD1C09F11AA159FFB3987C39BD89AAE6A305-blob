@@ -1,0 +1,128 @@
+try{
+q_a("n7qy6d");
+
+var q_tP=function(a){q_i.call(this,a.Ia);this.oa=this.url=null;this.wa=this.Da("uu7Hed");this.Ba=this.Da("axr9cd");this.Aa=this.Da("pAZ6Ed")};q_l(q_tP,q_i);q_tP.Fa=q_i.Fa;q_tP.prototype.updateUrl=function(a){if(this.url=a){a=this.url;var b=this.Va("RYUcpc");b.size()?(q_Uf(b.el(),a),q_7g(b.el(),a||"")):(b=this.Va("zgnjS"),b.size()&&(q_Wh(b,"input").el().value=a));q_z(this.getRoot().el(),"visibility",a?"":"hidden");this.Aa.hide();this.wa.toggle(!!this.oa);this.Ba.toggle(!this.oa)}};
+q_tP.prototype.setup=function(){if(null===this.oa){var a="getSelection"in window&&"queryCommandSupported"in document&&"execCommand"in document&&document.queryCommandSupported("copy");if(a)try{a=document.execCommand("copy",!0)}catch(b){a=!1}this.oa=a;a=this.Va("zgnjS");!this.oa&&a.size()&&(q_Wh(a,"input").el().style.cursor="text");this.wa.toggle(this.oa);this.Ba.toggle(!this.oa)}};q_tP.prototype.Fca=function(){q_Hli(this)};
+q_tP.prototype.Asa=function(){q_Hli(this);var a=this.Va("zgnjS");a.size()&&(a=q_Wh(a,"input").el(),a.select(),a.focus())};var q_Hli=function(a){if(a.oa&&a.url){a.getRoot().getData("ved").Eb()&&q_Q(a.getRoot().el());var b=a.url,c=a.Da("tQ9n1c").el();q_7g(c,b);b=document.createRange();b.selectNodeContents(c);window.getSelection().removeAllRanges();window.getSelection().addRange(b);document.execCommand("copy",!0)&&(a.wa.hide(),a.Aa.show())}};q_E(q_tP.prototype,"aiBUrb",function(){return this.Asa});
+q_E(q_tP.prototype,"ScPJh",function(){return this.Fca});q_E(q_tP.prototype,"S4w6dd",function(){return this.setup});q_R(q_KCa,q_tP);
+
+q_b();
+
+}catch(e){_DumpException(e)}
+try{
+q_a("HPGtmd");
+
+var q_vP=function(a){q_i.call(this,a.Ia);this.xo=null;this.navigation=a.service.navigation;this.wa=this.Da("GIN7Bd");this.oa=this.getController(this.wa.el()).then(function(b){return b})};q_l(q_vP,q_i);q_vP.Fa=function(){return{service:{navigation:q_ct}}};q_=q_vP.prototype;q_.setup=function(){var a=this,b;return q_n(function(c){if(1==c.oa)return q_m(c,a.oa,2);b=c.wa;b.setup();q_Id(c)})};
+q_.CPc=function(a){var b=this,c;return q_n(function(d){if(1==d.oa)return b.wa.removeAttr("data-ved"),b.Da("bVp1N").removeAttr("data-ved"),b.Da("RgELLe").removeAttr("data-ved"),b.Da("P8lkFb").removeAttr("data-ved"),b.Va("EcD0F").removeAttr("data-ved"),b.xo=a,q_m(d,b.oa,2);c=d.wa;return d.return(c.updateUrl(b.Rj()))})};q_.Lca=function(a){var b={url:this.Rj()},c=this.getTitle();c.length&&(b.text=c);b=q_0li("https://www.twitter.com/share",b);this.oH(a,b,!0)};
+q_.Mca=function(a){var b=this.getTitle();b.length&&(b+=" ");b=q_0li("https://api.whatsapp.com/send",{text:b+this.Rj()});this.oH(a,b,!0)};q_.Ica=function(a){var b=q_0li("https://www.facebook.com/sharer/sharer.php",{u:this.Rj()});this.oH(a,b,!0)};
+q_.Gca=function(a){var b,c,d,e,f,g=null!==(b=this.Rj())&&void 0!==b?b:"",h=null!==(c=this.getTitle())&&void 0!==c?c:"",k=this.m1(),l={body:(null===(d=this.xo)||void 0===d?0:d.kKd())?h+"\n"+g+"\n\n"+(null!==(f=null===(e=this.xo)||void 0===e?void 0:e.Vld())&&void 0!==f?f:""):h+"\n"+g};k&&(l.subject=k);g=q_0li("mailto:",l);this.oH(a,g,!this.getData("mobile").Cb(!1))};
+q_.Zwe=function(a){a.w9b&&this.wa.setData("ved",a.w9b);a.JCc&&this.Da("bVp1N").setData("ved",a.JCc);a.KCc&&this.Da("RgELLe").setData("ved",a.KCc);a.MCc&&this.Da("P8lkFb").setData("ved",a.MCc);a.NCc&&this.Va("EcD0F").setData("ved",a.NCc)};q_.pld=function(){return this.Da("RgELLe").el()};
+q_.NFd=function(a){var b=this,c,d;return q_n(function(e){switch(e.oa){case 1:return q_Jd(e,2),q_m(e,a,4);case 4:return c=e.wa,q_m(e,q_1li(b,c),5);case 5:q_Ld(e,0);break;case 2:d=q_Md(e);if(!("function"==typeof q_Xli&&d instanceof q_Xli))throw d;q_Id(e)}})};q_.Gle=function(a){this.Da("RgELLe").toggle(!a)};q_.Qne=function(a){this.Da("P8lkFb").toggle(!a)};
+var q_1li=function(a,b){var c;return q_n(function(d){if(1==d.oa){if(!b.Zq)return d.wc(0);a.xo.vZb(b.Zq);return q_m(d,a.oa,3)}c=d.wa;c.updateUrl(a.Rj());q_Id(d)})},q_0li=function(a,b){return(new q_il(a)).Iw(q_plb(b)).toString()};q_vP.prototype.oH=function(a,b,c){c?q_oh(b,{target:"_blank"}):q_dt(this.navigation,b);b=this.getRoot().el();q_Lc(b,q_Bp,void 0,void 0,void 0);a=a.targetElement;a.getData("ved").Eb()&&q_Q(a.el())};
+q_vP.prototype.m1=function(){return this.xo?this.xo.m1()||this.xo.getTitle()||null:null};q_vP.prototype.Rj=function(){if(this.xo){var a=this.xo.Mz()||this.xo.w1();if(a)return a}throw Error("Yi");};q_vP.prototype.getTitle=function(){return this.xo?this.xo.getTitle()||"":""};q_E(q_vP.prototype,"nR7Ch",function(){return this.pld});q_E(q_vP.prototype,"NmUBTc",function(){return this.Gca});q_E(q_vP.prototype,"rT2OA",function(){return this.Ica});q_E(q_vP.prototype,"cmaSVb",function(){return this.Mca});
+q_E(q_vP.prototype,"re2RZb",function(){return this.Lca});q_E(q_vP.prototype,"S4w6dd",function(){return this.setup});q_R(q_NCa,q_vP);
+
+q_b();
+
+}catch(e){_DumpException(e)}
+try{
+q_a("OaaRpf");
+
+var q_M9l=function(a){q_i.call(this,a.Ia);this.mR=this.getData("ludocid").Ta();this.wa=this.getData("queryIntent").Ta();this.Aa=this.getData("preserveScrollPosition").Eb();this.oa=this.getData("prefetchPhdesc").Ta()};q_l(q_M9l,q_i);q_M9l.Fa=q_i.Fa;
+q_M9l.prototype.J1=function(a){var b=a.actionElement.children().first().el(),c=a.targetElement.parent().getData("phdesc").Eb()?a.targetElement.parent().getData("phdesc").toString():this.oa;if(b&&!b.getAttribute("href")){this.Aa&&q_9r();var d=b.getAttribute("data-lkt");a.targetElement.parent().getData("cpi").Eb()?q_JQl(this.mR,b,new q_KQl(this.wa),this.oa,d,a.targetElement.parent().getData("cpi").toString()):q_JQl(this.mR,b,new q_KQl(this.wa),c,d)}};q_E(q_M9l.prototype,"xuRi8d",function(){return this.J1});
+q_R(q_N0a,q_M9l);
+
+
+q_b();
+
+}catch(e){_DumpException(e)}
+try{
+var q_I9b=function(a){var b=!1,c=!1;a.then(function(){return b=!0},function(){return c=!0});return new Promise(function(d,e){for(var f=[],g=50;950>g;g+=50)f.push(setTimeout(function(){f.shift();b?d():(c||0===f.length)&&e(c?1:2);if(b||c||0===f.length)for(var h=q_f(f),k=h.next();!k.done;k=h.next())clearTimeout(k.value)},g))})};
+
+}catch(e){_DumpException(e)}
+try{
+var q_5D=function(a){q_h.call(this,a)};q_l(q_5D,q_h);q_5D.prototype.w1=function(){return q_e(this,1)};var q_nLd=function(a,b){return q_c(a,1,b)};q_=q_5D.prototype;q_.Mz=function(){return q_e(this,2)};q_.vZb=function(a){q_c(this,2,a)};q_.getImageUrl=function(){return q_e(this,3)};q_.getTitle=function(){return q_e(this,4)};q_.setTitle=function(a){return q_c(this,4,a)};q_.m1=function(){return q_e(this,5)};q_.Vld=function(){return q_e(this,6)};q_.kKd=function(){return q_p(this,6)};
+
+}catch(e){_DumpException(e)}
+try{
+var q_Jke=function(a){a=void 0===a?null:a;var b=new q_Ike;a=q_opb(a);return q_c(b,1,a)},q_Kke=function(a){return(a=q_Hb(a))?q_bjc(a):null},q_Ike=function(a){q_h.call(this,a)};q_l(q_Ike,q_h);
+
+}catch(e){_DumpException(e)}
+try{
+var q_Oke=function(a){a=void 0===a?{}:a;var b=q_Lke(),c=q_Jke(a.targetElement);q_pb(b,9,c);if(a.Pz){c=a.Pz;var d=q_Hb(a.targetElement);if(!d)throw Error("Ih");var e=new q_Cc;q_Sfa(e,c,d);c=q_Dc(e);d=new q_Mke;c=q_c(d,1,c);q_pb(b,12,c)}a.triggerElement&&((c=q_ppb(a.triggerElement))?(d=new q_Nke,c=q_c(d,1,c)):c=null,c&&q_pb(b,10,c),(a=q_Kke(a.triggerElement))&&q_pb(b,11,a));return b},q_Nke=function(a){q_h.call(this,a)};q_l(q_Nke,q_h);var q_Mke=function(a){q_h.call(this,a)};q_l(q_Mke,q_h);
+var q_Lke=function(){return new q_3v};
+
+q_Lke=function(){return new q_3v([null,[[48,"1"]]])};
+
+}catch(e){_DumpException(e)}
+try{
+var q_Ili=function(a){q_h.call(this,a)};q_l(q_Ili,q_h);q_Ili.prototype.w1=function(){return q_d(this,q_mo,1)};
+var q_Jli=function(a){q_h.call(this,a)};q_l(q_Jli,q_h);q_Jli.prototype.getContext=function(){return q_d(this,q_3v,2)};q_Jli.prototype.setContext=function(a){return q_pb(this,2,a)};
+var q_Kli=function(a){q_h.call(this,a)};q_l(q_Kli,q_h);q_Kli.prototype.Mz=function(){return q_d(this,q_mo,1)};
+var q_Lli=function(a){q_h.call(this,a)};q_l(q_Lli,q_h);q_Lli.prototype.Ya="xt0Ntc";
+new q_Dj(q_Lli);
+var q_Mli=new q_ed("uYKSof",q_Lli,q_Jli,[{key:q_Hj,value:!0},{key:q_Ij,value:"/SearchApiService.GetShortenedKpSharingUrl"}]);
+
+}catch(e){_DumpException(e)}
+try{
+var q_Oli=function(a){var b,c,d,e,f,g,h,k,l,m;return q_n(function(n){if(1==n.oa)return d=new q_mo,q_Krb(d,a),e=new q_Ili,q_pb(e,1,d),f=new q_Jli,q_pb(f,1,e),f.setContext(q_Oke()),q_m(n,q_Nli(),2);if(3!=n.oa)return g=n.wa,q_m(n,g.fetch(q_Mli.Yb(f)),3);h=n.wa;k=null===(c=null===(b=null===h||void 0===h?void 0:q_d(h,q_Kli,1))||void 0===b?void 0:b.Mz())||void 0===c?void 0:q_no(c);if(!k)throw l=Error("Ti"),m={res:h.serialize()},q_Kb(l,{Re:m}),l.details=m,l;return n.return(k)})},q_Pli,q_Nli=function(){var a;
+return q_n(function(b){if(1==b.oa){if(q_Pli)return b.wc(2);a=q_ga().oa;return q_m(b,q_Fi(q_2i,a),3)}2!=b.oa&&(q_Pli=b.wa);return b.return(q_Pli)})};
+
+}catch(e){_DumpException(e)}
+try{
+var q_Qli=q_B("yoKyEf"),q_Rli=q_B("gtOXRb");
+
+}catch(e){_DumpException(e)}
+try{
+q_a("Wct42");
+
+var q_Tli=function(a){q_h.call(this,a)};q_l(q_Tli,q_h);q_Tli.prototype.Ya="B34zmc";
+var q_uP=function(a){var b;q_i.call(this,a.Ia);this.wa=null;this.Aa=0;this.wp=a.service.share;a=a.jsdata.joe;this.bza=null!==(b=q_d(a,q_Sli,2))&&void 0!==b?b:new q_Sli;this.xo=null===a||void 0===a?void 0:q_d(a,q_5D,1);this.Ba={l9a:this.Da("PHQQPc").el(),w9b:this.Da("k3Pg4").getData("ved").Ta(null),JCc:this.Da("IyZ18e").getData("ved").Ta(null),KCc:this.Va("NlZIeb").getData("ved").Ta(null),MCc:this.Va("Qoiwbb").getData("ved").Ta(null),NCc:this.Va("Cr3q7c").getData("ved").Ta(null)}};q_l(q_uP,q_i);
+q_uP.Fa=function(){return{jsdata:{joe:q_Tli},service:{share:q_ik}}};q_uP.prototype.oa=function(a){this.xo=a};q_uP.prototype.TVb=function(a){a=q_Sc(a);a.xo&&this.oa(a.xo)};
+q_uP.prototype.Jf=function(){var a=this;return q_n(function(b){var c=a.getRoot().el();q_Lc(c,q_Rli,void 0,void 0,void 0);a.nrc();a.getRoot().getData("ved").Eb()&&q_Q(a.getRoot().el());q_4c(window.document.body,q_y0b);q_qq(a.getRoot().el(),"hide_popup");if(!a.xo)throw Error("Ui");return a.wp.isAvailable()?q_m(b,q_Uli(a),0):q_m(b,q_Vli(a,a.xo),0)})};
+q_uP.prototype.nrc=function(){if(!this.getRoot().getData("ved").Eb()){var a=this.getRoot().getData("csrsve").Ta(null);a&&this.getRoot().setData("ved","1t:"+a)}};
+var q_Uli=function(a){var b,c,d,e,f,g;return q_n(function(h){if(1==h.oa){if(2E3>Date.now()-a.Aa)return h.return(Promise.reject("Vi"));a.Aa=Date.now();if(q_q(a.bza,6)&&(null===(b=a.xo)||void 0===b?0:q_p(b,3)))return h.return(a.wp.HF(q_Wli(a,!0)));d=function(){return a.wp.HF(q_Wli(a))};if(!a.rka())return h.return(d());e=null===(c=a.xo)||void 0===c?void 0:c.w1();f=a.Y5(e).then(function(k){k.Zq&&a.xo.vZb(k.Zq)});q_Jd(h,2);return q_m(h,q_I9b(f),4)}if(2!=h.oa)return d(),h.return();g=q_Md(h);if(2===g)return h.return(d());
+throw Error("Wi");})},q_Wli=function(a,b){var c=a.xo.getTitle(),d=a.xo.getImageUrl(),e=a.xo.Mz();a=e?e:a.xo.w1();return{title:c||void 0,imageUrl:b&&d||void 0,MJ:(c?c+" "+a:a)||void 0}},q_Vli=function(a,b){var c,d;return q_n(function(e){if(1==e.oa){c=a.xo.w1();if(!c)throw Error("Ui");return q_m(e,a.j6(),2)}d=e.wa;return a.rka()?q_m(e,d.Ea(b.clone(),a.Ba,a.Y5(c),a.bza.clone()),0):q_m(e,d.show(b.clone(),a.Ba,a.bza.clone()),0)})};
+q_uP.prototype.Y5=function(a){var b;return q_n(function(c){if(1==c.oa)return q_m(c,q_Oli(a),2);b=c.wa;if(!b)throw Error("Xi");return c.return({Zq:b})})};q_uP.prototype.j6=function(){if(!this.wa){var a=1===this.getRoot().getData("ld").number(0)?this.Da("Sx9Kwc").el():q_Eg("shdg");this.wa=this.getController(a)}return this.wa};q_uP.prototype.rka=function(){return!!q_q(this.bza,5)&&!q_p(this.xo,2)};q_E(q_uP.prototype,"p6Buwf",function(){return this.nrc});q_E(q_uP.prototype,"KjsqPd",function(){return this.Jf});
+q_E(q_uP.prototype,"CLN7sd",function(){return this.TVb});q_R(q_LCa,q_uP);
+
+q_b();
+
+}catch(e){_DumpException(e)}
+try{
+var q_Fhi=function(a){switch(a){case "permission_denied":return 1;case "feature_not_enabled":return 1E3;case "location_timeout":case 2:case 11:return 3;default:return 2}},q_Ghi=function(a){this.oa=a};q_Ghi.prototype.getCurrentPosition=function(a,b){var c=this,d,e;return q_n(function(f){if(1==f.oa)return d=q_ga().oa,q_m(f,q_Fi(q_lk,d),2);e=f.wa;return null!==e&&void 0!==e&&e.isAvailable()&&e.Vba()?f.return(q_Hhi(c,e,a,b)):f.return(c.oa.getCurrentPosition(a,b))})};
+var q_Hhi=function(a,b,c,d){var e,f,g;return q_n(function(h){if(1==h.oa)return q_Jd(h,2),q_m(h,b.hpa(c),4);if(2!=h.oa){e=h.wa;var k=h.return;var l=e.Xn();var m=e.Rh(),n=e.Ai(),p=e.zNc();l=l&&m&&n&&p?Promise.resolve({timestamp:l,coords:{latitude:m,longitude:n,accuracy:p,altitude:e.ANc(),altitudeAccuracy:e.BNc(),heading:e.CNc(),speed:e.DNc()}}):Promise.reject({code:2,message:"Silk API returned a Geolocation position with missing fields."});return k.call(h,l)}f=q_Md(h);g=f instanceof q_hy?{code:q_Fhi(f.Cgb),
+message:f.message}:{code:2,message:"Silk API returned an unknown error: "+f};return 1E3===g.code?h.return(a.oa.getCurrentPosition(c,d)):h.return(Promise.reject(g))})},q_Ihi=function(){};q_Ihi.prototype.getCurrentPosition=function(){return Promise.reject({code:1E3,message:"Silk API not available."})};
+
+}catch(e){_DumpException(e)}
+try{
+q_a("XVaCB");
+
+var q_yXi=function(){var a=void 0===a?!0:a;var b,c;return q_n(function(d){if(1==d.oa)return q_Jd(d,2),q_m(d,(new q_Ghi(q_Ehi()||new q_Ihi)).getCurrentPosition(3,3E4),4);if(2!=d.oa)return b=d.wa,(new q_u4c(q_t4c,!1,null,!1,a)).write(b),d.return(b);c=q_Md(d);"object"===typeof c&&c&&"code"in c&&1===c.code&&q_r3c();throw c;})};
+var q_zXi=q_B("gfszqc"),q_AXi=q_B("x8GQkd");
+var q_BXi=function(a){q_i.call(this,a.Ia);this.EB=this.getRoot().el();this.$d=a.service.$d;this.neb=a.controller.neb;this.S6a=a.controller.S6a};q_l(q_BXi,q_i);q_BXi.Fa=function(){return{controller:{neb:"M8d6me",S6a:"wzWFvc"},service:{$d:q_ct}}};
+q_BXi.prototype.m8d=function(a){var b=this;q_Q(a.actionElement.el());this.neb.setTimeout(3E4);this.neb.show();a=new Promise(function(c,d){q_Wi(d,3E4)});return Promise.race([a,q_yXi()]).then(function(){q_Lc(b.EB,q_zXi,void 0,void 0,void 0)},function(c){b.S6a.setTimeout(null);b.S6a.show();q_Lc(b.EB,q_AXi,c,void 0,void 0)})};
+q_BXi.prototype.N6d=function(a){q_Q(a.actionElement.el());var b="//support.google.com/websearch?p=refresh_location&hl=en-US",c=q_Eb("QrtxK").number(0);0<c&&(b+="&authuser="+c);b=q_Cb(b);a.actionElement.getData("openInNewTab").Cb(!1)?q_um(this.getWindow(),b,"_blank"):q_et(this.$d,b)};q_E(q_BXi.prototype,"SBZ73c",function(){return this.N6d});q_E(q_BXi.prototype,"Q1u0zb",function(){return this.m8d});q_R(q_bMa,q_BXi);
+
+q_b();
+
+}catch(e){_DumpException(e)}
+try{
+q_de(q_ik);
+
+}catch(e){_DumpException(e)}
+try{
+var q_jEc=function(a){a=(new Map).set("l",(2).toString()).set("e",a.toString());q_bAc("sh","sss",.01,a)},q_lEc=function(a){var b=a.MJ,c=a.pageUrl,d=a.imageUrl;if(a.title||b||c||d)return!1;a=new q_hy("invalid_content","contains empty strings or unsupported keys");q_kEc(a);return a},q_kEc=function(a){q_gy({serviceName:"sh",methodName:"sss"},a)},q_mEc=function(){q_oy("sh","bctnsb")},q_nEc=function(){q_oy("sh","rbtnsb")};
+
+}catch(e){_DumpException(e)}
+try{
+q_a("p4LrCe");
+
+var q_AEc=function(){q_fy({serviceName:"sh",methodName:"sss"})},q_Gy=function(a){q_C.call(this,a.Ia);this.oa=!1};q_l(q_Gy,q_C);q_Gy.rb=q_C.rb;q_Gy.Fa=q_C.Fa;q_Gy.prototype.isAvailable=function(){if(navigator&&"share"in navigator)return!0;this.oa||(this.oa=!0,q_jEc(q_iy("navigator.share")));return!1};q_Gy.prototype.HF=function(a){var b=a.title,c=a.MJ;a=a.pageUrl;var d=q_lEc({title:b,MJ:c,pageUrl:a});if(d)return Promise.reject(d);q_AEc();b=navigator.share({title:b,text:c,url:a});return q_BEc(b).then(function(){return 1}).catch(function(e){return q_CEc(e)})};
+var q_BEc=function(a){return new Promise(function(b,c){var d=q_fj(function(){return c(new q_hy(2))},9E3);a.then(function(){q_gj(d);b()}).catch(function(e){q_gj(d);c(e)})})},q_CEc=function(a){if(!(a instanceof Error))return a=new q_hy("cannot_display_share_sheet","navigator.share errored with type not instanceof Error"),q_kEc(a),Promise.reject(a);if(a instanceof q_hy&&2===a.Cgb)return Promise.resolve(3);switch(a.name){case "AbortError":return Promise.resolve(2);case "NotAllowedError":a=new q_hy(4,
+"",a);q_jEc(a);break;case "TypeError":a=new q_hy("unsupported_content_type","",a);q_kEc(a);break;default:a=new q_hy("cannot_display_share_sheet","",a),q_kEc(a)}return Promise.reject(a)};q_Gy.prototype.IU=function(){return!1};q_Gy.prototype.l0=function(){q_mEc();return Promise.resolve(!1)};q_Gy.prototype.oda=function(){q_nEc();Promise.resolve(!1)};q_Gi(q_8ab,q_Gy);
+
+q_b();
+
+}catch(e){_DumpException(e)}
+// Google Inc.

@@ -1,0 +1,29 @@
+`<D7O+?sg
+`<D7Ou
+EW2SQLite format 3
+.S`
+
+Ytablesqlite_sequencesqlite_sequence
+CREATE TABLE sqlite_sequence(name,seq)
+_tableapp_clipsapp_clips
+CREATE TABLE app_clips (id INTEGER PRIMARY KEY AUTOINCREMENT,bundle_id TEXT NOT NULL UNIQUE,user_notification_consent INTEGER DEFAULT NULL,location_confirmation_consent INTEGER DEFAULT NULL,allows_location_confirmation_after_launch BOOL DEFAULT 0,last_user_notification_request_time REAL DEFAULT NULL,last_version_check_time REAL DEFAULT NULL,last_install_time REAL DEFAULT NULL,parent_app_name TEXT DEFAULT NULL,parent_app_caption TEXT DEFAULT NULL,parent_app_store_url TEXT DEFAULT NULL)1
+indexsqlite_autoindex_app_clips_1app_clips
+`<D7O[
+`<D7O3bS
+`<D7O
+
+
+`<D7Ox
+SQLite format 3
+indexapp_clips__bundle_idapp_clips
+CREATE INDEX app_clips__bundle_id ON app_clips (bundle_id)P
+`<D7O
+zeSQLite format 3
+1tableclip_entry_pointsclip_entry_points
+CREATE TABLE clip_entry_points (id INTEGER PRIMARY KEY AUTOINCREMENT,app_clip_bundle_id TEXT DEFAULT NULL,web_clip_id TEXT NOT NULL UNIQUE,last_abr_fetch_time REAL DEFAULT 0,FOREIGN KEY(app_clip_bundle_id) REFERENCES app_clips(bundle_id) ON DELETE CASCADE ON UPDATE CASCADE)A
+indexsqlite_autoindex_clip_entry_points_1clip_entry_points
+`<D7OE,
+
+`<D7Ow
+\
+G7 SQLite format 3

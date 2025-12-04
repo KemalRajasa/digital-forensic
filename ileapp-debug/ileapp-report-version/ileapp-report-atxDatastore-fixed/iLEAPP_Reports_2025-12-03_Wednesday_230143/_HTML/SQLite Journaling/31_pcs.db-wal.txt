@@ -1,0 +1,146 @@
+S<_B-McSQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+	B
+Us
+MagicCloudPairingCustomKeyBlobZone:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !%-567;U$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+ U6}
+uhIh[CZ
+JUB5
+cxg10;
+o0}g=^BE$
+3?M|Pn
+]YUW;
+j#wBV24
+l
+Y^%wh!4*
+!"-)}
+,t@a)
+16	p'
+tZ&1oh1D
+?<s!	
+4pZN
+ 77v
+k
+ot
+IY@FvG
+t)0'0%
+ ^yiN)yi e
+
+^[P
+cL4
+(E3DC948AEA3BABFA7BB8BE7E46C8F6FD572B639A
+"#$YNS.string
++XF49uvwQREej0t-Sdj0XpcYaSbz8ksKd1GbIHxgjmLE&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+anonymousCKUserIDYownerNameXZoneName
+"MagicCloudPairingCustomKeyBlobZone_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID&'<=^CKDZonePCSData>?,^CKDZonePCSDataZCKDPCSData
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464MagicCloudPairingCustomKeyBlobZone:__defaultOwner__Az
+s	MagicCloudPairingCustomKeyBlobZone:__defaultOwner__
+	MagicCloudPairingCustomKeyBlobZone:__defaultOwner__
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464Az
+sU
+	MagicCloudPairingCustomKeyBlobZone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+U
+	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+S`Icp
+L
+Us
+EncryptedMasterKeyBlob:MagicCloudPairingCustomKeyBlobZone:__defaultOwner__
+'()-5;<DEFJNOTUVU$null
+
+ChainParentPublicKeyID_
+PublicSharingKeyTEtagXParentIDUKeyIDWPCSDataZRecordTypeV$class]RecordShareIDXChainPCS\RecordZoneID_
+ZoneishPublicKeyIDXRecordID
+[xs	p
++0@7f$!1
+;pr5r
+!i:+
+*?Q"31
+6sr%0N9QO0
+yp|tx
+
+"J8
+$TL&{	pp<.
+Kzz^g2
+c+.0M
+;71(
+ $
+iuc@V16
+zW@TI
+g}_I
+Tab@Y$
+(3A277AB890763260BFF7E352B16EFB6676203A15
+*+,YNS.string
++KDBPvW5Ke7WmjBR_GTk_P5E0HN7ohPdaSDwFJjTiyTg./01Z$classnameX$classes_
+NSMutableString234_
+NSMutableStringXNSStringXNSObject
+6789:ZRecordNameVZoneID
+EncryptedMasterKeyBlob=>?
+ABC_
+
+	_
+__defaultOwner__./GH^CKRecordZoneIDI4^CKRecordZoneID./KLZCKRecordIDM4ZCKRecordIDYMasterKey=>?
+__defaultOwner__./WX_
+CKDRecordPCSDataYZ4_
+CKDRecordPCSDataZCKDPCSData
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464MagicCloudPairingCustomKeyBlobZone:__defaultOwner__Az
+MagicCloudPairingCustomKeyBlobZone:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+S`{q8
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+S5PH-W
+
+S)x
+
+S4`;B!
+
+kR8
+
+5,Oi/
+SWHE
+
+SRW`SQLite format 3
+SQLite format 3
+SfF~v]
+
+SW0?
+SO<G
+SsrH(SQLite format 3
+Sn*&rSQLite format 3
+}aSQLite format 3
+2$SQLite format 3
+S
+\
+hkSQLite format 3

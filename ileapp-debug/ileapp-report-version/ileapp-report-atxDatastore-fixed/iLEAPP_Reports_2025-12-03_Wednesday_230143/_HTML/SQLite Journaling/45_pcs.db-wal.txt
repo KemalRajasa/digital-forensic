@@ -1,0 +1,125 @@
+[&nz9
+UT
+mvjSQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+	$-U[
+Fence-DUMMY-BOOT-STRAP:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+ !%-567;<=ADU$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+1~0|0%
+ A?Ef
+OzA>
+UdX"/,d\B
+$hcTG3ZC9
+s'mwL
+-te	"
+g1><lAPYkF
+Mvh_	
+MkPPq>~%Fqb
+zyRQ
+Njiy-pFL'j/v!~
+J8;
+xP2xpLGg
+oG$:f-A(yn>-ozFybS.
++ 	gV
+{
+ JCh
+ |je
+@ _Z9Xuk)B#eC
+)0'0%
+ 	^	fEr@]}
+ hnN
+9%l?UB+of(
+v[s'q0o
+d)m+S^Om
+'
+mvgL
+(1D7F9E7966BA7F80909A7F73D0B0764CEF8332D5
+"#$YNS.string
++CBnnuzVCtoxmsILcUKWKSmkKG9W_xoWpCkzi83ND-J8&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+anonymousCKUserIDYownerNameXZoneName
+Fence-DUMMY-BOOT-STRAP_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneIDO
+9
+"^
+ PWIF\
+%N;c
+}!A;
+ ]X@N{o
+CV^UT.-
+"##YGS$'0N
+[4f'
+s
+o>
+Q2M	6"3eHs
+ E+(42
+4FunS,]
+
+"`o0m
+M[]E<
+0	+U2
+JD"`>
+?@WNS.time#A
+
+&'BCVNSDateB,&'EF^CKDZonePCSDataGH,^CKDZonePCSDataZCKDPCSData
+Zcom.apple.findmyAAA3EB7E-485D-4C71-93D7-7C0CF8E04464Fence-DUMMY-BOOT-STRAP:__defaultOwner__A
+com.apple.findmyAAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+gS'
+
+Fence-DUMMY-BOOT-STRAP:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.findmy
+.tmu
+
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464com.apple.findmy
+bU=
+
+SQLite format 3
+4yU8
+
+[56
+
+$"H
+
+AA-]
+
+>SQLite format 3
+^5&
+
+o	i6
+om3SQLite format 3
+f]I0
+
+<E\d
+
+5N^;_
+
+H4NW
+
+K7hd$SQLite format 3

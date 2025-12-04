@@ -1,0 +1,138 @@
+iX"5h{u
+SQLite format 3
+.S`
+
+G
+
+t
+/
+[indexDateIndexPCSData
+CREATE INDEX DateIndex ON PCSData(date)i
+indexShareItemIndexPCSData
+CREATE INDEX ShareItemIndex ON PCSData(shareID, accountID, serviceName)f
+indexZoneItemIndexPCSData
+CREATE INDEX ZoneItemIndex ON PCSData(zoneID, accountID, serviceName)
+
+aindexIdentifierIndexPCSData
+CREATE INDEX IdentifierIndex ON PCSData(identifier, databaseScope, itemType, serviceName, accountID, date)o
+5tablePCSDataPCSData
+CREATE TABLE PCSData (identifier TEXT, databaseScope INTEGER, itemType INTEGER, CKDPCSData BLOB, serviceName TEXT, accountID TEXT, zoneID TEXT, shareID TEXT, parentID TEXT, date INTEGER, PRIMARY KEY (identifier))-
+indexsqlite_autoindex_PCSData_1PCSData
+iX"[,
+
+~
+U?
+D73A6246-280E-4D91-B280-031520B3ED86:settings:__defaultOwner__
+bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+'()-5;<DEFJNOU$null
+
+ChainParentPublicKeyID_
+PublicSharingKeyTEtagXParentIDUKeyIDWPCSDataZRecordTypeV$class]RecordShareIDXChainPCS\RecordZoneID_
+ZoneishPublicKeyIDXRecordID
+1~0|0%
+*>B/
+j%fi8
+})L;n
+Lf;KN0sXq&
+_Ae2m6K.>
+Icc_
+TKe3H
+	c.V0O
+/H[P
+	P;t
+.Ff_-
+Z
+Up
+dQ FV4
+m
+(F0ED90FF6F3F427F2629A55FC26C9F9AB79E96BE
+*+,YNS.string
++1knqPZYwb6aZGoT0UElopF5LRtfPd9QauYAlKsok9mc./01Z$classnameX$classes_
+NSMutableString234_
+NSMutableStringXNSStringXNSObject
+6789$ZRecordNameVZoneID
+$D73A6246-280E-4D91-B280-031520B3ED86=>?
+ABC_
+anonymousCKUserIDYownerNameXZoneName
+
+	Xsettings_
+__defaultOwner__./GH^CKRecordZoneIDI4^CKRecordZoneID./KLZCKRecordIDM4ZCKRecordIDXSettings./PQ_
+CKDRecordPCSDataRS4_
+CKDRecordPCSDataZCKDPCSData
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464settings:__defaultOwner__A
+SZmHa
+	x
+U?
+settings:__defaultOwner__
+ !%-567;?BU$null
+
+VZoneID]RecordShareID_
+ZonePCSModificationDateWPCSDataUKeyIDV$classTEtag^ZoneishPCSData_
+ZoneishPublicKeyID
+j?<t>QH%^!?^E#
+U~>D)?e
+ 8;<T0+KX
+5_<'
+QUwK`Ur
+-^
+
+5Kc;&!7mH
+)~dJ=9`
+D(tkS!Z
+yRB$Nq.BDi
+j
+1qo
+~_d\-
+Agl0%
+Ny$-2
+&~K1j[<Np3
+@Rxnh
+Hj)0'0%
+3i3B"K`kZp&
+(6BAF30A003E18E900CC67C8632C972335990C9F9
+"#$YNS.string
++rpv0yqX1Fcq55OPY92tvy-ZOzzasigkhwVFpK3kKItc&'()Z$classnameX$classes_
+NSMutableString*+,_
+NSMutableStringXNSStringXNSObject./0
+234_
+	Xsettings_
+__defaultOwner__&'89^CKRecordZoneID:,^CKRecordZoneID<
+=>WNS.time#A8j
+&'@AVNSDate@,&'CD^CKDZonePCSDataEF,^CKDZonePCSDataZCKDPCSData
+iX"]
+Bjk(
+?	settings:__defaultOwner__
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464A
+SZmH
+	settings:__defaultOwner__
+iX"/}1C
+
+settings:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+?U
+	settings:__defaultOwner__AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+U
+	AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+iX"2
+iX"f'F,X<
+|
+U?
+e0P]:>i
+(Yl4BZ0Z|5n0G
+F7iuOW/U}
+	c.V0N
+&Q8^
+ 6!u
+G]pLC
+(1D4EF01FD17F0301EF32A3A98B899294B4DC0D1A
+iX"rN
+iX"rFt
+iX")
+iX"0OTm
+
+iX"T}2l
+

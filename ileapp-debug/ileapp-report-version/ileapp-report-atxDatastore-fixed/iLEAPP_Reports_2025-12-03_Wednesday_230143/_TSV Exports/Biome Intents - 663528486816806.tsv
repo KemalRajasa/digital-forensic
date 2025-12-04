@@ -1,0 +1,92 @@
+﻿Timestamp	End Date	Duration Interval	Donated by Siri	App ID	Classname	Action	Direction	Group ID	Data	Filename	Protobuf data Offset
+2022-01-19 14:58:37.843491+00:00	2022-01-19 14:58:37.843491+00:00	0.0	False	com.apple.Maps	INIntent	b'Show'	Unspecified	Pt4Tdb3Bg5yIA3pES5obcA==	"Show: Do,SubAdministrativeArea: b'Chittenden',Street: b'472 Marshall Ave',ZIP: b'05495',State: b'VT',Name: b""Gardener's Supply Company - Williston"",element: b'REVEAL',category_type: b'Garden Supply Center',CountryCode: b'US',title: b""Gardener's Supply Company - Williston"",source: b'com.apple.Maps',Thoroughfare: b'Marshall Ave',SubThoroughfare: b'472',poi_identifier: b'13270751474905456672',PostCodeExtension: b'7559',Country: b'United States',City: b'Williston',"	663528486816806	83152
+2022-01-19 14:58:38.064743+00:00	2022-01-19 14:58:38.064743+00:00	0.0	False	com.apple.Maps	INIntent	b'Show'	Unspecified	Pt4Tdb3Bg5yIA3pES5obcA==	"Show: Do,SubAdministrativeArea: b'Chittenden',Street: b'472 Marshall Ave',ZIP: b'05495',State: b'VT',Name: b""Gardener's Supply Company - Williston"",element: b'REVEAL',category_type: b'Garden Supply Center',CountryCode: b'US',title: b""Gardener's Supply Company - Williston"",source: b'com.apple.Maps',Thoroughfare: b'Marshall Ave',SubThoroughfare: b'472',poi_identifier: b'13270751474905456672',PostCodeExtension: b'7559',Country: b'United States',City: b'Williston',"	663528486816806	84968
+2022-01-19 14:58:39.827122+00:00	2022-01-19 14:58:39.827122+00:00	0.0	False	com.apple.Maps	INIntent	b'PlaceCardTap'	Unspecified		"PlaceCardTap: Do,SubAdministrativeArea: b'Chittenden',Street: b'472 Marshall Ave',ZIP: b'05495',State: b'VT',Name: b""Gardener's Supply Company - Williston"",element: b'GET_DIRECTIONS',category_type: b'Garden Supply Center',CountryCode: b'US',title: b""Gardener's Supply Company - Williston"",source: b'com.apple.Maps',Thoroughfare: b'Marshall Ave',SubThoroughfare: b'472',poi_identifier: b'13270751474905456672',PostCodeExtension: b'7559',Country: b'United States',City: b'Williston',"	663528486816806	86784
+2022-01-19 14:58:42.071841+00:00	2022-01-19 14:58:42.071841+00:00	0.0	False	com.apple.Maps	INIntent	b'Navigation'	Unspecified		Navigation: Do, source: com.apple.Maps, navigationType: New Request, nav_identifier: 1EBBCDC5-2BEC-4C7E-8732-61077F1B604D	663528486816806	88592
+2022-01-19 14:59:12.200275+00:00	2022-01-19 14:59:12.200275+00:00	0.0	False	com.apple.Maps	INIntent	b'Navigation'	Unspecified		Navigation: Do, source: com.apple.Maps, nav_identifier: 1EBBCDC5-2BEC-4C7E-8732-61077F1B604D, navigationType: Continue	663528486816806	90056
+2022-01-19 15:28:01.028413+00:00	2022-01-19 15:28:01.028413+00:00	0.0	False	com.apple.Maps	INIntent	b'Show'	Unspecified	ywyxqv4IZYcTPowTvHUiPQ==	Show: Do,SubAdministrativeArea: b'Chittenden County',Street: b'992 Shelburne Rd',ZIP: b'05403',State: b'VT',category_type: b'Bagel Store',element: b'REVEAL',CountryCode: b'US',Name: b'Burlington Bagel Bakery',title: b'Burlington Bagel Bakery',source: b'com.apple.Maps',Thoroughfare: b'Shelburne Rd',SubThoroughfare: b'992',poi_identifier: b'11680011313782328860',Country: b'United States',City: b'South Burlington',	663528486816806	91432
+2022-01-19 15:28:03.499892+00:00	2022-01-19 15:28:03.499892+00:00	0.0	False	com.apple.Maps	INIntent	b'PlaceCardTap'	Unspecified		PlaceCardTap: Do,SubAdministrativeArea: b'Chittenden County',Street: b'992 Shelburne Rd',ZIP: b'05403',State: b'VT',category_type: b'Bagel Store',element: b'GET_DIRECTIONS',CountryCode: b'US',Name: b'Burlington Bagel Bakery',title: b'Burlington Bagel Bakery',source: b'com.apple.Maps',Thoroughfare: b'Shelburne Rd',SubThoroughfare: b'992',poi_identifier: b'11680011313782328860',Country: b'United States',City: b'South Burlington',	663528486816806	93192
+2022-01-19 15:28:06.817520+00:00	2022-01-19 15:28:06.817520+00:00	0.0	False	com.apple.Maps	INIntent	b'Navigation'	Unspecified		Navigation: Do, source: com.apple.Maps, navigationType: New Request, nav_identifier: 1EBBCDC5-2BEC-4C7E-8732-61077F1B604D	663528486816806	94944
+2022-01-19 15:28:36.822805+00:00	2022-01-19 15:28:36.822805+00:00	0.0	False	com.apple.Maps	INIntent	b'Navigation'	Unspecified		Navigation: Do, source: com.apple.Maps, nav_identifier: 1EBBCDC5-2BEC-4C7E-8732-61077F1B604D, navigationType: Continue	663528486816806	96408
+2022-01-19 21:38:19.022773+00:00	2022-01-19 21:38:19.022773+00:00	0.0	False	com.apple.InCallService	INStartCallIntent	b'StartCall'	Incoming		Number: +1 (973) 446-8551	663528486816806	97784
+2022-01-21 21:35:22.899394+00:00	2022-01-21 21:35:22.899394+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;+18622176888	Thread ID: b'SMS;-;+18622176888', Sender ID: b'+18622176888', Content:, Snapchat code: 949100. Do not share it or use it elsewhere!	663528486816806	100104
+2022-01-21 21:52:39.763481+00:00	2022-01-21 21:52:39.763481+00:00	0.0	False	com.atebits.Tweetie2	T1TrendsIntent		Unspecified	Patrick01627276-664494319210515		663528486816806	104472
+2022-01-21 21:52:41.363447+00:00	2022-01-21 21:52:41.363447+00:00	0.0	False	com.atebits.Tweetie2	T1SearchIntent		Unspecified	Patrick01627276-664494319210515		663528486816806	109880
+2022-01-21 21:52:51.832122+00:00	2022-01-21 21:52:51.832122+00:00	0.0	False	com.atebits.Tweetie2	T1SearchIntent		Unspecified	Patrick01627276-664494319210515		663528486816806	115176
+2022-01-21 21:54:21.260874+00:00	2022-01-21 21:54:21.260874+00:00	0.0	False	com.atebits.Tweetie2	T1TrendsIntent		Unspecified	Patrick01627276-664494319210515		663528486816806	120472
+2022-01-21 21:54:23.598933+00:00	2022-01-21 21:54:23.598933+00:00	0.0	False	com.atebits.Tweetie2	T1SearchIntent		Unspecified	Patrick01627276-664494319210515		663528486816806	125880
+2022-01-21 21:54:24.648514+00:00	2022-01-21 21:54:24.648514+00:00	0.0	False	com.atebits.Tweetie2	T1SearchIntent		Unspecified	Patrick01627276-664494319210515		663528486816806	131176
+2022-01-21 21:54:36.967923+00:00	2022-01-21 21:54:36.967923+00:00	0.0	False	com.atebits.Tweetie2	T1SearchIntent		Unspecified	Patrick01627276-664494319210515		663528486816806	136472
+2022-01-21 22:02:44.042847+00:00	2022-01-21 22:02:44.042847+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;78156	Thread ID: b'SMS;-;78156', Sender ID: b'78156', Content:, Your SIGNAL verification code is: 915593	663528486816806	141768
+2022-01-23 19:00:27.749060+00:00	2022-01-23 19:00:27.749060+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;78644	Thread ID: b'SMS;-;78644', Sender ID: b'78644', Content:, Total Wireless: Get 5% off on your plan EVERY month when you enroll in Auto-Refill. It's easy, reliable and convenient: my-tw.co/mqwh STOP to End	663528486816806	146032
+2022-01-29 22:33:44.600312+00:00	2022-01-29 22:33:44.600312+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;78644	Thread ID: b'SMS;-;78644', Sender ID: b'78644', Content:, Total Wireless: Your Service End Date is in 7 days. With Auto-Refill, your service will automatically renew, and you can cancel at any time. Enroll Today:  http://ttlw.co/hsdLoWG  STOP to End	663528486816806	150512
+2022-01-30 02:04:17.818964+00:00	2022-01-30 02:04:17.818964+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;52181	Thread ID: b'SMS;-;52181', Sender ID: {'6': 825766194}, Content:, Microsoft access code: 1380	663528486816806	155088
+2022-01-30 02:22:45.123911+00:00	2022-01-30 02:22:45.123911+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;611611	Thread ID: b'SMS;-;611611', Sender ID: b'611611', Content:, Wi-Fi usage helps reduce high-speed data consumption. For tips on how to enjoy your high-speed data longer, click here http://dr7.tracfone.com	663528486816806	159328
+2022-01-30 21:52:32.201244+00:00	2022-01-30 21:52:32.201244+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;23081	Thread ID: b'SMS;-;23081', Sender ID: b'23081', Content:, Total Wireless: You're out of High-Speed Data. Try the $35 Plan with 5GB of High-Speed Data today! http://total-w.co/q1Mrjrq STOP to End	663528486816806	163808
+2022-01-31 19:01:03.966067+00:00	2022-01-31 19:01:03.966067+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;78644	Thread ID: b'SMS;-;78644', Sender ID: b'78644', Content:, Total Wireless: Your service expires soon! Save 5% EVERY month with Auto-Refill. Try today, cancel at any time. Start saving: my-tw.co/hefq STOP to End	663528486816806	168272
+2022-02-02 22:39:46.373171+00:00	2022-02-02 22:39:46.373171+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;78644	Thread ID: b'SMS;-;78644', Sender ID: b'78644', Content:, Total Wireless: Your Service End Date is in 3 days - refill online at  http://ttlw.co/zqJwVVc  STOP to End	663528486816806	172768
+2022-02-04 22:41:21.055428+00:00	2022-02-04 22:41:21.055428+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;78644	Thread ID: b'SMS;-;78644', Sender ID: b'78644', Content:, Total Wireless: Your Service End Date is in 1 day - refill now online at  http://ttlw.co/hZWOrxQ  STOP to End	663528486816806	177168
+2022-02-06 04:41:34.857831+00:00	2022-02-06 04:41:34.857831+00:00	0.0	False	com.atebits.Tweetie2	T1TrendsIntent		Unspecified	Patrick01627276-664494319210515		663528486816806	181568
+2022-02-06 04:58:32.252674+00:00	2022-02-06 04:58:32.252674+00:00	0.0	False	com.apple.mobilenotes	INCreateNoteIntent	b'CreateNote'	Unspecified	DF6D6432-0216-4AF3-BC31-8AE187789E05	Action: Create, Data Field 1: b'East Woods Hike', Data Field 2: b'East Woods Hike'	663528486816806	186976
+2022-02-09 15:06:05.690756+00:00	2022-02-09 15:06:05.690756+00:00	0.0	False	com.apple.MobileSMS	INSendMessageIntent	b'SendMessage'	Incoming	SMS;-;naomakile3zro@outlook.com	"Thread ID: b'SMS;-;naomakile3zro@outlook.com', Sender ID: b'naomakile3zro@outlook.com', Content:, ow.ly/kBfe30sa6o2?????S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article,a"	663528486816806	190360

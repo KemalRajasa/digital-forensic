@@ -1,0 +1,1198 @@
+,~=<
+S03SQLite format 3
+.S`
+
+n*
+
+uindexOperationUUIDCallback
+CREATE INDEX OperationUUID on Callback (operationID)u
+=tableCallbackCallback
+CREATE TABLE Callback (
+    operationID           text,
+    callback              blob
+)J
+=triggerDeleteOperationCallbackOperationInfoCREATE TRIGGER DeleteOperationCallback
+before delete on OperationInfo
+for each row begin
+  delete from Callback where operationID = OLD.operationID;
+end/
+sindexAppIDPersonaIDContainerIDAccountIDOperationInfo
+CREATE INDEX AppIDPersonaIDContainerIDAccountID on OperationInfo (applicationID, personaID, containerID, accountID)z
+3tableOperationInfoOperationInfo
+CREATE TABLE OperationInfo (
+    operationID                   text primary key,
+    applicationID                 text,
+    personaID                     text,
+    containerID                   text,
+    accountID                     text,
+    operationInfo                 blob,
+    operationIsComplete           integer default 0,
+    expirationDate                real,
+    lastAttemptDate               real,
+    retryNumber                   integer default 0
+)9
+indexsqlite_autoindex_OperationInfo_1OperationInfo
+tablePropertiesProperties
+CREATE TABLE Properties (
+    key    text primary key,
+    value  text
+)3
+indexsqlite_autoindex_Properties_1Properties
+,~=C
+'
+SchemaVersion698D9EC427E559F16EFEBD4A07411A5ECF8808C131CE4C46CF9415ABAD32688A
+-Created663201685.313793
+,~=&
+=(6
+
+SchemaVersion
+	Created
+,~=7]v
+,~=yXpA
+
+,~=IV
+
+,~=
+SQLite format 3
+
+
+=triggerDeleteOperationCallbackOperationInfoCREATE TRIGGER DeleteOperationCallback
+before delete on OperationInfo
+for each row begin
+  delete from Callback where operationID = OLD.operationID;
+endU
+uindexOperationUUIDCallback	CREATE INDEX OperationUUID on Callback (operationID)/
+CREATE INDEX AppIDPersonaIDContainerIDAccountID on OperationInfo (applicationID, personaID, containerID, accountID)u
+CREATE TABLE Callback (
+    operationID           text,
+    callback              blob
+)z
+,~=
+,~=@3	
+,~=\
+,~=u2=
+,~=Ds
+
+,~=9s{o
+
+,~=Xv
+ow/
+
+!-LastVacuum663201685.319244Q
+,~=O&
+LastVacuum
+,~=S;DT6MSQLite format 3
+,~=D=@!KSQLite format 3
+,~=!fSQLite format 3
+,~=e
+,~=PGT
+,~=/50XwU
+,~=DdT
+,~=
+K 
+
+,~=bpzxt-
+
+,~=!B
+,~=d$
+!-LastVacuum663898122.209489Q
+,~=/
+
+,~==SQLite format 3
+,~=(YPvCSQLite format 3
+,~=aR|@
+X;[
+
+,~=-11Pc
+
+,~=3:`s},
+
+,~=!gk
+,~=e8
+
+,~=c
+@Q"^
+
+,~=\V
+!-LastVacuum665200578.554560Q
+,~=`f|
+,~=a
+,~=2
+,~=8r
+-{
+/U*
+BBDB10AD1C454EAC{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464bplist00
+
+X$versionY$archiverT$topX$objects
+NSKeyedArchiver
+	Troot
+U$null
+PerOpConfiguration]DatabaseScope]IsOutstandingYrecordIDs_
+#operationDaemonCallbackProtocolName_
+clientHasValidatedEntitlements_
+packageUUIDToExpectedProperties_
+originatingFromDaemonV$class_
+shouldOnlySaveAssetContent]OperationName_
+shouldReportRecordsInFlight_
+SystemSchedulerUGroup_
+"DiscretionaryWhenBackgroundedState[OperationID_
+recordIDsToEtags_
+!conflictLosersToResolveByRecordID_
+assetUUIDToExpectedProperties_
+DuetPreClearedMode_
+ckOperationClassName_
+MMCSRequestOptionsWrecords_
+ pluginFieldsForRecordDeletesByID]QueuePriority_
+WantsRequestStatisticsZsavePolicyVatomic_
+clientChangeToken[IsLongLived_
+(markAsParticipantNeedsNewInvitationToken
+BBDB10AD1C454EAC_
+CKModifyRecordsOperation_
+!CKModifyRecordsOperationCallbacks
+QualityOfService_
+DiscretionaryNetworkBehavior
+TZ$classnameX$classes_
+CKOperationConfiguration
+CKOperationConfigurationXNSObject
+ExpectedSendSize_
+ExpectedReceiveSize_
+OperationGroupIDXQuantity_
+DefaultConfiguration_
+AuthPromptReasonTName_
+SystemImposedInfo
+CD83115581D51C99
+SaveChangedObjects
+CKOperationGroup
+yZNS.objects
+2G]n
+TombstonedPublicKeyIDs_
+HasUpdatedParentReference_
+DisplayedHostname]KnownToServerYBaseToken_
+WantsChainPCSKey[RecordCtimeZRoutingKey_
+&PreviousProtectionDataEtagFromUnitTest_
+ConflictLoserEtags_
+PreviousProtectionDataEtagZRecordType_
+CreatorUserRecordIDXPCSKeyID_
+ParentReferenceYShareEtag\ZoneishKeyID_
+ MutableEncryptedPublicSharingKeyTETag_
+PreviousShareReference_
+ModifiedByDevice_
+UseLightweightPCS^ShareReferenceSURL_
+ChainParentPublicKeyID_
+LastModifiedUserRecordID[RecordMtime_
+WantsPublicSharingKey_
+EncryptedValueStoreZValueStore\PluginFields_
+ZoneProtectionDataEtagYWasCachedZPermissionXRecordID\AllPCSKeyIDs_
+HasUpdatedShareReference_
+PreviousParentReference
+VFolder
+ZRecordNameVZoneID
+TrashFolder-CloudKit
+anonymousCKUserIDYownerNameXZoneName
+UNotes_
+__defaultOwner__
+^CKRecordZoneID
+V^CKRecordZoneID
+ZCKRecordID
+VZCKRecordID
+[ChangedKeys^OriginalValues\RecordValues!
+WNS.keys
+MinimumSupportedNotesVersion
+NSMutableDictionary
+V\NSDictionary
+MinimumSupportedNotesVersion\ParentFolder
+VNSNull
+"#$_
+
+\NSMutableSet
+V\NSMutableSetUNSSet
+CKRecordValueStore
+.,'0
+^TitleEncrypted
+2]EncryptedData_
+ReallyEncryptedData*+
+Recently Deleted
+CKEncryptedData
+4/$^TitleEncrypted
+CKEncryptedRecordValueStore
+CKEncryptedRecordValueStore_
+>XCKRecord
+,~=&=4
+-	BBDB10AD1C454EAC
+,~=$dX}
+
+{
+/U	{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+DefaultFolder-CloudKit
+;86%
+<=$_
+EC?0
+ENotes
+F$^TitleEncrypted
+^MigrationState
+$AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+XMetadata_
+WUO%
+UState_
+StateModificationDate
+WNS.time#A
+VNSDate
+PX$_
+\[Z0
+Folder_UserSpecific
+GFolder_UserSpecific::(null)/Shared::Notes::(null)::TrashFolder-CloudKit
+dcb%
+ljf0
+fm$^TitleEncrypted
+IFolder_UserSpecific::(null)/Shared::Notes::(null)::DefaultFolder-CloudKit
+uts%
+}{w0
+~$^TitleEncrypted
+WNSArray
+CKModifyRecordsOperationInfo
+CKModifyRecordsOperationInfo_
+CKDatabaseOperationInfo_
+CKOperationInfo
+	&	:	I	M	f								
+
+
+2
+L
+N
+O
+Q
+R
+T
+U
+W
+Y
+[
+]
+_
+a
+c
+e
+g
+i
+k
+m
+o
+q
+s
+u
+v
+x
+z
+|
+~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-6EJYbmr}
+$1>CEGLNPRq~
+
+
+(
+-
+B
+S
+U
+W
+Y
+[
+h
+k
+m
+p
+r
+t
+
+
+
+
+
+
+
+
+
+
+
+
+,~=SQLite format 3
+,~=r
+,~=qRX3/
+
+,~=Ly
+BBDB10AD1C454EAC
+-nBBDB10AD1C454EACbplist00
+#)/3U$null
+
+]ArgumentTypes]ProtocolNammeV$class_
+isCompletionCallbackZArgument-2\SelectorName
+!CKModifyRecordsOperationCallbacks_
+handleSystemDidImposeInfo:Zv24@0:8@16
+ ! "_
+ServiceTypePerConfig_
+ExpectedReceiveSize
+&'(WNS.keysZNS.objects
+*+,-Z$classnameX$classes\NSDictionary,.XNSObject*+01_
+!CKOperationGroupSystemImposedInfo2._
+!CKOperationGroupSystemImposedInfo*+45_
+&CKDLongLivedOperationPersistedCallback6._
+&CKDLongLivedOperationPersistedCallback
+{
+/U
+{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+,~=h~K
+,~=cO2
+,~=dSQLite format 3
+,~=HmP
+,~=@><3"
+
+,~=6
+,~=i]
+-BBDB10AD1C454EACbplist00
+"+,-.45=>?FJLOWXlmnopqrstuy~
+*]ProtocolNammeZArgument-4ZArgument-6[Argument-10[Argument-11]ArgumentTypes_
+isCompletionCallbackZArgument-8V$classZArgument-3\SelectorNameZArgument-5ZArgument-7ZArgument-9ZArgument-2
+~handleSaveForRecordID:etag:creationDate:modificationDate:serverRecord:protectionData:pcsKeyID:allPCSKeyIDs:zoneishKeyID:error:_
+%v96@0:8@16@24@32@40@48@56@64@72@80@88
+/0123ZRecordNameVZoneID
+TrashFolder-CloudKit678
+9:;<_
+
+UNotes_
+__defaultOwner__@ABCZ$classnameX$classes^CKRecordZoneIDDE^CKRecordZoneIDXNSObject@AGHZCKRecordIDIEZCKRecordID
+K
+@AMNVNSNullMEPQR
+STUVVNSCodeZNSUserInfoXNSDomain
+CKInternalErrorDomainYZ
+[ckWNS.keysZNS.objects\]^_`ab
+defghii
+[ContainerID[OperationID[RequestUUIDXerrorKey_
+ServerErrorDescription_
+CKErrorDescription_
+NSLocalizedDescription_
+com.apple.notes_
+vwxYNS.string
+$A6058B98-20E7-4692-A747-1FD1237EF5E0@Az{_
+NSMutableString|}E_
+NSMutableStringXNSStringXck36d48y_
+Zone does not exist_
+Error fetching record zone <CKRecordZoneID: 0x13d0c89a0; zoneName=Notes, ownerName=__defaultOwner__, anonymousCKUserID=<null>> from server: Zone does not exist@A\NSDictionaryE@A_
+CKInternalErrorE_
+CKInternalError]CKPrettyErrorWNSError@A_
+&CKDLongLivedOperationPersistedCallbackE_
+,~=B(qM
+,~=^>i
+,~=,`o6
+,~=J{
+xSQLite format 3
+,~=V%
+,~=_YX>#
+
+,~=4?}O
+,~=<
+.~
+
+,~=9
+,~=b>x
+x(t
+
+BBDB10AD1C454EACbplist00
+DefaultFolder-CloudKit678
+,~=p"
++r<SQLite format 3
+,~=#U
+
+,~=A
+PBu|
+
+,~=g~PyB
+
+,~=2yRd
+
+Y?J'
+% t
+
+-rBBDB10AD1C454EACbplist00
+GFolder_UserSpecific::(null)/Shared::Notes::(null)::TrashFolder-CloudKit678
+,~=`
+x~SQLite format 3
+,~=HN~;
+
+,~=R
+,~=@.^
+,~=Zn
+,~=NU
+,~=pyD4(
+
+-vBBDB10AD1C454EACbplist00
+IFolder_UserSpecific::(null)/Shared::Notes::(null)::DefaultFolder-CloudKit678
+,~=#LzSQLite format 3
+,~=kx
+,~=fP'>8
+
+,~=:TLNn
+
+,~=gLQ_
+,~=]e
+,~=1Q8c
+
+-8BBDB10AD1C454EACbplist00
+$AAA3EB7E-485D-4C71-93D7-7C0CF8E04464678
+
+XMetadata_
+$4F4CF880-55C9-490F-B296-F58D85761017@Az{_
+NSMutableStringXNSStringXck6za5nf_
+Error fetching record zone <CKRecordZoneID: 0x13bfd2a70; zoneName=Metadata, ownerName=__defaultOwner__, anonymousCKUserID=<null>> from server: Zone does not exist@A\NSDictionaryE@A_
+,~=Ee
+.fSQLite format 3
+,~=
+
+,~=/~5
+
+-{
+/U*	
+,~=pPE:
+,~=xg8W/
+,~=]
+,~=W
+,~=d^-|JB
+,~=[+	s
+
+-<BBDB10AD1C454EACbplist00
+$;?EKNRVY]_bU$null
+
+]ArgumentTypesZArgument-3ZArgument-2V$class_
+isCompletionCallback]ProtocolNamme\SelectorName
+,handleOperationDidCompleteWithMetrics:error:]v32@0:8@16@24
+ !"#[MMCSMetrics_
+CloudKitMetrics
+%&'(
+)*+,-./01234567892:_
+TotalBytesByChunkProfileYStartDate[ConnectionsWQueuing_
+BytesDownloaded_
+FileCountByChunkProfileXDuration_
+ChunkCountByChunkProfileYExecuting_
+ConnectionsCreated]BytesUploaded	
+Z#?
+=>WNS.time#A
+@ABCZ$classnameX$classesVNSDateBDXNSObjectFG
+HIJWNS.keysZNS.objects
+@ALM\NSDictionaryLDFG
+OPJ
+FG
+STJ
+@AWXXCKMetricWD@AZ[_
+CKOperationMetrics\D_
+CKOperationMetrics
+@A`aVNSNull`D@Acd_
+&CKDLongLivedOperationPersistedCallbackeD_
+RMSQLite format 3
+,~=~IBz]
+,~=FU
+,~=t~"L
+,~=,n
+
+,~=rV2 
+
+,~=z
+/]l
+
+&SQLite format 3
+10E6280812290F7B{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464bplist00
+10E6280812290F7B_
+FCD5301FDBDB6DE4
+!!ft
+
+-	10E6280812290F7B
+,~=6FL
+
+,~=`4F	SQLite format 3
+,~=QpD>TA
+,~=gk}V[l
+,~=050
+10E6280812290F7B
+,~=9OXk
+
+-n10E6280812290F7Bbplist00
+,~=Y@
+,~=..
+,~=#f8#
+,~=
+NVnSQLite format 3
+,~=Bp@)
+,~=G|`4
+,~=]\.,
+
+-`10E6280812290F7Bbplist00
+$%-./6:U$null
+
+0handleRecordModificationForRecordID:didProgress:]v32@0:8@16d24
+ !"#ZRecordNameVZoneID
+TrashFolder-CloudKit&'(
+)*+,_
+__defaultOwner__0123Z$classnameX$classes^CKRecordZoneID45^CKRecordZoneIDXNSObject0178ZCKRecordID95ZCKRecordID01;<_
+&CKDLongLivedOperationPersistedCallback=5_
+,~=x
+RPcV
+
+,~=8?p
+
+1GP)
+,~=|
+h
+
+,~=rZ
+,~=d
+,~=onL3
+
+-610E6280812290F7Bbplist00
+++,-.45=>?FJKORU$null
+__defaultOwner__@ABCZ$classnameX$classes^CKRecordZoneIDDE^CKRecordZoneIDXNSObject@AGHZCKRecordIDIEZCKRecordIDQ3L
+MNWNS.time#A
+@APQVNSDatePE
+'STUVWXYZ[\]^_`abcdefg
+hijklmnopqrstuvwx9"{|9"
+999999999%9"999
+"99"9"9_
+/01
+
+\_defaultZone
+@CE35E4107E16DE1640C014901ABB870353E6E4ABAE51C6A3859881B9661797A2^www.icloud.com
+[ChangedKeys^OriginalValues\RecordValues
+WNS.keysZNS.objects
+NSMutableDictionaryE\NSDictionary
+ @A\NSMutableSetE\NSMutableSetUNSSet@A_
+CKRecordValueStoreE_
+%$#&
+ @A_
+CKEncryptedRecordValueStoreE_
+CKRecordValueStore@AXCKRecordE
+)@AVNSNullE@A_
+				
+	"	K	N
+^ u)SQLite format 3
+,~=D
+}R\#
+
+,~=w=
+
+,~=k
+4T$T
+,~="i_t
+-d10E6280812290F7Bbplist00
+DefaultFolder-CloudKit&'(
+JPASQLite format 3
+,~=7!es
+
+,~=NC
+,~=b'+
+,~=:
+,~=_J
+->10E6280812290F7Bbplist00
+__defaultOwner__@ABCZ$classnameX$classes^CKRecordZoneIDDE^CKRecordZoneIDXNSObject@AGHZCKRecordIDIEZCKRecordIDQ4L
+	
+	
+	
+	!	&	O	R
+,~=j
+A4SQLite format 3
+,~=[
+,~=N
+IC@;p
+
+,~=NYk
+,~=?eB7/
+,~=DU
+-F10E6280812290F7Bbplist00
+GFolder_UserSpecific::(null)/Shared::Notes::(null)::TrashFolder-CloudKit&'(
+,~=Fa8
+,~=n
+be
+
+,~=a>
+,~=nB\
+,~=#
+- 10E6280812290F7Bbplist00
+__defaultOwner__@ABCZ$classnameX$classes^CKRecordZoneIDDE^CKRecordZoneIDXNSObject@AGHZCKRecordIDIEZCKRecordIDQ5L
+				
+	6	:	X	m	r	{	~								
+,~=~
+$)9"
+,~=QPp
+,~=xG
+0#u{
+
+_	-{
+/U*
+,~=o
+10E6280812290F7B	
+,~=n@&k
+{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464	
+9rC@
+
+,~=Zct
+,~=Jk _S
+
+-J10E6280812290F7Bbplist00
+IFolder_UserSpecific::(null)/Shared::Notes::(null)::DefaultFolder-CloudKit&'(
+?!`ASQLite format 3
+,~=f
+,~=?S1X
+
+_
+-{
+/U*
+:iW
+
+10E6280812290F7B
+
+{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+
+,~='i<l
+
+,~=zA|
+,~=l7v
+-(10E6280812290F7Bbplist00
+__defaultOwner__@ABCZ$classnameX$classes^CKRecordZoneIDDE^CKRecordZoneIDXNSObject@AGHZCKRecordIDIEZCKRecordIDQ6L
+			
+	
+	:	>	\	q	v	
+									
+.SQLite format 3
+,~=w^
+_-{
+/U*
+10E6280812290F7B
+,~=Tn
+{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+,~=@tFWo
+10E6280812290F7Bbplist00
+$AAA3EB7E-485D-4C71-93D7-7C0CF8E04464&'(
+,~=p
+#SQLite format 3
+,~=p4
+_-{
+/U*
+,~={
+10E6280812290F7B
+,~=<A7
+14B
+
+{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464
+,~=7u
+,~=$[2
+,~=n*0S
+
+-10E6280812290F7Bbplist00
+	#	(	1	4	7	9	>	E	H	M	v	y
+,~=tSQLite format 3
+,~=~#Wo
+X{G
+
+_
+-{
+/U*	
+,~=]a~
+K8e
+
+5f@fN,
+,~=oj
+,~=@
+,~=b
+$<@FLOSWZ^`cU$null
+
+)*+,-./0123456789:;_
+#?]
+#?m0
+>?WNS.time#A
+ABCDZ$classnameX$classesVNSDateCEXNSObjectGH
+IJKWNS.keysZNS.objects
+ABMN\NSDictionaryMEGH
+PQK
+GH
+TUK
+ABXYXCKMetricXEAB[\_
+CKOperationMetrics]E_
+ABabVNSNullaEABde_
+&CKDLongLivedOperationPersistedCallbackfE_
+,~=8C
+,~= 
+,~=GA7
+,~=qb)
+,~=7[
+
+,~=yY
+,~=,,<
+
+-{
+/U2
+BE3DEF6E2D26162F{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464bplist00
+]U$null
+BE3DEF6E2D26162F_
+8786E1D352CA7510
+wZNS.objects
+\_defaultZone_
+__defaultOwner___
+@CE35E4107E16DE1640C014901ABB870353E6E4ABA
+,~=q
+-	BE3DEF6E2D26162F
+,~=r5n
+_
+
+,~=xye
+E51C6A3859881B9661797A2Q3^www.icloud.com
+[ChangedKeys^OriginalValues\RecordValues-($1
+++'_
+ ./0_
+&\NSMutableSet
+1:83<
+65'^TitleEncrypted
+ReallyEncryptedData67
++'^TitleEncrypted
+M;0^TitleEncrypted
+WXCKRecord
+@CE35E4107E16DE1640C014901ABB870353E6E4ABAE51C6A3859881B9661797A2Q4^www.icloud.com
+TQO1
+UV0_
+1^\X<
+Z'^TitleEncrypted
+_0^TitleEncrypted
+ywr1
+0uv'UState_
+Dsz0_
+1~}|<
+YWNSArray
+	2	A	E	^	y								
+
+
+*
+D
+F
+G
+I
+J
+L
+M
+O
+Q
+S
+U
+W
+Y
+[
+]
+_
+a
+c
+e
+g
+i
+k
+m
+n
+p
+r
+t
+v
+x
+y
+{
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%.=BQZeju~
++np
+
+
+
+&
+3
+@
+E
+G
+I
+N
+P
+R
+T
+s
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,~=vDz7SQLite format 3
+,~=C,T
+@CE35E4107E16DE1640C014901ABB870353E6E4ABAE51C6A38
+BE3DEF6E2D26162F
+-nBE3DEF6E2D26162Fbplist00
+,~=j=Dx
+
+,~=H
+,~=u
+59881B9661797A2Q3^www.icloud.com
+,~=qSQLite format 3
+,~=xC1
+,~=/?|S
+
+,~=AiwP@
+
+-`BE3DEF6E2D26162Fbplist00
+,~=YAhyy3
+
+,~=e[
+
+,~=P^D
+,~=\$g
+,~=m
+,~=s0^l
+,~={"(
+,~=2(
+,~=5
+BE3DEF6E2D26162Fbplist00
+3ZRecordNameVZoneID
+CZ$classnameX$classes^CKRecordZoneID
+E^CKRecordZoneIDXNSObject
+HZCKRecordID
+EZCKRecordIDQ7
+NWNS.time#A
+QVNSDate
+XiPhone 8^www.icloud.com
+[ChangedKeys^OriginalValues\RecordValues 
+E\NSDictionary
+\NSMutableSet
+E\NSMutableSetUNSSet
+&%$'
+XCKRecord
+	 	&	/	D	I	^	o	q	s	u	w															
+
+
+"
+$
+-
+4
+9
+B
+k
+p
+,~=95bmSQLite format 3
+,~=x~i
+,~=YP
+,~=z_S8c
+,~=`VS>TF
+,~=Fq]C
+,~=\azqE
+
+-dBE3DEF6E2D26162Fbplist00
+"-xSQLite format 3
+,~=.G
+
+,~="h'!@
+
+,~=-j $
+EZCKRecordIDQ8
+	$	*	3	H	M	b	s	u	w	y	{															
+
+
+
+
+!
+&
+(
+1
+8
+=
+F
+o
+t
+,~=hw]_4V,SQLite format 3
+`Z>H
+cT7
+
+,~=p v
+
+,~=G
+,\r}
+,~=7
+,~=70-38j	
+,~=	)
+,~=_ZH 
+,~='
+	|@
+
+,~=<=
+,~=PS\DC
+
+,~=8`
+-\BE3DEF6E2D26162Fbplist00
+EZCKRecordIDQ4
+	!	*	7	>	K	Q	Z	o	t																				
+
+
+1
+:
+C
+H
+M
+O
+X
+_
+d
+m
+
+
+,~=/R
+,~=2Gg9
+,~=L7
+c	-{
+/U2	
+,~=D*}^Y
+
+BE3DEF6E2D26162F	
+,~=fgwO
+\}@6
+
+,~=Z\
+,~=B)G_%
+,~=P(m
+
+->BE3DEF6E2D26162Fbplist00
+;#?G
+,~=B	SQLite format 3
+,~=H.
+
+,~=`)
+,~=^V/2SQLite format 3
+,~=bTU1
+zSQLite format 3
+,~=ET|s
+
+-{
+/U
+C95E56048A81ACAA{"applicationBundleIdentifier":"com.apple.mobilenotes"}com.apple.notes:1AAA3EB7E-485D-4C71-93D7-7C0CF8E04464bplist00
+qU$null
+ pluginFieldsForRe
+-	C95E56048A81ACAA
+,~=D?
+cordDeletesByID]QueuePriority_
+C95E56048A81ACAA_
+E488B379B4AB4E35
+tZNS.objects
+UUsers
+!_b3de7632989d01c853659f262cf7406c
+__defaultOwner__VSystemXkz0m4b4s
+[ChangedKeys^OriginalValues\RecordValues4( >
+!"#$
+%%%&'_
+DidChooseToMigrate_
+DidMigrateOnMac_
+DidFinishMigration_
+CryptoIterationCount	
+)*+,-./01
+222222222'_
+CryptoInitializationVector_
+CryptoWrappedKeyZCryptoSalt_
+CryptoIterationCount^CryptoVerifierYCryptoTag
+0VNSNull
+56789:;<1=_
+CryptoIterationCount^CryptoVerifier
+G\NSMutableSet
+RCA@E
+2'\PasswordHint
+`D=\PasswordHint
+jXCKRecord
+mWNSArray
+		#	9	D	Q	j	t	
+																																	
+
+
+
+
+
+
+
+
+"
+-
+4
+6
+8
+:
+^
+o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(*3:?LNPRertvx
+
+
+*<Qhir
+
+
+'
+9
+N
+a
+l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,~=]5
+,~=0fN
+ pluginFieldsForRecordDele
+C95E56048A81ACAA
+,~=\kZ
+
+-nC95E56048A81ACAAbplist00
+,~=sf4
+,~=e
+tesByID]QueuePriority_
+pAn'F
+,~=9>
+,~=b?
+Waj
+
+C95E56048A81ACAAbplist00
+!_b3de7632989d01c853659f262cf7406c&'(
+
+\_defaultZone_
+,~=.U(Dm
+
+,~=8R
+
+,~=UGE
+pAn5
+,~=~C*qw
+,~=x/Iff
+,~=;{
+i4
+
+,~= SS
+
+,~=%
+,~=SD
+++,-.45=>?FJKORUU$null
+$%&'
+!_b3de7632989d01c853659f262cf7406c678
+__defaultOwner__@ABCZ$classnameX$classes^CKRecordZoneIDDE^CKRecordZoneIDXNSObject@AGHZCKRecordIDIEZCKRecordIDXkz0m4b4tL
+@APQVNSDatePEL
+SN#A;7L
+'VWXYZ[\]^_`abcdefghij
+klmnopqrstuvwxyz{9"~
+999999999%9"999'"99"9"9_
+	7	:
+,~=X_.v2SQLite format 3
+,~=+V=BE
+,~='>
+
+,~=bZ
+,~=c
+|
+
+,~=85Sq4
+pAnK0
+-FC95E56048A81ACAAbplist00
+>?WNS.time#A;$u
+IytSQLite format 3
+,~=hQ@4<G
+#-CP
+
+ucU
+
+,~=yZil#S:
+
+,~=K
+lSQLite format 3
+,~=g+W
+,~=v
+,~=:eDem
+
+,~=E@
+
+!-LastVacuum666549342.369073Q
+,~=T
+cZ1MSQLite format 3
+HJ#SQLite format 3
+,~=.SQLite format 3
+<0SQLite format 3
+,~=<XrEuSQLite format 3

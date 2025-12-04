@@ -1,0 +1,419 @@
+FT`H
+Y;R
+FT`HVV
+r5.SQLite format 3
+.S`
+
+tableeventsevents
+CREATE TABLE events (pid INTEGER, report_url TEXT,eventBody BLOB, timestampInserted REAL, timestampReported INTEGER, PRIMARY KEY (pid))
+FT`H
+q
+FT`HO&]b
+
+FT`HiD
+2SQLite format 3
+windexevents_report_urlevents
+CREATE INDEX events_report_url ON events (report_url) 
+FT`HAb
+FT`H`}SQLite format 3
+indexevents_timestampInsertedevents
+CREATE INDEX events_timestampInserted ON events (timestampInserted)X
+FT`H2)\xL
+FT`HE
+FT`Hd!a}GSQLite format 3
+indexevents_timestampReportedevents
+CREATE INDEX events_timestampReported ON events (timestampReported)n
+FT`H.ug
+FT`HASHSQLite format 3
+Ytableeventsevents
+CREATE TABLE events (pid INTEGER, report_url TEXT,eventBody BLOB, timestampInserted REAL, timestampReported INTEGER, supressDsid INTEGER DEFAULT 0, PRIMARY KEY (pid))n
+CREATE INDEX events_report_url ON events (report_url)
+FT`HXj
+SQLite format 3
+FT`H@
+SQLite format 3
+FT`H7
+8SQLite format 3
+FT`Hj
+fSQLite format 3
+FT`Hh~C SQLite format 3
+https://xp.apple.com/report/2/xp_its_mainbplist00
+	
+
+
+ !"#$%&'()*+,-./0123456789:;<=
+>?@AB:EFGHIJKLM6NOPQRST:U6HVWXZisSignedInZstoreFront]clientEventId[pageHistoryYeventTimeTdsIdVpageIdZappVersionYuserAgent_
+storeFrontHeader^timezoneOffset[screenWidthYextRefUrlSapp_
+capacityDataAvailableYeventTypeXpageTypeZpixelRatio\capacityDataYosVersion[pageDetails_
+windowInnerWidth_
+windowOuterHeight\capacityDisk_
+xpVersionMetricsKit\eventVersionTpage\screenHeightUtopicWhostAppZlaunchTime^hostAppVersionWpageUrl^resourceRevNumZconnection_
+windowInnerHeight\pageLoadTimeXuserType[pageContext_
+windowOuterWidth_
+xpPostFrequencyXlanguage[baseVersion^capacitySystem\xpSendMethod_
+capacitySystemAvailable	V143441_
+1_1_9fyw92teE751jOnfZ2BW5712
+ConvertAppleIDCredentialsQ1_
+TStoreKitUIService/1.0 iOS/15.0.2 model/iPhone10,1 hwp/t8015 build/19A404 (6; dt:157)[143441-1,29
+!https://p18-buy.itunes.apple.com/[finance-app
+Wfinance
+V15.0.2CD[accountTypeTSAID
+HU7.3.1
+!finance_ConvertAppleIDCredentials
+[xp_its_main_
+com.apple.ios.StoreKitUIService
+~~R_
+<https://finance-app.itunes.apple.com/account/convert/landingX2204.7.0V4G/TFW
+~~R]notSubscribedYtransient
+iTunes.metricsController
+FT`HW
+https://xp.apple.com/report/2/xp_its_main8L
+FT`HFm%+~
+
+FT`HY1 eL
+
+FT`H_u9
+
+ !"#$%&'()*+,-./0123456789:;<5=>?@ABCD1EFGHI5J1KLZisSignedInZstoreFront]clientEventIdZactionTypeYeventTimeXlocationTdsIdVpageIdZappVersionYuserAgent_
+storeFrontHeader^timezoneOffset[screenWidthXtargetIdSappYeventTypeXpageTypeZpixelRatioYosVersion_
+xpViewablePercentage_
+windowOuterHeight_
+xpVersionMetricsKit\eventVersionTpage\screenHeightUtopicWhostApp_
+windowInnerHeight^hostAppVersionWpageUrlZconnection^resourceRevNumXuserType[pageContext_
+xpPostFrequencyXlanguage[baseVersion\xpSendMethod	V143441_
+1_1_qcrQb4RNjB70M0zTz2zNztO2Vtoggle
+w]agreedToTerms[finance-appUclickWfinance
+V15.0.2#?
+JU7.3.1
+<https://finance-app.itunes.apple.com/account/convert/landingV4G/TFWX2204.7.0]notSubscribedYtransient
+FT`Hkuss!
+https://xp.apple.com/report/2/xp_its_main>H
+FT`H:1I
+
+FT`H{yLGSQLite format 3
+FT`Hx
+FT`HEsw'bC
+
+https://xp.apple.com/report/2/xp_its_main@;%4
+i'J@;%
+@;%
+FT`H1c[s
+1_1_TpmXp2q9W2G16mPq22qjiaJ3Vtoggle
+i'JY
+FT`H!bR$
+FT`Hc
+FT`H)_
+https://xp.apple.com/report/2/xp_its_main
+LM
+4
+FT`H6Q@
+
+FT`H^O{
+
+LM
+
+FT`HWufg
+ !"#$%&'()*+,-./01234=>?@ABCDEFG@HIJKLMN3OPQRSTU@V3WXZisSignedInZstoreFront]clientEventIdZactionTypeYeventTimeXlocationTdsIdVpageIdZappVersion]actionDetails_
+storeFrontHeaderYuserAgent^timezoneOffset[screenWidthXtargetIdSappYeventTypeXpageTypeZpixelRatioYosVersion_
+xpVersionMetricsKit\eventVersionZtargetType\screenHeightUtopicWhostApp^hostAppVersionWpageUrlTpage^resourceRevNumZconnection_
+windowInnerHeightXuserType[pageContext_
+1_1_8ytVu1grm7n1XLIhS3ZG6B74Xnavigate
+~~S6d
+ConvertAppleIDCredentialsQ156[fieldStates7:89_
+iso3CountryCodeSUSA;<]agreedToTermsXtoggleOn[143441-1,29_
+TStoreKitUIService/1.0 iOS/15.0.2 model/iPhone10,1 hwp/t8015 build/19A404 (6; dt:157)
+wTNext[finance-appUclickWfinance
+Vbutton
+com.apple.ios.StoreKitUIService_
+<https://finance-app.itunes.apple.com/account/convert/landing_
+!finance_ConvertAppleIDCredentialsX2204.7.0V4G/TFW
+;]notSubscribedYtransient
+FT`HZ
+FT`Hs
+~SQLite format 3
+FT`HRPY!
+FT`HZGA'c
+
+https://xp.apple.com/report/2/xp_its_main-@
+FT`HQrD
+FT`HuVf
+
+FT`Hj_:coJ
+
+ !"#$%&'()*+,./0123456
+789:5?@ABCDEFG1HIJKLM5N1AOZisSignedInZstoreFront]clientEventId[pageHistoryYeventTimeTdsIdVpageIdZappVersionYuserAgent_
+storeFrontHeader^timezoneOffset[screenWidthSappYeventTypeXpageTypeZpixelRatioYosVersion[pageDetails_
+xpVersionMetricsKit\eventVersionTpage\screenHeight_
+windowInnerHeightUtopicWhostAppZlaunchTime^hostAppVersionWpageUrlZconnection\pageLoadTime^resourceRevNumXuserType[pageContext_
+1_1_n9MDo2HgrhL3WimeH2GSE7Q4-_
+~~S>
+ConvertAppleIDBillingInfoQ1_
+w[finance-appWfinance
+V15.0.2;<=>_
+paymentMethodType[accountTypeTNoneTSAID
+MU7.3.1
+!finance_ConvertAppleIDBillingInfo
+;[xp_its_main_
+Ahttps://finance-app.itunes.apple.com/account/convert/billing-infoV4G/TFW
+~~S>}X2204.7.0]notSubscribedYtransient
+	FT`HL
+FT`H_[<>
+https://xp.apple.com/report/2/xp_its_mainaB
+FT`HiT:
+
+vRbaB
+z(\zl
+
+	FT`H_
+>+\
+
+1_1_jX28X47FVea1a9Z042vKMYH4Ufocus
+~~S]
+addressOfficialLineFirst[finance-appUclickWfinance
+XU7.3.1
+Ahttps://finance-app.itunes.apple.com/account/convert/billing-infoV4G/TFWX2204.7.0]notSubscribedYtransient
+vRb"W
+'
+'LSQLite format 3
+FT`HfCTQ
+FT`Ho@
+FT`Hex
+FT`H(^[:?f
+
+FT`HK
+FT`HS
+1_1_uebiC4kl2Pp2fozVQ07oZiJ4Ufocus
+addressOfficialCity[finance-appUclickWfinance
+FT`H&s:
+FT`Hr
+
+FT`H+
+FT`He
+FT`HDwg:#
+
+i'J'O
+FT`Hzb
+FT`HG
+
+FT`HL
+vRb'O
+FT`H qgSQLite format 3
+jn.
+
+By4s
+
+FT`H#I_
+
+FT`H	
+#L8
+
+FT`H\]1
+
+FT`H$3C
+FT`Hs/
+1_1_sTyJU0R6sIA1kZLzI3cdZsL4Ufocus
+~~S$
+addressOfficialStateProvince[finance-appUclickWfinance
+FT`Hn9
+https://xp.apple.com/report/2/xp_its_main
+N
+'
+FT`HvI9"{
+
+
+N
+'
+
+FT`H2	:[DI
+
+1_1_1BXnC2qykNq1zb1cr21XjCj1Ufocus
+~~Su
+addressOfficialPostalCode[finance-appUclickWfinance
+pzB7
+FT`Hmv"	
+
+https://xp.apple.com/report/2/xp_its_main@
+pzB@
+
+FT`H{M8|
+
+FT`H%KcSQLite format 3
+FT`HwxZ
+FT`H(b
+https://xp.apple.com/report/2/xp_its_mainK&JX4
+FT`Hx]IC
+
+K&JX
+#5p&
+
+K&JX
+FT`H>
+pzBm
+ !"#$%&'()*+,-./0123456789:;<=>7?@AB3CDEFGHIJKLM7N3OPZisSignedInZstoreFront]clientEventIdZactionTypeYeventTimeXlocationTdsIdVpageIdZappVersionYuserAgent_
+xpVersionMetricsKit\eventVersionZtargetType^hostAppVersionUtopic]actionContextWhostAppWpageUrlTpageZconnection^resourceRevNum\screenHeight_
+1_1_6JXJX4OZvJ72oR7eS1mq3zB4Vselect
+wRNJ[finance-appUclickWfinance
+\selectOption[xp_its_main_
+addressOfficialStateProvince_
+Ahttps://finance-app.itunes.apple.com/account/convert/billing-info_
+!finance_ConvertAppleIDBillingInfoV4G/TFWX2204.7.0
+_]notSubscribedYtransient
+
+FT`HU
+1W
+FT`HQ]$
+
+https://xp.apple.com/report/2/xp_its_main	CL'4
+FT`Hasv-4
+
+	CL'
+FT`H$X[kF
+
+	CL'
+
+FT`H2
+1_1_RoGLy3TZHj942Fetn3ga2ye2Ufocus
+~~T
+-
+phoneOfficeAreaCode[finance-appUclickWfinance
+FT`HZDn;
+
+https://xp.apple.com/report/2/xp_its_mainN<K
+FT`H{
++TM
+
+FT`H6
+
+FT`H
+1_1_OnJAy0BLmsB4GNq8K0WNIX73Ufocus
+phoneOfficeNumber[finance-appUclickWfinance
+FT`H&B
+HSQLite format 3
+FT`Hx,3E
+FT`Ha
+GZ]
+
+https://xp.apple.com/report/2/xp_its_mainJO(2V4
+dJO(2V
+FT`H;:KAj
+
+JO(2V
+FT`HIIE=-
+
+FT`Hd6
+
+ !"#$%&'()*+,-./01234STUVWXYZ[\]V^_`abcd3efghijkVl3mnZisSignedInZstoreFront]clientEventIdZactionTypeYeventTimeXlocationTdsIdVpageIdZappVersion]actionDetails_
+1_1_92Q0D0UjYIf05WBh312vxYz3Xnavigate
+~~TA
+ConvertAppleIDBillingInfoQ156[fieldStates7:<>ACEHJMOQ89_
+paymentMethodTypeZCreditCard8;VPayPal8=TNone?@_
+billingFirstNameZtextFilledB@_
+billingLastNameD@_
+addressOfficialLineFirstFG_
+addressOfficialLineSecondYtextEmptyI@_
+addressOfficialCityKL_
+addressOfficialStateProvinceRNJN@_
+addressOfficialPostalCodeP@_
+phoneOfficeAreaCodeR@_
+phoneOfficeNumber[143441-1,29_
+!finance_ConvertAppleIDBillingInfoX2204.7.0V4G/TFW
+FT`HUQ
+FT`HMm,
+JB~
+
+https://xp.apple.com/report/2/xp_its_mainKa
+FT`Hj|Z~g(
+
+FT`H%
+FT`HTO
+ !"#$%&'()*+,/01234567
+89:;6>?@ABCDEF2GHIJKL6M2@NZisSignedInZstoreFront]clientEventId[pageHistoryYeventTimeTdsIdVpageIdZappVersionYuserAgent_
+1_1_5gpDd0gI0aT4YZu6412mIRW4-._
+!finance_ConvertAppleIDCredentials_
+~~TP6
+ConvertAppleIDSuccessQ1_
+V15.0.2<=[accountTypeTSAID
+UU7.3.1
+finance_ConvertAppleIDSuccess
+[https://finance-app.itunes.apple.com/account/convert/success?email=pbentley0107%40gmail.comV4G/TFW
+~~TPX2204.7.0]notSubscribedYtransient
+FT`HHK=
+3sv],
+
+APSQLite format 3
+FT`H(H}
+B3W
+
+FT`HQ
+FT`HI
+FT`Hc#D
+FT`Hh
+ !"#$%&'()*+,-./0123456789:;<=>?@A9BCDE5FGHIJKLBMN9O5PQZisSignedInZstoreFront]clientEventIdZactionTypeYpositionXYeventTimeXlocationTdsIdVpageIdZappVersionYuserAgent_
+storeFrontHeader^timezoneOffset[screenWidthXtargetIdYpositionYSappYeventTypeXpageTypeZpixelRatioYosVersion_
+xpVersionMetricsKit\eventVersionZtargetType^hostAppVersionUtopicWhostAppTpageWpageUrl^resourceRevNum\screenHeightZconnection_
+1_1_rF0jP2VRPZk1RYVfr1pr8kL2Xnavigate
+~~T\
+wXContinue
+[finance-appUclickWfinance
+;U7.3.1
+Vbutton[xp_its_main_
+finance_ConvertAppleIDSuccess_
+[https://finance-app.itunes.apple.com/account/convert/success?email=pbentley0107%40gmail.comX2204.7.0
+V4G/TFW]notSubscribedYtransient
+FT`H:oT1a
+	
+
+FT`HJ
+FT`Hw;
+:SQLite format 3
+FT`H&8
+FT`HN
+FT`H6A
+'O/JO(2V
+'O/N<K
+'O/K&JX
+'O/Ka
+'O/
+N
+'
+'O/	CL'
+'O/@
+FT`H2C~
+
+FT`Hb-@
+pzB'O/
+FT`HEJN
+'O/r
+gE'O/
+FT`H~IL
+
+d'O/
+FT`H
+[gR
+.[0SQLite format 3
+FT`H&?u
+FT`Hdai
+FT`H@aw}$
+
+FT`HAUZ
+FT`HM
+d'O/;
+V@n
+
+FT`HZt_H
+FT`HGl
+WSQLite format 3
+FT`H'
+*SQLite format 3
+FT`H$E@qSQLite format 3
+FT`HM
+FT`HP
+b[SQLite format 3
+FT`Ha7q_SQLite format 3
+FT`HISQLite format 3
+FT`H
+0SQLite format 3
+(YSQLite format 3
+FT`HU*U
+-RSQLite format 3
+][SQLite format 3

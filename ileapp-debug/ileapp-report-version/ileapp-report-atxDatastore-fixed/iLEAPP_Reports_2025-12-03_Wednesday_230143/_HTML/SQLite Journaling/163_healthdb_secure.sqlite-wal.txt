@@ -1,0 +1,6206 @@
+#	gk
+#	)$6
+shared_summary_transactions
+shared_summary_authorization_categories
+k
+cached_queries
+sample_aggregate_caches9
+shared_summaries
+k
+shared_summary_transaction_metadata
+shared_summary_object_types
+k
+objects
+metadata_values:
+'	metadata_keys
+-	data_provenances
+%	contributors!
+user_domain_concept_properties
+key_value_secureD
+#	y	|M
+
+:
+
+
+%k
+com.apple.health.Summaries[HKCategoryTypeIdentifierAppetiteChanges]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAppetiteChanges]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAcne]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAcne]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAbdominalCramps]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAbdominalCramps]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAppleStandHour]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAppleStandHour]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAppleWalkingSteadinessEvent]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierBladderIncontinence]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAudioExposureEvent]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAudioExposureEvent]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierAppleWalkingSteadinessEvent]_ChartModel_Summary
+com.apple.health.SummariesWheelchairSetting_HKQuantityTypeIdentifierAppleStandTime
+com.apple.health.SummariesWheelchairSetting_HKQuantityTypeIdentifierAppleExerciseTime
+com.apple.health.SummariesWheelchairSetting_HKCategoryTypeIdentifierAppleStandHour
+com.apple.health.SummariesWheelchairSetting_HKActivitySummaryTypeIdentifier
+com.apple.health.SummariesHKActivitySummaryTypeIdentifier_CurrentValue_Summary
+com.apple.health.SummariesActivitySummary_Chart
+#	=aw
+zodYNC8-"
+}rg\QF;0%
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+I
+>
+3
+(
+
+													
+	v	m	d	Z	P	F	<	2	(	
+	
+
+
+
+
+
+
+
+
+*
+
+
+3[
+3	
+
+2[
+2	
+
+1F
+1	
+
+0F
+0	
+
+/O
+/	
+
+.O
+.	
+
+-?
+-	
+
+,?
+,
+
+
+
+e
+
+	
+
+Z
+	
+
+Z
+	
+
+
+Y
+
+	
+
+	Y
+		
+	I		
+	H		
+	G		
+	>		
+	=		
+	<		
+	:		
+	9		
+	8		
+	7		
+	6		
+	5		
+	4		
+	3		
+	2		
+	1		
+	0		
+	/		
+	.		
+	-		
+	,		
+	+		
+	*		
+	)		
+	(		
+	'		
+	&		
+	%		
+	$		
+	#		
+	"		
+	!		
+	 		
+	
+		
+			
+				
+	d		
+	K	
+
+	~F	~	
+	}d	}
+
+
+KP
+K	
+
+JP
+J	
+
+Iq
+I	
+
+Hq
+H	
+
+Gc
+G	
+
+Fc
+F
+
+
+?`
+?	
+
+>`
+>	
+
+=_
+=	
+
+<_
+<	
+
+;a
+;	
+
+:a
+:
+
+
+5\
+5	
+
+4\
+4
+*h
+
+
+
+
+
+n
+\
+J
+8
+&
+
+								r	`	N	<	*	
+	
+
+
+
+
+
+
+
+q
+^
+K
+8
+%
+
+z
+gT
+
+ihktype:169
+i
+
+8hktype:244
+8
+
+7hktype:243
+7
+
+6hktype:243
+6
+
+5hktype:92
+5
+
+4hktype:92
+4
+
+3hktype:91
+3
+
+2hktype:91
+2
+
+1hktype:70
+1
+
+0hktype:70
+0
+
+/hktype:79
+/
+
+.hktype:79
+.
+
+-hktype:63
+-
+
+,hktype:63
+,
+
++hktype:145
++
+
+*hktype:199
+*
+
+)hktype:199
+)
+
+(hktype:250
+(
+
+'hktype:250
+'
+
+&hktype:178
+&
+
+%hktype:178
+%
+
+$hktype:173
+$
+
+#hktype:173
+#
+
+"hktype:172
+"
+
+!hktype:172
+!
+
+ hktype:138
+ 
+hktype:138
+
+hktype:137
+
+hktype:125
+
+hktype:236
+
+hktype:124
+
+hktype:118
+
+hktype:114
+
+hktype:111
+
+hktype:110
+
+hktype:101
+
+
+
+hktype:101
+
+
+
+hktype:90
+
+
+hktype:90
+
+
+
+hktype:89
+
+
+
+	hktype:89
+	
+hktype:87
+
+hktype:83
+
+hktype:78
+
+hktype:75
+
+hktype:73
+
+	hktype:73	
+	hktype:72	
+	hktype:71	
+	hktype:62	
+	hktype:61	
+	hktype:60	
+	hktype:58	
+	hktype:57	
+	hktype:56	
+	hktype:55	
+	hktype:54	
+	hktype:53	
+	hktype:52	
+	hktype:51	
+	hktype:50	
+	hktype:49	
+	hktype:48	
+	hktype:47	
+	hktype:46	
+	hktype:45	
+	hktype:44	
+	hktype:43	
+	hktype:42	
+	hktype:41	
+	hktype:40	
+	hktype:39	
+	hktype:38	
+	hktype:37	
+	hktype:36	
+	hktype:35	
+	hktype:34	
+	hktype:33	
+	hktype:32	
+	hktype:31	
+	hktype:30	
+
+khktype:170
+k
+
+jhktype:170
+j
+
+hhktype:169
+h
+
+ghktype:168
+g
+
+fhktype:168
+f
+
+ehktype:167
+e
+
+dhktype:167
+d
+
+chktype:166
+c
+
+bhktype:166
+b
+
+ahktype:165
+a
+
+`hktype:165
+`
+
+_hktype:164
+_
+
+^hktype:164
+^
+
+]hktype:163
+]
+
+\hktype:163
+\
+
+[hktype:162
+[
+
+Zhktype:162
+Z
+
+Yhktype:161
+Y
+
+Xhktype:161
+X
+
+Whktype:160
+W
+
+Vhktype:160
+V
+
+Uhktype:159
+U
+
+Thktype:159
+T
+
+Shktype:158
+S
+
+Rhktype:158
+R
+
+Qhktype:157
+Q
+
+Phktype:157
+P
+
+Ohktype:186
+O
+
+Nhktype:186
+N
+
+Mhktype:179
+M
+
+Lhktype:179
+L
+
+Khktype:80
+K
+
+Jhktype:80
+J
+
+Ihktype:113
+I
+
+Hhktype:113
+H
+
+Ghktype:99
+G
+
+Fhktype:99
+F
+
+Ehktype:193
+E
+
+Dhktype:193
+D
+
+Chktype:192
+C
+
+Bhktype:192
+B
+
+Ahktype:191
+A
+
+@hktype:191
+@
+
+?hktype:96
+?
+
+>hktype:96
+>
+
+=hktype:95
+=
+
+<hktype:95
+<
+
+;hktype:97
+;
+
+:hktype:97
+:
+
+9hktype:244
+9
+#	Ty}
+dN8
+$
+>
+				b
+	 	L	
+(
+
+\"z
+
+
+
+l
+Q0=C
+Kk-du*^
+f
+OJ^3R
+_
+pqF6~%#.
+]
+fT4NM
+7X
+Y
+zQ`(DC!~z
+'iLNA1r>]
+O
+2H 
+E
+^;XK7kX8
+D
+NUB3Ix
+A
+JAJl
+?
+RXH`y``
+6
+BRX_I
+!(M
+5
+@,PM
+.
+P hDBfo
+?]
+'
+)+9NFGWsf
+&
+l 8B
+$)#s
+%
+!#
+$
+hCKf
+FmCO
+bq(j
+ 
+GBn*H
+8(Y
+
+2,a)
+
+31MImW
+
+CC_-i 
+
+C?+
+
+G_3O
+0K7`7
+~fpA>-~d
+
+O|^n
+I7QLbV2D	
+*HuErDD	
+|E]M
+RD]	
+~2kA
+q$ 	
+0
+He	
+U} 	
+lVH'xK	
+;(E=st
+BYB98IF	
+CXw5!
+P	,	
+BN2q
+!C3	
+M^MGO
+j$]L	
+4gDa;	
+<)IL
+|a#V	
+HFR6	
+(J- r
+9e*L%/x 
+NyZ3n
+NKL
+?
+)
+yCmL
+Z]_	K
+R;'E0(0wz	+
+v%L,
+
+:2ME
+E;	U
+.L[cT	
+i|A}C
+<
+H=c:9b
+*{PV
+uK>
+&'dNTTUR
+C8Z~W
+{oO$"`f(	~
+YZ	|
+>=MYe
+_\5OJqR7	
+uC}_
+mj	o
+Hd_W0
+%KFaI:T
+/=<~HnVm	
+PM,.07
+g^DD
+k/"J'k2_	O
+}RT@
+*CMbGVI
+Cx	`
+IT
+B!tk	
+ }	r
+*t#NV|
+LD,r/;
+Alcrg
+muAU_X
+QL'\=e!
+iJY@{
+ggkIlc_0
+$[H8tr
+V]j_sL	D
+8B8O
+mg	R
+G:Fp!u:	Q
+FQt4M^;u
+
+x(6MNW/4Vv4(
+imSjF~]
+J&We2
+fk%
+#	#G
+eoL|
+;	NX		Ru	
+F;uG-
+@:5%	h
+ikI{
+mxCEZ	l
+x.I`
+BAD 
+<xO+"
+y'4	
+HSC%ECxN
+`D~k/	
+xuHr
+E$H`	
+g2!M#)~Eq
+JUm<JI
+?}F>
+qK")BF
+iCs<~c;	
+LNA=r
+|g	G
+d 7{DEX
+\+K
+az\Mi./i
+{}I(1
+CDGZN_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+k
+a
+W
+M
+C
+8
+-
+"
+
+xmbWLA6+ 
+
+{pe
+I4bV
+
+!
+khktype:170
+!
+jhktype:170
+!
+ihktype:169
+!
+hhktype:169
+!
+ghktype:168
+j#	@
+>com.apple.health.Summaries[HKCategoryTypeIdentifierAppetiteChanges]_CurrentValue_Summary11
+
+ 
+
+noData0
+currentValue 
+America/New_York
+en_US1j
+
+w$#UFr}
+com.apple.health.Summaries[HKCategoryTypeIdentifierAppetiteChanges]_ChartModel_Summary11
+(FA!
+
+chartModel 
+en_US
+shared_summary_authorization_categories
+l
+shared_summaries
+l
+shared_summary_object_types
+l
+		^							
+com.ap
+com.apple.health.Summaries[HKCategoryTypeIdentifierHairLoss]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHairLoss]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierFever]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHeadphoneAudioExposureEvent]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHighHeartRateEvent]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHighHeartRateEvent]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHeartburn]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHeadache]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHeartburn]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierFatigue]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHeadphoneAudioExposureEvent]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierGeneralizedBodyAche]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierGeneralizedBodyAche]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierDrySkin]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierFatigue]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierFainting]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHeadache]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierFainting]_ChartModel_Summary
+	S	M
+com.apple.health.Summaries[HKCategoryTypeIdentifierDrySkin]_ChartModel_Summary
+	q
+~
+com.apple.health.Summaries[HKCategoryTypeIdentifierHotFlashes]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierHandwashingEvent]_CurrentValue_Summary
+	h
+u
+com.apple.health.Summaries[HKCategoryTypeIdentifierHandwashingEvent]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierFever]_CurrentValue_Summary
+#	>'
+ol
+
+	
+
+
+
+
+
+
+
+
+
+
+ZT
+
+
+gTA
+
+lhktype:171
+l
+#	+)z
+l
+	
+T
+H	x
+2	
+
+
+|
+>
+
+PNr
+\
+
+
+d
+@8
+888888888"""""""""""""""
+;f?O
+*xW	
+ $B=D
+$8W+tJ
+]Kz58O;
+DBzVd	
+-L7K/
+<+A=!
+$p-Bu
+UB$~nM9]	
+\6Dp
+=wC	
+;F@_8GTa1
+nlG*
+l7%	
+	CCUzg+z	
+BOBot
+<
+,KPM/Q
+,7REgP
+XIM#Cs
+|e
+*
+O1F2*XT
+"
+/BQJ5
+|azW
+
+5%@m
+`aF3
+
+xM<l' 
+86RLA7
+
+
+	xBzL
+	
+%!Hd6:A,	
+kCRdcs3	
+Fh!hf	
+5 (`I
+3m"qM
+	G1}	
+QAB\u5	
+(~K%
+LEk16
+H|~QO,su
+h
+G8b;
+z-!
+L
+zD&{u,J
+K
+'=qH'y
+DpmC
+Gh	q>M
+(Cjj^[	u
+9,-XD$	POv	y
+rJ7b.M
+
+B]{C/
+<KC*:^
+~>
+1	?
+DlQ k
+
+	#D3J)`
+{LCR
+{wENHP
+	E6M
+
+Z6as
+ ZiF
+%oh@2kKzs
+B]V-
+z-B.}e=
+%6UNa4Pj
+1R9:C
+hMIo
+d
+EC
+7(qC@G
+/I\_L
+
+*TF0LO`
+^B	c
+ 6C`-aT
+F>;+$	A
+!NM}
+*>J6
+9*#pO
+MR-[sO
+cJDx
+tC<q>
+4	%
+V
+xwMB.V|
+$Y^tE
+<)IGu
+8D	X
+
+<3	L
+}d^HF
+`	I
+A;LH=$'	E
+`(_B
+@pWG)K
+EY}O
+q${	a
+DvG[Gk
+>B6Gg
+;-p@H#z	;
+qx<5CpB	9
+ "%FO
+9mg	6
+6}nE@P(QKX	5
+@QIwzK-~r	/
+NoeHS	.
+
+BY5~FBH
+YAv O
+&?94D
+g{.x+
+	ZlBm
+#	V_x
+
+
+{peZ
+#	*o\1
+
+!
+lhktype:171
+j#	ue>
+com.apple.health.Summaries[HKCategoryTypeIdentifierHotFlashes]_ChartModel_Summary11
+en_US3k
+
+rxR4-
+
+shared_summary_authorization_categories
+m
+shared_summaries
+m
+shared_summary_object_types
+m
+	
+
+
+
+
+
+
+
+
+
+
+
+^5"5
+gTA.
+
+mhktype:171
+m
+#	];KR
+&
+l
+
+		x
+	
+>
+
+l
+8
+*
+z	6
+
+T
+
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:r
+(
+j(yJX|(#	[
+?\B7]DNj
+
+Cm
+|X:
+m;8N
+i\
+N!5&z
+k4yJL2S
+h%}lB
+EtBB
+:&x	
+bhEyH$
+hSZAQ
+a%SN	
+eULGE	oO\	
+VK
+*
+iQ;%(Jiy	
+LOYdK$K
+GD{E
+^addL
+J
+t&WI*	
+J	Oe9
+`#a	
+W7Q2JduY	
+w;Dip3ZU	
+J {'@-
+KgA@
+H|GkFGmfi2
+
+v<NNon
+j$7	Z&M
+VSAB(v;!	
+_wuIF;
+G!LFD"x	
+kTJ]
+W4/E-<q
+]94g
+Z#1
+
+PI1b
+\W ivA
+G]
+#
+?H#F
+_(w=
+d4	$
+qkk&I
+Z
+0
+zrv}
++
+Co9lW7E
+hV_ObuE
+Kau2%O
+>?W#T
+>g	,
+dSMmb</
+Ns^&KA9P[*k
+tB/I]7fE
+7
+tv7I
+H
+>Zx
+4
+EFFh*k
+2
+QZ%8
+CB:Y
+,AoF
+Ec{x~f5
+W
+^FEF-)f3[s
+R
+B;Z4LT
+Q
+C?G1Y
+H
+`w`dj
+G
+PQH
+
+Imca	@
+IylU[6
+HX,?
+h2Ez
+SsT)[M
+l{IE
+ZNOZG
+/@5P2
+FX.O/b
+Z{bOi
+tOU 
+M4Pd	H
+
+rx[^OQq]e
+
+mp\	
+Wi~	
+a).DQ
+X{:Jy-
+
+ pK#
+_@kc1@r
+[Gu\A|6
+mNOJ
+KwV\jL
+|kAzp
+h@dzA>
+`	 d
+bYA)A.
+eJ?aN{
+cnZFtb
+%BoOh10
+@ny7
+`!TNEbxX#x
+wW4;N
+MB4F
+M.S@OMy
+|l
+)
+v|u H_x
+G4?6F
+K%0B	'
+cz.w;B=yM@
+rcDNET
+^'YI
+(b
+R
+Mb2vj
+tMQEA0sp
+#K	7
+eD$Eoo[4|
+
+{peZO
+com.apple.health.Summaries[HKCategoryTypeIdentifierHotFlashes]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierMoodChanges]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLowerBackPain]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierMindfulSession]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierMindfulSession]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierIntermenstrualBleeding]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierMoodChanges]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierMenstrualFlow]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierMenstrualFlow]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierMemoryLapse]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierMemoryLapse]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLactation]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLowerBackPain]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLowHeartRateEvent]_CurrentValue_Summary
+	6
+e
+com.apple.health.Summaries[HKCategoryTypeIdentifierLowHeartRateEvent]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLowCardioFitnessEvent]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLowCardioFitnessEvent]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierIrregularHeartRhythmEvent]_ChartModel_Summary
+	7
+e
+com.apple.health.Summaries[HKCategoryTypeIdentifierIntermenstrualBleeding]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLossOfTaste]_CurrentValue_Summary
+	|
+l
+com.apple.health.Summaries[HKCategoryTypeIdentifierLactation]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLossOfTaste]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLossOfSmell]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierLossOfSmell]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierIrregularHeartRhythmEvent]_CurrentValue_Summary
+V 3f
+
+!
+mhktype:171
+j#	Z0VnQ
+
+~com.apple.health.Summaries[HKCategoryTypeIdentifierHotFlashes]_CurrentValue_Summary11
+en_US+l
+shared_summary_authorization_categories
+n
+shared_summaries
+n
+shared_summary_object_types
+n
+#	A~R,
+	
+
+
+
+
+
+
+
+
+
+
+
+)
+#	>eg
+gTA.
+
+nhktype:144
+n
+#	hC0
+
+
+	L	6"	
+		
+V
+
+\F0
+T
+|Nz
+	x	
+@
+8
+
+f
+
+l
+l
+
+^	
+
+:S	Y
+lHqCr
+NA2/o
+jhIu
+~;J
+
+\BIv?
+&XJ|V:n
+OXZ[
+}:tOLve9
+{(XA
+{+$D
+AOuu %	=
+OA>tIA	
+O#H1JQ
+v'z}@-
+](d	
+m(VzH}k
+rl^
+Bu
+;2).GhM=
+|njRN
+Bf#c-	
+'ZEHY5*
+D.Z/rK
+e!+E
+{0]k	
+3vCqZ
+/I	OcO6+
+=` B"v:i	
+DgoR
+<ncLEs
+N*
+tr
+E(E|P?
+Bdl	
+G]rC
+<Jw#Y
+h{v;
+.h8G
+AF$mN:	
+i'G	
+6D]S
+PYKUSF
+zE'jJ	
+O\b<
+cFd]r	
+
+@@#W
+fbF`k'[>	
+
+]F^!N
+7{H-
+r~HCk
+K.vz0	
+EHg)
+%Jsv
+t
+O8I=s;6
+RAHB1%	
+dqO
+V%yT
+NR>B
+=G5_*
+t@mM4	
+C"}Bf	3
+gAp	
+,
+TFB
+GA\9 	
+-HE+A
+FWax	
+Y]Gu
+SwCfX
+a:1BK}?
+ZJIW
+|6mO
+R8MKO
+m6dLK
+LODQ
+
+AOI}]
+l.Q@g
+%Mm3;	v
+FWTC)Mwm
+nyPAFS
+HF-/H
+y0	j
+A%1;7	i
+XB_	g
+7iu	W
+TImIzO
+7@XJ}.|	
+9&J}B
+xl= BR
+
+J,2#C]	v
+dX<Efz0c+
+
+)`jD*1[.A
+\$
+@
+t
+CKou&`
+9
+HO<v|M
+3
++=
+
+/
+HB	utC
+Eqrd`Ph
+>
+LP
+}^7
+[
+.hF/{<K
+X
+OP[
+b
+V
+I2Z
+T
+,LAi&-D
+zTY*AN
+(]
+J
+N3xPC
+-N}90%
+>BL=hH
+C
+12
+n
+u)
+d
+}$Dh(L/
+c
+[!OVE
+pFb('4
+^
+}.A;?
+`K
+\
+M,V
+
+
+{peZOD
+#	f>
+%		2
+S
+
+#
+com.apple.health.Summaries[HKDataTypeIdentifierElectrocardiogram]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSleepChanges]_CurrentValue_Summary
+com.apple.health.Summaries[HKCorrelationTypeIdentifierBloodPressure]_CurrentValue_Summary
+com.apple.health.Summaries[HKCorrelationTypeIdentifierBloodPressure]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSleepAnalysis]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleExerciseTime]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierActiveEnergyBurned]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierActiveEnergyBurned]_ChartModel_Summary
+com.apple.health.Summaries[HKDataTypeIdentifierAudiogram]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierWheezing]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierWheezing]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierVomiting]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSkippedHeartbeat]_CurrentValue_Summary
+	N
+{
+com.apple.health.Summaries[HKCategoryTypeIdentifierVomiting]_ChartModel_Summary
+	Y
+w
+com.apple.health.Summaries[HKCategoryTypeIdentifierVaginalDryness]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSleepAnalysis]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierVaginalDryness]_ChartModel_Summary
+	i
+w
+com.apple.health.Summaries[HKCategoryTypeIdentifierSleepChanges]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierToothbrushingEvent]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierToothbrushingEvent]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSoreThroat]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSoreThroat]_ChartModel_Summary
+#	&}
+
+!
+nhktype:144
+j#	U
+4
+12com.apple.health.Summaries[HKDataTypeIdentifierElectrocardiogram]_CurrentValue_Summary11
+en_US-m
+#	HO
+
+shared_summary_authorization_categories
+o
+shared_summaries
+o
+shared_summary_object_types
+o
+		^						
+P_
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+#	AaG
+
+
+
+ohktype:140
+o
+#	6@q
+88888888"""""""""""""""
+I,1O
+o
+
+{peZOD9
+#	.~+`@
+
+!
+ohktype:140
+j#	0
+I,1Ocom.apple.health.Summaries[HKCategoryTypeIdentifierHighHeartRateEvent]_ChartModel_Summary11
+
+K
+9
+I3leA!I
+kA0"
+	I3leA
+en_US1n
+
+#	;@
+shared_summary_authorization_categories
+p
+shared_summaries
+p
+shared_summary_object_types
+p
+k(P
+
+		^					
+#	:.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+)
+
+#	.
+
+
+
+phktype:140
+p
+8888888"""""""""""""""
+$Qp;N
+p
+
+{peZOD9.
+!
+phktype:140
+$Qp;Ncom.apple.health.Summaries[HKCategoryTypeIdentifierHighHeartRateEvent]_CurrentValue_Summary11
+en_US_o
+
+shared_summary_authorization_categories
+q
+shared_summaries
+q
+shared_summary_object_types
+q
+#^W
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+d
+
+<X
+
+
+
+qhktype:147
+q
+AuF+
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RE=
+@a.:
+q
+#	<'Gq 
+
+
+{peZOD9.#
+V
+k%
+
+
+
+.|!k
+
+T			 
+#	@3jY
+
+!
+qhktype:147
+RE=
+@a.:com.apple.health.Summaries[HKCategoryTypeIdentifierLowHeartRateEvent]_ChartModel_Summary11
+3leA!
+3leA
+en_US6p
+
+shared_summary_authorization_categories
+r
+shared_summaries
+r
+shared_summary_object_types
+r
+#	v(Yc
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+d
+Y
+
+ihktype:169
+i
+
+rhktype:147
+r
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+G|#z
+
+{peZOD9.#
+#	Z$\M	
+
+#	]0
+!
+rhktype:147
+mcom.apple.health.Summaries[HKCategoryTypeIdentifierLowHeartRateEvent]_CurrentValue_Summary11
+en_US^q
+
+#	"B\
+shared_summary_authorization_categories
+s
+shared_summaries
+s
+shared_summary_object_types
+s
+k&**
+3	m	
+
+1?
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleExerciseTime]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierSwimmingStrokeCount]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierNausea]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryChloride]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFiber]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminB12]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPhosphorus]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierHeartRateVariabilitySDNN]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceSwimming]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSkippedHeartbeat]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierBladderIncontinence]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierPeakExpiratoryFlowRate]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyFatPercentage]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierDizziness]_CurrentValue_Summary
+#	2hGX
+G
+
+
+>.p
+
+
+R			H
+com.apple.health.Summaries[HKCategoryTypeIdentifiei
+3b
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+d
+Y
+N
+EE
+
+
+hktype:169
+i
+
+shktype:156
+s
+#	=&u
+DO
+s
+nSNA
+
+#	{'"C
+
+
+
+.|!k
+
+T			 
+com.apple.health.Summaries[HKCategoryTypeIdentifierNausea]_ChartModel_Summary
+#	vXu`q
+
+f
+
+;2
+com.apple.health.Summaries[HKCategoryTypeIdentifierPelvicPain]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierPelvicPain]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierProgesteroneTestResult]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierProgesteroneTestResult]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierPregnancyTestResult]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSinusCongestion]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSexualActivity]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierRunnyNose]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierOvulationTestResult]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierOvulationTestResult]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierRunnyNose]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierNightSweats]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierRapidPoundingOrFlutteringHeartbeat]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierRapidPoundingOrFlutteringHeartbeat]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSexualActivity]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierShortnessOfBreath]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierPregnancyTestResult]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierPregnancy]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierPregnancy]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierShortnessOfBreath]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierSinusCongestion]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierNightSweats]_ChartModel_Summary
+#	mw
+!
+shktype:156
+j#	wXZ
+
+DOcom.apple.health.Summaries[HKCategoryTypeIdentifierIrregularHeartRhythmEvent]_ChartModel_Summary11
+r3leA!rkA0"
+	r3leA
+rkA(
+en_US5r
+
+#	>ri
+
+shared_summary_authorization_categories
+t
+shared_summaries
+t
+shared_summary_object_types
+t
+#	}
+Ev%R
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+d
+Y
+N
+C(
+type:169
+i
+
+thktype:156
+t
+#	bn
+xRAH
+" `e
+t
+#	0jU:R
+|!k
+
+T			 
+#	5 8
+
+!
+thktype:156
+j#	Y
+ef6+
+
+" `ecom.apple.health.Summaries[HKCategoryTypeIdentifierIrregularHeartRhythmEvent]_CurrentValue_Summary11
+en_USfs
+
+#	+ie
+
+shared_summary_authorization_categories
+u
+shared_summaries
+u
+shared_summary_object_types
+u
+#	(.D
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+d
+Y
+N
+C
+8
+(
+
+pe:169
+i
+
+uhktype:139
+u
+#	PA
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SSOP
+p,$Y
+u
+#	Fh
+!
+uhktype:139
+#	.'
+SSOP
+p,$Ycom.apple.health.Summaries[HKQuantityTypeIdentifierHeartRateVariabilitySDNN]_ChartModel_Summary11
+en_US=t
+
+j#	'KVu}
+
+-
+
+
+)u
+[
+
+
+9
+1			"
+com.apple.health.Summaries[HKQuantityTypeIdentifierInsulinDelivery]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierOxygenSaturation]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierOxygenSaturation]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierNumberOfTimesFallen]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierNumberOfTimesFallen]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierNumberOfAlcoholicBeverages]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierNumberOfAlcoholicBeverages]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierNikeFuel]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierNikeFuel]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierLeanBodyMass]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierLeanBodyMass]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierInsulinDelivery]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierInhalerUsage]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierInhalerUsage]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierHeight]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierHeight]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierHeartRate]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierHeartRate]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierHeartRateVariabilitySDNN]_CurrentValue_Summary
+shared_summary_authorization_categories
+v
+shared_summaries
+v
+shared_summary_object_types
+v
+#	Wh!n
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+d
+Y
+N
+C
+8
+-(
+
+++Sn
+
+
+:169
+i
+
+vhktype:139
+v
+888888"""""""""""""""
+76]
+
+!
+vhktype:139
+#	 Fg
+qcom.apple.health.Summaries[HKQuantityTypeIdentifierHeartRateVariabilitySDNN]_CurrentValue_Summary11
+en_US>u
+
+#	WPV1
+
+shared_summary_authorization_categories
+w
+shared_summaries
+w
+shared_summary_object_types
+w
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+d
+Y
+N
+C
+8
+-
+"
+5svk
+p69
+i
+
+whktype:189
+w
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+C3D-@S
+w
+#	)*J
+|@o
+
+S
+
+#
+!
+whktype:189
+j#	"
+
+Hl}
+
+C3D-@Scom.apple.health.Summaries[HKCategoryTypeIdentifierToothbrushingEvent]_ChartModel_Summary11
+en_US<v
+
+shared_summary_authorization_categories
+x
+shared_summaries
+x
+shared_summary_object_types
+x
+#	w{L
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+z
+o
+d
+Y
+N
+C
+8
+-
+"
+
+& [{
+
+
+p]
+i
+
+xhktype:189
+x
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+N 6~P@+
+TE86
+x
+#	pYH9Y
+
+
+
+
+
+
+#	UA
+]		2
+]
+
+#
+!
+xhktype:189
+j#	S}
+
+TE86com.apple.health.Summaries[HKCategoryTypeIdentifierToothbrushingEvent]_CurrentValue_Summary11
+en_US<w
+
+SSQLite format 3
+#	$87u%
+#	i\-r
+
+shared_summary_authorization_categories
+y
+shared_summaries
+y
+shared_summary_object_types
+y
+#	7;tm
+o9
+
+
+
+'
+#	P>-9
+
+
+p]J
+
+yhktype:187
+y
+\af
+
+
+A|HEKV.
+v9R
+y
+|rB"n
+
+
+
+
+
+
+
+#	dCb
+rentValue 
+en_US8%
+
+FJrp!com.apple.health.Summaries[HKQuantityTypeIdentifierActiveEnergyBurned]_ChartModel_Summary11
+en_US>$
+
+*s]eN
+^com.apple.health.Summaries[HKQuantityTypeIdentifierBasalEnergyBurned]_TrendAnalysis_[HealthVisualization.DateRange.rollingMonth, HealthVisualization.DateRange.rollingHalfYear]_Summary11
+
+U
+E{"state":{"lastWindowEndpoint":{"start":664174800,"duration":86400}}}
+rollingMonth
+X
+E{"state":{"lastWindowEndpoint":{"start":664174800,"duration":86400}}}
+rollingHalfYear
+
+trendAnalysis 
+en_US5#
+
+;e#O:U\h
+com.apple.health.Summaries[HKQuantityTypeIdentifierBasalEnergyBurned]_CurrentValue_Summary11
+en_US7"
+
+W+com.apple.health.Summaries[HKQuantityTypeIdentifierBasalEnergyBurned]_ChartModel_Summary11
+en_USC!
+
+MLg^
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceWalkingRunning]_TrendAnalysis_[HealthVisualization.DateRange.rollingMonth, HealthVisualization.DateRange.rollingHalfYear]_Summary11
+28O&com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceWalkingRunning]_CurrentValue_Summary11
+
+	p(}@
+pB5AA
+quantity
+{"statistics":{"anchorDate":"startOfToday","dateRange":"today","statisticsOptions":["cumulativeSum","mostRecent"],"aggregationInterval":"oneDay"}}0
+!
+yhktype:187
+#	r$5qE
+
+v9Rcom.apple.health.Summaries[HKQuantityTypeIdentifierWalkingSpeed]_ChartModel_Summary11
+
+
+
+
+mi/hr"
+N>|?
+mi/hr*
+mi/hrA
+9@
+Q	
+	 VB~3@
+&@
+Q	
+@
+Z	
+,@
+Q	
+PnN
+@
+@
+Q	
+	e*@
+.@
+Q	
+5@
+Q	
+9@
+Z	
+A@
+Q	
+$@
+Q	
+j#	7c
+.
+~
+
+
+
+'	+Q
+a]		
+com.apple.health.Summaries[HKQuantityTypeIdentifierUVExposure]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierUVExposure]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingStepLength]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingDoubleSupportPercentage]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingDoubleSupportPercentage]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingAsymmetryPercentage]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWaistCircumference]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWaistCircumference]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierVO2Max]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingSpeed]_ChartModel_Summary
+com.apple.health.Summaries[HKWorkoutTypeIdentifier]_CurrentValue_Summary
+com.apple.health.Summaries[HKWorkoutTypeIdentifier]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingHeartRateAverage]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingHeartRateAverage]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierVO2Max]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingSpeed]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingAsymmetryPercentage]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingStepLength]_ChartModel_Summary
+shared_summary_authorization_categories
+z
+shared_summaries
+z
+shared_summary_object_types
+z
+#	.A
+#	i1n
+Xz
+
+
+p]J7
+
+zhktype:187
+z
+88888"""""""""""""""
+lT[
+z
+#	SN@
+
+
+
+
+
+
+
+
+!
+zhktype:187
+#	S6{C
+;
+
+lT[com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingSpeed]_CurrentValue_Summary11
+	)\(?
+{"statistics":{"anchorDate":"startOfToday","dateRange":"today","statisticsOptions":["mostRecent"],"aggregationInterval":"oneDay"}}0
+en_US2y
+j#	x
+a]		
+#	:m'@
+shared_summary_authorization_categories
+{
+shared_summaries
+{
+shared_summary_object_types
+{
+#	`o
+=g
+
+
+'
+
+#	3A
+p]J7$
+
+{hktype:194
+{
+#	[#S
+
+SrG~J
+7c
+{
+
+
+
+
+
+
+
+
+#	}C`
+!
+{hktype:194
+#	w/'
+
+7ccom.apple.health.Summaries[HKQuantityTypeIdentifierWalkingAsymmetryPercentage]_ChartModel_Summary11
+A"	X
+xeW?
+%PZ
+A"	
+(A"	333333?
+A"	NV
+hA"	
+#A"	
+hoA"	
+iA"	{
+A"	N
+%PZ
+(A"	`"?
+cA"	X
+xeWv?
+en_USlz
+
+a]		
+#	f\
+shared_summary_authorization_categories
+|
+shared_summaries
+|
+shared_summary_object_types
+|
+#	K1
+
+#	8W,
+p]J7$
+8hktype:244
+8
+
+|hktype:194
+|
+8888"""""""""""""""
+sBtSSgv
+|
+
+
+
+
+
+
+
+
+
+#	&P@#
+
+!
+|hktype:194
+#	h`
+sBtSSgvcom.apple.health.Summaries[HKQuantityTypeIdentifierWalkingAsymmetryPercentage]_CurrentValue_Summary11
+
+	N
+{"statistics":{"anchorDate":"startOfToday","dateRange":"today","statisticsOptions":["discreteAverage","mostRecent"],"aggregationInterval":"oneDay"}}0
+en_US {
+
+j#	^C
+D]j
+
+a]		
+FLSQLite format 3
+#	q,Sz
+#	$!
+J<'
+
+shared_summary_authorization_categories
+}
+shared_summaries
+}
+shared_summary_object_types
+}
+#	dRp
+
+
+ktype:244
+8
+
+}hktype:182
+}
+)LIX)
+
+
+<hfJ
+#	,v=4
+
+
+
+
+
+
+
+
+
+
+
+#	%JtXw
+
+!
+}hktype:182
+#	N@(
+ocom.apple.health.Summaries[HKQuantityTypeIdentifierWalkingDoubleSupportPercentage]_ChartModel_Summary11
+
+
+
+
+%"	Cl?
+%*	d;O?
+?
+W	
+%"	M?
+%*	q=
+
+@
+`	
+%"	Mb
+%*	-?
+	p=
+
+%*	
+@
+N	
+%*	(\?
+%"	S
+%*	A`"?
+@
+i	
+%"	Mb?
+?
+`	
+%"	p=
+
+%*	{
+%"	 r?
+%*	Mb
+@
+r	
+	)\(?
+%"	d;O?
+%"	A`"?
+%*	x&1
+?
+i	
+?
+r	
+a]		
+#	C
+
+shared_summary_authorization_categories
+~
+shared_summaries
+~
+shared_summary_object_types
+~
+
+7g9
+
+
+
+
+ype:244
+8
+
+~hktype:182
+~
+#	!}x
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v{gFr&
+~
+uN$
+
+
+
+
+
+
+
+
+
+
+
+
+!
+~hktype:182
+v{gFr&com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingDoubleSupportPercentage]_CurrentValue_Summary11
+
+	x&1
+j#	Bfb&
+
+a]		
+ohSQLite format 3
+shared_summary_authorization_categories
+
+shared_summaries
+
+shared_summary_object_types
+
+F!+
+
+&
+#	8
+
+
+
+
+e:244
+8
+hktype:188
+
+H)EA
+jxBL
+
+#	XO
+
+
+
+
+
+
+
+
+
+
+
+
+#	ieY
+hktype:188
+#	>&
+jxBLcom.apple.health.Summaries[HKQuantityTypeIdentifierWalkingStepLength]_ChartModel_Summary11
+
+
+
+	
+
+in"
+	"H$
+in*
+	p8
+in"
+	@ 
+in*
+	{^=@
+@
+l	
+in"
+	
+in*
+	z<
+?
+u	
+in"
+	ST*J3@
+@
+H	
+
+BP>@
+in*
+	~?@
+in"
+	l68@
+in*
+	D"H$@@
+?
+c	
+in"
+	r\.9@
+in"
+	}>;@
+in*
+	
+Fh8@
+@ A@
+?
+H	
+in*
+	r\.9@
+@
+~	
+?
+~	
+j#	r
+.~P
+
+
+&
+
+#	Cx
+Qvp
+
+
+
+
+
+
+244
+8
+
+hktype:188
+
+#	.s
+	L	6"	
+
+		
+V
+
+4^nJ^@2x
+
+#	xw
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+!
+hktype:188
+#	iQW
+4^nJ^@2xcom.apple.health.Summaries[HKQuantityTypeIdentifierWalkingStepLength]_CurrentValue_Summary11
+p=
+?
+j#	cljt!
+z]		
+#	
+k7
+
+&
+
+#	PYr"b
+
+
+
+
+
+
+
+4
+8
+
+hktype:183
+
+#	7
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+r_+*HAqdm*
+
+\DI
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+#	3;
+!
+hktype:183
+r_+*HAqdm*com.apple.health.Summaries[HKQuantityTypeIdentifierSixMinuteWalkTestDistance]_ChartModel_Summary11
+en_USo
+^
+
+
+
+m
+W
+
+
+3		q	
+com.apple.health.Summaries[HKQuantityTypeIdentifierSixMinuteWalkTestDistance]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierSwimmingStrokeCount]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierStepCount]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierStepCount]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierStairDescentSpeed]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierStairDescentSpeed]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierStairAscentSpeed]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierStairAscentSpeed]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierSixMinuteWalkTestDistance]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierRestingHeartRate]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierRestingHeartRate]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierRespiratoryRate]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierRespiratoryRate]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierPushCount]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierPushCount]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierPeripheralPerfusionIndex]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierPeripheralPerfusionIndex]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierPeakExpiratoryFlowRate]_CurrentValue_Summary
+#	gV
+
+
+
+
+|
+j
+X
+F
+4
+"
+
+									n	\	J	8	&	
+#	y+'b
+
+
+#	x{
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+#com.apple.health.Summaries[HKQuantityTypeIdentifierSixMinuteWalkTestDistance]_CurrentValue_Summary11
+en_US?
+j#	>
+#	>:
+hktype:192	
+O1e
+
+
+
+
+
+
+
+
+
+r
+`
+M
+:
+(
+
+tbP>,
+xfTB0
+
+
+
+
+
+
+
+
+|
+j
+X
+F
+4
+"
+
+hktype:191	
+hktype:96	
+hktype:95	
+hktype:97
+hktype:244
+hktype:243
+hktype:92
+hktype:91
+hktype:70
+hktype:79
+hktype:63
+hktype:145
+hktype:199
+hktype:250
+hktype:178
+hktype:173
+hktype:172
+hktype:138
+hktype:137
+hktype:125
+hktype:236
+hktype:124
+hktype:118
+hktype:114
+hktype:111
+hktype:110
+hktype:101
+hktype:90
+hktype:89
+hktype:87
+hktype:83
+hktype:78
+hktype:75
+hktype:73
+hktype:72
+hktype:71
+hktype:62
+hktype:61
+hktype:60
+hktype:58
+hktype:57
+hktype:56
+hktype:55
+hktype:54
+hktype:53
+hktype:52
+hktype:51
+hktype:50
+hktype:49
+hktype:48
+hktype:47
+hktype:46
+hktype:45
+hktype:44
+hktype:43
+hktype:42
+hktype:41
+hktype:40
+hktype:39
+hktype:38
+hktype:37
+hktype:36
+hktype:35
+hktype:34
+hktype:33
+hktype:32
+hktype:31
+hktype:30
+~hktype:29
+}hktype:29
+|hktype:28
+{hktype:28
+zhktype:27
+yhktype:27
+xhktype:26
+whktype:26
+vhktype:25
+uhktype:25
+thktype:24
+shktype:24
+rhktype:23
+qhktype:23
+phktype:22
+ohktype:22
+nhktype:21
+mhktype:21
+lhktype:20
+khktype:20
+jhktype:19
+ihktype:19
+hhktype:251
+ghktype:251
+fhktype:18
+ehktype:18
+dhktype:15
+chktype:15
+bhktype:14
+ahktype:14
+`hktype:13
+_hktype:13
+^hktype:12
+]hktype:12
+\hktype:10
+[hktype:10
+Zhktype:9
+Yhktype:9
+Xhktype:8
+Whktype:8
+Vhktype:7
+Uhktype:7
+Thktype:5
+Shktype:5
+Rhktype:4
+Qhktype:4
+Phktype:3
+Ohktype:3
+Nhktype:2
+Mhktype:2
+Lhktype:1
+Khktype:1
+Jhktype:0
+Ihktype:0
+Hhktype:249
+Ghktype:249
+Fhktype:100
+Ehktype:100
+Dhktype:75
+Chktype:186
+Bhktype:70
+Ahktype:100
+
+
+
+
+
+
+
+
+z
+g
+T
+A
+.
+
+p]J7$
+yfS@-
+
+
+
+
+
+
+
+
+o
+\
+I
+6
+#
+
+								z	g	T	A	.	
+	hktype:29	
+	hktype:28	
+	hktype:27	
+	hktype:26	
+	hktype:25	
+	hktype:24	
+	hktype:23	
+	hktype:15	
+	hktype:14	
+	hktype:13	
+	hktype:12	
+	hktype:10	
+	hktype:9	
+	hktype:8	
+	hktype:7	
+	hktype:5	
+	hktype:4	
+	hktype:3	
+	hktype:2	
+	hktype:1	
+	hktype:0	
+	hktype:99	
+	(hktype:167	(
+	'hktype:166	'
+	&hktype:166	&
+	%hktype:165	%
+	$hktype:165	$
+	#hktype:164	#
+	"hktype:164	"
+	!hktype:163	!
+	 hktype:163	 
+hktype:162	
+hktype:161	
+hktype:160	
+hktype:159	
+hktype:158	
+hktype:157	
+hktype:186	
+hktype:179	
+hktype:80	
+	
+hktype:113	
+
+	hktype:113	
+	
+hktype:99	
+
+		hktype:193		
+hktype:193	
+	hktype:22	
+	hktype:21	
+	hktype:20	
+	hktype:19	
+	hktype:251	
+	hktype:18	
+	hktype:249	
+	hktype:100	
+	hktype:75	
+	~hktype:70	~
+	}hktype:100	}
+	|hktype:242	|
+	{hktype:242	{
+	zhktype:241	z
+	yhktype:241	y
+	xhktype:240	x
+	whktype:240	w
+	vhktype:235	v
+	uhktype:235	u
+	thktype:234	t
+	shktype:234	s
+	rhktype:233	r
+	qhktype:233	q
+	phktype:232	p
+	ohktype:232	o
+	nhktype:231	n
+	mhktype:231	m
+	lhktype:230	l
+	khktype:230	k
+	jhktype:229	j
+	ihktype:229	i
+	hhktype:237	h
+	ghktype:237	g
+	fhktype:226	f
+	ehktype:226	e
+	dhktype:225	d
+	chktype:225	c
+	bhktype:224	b
+	ahktype:224	a
+	`hktype:223	`
+	_hktype:223	_
+	^hktype:222	^
+	]hktype:222	]
+	\hktype:221	\
+	[hktype:221	[
+	Zhktype:220	Z
+	Yhktype:220	Y
+	Xhktype:203	X
+	Whktype:203	W
+	Vhktype:207	V
+	Uhktype:207	U
+	Thktype:206	T
+	Shktype:206	S
+	Rhktype:205	R
+	Qhktype:205	Q
+	Phktype:204	P
+	Ohktype:204	O
+	Nhktype:202	N
+	Mhktype:202	M
+	Lhktype:201	L
+	Khktype:201	K
+	Jhktype:196	J
+	Ihktype:196	I
+	Hhktype:195	H
+	Ghktype:195	G
+	Fhktype:183	F
+	Ehktype:183	E
+	Dhktype:188	D
+	Chktype:188	C
+	Bhktype:182	B
+	Ahktype:182	A
+	@hktype:194	@
+	?hktype:194	?
+	>hktype:187	>
+	=hktype:187	=
+	<hktype:189	<
+	;hktype:189	;
+	:hktype:139	:
+	9hktype:139	9
+	8hktype:156	8
+	7hktype:156	7
+	6hktype:147	6
+	5hktype:147	5
+	4hktype:140	4
+	3hktype:140	3
+	2hktype:144	2
+	1hktype:171	1
+	0hktype:171	0
+	/hktype:170	/
+	.hktype:170	.
+	-hktype:169	-
+	,hktype:169	,
+	+hktype:168	+
+	*hktype:168	*
+	)hktype:167	)
+#	bu
+	
+					n	\	J	8	&	
+
+hktype:18
+
+hktype:195
+
+#	WW
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+]
+!
+hktype:195
+#	rnu
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierStairAscentSpeed]_ChartModel_Summary11
+en_US=
+j#	<O
+#	O2Z
+#	~M5 '
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+|
+r
+h
+^
+T
+J
+@
+6
+,
+"
+
+xndZPF<2(
+~tj`VLB8.$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+z
+p
+f
+\
+R
+H
+>
+4
+*
+ 
+
+													~	t	j	_	T	I	>	3	(	
+	
+q	
+	
+	q		
+	c		
+	
+c	
+
+
+#	UJ}
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+T
+I
+>
+3
+(
+
+
+-?
+
+
+#	-~v
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+R*cO
+#	e"/7pj
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+]
+R
+#	p^h
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierStairAscentSpeed]_CurrentValue_Summary11
+en_US2
+j#	MME;
+hd!E
+
+
+
+y
+
+hktype:196
+
+Nz
+N#f
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+]
+R
+G
+#	Sh
+
+!
+hktype:196
+ZZcom.apple.health.Summaries[HKQuantityTypeIdentifierStairDescentSpeed]_ChartModel_Summary11
+en_US4
+j#	G
+#	ZZ&
+
+MFc
+
+
+#	ea19
+	
+
+
+
+y
+f
+888"""""""""""""""
+C+VI
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+]
+R
+G
+<
+_ccom.apple.health.Summaries[HKQuantityTypeIdentifierStairDescentSpeed]_CurrentValue_Summary11
+en_US3
+j#	:dm
+#	2FM1'SQLite format 3
+#	3/G
+#	<kHy
+#	4RwI
+
+
+z
+	
+#	w!
+p|
+	
+
+
+
+y
+f
+S
+
+hktype:201
+
+#	#7f
+
+88"""""""""""""""
+,.
+
+-	rt
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+]
+R
+G
+<
+1
+#	T
+
+#	W)Dp
+!
+hktype:201
+J)z
+
+,.com.apple.health.Summaries[HKCategoryTypeIdentifierRapidPoundingOrFlutteringHeartbeat]_ChartModel_Summary11
+#	fEq
+
+
+zo	
+#	\R
+	
+
+
+
+y
+f
+S
+@
+8"""""""""""""""
+:H`
+
+#	#>^
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+]
+R
+G
+<
+1
+&
+#	eL+U
+
+
+
+
+
+
+
+
+
+z
+:H`com.apple.health.Summaries[HKCategoryTypeIdentifierRapidPoundingOrFlutteringHeartbeat]_CurrentValue_Summary11
+en_USD
+#	LT4J
+
+
+zod
+
+
+
+y
+f
+S
+@
+-
+
+hktype:202
+
+"""""""""""""""
+:y`ZM1
+]EH
+
+#	i[
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+]
+R
+G
+<
+1
+&
+
+#	
+
+
+
+
+
+
+
+
+
+z
+g
+!
+hktype:202
+j#	8-X
+
+]EH
+com.apple.health.Summaries[HKCategoryTypeIdentifierSkippedHeartbeat]_ChartModel_Summary11
+en_USF
+#	3.
+
+#	G
+
+
+zodY
+#	5bw
+	
+
+
+
+y
+f
+S
+@
+-
+
+hktype:18
+#	6wo
+
+
+	L	6
+"	
+
+#	_P
+$2.
+
+
+
+
+
+
+
+
+
+z
+g
+T
+j#	)
+lSVP
+
+
+#com.apple.health.Summaries[HKCategoryTypeIdentifierSkippedHeartbeat]_CurrentValue_Summary11
+en_US2	
+
+#	]hD
+
+
+zodYN
+3[
+3	
+#	W
+5S
+	
+ktype:18
+
+hktype:204
+
+#	\sQ
+
+xic
+
+#	\o
+
+#	I#Ei
+
+
+
+
+
+
+
+
+
+z
+g
+T
+A
+!
+hktype:204
+j#		jxnF
+
+xiccom.apple.health.Summaries[HKCategoryTypeIdentifierShortnessOfBreath]_ChartModel_Summary11
+en_US4
+
+
+#	$Ly@
+
+
+zodYNC[
+3	
+:#
+	
+	ype:18
+#	n}/+
+
+!D:<n
+#	I7m
+
+
+
+YG
+
+
+Z
+
+#	DU0
+
+
+
+
+
+
+
+
+z
+g
+T
+A
+.
+j#	8
+otIHq
+
+:com.apple.health.Summaries[HKCategoryTypeIdentifierShortnessOfBreath]_CurrentValue_Summary11
+en_US3
+
+7NCur
+
+lxK
+
+	D
+com.apple.health.Summaries[HKCategoryTypeIdentifierDizziness]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierCervicalMucusQuality]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierBloating]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierChestTightnessOrPain]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierChestTightnessOrPain]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierBloating]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierCoughing]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierCoughing]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierChills]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierChills]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierBreastPain]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierContraceptive]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierContraceptive]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierCervicalMucusQuality]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierBreastPain]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierDiarrhea]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierDiarrhea]_ChartModel_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierConstipation]_CurrentValue_Summary
+com.apple.health.Summaries[HKCategoryTypeIdentifierConstipation]_ChartModel_Summary
+	%6
+9f
+
+
+zodYNC83	
+#	:HTc
+		e:18
+
+hktype:205
+
+""""""""""""""
+#	49E
+!
+hktype:205
+j#	~
+7com.apple.health.Summaries[HKCategoryTypeIdentifierChestTightnessOrPain]_ChartModel_Summary11
+en_US5
+
+#	s 95O
+
+#	Y(
+zodYNC8-
+#	a"
+	
+			18
+q*(
+
+
+\F0
+G#<'A
+
+#	'PC1
+
+#	~C
+G#<'Acom.apple.health.Summaries[HKCategoryTypeIdentifierChestTightnessOrPain]_CurrentValue_Summary11
+en_US6
+
+
+#	~!f
+com.apple.health.Summaries[HKCategoryTypeIdentifieW
+#	7xnl
+
+
+zodYNC8-"
+#	pqB
+
+#	;*z
+
+#	BYm
+@
+	\
+	J	8	&	
+
+hktype:206
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OMJ`
+
+QcqaE
+
+pFeG2N
+
+!
+hktype:206
++SG
+
+OMJ`com.apple.health.Summaries[HKCategoryTypeIdentifierFainting]_ChartModel_Summary11
+en_US8
+#	Iz
+ns}
+
+com.apple.health.Summaries[HKCategoryTypeIdentifieY
+#	S&
+#	P
+
+					
+#	Y)
+v"""""""""""""
+=:sDK`
+#	[
+
+#	^g"
+j#	=
+com.apple.health.Summaries[HKCategoryTypeIdentifierFainting]_CurrentValue_Summary11
+en_US)
+#	?lM
+
+[
+2	
+z
+	\
+						
+
+hktype:207
+
+)AHc
+#	ol
+#	Bgj
+
+!
+hktype:207
+1]com.apple.health.Summaries[HKCategoryTypeIdentifierDizziness]_ChartModel_Summary11
+en_US+
+#	*oK
+V
+	\
+							
+#	rsy
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+S"AK
+#	#m
+ji;
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierDizziness]_CurrentValue_Summary11
+en_US*
+b
+	
+
+i+H
+
+B
+
+
+0f3
+
+g
+
+com.apple.heY
+#	&
+
+G
+
+
+>
+.p
+#	<j
+
+
+vVB>
+	\
+								o
+
+hktype:203
+
+								
+:f
+
+|!k
+
+T			 
+#	Oz
+
+!
+hktype:203
+j#	Nz
+com.apple.health.Summaries[HKCategoryTypeIdentifierFever]_ChartModel_Summary11
+en_US,
+#	sq
+#	/Bi\i(
+
+.p
+#	Fs
+i*	
+
+								o	\18
+2`DC
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									
+#	EP#
+
+Byc
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierFever]_CurrentValue_Summary11
+en_US&
+kE}%
+
+
+
+1F
+1	
+#	,z8{I(
+
+T
+	&
+								o	\	I
+
+hktype:220
+
+#	b=}
+
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@;-\P
+
+#	5)=r
+
+										
+#	?q^
+	
+#	~9N
+
+
+!
+hktype:220
+j#	VP
+@;-\Pcom.apple.health.Summaries[HKCategoryTypeIdentifierVomiting]_ChartModel_Summary11
+en_US(
+#	:4@Ub
+
+#	n9
+F
+1	
+#	]?a
+	&
+								o	\	I	6
+#	;k
+
+
+4v2Me*_
+#	tlzv(7
+
+											
+bP
+	
+#	Y2
+p
+;com.apple.health.Summaries[HKCategoryTypeIdentifierVomiting]_CurrentValue_Summary11
+9SQLite format 3
+#	kI.
+#	ivqsE
+
++xB
+]
+3
+
+1	
+
+hktype:221
+
+#	:y6
+v""""""""""""
+"LF
+f<"	
+
+#	hx
+												
+#	k{EF
+
+p]
+!
+hktype:221
+"LF
+f<"	com.apple.health.Summaries[HKCategoryTypeIdentifierHeartburn]_ChartModel_Summary11
+#	C`=
+#	\nQ#
+
+
+
+>
+
+#	E?g
+
+#	$x?-
+
+
+
+
+
+
+
+
+|
+i
+V
+C
+0
+
+
+r_L9&
+{hUB/
+	
+
+
+
+
+
+
+
+q
+^
+K
+8
+%
+
+Dz
+	
+		3
+
+
+H@!>
+#	!yLd[A
+
+													v
+7|!k
+
+T			 
+#	rp(bh
+
+p]J
+com.apple.health.Summaries[HKCategoryTypeIdentifierHeartburn]_CurrentValue_Summary11
+#	
+;
+com.aW
+#	=%D
+
+
+
+#	j@.u^
+
+
+hktype:222
+
+.4GT3
+#	`,
+
+													v	k
+#	2UfE
+p]J7
+!
+hktype:222
+j#	/B3
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierCoughing]_ChartModel_Summary11
+OJsSQLite format 3
+#	x]v
+#	|-
+
+
+b	
+Q
+#	]7"c
+
+
+
+
+0f3
+
+g
+
+#	b3KH
+
+
+
+0F
+0	
+#	O
+
+#	-?Y\
+
+#	V75
+
+
+
+
+
+
+
+
+v
+d
+R
+@
+.
+
+
+z	
+TA.
+#	q~
+2k[
+
+v"""""""""""
+#	45
+e?N
+
+													v	k	`
+IFh
+
+zgTA.
+
+
+
+
+
+
+
+
+y
+f
+S
+@
+-
+
+								o	\	I	6	#	
+)-8
+
+p]J7$
+j#	i-
+"F
+*:com.apple.health.Summaries[HKCategoryTypeIdentifierCoughing]_CurrentValue_Summary11
+#	V?
+F
+0	
+INy+
+J4|
+
+#	x"
+													v	k	`	U
+#	9)s
+
+hktype:223
+
+!
+hktype:223
+B(I)#
+"F
+INy+
+J4|com.apple.health.Summaries[HKCategoryTypeIdentifierWheezing]_ChartModel_Summary11
+0	
+#	Kz
+
+0Fr4
+#	hVc
+													v	k	`	U	J
+tK
+	
+#	EzAG
+-|M
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierWheezing]_CurrentValue_Summary11
+
+}Ga
+
+
+v""""""""""
+ ]S9E6-
+
+#	)AI;
+
+													v	k	`	U	J	?
+
+
+]
+
+F
+u1
+
+k
+
+
+hktype:224
+
+#	_VXp
+!
+hktype:224
+j#	yO
+
+j	;
+ ]S9E6-
+com.apple.health.Summaries[HKCategoryTypeIdentifierSoreThroat]_ChartModel_Summary11
+#	0}H
+#	9:
+}
+#	W,lQ
+
+v"""""""""
+HNbv7s	!
+
+#	7X
+Zck
+
+													v	k	`	U	J	?	4
+d
+
+k
+
+#	g".m
+
+,:Ly
+
+	!
+O
+com.apple.health.Summaries[HKQuantityTypeIdentifierBasalEnergyBurned]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBasalEnergyBurned]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBloodGlucose]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleWalkingSteadiness]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleWalkingSteadiness]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleStandTime]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleStandTime]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleMoveTime]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleMoveTime]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBasalBodyTemperature]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBasalBodyTemperature]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBloodAlcoholContent]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBloodAlcoholContent]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBloodGlucose]_CurrentValue_Summary
+#	-;`#
+j#	\
+HNbv7s	!com.apple.health.Summaries[HKCategoryTypeIdentifierSoreThroat]_CurrentValue_Summary11
+#	@}&_zx
+
+
+}r
+/O
+/	
+t
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GvffO
+													v	k	`	U	J	?	4	)
+#	?=
+&2
+
+
+hktype:225
+
+3.R
+
+
+!
+hktype:225
+com.apple.health.Summaries[HKCategoryTypeIdentifierSinusCongestion]_ChartModel_Summary11
+en_US-
+#	Ar#
+
+#	y"V7
+}rgO
+/	
+a%!W
+
+													v	k	`	U	J	?	4	)	
+#	cNXf
+
+OrsW
+ING
+
+
+V~{
+
+a%!Wcom.apple.health.Summaries[HKCategoryTypeIdentifierSinusCongestion]_CurrentValue_Summary11
+en_US1
+#	p,fOB
+
+Nn[+
+}rg\/	
+#	q>33
+
+{T`Lla
+
+|<
+
+
+
+
+&
+S:a
+
+
+hktype:226
+
+!
+hktype:226
+%HZ
+
+{T`Llacom.apple.health.Summaries[HKCategoryTypeIdentifierRunnyNose]_ChartModel_Summary11
+en_US3 
+
+#	!`Gp
+
+#	6cQ(I
+
+
+}rg\Q
+v""""""""
+u#5
+
+#	$F0
+j#	EGC(
+
+u#5com.apple.health.Summaries[HKCategoryTypeIdentifierRunnyNose]_CurrentValue_Summary11
+en_US*!
+#	i^'
+
+#	Ud.K
+=ehUAd/
+
+R			H
+}rg\QF
+#	;GC
+
+	 	b	L			
+j
+
+r"d
+V
+@
+*
+
+xE.G/
+M4Pd	H
+|F
+
+
+	b
+j
+
+
+#	DX
+
+h/MNB}(
+4gDa;	
+[	\8
+G:Fp!u:	Q
+#	 a
+
+
+hktype:237
+
+#	_H
+
+y
+!
+hktype:237
+j#	h
+com.apple.health.Summaries[HKCategoryTypeIdentifierHandwashingEvent]_ChartModel_Summary11
+en_US,"
+C?%
+
+}			H
+yZ9
+
+
+}rg\QF;
+.O
+.	
+#	*Kn
+
+#	nD>5/
+
+yf
+:com.apple.health.Summaries[HKCategoryTypeIdentifierHandwashingEvent]_CurrentValue_Summary11
+en_US2#
+
+#	]yI8
+
+
+
+}rg\QF;0O
+.	
+#	pF
+v"""""""
+#	UM})
+
+C_W
+
+#	Bds
+
+
+hktype:229
+
+#	#@9
+yfS
+!
+hktype:229
+j#	1uE|
+
+~ocom.apple.health.Summaries[HKCategoryTypeIdentifierVaginalDryness]_ChartModel_Summary11
+en_US4$
+
+#	 p~)?
+
+
+}rg\QF;0%.	
+#	IG.
+
+v""""""
+1	H
+gj
+
+#	yLE+*
+
+#	-BZT
+#	qD-4
+
+yfS@
+gjcom.apple.health.Summaries[HKCategoryTypeIdentifierVaginalDryness]_CurrentValue_Summary11
+en_US0%
+
+#	j:}#SQLite format 3
+#	x+y%B[
+
+
+#	<lyp
+
+7r
+^
+
+
+?		q		
+#	"(
+7
+
+
+hktype:230
+
+#	Z-A
+yfS@-
+!
+hktype:230
+ucom.apple.health.Summaries[HKCategoryTypeIdentifierNightSweats]_ChartModel_Summary11
+#	11
+b	
+Q
+
+
+!
+#	W$kK
+
+#	^Y
+6'
+
+
+Fuz
+
+
+#	GY"}@
+
+#	'a
+r
+YG
+
+j#	KN
+com.apple.health.Summaries[HKCategoryTypeIdentifierNightSweats]_CurrentValue_Summary11
+en_US,'
+#	:#
+#	F.
+%|Y
+
+
+#	Nt
+
+;Ge"]
+
+hktype:231
+
+#	cLnio^
+
+!
+hktype:231
+fcom.apple.health.Summaries[HKCategoryTypeIdentifierChills]_ChartModel_Summary11
+en_US/(
+
+#	:2[
+
+?
+
+
+>@:c
+OUg
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierChills]_CurrentValue_Summary11
+en_US')
+%fT
+
+#	/W
+F
+
+!
+#	JSor`
+
+$EA
+
+.p
+
+#	0vab`Z
+
+#	
+vL
+wSl
+
+#	=*
+Er
+
+hktype:232
+
+!
+hktype:232
+j#	
+&
+E
+wSlcom.apple.health.Summaries[HKCategoryTypeIdentifierHairLoss]_ChartModel_Summary11
+en_US)*
+#	13;W
+SQLite format 3
+gHG
+
+#	WO<9
+#	QA{
+nYk
+
+#	$J
+#	=v
+
+1F
+
+
+?jl}
+
+=UIZ!y
+
+#	RfR
+
+
+q
+&
+#	EbjG
+
+#	c$- 
+&
+
+h
+
+K4
+
+
+0		}	"
+sUbMG
+
+j#	P
+=UIZ!ycom.apple.health.Summaries[HKCategoryTypeIdentifierHairLoss]_CurrentValue_Summary11
+en_US)+
+re~k
+
+#	(jE
+#	Jh
+
+
+#	N_
+3X7Ad
+#	w5$%
+
+
+hktype:233
+
+#	ji!^2
+
+!
+hktype:233
+j#	$ 
+f}|
+
+
+i	=
+com.apple.health.Summaries[HKCategoryTypeIdentifierDrySkin]_ChartModel_Summary11
+en_US+,
+#	r	N
+
+#	}YhI4
+#	>i
+v"""""
+#	"iM
+#	r>:!
+
+1Z*
+
+j#	/
+Rcom.apple.health.Summaries[HKCategoryTypeIdentifierDrySkin]_CurrentValue_Summary11
+en_US(-
+#	/0%
+#	Bc
+
+
+
+
+
+
+
+	
+#	P <l
+
+v""""
+5~L@]N
+#	:.\@
+
+
+hktype:234
+
+!
+hktype:234
+j#	_n<T
+Pcom.apple.health.Summaries[HKCategoryTypeIdentifierBladderIncontinence]_ChartModel_Summary11
+en_US*.
+L
+
+
+0f3
+
+g
+
+#	w}'+
+
+#	H}MXy
+#	B/gM7
+
+\
+
+v"""
+1&S0!BX*&{/
+
+#	!
+
+#	R6Vc
+
+#	?8d
+
+j#	]
+1&S0!BX*&{/com.apple.health.Summaries[HKCategoryTypeIdentifierBladderIncontinence]_CurrentValue_Summary11
+en_US5/
+
+#	bN#
+
+#	TC
+H?
+
+
+#	r"R
+
+
+hktype:235
+
+;lQ_
+
+#	qb
+
+
+
+
+
+
+
+
+o
+!
+hktype:235
+j#	<	9
+nccom.apple.health.Summaries[HKCategoryTypeIdentifierMemoryLapse]_ChartModel_Summary11
+en_US70
+
+#	J%^oS
+
+#	``\G/L
+
+
+#	#|J0
+
+BntA+
+#	<bil
+
+#	\I
+"9'
+
+#	"u
+
+
+
+
+
+
+
+
+
+o
+\
+j#	}
+8com.apple.health.Summaries[HKCategoryTypeIdentifierMemoryLapse]_CurrentValue_Summary11
+en_US,1
+p
+
+
+
+
+
+
+
+
+
+
+
+
+3[
+3	
+#	{mc
+v""
+9)UO#
+x>w7
+
+
+hktype:240
+
+
+
+
+
+
+
+
+
+o
+\
+I
+!
+hktype:240
+j#	I
+|.com.apple.health.Summaries[HKCategoryTypeIdentifierGeneralizedBodyAche]_ChartModel_Summary11
+en_US/2
+
+Ep
+
+lW
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+3	
+#	/8H
+#	}	
+
+
+
+
+
+
+
+
+
+o
+\
+I
+6
+j#	^pg
+com.apple.health.Summaries[HKCategoryTypeIdentifierGeneralizedBodyAche]_CurrentValue_Summary11
+en_US53
+
+#	(gW\
+
+0uw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3	
+i$a[
+fON2+
+
+#	kll'
+
+h^
+#	9L
+
+hktype:241
+
+
+
+
+
+
+
+
+
+o
+\
+I
+6
+#
+!
+hktype:241
+j#	7
+fON2+com.apple.health.Summaries[HKCategoryTypeIdentifierLossOfSmell]_ChartModel_Summary11
+en_US74
+
+#	v)!
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+|k2
+
+#	*
+
+mcom.apple.health.Summaries[HKCategoryTypeIdentifierLossOfSmell]_CurrentValue_Summary11
+en_US,5
+#	;G
+#	~tI3Y=Z
+#	63
+#	V;4_
+#	gY
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+#	"u6~o
+
+<SnH
+#	+T>h
+
+#	"6;
+
+
+hktype:242
+
+#	<Ls1
+#	MKg
+
+!
+hktype:242
+j#	M99CF
+
+hcom.apple.health.Summaries[HKCategoryTypeIdentifierLossOfTaste]_ChartModel_Summary11
+#	z S
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+j
+_
+2[
+2	
+#	=JC
+
+Yn;K
+#	gy
+j#	U8
+lQcom.apple.health.Summaries[HKCategoryTypeIdentifierLossOfTaste]_CurrentValue_Summary11
+en_US,7
+{/B
+
+HKSharedSummaryTransactionMetadataKeyDateCommitted
+AkFE
+A`SrB
+HKSharedSummaryTransactionMetadataKeyHasPairedDeviceDataA
+HKSharedSummaryTransactionMetadataKeyBuildVersion19A404A
+HKSharedSummaryTransactionMetadataKeyBuildVersion19A404B
+HKSharedSummaryTransactionMetadataKeyHasPairedDeviceData
+j#	Y)3Y
+
+HKSharedSummaryTransactionMetadataKeyBuildVersion
+jdSQLite format 3
+#	m[z
+#	s&T[
+#	^I*	
+#	j}8d
+X
+
+!
+
+
+3z
+
+T
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCarbohydrates]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminB12]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPhosphorus]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierHeadphoneAudioExposure]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceDownhillSnowSports]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFatTotal]_CurrentValue_Summary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+q
+g
+]
+S
+I
+?
+5
++
+!
+
+wmcYOE;1'
+	}si_UKA7-#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+y
+o
+e
+[
+Q
+G
+=
+3
+)
+
+													{	p	e	Z	O	D	9	.	#	
+#	k
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+w
+m
+c
+Y
+O
+E
+;
+1
+'
+
+
+	}si_UKA7-#
+yoe[QG=3)
+
+u
+k
+a
+W
+M
+C
+9
+/
+%
+
+														y	o	e	Z	O	D	9	.	#	
+
+4\
+4	
+	}d	}
+#	G`AO
+	com.apple.health.577D348F-D75E-4CA0-99A3-94A619D5D440Ak1
+#	rZ
+#	zv
+
+
+	
+=wCcom.apple.health.Summaries[HKQuantityTypeIdentifierHeight]_ChartModel_Summary11
+en_US7
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyFatPercentage]_ChartModel_Summary11
+{oO$"`f(com.apple.health.SummariesWheelchairSetting_HKCategoryTypeIdentifierAppleStandHour11
+com.apple.health.SummariesWheelchairSetting_HKActivitySummaryTypeIdentifier11
+com.apple.health.SummariesWheelchairSetting_HKQuantityTypeIdentifierAppleStandTime11
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyFatPercentage]_CurrentValue_Summary11
+_\5OJqR7com.apple.health.Summaries[HKQuantityTypeIdentifierBodyMassIndex]_CurrentValue_Summary11
+W7Q2JduYcom.apple.health.Summaries[HKQuantityTypeIdentifierBodyMassIndex]_ChartModel_Summary11
+en_US:
+com.apple.health.Summaries[HKQuantityTypeIdentifierAppleWalkingSteadiness]_CurrentValue_Summary11
+Lcom.apple.health.Summaries[HKQuantityTypeIdentifierAppleWalkingSteadiness]_ChartModel_Summary11
+en_US[
+OA>tIAcom.apple.health.SummariesActivitySummary_Chart11
+
+r
+`
+
+l7%com.apple.health.SummariesHKActivitySummaryTypeIdentifier_CurrentValue_Summary11
+w;Dip3ZUcom.apple.health.SummariesWheelchairSetting_HKQuantityTypeIdentifierAppleExerciseTime11
+IT
+B!tkcom.apple.health.Summaries[HKQuantityTypeIdentifierStepCount]_CurrentValue_Summary11
+count
+uc?rA
+en_US+
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyMass]_CurrentValue_Summary11
+en_US-
+ecom.apple.health.Summaries[HKQuantityTypeIdentifierBodyMass]_ChartModel_Summary11
+en_US)
+
+{0]kcom.apple.health.Summaries[HKQuantityTypeIdentifierHeight]_CurrentValue_Summary11
+com.apple.health.Summaries[HKQuantityTypeIdentifierStepCount]_ChartModel_Summary11
+
+	
+	
+
+countP
+countP
+Z
+h)AB
+(uAB
+hoAB
+countP	Z
+count2
+countB
+h)A*
+	UUUUU%@
+\com.apple.health.Summaries[HKQuantityTypeIdentifierHeartRate]_CurrentValue_Summary11
+3com.apple.health.Summaries[HKQuantityTypeIdentifierHeartRate]_ChartModel_Summary11
+en_US0
+0
+com.apple.health.Summaries[HKQuantityTypeIdentifierLeanBodyMass]_CurrentValue_Summary11
+en_US1
+
+>Rcom.apple.health.Summaries[HKQuantityTypeIdentifierLeanBodyMass]_ChartModel_Summary11
+:
+
+
+'k
+#	L<
+
+
+0f
+
+
+
+`
+g
+#	t'
+
+)	H
+#	|c
+#	+s
+#	p?0_
+
+
+
+
+
+
+
+
+
+x
+f
+T
+B
+0
+
+
+|jXF4"
+n
+#	b2y\#e
+
+					t	b	P	>	,	
+/hktype:79
+/
+
+
+hktype:101
+
+	
+#	q&8V
+
+t	 	L	
+j"d
+V
+@
+OMJ`
+	6
+
+)	b
+RAHB1%		
+(]
+J
+
+zE'jJ	
+OP[
+b
+V8
+Zs	z
+FWax	
+l
+#	#9
+p
+(
+l
+*
+Z	 
+	b
+j
+
+
+gAp		
+
+GA\9 		6
+x		x
+!(M
+5	
+_8		
+'iLNA1r>]
+O0
++=
+
+/z
+Eqrd`Ph
+>
+.hF/{<K
+X
+l
+
+
+
+
+
+q
+^
+K
+8
+'
+
+								}	l	[	J	9	(	
+
+
+
+
+
+
+
+
+s
+`
+M
+:
+'
+
+	hktype:24
+	hktype:23
+	hktype:22
+	hktype:21
+	hktype:20
+	hktype:19
+!	hktype:251
+	hktype:18
+
+	hktype:55
+	hktype:54
+	hktype:53
+	hktype:52
+	hktype:51
+	hktype:50
+	hktype:49
+	hktype:48
+	hktype:47
+	hktype:46
+	hktype:45
+	hktype:44
+	hktype:43
+	hktype:42
+	hktype:41
+	hktype:40
+	hktype:39
+	hktype:38
+	hktype:37
+	hktype:36
+	hktype:35
+	hktype:34
+	hktype:33
+	hktype:32
+	hktype:31
+	hktype:30
+	hktype:29
+	hktype:28
+	hktype:27
+	hktype:26
+	hktype:25
+	hktype:18
+	hktype:15
+	hktype:14
+	hktype:13
+	hktype:12
+	hktype:10
+	hktype:9
+	hktype:8
+	hktype:7
+	hktype:5
+	hktype:4
+	hktype:3
+	hktype:2
+	hktype:1
+	hktype:0
+!	hktype:249
+!	hktype:100
+	hktype:75
+hktype:186
+	~hktype:70
+!	}hktype:100
+!
+
+hktype:101
+
+hktype:90
+
+hktype:90
+
+
+hktype:89
+
+	hktype:89
+	hktype:73
+	hktype:72
+	hktype:71
+	hktype:62
+	hktype:61
+	hktype:60
+	hktype:58
+	hktype:57
+	hktype:56
+M:'
+}jWD1
+
+
+
+
+
+
+
+
+s
+`
+M
+:
+'
+
+							|	i	V	C	0	
+	hkty	
+!
+fhktype:168
+!
+ehktype:167
+!
+dhktype:167
+!
+chktype:166
+!
+bhktype:166
+!
+ahktype:165
+!
+`hktype:165
+!
+_hktype:164
+!
+^hktype:164
+!
+]hktype:163
+!
+\hktype:163
+!
+[hktype:162
+!
+Zhktype:162
+!
+Yhktype:161
+!
+Xhktype:161
+!
+Whktype:160
+!
+Vhktype:160
+!
+Uhktype:159
+!
+Thktype:159
+!
+Shktype:158
+!
+Rhktype:158
+!
+Qhktype:157
+!
+Phktype:157
+!
+Ohktype:186
+!
+Nhktype:186
+!
+Mhktype:179
+!
+Lhktype:179
+
+Khktype:80
+
+Jhktype:80
+!
+Ihktype:113
+!
+Hhktype:113
+
+Ghktype:99
+
+Fhktype:99
+!
+Ehktype:193
+!
+Dhktype:193
+!
+Chktype:192
+!
+Bhktype:192
+!
+Ahktype:191
+!
+@hktype:191
+
+?hktype:96
+
+>hktype:96
+
+=hktype:95
+
+<hktype:95
+
+;hktype:97
+
+:hktype:97
+!
+9hktype:244
+!
+8hktype:244
+!
+7hktype:243
+!
+6hktype:243
+
+5hktype:92
+
+4hktype:92
+
+3hktype:91
+
+2hktype:91
+
+1hktype:70
+
+0hktype:70
+
+/hktype:79
+
+.hktype:79
+
+-hktype:63
+!
++hktype:145
+!
+*hktype:199
+!
+)hktype:199
+!
+(hktype:250
+!
+'hktype:250
+!
+&hktype:178
+!
+%hktype:178
+!
+$hktype:173
+!
+#hktype:173
+!
+"hktype:172
+!
+!hktype:172
+!
+ hktype:138`
+
+,hktype:63
+n
+@0
+{oO$"`f(	~
+
+_\5OJqR7	
+j
+IT
+B!tk	
+
+			
+	{
+E
+
+'rrrrrrrrrrrr
+#	A^,
+
+G
+
+A
+Z
+
+]
+Y
+gtpH
+
+
+]
+d
+k	
+
+wF
+
+		"
+"
+
+X=
+
+
+fa
+$k/
+
+ 
+N	
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceDownhillSnowSports]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminB6]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminB6]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminC]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminD]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryZinc]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryZinc]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryWater]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminC]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminE]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminD]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminK]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminE]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceCycling]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminK]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryWater]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceCycling]_CurrentValue_Summary
+g			
+#	4>Qu
+q
+	
+en_US+	
+en_US5
+#	.O
+4com.apple.health.Summaries[HKCategoryTypeIdentifierConstipation]_CurrentValue_Summary11
+en_US-$
+d4com.apple.health.Summaries[HKCategoryTypeIdentifierConstipation]_ChartModel_Summary11
+en_US/#
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierMoodChanges]_CurrentValue_Summary11
+com.apple.health.Summaries[HKCategoryTypeIdentifierMoodChanges]_ChartModel_Summary11
+en_US-!
+Ucom.apple.health.Summaries[HKCategoryTypeIdentifierPelvicPain]_CurrentValue_Summary11
+en_US+ 
+`com.apple.health.Summaries[HKCategoryTypeIdentifierPelvicPain]_ChartModel_Summary11
+m#com.apple.health.Summaries[HKCategoryTypeIdentifierLowerBackPain]_CurrentValue_Summary11
+en_US/
+com.apple.health.Summaries[HKCategoryTypeIdentifierLowerBackPain]_ChartModel_Summary11
+en_US'
+com.apple.health.Summaries[HKCategoryTypeIdentifierAcne]_CurrentValue_Summary11
+#	^3d 
+
+b	F	F	F	F	F	F	F	F	F	F
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPotassium]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPotassium]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietarySelenium]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryRiboflavin]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietarySodium]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietarySodium]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietarySugar]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietarySugar]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminA]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminA]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryProtein]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryProtein]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryThiamin]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietarySelenium]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryThiamin]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryRiboflavin]_ChartModel_Summary
+#	J>
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyMass]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyMassIndex]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyMass]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCalcium]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCarbohydrates]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyFatPercentage]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyMassIndex]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryBiotin]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCalcium]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryBiotin]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyTemperature]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCaffeine]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCaffeine]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierBodyTemperature]_CurrentValue_Summary
+#	KTC
+P	
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceWalkingRunning]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceWalkingRunning]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierFlightsClimbed]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierElectrodermalActivity]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierFlightsClimbed]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierElectrodermalActivity]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierForcedExpiratoryVolume1]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierForcedVitalCapacity]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierForcedVitalCapacity]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceSwimming]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierEnvironmentalAudioExposure]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierForcedExpiratoryVolume1]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierHeadphoneAudioExposure]_ChartModel_Summary
+
+#w
+com.apple.health.Summaries[HKQuantityTypeIdentifierEnvironmentalAudioExposure]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceWheelchair]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceWheelchair]_ChartModel_Summary
+#	`v
+com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceDownhillSnowSports]_ChartModel_Summary11
+en_US;b
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingHeartRateAverage]_CurrentValue_Summary11
+en_US=a
+
+gfcom.apple.health.Summaries[HKQuantityTypeIdentifierWalkingHeartRateAverage]_ChartModel_Summary11
+en_US3`
+
+ncom.apple.health.Summaries[HKQuantityTypeIdentifierInsulinDelivery]_CurrentValue_Summary11
+en_US1_
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierInsulinDelivery]_ChartModel_Summary11
+en_US9^
+
+YAv Ocom.apple.health.Summaries[HKCategoryTypeIdentifierLowCardioFitnessEvent]_CurrentValue_Summary11
+en_USb]
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierLowCardioFitnessEvent]_ChartModel_Summary11
+U|
+aeA!U|`A0"
+	U|
+aeA
+U|`A(
+en_US)\
+>?W#Tcom.apple.health.Summaries[HKQuantityTypeIdentifierVO2Max]_CurrentValue_Summary11
+F
+$
+^a
+		V
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFa
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFatTotal]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFatSaturated]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFatPolyunsaturated]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFatMonounsaturated]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFatPolyunsaturated]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFatSaturated]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCholesterol]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryEnergyConsumed]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryEnergyConsumed]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCholesterol]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFatMonounsaturated]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCopper]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryChloride]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryChromium]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryChromium]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCopper]_CurrentValue_Summary
+X{:Jy-com.apple.health.Summaries[HKQuantityTypeIdentifierBloodGlucose]_CurrentValue_Summary11
+en_US-c
+)\com.apple.health.Summaries[HKQuantityTypeIdentifierBloodGlucose]_ChartModel_Summary11
+en_US4b
+
+MR-[sOcom.apple.health.Summaries[HKQuantityTypeIdentifierOxygenSaturation]_CurrentValue_Summary11
+en_US2a
+
+ZvXcom.apple.health.Summaries[HKQuantityTypeIdentifierOxygenSaturation]_ChartModel_Summary11
+en_US+`
+com.apple.health.Summaries[HKQuantityTypeIdentifierNikeFuel]_CurrentValue_Summary11
+en_US-_
+2com.apple.health.Summaries[HKQuantityTypeIdentifierNikeFuel]_ChartModel_Summary11
+~Ocom.apple.health.Summaries[HKQuantityTypeIdentifierFlightsClimbed]_CurrentValue_Summary11
+-cwA
+#	aX
+orcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPotassium]_ChartModel_Summary11
+en_US32
+
+\@com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryChloride]_CurrentValue_Summary11
+en_US51
+
+*{PVcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryChloride]_ChartModel_Summary11
+en_US50
+
+u Ncom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryMolybdenum]_CurrentValue_Summary11
+en_US7/
+
+az\Mi./icom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryMolybdenum]_ChartModel_Summary11
+en_US3.
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryChromium]_CurrentValue_Summary11
+en_US5-
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryChromium]_ChartModel_Summary11
+en_US4,
+
+;2).GhM=com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryManganese]_CurrentValue_Summary11
+~I<com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryThiamin]_ChartModel_Summary11
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryIron]_CurrentValue_Summary11
+PI1bcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryIron]_ChartModel_Summary11
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCalcium]_CurrentValue_Summary11
+~k5com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryCalcium]_ChartModel_Summary11
+<w|com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminK]_CurrentValue_Summary11
+en_US5
+
+
+Lcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminK]_ChartModel_Summary11
+en_US3
+
+6com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminE]_CurrentValue_Summary11
+#	owz8
+
+vlbXND:0&
+
+
+
+
+
+
+
+
+
+
+
+
+
+~
+s
+h
+]
+R
+G
+<
+1
+&
+
+														w	m	c	Y	O	D	9	.	#	
+	5
+
+JUm<JIcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryMagnesium]_ChartModel_Summary11
+en_US1"
+
+,Zcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryIodine]_CurrentValue_Summary11
+en_US3!
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryIodine]_ChartModel_Summary11
+en_US5 
+
+]7com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPhosphorus]_CurrentValue_Summary11
+Decom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPhosphorus]_ChartModel_Summary11
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPantothenicAcid]_CurrentValue_Summary11
+en_US<
+HB	utCcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPantothenicAcid]_ChartModel_Summary11
+g2!M#)~Eqcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryBiotin]_CurrentValue_Summary11
+com.apple.health.Summaries[HKQuantityTypeIdentifierPeakExpiratoryFlowRate]_ChartModel_Summary11
+en_US;B
+
+lAPcom.apple.health.Summaries[HKQuantityTypeIdentifierForcedExpiratoryVolume1]_CurrentValue_Summary11
+en_US=A
+
+7aBcom.apple.health.Summaries[HKQuantityTypeIdentifierForcedExpiratoryVolume1]_ChartModel_Summary11
+en_US7@
+
+<Jw#Ycom.apple.health.Summaries[HKQuantityTypeIdentifierForcedVitalCapacity]_CurrentValue_Summary11
+en_US9?
+
+O#H1JQcom.apple.health.Summaries[HKQuantityTypeIdentifierForcedVitalCapacity]_ChartModel_Summary11
+en_US3>
+
+
+	#D3J)`com.apple.health.Summaries[HKQuantityTypeIdentifierBodyTemperature]_CurrentValue_Summary11
+en_US5=
+
+DgoRcom.apple.health.Summaries[HKQuantityTypeIdentifierBodyTemperature]_ChartModel_Summary11
+en_US3<
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierRespiratoryRate]_CurrentValue_Summary11
+#	0F
+)`jD*1[.Acom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminB6]_ChartModel_Summary11
+`ycom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminA]_CurrentValue_Summary11
+imSjF~]com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryVitaminA]_ChartModel_Summary11
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryProtein]_CurrentValue_Summary11
+C'com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryProtein]_ChartModel_Summary11
+en_US9~
+
+YScom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryEnergyConsumed]_CurrentValue_Summary11
+en_US;}
+
+Bcom.apple.health.Summaries[HKQuantityTypeIdentifierDietaryEnergyConsumed]_ChartModel_Summary11
+en_US0|
+
+Mcom.apple.health.Summaries[HKQuantityTypeIdentifierDietarySugar]_CurrentValue_Summary11
+en_US1{
+Rcom.apple.health.Summaries[HKQuantityTypeIdentifierDietarySugar]_ChartModel_Summary11
+en_US0z
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFiber]_CurrentValue_Summary11
+.A
+
+scom.apple.health.Summaries[HKQuantityTypeIdentifierWalkingSpeed]_CurrentValue_Summary11
+en_US2=
+AOuu %com.apple.health.Summaries[HKQuantityTypeIdentifierWalkingSpeed]_ChartModel_Summary11
+en_US6<
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierToothbrushingEvent]_CurrentValue_Summary11
+#	5iMj
+
+-
+
+
+
+V
+r
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFiber]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryIron]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryManganese]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryManganese]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryMagnesium]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryMagnesium]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryIodine]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryIodine]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPantothenicAcid]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryPantothenicAcid]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFolate]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryFolate]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryNiacin]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryNiacin]_ChartModel_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryIron]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryMolybdenum]_CurrentValue_Summary
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryMolybdenum]_ChartModel_Summary
+#	s
+
+ com.apple.health.Summaries[HKCategoryTypeIdentifierLossOfSmell]_CurrentValue_Summary11
+en_US,y
+9,-XD$	POvcom.apple.health.Summaries[HKCategoryTypeIdentifierLossOfSmell]_ChartModel_Summary11
+en_US7x
+
+en_US5w
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierGeneralizedBodyAche]_ChartModel_Summary11
+en_US/v
+
+%Mm3;com.apple.health.Summaries[HKCategoryTypeIdentifierMemoryLapse]_CurrentValue_Summary11
+en_US,u
+(Cjj^[com.apple.health.Summaries[HKCategoryTypeIdentifierMemoryLapse]_ChartModel_Summary11
+en_US7t
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierBladderIncontinence]_CurrentValue_Summary11
+en_US5s
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierBladderIncontinence]_ChartModel_Summary11
+en_US*r
+ }com.apple.health.Summaries[HKCategoryTypeIdentifierDrySkin]_CurrentValue_Summary11
+en_US(q
+Gcom.apple.health.Summaries[HKCategoryTypeIdentifierDrySkin]_ChartModel_Summary11
+en_US+p
+com.apple.health.Summaries[HKCategoryTypeIdentifierHairLoss]_CurrentValue_Summary11
+w3@c
+
+
+
+
+
+
+
+
+p
+^
+L
+:
+(
+
+								t	b	P	>	,	
+!
+ hktype:138
+#	*f
+$3
+N
+/=<~HnVmcom.apple.health.Summaries[HKCategoryTypeIdentifierAbdominalCramps]_ChartModel_Summary11
+Wi~com.apple.health.Summaries[HKQuantityTypeIdentifierAppleStandTime]_CurrentValue_Summary11
+y'4com.apple.health.Summaries[HKQuantityTypeIdentifierAppleStandTime]_ChartModel_Summary11
+iCs<~c;com.apple.health.Summaries[HKQuantityTypeIdentifierAppleMoveTime]_CurrentValue_Summary11
+](dcom.apple.health.Summaries[HKQuantityTypeIdentifierAppleMoveTime]_ChartModel_Summary11
+com.apple.health.Summaries[HKCorrelationTypeIdentifierBloodPressure]_CurrentValue_Summary11
+en_USv
+Wcom.apple.health.Summaries[HKCorrelationTypeIdentifierBloodPressure]_ChartModel_Summary11
+z	gregorian
+fbF`k'[>com.apple.health.Summaries[HKQuantityTypeIdentifierDistanceWheelchair]_CurrentValue_Summary11
+en_US8
+
+.L[cTcom.apple.health.Summaries[HKQuantityTypeIdentifierDistanceWheelchair]_ChartModel_Summary11
+en_US2
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierMindfulSession]_CurrentValue_Summary11
+f:w[V
+
+/com.apple.health.Summaries[HKCategoryTypeIdentifierAppleStandHour]_ChartModel_Summary11
+en_US"s
+Ckcom.apple.health.Summaries[HKWorkoutTypeIdentifier]_CurrentValue_Summary11
+en_US(r
+BAD com.apple.health.Summaries[HKWorkoutTypeIdentifier]_ChartModel_Summary11
+en_US1q
+
+ com.apple.health.Summaries[HKCategoryTypeIdentifierSleepAnalysis]_CurrentValue_Summary11
+en_US/p
+
+com.apple.health.Summaries[HKCategoryTypeIdentifierSleepAnalysis]_ChartModel_Summary11
+en_US(o
+com.apple.health.Summaries[HKDataTypeIdentifierAudiogram]_CurrentValue_Summary11
+en_US?n
+
+A=com.apple.health.Summaries[HKCategoryTypeIdentifierHeadphoneAudioExposureEvent]_CurrentValue_Summary11
+en_UShm
+
+DHwcom.apple.health.Summaries[HKCategoryTypeIdentifierHeadphoneAudioExposureEvent]_ChartModel_Summary11
+
+aeA!
+`A0"
+
+aeA
+en_US?l
+
+$com.apple.health.Summaries[HKCategoryTypeIdentifierAppleWalkingSteadinessEvent]_CurrentValue_Summary11
+zcom.apple.health.Summaries[HKQuantityTypeIdentifierDistanceSwimming]_ChartModel_Summary11
+en_US,R
+com.apple.health.Summaries[HKQuantityTypeIdentifierPushCount]_CurrentValue_Summary11
+en_US.Q
+VYcom.apple.health.Summaries[HKQuantityTypeIdentifierPushCount]_ChartModel_Summary11
+en_US8P
+
+x(6MNW/4Vv4(com.apple.health.Summaries[HKQuantityTypeIdentifierBasalBodyTemperature]_CurrentValue_Summary11
+en_US:O
+
+7ycom.apple.health.Summaries[HKQuantityTypeIdentifierBasalBodyTemperature]_ChartModel_Summary11
+en_US-N
+com.apple.health.Summaries[HKQuantityTypeIdentifierUVExposure]_CurrentValue_Summary11
+en_US/M
+com.apple.health.Summaries[HKQuantityTypeIdentifierUVExposure]_ChartModel_Summary11
+en_US0L
+
+com.apple.health.Summaries[HKQuantityTypeIdentifierDietaryWater]_CurrentValue_Summary11
+;c&S?
+
+m
+
+3	q
+_rdB
+
+
+
+'	+
+z																				
+Kcom.apple.health.Summaries[HKCategoryTypeIdentifierVomiting]_CurrentValue_Summary11
+en_US)Y
+:Scom.apple.health.Summaries[HKCategoryTypeIdentifierVomiting]_ChartModel_Summary11
+en_US(X
+8Dcom.apple.health.Summaries[HKCategoryTypeIdentifierFever]_CurrentValue_Summary11
+en_US&W
+7iucom.apple.health.Summaries[HKCategoryTypeIdentifierFever]_ChartModel_Summary11
+en_US,V
+Qcom.apple.health.Summaries[HKCategoryTypeIdentifierDizziness]_CurrentValue_Summary11
+en_US*U
+E;com.apple.health.Summaries[HKCategoryTypeIdentifierDizziness]_ChartModel_Summary11
+en_US+T
+en_US)S
+[com.apple.health.Summaries[HKCategoryTypeIdentifierFainting]_ChartModel_Summary11
